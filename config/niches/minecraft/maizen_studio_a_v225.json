@@ -1,0 +1,1023 @@
+{
+  "schema": "cine.minecraft.maizen_department_kickoff.v225",
+  "as_of": "2026-10-10",
+  "project_id": "MAI01_WATERFALL",
+  "priority": "ACTIVE_PRIMARY_RESEARCH_AND_DESK_PREPRO",
+  "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+  "franchise": "ORIGINAL_NOVA_AND_PIP",
+  "goal": "English original actual Minecraft session narrative, original hidden base adventure",
+  "pilot": {
+    "seconds": 45,
+    "shots": [
+      {
+        "id": "P01",
+        "start": 0,
+        "end": 5,
+        "action": "Wide third-person waterfall; a brief light flashes behind the falling water",
+        "dialogue": "Nova: Did you see that light?",
+        "location": "FOREST_RIVER_WATERFALL",
+        "camera": "EXTERIOR_WIDE",
+        "story_reason": "waterfall clue and gaze",
+        "dependency": "ORIGINAL_MAP_AND_CAMERA"
+      },
+      {
+        "id": "P02",
+        "start": 5,
+        "end": 10,
+        "action": "First-person player walks along the bank; a stone path ends at water",
+        "dialogue": "Pip: It came from behind the falls!",
+        "location": "RIVER_BANK",
+        "camera": "FIRST_PERSON_TRACK",
+        "story_reason": "footsteps and flowing water",
+        "dependency": "AUTHENTIC_MOVEMENT"
+      },
+      {
+        "id": "P03",
+        "start": 10,
+        "end": 15,
+        "action": "Third-person two-shot: Pip signals to wait as water splashes nearby",
+        "dialogue": "Nova: Keep your voice down.",
+        "location": "RIVER_BANK",
+        "camera": "THIRD_PERSON_TWO_SHOT",
+        "story_reason": "hand signal with staged second actor",
+        "dependency": "SECOND_ACTOR_REQUIRED"
+      },
+      {
+        "id": "P04",
+        "start": 15,
+        "end": 20,
+        "action": "First-person enters waterfall slowly; behind it a cave entrance appears",
+        "dialogue": "Pip: There's a tunnel!",
+        "location": "WATERFALL_BACK",
+        "camera": "FIRST_PERSON_REVEAL",
+        "story_reason": "waterfall passes camera, no fake teleport",
+        "dependency": "MAP_ENTRANCE_REQUIRES_BUILD"
+      },
+      {
+        "id": "P05",
+        "start": 20,
+        "end": 25,
+        "action": "Inside cave player places two torches to reveal carved marks",
+        "dialogue": "Nova: These marks are new.",
+        "location": "CAVE_ENTRANCE",
+        "camera": "OVER_SHOULDER_GAME_CAMERA",
+        "story_reason": "torch placement and light reveal",
+        "dependency": "REAL_GAME_BLOCK_INTERACTION"
+      },
+      {
+        "id": "P06",
+        "start": 25,
+        "end": 30,
+        "action": "A distant gravel fall warns something is moving ahead",
+        "dialogue": "Pip: We shouldn't stay here.",
+        "location": "CAVE_FORK",
+        "camera": "MEDIUM_GAME_REPLAY",
+        "story_reason": "environment hazard source and voice reaction",
+        "dependency": "STAGED_GAME_EVENT_REQUIRED"
+      },
+      {
+        "id": "P07",
+        "start": 30,
+        "end": 35,
+        "action": "Nova blocks exposed passage with newly placed blocks",
+        "dialogue": "Nova: Help me seal that opening!",
+        "location": "CAVE_FORK",
+        "camera": "THIRD_PERSON_ACTION",
+        "story_reason": "block placement matches held item",
+        "dependency": "SECOND_ACTOR_AND_REPLAY_REQUIRED"
+      },
+      {
+        "id": "P08",
+        "start": 35,
+        "end": 40,
+        "action": "Pip uncovers a map chest; insert on original hand-made map prop",
+        "dialogue": "Pip: Look! A map to the vault!",
+        "location": "SECRET_LEDGE",
+        "camera": "FIRST_PERSON_INSERT",
+        "story_reason": "chest interaction, item persists across shots",
+        "dependency": "CHEST_SETUP_REQUIRED"
+      },
+      {
+        "id": "P09",
+        "start": 40,
+        "end": 45,
+        "action": "The map shows an unknown symbol; an ominous sound echoes deeper",
+        "dialogue": "Nova: Then what is watching us?",
+        "location": "SECRET_LEDGE",
+        "camera": "TWO_SHOT_PULLBACK",
+        "story_reason": "cliffhanger is real gameplay capture with custom ambience",
+        "dependency": "REAL_CAPTURE_WITH_AUDIO_REQUIRED"
+      }
+    ],
+    "real_game_captured": false
+  },
+  "episode": {
+    "working_title": "We Found a Secret Base Behind a Waterfall",
+    "duration_seconds": 840,
+    "chapters": [
+      {
+        "id": "C1",
+        "start": 0,
+        "end": 50,
+        "name": "Cold open: waterfall flashes and a map sketch appears",
+        "story_purpose": "A measurable mystery, not a copied thumbnail/story"
+      },
+      {
+        "id": "C2",
+        "start": 50,
+        "end": 165,
+        "name": "Searching the river and building a safe route",
+        "story_purpose": "Progress and clues, environmental risk introduced"
+      },
+      {
+        "id": "C3",
+        "start": 165,
+        "end": 295,
+        "name": "Finding a passage and entering a forgotten tunnel",
+        "story_purpose": "Two actors confront risk; reveal first mechanical clue"
+      },
+      {
+        "id": "C4",
+        "start": 295,
+        "end": 445,
+        "name": "Building a hidden entrance, power and emergency exit",
+        "story_purpose": "Player actions and build steps, clear game physics"
+      },
+      {
+        "id": "C5",
+        "start": 445,
+        "end": 575,
+        "name": "Unexpected flood/threat forces retreat",
+        "story_purpose": "Consequence of first plan and meaningful stakes"
+      },
+      {
+        "id": "C6",
+        "start": 575,
+        "end": 715,
+        "name": "Retrieving the missing map and solving a symbol puzzle",
+        "story_purpose": "Hard-earned objective with new information"
+      },
+      {
+        "id": "C7",
+        "start": 715,
+        "end": 840,
+        "name": "Escape, secure the base and reveal the second passage",
+        "story_purpose": "Resolution + original next-episode hook"
+      }
+    ],
+    "actual_episode_video_exists": false
+  },
+  "all_26_departments": {
+    "STUDIO_MANAGEMENT": {
+      "deliverable": "charter",
+      "output": {
+        "project_id": "MAI01_WATERFALL",
+        "pilot_mode": "45S_REAL_GAME_CAPTURE",
+        "series_mode": "ORIGINAL_14_MIN_PILOT",
+        "audience": "English long-form Minecraft adventure, no copied Maizen characters",
+        "owner_approval": "NICHE_SELECTION_ONLY",
+        "paid_budget_usd": 0,
+        "release_authorized": false
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "INTELLIGENCE": {
+      "deliverable": "research_dossier",
+      "output": {
+        "primary_refs": [
+          "ZmT0ITUGUII",
+          "zhPBXzHsLuo",
+          "oX6Azwe5QLg"
+        ],
+        "direct_metadata_snapshot": "2026-10-10",
+        "channel_age_breakout_proven": false,
+        "full_footage_viewed": false,
+        "original_format_hypothesis": "longform objective > game progression > threat > reward",
+        "needed": "Full authorized video+sound notes and 8min weak controls"
+      },
+      "state": "PARTIAL_EVIDENCE"
+    },
+    "EVIDENCE": {
+      "deliverable": "evidence_backlog",
+      "output": {
+        "reference_ids": [
+          "ZmT0ITUGUII",
+          "zhPBXzHsLuo",
+          "oX6Azwe5QLg"
+        ],
+        "preview_mosaic_checked": [
+          "zhPBXzHsLuo",
+          "oX6Azwe5QLg"
+        ],
+        "full_original_video_audio_checked": false,
+        "observations": "gameplay HUD/crafting/chapter metadata only; cinematic camera/foley unverified",
+        "next": "timecoded full video with original audio only via authorized access"
+      },
+      "state": "PARTIAL_EVIDENCE"
+    },
+    "CREATIVE_STRATEGY": {
+      "deliverable": "format_dna",
+      "output": {
+        "promise": "Two original Minecraft friends discover hidden builds, follow mysteries, take real in-game risks",
+        "format": "STAGED_REAL_MINECRAFT_GAMEPLAY",
+        "audience": "English 8min+ viewers",
+        "character_contrast": "Nova = careful builder / Pip = impulsive explorer",
+        "prohibited": "JJ/Mikey likeness, copied plots, branded misrepresentation"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "PLANNING": {
+      "deliverable": "schedule",
+      "output": {
+        "pilot_45s": "BLOCKED until licensed game+two-actor capture+OBS configured",
+        "episode_840s": "BLOCKED until 45s QC and measured accepted seconds/hour",
+        "sequence": [
+          "G01/G02 evidence",
+          "G05 original charter",
+          "game license/runtime",
+          "world+actors",
+          "9-shot take test",
+          "audio/edit/QC",
+          "episode"
+        ],
+        "gpu_risk": "RTX3060 12GB shared with ComfyUI; avoid competing GPU workloads"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "WRITERS_ROOM": {
+      "deliverable": "script",
+      "output": {
+        "logline": "Nova and Pip find an impossible light behind a waterfall. The map they uncover points to a vault someone else is guarding.",
+        "hook": "A flash behind the falls",
+        "pilot_shots": [
+          {
+            "id": "P01",
+            "from": 0,
+            "to": 5,
+            "on_screen": "Wide third-person waterfall; a brief light flashes behind the falling water",
+            "dialogue": "Nova: Did you see that light?"
+          },
+          {
+            "id": "P02",
+            "from": 5,
+            "to": 10,
+            "on_screen": "First-person player walks along the bank; a stone path ends at water",
+            "dialogue": "Pip: It came from behind the falls!"
+          },
+          {
+            "id": "P03",
+            "from": 10,
+            "to": 15,
+            "on_screen": "Third-person two-shot: Pip signals to wait as water splashes nearby",
+            "dialogue": "Nova: Keep your voice down."
+          },
+          {
+            "id": "P04",
+            "from": 15,
+            "to": 20,
+            "on_screen": "First-person enters waterfall slowly; behind it a cave entrance appears",
+            "dialogue": "Pip: There's a tunnel!"
+          },
+          {
+            "id": "P05",
+            "from": 20,
+            "to": 25,
+            "on_screen": "Inside cave player places two torches to reveal carved marks",
+            "dialogue": "Nova: These marks are new."
+          },
+          {
+            "id": "P06",
+            "from": 25,
+            "to": 30,
+            "on_screen": "A distant gravel fall warns something is moving ahead",
+            "dialogue": "Pip: We shouldn't stay here."
+          },
+          {
+            "id": "P07",
+            "from": 30,
+            "to": 35,
+            "on_screen": "Nova blocks exposed passage with newly placed blocks",
+            "dialogue": "Nova: Help me seal that opening!"
+          },
+          {
+            "id": "P08",
+            "from": 35,
+            "to": 40,
+            "on_screen": "Pip uncovers a map chest; insert on original hand-made map prop",
+            "dialogue": "Pip: Look! A map to the vault!"
+          },
+          {
+            "id": "P09",
+            "from": 40,
+            "to": 45,
+            "on_screen": "The map shows an unknown symbol; an ominous sound echoes deeper",
+            "dialogue": "Nova: Then what is watching us?"
+          }
+        ],
+        "ending": "A second unexplained sound foreshadows threat, without copying Maizen script",
+        "originality": "ORIGINAL_PITCH_NEW_CHARACTERS"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "SCRIPT_LOGIC": {
+      "deliverable": "continuity",
+      "output": {
+        "world_locations": [
+          "FOREST_RIVER_WATERFALL",
+          "RIVER_BANK",
+          "WATERFALL_BACK",
+          "CAVE_ENTRANCE",
+          "CAVE_FORK",
+          "SECRET_LEDGE"
+        ],
+        "preconditions": [
+          "Players approach same waterfall from riverbank",
+          "Tunnel is behind water, not an unexplained teleport",
+          "Torches carried before entering",
+          "Two stone blocks present before sealing cave",
+          "Map in chest placed during map authoring"
+        ],
+        "open_issues": [
+          "Actor count and authentic in-game control",
+          "Exact Minecraft version/block mechanics",
+          "Gravel fall/sound cue reproducibility"
+        ]
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "DIRECTION": {
+      "deliverable": "shot_director_board",
+      "output": {
+        "pilot_duration_seconds": 45,
+        "language": "English",
+        "shot_count": 9,
+        "shots": [
+          {
+            "id": "P01",
+            "range": [
+              0,
+              5
+            ],
+            "action": "Wide third-person waterfall; a brief light flashes behind the falling water",
+            "camera": "EXTERIOR_WIDE",
+            "beat": "waterfall clue and gaze"
+          },
+          {
+            "id": "P02",
+            "range": [
+              5,
+              10
+            ],
+            "action": "First-person player walks along the bank; a stone path ends at water",
+            "camera": "FIRST_PERSON_TRACK",
+            "beat": "footsteps and flowing water"
+          },
+          {
+            "id": "P03",
+            "range": [
+              10,
+              15
+            ],
+            "action": "Third-person two-shot: Pip signals to wait as water splashes nearby",
+            "camera": "THIRD_PERSON_TWO_SHOT",
+            "beat": "hand signal with staged second actor"
+          },
+          {
+            "id": "P04",
+            "range": [
+              15,
+              20
+            ],
+            "action": "First-person enters waterfall slowly; behind it a cave entrance appears",
+            "camera": "FIRST_PERSON_REVEAL",
+            "beat": "waterfall passes camera, no fake teleport"
+          },
+          {
+            "id": "P05",
+            "range": [
+              20,
+              25
+            ],
+            "action": "Inside cave player places two torches to reveal carved marks",
+            "camera": "OVER_SHOULDER_GAME_CAMERA",
+            "beat": "torch placement and light reveal"
+          },
+          {
+            "id": "P06",
+            "range": [
+              25,
+              30
+            ],
+            "action": "A distant gravel fall warns something is moving ahead",
+            "camera": "MEDIUM_GAME_REPLAY",
+            "beat": "environment hazard source and voice reaction"
+          },
+          {
+            "id": "P07",
+            "range": [
+              30,
+              35
+            ],
+            "action": "Nova blocks exposed passage with newly placed blocks",
+            "camera": "THIRD_PERSON_ACTION",
+            "beat": "block placement matches held item"
+          },
+          {
+            "id": "P08",
+            "range": [
+              35,
+              40
+            ],
+            "action": "Pip uncovers a map chest; insert on original hand-made map prop",
+            "camera": "FIRST_PERSON_INSERT",
+            "beat": "chest interaction, item persists across shots"
+          },
+          {
+            "id": "P09",
+            "range": [
+              40,
+              45
+            ],
+            "action": "The map shows an unknown symbol; an ominous sound echoes deeper",
+            "camera": "TWO_SHOT_PULLBACK",
+            "beat": "cliffhanger is real gameplay capture with custom ambience"
+          }
+        ],
+        "creative_rule": "Every cut advances clue, physical action, stakes or reaction, no unrelated filler"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "PERFORMANCE": {
+      "deliverable": "actor_guide",
+      "output": {
+        "characters": [
+          {
+            "id": "NOVA",
+            "voice": "calm, lower-mid register",
+            "motivation": "protect Pip and solve the mystery",
+            "physical": "slow precise movements, points before acting"
+          },
+          {
+            "id": "PIP",
+            "voice": "energetic, higher register",
+            "motivation": "reveal secret quickly",
+            "physical": "fast head turns, nervous pauses"
+          }
+        ],
+        "voice_status": "UNRECORDED",
+        "actor_in_game_status": "SECOND_ACCOUNT_OR_BOT_UNVERIFIED",
+        "consented_voice_required": true
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "CINEMATOGRAPHY": {
+      "deliverable": "camera_sheet",
+      "output": {
+        "shot_camera_map": [
+          {
+            "shot": "P01",
+            "duration_s": 5,
+            "camera": "EXTERIOR_WIDE"
+          },
+          {
+            "shot": "P02",
+            "duration_s": 5,
+            "camera": "FIRST_PERSON_TRACK"
+          },
+          {
+            "shot": "P03",
+            "duration_s": 5,
+            "camera": "THIRD_PERSON_TWO_SHOT"
+          },
+          {
+            "shot": "P04",
+            "duration_s": 5,
+            "camera": "FIRST_PERSON_REVEAL"
+          },
+          {
+            "shot": "P05",
+            "duration_s": 5,
+            "camera": "OVER_SHOULDER_GAME_CAMERA"
+          },
+          {
+            "shot": "P06",
+            "duration_s": 5,
+            "camera": "MEDIUM_GAME_REPLAY"
+          },
+          {
+            "shot": "P07",
+            "duration_s": 5,
+            "camera": "THIRD_PERSON_ACTION"
+          },
+          {
+            "shot": "P08",
+            "duration_s": 5,
+            "camera": "FIRST_PERSON_INSERT"
+          },
+          {
+            "shot": "P09",
+            "duration_s": 5,
+            "camera": "TWO_SHOT_PULLBACK"
+          }
+        ],
+        "targets": [
+          "1920x1080 progressive",
+          "24 or 30 fps per original QC",
+          "Safe in-game HUD composition and intentional third-person cinematic replay angles"
+        ],
+        "blocker": "ReplayMod/Flashback not installed or proven on pinned game version"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "PRODUCTION_DESIGN": {
+      "deliverable": "world_kit",
+      "output": {
+        "biome": "Original river forest with waterfall and hand-built cavern",
+        "modules": [
+          "waterfall basin",
+          "riverbank marker",
+          "hidden cave entrance",
+          "fork with falling-gravel effect",
+          "ledge with puzzle chest",
+          "escape cover"
+        ],
+        "build_guideline": "Only use original authored or legitimately licensed game assets/worlds",
+        "world_save_status": "NOT_CREATED"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "ASSETS": {
+      "deliverable": "asset_manifest",
+      "output": {
+        "original_actors": [
+          {
+            "id": "NOVA",
+            "skin_id": "CF_NOVA_V1",
+            "status": "DESIGN_REQUIRED"
+          },
+          {
+            "id": "PIP",
+            "skin_id": "CF_PIP_V1",
+            "status": "DESIGN_REQUIRED"
+          }
+        ],
+        "props": [
+          "TORCH_X2",
+          "STONE_BLOCK_X2",
+          "ORIGINAL_MAP_ITEM",
+          "SINGLE_CHEST",
+          "CUSTOM_SYMBOL_PLACEHOLDER"
+        ],
+        "rights": [
+          "Minecraft guidelines require separate review for monetization",
+          "No Maizen skins/logo/asset import"
+        ]
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "TECHNICAL_DIRECTION": {
+      "deliverable": "runtime_arch",
+      "output": {
+        "source_truth": "OWNED_REAL_MINECRAFT_GAME_SESSION",
+        "game": "Minecraft Java legally licensed, version pinned after installation",
+        "camera": "one of ReplayMod or Flashback for staged cinematic shots",
+        "capture": "OBS Studio 32.1.2 installed but not running/websocket not listening",
+        "editing": "FFmpeg available, CineFactory local post",
+        "optional_bot": "Mineflayer actor control sandbox if permitted by game server; no auto-inference installs",
+        "blender": "Not used to counterfeit first-person gameplay",
+        "status": "RUNTIME_NOT_VERIFIED"
+      },
+      "state": "BLOCKED_EXTERNAL_DEPENDENCY"
+    },
+    "PRODUCTION": {
+      "deliverable": "take_list",
+      "output": {
+        "shots": [
+          {
+            "id": "P01",
+            "location": "FOREST_RIVER_WATERFALL",
+            "capture_type": "EXTERIOR_WIDE",
+            "precondition": "ORIGINAL_MAP_AND_CAMERA",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P02",
+            "location": "RIVER_BANK",
+            "capture_type": "FIRST_PERSON_TRACK",
+            "precondition": "AUTHENTIC_MOVEMENT",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P03",
+            "location": "RIVER_BANK",
+            "capture_type": "THIRD_PERSON_TWO_SHOT",
+            "precondition": "SECOND_ACTOR_REQUIRED",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P04",
+            "location": "WATERFALL_BACK",
+            "capture_type": "FIRST_PERSON_REVEAL",
+            "precondition": "MAP_ENTRANCE_REQUIRES_BUILD",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P05",
+            "location": "CAVE_ENTRANCE",
+            "capture_type": "OVER_SHOULDER_GAME_CAMERA",
+            "precondition": "REAL_GAME_BLOCK_INTERACTION",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P06",
+            "location": "CAVE_FORK",
+            "capture_type": "MEDIUM_GAME_REPLAY",
+            "precondition": "STAGED_GAME_EVENT_REQUIRED",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P07",
+            "location": "CAVE_FORK",
+            "capture_type": "THIRD_PERSON_ACTION",
+            "precondition": "SECOND_ACTOR_AND_REPLAY_REQUIRED",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P08",
+            "location": "SECRET_LEDGE",
+            "capture_type": "FIRST_PERSON_INSERT",
+            "precondition": "CHEST_SETUP_REQUIRED",
+            "captured": false,
+            "media_receipt": null
+          },
+          {
+            "id": "P09",
+            "location": "SECRET_LEDGE",
+            "capture_type": "TWO_SHOT_PULLBACK",
+            "precondition": "REAL_CAPTURE_WITH_AUDIO_REQUIRED",
+            "captured": false,
+            "media_receipt": null
+          }
+        ],
+        "raw_video_exists": false,
+        "raw_audio_exists": false,
+        "blocked_reason": "Minecraft Java runtime, world and second actor/camera not validated"
+      },
+      "state": "BLOCKED_EXTERNAL_DEPENDENCY"
+    },
+    "GENERATIVE_MEDIA": {
+      "deliverable": "ai_scope",
+      "output": {
+        "ai_optional": [
+          "original episode concept thumbnails",
+          "script brainstorming",
+          "editorial graphic overlays"
+        ],
+        "ai_excluded": [
+          "fabricated game-footage claimed as actual session",
+          "auto-generated copied JJ/Mikey likeness"
+        ],
+        "comfyui_local_read_only": true,
+        "cloud_spend_authorized": false
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "VFX": {
+      "deliverable": "effects_plan",
+      "output": {
+        "effects": [
+          "waterfall atmospheric splashes",
+          "torch lighting changes",
+          "gravel rumble without destructive uncontrolled world events",
+          "map glowing hint only as honest editorial graphic"
+        ],
+        "in_game_effects_vs_editor_overlay": "Must label origin per take; avoid impossible footage misrepresentation"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "EDITORIAL": {
+      "deliverable": "edl_draft",
+      "output": {
+        "pilot_seconds": 45,
+        "shot_sequence": [
+          {
+            "shot": "P01",
+            "start": 0,
+            "end": 5
+          },
+          {
+            "shot": "P02",
+            "start": 5,
+            "end": 10
+          },
+          {
+            "shot": "P03",
+            "start": 10,
+            "end": 15
+          },
+          {
+            "shot": "P04",
+            "start": 15,
+            "end": 20
+          },
+          {
+            "shot": "P05",
+            "start": 20,
+            "end": 25
+          },
+          {
+            "shot": "P06",
+            "start": 25,
+            "end": 30
+          },
+          {
+            "shot": "P07",
+            "start": 30,
+            "end": 35
+          },
+          {
+            "shot": "P08",
+            "start": 35,
+            "end": 40
+          },
+          {
+            "shot": "P09",
+            "start": 40,
+            "end": 45
+          }
+        ],
+        "episode_chapter_plan": [
+          {
+            "id": "C1",
+            "start": 0,
+            "end": 50,
+            "title": "Cold open: waterfall flashes and a map sketch appears"
+          },
+          {
+            "id": "C2",
+            "start": 50,
+            "end": 165,
+            "title": "Searching the river and building a safe route"
+          },
+          {
+            "id": "C3",
+            "start": 165,
+            "end": 295,
+            "title": "Finding a passage and entering a forgotten tunnel"
+          },
+          {
+            "id": "C4",
+            "start": 295,
+            "end": 445,
+            "title": "Building a hidden entrance, power and emergency exit"
+          },
+          {
+            "id": "C5",
+            "start": 445,
+            "end": 575,
+            "title": "Unexpected flood/threat forces retreat"
+          },
+          {
+            "id": "C6",
+            "start": 575,
+            "end": 715,
+            "title": "Retrieving the missing map and solving a symbol puzzle"
+          },
+          {
+            "id": "C7",
+            "start": 715,
+            "end": 840,
+            "title": "Escape, secure the base and reveal the second passage"
+          }
+        ],
+        "export": "1920x1080 H264/AAC review output only after valid game footage",
+        "current_master_exists": false
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "AUDIO": {
+      "deliverable": "sound_cue_sheet",
+      "output": {
+        "dialogue_spots": [
+          {
+            "shot": "P01",
+            "text": "Nova: Did you see that light?"
+          },
+          {
+            "shot": "P02",
+            "text": "Pip: It came from behind the falls!"
+          },
+          {
+            "shot": "P03",
+            "text": "Nova: Keep your voice down."
+          },
+          {
+            "shot": "P04",
+            "text": "Pip: There's a tunnel!"
+          },
+          {
+            "shot": "P05",
+            "text": "Nova: These marks are new."
+          },
+          {
+            "shot": "P06",
+            "text": "Pip: We shouldn't stay here."
+          },
+          {
+            "shot": "P07",
+            "text": "Nova: Help me seal that opening!"
+          },
+          {
+            "shot": "P08",
+            "text": "Pip: Look! A map to the vault!"
+          },
+          {
+            "shot": "P09",
+            "text": "Nova: Then what is watching us?"
+          }
+        ],
+        "foley": [
+          "river ambience stereo",
+          "wet footsteps at riverbank",
+          "torch placement",
+          "block placement",
+          "chest opening",
+          "low rumble at cliffhanger"
+        ],
+        "music": "ORIGINAL_OR_LICENSE_CLEARED",
+        "mix_requirements": [
+          "dialogue intelligibility",
+          "no clipping",
+          "sync checked against actual capture",
+          "copyright checked"
+        ],
+        "recorded_voice_exists": false
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "COLOR": {
+      "deliverable": "sdr_look",
+      "output": {
+        "look": "Natural daylight river, warm torch cave, cooler mystery reveal",
+        "rules": [
+          "Keep in-game image natural, no fake realism swap",
+          "Avoid crushed shadow detail in caves",
+          "Check color across first-person and replay footage"
+        ],
+        "review_status": "PENDING_ACTUAL_FOOTAGE"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "QC": {
+      "deliverable": "hard_gates",
+      "output": {
+        "must_pass": [
+          "licensed game+verifiable real session source",
+          "two actors or valid alternative evidenced",
+          "all nine original 45s shots actually captured",
+          "video playable 1080p>=24fps",
+          "English voice/foley sync and rights",
+          "logical cross-shot inventory/location/camera",
+          "separate independent full video+sound review",
+          "hash and accepted seconds/hour receipt"
+        ],
+        "blocked": true,
+        "unverified_movie_pass": false
+      },
+      "state": "BLOCKED_EXTERNAL_DEPENDENCY"
+    },
+    "RIGHTS": {
+      "deliverable": "rights_screen",
+      "output": {
+        "sources": [
+          "https://www.minecraft.net/en-us/usage-guidelines",
+          "https://support.google.com/youtube/answer/1311392"
+        ],
+        "game_license_unverified": true,
+        "video_rights_unverified": true,
+        "voice_music_skin_rights_not_yet_signed": true,
+        "maizen_brand_and_character_reuse_denied": true,
+        "no_auto_publish": true
+      },
+      "state": "PARTIAL_EVIDENCE"
+    },
+    "PACKAGING": {
+      "deliverable": "creative_package",
+      "output": {
+        "working_title": "We Found a Secret Passage Behind a Waterfall in Minecraft!",
+        "thumbnail_concept": "Two original actors point toward a glowing doorway behind real Minecraft waterfall; single clear visual question",
+        "description": "Original staged Minecraft adventure with Nova & Pip, not affiliated with Maizen",
+        "thumbnail_rendered": false
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "ANALYTICS": {
+      "deliverable": "measurement_plan",
+      "output": {
+        "first_14_days": [
+          "views at publish+24h",
+          "views at day 7/day14",
+          "impressions and CTR for own channel if available",
+          "average view duration",
+          "retention drop by chapter",
+          "RPM only after monetization"
+        ],
+        "competitor_14day_velocity_unverified": true,
+        "forecast_revenue_claim": false
+      },
+      "state": "PARTIAL_EVIDENCE"
+    },
+    "RND": {
+      "deliverable": "pilot_bakeoff",
+      "output": {
+        "candidate_stack": [
+          {
+            "candidate": "Native Minecraft Java + Fabric + ReplayMod OR Flashback",
+            "rank": "P0_TEST",
+            "status": "NOT_INSTALLED"
+          },
+          {
+            "candidate": "OBS Studio 32.1.2 + FFmpeg",
+            "rank": "P0_AVAILABLE_PARTIAL",
+            "status": "OBS_INSTALLED_NOT_RUNNING"
+          },
+          {
+            "candidate": "Mineflayer + mineflayer-pathfinder for second actor",
+            "rank": "P1_OPTIONAL",
+            "status": "UNINSTALLED_AND_UNBENCHMARKED"
+          }
+        ],
+        "test": [
+          "single-player 10s real capture",
+          "camera movement+world event repeatability",
+          "two-character 45s pilot with rights",
+          "accepted second/hour"
+        ],
+        "cloud_budget_usd": 0
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "RD_KNOWLEDGE": {
+      "deliverable": "skills_baseline",
+      "output": {
+        "rules": [
+          "PUBLIC_METADATA != FULL_FILM_OBSERVED",
+          "OBS_INSTALLED != RECORDING_READY",
+          "GAME_MISSING != LICENSE_DENIED",
+          "STAGED_GAMEPLAY != FULLY_AUTHORED_3D_RENDER",
+          "NO_PARTNER_CREDITS_WITHOUT_APPROVAL"
+        ],
+        "feedback_trigger": "Only update production rules from actual QC and source evidence"
+      },
+      "state": "DRAFT_CREATED"
+    },
+    "OPERATIONS": {
+      "deliverable": "machine_audit",
+      "output": {
+        "observed": "2026-10-10",
+        "obs_path": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
+        "obs_version": "32.1.2",
+        "obs_websocket_4455_listening": false,
+        "ffmpeg_path": "C:\\Users\\ADMIN\\ffmpeg\\bin\\ffmpeg.exe",
+        "node_on_path": true,
+        "minecraft_java_profile_default_exists": false,
+        "minecraft_launcher_path_found": false,
+        "minecraft_appx_found": false,
+        "java_on_path": false,
+        "obs_started_by_company": false,
+        "installation_or_game_launch_authorized": false
+      },
+      "state": "PARTIAL_EVIDENCE"
+    }
+  },
+  "auth": {
+    "owner_selected_maizen_style": true,
+    "game_or_software_purchase": false,
+    "paid_cloud_call": false,
+    "download_or_install": false,
+    "release": false,
+    "auto_approve_claude_project_mcp": false
+  },
+  "research": {
+    "reference_evidence": "config/niches/minecraft/g01_g02_public_evidence_v224.json",
+    "full_reference_audio_viewed": false,
+    "early_channel_breakout_14d_proven": false
+  },
+  "critical_dependencies": [
+    "MINECRAFT_LICENSE_AND_INSTALLED_RUNTIME",
+    "JAVA_AND_GAME_VERSION_COMPATIBILITY",
+    "ORIGINAL_WORLD_CREATED",
+    "TWO_ORIGINAL_ACTORS_OR_VERIFIED_BOT",
+    "CAMERA_REPLAY_TOOL_SELECTED_AND_TESTED",
+    "OBS_AUDIO_AND_CAPTURE_VERIFIED",
+    "45S_REAL_GAMEPLAY_QC_PASS"
+  ],
+  "deferred": "NO_RENDER_CAPTURE_MINECRAFT_RUNTIME_AVAILABLE"
+}

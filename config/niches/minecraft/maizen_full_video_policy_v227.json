@@ -1,0 +1,123 @@
+{
+  "schema": "cine.minecraft.maizen_full_video_first.v227",
+  "project_id": "MAI01_WATERFALL",
+  "policy_status": "MANDATORY_FAIL_CLOSED",
+  "version_date": "2026-10-11",
+  "rules": {
+    "must_watch_every_selected_reference_from_start_to_end": true,
+    "must_hear_every_selected_original_audio_track": true,
+    "must_verify_original_local_av_source": true,
+    "require_contiguous_visual_and_audio_coverage": true,
+    "max_segment_seconds": 30,
+    "require_every_segment_specific_observed_visual_audio": true,
+    "require_video_frame_decode": true,
+    "require_audio_decode": true,
+    "requires_independent_evidence_audit": true,
+    "minimum_required_reference_videos": 3,
+    "allow_thumbnail_transcript_metadata_to_replace_av": false,
+    "allow_10_second_excerpt_to_replace_full_video": false,
+    "allow_early_method_conclusion": false,
+    "allow_precise_renderer_claim_from_visuals_alone": false,
+    "allow_script_room_production_design_character_technical_audio_editorial_qc_promotions_before_gate": false,
+    "no_paid_credits_without_approval": true,
+    "no_unauthorized_download": true
+  },
+  "required_references": [
+    {
+      "video_id": "ZmT0ITUGUII",
+      "channel": "Maizen",
+      "title": "Mikey and JJ Choose the Right Hole in Minecraft",
+      "duration_seconds": 1684,
+      "why": "2026 long-form choice challenge"
+    },
+    {
+      "video_id": "zhPBXzHsLuo",
+      "channel": "Maizen",
+      "title": "Built a House inside BED in Minecraft",
+      "duration_seconds": 1117,
+      "why": "2025 staged hidden-base adventure"
+    },
+    {
+      "video_id": "oX6Azwe5QLg",
+      "channel": "Maizen",
+      "title": "Minecraft, But Item Drops Are Multiplied Every Time!!",
+      "duration_seconds": 1031,
+      "why": "2026 long-form progression challenge"
+    }
+  ],
+  "review_storage": {
+    "video_directory": "data/research/maizen_source_media",
+    "report_directory": "data/verification/v227_maizen_full_video_reports",
+    "retain_competitor_media_in_git": false,
+    "required_file_types": [
+      "locally accessible full movie with original audio",
+      "timecoded full watch notes",
+      "full media decode/probe receipt and SHA256"
+    ],
+    "copyright_rule": "Keep licensed/authorized source access, avoid redistributing reference footage or uploading to paid third-party services"
+  },
+  "evidence_requirements": {
+    "per_interval_fields": [
+      "start_seconds",
+      "end_seconds",
+      "visual_observation",
+      "audio_observation",
+      "dialogue_or_speech_summary",
+      "acting_and_movement",
+      "camera_and_edit",
+      "scene_or_world",
+      "source_workflow_hypotheses",
+      "uncertainties"
+    ],
+    "video_level_fields": [
+      "video_id",
+      "source_url",
+      "media_path",
+      "media_sha256",
+      "observed_duration_seconds",
+      "watch_provenance",
+      "viewer_attestation",
+      "independent_reviewer_attestation",
+      "intervals",
+      "visual_full_watch",
+      "audio_full_watch",
+      "decode_full_video",
+      "decode_full_audio"
+    ],
+    "audio_required_even_if_no_speech": true,
+    "allowed_workflow_certainty": [
+      "OBSERVED_GAME_UI",
+      "OBSERVED_EXTERNAL_CAMERA",
+      "HYPOTHESIS_STAGED_GAME",
+      "HYPOTHESIS_OFFLINE_3D",
+      "UNKNOWN"
+    ],
+    "video_analysis_output": [
+      "opening hook every beat",
+      "chronological story goals and new stakes",
+      "chapter and scene map",
+      "visual camera and movement patterns",
+      "facial/gesture/body acting",
+      "scene/world design and props",
+      "dialogue/SFX/music and pace",
+      "editing/transition/perceived rhythm",
+      "workflow hypotheses explicitly distinguished from verified tool attribution",
+      "potential original replicable approach and copyright risk"
+    ],
+    "verified_vendor_technology_requires": "Explicit first-party behind-the-scenes/project files/interviews/author statements; do not infer from images alone"
+  },
+  "downstream_allowed_only_after_verified_full_watch": [
+    "G03_COMPETITOR_PRODUCTION_DECONSTRUCTION",
+    "G04_MAIZEN_FORMAT_SELECTION",
+    "G05_CREATIVE_GREENLIGHT",
+    "G06_SCRIPT_ROOM_SERIES_RECIPE",
+    "G08_DIRECTOR_STYLE_SELECTION",
+    "G09_PRODUCTION_DESIGN_METHOD",
+    "G10_CHARACTER_ACTING_TECHNIQUE",
+    "G13_TECHNICAL_DIRECTOR_BACKEND",
+    "G20_AUDIO_EDITORIAL_STYLE",
+    "G23_FINAL_QC_OF_METHOD_BASED_WORKFLOW"
+  ],
+  "initial_state": "ALL_REQUIRED_FULL_WATCH_REPORTS_MISSING",
+  "no_production_execution_or_publishing_authorized": true
+}

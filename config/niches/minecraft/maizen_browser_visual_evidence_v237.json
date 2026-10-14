@@ -1,0 +1,127 @@
+{
+  "schema": "cine.minecraft.maizen_real_browser_visual_evidence.v237",
+  "video_id": "ZmT0ITUGUII",
+  "source_url": "https://www.youtube.com/watch?v=ZmT0ITUGUII",
+  "title": "Mikey and JJ Choose the Right Hole in Minecraft",
+  "date": "2026-10-11",
+  "provenance": "Actual original YouTube Chrome Playwright playback via Windows Remote Desktop Commander. Browser playback segments with source timecodes, sparse real screenshot samples and audio energy. Story insights checked against actual frame contact sheets; parts cross-checked against vidIQ third-party report.",
+  "source_duration_seconds": 1684.461,
+  "capture": {
+    "chrome_playback_timeline_covered": true,
+    "playback_segments": 45,
+    "confirmed_end_time": 1684.461,
+    "scripted_browser_playback_rate": 2,
+    "gaps_greater_than_0_7s": 0,
+    "audited_sampled_frames": 153,
+    "contact_visual_pages_reviewed": 8,
+    "measured_audio_rms_samples": 355,
+    "nonzero_audio_rms_samples": 349,
+    "raw_full_video_file_available": false,
+    "native_audio_recording_available": false,
+    "complete_audio_speech_and_sfx_semantically_analyzed": false,
+    "independent_full_audio_qc": false,
+    "full_30s_window_scene_qc": false,
+    "research_gate_v227_passed": false,
+    "other_required_maizen_videos_reviewed": 0,
+    "evidence_directory_local_ignored": ".tools/maizen_browser_segmented_v235*, .tools/maizen_visual_pages_v237",
+    "audit_local_file_ignored": ".tools/maizen_browser_full_source_audit_v236.json"
+  },
+  "scene_timeline": [
+    {
+      "from": 0,
+      "to": 215,
+      "phase": "A/B reveal 1",
+      "observed": "Two oversized red TNT and turquoise diamond chute models; Minecraft hotbar/HUD; inventory and TNT-generated crater/chests; diamond-room small attacking mobs; some 3rd-person actor shots and English text graphics",
+      "mechanism": "Deliberately reverse safety expectations; immediate reward reveal + loser punishment",
+      "hypothesis": "Custom Minecraft staged map, effects/creatures and gameplay camera; exact mods unverified"
+    },
+    {
+      "from": 216,
+      "to": 425,
+      "phase": "A/B reveal 2",
+      "observed": "Magma/lava and water-side adjacent lanes; parkour wooden platforms; boats from a chest; actor visible across partition; HUD and red/green English caption overlays",
+      "mechanism": "Same objective with unequal affordances; audience compares progress side by side",
+      "hypothesis": "World build/level design; camera/edit actual method unknown"
+    },
+    {
+      "from": 426,
+      "to": 623,
+      "phase": "A/B reveal 3",
+      "observed": "Two giant green/orange chutes, honey-colored and slime-green rooms with item/key search; bee swarm; narration-like English onscreen statements",
+      "mechanism": "Key hunt, bait bottle, mob surprise and escape",
+      "hypothesis": "Staged trigger for swarm, actual command/mod unknown"
+    },
+    {
+      "from": 624,
+      "to": 763,
+      "phase": "A/B reveal 4",
+      "observed": "Minimal black-white 5 vs 6 selection; stone brick arena with glass, lever/trigger, moving boulders/mobs; big red prompt 'Defeat the opponent!'",
+      "mechanism": "Audience-solvable 3+2 question with visually immediate punishment",
+      "hypothesis": "Controlled game stage and editor text overlays likely; renderer unspecified"
+    },
+    {
+      "from": 764,
+      "to": 929,
+      "phase": "A/B reveal 5",
+      "observed": "Silverfish vs Mutant Zombie labels, green/grey rooms, tiny hostile entity near door, gray swarming entities and dust-like effect, actor reaction",
+      "mechanism": "Scale inversion and deliberate safety misjudgment",
+      "hypothesis": "Custom entities/scale changes; specific named mod unsupported"
+    },
+    {
+      "from": 930,
+      "to": 1080,
+      "phase": "A/B reveal 6",
+      "observed": "Phone-platform signs Android/iPhone; white phone showroom with item frames and branded-product-look props; green mascot swarm; actor interaction and voice caption",
+      "mechanism": "Novel familiar-world contrast and surprise threat; IP/brand license caution",
+      "hypothesis": "Game custom props/entities or post production; no verified exact item or rig origin"
+    },
+    {
+      "from": 1081,
+      "to": 1205,
+      "phase": "Final round—loot",
+      "observed": "Danger/SAFE differently colored pipes; heavily-equipped chest vs sparse chest, visible hotbar gear changes, white divider in stage",
+      "mechanism": "Asymmetric supplies foreshadow differing survival odds",
+      "hypothesis": "Directed item inventory setup in Minecraft-like runtime"
+    },
+    {
+      "from": 1206,
+      "to": 1479,
+      "phase": "Final round—build",
+      "observed": "Large blue/cloud-painted rectangular stadium, central split, timer top right first ~15min declining to seconds in about four real video minutes; white bunker, roof mechanism, red laser perimeter, wire/redstone, lava preparations; other side dirt hut and massive cobweb field",
+      "mechanism": "Time-compressed construction montage raises anticipation, preparation visibly precedes threat, two base quality contrasts",
+      "hypothesis": "Scene timing may be time-lapse jump cuts / game timer overlay; exact clock backend unproven"
+    },
+    {
+      "from": 1480,
+      "to": 1670,
+      "phase": "Final round—boss",
+      "observed": "Tall thin black long-armed creature enters from arena gate, moves over cobweb field and towards dirt hut, then appears at laser and lava defense pit; boss disappears before finale; screenshot frames show real camera and game HUD",
+      "mechanism": "Delayed payoff: danger escalates first against weak defense and then tests strong defense",
+      "hypothesis": "Custom animated boss/game entity, turrets/laser FX, compositing possibility; exact mods not verified"
+    },
+    {
+      "from": 1671,
+      "to": 1684.461,
+      "phase": "Brand outro",
+      "observed": "2D green animated graphic with Maizen mascots, social handles, next-video link/CTA, distinct from voxel game render",
+      "mechanism": "Channel brand/CTA and audience recirculation",
+      "hypothesis": "Editor end-card overlaid or spliced; actual software not known"
+    }
+  ],
+  "round_count": 7,
+  "notes": [
+    "Actual screenshot contact pages 1-8 show consistent Minecraft HUD first-person and occasional third-person perspectives, different parallel constructed stages and custom visible models. This strongly suggests in-game-style staging but does not attribute proprietary tools/software.",
+    "Baked visible English color-coded subtitles are prominent, but native voice interpretation, precise speech timing, music editing and Foley are NOT independently verified.",
+    "A '15-minute' countdown in the final room changes from ~14:51 at 20:34 to ~00:21 at 24:22, strong evidence storytime is condensed by edit or accelerated timer. Exact technique not verified.",
+    "Unverified third-party named mod details (Techguns, Custom Security, cartoon cat package, Forge/Fabric) are hypotheses only.",
+    "No JJ/Mikey skins, Maizen graphics, branded Android/iPhone product look or Cartoon Cat copyright properties should be copied into CineFactory original video."
+  ],
+  "assessment": {
+    "source_visual_story_arcs_quality": "SAMPLED_ORIGINAL_MOVING_VIDEO_PLAYBACK_AND_SCREENSHOTS_ACROSS_ALL_ROUNDS",
+    "audio_story_quality": "ACOUSTIC_SIGNAL_DETECTED_BUT_LINGUISTIC_AUDIO_NOT_REVIEWED",
+    "exact_technology_quality": "NOT_VERIFIED",
+    "full_maizen_company_cohort_quality": "BLOCKED_2_OTHER_SOURCE_VIDEOS_AND_STRICT_AV_QC",
+    "next": "Complete actual source audio semantic analysis and independent QC; review the 2 remaining 17-19min Maizen films equally; only then allow G03+ production method conclusions."
+  },
+  "no_auto_production_promotions": true
+}

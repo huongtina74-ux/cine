@@ -1,0 +1,4 @@
+reactions:
+  - {rule_id: impact_recoil, trigger: impact, clip_ids: [flinch, shock_recoil], expression_ids: [surprised, terrified], min_delay_ms: 80, max_delay_ms: 240, min_intensity: 0.45, max_intensity: 0.9}
+  - {rule_id: reveal_surprise, trigger: reveal, clip_ids: [shock_recoil, turn_head], expression_ids: [surprised, confused], min_delay_ms: 120, max_delay_ms: 320, min_intensity: 0.35, max_intensity: 0.85}
+  - {rule_id: accusation_react, trigger: accusation, clip_ids: [turn_head, flinch], expression_ids: [confused, angry, surprised], min_delay_ms: 100, max_delay_ms: 300, min_intensity: 0.3, max_intensity: 0.75}

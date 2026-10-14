@@ -1,0 +1,33 @@
+__pycache__/
+.pytest_cache/
+.pytest-*v162*/
+.pytest-temp-v162/
+.venv/
+data/
+*.pyc
+.env
+
+# Local Blender/FFmpeg/render validation artifacts
+*.blend1
+*.blend2
+*.blend3
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.wav
+*.flac
+*.ffmeta
+*.concat.txt
+*.events.json
+*.blender-job.json
+*.log
+render_frames/
+renders/
+cache/
+.tools/
+.cfcache/
+.cflab/
+
+# Local Adobe bridge secrets/config
+integrations/adobe/**/bridge-config.local.js

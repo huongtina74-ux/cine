@@ -1,0 +1,502 @@
+{
+  "schema": "cine.minecraft.maizen_original_preproduction.v243",
+  "project_id": "MAI01_WATERFALL",
+  "reference_video_id": "ZmT0ITUGUII",
+  "reference_source_status": "ONE_FILM_ORIGINAL_BROWSER_VIDEO_TIMELINE_AND_OFFLINE_ASR_RESEARCHED_NOT_ALL_SOURCES_INDEPENDENTLY_QC_APPROVED",
+  "source_evidence": "config/niches/minecraft/maizen_original_browser_audio_evidence_v242.json",
+  "original_working_title": "Nova & Pip — The Secret Below the Waterfall",
+  "language": "en",
+  "duration_seconds": 840,
+  "characters": [
+    {
+      "id": "NOVA",
+      "personality": "patient cautious analytical",
+      "voice": "clear lower-medium original voice",
+      "look": "original cool blue voxel outfit, no Maizen likeness"
+    },
+    {
+      "id": "PIP",
+      "personality": "impulsive curious optimistic",
+      "voice": "energetic medium-high original voice",
+      "look": "original ochre-green voxel outfit, no Maizen likeness"
+    }
+  ],
+  "original_rights": {
+    "copy_Maizen_characters": false,
+    "copy_Maizen_dialogue": false,
+    "copy_Maizen_music": false,
+    "copy_reference_assets": false,
+    "gameplay_capture_requires_licensed_runtime": true
+  },
+  "research_gate_policy": {
+    "requires_all_3_full_av_independent_approvals": true,
+    "no_publish_before_art_audio_continuity_rights_qc": true,
+    "do_not_claim_backend_selected": true,
+    "desk_preproduction_permitted": true
+  },
+  "technical_candidates": [
+    "BLENDER_AUTHORED",
+    "GAME_ENGINE_STAGED",
+    "SCENE_HYBRID"
+  ],
+  "chapters": [
+    {
+      "id": "C1",
+      "start": 0,
+      "end": 50
+    },
+    {
+      "id": "C2",
+      "start": 50,
+      "end": 165
+    },
+    {
+      "id": "C3",
+      "start": 165,
+      "end": 295
+    },
+    {
+      "id": "C4",
+      "start": 295,
+      "end": 445
+    },
+    {
+      "id": "C5",
+      "start": 445,
+      "end": 575
+    },
+    {
+      "id": "C6",
+      "start": 575,
+      "end": 715
+    },
+    {
+      "id": "C7",
+      "start": 715,
+      "end": 840
+    }
+  ],
+  "beats": [
+    {
+      "id": "B01",
+      "chapter": "C1",
+      "start": 0,
+      "end": 15,
+      "title": "Cold open: pale amber pulse behind a waterfall",
+      "location": "Forest overlook",
+      "camera": "wide_to_two_shot",
+      "action": "Nova sees a brief amber signal; Pip wants to charge toward the water",
+      "dialogue": "Nova: That light blinked twice. Pip: Then something is calling us.",
+      "story_state": "WATERFALL_PULSE",
+      "audio": "distant rushing water; low mystery sting",
+      "continuity": "a wet sketch is glimpsed but not collected",
+      "tension": 3,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B02",
+      "chapter": "C1",
+      "start": 15,
+      "end": 32,
+      "title": "An old sketch catches Pip's eye",
+      "location": "River rock shelf",
+      "camera": "tracking_insert",
+      "action": "Pip retrieves a wet sketch marked with three dots; Nova warns that symbols may be a trap",
+      "dialogue": "Pip: Three dots on a map. Nova: Or three warnings.",
+      "story_state": "MAP_FOUND",
+      "audio": "paper scrape, water splash, cautious footsteps",
+      "continuity": "wet sketch held by Pip",
+      "tension": 3,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B03",
+      "chapter": "C1",
+      "start": 32,
+      "end": 50,
+      "title": "Choice: loud shortcut or quiet ridge",
+      "location": "Waterfall fork",
+      "camera": "split_coverage",
+      "action": "A collapsed short bridge tempts Pip; Nova points to stone along the bank",
+      "dialogue": "Pip: Shortcut! Nova: Only if the bridge remembers how to stand.",
+      "story_state": "TWO_PATHS_ESTABLISHED",
+      "audio": "loose wood crack; water growing louder",
+      "continuity": "choose ridge; bridge must not magically repair",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B04",
+      "chapter": "C2",
+      "start": 50,
+      "end": 86,
+      "title": "Pip tests the brittle bridge",
+      "location": "River fork",
+      "camera": "pov_to_reverse",
+      "action": "Pip steps on rotten planks; one gives way; Nova pulls Pip back without teleport",
+      "dialogue": "Pip: It looked solid! Nova: It sounded hollow.",
+      "story_state": "BRIDGE_BREAKS",
+      "audio": "wood snap, shoe skid, gasp",
+      "continuity": "Pip on same river side; map remains with Pip",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B05",
+      "chapter": "C2",
+      "start": 86,
+      "end": 126,
+      "title": "Nova designs a stone stepping route",
+      "location": "River bank",
+      "camera": "over_shoulder_to_wide",
+      "action": "Nova and Pip place original grey blocks to reach a safe ledge; materials must decrement in hand inventory",
+      "dialogue": "Nova: One stone at a time. Pip: Slow can be smart.",
+      "story_state": "STONE_ROUTE_BUILT",
+      "audio": "block place Foley, shallow splashes, footfalls",
+      "continuity": "stable route accessible; three blocks spent",
+      "tension": 2,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B06",
+      "chapter": "C2",
+      "start": 126,
+      "end": 165,
+      "title": "The sketch points through falling water",
+      "location": "Waterfall apron",
+      "camera": "pov_discovery",
+      "action": "Three-dot symbol on bank aligns to a gap behind waterfall only at one camera position",
+      "dialogue": "Pip: The dots line up! Nova: Don't move—look behind the mist.",
+      "story_state": "ENTRANCE_LOCATED",
+      "audio": "water roar, bright clue accent",
+      "continuity": "map still in Pip's left hand",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B07",
+      "chapter": "C3",
+      "start": 165,
+      "end": 210,
+      "title": "Quiet entrance and falling gravel",
+      "location": "Behind waterfall",
+      "camera": "push_through_water",
+      "action": "Camera crosses waterfall plane without teleport; cave entrance visible, gravel falls deeper inside",
+      "dialogue": "Nova: No torches outside. Pip: Somebody else is in here?",
+      "story_state": "CAVE_ENTERED",
+      "audio": "close water rush then damp echo, distant falling gravel",
+      "continuity": "both characters wet; inventory persistent",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B08",
+      "chapter": "C3",
+      "start": 210,
+      "end": 250,
+      "title": "Pressure plate forces a decision",
+      "location": "Cave fork",
+      "camera": "high_insert_then_two_shot",
+      "action": "Two cave lanes: shiny doorway with pressure plate versus dark ledge with symbols; Pip chooses to inspect before stepping",
+      "dialogue": "Pip: The bright door looks safer. Nova: Look at the floor first.",
+      "story_state": "TRAP_NOTICED",
+      "audio": "stone tap, held-breath pause",
+      "continuity": "avoid untriggered plate; neither character crosses plate",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B09",
+      "chapter": "C3",
+      "start": 250,
+      "end": 295,
+      "title": "Coded latch reveals a workshop",
+      "location": "Cave workroom",
+      "camera": "insert_reveal",
+      "action": "Three carved marks match sketch; tapping stones in sequence opens a hidden workshop door",
+      "dialogue": "Nova: First, second, third. Pip: The map was a key.",
+      "story_state": "WORKROOM_UNLOCKED",
+      "audio": "three stone clicks, low latch mechanism",
+      "continuity": "door now unlocked, original mechanism not external mod claimed",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B10",
+      "chapter": "C4",
+      "start": 295,
+      "end": 345,
+      "title": "They build an invisible entrance",
+      "location": "Workshop threshold",
+      "camera": "wide_build_montage",
+      "action": "Construct hinged-looking block doorway using explicitly authored pivot mechanism; don't pretend impossible game physics",
+      "dialogue": "Pip: It looks like plain rock! Nova: That is the point.",
+      "story_state": "SECRET_ENTRY_BUILT",
+      "audio": "stone placement, switch click, quiet rhythm",
+      "continuity": "entry remains openable from both sides",
+      "tension": 3,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B11",
+      "chapter": "C4",
+      "start": 345,
+      "end": 396,
+      "title": "Power flows through a blue crystal",
+      "location": "Workshop interior",
+      "camera": "macro_to_wide",
+      "action": "A blue crystal powers door indicator; wires routed clearly to switch and warning bell",
+      "dialogue": "Nova: Power first. Pip: Then a door that listens.",
+      "story_state": "POWER_CONNECTED",
+      "audio": "hum rises, bell test, switch clicks",
+      "continuity": "crystal socket attached, no free-floating cable",
+      "tension": 3,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B12",
+      "chapter": "C4",
+      "start": 396,
+      "end": 445,
+      "title": "Emergency tunnel appears",
+      "location": "Workshop east wall",
+      "camera": "plan_view_to_pov",
+      "action": "They dig a narrow fallback exit to river above flood line; mark location with unique chalk symbol",
+      "dialogue": "Pip: Another exit? Nova: One entrance is one mistake.",
+      "story_state": "ESCAPE_ROUTE_BUILT",
+      "audio": "pick impacts, quiet scrape, breath",
+      "continuity": "safe route usable later; map placed on tabletop before test",
+      "tension": 3,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B13",
+      "chapter": "C5",
+      "start": 445,
+      "end": 490,
+      "title": "A hidden valve snaps open",
+      "location": "Workshop valve bay",
+      "camera": "sudden_insert_to_tracking",
+      "action": "Pip nudges unlabeled valve; cave flood starts at floor level rather than instantly filling entire room",
+      "dialogue": "Pip: I only touched it! Nova: Shut the valve!",
+      "story_state": "FLOOD_STARTED",
+      "audio": "metal snap, water trickle escalating, urgency rise",
+      "continuity": "map knocked off table into flowing water",
+      "tension": 5,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B14",
+      "chapter": "C5",
+      "start": 490,
+      "end": 531,
+      "title": "They retreat without the map",
+      "location": "Workshop to emergency tunnel",
+      "camera": "continuous_follow",
+      "action": "Characters backtrack through established escape route while water visibly climbs stairs, leaving map behind",
+      "dialogue": "Nova: The exit we built—now! Pip: But the map!",
+      "story_state": "ESCAPE_IN_PROGRESS",
+      "audio": "wet footsteps, deep thumps, urgent dialogue",
+      "continuity": "map lost in workshop; characters exit safely",
+      "tension": 5,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B15",
+      "chapter": "C5",
+      "start": 531,
+      "end": 575,
+      "title": "Water stops at a sealed hatch",
+      "location": "Upper river hatch",
+      "camera": "wide_to_detail",
+      "action": "Nova seals a real hatch and redirects water to relief channel; flood rate decreases, but sketch remains lost",
+      "dialogue": "Nova: It can hold. Pip: We cannot leave the map.",
+      "story_state": "FLOOD_CONTAINED",
+      "audio": "latch slam, pressure groan, water fading",
+      "continuity": "sealed hatch intact, map not miraculously recovered",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B16",
+      "chapter": "C6",
+      "start": 575,
+      "end": 620,
+      "title": "A second route is behind the valve",
+      "location": "Upper relief shaft",
+      "camera": "top_down_to_pov",
+      "action": "The sketch's three symbols appear on relief channel stone; Pip follows them back toward a catch net",
+      "dialogue": "Pip: Those marks are here too. Nova: Then the sketch isn't far.",
+      "story_state": "MAP_TRAIL_FOUND",
+      "audio": "drips, cave draft, tentative score",
+      "continuity": "flood contained, valve still needs reset",
+      "tension": 3,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B17",
+      "chapter": "C6",
+      "start": 620,
+      "end": 665,
+      "title": "The sketch is caught beneath the grate",
+      "location": "Relief shaft grate",
+      "camera": "insert_action",
+      "action": "Pip uses an original hook tool to retrieve the wet sketch from a stationary grate; nothing teleports into inventory",
+      "dialogue": "Pip: Got you! Nova: Keep it above the water.",
+      "story_state": "MAP_RECOVERED",
+      "audio": "metal scrape, wet paper, relief",
+      "continuity": "map now with Pip; hook returned to belt",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B18",
+      "chapter": "C6",
+      "start": 665,
+      "end": 715,
+      "title": "They learn what the symbol warned",
+      "location": "Symbol wall",
+      "camera": "three_shot_sequence",
+      "action": "The dots indicate valve-lock order, not treasure; Nova resets blue-amber-blue sequence to safely drain cave",
+      "dialogue": "Nova: It wasn't a treasure mark. Pip: It was the safety code.",
+      "story_state": "VALVE_RESET",
+      "audio": "sequential lever clicks and water settling",
+      "continuity": "warning bell off; workshop habitable again",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B19",
+      "chapter": "C7",
+      "start": 715,
+      "end": 760,
+      "title": "The hidden base is secured",
+      "location": "Workshop exterior",
+      "camera": "wide_survey",
+      "action": "Both test latch and exit in real time, remove temporary debris, verify the crystal power and map shelf",
+      "dialogue": "Pip: We made it work. Nova: This time we test it twice.",
+      "story_state": "BASE_SECURED",
+      "audio": "calm footsteps, bell soft ding",
+      "continuity": "map placed safely on shelf, valve closed",
+      "tension": 2,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B20",
+      "chapter": "C7",
+      "start": 760,
+      "end": 805,
+      "title": "A second pulse under the floor",
+      "location": "Base center",
+      "camera": "slow_tilt_down",
+      "action": "Different amber flash travels from floor seams to unopened lower tunnel, raising a new mystery",
+      "dialogue": "Nova: That light came from below. Pip: So there is another room?",
+      "story_state": "LOWER_TUNNEL_TEASE",
+      "audio": "deep two-note pulse, sudden silence",
+      "continuity": "lower tunnel unopened; no new character introduced",
+      "tension": 4,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    },
+    {
+      "id": "B21",
+      "chapter": "C7",
+      "start": 805,
+      "end": 840,
+      "title": "Resolve and next-episode question",
+      "location": "Waterfall exterior",
+      "camera": "pullback_final_wide",
+      "action": "Characters stand outside at sunset and agree to return with supplies; question mark icon only in original branding",
+      "dialogue": "Pip: Tomorrow we open it? Nova: With a better plan.",
+      "story_state": "ORIGINAL_CTA_END",
+      "audio": "waterfall ambience, warm resolution sting",
+      "continuity": "all prop states remain consistent; no Maizen logos or skins",
+      "tension": 2,
+      "creative_status": "ORIGINAL_WORKING_DRAFT_NOT_SOURCE_CONCLUSION"
+    }
+  ],
+  "asset_requirements": [
+    {
+      "id": "NOVA_RIG",
+      "kind": "voxel_rig",
+      "owner": "PERFORMANCE",
+      "constraint": "unique original shape/silhouette and clothing; stable material ID across views"
+    },
+    {
+      "id": "PIP_RIG",
+      "kind": "voxel_rig",
+      "owner": "PERFORMANCE",
+      "constraint": "unique original shape/silhouette and clothing; stable material ID across views"
+    },
+    {
+      "id": "WATERFALL_FOREST",
+      "kind": "modular_set",
+      "owner": "PRODUCTION_DESIGN",
+      "constraint": "continuous river bank, one visible stone crossing, physically consistent waterfall"
+    },
+    {
+      "id": "CAVE_WORKSHOP",
+      "kind": "modular_set",
+      "owner": "PRODUCTION_DESIGN",
+      "constraint": "connected cave fork, hidden door, dry shelf, hatch and escape tunnel spatially stable"
+    },
+    {
+      "id": "ORIGINAL_WET_MAP",
+      "kind": "prop",
+      "owner": "ASSETS",
+      "constraint": "unique three-dot symbols; explicit hold/dropped/recovered state"
+    },
+    {
+      "id": "SAFETY_VALVE",
+      "kind": "animated_prop",
+      "owner": "ASSETS",
+      "constraint": "valve state tracked CLOSED->OPEN->CLOSED with water level response"
+    },
+    {
+      "id": "CRYSTAL_POWER",
+      "kind": "animated_prop",
+      "owner": "VFX",
+      "constraint": "blue emissive material; illumination in cave physically coherent"
+    },
+    {
+      "id": "FLOOD_SIM",
+      "kind": "fx",
+      "owner": "VFX",
+      "constraint": "flood grows and retreats by continuity; no teleporting water"
+    },
+    {
+      "id": "SECRET_BLOCK_DOOR",
+      "kind": "mechanism",
+      "owner": "TECHNICAL_DIRECTION",
+      "constraint": "show actual linkage in chosen backend and repeated opening/closing test"
+    },
+    {
+      "id": "WATERFALL_AMBIENCE",
+      "kind": "audio",
+      "owner": "AUDIO",
+      "constraint": "licensed original source, continuous ambience and location mixing"
+    },
+    {
+      "id": "CHARACTER_VOICES",
+      "kind": "audio",
+      "owner": "AUDIO",
+      "constraint": "two distinguishable licensed original English voices; no cloned Maizen voices"
+    }
+  ],
+  "pilot_shot_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09"
+  ],
+  "packaging": {
+    "title_candidate": "We Found a Secret Base Behind the Waterfall!",
+    "thumbnail_concept": "Original silhouettes Nova/Pip at broad waterfall; small amber light behind water, no official Maizen marks",
+    "not_verified_to_drive_views": true
+  },
+  "status": "SAFE_ORIGINAL_PREPRO_DRAFT_ONLY"
+}

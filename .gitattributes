@@ -1,0 +1,3 @@
+# Preserve byte-for-byte SHA-bound CineFactory v243 research/preproduction receipts on Windows.
+# Git's CRLF conversion would otherwise invalidate the manifest checksums.
+data/verification/v243_maizen_original_preproduction/*.json -text

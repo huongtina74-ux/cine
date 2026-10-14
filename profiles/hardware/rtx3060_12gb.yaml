@@ -1,0 +1,52 @@
+profile_id: rtx3060_12gb
+description: Single-GPU throughput profile. Values are scheduling policy, not measured performance claims.
+gpu_workers: 1
+keep_worker_hot: true
+prefer_model_affinity: true
+stage_ahead: true
+incremental_edit: true
+pre_render_logic_gate: true
+
+video_lanes:
+  fast:
+    intent: low-latency proof/standard shots
+    preferred_model_family: distilled_or_small_local_video
+    target_complexities: [GREEN]
+  standard:
+    intent: balanced local I2V
+    preferred_model_family: quantized_local_video
+    target_complexities: [YELLOW, RED]
+  master:
+    intent: highest-quality local workflow only where needed
+    preferred_model_family: reviewed_high_quality_local_video
+    target_complexities: [HERO]
+
+candidate_policy:
+  GREEN: 1
+  YELLOW: 2
+  RED: 3
+  HERO: 4
+  early_stop: true
+
+memory_policy:
+  group_by_model_affinity: true
+  avoid_alternating_large_models: true
+  unload_between_lanes_only_when_needed: true
+
+benchmark_policy:
+  learn_from_runtime: true
+  measure_seconds_per_generated_second: true
+  do_not_hardcode_eta_before_samples: true
+
+block_animation:
+  render_engine: BLENDER_EEVEE_NEXT
+  gpu_render_workers: 1
+  persistent_blender_process: true
+  cache_collections_and_actions: true
+  prefill_entire_episode_queue: true
+  io_workers: 1
+  concurrent_io_with_gpu: true
+  default_resolution: [1280, 720]
+  preview_resolution_scale: 0.5
+  camera_take_reuse: true
+  benchmark_before_eta: true

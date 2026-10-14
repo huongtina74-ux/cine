@@ -1,0 +1,4 @@
+from cinefactory.turbo.contracts import ResourceClass,WorkerSpec,WorkItem,WorkState
+from cinefactory.turbo.store import TurboStore
+def test_blocking(tmp_path):
+    s=TurboStore(tmp_path/'t.db'); a=WorkItem(project_id='P',kind='r',handler='r',resource=ResourceClass.GPU,max_attempts=1); b=WorkItem(project_id='P',kind='a',handler='a',resource=ResourceClass.IO,dependencies=[a.work_id]); c=WorkItem(project_id='P',kind='z',handler='z',resource=ResourceClass.IO,dependencies=[b.work_id]); [s.enqueue_work(x) for x in (a,b,c)]; w=WorkerSpec(worker_id='g',resources={ResourceClass.GPU},capabilities={'r'}); g=s.claim_work(w); s.mark_running(g.work_id); assert s.finish_work(g.work_id,False,'x') is WorkState.DEAD_LETTER; assert s.propagate_blocked_dependencies()==2; assert s.get_work(c.work_id).state is WorkState.BLOCKED

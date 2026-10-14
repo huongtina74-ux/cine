@@ -1,0 +1,80 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Bash(python scripts/plan_long_slide_series.py:*)",
+      "Bash(python scripts/make_long_slide_episode.py:*)",
+      "Bash(python scripts/produce_long_slide_episode.py:*)",
+      "Bash(python scripts/assemble_long_slide_episode.py:*)",
+      "Bash(python tools/cf_qc.py:*)",
+      "Bash(python tools/cf_status.py:*)",
+      "Bash(python -m cinefactory.cli turbo-status:*)",
+      "Bash(python -m cinefactory.cli company-readiness:*)",
+      "Bash(python -m cinefactory.cli doctor:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(pytest:*)",
+      "Bash(ffprobe:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git worktree:*)",
+      "mcp__cinefactory-studio",
+      "Bash(python tools/cf_director_cut.py:*)",
+      "Bash(python tools/cf_auto_edit.py:*)",
+      "Bash(python tools/cf_policy_check.py:*)",
+      "Bash(python tools/cf_research_stats.py:*)",
+      "Bash(python tools/cf_decision.py:*)",
+      "Bash(python tools/cf_notify.py:*)",
+      "mcp__vidiq__vidiq_outliers",
+      "mcp__vidiq__vidiq_trending_videos",
+      "mcp__vidiq__vidiq_channel_videos",
+      "mcp__vidiq__vidiq_keyword_research",
+      "mcp__vidiq__vidiq_video_comments",
+      "mcp__vidiq__vidiq_channel_analytics",
+      "mcp__vidiq__vidiq_video_stats",
+      "mcp__vidiq__vidiq_channel_performance_trends"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(pip install:*)",
+      "Bash(npm install:*)",
+      "WebFetch"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Edit(./data/verification/**)",
+      "Write(./data/verification/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/tools/cf_status.py\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell|Write|Edit|MultiEdit|NotebookEdit|mcp__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/cf_guard.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

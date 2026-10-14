@@ -1,0 +1,863 @@
+assets:
+- asset_id: animal.cow
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Cow.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 07ad993b793fd9661a73331e1875e5021fa9b36d3228f11a7e316be249e537ea
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.horse
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Horse.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: decc922bd8d1c1a57d58b7cb3fcfa5a6138bebaab522b8dbc3ca750f7e9790ed
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.llama
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Llama.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: ff706dd4bf6bd5e807036df850efef440ef75e46e328eb04ed6448d187681df2
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.pig
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Pig.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 8aec801123f31ca475000c738287dcd075dda6be4c5650c03b5657d801a847ef
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.pug
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Pug.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 7d24c54f881e3ac531fefd2619e52ca95388b17080496c227e0bedc5ce9b0242
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.sheep
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Sheep.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: d4f137f393e5b3e5ba28af0977efbaef6e0ba7a6682e35b35f868f5caff47c7e
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.zebra
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/farmanimal.html
+  source_pack_id: quaternius.farm_animals
+  license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/farm/Blends/Zebra.blend
+  version: '1'
+  rig_profile: quaternius.farm.quadruped
+  clip_ids:
+  - Death
+  - Idle
+  - Jump
+  - Run
+  - Walk
+  - WalkSlow
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: f0dd58fe80375c6d57138018b1351c6c2664e1875ffeb3e77593a735e7e4f0fa
+  provenance_notes:
+  - Blender inspection found one armature and six Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.alpaca
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Alpaca.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.hoofed
+  clip_ids:
+  - Attack_Headbutt
+  - Attack_Kick
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_Headlow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_toIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: e7bab173ef68b9aecf15933a481ea07b2cbbe3452ed8c3d919ccb4a95ba84aec
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.bull
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Bull.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.hoofed
+  clip_ids:
+  - Attack_Headbutt
+  - Attack_Kick
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_Headlow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_toIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 6cd6cb9db2ff50cc32af34c4138613b92f1132d14476322cd23dd1f4347605fd
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.deer
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Deer.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.hoofed
+  clip_ids:
+  - Attack_Headbutt
+  - Attack_Kick
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_Headlow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_toIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: e0561b31230bb10434fdaf1755a140dcffce80f1d1e36d5d674f922976d801a4
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.donkey
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Donkey.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.hoofed
+  clip_ids:
+  - Attack_Headbutt
+  - Attack_Kick
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_Headlow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_toIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: e0b2e675219e6d7af2904594d048214490fd85b900b0281e2e55ff353b771066
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.fox
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Fox.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.canine
+  clip_ids:
+  - Attack
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_2_HeadLow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_ToIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 14bb38cd76fb6554a4ecbac9e972d54708f49c07f95c00f958143d48f64ca009
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.white_horse
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Horse_White.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.hoofed
+  clip_ids:
+  - Attack_Headbutt
+  - Attack_Kick
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_Headlow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_toIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 2d85c7199ffba64f65222cf3f8979e2ae52bb798d368ea9efb4a7a71f55bc6f2
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.husky
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Husky.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.canine
+  clip_ids:
+  - Attack
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_2_HeadLow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_ToIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: c3214271cbce42ecf0f2abf1bf9b66c3a2ddb36ba9d5d02293583320502b40db
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.shiba_inu
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/ShibaInu.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.canine
+  clip_ids:
+  - Attack
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_2_HeadLow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_ToIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 2da1c35ed46f532b8a7f1d7e92a4efc016cefb50e8c794e2969a048b16c5c44d
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.stag
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Stag.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.hoofed
+  clip_ids:
+  - Attack_Headbutt
+  - Attack_Kick
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_Headlow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_toIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 09cc635a05452d149baadd285ee1ea2cfe5ea1e7e0a6067f2ea147e612c50c3c
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.wolf
+  kind: ANIMAL
+  source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+  source_pack_id: quaternius.ultimate_animated_animals
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/ultimate/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/quaternius/ultimate/Blends/Wolf.blend
+  version: '1'
+  rig_profile: quaternius.ultimate.canine
+  clip_ids:
+  - Attack
+  - Death
+  - Eating
+  - Gallop
+  - Gallop_Jump
+  - Idle
+  - Idle_2
+  - Idle_2_HeadLow
+  - Idle_HitReact_Left
+  - Idle_HitReact_Right
+  - Jump_ToIdle
+  - Walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: fe31c3829dd2a8b9dfedb2e5cb656939a1d525ebd535a62434d2d25a4399cb9e
+  provenance_notes:
+  - Blender inspection found one armature and 12-13 Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.elephant
+  kind: ANIMAL
+  source_uri: https://opengameart.org/content/low-poly-elephant-model
+  source_pack_id: opengameart.elephant_lowpoly
+  license_evidence_uri: https://opengameart.org/content/low-poly-elephant-model
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/opengameart/elephant-lowpoly.blend
+  version: '1'
+  rig_profile: opengameart.elephant.v1
+  clip_ids:
+  - Angry
+  - Eating
+  - GettingUp
+  - Idle
+  - Sitting
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: cb916973655dcd16905681c7a7df87d80e964103a02cbe585747f816bb0fd4f1
+  provenance_notes:
+  - 'Inspection: 32 bones, five Actions; no walk/run Action.'
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - partial_motion
+  - needs_locomotion
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.tiger
+  kind: ANIMAL
+  source_uri: https://opengameart.org/content/tiger
+  source_pack_id: opengameart.tiger
+  license_evidence_uri: https://opengameart.org/content/tiger
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/opengameart/tiger/tiger.blend
+  version: '1'
+  rig_profile: opengameart.tiger.v1
+  clip_ids: []
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: f0c9376b829557b420e5ba7be455cfe6e0c2bae64739cae05a39af833685a175
+  provenance_notes:
+  - 'Inspection: 35 bones, zero Actions.'
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - needs_motion
+  - needs_material_normalization
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.lion
+  kind: ANIMAL
+  source_uri: https://opengameart.org/content/animal-bestiary
+  source_pack_id: opengameart.animal_bestiary
+  license_evidence_uri: https://opengameart.org/content/animal-bestiary
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/opengameart/lion_bestiary.blend
+  version: '1'
+  rig_profile: opengameart.bestiary.lion
+  clip_ids: []
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: be251f5f7c756a2827c14a329b69adb0af1f127e9e33052d327a5aaa03bc377b
+  provenance_notes:
+  - Extracted locally from CC0 Animal Bestiary; Armature-Lion has 26 bones and no
+    assigned Action.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - needs_motion
+  - full_body
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.gorilla
+  kind: ANIMAL
+  source_uri: https://opengameart.org/content/gorilla-male
+  source_pack_id: opengameart.gorilla_male
+  license_evidence_uri: https://opengameart.org/content/gorilla-male
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/opengameart/gorilla/gorilla_male.blend
+  version: '1'
+  rig_profile: null
+  clip_ids: []
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: false
+  visual_qc_passed: false
+  content_sha256: a0e5d30f56b38cbb66841f033d9ba4dcccbdd1604010436d4b88f166110a235e
+  provenance_notes:
+  - Inspection found no armature and no Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - needs_rig
+  - needs_motion
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.hippo
+  kind: ANIMAL
+  source_uri: https://opengameart.org/content/hippo
+  source_pack_id: opengameart.hippo
+  license_evidence_uri: https://opengameart.org/content/hippo
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/opengameart/hippo/hippo.blend
+  version: '1'
+  rig_profile: opengameart.hippo.v1
+  clip_ids: []
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: d561c43b1e34d2c018f7a24fe25ef9da983d039c1a9e63eda3e88b6fcb91797b
+  provenance_notes:
+  - 'Inspection: 34 bones, zero Actions; selected over Gobkit for full-body visual
+    suitability.'
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - needs_motion
+  - full_body
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.duck
+  kind: ANIMAL
+  source_uri: https://opengameart.org/content/rigged-duck
+  source_pack_id: opengameart.rigged_duck
+  license_evidence_uri: https://opengameart.org/content/rigged-duck
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/opengameart/duck6.blend
+  version: '1'
+  rig_profile: opengameart.duck.v1
+  clip_ids:
+  - Waddle
+  - Peck
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: cd686d02261606c99f55629dd48373f109b4570240bf26edaae873c62f1f5a72
+  provenance_notes:
+  - 'Inspection: 5 bones with Waddle and Peck Actions; selected as canonical duck.'
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - full_body
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.dinosaur
+  kind: ANIMAL
+  source_uri: https://gobkit.com/freebies/dino/Trex.glb
+  source_pack_id: gobkit.dino_pack
+  license_evidence_uri: https://gobkit.com/api/free
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/gobkit/Trex.glb
+  version: '1'
+  rig_profile: gobkit.dino.trex
+  clip_ids:
+  - idle
+  - attack
+  - dead
+  - walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 11b9b92de1c9ef808896ed6bc8035b80473a8b7f925347a65021f09179af5e54
+  provenance_notes:
+  - 'Gobkit manifest: 24fps; idle/attack/dead/walk baked into one track.'
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - rigged
+  - animated
+  - low_poly
+  - baked_track
+  - external_candidate
+  - needs_visual_approval
+- asset_id: animal.buffalo
+  kind: ANIMAL
+  source_uri: https://kenney.nl/assets/prototype-kit
+  source_pack_id: kenney.prototype_kit
+  license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney_prototype_kit_extracted/License.txt
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/quarantine/kenney_prototype_kit_extracted/Models/GLB
+    format/animal-bison.glb
+  version: '1'
+  rig_profile: kenney.hierarchy_quadruped
+  clip_ids:
+  - down
+  - run
+  - up
+  - walk
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 5ea84c8e9e6aa717125881096450436db320cfd22dcc31300807ea9c3d24040b
+  provenance_notes:
+  - Blender import inspection found run/walk/up/down hierarchy animation Actions.
+  - Binary is held in quarantine until visual/motion qualification completes.
+  tags:
+  - cc0
+  - animated_hierarchy
+  - buffalo_proxy
+  - low_poly
+  - external_candidate
+  - needs_visual_approval

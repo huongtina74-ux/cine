@@ -1,0 +1,32 @@
+props:
+  - {prop_id: phone, style: DEBUG_BLOCK, default_socket: right_hand, tags: [handheld]}
+  - {prop_id: book, style: DEBUG_BLOCK, default_socket: left_hand, tags: [handheld]}
+  - {prop_id: cup, style: DEBUG_BLOCK, default_socket: right_hand, tags: [handheld]}
+  - prop_id: minecraft_book
+    style: MINECRAFT
+    default_socket: right_hand
+    attach_offset: {location: {x: -0.35, y: 0.0, z: -0.12}, rotation_euler: {x: 0.0, y: 0.0, z: 1.5708}, scale: {x: 1.0, y: 1.0, z: 1.0}}
+    dimensions: {x: 0.55, y: 0.18, z: 0.70}
+    grip_socket: right_hand
+    camera_interest_point: {x: 0.0, y: -0.08, z: 0.0}
+    tags: [handheld, book, production, minecraft, original]
+  - prop_id: minecraft_tool
+    style: MINECRAFT
+    default_socket: right_hand
+    dimensions: {x: 0.18, y: 0.18, z: 0.85}
+    grip_socket: right_hand
+    tags: [handheld, tool, production, minecraft, original]
+  - prop_id: roblox_book
+    style: ROBLOX
+    default_socket: right_hand
+    attach_offset: {location: {x: -0.35, y: 0.0, z: -0.14}, rotation_euler: {x: 0.0, y: 0.0, z: 1.5708}, scale: {x: 1.0, y: 1.0, z: 1.0}}
+    dimensions: {x: 0.62, y: 0.22, z: 0.78}
+    grip_socket: right_hand
+    camera_interest_point: {x: 0.0, y: -0.10, z: 0.0}
+    tags: [handheld, book, production, roblox, original]
+  - prop_id: roblox_classroom_prop
+    style: ROBLOX
+    default_socket: left_hand
+    dimensions: {x: 0.32, y: 0.32, z: 0.32}
+    grip_socket: left_hand
+    tags: [handheld, classroom, production, roblox, original]

@@ -1,0 +1,9 @@
+id: cinematic_story
+inherits: global
+version: 1
+creative:
+  reaction_shots: important
+  camera_movement: motivated_only
+  performance_detail: high
+  spatial_continuity: strict
+  sequence_qc: required

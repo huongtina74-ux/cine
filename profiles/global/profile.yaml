@@ -1,0 +1,9 @@
+id: global
+version: 1
+constraints:
+  motivated_camera_required: true
+  continuity_validation_required: true
+  storyboard_before_video: true
+  selective_retry_only: true
+  final_master_width: 3840
+  final_master_height: 2160

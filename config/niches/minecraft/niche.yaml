@@ -1,0 +1,39 @@
+niche_id: minecraft
+display_name: Minecraft
+status: ACTIVE_CORE
+content_unit_ontology:
+- sequence
+- scene
+- beat
+- shot
+shared_capabilities:
+- company_governance
+- finance_legal_security
+- versioning_and_provenance
+- production_management
+- universal_filmmaking_principles
+- tool_and_capability_rnd
+- data_and_experiment_framework
+- technical_qa
+- publishing_infrastructure
+niche_specific_domains:
+- audience
+- competitors
+- seo
+- story_grammar
+- voxel_identity
+- minecraft_runtime
+- camera_grammar
+- animation
+- assets
+- packaging
+- retention
+audience_model: {}
+competitor_registry: []
+keyword_graph: {}
+format_dna: {}
+production_recipes: {}
+packaging_grammar: {}
+retention_baselines: {}
+risk_profile: {}
+validated_rules: []

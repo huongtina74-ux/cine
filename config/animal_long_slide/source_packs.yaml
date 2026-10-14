@@ -1,0 +1,349 @@
+source_packs:
+  - pack_id: quaternius.ultimate_animated_animals
+    title: Ultimate Animated Animal Pack
+    provider: Quaternius
+    source_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+    download_uri: https://drive.google.com/drive/folders/1uJ3N5HfB7jKTseJUNQr3N4YaN0UuEtHk?usp=sharing
+    license_name: CC0-1.0
+    license_evidence_uri: https://quaternius.com/packs/ultimateanimatedanimals.html
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND, FBX, GLTF, OBJ]
+    animated: true
+    model_count: 12
+    expected_animals: [fox, shiba_inu, husky, wolf, cow, bull, horse, white_horse, donkey, alpaca, deer, stag]
+    notes:
+      - Official page states 12 animals with more than 12 animations each.
+      - Expected animal names are discovery hints and must be confirmed by binary inspection.
+
+  - pack_id: quaternius.farm_animals
+    title: Farm Animal Pack
+    provider: Quaternius
+    source_uri: https://quaternius.com/packs/farmanimal.html
+    download_uri: https://drive.google.com/drive/folders/1is1ax2V0mIEDS7BbbzBV_x2Pabya1dVJ?usp=sharing
+    license_name: CC0-1.0
+    license_evidence_uri: https://quaternius.com/packs/farmanimal.html
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND, FBX, OBJ]
+    animated: true
+    model_count: 7
+    expected_animals: [pig, cow, horse, sheep, llama, pug, dog]
+    notes:
+      - Official Quaternius catalog tags identify the farm-animal roster.
+      - Exact files and clip names must be confirmed by binary inspection.
+
+  - pack_id: quaternius.animated_dinosaurs
+    title: Animated Dinosaur Pack
+    provider: Quaternius
+    source_uri: https://quaternius.com/packs/animateddinosaurs.html
+    download_uri: https://drive.google.com/drive/folders/1u5Fhu3ziuRlGonW6bUI7uClqBGoSNeF6?usp=sharing
+    license_name: CC0-1.0
+    license_evidence_uri: https://quaternius.com/packs/animateddinosaurs.html
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND, FBX, OBJ]
+    animated: true
+    model_count: 6
+    expected_animals: []
+    notes:
+      - Official page states six animated dinosaurs.
+      - Species and clip names must be discovered from the downloaded files.
+
+  - pack_id: opengameart.elephant_lowpoly
+    title: Low Poly Elephant Model
+    provider: OpenGameArt
+    source_uri: https://opengameart.org/content/low-poly-elephant-model
+    download_uri: https://opengameart.org/sites/default/files/elephant-lowpoly.blend
+    license_name: CC0-1.0
+    license_evidence_uri: https://opengameart.org/content/low-poly-elephant-model
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: true
+    model_count: 1
+    expected_animals: [elephant]
+    notes:
+      - Rigged with five discovered actions; locomotion action is not present.
+
+  - pack_id: opengameart.gorilla_male
+    title: Gorilla Male
+    provider: OpenGameArt
+    source_uri: https://opengameart.org/content/gorilla-male
+    download_uri: https://opengameart.org/sites/default/files/gorilla_male.zip
+    license_name: CC0-1.0
+    license_evidence_uri: https://opengameart.org/content/gorilla-male
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: false
+    model_count: 1
+    expected_animals: [gorilla]
+    notes:
+      - Local inspection found no armature; candidate requires rigging before production.
+
+  - pack_id: opengameart.hippo
+    title: Hippo
+    provider: OpenGameArt
+    source_uri: https://opengameart.org/content/hippo
+    download_uri: https://opengameart.org/sites/default/files/hippo.zip
+    license_name: CC0-1.0
+    license_evidence_uri: https://opengameart.org/content/hippo
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: false
+    model_count: 1
+    expected_animals: [hippo]
+    notes:
+      - Local inspection found one armature and no actions; requires Motion Foundry.
+
+  - pack_id: opengameart.tiger
+    title: Tiger
+    provider: OpenGameArt
+    source_uri: https://opengameart.org/content/tiger
+    download_uri: https://opengameart.org/sites/default/files/tiger.zip
+    license_name: CC0-1.0
+    license_evidence_uri: https://opengameart.org/content/tiger
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: false
+    model_count: 1
+    expected_animals: [tiger]
+    notes:
+      - Local inspection found one armature and no actions; requires Motion Foundry.
+
+  - pack_id: opengameart.rigged_duck
+    title: Rigged Duck
+    provider: OpenGameArt
+    source_uri: https://opengameart.org/content/rigged-duck
+    download_uri: https://opengameart.org/sites/default/files/duck6.blend
+    license_name: CC0-1.0
+    license_evidence_uri: https://opengameart.org/content/rigged-duck
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: true
+    model_count: 1
+    expected_animals: [duck]
+    notes:
+      - Local inspection discovered Peck and Waddle actions.
+
+  - pack_id: opengameart.dromaeosaur
+    title: Dromaeosaur Dinosaur
+    provider: OpenGameArt
+    source_uri: https://opengameart.org/content/dromaeosaur-dinosaur
+    download_uri: https://opengameart.org/sites/default/files/Dromaeosaur.blend
+    license_name: CC0-1.0
+    license_evidence_uri: https://opengameart.org/content/dromaeosaur-dinosaur
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: false
+    model_count: 1
+    expected_animals: [dinosaur]
+    notes:
+      - Rigged but not animated; requires Motion Foundry.
+
+  - pack_id: blendswap.tiger_lion_base
+    title: Tiger Lion Base Mesh Rigged
+    provider: BlendSwap
+    source_uri: https://blendswap.com/blend/27158
+    license_name: CC0-1.0
+    license_evidence_uri: https://blendswap.com/blend/27158
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: false
+    model_count: 1
+    expected_animals: [tiger, lion]
+    notes:
+      - Rigged base mesh; download may require BlendSwap account.
+      - Keep in candidate state until binary inspection.
+
+  - pack_id: itch.low_poly_ice_age
+    title: Low Poly Ice Age
+    provider: itch.io
+    source_uri: https://rkuhlf-assets.itch.io/ice-age
+    license_name: CC0-1.0
+    license_evidence_uri: https://rkuhlf-assets.itch.io/ice-age
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND, FBX]
+    animated: true
+    model_count: 3
+    expected_animals: [mammoth, saber_tooth_tiger, giant_sloth]
+    notes:
+      - Mammoth has idle/walk/head-shake; saber-tooth has idle/walk/run/bite.
+
+  - pack_id: fab.animated_animals_mega
+    title: Animated Animals Mega Pack
+    provider: Fab
+    source_uri: https://www.fab.com/listings/3379a260-78d4-45e8-a11d-81e32d0f560d
+    license_name: UNKNOWN
+    license_evidence_uri: https://www.fab.com/listings/3379a260-78d4-45e8-a11d-81e32d0f560d
+    license_state: UNKNOWN
+    commercial_use: false
+    formats: [BLEND, FBX, GLB]
+    animated: true
+    model_count: 30
+    expected_animals: [elephant, lion, small_tiger, white_tiger, giraffe, bear, zebra, cow]
+    notes:
+      - Strong coverage candidate but do not purchase or promote until license and cost are explicitly approved.
+
+  - pack_id: gobkit.animal_pack
+    title: Gobkit Free Animal Pack
+    provider: Gobkit
+    source_uri: https://gobkit.itch.io/gobkit-free-animal-pack
+    download_uri: https://gobkit.com/api/free
+    license_name: CC0-1.0
+    license_evidence_uri: https://gobkit.com/api/free
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: true
+    model_count: 10
+    expected_animals: [duck, hippo]
+    notes:
+      - Public agent manifest exposes direct GLB URLs and animation frame ranges.
+      - All actions are baked into one track and must be sliced by frame range.
+
+  - pack_id: gobkit.dino_pack
+    title: Gobkit Dinosaur Pack
+    provider: Gobkit
+    source_uri: https://gobkit.com/api/free
+    download_uri: https://gobkit.com/api/free
+    license_name: CC0-1.0
+    license_evidence_uri: https://gobkit.com/api/free
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: true
+    model_count: 10
+    expected_animals: [dinosaur]
+    notes:
+      - T-Rex selected as current canonical dinosaur candidate.
+      - Idle/attack/dead/walk ranges are declared in the public manifest.
+
+  - pack_id: kenney.prototype_kit
+    title: Kenney Prototype Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/prototype-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney_prototype_kit_extracted/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: true
+    expected_animals: [buffalo]
+    notes:
+      - Bison is used as the buffalo-compatible low-poly candidate.
+      - Animation is hierarchy-based rather than Armature-based.
+
+
+  - pack_id: kenney.coaster_kit
+    title: Kenney Coaster Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/coaster-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney/kenney_coaster-kit/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: false
+    model_count: 180
+    notes:
+      - Downloaded 2026-10-07 with owner approval; License.txt states CC0 1.0.
+      - Rails, carts, stalls and park props; used as set dressing only.
+
+  - pack_id: kenney.marble_kit
+    title: Kenney Marble Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/marble-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney/kenney_marble-kit/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: false
+    model_count: 160
+    notes:
+      - Downloaded 2026-10-07 with owner approval; License.txt states CC0 1.0.
+      - Tracks, funnels, banners and fans for course dressing.
+
+  - pack_id: kenney.platformer_kit
+    title: Kenney Platformer Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/platformer-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney/kenney_platformer-kit/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: false
+    model_count: 150
+    notes:
+      - Downloaded 2026-10-07 with owner approval; License.txt states CC0 1.0.
+      - Coins, stars, flags, springs and fences. Bombs, saws and spike traps are excluded by kit_props.yaml.
+
+  - pack_id: kenney.nature_kit
+    title: Kenney Nature Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/nature-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney/kenney_nature-kit/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: false
+    model_count: 330
+    notes:
+      - Downloaded 2026-10-07 with owner approval; License.txt states CC0 1.0.
+      - Trees (incl. palm, pine, autumn), flowers, mushrooms, rocks, cactus.
+
+  - pack_id: kenney.food_kit
+    title: Kenney Food Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/food-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney/kenney_food-kit/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: false
+    model_count: 200
+    notes:
+      - Downloaded 2026-10-07 with owner approval; License.txt states CC0 1.0.
+      - Giant sweets for the candy theme (cupcake, donut, lollypop, ice cream).
+
+  - pack_id: kenney.holiday_kit
+    title: Kenney Holiday Kit
+    provider: Kenney
+    source_uri: https://kenney.nl/assets/holiday-kit
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/kenney/kenney_holiday-kit/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [GLB]
+    animated: false
+    model_count: 100
+    notes:
+      - Downloaded 2026-10-07 with owner approval; License.txt states CC0 1.0.
+      - Snowmen, presents, snowy trees and candy canes for the snow theme.
+
+  - pack_id: quaternius.ultimate_platformer
+    title: Ultimate Platformer Pack
+    provider: Quaternius
+    source_uri: https://quaternius.com/packs/ultimateplatformer.html
+    download_uri: https://drive.google.com/drive/folders/1NDZn_aGnn0vfFV3M22Y8GPcDjO8BVcLs?usp=sharing
+    license_name: CC0-1.0
+    license_evidence_uri: data/assets/animal_long_slide/quarantine/quaternius/platformer/License.txt
+    license_state: APPROVED
+    commercial_use: true
+    formats: [BLEND]
+    animated: false
+    model_count: 67
+    notes:
+      - Downloaded 2026-10-07 with owner approval; only the kid-safe Blend subset (nature, pickups, level props).
+      - Bombs, cannons, hazards, spikes, skull enemies and guns were deliberately not downloaded.

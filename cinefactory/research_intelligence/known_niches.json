@@ -1,0 +1,81 @@
+[
+  {
+    "niche": "Minecraft animation",
+    "format_key": "classic-minecraft-story-animation",
+    "aliases": [
+      "Minecraft",
+      "Maizen-style Minecraft",
+      "JJ and Mikey animation"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "Roblox animation",
+    "format_key": "roblox-r6-story-animation",
+    "aliases": [
+      "Roblox R6 animation"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "Long Slide Game",
+    "format_key": "3d-long-slide-race",
+    "aliases": [
+      "Long Slices Game",
+      "Long Slides Game"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "ASMR sleep",
+    "format_key": "hand-and-object-sleep-asmr",
+    "aliases": [
+      "ASMR hand sounds",
+      "ASMR ngủ bằng tay"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "Audio storytelling",
+    "format_key": "longform-narrated-stories",
+    "aliases": [
+      "Senior audio storytelling",
+      "Audiobook-like narration"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "Fishing silent",
+    "format_key": "fishing-no-dialogue",
+    "aliases": [
+      "Silent fishing"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "Rain sleep",
+    "format_key": "longform-rain-white-noise",
+    "aliases": [
+      "Rain white noise",
+      "White noise sleep"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "GTA gaming",
+    "format_key": "gta-gameplay-montage",
+    "aliases": [
+      "GTA",
+      "GTA animation"
+    ],
+    "status": "tracked"
+  },
+  {
+    "niche": "English learning",
+    "format_key": "daily-english-lessons",
+    "aliases": [
+      "Daily English"
+    ],
+    "status": "tracked"
+  }
+]

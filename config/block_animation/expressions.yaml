@@ -1,0 +1,10 @@
+expressions:
+  - {expression_id: neutral, channels: {brow_inner_up: 0.0, eye_wide: 0.0, jaw_open: 0.0, mouth_smile: 0.0}}
+  - {expression_id: happy, channels: {mouth_smile: 0.85, eye_squint: 0.25, brow_inner_up: 0.08}}
+  - {expression_id: laugh, channels: {mouth_smile: 1.0, jaw_open: 0.55, eye_squint: 0.5}}
+  - {expression_id: sad, channels: {mouth_frown: 0.8, brow_inner_up: 0.5, eye_squint: 0.12}}
+  - {expression_id: angry, channels: {brow_down: 0.85, eye_squint: 0.35, mouth_frown: 0.4}}
+  - {expression_id: surprised, channels: {eye_wide: 0.95, brow_inner_up: 0.85, jaw_open: 0.7}}
+  - {expression_id: terrified, channels: {eye_wide: 1.0, brow_inner_up: 1.0, jaw_open: 0.9, mouth_frown: 0.3}}
+  - {expression_id: confused, channels: {brow_inner_up: 0.45, eye_squint: 0.15, mouth_frown: 0.18}}
+  - {expression_id: smug, channels: {mouth_smile: 0.45, eye_squint: 0.32, brow_down: 0.12}}

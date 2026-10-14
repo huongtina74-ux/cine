@@ -1,0 +1,10 @@
+workflow_id: mock.local
+version: "1"
+executor_id: local.mock
+media_type: development
+model_id: none
+model_revision: null
+workflow_file: mock.json
+local_only: true
+notes:
+  - Development-only workflow used to verify governance, idempotency and JobLedger behavior.

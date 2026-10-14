@@ -1,0 +1,44 @@
+{
+  "project_title": "The House",
+  "visual_concept": "Observe the family from a respectful distance, then narrow the frame only when private realization leaks through performance.",
+  "camera_grammar": [
+    "camera movement requires a narrative reason",
+    "favor eye-level frames until a power change justifies a change",
+    "reaction can be more important than the speaker"
+  ],
+  "performance_grammar": [
+    "play objectives rather than emotion labels",
+    "keep outward behavior restrained and let emotion leak through eyes, breath and hands"
+  ],
+  "editing_grammar": ["cut on information change or decision, not automatically at dialogue boundaries"],
+  "sound_grammar": ["keep the room quiet enough that paper handling and breath carry emotional weight"],
+  "scenes": [
+    {
+      "scene_id": "SC01",
+      "dramatic_event": "the daughter recognizes that her father is concealing what happened to the house papers",
+      "audience_know": "the daughter does not believe the papers are merely stored elsewhere",
+      "audience_feel": "controlled unease turning into empathy",
+      "audience_question": "why is the father hiding it?",
+      "power_start": "father controls the information",
+      "power_turn": "daughter notices avoidance behavior",
+      "power_end": "daughter gains hidden informational advantage",
+      "performance_notes": {
+        "C01": "test rather than accuse; hold eye contact, then glance to the receipt",
+        "C02": "minimize the situation; fold the receipt too carefully and avoid eye contact"
+      },
+      "blocking": {
+        "scene_id": "SC01",
+        "action_axis": "daughter-table-father",
+        "allowed_camera_side": "south",
+        "positions": [
+          {"subject_id": "C01", "start": "west doorway", "end": "southwest edge of table", "facing": "east", "eyeline": "C02"},
+          {"subject_id": "C02", "start": "northeast chair", "end": "northeast chair", "facing": "southwest", "eyeline": "receipt then C01"}
+        ],
+        "spatial_notes": ["keep both characters on consistent screen sides across coverage"]
+      },
+      "cinematography_intent": "start with readable two-person geography, then move into restrained reaction coverage when suspicion becomes visible",
+      "sound_intent": "paper fold and room tone remain audible under dialogue",
+      "edit_intent": "hold on the listener after the father's answer before cutting"
+    }
+  ]
+}

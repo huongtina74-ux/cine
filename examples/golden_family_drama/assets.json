@@ -1,0 +1,45 @@
+{
+  "characters": [
+    {
+      "character_id": "C01",
+      "name": "Daughter",
+      "identity_lock": "same oval face, shoulder-length dark hair, small mole below left eye",
+      "appearance": "woman in her thirties, understated natural makeup",
+      "body": "average height, slim build",
+      "hair": "straight shoulder-length dark hair",
+      "default_costume_id": "C01_W01",
+      "expression_set": ["neutral", "contained suspicion", "hurt realization"],
+      "reference_asset_ids": []
+    },
+    {
+      "character_id": "C02",
+      "name": "Father",
+      "identity_lock": "same lined face, short gray hair, rectangular reading glasses",
+      "appearance": "man in his sixties, tired but composed",
+      "body": "slightly stooped posture",
+      "hair": "short gray hair",
+      "default_costume_id": "C02_W01",
+      "expression_set": ["gentle", "avoidant", "quiet shame"],
+      "reference_asset_ids": []
+    }
+  ],
+  "scenes": [
+    {
+      "location_id": "KITCHEN",
+      "name": "Family Kitchen",
+      "topology_lock": "rectangular table center, doorway west, window east, sink north wall",
+      "lighting_anchors": ["warm ceiling practical", "cool moonlight from east window"],
+      "reference_asset_ids": []
+    }
+  ],
+  "props": [
+    {
+      "prop_id": "P_FOLDER",
+      "name": "Document Folder",
+      "identity_lock": "worn dark-blue A4 document folder",
+      "states": ["closed", "open-empty"],
+      "reference_asset_ids": []
+    }
+  ],
+  "visual_style_lock": "restrained contemporary realism, natural skin, practical lighting, no glossy commercial look"
+}

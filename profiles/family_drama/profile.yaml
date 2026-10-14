@@ -1,0 +1,18 @@
+id: family_drama
+inherits: cinematic_story
+version: 1
+creative:
+  performance_style: restrained_realism
+  reaction_shots: high_priority
+  camera_movement: motivated_only
+  dialogue_coverage: listener_reactions_required
+  emotional_push_in: only_on_state_change
+editing:
+  reaction_hold: medium_high
+  hard_cuts: preferred
+  j_l_cuts: motivated
+  transition_effects: minimal
+qc:
+  identity: strict
+  performance: strict
+  continuity: strict

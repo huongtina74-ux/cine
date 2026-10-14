@@ -1,0 +1,11 @@
+{
+  "thesis": "A broad statement of the competitor's central thesis, written in neutral taxonomy language rather than copied wording.",
+  "primary_question": "What exact question does the competitor answer?",
+  "causal_mechanism": "What mechanism drives the result?",
+  "audience_promise": "What concrete value or reveal is promised?",
+  "narrative_device": "countdown / experiment / investigation / case study / timeline / debate / other",
+  "evidence_domains": ["domain-a", "domain-b"],
+  "example_entities": ["only high-level entities needed for collision detection"],
+  "beat_functions": ["hook", "setup", "evidence", "reveal", "resolution"],
+  "visual_grammar_tags": ["talking-head", "list-cards", "red-warning-thumbnail"]
+}

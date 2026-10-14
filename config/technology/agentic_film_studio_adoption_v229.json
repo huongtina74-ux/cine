@@ -1,0 +1,263 @@
+{
+  "schema": "cine.company.agentic_film_studio_user_study.v229",
+  "date": "2026-10-11",
+  "user_source": "config/technology/agent_leap_user_study_20261010.md",
+  "other_study": "config/technology/cinematography_studio_user_encyclopedia_202510.md",
+  "previous_technology_catalog": "config/technology/professional_studio_research_v214.json",
+  "source_description": "User-provided four-expert compilation; contains unverified vendor/version/tool-count and performance claims; not proof Hollywood studios universally deploy this precise multi-agent topology.",
+  "production_core_thesis": "Not models replacing artists: orchestrate versioned shot/assets across safe DCC executors, evidence-backed research, independent objective/art QC, RCA and human release approval.",
+  "owner_constraints": {
+    "free_local_first": true,
+    "no_paid_api_calls": true,
+    "no_install_just_by_research": true,
+    "no_unverified_model_claims": true,
+    "no_assumed_connected_mcp": true,
+    "requires_complete_competitor_av_before_source_based_methods": true
+  },
+  "stages": [
+    {
+      "stage": "SOURCE_FULL_VIDEO_RESEARCH",
+      "owner": "INTELLIGENCE",
+      "state": "ACTIVE_GATED_V228",
+      "gate": "Complete authorized original video and sound for each chosen competitor source before deriving methods."
+    },
+    {
+      "stage": "STORY_DIRECTOR_PLAN",
+      "owner": "DIRECTION",
+      "state": "DRAFT_CAPABLE",
+      "gate": "Approved original script/shotlist with cause-effect, audio and camera coverage."
+    },
+    {
+      "stage": "ASSET_SHOT_VERSION_MANAGEMENT",
+      "owner": "OPERATIONS",
+      "state": "PARTIAL_BUT_NOT_AYON_INTEROP",
+      "gate": "Version all original cast, texture, rig, world, scene and dependent edits with exact hashes and export formats."
+    },
+    {
+      "stage": "SCENE_EXECUTORS",
+      "owner": "PRODUCTION",
+      "state": "BLENDER_REAL_OTHER_DCC_UNVERIFIED",
+      "gate": "Run allowed local scene owner-worker with source/provenance, log/frame and no spending."
+    },
+    {
+      "stage": "STUDIO_CROSS_DCC_SCENE_DATA",
+      "owner": "TECHNICAL_DIRECTION",
+      "state": "OPENUSD_INTEROP_NOT_VERIFIED",
+      "gate": "Same original asset and full camera sequence roundtrip, report transformations lost."
+    },
+    {
+      "stage": "POST_COLOR_AUDIO",
+      "owner": "EDITORIAL",
+      "state": "EXISTING_COMPONENTS_PARTIAL",
+      "gate": "Validate actual 1080p/4K full audio/video master and transcode/frame/color reports."
+    },
+    {
+      "stage": "INDEPENDENT_QC_REPAIR_LOOP",
+      "owner": "QC",
+      "state": "TEST_INFRASTRUCTURE_AVAILABLE_OUTPUT_QUALITY_UNPROVEN",
+      "gate": "Evidence-backed independent scene approval, root-cause fix, safe rerender and no false release approval."
+    },
+    {
+      "stage": "DIRECTOR_APPROVAL_PUBLISH",
+      "owner": "STUDIO_MANAGEMENT",
+      "state": "OWNER_RIGHTS_GATE_REQUIRED",
+      "gate": "Final movie, license and original asset/VO rights, human approved upload."
+    }
+  ],
+  "technologies": [
+    {
+      "id": "planner_executor_critic_hitl",
+      "name": "Planner → Executor → Critic + human approval",
+      "source_type": "USER_STUDY_WORKFLOW",
+      "priority": "P0",
+      "status": "PARTIAL_CODE_EXISTS_NOT_END_TO_END_VERIFIED",
+      "maps_to": [
+        "STUDIO_MANAGEMENT",
+        "PLANNING",
+        "TECHNICAL_DIRECTION",
+        "PRODUCTION",
+        "QC"
+      ],
+      "next_gate": "Test an actual scene from approved research to finished video/audio through signed QC return loop."
+    },
+    {
+      "id": "ayon_pipeline",
+      "name": "AYON/OpenPype pipeline and shot-asset versions",
+      "source_type": "VENDOR_OFFICIAL_VERIFIED",
+      "priority": "P0",
+      "status": "SOURCE_RESEARCHED_NOT_CONNECTED",
+      "maps_to": [
+        "OPERATIONS",
+        "ASSETS",
+        "PRODUCTION",
+        "EDITORIAL"
+      ],
+      "next_gate": "Map project/asset/shot/version/dependency manifests to existing CineFactory receipts; evaluate self-host/licensing before integration."
+    },
+    {
+      "id": "ayon_noya_mcp",
+      "name": "AYON Noya assistant MCP",
+      "source_type": "USER_REPORT_ONLY_UNVERIFIED",
+      "priority": "P2",
+      "status": "NOT_VERIFIED_NOT_CONNECTED",
+      "maps_to": [
+        "OPERATIONS",
+        "TECHNICAL_DIRECTION"
+      ],
+      "next_gate": "Find an official product/repository/manual proving this exact Noya MCP before any install."
+    },
+    {
+      "id": "openusd",
+      "name": "Pixar OpenUSD scene interchange",
+      "source_type": "VENDOR_OFFICIAL_VERIFIED",
+      "priority": "P0",
+      "status": "SOURCE_RESEARCHED_NO_END_TO_END_USD_INTERCHANGE_TEST",
+      "maps_to": [
+        "ASSETS",
+        "PRODUCTION_DESIGN",
+        "TECHNICAL_DIRECTION",
+        "VFX"
+      ],
+      "next_gate": "Test Blender->USD->Blender scene roundtrip of original character/camera/props and SHA checks; verify features survive."
+    },
+    {
+      "id": "official_comfy_mcp",
+      "name": "Comfy-Org/comfy-mcp",
+      "source_type": "UPSTREAM_OFFICIAL_VERIFIED",
+      "priority": "P1",
+      "status": "OFFICIAL_AVAILABLE_NOT_CONNECTED_TO_COMPANY",
+      "maps_to": [
+        "GENERATIVE_MEDIA",
+        "RND",
+        "TECHNICAL_DIRECTION"
+      ],
+      "next_gate": "Inspect CLI/AGPL security and paid partner permissions; local node/workflow check in isolated sandbox only."
+    },
+    {
+      "id": "blender_mcp_community",
+      "name": "RFingAdam and 6xvl Blender community MCPs",
+      "source_type": "USER_REPO_LIST_NOT_ALL_CLAIMS_VERIFIED",
+      "priority": "P1",
+      "status": "RESEARCH_IN_CATALOG_NOT_EXECUTION_VERIFIED",
+      "maps_to": [
+        "TECHNICAL_DIRECTION",
+        "ASSETS",
+        "PRODUCTION"
+      ],
+      "next_gate": "Check repo provenance and arbitrary bpy permissions; compare safety with existing persistent Blender worker."
+    },
+    {
+      "id": "dcc_maya_houdini_nuke_unreal",
+      "name": "Maya/Houdini/Nuke/Unreal DCC MCP adapters",
+      "source_type": "MIXED_COMMUNITY_OFFICIAL_DOCS",
+      "priority": "P2",
+      "status": "RESEARCH_ONLY_NOT_INSTALLED_OR_BENCHMARKED",
+      "maps_to": [
+        "PERFORMANCE",
+        "VFX",
+        "COLOR",
+        "TECHNICAL_DIRECTION"
+      ],
+      "next_gate": "Evaluate installed software/licenses, adapter sandbox and a same-scene interop test; do not select all simultaneously."
+    },
+    {
+      "id": "maya_motionmaker",
+      "name": "Autodesk Maya MotionMaker",
+      "source_type": "VENDOR_OFFICIAL_VERIFIED",
+      "priority": "P2",
+      "status": "DOCUMENTED_NOT_INSTALLED_OR_BENCHMARKED",
+      "maps_to": [
+        "PERFORMANCE",
+        "ASSETS"
+      ],
+      "next_gate": "Benchmark actual original rig retargeting vs Blender Character Factory only if Maya legitimately available."
+    },
+    {
+      "id": "houdini_22",
+      "name": "SideFX Houdini 22 / procedural effects",
+      "source_type": "VENDOR_OFFICIAL_VERIFIED",
+      "priority": "P2",
+      "status": "VENDOR_FEATURES_VERIFIED_RUNTIME_NOT_AVAILABLE",
+      "maps_to": [
+        "VFX",
+        "PRODUCTION_DESIGN"
+      ],
+      "next_gate": "Check license/hardware and narrow VFX use case before allocating time or downloading."
+    },
+    {
+      "id": "ue6_scene_aware_ai",
+      "name": "Unreal Engine 6 Scene-Aware AI",
+      "source_type": "UNVERIFIED_PARTICULAR_FEATURE_UE6_STILL_IN_DEVELOPMENT",
+      "priority": "HOLD",
+      "status": "NOT_PRODUCTION_AVAILABLE_OR_BENCHMARKED",
+      "maps_to": [
+        "TECHNICAL_DIRECTION",
+        "VFX"
+      ],
+      "next_gate": "Official Epic UE6 is development roadmap, not a released software dependency; never claim a 2026 working build."
+    },
+    {
+      "id": "flux3",
+      "name": "Black Forest Labs FLUX 3",
+      "source_type": "VENDOR_OFFICIAL_EARLY_ACCESS",
+      "priority": "P2",
+      "status": "EARLY_ACCESS_AVAILABILITY_AND_LOCAL_VRAM_UNVERIFIED",
+      "maps_to": [
+        "GENERATIVE_MEDIA"
+      ],
+      "next_gate": "Verify public/partner access, cost, model terms and RTX3060 test before any production role."
+    },
+    {
+      "id": "sora_discontinuation",
+      "name": "OpenAI Sora sunset",
+      "source_type": "VENDOR_OFFICIAL_VERIFIED_EVENT",
+      "priority": "REFERENCE",
+      "status": "APP_AND_API_DISCONTINUATION_VERIFIED_CAUSE_UNPROVEN",
+      "maps_to": [
+        "RND",
+        "STUDIO_MANAGEMENT"
+      ],
+      "next_gate": "Remove from production candidates and never infer discontinuation caused by production workflow limitations."
+    },
+    {
+      "id": "gaussian_splatting",
+      "name": "KHR_gaussian_splatting",
+      "source_type": "KHRONOS_OFFICIAL_VERIFIED_3D_FORMAT_ONLY",
+      "priority": "P2",
+      "status": "3D_EXTENSION_RATIFIED_4D_STANDARD_CLAIM_UNSUPPORTED",
+      "maps_to": [
+        "VFX",
+        "PRODUCTION_DESIGN"
+      ],
+      "next_gate": "Experiment only if novel scene capture needs 3D splats; do not claim Khronos ratified 4D moving-splat spec."
+    },
+    {
+      "id": "local_qc_and_color",
+      "name": "OTIO/OCIO/ACES/OpenRV QC/finishing",
+      "source_type": "UPSTREAM_OFFICIAL_PREVIOUS_V214_RESEARCH",
+      "priority": "P0",
+      "status": "SOURCE_RESEARCHED_NOT_ALL_END_TO_END_VERIFIED",
+      "maps_to": [
+        "EDITORIAL",
+        "COLOR",
+        "QC"
+      ],
+      "next_gate": "Prove original full-length master, timing, audio loudness, color transforms and QC feedback loop."
+    },
+    {
+      "id": "render_farm_savings",
+      "name": "Agent render farm 40–75% cost saving",
+      "source_type": "UNVERIFIED_PERFORMANCE_CLAIM",
+      "priority": "HOLD",
+      "status": "NO_BENCHMARK_NO_FINANCIAL_ASSERTION",
+      "maps_to": [
+        "OPERATIONS",
+        "RND"
+      ],
+      "next_gate": "Require before/after same-scene measurements of GPU power, wall time, accepted output, crash rate and electricity."
+    }
+  ],
+  "actual_integration_status": "RESEARCH_INDEX_AND_QUALIFICATION_GATES_ONLY_NO_NEW_SOFTWARE_CONNECTED",
+  "owner_decision_needed": "No until choosing a specific installation or licensed paid backend",
+  "next_first_build": "Asset-shot version provenance + deterministic local Blender scene exchange + full finished scene QC receipts; don't scatter installations across every MCP"
+}

@@ -1,0 +1,169 @@
+schema: cine.minecraft.production_research.v222
+date: '2026-10-10'
+state: RESEARCH_IN_PROGRESS_NOT_PRODUCTION_READY
+as_of_utc: '2026-10-10'
+sources:
+  competitor_evidence: PUBLIC_CATALOG_AND_PAGE_DESCRIPTIONS_ONLY
+  existing_media: LOCAL_REAL_ORIGINAL_PILOT_HASH_VERIFIED
+  model_inference: NO_REFERENCE_VIDEO_MODEL_INFERENCE
+policy:
+  report_actual_full_competitor_viewing: false
+  paid_generation_credits_authorized: false
+  import_competitor_skins_or_scripts: false
+  change_active_blender_worker: false
+  publish_approval: false
+  original_story_and_character_assets_required: true
+  long_form_minimum_seconds: 480
+  quality_before_speed: true
+prior_research:
+  - docs/MINECRAFT_ART_RECOVERY_V1637.md
+  - docs/CINEFACTORY_MINECRAFT_SUBNICHES_V207.md
+  - docs/VISUAL_FIDELITY_v1.6.2.md
+  - docs/BLOCK_ANIMATION_FACTORY.md
+local_baseline:
+  relative_video: data/verification/v197_minecraft_art_direction/minecraft_3shot_visual_pilot_with_original_sfx.mp4
+  relative_receipt: data/verification/v197_minecraft_art_direction/pilot_media_evidence.json
+  relative_art_qc: data/verification/v197_minecraft_art_direction/recovery_gap_audit.json
+  relative_storyboard: data/verification/v197_minecraft_art_direction/three_shot_real_frame_review.jpg
+  video_sha256: 0a880320847cfda17172618b6b7a1aadba14d27311d8529b180962297c64443e
+  duration_seconds: 2.0
+  fps: 24
+  resolution: [960, 540]
+  observed: "Local original voxel village three-camera proof only; still primitive acting/faces and no professional coherent narrative or dialogue."
+competitor_cases:
+  - id: bigschool_original_animation
+    channel: BigSchool
+    url: https://www.youtube.com/@bigschoolminecraft/videos
+    subject: Monster School / Minecraft animated conflict and character reactions
+    verified_source: https://www.speakrj.com/audit/report/UC-Diq5SjWZDol8C0_E_1Y7A/youtube
+    public_metadata_seen: true
+    full_video_and_audio_inspected: false
+    exact_production_tool_verified: false
+    research_questions:
+      - "Which original long-form videos >=8min have strong dated 2026 traction?"
+      - "How do setup/conflict/reversal/payoff and camera cuts function across full episodes?"
+      - "Which armature, face, props and backgrounds could be original and reused legally?"
+  - id: maizen_official_scripted_gameplay
+    channel: Maizen Official
+    url: https://www.youtube.com/@maizenofficial/videos
+    subject: Minecraft scripted adventures; separate genuine game capture from external 3D animation
+    verified_source: https://maizen.com/usage-guidelines/
+    public_metadata_seen: true
+    full_video_and_audio_inspected: false
+    exact_production_tool_verified: false
+    research_questions:
+      - "Is selected episode original game runtime, 3D render, or edited hybrid?"
+      - "What are real game mechanics versus staged custom mods and cinematic scripting?"
+  - id: kamui_unofficial_maizen_animation
+    channel: Kamui Animation
+    url: https://www.youtube.com/watch?v=psUSgeK57t8
+    subject: Unofficial JJ/Mikey animation; distinguish fan derivative rights and actual art methods
+    verified_source: https://www.youtube.com/watch?v=psUSgeK57t8
+    public_metadata_seen: true
+    full_video_and_audio_inspected: false
+    exact_production_tool_verified: false
+    research_questions:
+      - "Can the video be legally inspected frame by frame for generic cinematography, not copied rigs?"
+      - "Which movements are keyframed externally vs game capture? UNVERIFIED until footage."
+technology_study:
+  - id: existing_blender_4_5
+    role: primary_deterministic_voxel_animation
+    source: https://www.blender.org/releases/4-5/
+    installed_and_version_checked: true
+    production_quality_qualified: false
+    priority: P0
+    gate: "Improve original rig, face, acting, world and lighting; compare same shots after visual signoff."
+  - id: blockbench_original_assets
+    role: original_rigged_model_skin_pixel_uv
+    source: https://blockbench.net/wiki/guides/export-formats/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P0
+    gate: "Creator-authored original props and GLB/glTF export; validate bones, texture nearest and rights."
+  - id: blender_studio_course
+    role: published_professional_workflow_reference
+    source: https://studio.blender.org/training/minecraft-animation-workshop/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P0
+    gate: "Course curriculum only read; membership video not watched. Learn world, skin, rig, light, render, audio."
+  - id: mineways
+    role: original_world_export_to_blender
+    source: https://github.com/erich666/Mineways
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "Must own legal game/world source and permission. Test export on Blender 4.5 with original world."
+  - id: mcprep
+    role: blend_world_material_and_mob_preparation
+    source: https://github.com/Moo-Ack-Productions/MCprep
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "README compatibility older Blender; require Blender 4.5 isolated check, no auto-install."
+  - id: mineimator
+    role: optional_block_specific_animation_comparison
+    source: https://www.mineimator.com/download
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "No verified headless API/MCP. Compare manually on one legally original shot, no automatic integration."
+  - id: comfyui_local
+    role: concept_and_optional_hero_visuals_only
+    source: https://github.com/Comfy-Org/ComfyUI
+    installed_and_version_checked: true
+    production_quality_qualified: false
+    priority: P2
+    gate: "Core app confirmed local API only; persistent 3D character continuity unproven, no paid nodes."
+  - id: blender_lab_mcp
+    role: isolated_claude_3d_scene_commands
+    source: https://www.blender.org/lab/mcp-server/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "Requires Blender 5.1+, unsandboxed bpy; don't replace existing production 4.5 worker."
+  - id: ffmpeg_existing
+    role: deterministic_local_post_production
+    source: https://ffmpeg.org/
+    installed_and_version_checked: true
+    production_quality_qualified: false
+    priority: P0
+    gate: "Use existing episode assembler; sound/edit/master benchmark still mandatory."
+legal_study:
+  - label: Minecraft Usage Guidelines
+    source: https://www.minecraft.net/en-us/usage-guidelines
+    consequence: "Monetized original creative gameplay/video allowed under specific free-view/ad revenue conditions, not blanket IP licensing."
+  - label: Maizen fan character guidelines
+    source: https://maizen.com/usage-guidelines/
+    consequence: "Limited conditioned allowance for free-view fan videos and ad revenue; not ownership of JJ/Mikey brand/characters. Prefer first-party cast."
+  - label: YouTube channel monetization guidelines
+    source: https://support.google.com/youtube/answer/1311392
+    consequence: "Repetitive inauthentic mass-produced videos can lose monetization even if made with original Blender render."
+pilot_plan:
+  title: The Lost Lantern - ORIGINAL Minecraft-inspired mystery
+  objective: "Demonstrate acting, environment, character and audio quality in a 45-second original conflict/reveal/payoff."
+  duration_seconds: 45
+  target_resolution: [1920, 1080]
+  fps: 24
+  language: English
+  originality: "Original 'Nova' and 'Pip' characters; no JJ, Mikey, Steve, Herobrine or copied branding."
+  shot_beats:
+    - {id: A01, seconds: 4, beat: "Forest lantern mysteriously goes dark; establish stakes", camera: "wide_push", needs: [world, light_cue, night_forest, original_sfx]}
+    - {id: A02, seconds: 4, beat: "Nova notices light missing and looks at Pip", camera: "reaction_medium", needs: [gaze, head_turn, facial_expression]}
+    - {id: A03, seconds: 4, beat: "Pip hears whisper; turns with fear", camera: "closeup", needs: [brow, blink, mouth, gesture, foley]}
+    - {id: A04, seconds: 5, beat: "They follow a trail into a cave", camera: "moving_two_shot", needs: [walk_cycle, footplant, parallax_world]}
+    - {id: A05, seconds: 5, beat: "Suspense grows at doorway, dialogue warning", camera: "over_shoulder", needs: [dialogue, phonemes, footsteps, prop_sockets]}
+    - {id: A06, seconds: 5, beat: "Glowing orb revealed; characters react differently", camera: "wide_reveal", needs: [light_transition, reaction_clips, world_prop]}
+    - {id: A07, seconds: 5, beat: "Nova reaches out, Pip flinches; funny reversal", camera: "medium_action", needs: [hand_IK, weight_shift, anticipation]}
+    - {id: A08, seconds: 5, beat: "Orb floats onto Pip head, lighting the cave", camera: "hero_close", needs: [prop_socket, face_light, foley]}
+    - {id: A09, seconds: 4, beat: "Two characters laugh; mystery resolved", camera: "reaction_two_shot", needs: [laugh_body, mouth, ambient_audio]}
+    - {id: A10, seconds: 4, beat: "A second glow appears deeper in cave; end hook", camera: "end_reveal", needs: [color_grade, foreshadowing, music_button]}
+  gated_stages:
+    - CHARACTER_UV_64_AND_FACE_ARTIST_REVIEW
+    - EXPRESSIVE_RIG_SHOULDER_ELBOW_HAND_HIP_FOOT_QC
+    - LOCKED_ORIGINAL_SCRIPT_AND_STORYBOARD
+    - ORIGINAL_SFX_MUSIC_VOICE_LICENSE_AND_AUDIO_QC
+    - FIRST_REAL_1080P24_30_60S_RENDER
+    - HUMAN_CREATIVE_AND_COMPARABLE_METHOD_REVIEW
+    - RIGHTS_QUALITY_AND_RELEASE_AUTHORIZATION
+  allow_production_promotion: false

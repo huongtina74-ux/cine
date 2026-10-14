@@ -1,0 +1,22 @@
+camera_patterns:
+  - {pattern_id: default_medium, purpose: default, shot_size: MS, lens_mm: 50, motion: static, target_mode: single}
+  - {pattern_id: reaction_close, purpose: reaction, shot_size: CU, lens_mm: 70, motion: push_in, target_mode: single}
+  - {pattern_id: reaction_medium, purpose: reaction, shot_size: MCU, lens_mm: 55, motion: static, target_mode: single}
+  - {pattern_id: presentation_group, purpose: presentation, shot_size: MWS, lens_mm: 34, motion: static, target_mode: pair, framing_margin: 0.20, motion_strength: 0.10, dof_fstop: 4.5}
+  - {pattern_id: reveal_wide, purpose: comedy_reveal, shot_size: WS, lens_mm: 35, motion: snap, target_mode: group}
+  - {pattern_id: reveal_close, purpose: comedy_reveal, shot_size: CU, lens_mm: 65, motion: push_in, target_mode: single}
+  - {pattern_id: chase_track, purpose: chase, shot_size: MS, lens_mm: 35, motion: track, target_mode: single}
+  - {pattern_id: argument_ots, purpose: argument, shot_size: MCU, lens_mm: 55, motion: static, target_mode: pair}
+  - {pattern_id: group_reaction, purpose: group_reaction, shot_size: MWS, lens_mm: 40, motion: static, target_mode: group}
+  - {pattern_id: orbit_group, purpose: group_orbit, shot_size: MWS, lens_mm: 42, motion: orbit, target_mode: group, framing_margin: 0.18, motion_strength: 0.24, dof_fstop: 4.5}
+  - {pattern_id: prop_insert, purpose: important_prop, shot_size: INSERT, lens_mm: 75, motion: push_in, target_mode: prop}
+  # v1.6.2 visual-fidelity grammar: level by default, bounded motion, wider
+  # composition for style-readable environment context.
+  - {pattern_id: fidelity_establish, purpose: fidelity_establish, shot_size: WS, lens_mm: 38, motion: static, target_mode: group, framing_margin: 0.16, horizontal_safe_margin: 0.14, vertical_safe_margin: 0.14, min_subject_occupancy: 0.06, max_subject_occupancy: 0.62}
+  - {pattern_id: fidelity_medium, purpose: fidelity_medium, shot_size: MS, lens_mm: 48, motion: static, target_mode: single, framing_margin: 0.13, horizontal_safe_margin: 0.12, vertical_safe_margin: 0.12, min_subject_occupancy: 0.12, max_subject_occupancy: 0.72}
+  - {pattern_id: fidelity_reaction, purpose: fidelity_reaction, shot_size: MCU, lens_mm: 58, motion: push_in, target_mode: single, framing_margin: 0.12, horizontal_safe_margin: 0.12, vertical_safe_margin: 0.14, min_subject_occupancy: 0.20, max_subject_occupancy: 0.76}
+  - {pattern_id: fidelity_presentation, purpose: fidelity_presentation, shot_size: MWS, lens_mm: 36, motion: static, target_mode: pair, framing_margin: 0.18, horizontal_safe_margin: 0.14, vertical_safe_margin: 0.14, min_subject_occupancy: 0.16, max_subject_occupancy: 0.72, dof_fstop: 5.6}
+  - {pattern_id: fidelity_prop_insert, purpose: fidelity_prop_insert, shot_size: MS, lens_mm: 54, motion: static, target_mode: prop, framing_margin: 0.16, horizontal_safe_margin: 0.14, vertical_safe_margin: 0.14, min_subject_occupancy: 0.10, max_subject_occupancy: 0.70, dof_fstop: 5.6}
+  - {pattern_id: fidelity_track, purpose: fidelity_track, shot_size: MS, lens_mm: 40, motion: track, target_mode: single, framing_margin: 0.14, horizontal_safe_margin: 0.12, vertical_safe_margin: 0.12, min_subject_occupancy: 0.10, max_subject_occupancy: 0.70}
+  - {pattern_id: fidelity_orbit, purpose: fidelity_orbit, shot_size: MWS, lens_mm: 42, motion: orbit, target_mode: group, framing_margin: 0.18, motion_strength: 0.10, horizontal_safe_margin: 0.15, vertical_safe_margin: 0.15, min_subject_occupancy: 0.14, max_subject_occupancy: 0.68, dof_fstop: 5.6}
+  - {pattern_id: fidelity_group, purpose: fidelity_group, shot_size: MWS, lens_mm: 40, motion: static, target_mode: group, framing_margin: 0.16, horizontal_safe_margin: 0.14, vertical_safe_margin: 0.14, min_subject_occupancy: 0.12, max_subject_occupancy: 0.68, dof_fstop: 5.6}

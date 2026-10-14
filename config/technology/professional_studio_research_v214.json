@@ -1,0 +1,248 @@
+{
+  "schema": "cine.technology.professional_studio_research.v214",
+  "review_date": "2026-10-10",
+  "source_study": "User provided Vietnamese filmmaking/VFX encyclopedia labeled October 2025; 18 sections including section 18 absent from its table of contents",
+  "baseline_registry_count": 96,
+  "baseline_registry_preserved": true,
+  "research_only": true,
+  "items_count": 18,
+  "automatic_install": false,
+  "paid_api_calls": false,
+  "license_or_runtime_certification": false,
+  "note": "Includes one already-in-base Houdini review entry and some version-specific siblings; NOT count of new installed tools and NOT a verified exhaustive 2026 technology crawl.",
+  "items": [
+    {
+      "id": "prism_pipeline2",
+      "name": "Prism Pipeline 2",
+      "role": "DCC project/asset/shot publishing and versions",
+      "priority": "P0",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://prism-pipeline.com/docs/latest/general/licensing/",
+      "caveat": "Free LGPL core and selected plugins; USD/Unreal/Resolve integrations require paid tiers.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "opentimelineio",
+      "name": "OpenTimelineIO",
+      "role": "Non-destructive editorial sequence exchange",
+      "priority": "P0",
+      "niches": [
+        "ALL"
+      ],
+      "url": "https://github.com/AcademySoftwareFoundation/OpenTimelineIO",
+      "caveat": "Timeline metadata only, not the media files. Adapter tests required.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "opencolorio",
+      "name": "OpenColorIO",
+      "role": "Consistent color transforms Blender to edit",
+      "priority": "P0",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D",
+        "EXPLAINER"
+      ],
+      "url": "https://github.com/AcademySoftwareFoundation/OpenColorIO",
+      "caveat": "Choose pinned config; ACES display/output review needed.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "aces2",
+      "name": "ACES 2",
+      "role": "High-end color pipeline specification",
+      "priority": "P0",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://docs.acescentral.com/background/about-aces-2/",
+      "caveat": "Color standard/config selection, not a renderer or optional automatic quality boost.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "openrv",
+      "name": "Open RV",
+      "role": "Frame/sequence dailies inspection",
+      "priority": "P0",
+      "niches": [
+        "ALL"
+      ],
+      "url": "https://github.com/AcademySoftwareFoundation/OpenRV",
+      "caveat": "Building on Windows has substantial dependencies; benchmark first.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "sam2",
+      "name": "Meta Segment Anything 2",
+      "role": "Masking/segmenting frames and moving objects",
+      "priority": "P1",
+      "niches": [
+        "FIELD_CAPTURE",
+        "REAL_ASMR",
+        "FILM_3D"
+      ],
+      "url": "https://ai.meta.com/research/sam2/",
+      "caveat": "Real video and model checkpoints required; output corrections/QC.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "depth_anything_v2_small",
+      "name": "Depth Anything V2 Small",
+      "role": "Depth guidance for image/video VFX",
+      "priority": "P1",
+      "niches": [
+        "FIELD_CAPTURE",
+        "FILM_3D",
+        "EXPLAINER"
+      ],
+      "url": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "caveat": "Official repo states SMALL weights Apache-2.0; check dependencies and model artifacts.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "depth_anything_v2_base_large",
+      "name": "Depth Anything V2 Base/Large",
+      "role": "Depth guidance with larger models",
+      "priority": "HOLD",
+      "niches": [
+        "FIELD_CAPTURE",
+        "FILM_3D"
+      ],
+      "url": "https://github.com/DepthAnything/Depth-Anything-V2",
+      "caveat": "Official repo states Base/Large/Giant weights CC-BY-NC-4.0, not for commercial use without separate rights.",
+      "status": "SOURCE_VERIFIED_LICENSE_RESTRICTED"
+    },
+    {
+      "id": "materialx",
+      "name": "MaterialX",
+      "role": "Portable procedural material/lookdev representation",
+      "priority": "P1",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://github.com/AcademySoftwareFoundation/MaterialX",
+      "caveat": "Interoperability and shader equivalence require per-renderer tests.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "kitsu",
+      "name": "CGWire Kitsu",
+      "role": "Animation project/shot/version tracking",
+      "priority": "P1",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://www.cg-wire.com/",
+      "caveat": "Evaluate server hosting overhead before adoption; do not duplicate company control plane.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "ayon",
+      "name": "AYON",
+      "role": "Cross-DCC pipelines, addons, asset publishing",
+      "priority": "RND",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://docs.ayon.dev/",
+      "caveat": "Modular studio platform; evaluate scope, server overhead, addon and licensing before install.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "opencue",
+      "name": "OpenCue",
+      "role": "Multi-worker render job scheduling",
+      "priority": "RND",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://docs.opencue.io/",
+      "caveat": "Premature for one RTX 3060 workstation unless new render farm needs justify operational cost.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "gaffer",
+      "name": "Gaffer",
+      "role": "Open-source node-based lighting, lookdev and automation",
+      "priority": "RND",
+      "niches": [
+        "FILM_3D"
+      ],
+      "url": "https://github.com/GafferHQ/gaffer",
+      "caveat": "Requires DCC/renderer integration pilot; not essential for present Minecraft voxel look.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "realityscan",
+      "name": "Epic RealityScan desktop",
+      "role": "Photogrammetric real-world 3D scan",
+      "priority": "RND",
+      "niches": [
+        "FILM_3D",
+        "FIELD_CAPTURE"
+      ],
+      "url": "https://www.realityscan.com/news/realityscan-20-new-release-brings-powerful-new-features-to-a-rebranded-realitycapture",
+      "caveat": "Former RealityCapture; 2026 legacy licensing shutdown; only adopt after output/license QA.",
+      "status": "SOURCE_VERIFIED_RESEARCH_ONLY"
+    },
+    {
+      "id": "flow_capture",
+      "name": "Autodesk Flow Capture",
+      "role": "Cloud dailies and secure review",
+      "priority": "HOLD",
+      "niches": [
+        "ALL"
+      ],
+      "url": "https://www.autodesk.com/products/flow-capture/overview/",
+      "caveat": "Formerly Moxion/PIX; paid managed service and no clear ROI for a single automated workstation.",
+      "status": "SOURCE_VERIFIED_CLOUD_PAID_CANDIDATE"
+    },
+    {
+      "id": "houdini_indie_lifecycle",
+      "name": "Houdini Indie commercial evaluation",
+      "role": "Procedural destruction, fluids, crowds, cloth",
+      "priority": "RND",
+      "niches": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "url": "https://www.sidefx.com/faq/indie-new/",
+      "caveat": "Houdini already in 96 inventory. Evaluate Indie revenue/funding eligibility and annual license first.",
+      "status": "ALREADY_IN_BASE_REVIEW_ONLY"
+    },
+    {
+      "id": "comfy_controlnet_aux",
+      "name": "ComfyUI ControlNet Auxiliary Preprocessors",
+      "role": "Depth/edge/pose guidance preprocessors",
+      "priority": "P1",
+      "niches": [
+        "FILM_3D",
+        "ANIMATION_2D"
+      ],
+      "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+      "caveat": "Source mentioned by 2025 study; independent 2026 status/version/license/runtime recheck needed.",
+      "status": "SOURCE_RECHECK_REQUIRED"
+    },
+    {
+      "id": "comfy_impact_pack",
+      "name": "ComfyUI Impact Pack",
+      "role": "Detailer and quality repair workflow nodes",
+      "priority": "P1",
+      "niches": [
+        "FILM_3D",
+        "ANIMATION_2D"
+      ],
+      "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+      "caveat": "Custom nodes are executable code; security, license and dependency audit before install.",
+      "status": "SOURCE_RECHECK_REQUIRED"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "schema": "cine.minecraft.maizen_three_references_first_party_study.v248",
+  "as_of": "2026-10-11",
+  "project_id": "MAI01_WATERFALL",
+  "research_scope": "TWO_ADDITIONAL_REFERENCE_FILMS_COMPLETE_ORIGINAL_BROWSER_PICTURE_AND_AUDIO_CAPTURE_ASR_WITHOUT_SECOND_PERSON_INDEPENDENT_AV_QC",
+  "first_source": {
+    "video_id": "ZmT0ITUGUII",
+    "reference": "config/niches/minecraft/maizen_original_browser_audio_evidence_v242.json",
+    "format_hypothesis": "PAIRWISE_CHOICE_PUNISHMENT_THEN_LONG_BOSS_FINALE",
+    "full_browser_picture_position_covered": true,
+    "full_original_browser_audio_chunks_and_local_asr": true,
+    "strict_g02_signed_off": false
+  },
+  "remaining_references": [
+    {
+      "video_id": "zhPBXzHsLuo",
+      "title": "Built a House inside BED in Minecraft",
+      "duration_local_s": 1116.601,
+      "complete_browser_segments": 30,
+      "original_audio_segments": 30,
+      "whisper_segments_complete": 30,
+      "original_video_frames_sampled": 142,
+      "recognized_words_uncorrected": 2977,
+      "private_local_receipt": ".tools/maizen_two_full_av_v244/zhPBXzHsLuo/independent_audio_visual_audit.json",
+      "local_first_5s_patch": ".tools/maizen_two_full_av_v244/zhPBXzHsLuo/original_first_5s.json",
+      "format_hypothesis": "TINY_SECRET_HOME_REVENGE",
+      "source_visual_audio_status": "ORIGINAL_YOUTUBE_BROWSER_FULL_PLAYBACK_AUDIO_CAPTURE_AUTOMATIC_ASR_NOT_INDEPENDENT_ART_SOUND_QC",
+      "narrative_spine": "Revenge premise after Buu steals life savings; shrink heroes; infiltrate and establish hidden base in his bed; transfer furniture, kitchen and food; install security; Buu returns and attempts to destroy bed; reactive defenses and payback; branded outro.",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 70,
+          "label": "Revenge hook and shrinking",
+          "visual": "Original green and red voxel avatars in front of wooden house, shrink device, both become tiny; HUD/camera drops to tiny eye line",
+          "voice_story": "They explain stolen savings, plan to live in Buu's house without being noticed, count down before shrink"
+        },
+        {
+          "start": 70,
+          "end": 190,
+          "label": "Small entrance into giant house and inside bed",
+          "visual": "Characters dig a small opening, move past furniture to oversized bed, enter abstract red interior space",
+          "voice_story": "Talk through sneaking in and choosing bed as hiding place"
+        },
+        {
+          "start": 190,
+          "end": 350,
+          "label": "Living spaces inside bed",
+          "visual": "Move household furnishings, build a room and bathroom, furniture appears in bed interior",
+          "voice_story": "Dialogue inventories stolen household furniture and plans living room, bathroom, useful space"
+        },
+        {
+          "start": 350,
+          "end": 470,
+          "label": "Kitchen and farm",
+          "visual": "Kitchen counter, sink, table, refrigerator, harvesting outdoor crops, farming soil and water built in red interior",
+          "voice_story": "Food needs drive a farming detour, then using stolen crops to create self-sustaining garden"
+        },
+        {
+          "start": 470,
+          "end": 685,
+          "label": "Defense preparation and window",
+          "visual": "Cooling ice blocks/fans, gun-like arrow defense/sentry, green-cased reflector machines, monitoring window overlooking main bedroom",
+          "voice_story": "They anticipate Buu burning the bed and attacking with projectiles/explosives, so each prepared device has an explicit later function"
+        },
+        {
+          "start": 685,
+          "end": 845,
+          "label": "Night cut and retrieval of stolen diamonds",
+          "visual": "Black NIGHT card; large main-bedroom Steve-like owner finds missing things, returns to bed, tiny protagonists enter behind bookshelf into diamond-walled stash and take valuables",
+          "voice_story": "Owner announces diamonds hidden behind bookshelf; protagonists realize recovered treasure is the originally stolen property"
+        },
+        {
+          "start": 845,
+          "end": 945,
+          "label": "Discovery and fire",
+          "visual": "Owner notices abnormal bedroom, injects lava/fire into giant bed, protagonists fight flames; room temperature meter increases",
+          "voice_story": "Owner recognizes intruders; protagonists activate earlier fire-contingency plan"
+        },
+        {
+          "start": 945,
+          "end": 1090,
+          "label": "Multi-step defense and retaliation",
+          "visual": "Ice seals large bed chamber, ventilation machinery cools, arrow/security modules aim toward owner, owner carries rocket launcher, reflector bounces attack and large part of room explodes",
+          "voice_story": "Characters activate cooling/arrow defenses, react to launcher threat, then use reflector introduced earlier to counterattack"
+        },
+        {
+          "start": 1090,
+          "end": 1116.601,
+          "label": "Resolution and outro",
+          "visual": "Surviving tiny character within giant base then 2D official Maizen endcard",
+          "voice_story": "Short resolution and branded follow-up/subscribe CTA"
+        }
+      ]
+    },
+    {
+      "video_id": "oX6Azwe5QLg",
+      "title": "Minecraft, But Item Drops Are Multiplied Every Time!!",
+      "duration_local_s": 1030.741,
+      "complete_browser_segments": 28,
+      "original_audio_segments": 28,
+      "whisper_segments_complete": 28,
+      "original_video_frames_sampled": 128,
+      "recognized_words_uncorrected": 3004,
+      "private_local_receipt": ".tools/maizen_two_full_av_v244/oX6Azwe5QLg/independent_audio_visual_audit.json",
+      "local_first_5s_patch": ".tools/maizen_two_full_av_v244/oX6Azwe5QLg/original_first_5s.json",
+      "format_hypothesis": "SINGLE_CHEAT_RULE_TO_END_BOSS_PROGRESSION",
+      "source_visual_audio_status": "ORIGINAL_YOUTUBE_BROWSER_FULL_PLAYBACK_AUDIO_CAPTURE_AUTOMATIC_ASR_NOT_INDEPENDENT_ART_SOUND_QC",
+      "narrative_spine": "Special block multiplier introduced before adventure; wheat and basic resources explode in quantity; craft and loot through desert pyramid; exploit TNT, gold and iron; descend through cave/lava for diamonds; progress to Nether blaze/ender pearls; fight Ender Dragon with golems and staged TNT; return and outro.",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 120,
+          "label": "Mechanic hook and quick resource power",
+          "visual": "Original Minecraft desert village, green turtle avatar and red POV, glowing green selector, wheat/sand repeated block drops; inventory instantly full",
+          "voice_story": "Characters explain special item multiplies output of blocks, immediately demonstrate and plan to gather more"
+        },
+        {
+          "start": 120,
+          "end": 300,
+          "label": "Pyramid, TNT trap and treasure",
+          "visual": "Explore desert pyramid, craft pickaxe, disarm pressure plate and recover/double TNT, loot chest items, craft iron blocks",
+          "voice_story": "Plans connected by target resources; they realize TNT hazard also becomes a resource when multiplier is used"
+        },
+        {
+          "start": 300,
+          "end": 465,
+          "label": "Mob encounter, TNT blast and deep cave",
+          "visual": "Fighting mobs in desert stone rooms, TNT behind obsidian protection, burst through terrain to lava lake and stone cavern",
+          "voice_story": "They turn plentiful TNT into fast mining, but must still protect themselves against explosions and lava"
+        },
+        {
+          "start": 465,
+          "end": 600,
+          "label": "Diamonds and accelerated equipment",
+          "visual": "Ore vein becomes many diamond entities, inventory/crafting tables visibly fill with resources",
+          "voice_story": "Resource jackpot prompts crafting gear, upgrading from scarcity to power"
+        },
+        {
+          "start": 600,
+          "end": 780,
+          "label": "Nether and scarce progression items",
+          "visual": "Nether fortress, blaze fights, enderman and ender pearls, potion/status effects and diamond armor",
+          "voice_story": "Special block multiplier does not automatically solve every non-block drop; characters must collect required End progression items"
+        },
+        {
+          "start": 780,
+          "end": 960,
+          "label": "Ender Dragon boss strategy",
+          "visual": "End dimension, Iron Golems set in place, obsidian platform and multiple stacked TNT structures, dragon health bar and successive explosions",
+          "voice_story": "Heroes exploit extra blocks to build golem/TNT tactics, wait for dragon landing and keep adapting when initial attack does not finish it"
+        },
+        {
+          "start": 960,
+          "end": 1030.741,
+          "label": "Victory, egg and end card",
+          "visual": "Dragon death visuals, dark egg on obsidian, green actor near egg, ending text about block duplicator in survival, 2D Maizen endcard",
+          "voice_story": "Celebrate clearing boss and discuss dragon egg; finish with branded CTA"
+        }
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "aspect": "HOOK",
+      "choice": "One correct/one wrong giant pipe choice",
+      "secret_bed": "Payback premise and shrink-to-infiltrate demonstration",
+      "multiplier": "Show doubling item drops and full inventory immediately"
+    },
+    {
+      "aspect": "PRIMARY_ENGINE",
+      "choice": "Repeated binary choice, inversion, penalty",
+      "secret_bed": "Tiny-versus-giant set scale and hidden-home construction",
+      "multiplier": "Resource progression under one block multiplier rule"
+    },
+    {
+      "aspect": "SUSTAINING_MOMENTUM",
+      "choice": "Cycle through varied choice worlds; later huge survival round",
+      "secret_bed": "Loot and furnish -> farm -> security -> retribution",
+      "multiplier": "Wheat -> TNT -> diamond gear -> Nether -> End fight"
+    },
+    {
+      "aspect": "CLIMAX",
+      "choice": "Long preparation and boss test of contrasting defenses",
+      "secret_bed": "Owner fire and rocket attack activate planted ice/arrow/reflector defenses",
+      "multiplier": "Ender Dragon fight with Iron Golems and repeated TNT tactics"
+    },
+    {
+      "aspect": "CAMERA_EVIDENCE",
+      "choice": "Mostly Minecraft POV/HUD + occasional staged external 3rd-person",
+      "secret_bed": "First-person HUD in a giant scale world + third-person shrink/reaction and edited cutaway",
+      "multiplier": "First-person HUD, crafting/inventory closeups, staged avatar shots"
+    },
+    {
+      "aspect": "EDITORIAL_EVIDENCE",
+      "choice": "Bold color-coded captions, big contrasts, 2D endcard",
+      "secret_bed": "Color-coded subtitles, instant location scale changes, NIGHT bridge card, build montage, 2D endcard",
+      "multiplier": "Captioned explanations, actual inventory quantification, action chapter shifts, dragon boss bar, 2D endcard"
+    },
+    {
+      "aspect": "PRODUCTION_SOFTWARE",
+      "choice": "UNKNOWN exact mod, bot, renderer, editor",
+      "secret_bed": "UNKNOWN shrinking mods/custom map/rig/recording/editor",
+      "multiplier": "UNKNOWN block multiplier mod/datapack/server commands/game version"
+    }
+  ],
+  "generalizable_lessons": [
+    "Lead with a visually intelligible high-concept rule or unresolved wrong done within first ~30 seconds",
+    "Maintain two contrasting character voices and cause-effect dialogue that tells audiences why choices/actions matter",
+    "Use a modular world and consistent props/world states, not random unscripted play alone",
+    "Show progress through visibly changing in-game inventory, space, threat or discoveries",
+    "Schedule callbacks: early props and construction plans must be tested by later conflicts",
+    "Lengthen and diversify the climax rather than repeating the hook without evolution",
+    "Separate game-camera and staged reaction coverage; license original sounds, assets and names",
+    "Never infer proprietary mod versions/Blender/recording bots from the image or captions alone"
+  ],
+  "production_studio_handoffs": {
+    "RESEARCH": "Three format DNA profiles should be compared with more episodes per format; screenshot sampling is not every frame; audio ASR not full Foley/music validation",
+    "WRITERS_ROOM": "Choose one original dramatic mechanism for MAI01; opening claim, protagonist mistaken assumption, escalating consequences, planted tool used in ending",
+    "PRODUCTION_DESIGN": "For tiny-home stories maintain 3D scale consistency; for progression format implement resource-item invariants; for pairwise format maintain adjacent challenge stages",
+    "PERFORMANCE": "Block distinct two-actor camera eyelines, responses, inventory/hand interactions; no reuse of copyrighted characters",
+    "TECHNICAL_DIRECTION": "Benchmark a real first-party shot among licensed game staging / authored Blender CGI / hybrid; do not claim exact Maizen backend",
+    "AUDIO_EDITORIAL": "Use narrative speech and objective SFX cues synchronized to filmed actions, verify source-music rights; end-card has independent 2D art",
+    "QC": "Require real motion, visual scene continuity, original sound speech/SFX/music checks and an independent reviewer before source G02 certification"
+  },
+  "safety": {
+    "original_competitor_movies_not_redistributed": true,
+    "local_audio_and_screenshots_git_ignored": true,
+    "no_paid_video_analysis_services_invoked": true,
+    "zero_new_external_api_spend": true,
+    "exact_competitor_software_confirmed": false,
+    "independent_full_media_30sec_interval_review_signed_off": false,
+    "strict_v227_cohort_gate_passed": false,
+    "three_selected_original_browsers_all_timeline_covered": true
+  }
+}

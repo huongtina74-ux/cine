@@ -1,0 +1,15 @@
+animations:
+  - {clip_id: idle, duration_frames: 48, fps: 24, loopable: true, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [idle]}
+  - {clip_id: walk, duration_frames: 24, fps: 24, loopable: true, root_motion: true, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [locomotion]}
+  - {clip_id: run, duration_frames: 18, fps: 24, loopable: true, root_motion: true, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [locomotion, energetic]}
+  - {clip_id: turn_head, duration_frames: 12, fps: 24, layer: upper, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [look]}
+  - {clip_id: point, duration_frames: 30, fps: 24, layer: upper, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [gesture]}
+  - {clip_id: wave, duration_frames: 36, fps: 24, layer: upper, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [gesture]}
+  - {clip_id: laugh_body, duration_frames: 36, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [emotion]}
+  - {clip_id: cry_body, duration_frames: 48, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [emotion]}
+  - {clip_id: shock_recoil, duration_frames: 18, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [reaction]}
+  - {clip_id: flinch, duration_frames: 12, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [reaction]}
+  - {clip_id: jump, duration_frames: 24, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [action]}
+  - {clip_id: fall, duration_frames: 30, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [action]}
+  - {clip_id: push, duration_frames: 24, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [interaction]}
+  - {clip_id: grab, duration_frames: 20, fps: 24, compatible_skeleton_profiles: [MINECRAFT_VOXEL_V1, ROBLOX_R6_V1, ROBLOX_R15_V1], tags: [interaction]}

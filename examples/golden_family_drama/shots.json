@@ -1,0 +1,107 @@
+[
+  {
+    "shot_id": "SC01_SH01",
+    "scene_id": "SC01",
+    "narrative_purpose": "establish the physical and emotional distance between daughter and father",
+    "audience_endpoint": "understand where both characters and the folder are in the room",
+    "duration_seconds": 4.5,
+    "complexity": "GREEN",
+    "performance": {
+      "C01": {"objective": "open the subject carefully", "action_verb": "probe", "inner_state": {"suspicion": 0.35}, "outward_mask": "controlled", "micro_expression": {}, "body_behavior": {}, "breath": {}, "listening_behavior": {}},
+      "C02": {"objective": "keep the sacrifice hidden", "action_verb": "deflect", "inner_state": {"shame": 0.3, "love": 0.8}, "outward_mask": "casual", "micro_expression": {}, "body_behavior": {"hands": "fold receipt slowly"}, "breath": {}, "listening_behavior": {}}
+    },
+    "entry_state": {
+      "location_id": "KITCHEN",
+      "time_of_day": "night",
+      "light_state": "warm practical plus cool window fill",
+      "characters": {
+        "C01": {"character_id": "C01", "costume_id": "C01_W01", "position": "west doorway", "facing": "east", "eyeline": "C02", "emotion": "controlled suspicion", "held_props": ["P_FOLDER"]},
+        "C02": {"character_id": "C02", "costume_id": "C02_W01", "position": "northeast chair", "facing": "southwest", "eyeline": "receipt", "emotion": "guarded", "held_props": []}
+      },
+      "props": {"P_FOLDER": "closed"},
+      "camera_side": "south",
+      "motion_axis": "daughter-table-father"
+    },
+    "action_beats": [
+      {"actor": "C01", "action": "walks to the southwest edge of the table", "target": "table", "start_second": 0.2, "end_second": 2.2},
+      {"actor": "C01", "action": "places the folder on the table", "target": "P_FOLDER", "start_second": 2.3, "end_second": 3.1}
+    ],
+    "camera": {
+      "narrative_purpose": "preserve geography before moving into subjective reaction coverage",
+      "shot_size": "wide two-shot",
+      "lens_mm": 35,
+      "camera_height": "eye level",
+      "angle": "three-quarter",
+      "camera_side": "south",
+      "focus_target": "both characters",
+      "composition": "table separates the characters",
+      "depth_of_field": "moderate",
+      "movement": {"kind": "static", "purpose": "let blocking establish tension without visual emphasis"}
+    },
+    "edit_intent": "cut after the folder lands and the father chooses not to look up",
+    "exit_state": {
+      "location_id": "KITCHEN",
+      "time_of_day": "night",
+      "light_state": "warm practical plus cool window fill",
+      "characters": {
+        "C01": {"character_id": "C01", "costume_id": "C01_W01", "position": "southwest edge of table", "facing": "east", "eyeline": "C02", "emotion": "controlled suspicion", "held_props": []},
+        "C02": {"character_id": "C02", "costume_id": "C02_W01", "position": "northeast chair", "facing": "southwest", "eyeline": "receipt", "emotion": "guarded", "held_props": []}
+      },
+      "props": {"P_FOLDER": "open-empty"},
+      "camera_side": "south",
+      "motion_axis": "daughter-table-father"
+    }
+  },
+  {
+    "shot_id": "SC01_SH02",
+    "scene_id": "SC01",
+    "narrative_purpose": "reveal the daughter's contained realization after the father's evasive answer",
+    "audience_endpoint": "notice that she now knows he is hiding something",
+    "duration_seconds": 4.2,
+    "complexity": "YELLOW",
+    "performance": {
+      "C01": {"objective": "test whether he will keep lying", "action_verb": "corner", "inner_state": {"hurt": 0.55, "anger": 0.2}, "outward_mask": "calm", "micro_expression": {"eye_hold_seconds": 0.8, "jaw_tension": "subtle"}, "body_behavior": {"hands": "still"}, "breath": {"short_inhale": true}, "listening_behavior": {"wait_before_response_seconds": 0.5}}
+    },
+    "entry_state": {
+      "location_id": "KITCHEN",
+      "time_of_day": "night",
+      "light_state": "warm practical plus cool window fill",
+      "characters": {
+        "C01": {"character_id": "C01", "costume_id": "C01_W01", "position": "southwest edge of table", "facing": "east", "eyeline": "C02", "emotion": "controlled suspicion", "held_props": []},
+        "C02": {"character_id": "C02", "costume_id": "C02_W01", "position": "northeast chair", "facing": "southwest", "eyeline": "receipt", "emotion": "guarded", "held_props": []}
+      },
+      "props": {"P_FOLDER": "open-empty"},
+      "camera_side": "south",
+      "motion_axis": "daughter-table-father"
+    },
+    "action_beats": [
+      {"actor": "C01", "action": "holds her father's gaze after his answer", "target": "C02", "start_second": 0.5, "end_second": 2.0}
+    ],
+    "camera": {
+      "narrative_purpose": "make the hidden realization legible without melodrama",
+      "shot_size": "medium close-up",
+      "lens_mm": 65,
+      "camera_height": "eye level",
+      "angle": "slight profile",
+      "camera_side": "south",
+      "focus_target": "C01 eyes",
+      "composition": "father's shoulder soft in foreground",
+      "depth_of_field": "shallow but eyes fully sharp",
+      "movement": {"kind": "dolly_in", "purpose": "narrow attention when suspicion becomes certainty", "amplitude": "25cm", "speed": "very slow", "start_second": 1.6, "end_second": 3.6}
+    },
+    "edit_intent": "hold two beats after the eye change before cutting",
+    "exit_state": {
+      "location_id": "KITCHEN",
+      "time_of_day": "night",
+      "light_state": "warm practical plus cool window fill",
+      "characters": {
+        "C01": {"character_id": "C01", "costume_id": "C01_W01", "position": "southwest edge of table", "facing": "east", "eyeline": "C02", "emotion": "contained realization", "held_props": []},
+        "C02": {"character_id": "C02", "costume_id": "C02_W01", "position": "northeast chair", "facing": "southwest", "eyeline": "receipt", "emotion": "guarded", "held_props": []}
+      },
+      "props": {"P_FOLDER": "open-empty"},
+      "camera_side": "south",
+      "motion_axis": "daughter-table-father"
+    },
+    "previous_shot_id": "SC01_SH01"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "schema": "cine.minecraft.maizen_two_source_av_second_pass.v251",
+  "project_id": "MAI01_WATERFALL",
+  "source_date": "2026-10-11",
+  "method": "Second structured review of EVERY <=30s window: personally inspect original browser visual-contact pages, independently re-decode all saved original-source browser Opus audio to 1-second PCM coverage, re-open 3 missing/sparse spots in original Chrome at normal speed, and run local AudioSet classifier for 10s representative sample in every 30s window. Original Whisper ASR supplies approximate narrative speech and is not certified word-for-word. THIS IS NOT A SEPARATE HUMAN FULL NATIVE AV AUDIT.",
+  "source_refs": [
+    "zhPBXzHsLuo",
+    "oX6Azwe5QLg"
+  ],
+  "second_pass": {
+    "original_playback_full_timeline_previously_completed": true,
+    "new_entire_native_movie_video_frame_by_frame_playback_in_this_pass": false,
+    "new_independent_visual_original_samples_all_windows_inspected": true,
+    "new_original_youtube_chrome_replay_exact_gaps": [
+      "zhPBXzHsLuo 18:30-18:36.6",
+      "oX6Azwe5QLg 11:18-11:30",
+      "zhPBXzHsLuo 11:29-12:02"
+    ],
+    "independent_ffmpeg_pcm_per_video_second_bin_and_opus_hash_audit": true,
+    "no_original_audio_second_review_by_human_listening_entire_duration": true,
+    "source_is_not_local_full_native_AV_movie": true,
+    "licensed_music_or_sfx_sources_identified": false,
+    "exact_competitor_software_mods_known": false,
+    "original_dialogue_word_by_word_independently_verified": false,
+    "source_independent_human_auditor_attestation": false,
+    "strict_v227_g02_pass": false,
+    "g03_plus_production_method_go": false,
+    "paid_provider_spend_usd": 0
+  },
+  "films": [
+    {
+      "video_id": "zhPBXzHsLuo",
+      "title": "Built a House inside BED in Minecraft",
+      "actual_media_seconds": 1116.601,
+      "browser_original_38s_segments": 30,
+      "qc_30s_windows": 38,
+      "full_original_audio_1s_bins": 1117,
+      "original_visual_frames_now_checked": 157,
+      "original_sound_second_bins_missing": 0,
+      "view_pages": 10,
+      "second_pass_observations": [
+        {
+          "from": 0,
+          "to": 120,
+          "visual": "Buu/Boo wooden giant house seen, red and green avatars shrunk by handheld device, new tiny-scale camera POV, small wall entry and giant bed entrance",
+          "speech_function": "Explicit revenge and freeloading motive, announce shrink trick and sneak plan. Whisper name sounds Boo, onscreen captions show Buu."
+        },
+        {
+          "from": 120,
+          "to": 390,
+          "visual": "Giant bed red hollow interior turns into buildable home, furniture and bathroom/kitchen props transferred from big home; first person HUD and 3rd-person brief coverage",
+          "speech_function": "Conversation names each room/object as characters build and choose which household items to take."
+        },
+        {
+          "from": 390,
+          "to": 510,
+          "visual": "Exterior farm raid, indoor field prepared with dirt/water/torches, crops grow and are harvested",
+          "speech_function": "A practical unmet need (food) leads to foraging, then established indoor farming system."
+        },
+        {
+          "from": 510,
+          "to": 690,
+          "visual": "Fire/heat ice/fan preps, arrow turret or dispensers installed and wired to levers, green reflector machinery, exterior observation window, black NIGHT title card",
+          "speech_function": "Actors explicitly anticipate fire and explosions, announce the role of each defense before attack starts."
+        },
+        {
+          "from": 690,
+          "to": 845,
+          "visual": "Owner sleeps upstairs, dialogue about stolen diamonds behind bookshelf; tiny actors navigate hidden bookshelf tunnel and recover diamond chest",
+          "speech_function": "Earlier stolen-savings grievance becomes recoverable objective; theft retrieval links beginning to last conflict."
+        },
+        {
+          "from": 845,
+          "to": 960,
+          "visual": "Buu discovers unusual bedroom and window, pouring lava creates visible fire, thermometer shows rising interior heat; actors put out flames and add ice",
+          "speech_function": "Threat previously forecast is realized; names action consequences and rapid fix."
+        },
+        {
+          "from": 960,
+          "to": 1090,
+          "visual": "Ice blocks/fan machines visibly in action, arrow barrage fired via levers, larger owner aims bazooka/rocket, reflector machine and large bedroom explosion",
+          "speech_function": "Security systems introduced during build are tested serially, then strongest unexpected threat tests reflector and heroes react."
+        },
+        {
+          "from": 1090,
+          "to": 1116.601,
+          "visual": "Bedroom damaged, protagonists remain safe inside constructed bed, separate green 2D Maizen brand endcard",
+          "speech_function": "Resolution followed by subscription/next-video CTA."
+        }
+      ],
+      "corrected_vs_previous": "Buu is shown on the visual subtitles; tiny actors plan and execute specific fire, arrow and reflector defenses that function later. The native effects and mod provenance remain unknown."
+    },
+    {
+      "video_id": "oX6Azwe5QLg",
+      "title": "Minecraft, But Item Drops Are Multiplied Every Time!!",
+      "actual_media_seconds": 1030.741,
+      "browser_original_38s_segments": 28,
+      "qc_30s_windows": 35,
+      "full_original_audio_1s_bins": 1031,
+      "original_visual_frames_now_checked": 132,
+      "original_sound_second_bins_missing": 0,
+      "view_pages": 9,
+      "second_pass_observations": [
+        {
+          "from": 0,
+          "to": 120,
+          "visual": "Village farm wheat and seeds, sand/wood, green multiplying tool held in POV, hotbar/inventory rapidly fills",
+          "speech_function": "Character demonstrates extra block-item drops and immediate utility with visible measurable results."
+        },
+        {
+          "from": 120,
+          "to": 300,
+          "visual": "Found gold around lava portal, desert pyramid entry, pressure plate with TNT trap, loot and repeated TNT stacks",
+          "speech_function": "Gold/TNT explosion hazards become resource opportunity; craft/disarm in response to risk."
+        },
+        {
+          "from": 300,
+          "to": 480,
+          "visual": "Iron crafts, zombie combat, use duplicated TNT behind protective obsidian barrier to excavate enormous lava cave, then diamond ore",
+          "speech_function": "Resources amplify exploration speed but do not remove monster and lava risk."
+        },
+        {
+          "from": 480,
+          "to": 630,
+          "visual": "Diamond piles explode across ground; armor, swords and golden apples crafted; special gear visibly changes player inventory and player appearance",
+          "speech_function": "Explicit equipment payoff, increasing resource quantities turn into survivability and next quest preparation."
+        },
+        {
+          "from": 630,
+          "to": 750,
+          "visual": "Huge Nether portal built; Nether fortress, flames, blazes and Enderman confront heroes, individual Blaze Rod/Ender Pearl are collected",
+          "speech_function": "A non-block enemy drop introduces obstacle: special tool seems limited to blocks, so they must gather initial rod/pearl."
+        },
+        {
+          "from": 750,
+          "to": 810,
+          "visual": "CRITICAL SECOND-PASS CORRECTION: player puts a Blaze Rod and Ender Pearl into a chest and then exploits duplication of the CHEST BLOCK with contents; Eye of Ender crafting and End portal",
+          "speech_function": "The protagonists creatively route around tool constraint with chest-as-container workaround, not just farming all non-block drops normally."
+        },
+        {
+          "from": 810,
+          "to": 930,
+          "visual": "The End boss bar, mass iron golem creation, dragon breath damages golems, then obsidian island platform and stacks of TNT around dragon landing pit",
+          "speech_function": "Expensive army fails under dragon breath; switch tactics to repeated TNT attacks."
+        },
+        {
+          "from": 930,
+          "to": 1030.741,
+          "visual": "Several TNT volleys and health bar decline, dragon beaten, dragon egg touched/vanishes, end-card shows fixed 2D mascots and channel CTA",
+          "speech_function": "Multiple attempts needed to win, then small epilogue and CTA; egg exact game rules unverified."
+        }
+      ],
+      "corrected_vs_previous": "The multiplier's direct target appears to be blocks but 12:20-12:50 shows a creative chest-containing-items duplication workaround to obtain additional Ender Pearls and Blaze Rods. Claim that all non-block items simply cannot be duplicated was incomplete."
+    }
+  ],
+  "common_verified_story_patterns": [
+    "Open by demonstrating or stating an unmistakable rule/grievance in under a minute.",
+    "Keep character dialogue causal with contrasting expectations; follow original visual inventory or room state.",
+    "Use preparatory steps that pay off in final conflict: security against fire/rockets, resource doubling against dragon, not arbitrary unrelated challenges.",
+    "Craft content around different driving systems, not uniform Maizen 7 challenge chapters.",
+    "Display game state and item counts when resource logic matters; transition between first-person HUD and third-person planned character reaction.",
+    "End with a separate 2D brand/editorial package. Do not copy Maizen's protected graphics, skins, voices, assets."
+  ],
+  "cinefactory_handoffs": {
+    "research": "Keep film-specific 30s visual and source-sound receipts with hash, coverage and uncertainties; repeat same process on every new competitor film; do not substitute ASR for sound QC.",
+    "script_room": "MAI01 waterfall can use planted safety mechanisms paying off during later flood, original two-character tension, and a physical workaround to obstacle (inspired by container rule logic, without copying shots or Buu story).",
+    "production_design": "Connected giant/small scale world, workshop layout, inventory and equipment behavior must be designed before shots.",
+    "technical_direction": "Build testable implementations of camera, character control, mechanics, custom props and voxel set; Blender-authoring/game-staging/hybrid remain candidates, no exact rival code inference.",
+    "audio_editorial": "Two original authorized English voices, inspect sound effect synchrony/music rights and do separate independent full-source native audio listening before final gate, not use AudioSet or Whisper to certify them.",
+    "qc": "Require every <=30sec complete native moving-picture and original audio notes and a distinct independent auditor signoff for G02 before method-specific production stage; company draft packet v243 remains DRAFT."
+  }
+}

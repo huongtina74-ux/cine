@@ -1,0 +1,409 @@
+assets:
+- asset_id: obstacle.ball_pit
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_ball_pit.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: aa9afc25a420708f2dc8a73db2a4b4e8f45c3a66811e20fbe1f5239fa63fd2c4
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.break_wall
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_break_wall.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: fee0ae35ba1b27a225cfba078b8d75f4a4456a12305ef2685c2a3dc0f7f4ddd1
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.bridge
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_bridge.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: aa0becf7f32505157311534be57fc54f78644a54224a9236bac5574d24ec732a
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.cage
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_cage.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 6e585c886e134ec610d6e83239683c9b3a674e011bcb437633d075203b1072d9
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.giant_duck
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_giant_duck.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 943eb1b177e435329d10e6851f6430840638e9948b13f7a18372401d8bdd0082
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.paint_gate
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_paint_gate.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: fc65e493d63acebf002b4f25007930dcb944c940c0a5f0247a6e8e3226c1aaf8
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.rotating_hammer
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_rotating_hammer.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: fdbcd3bea27a4b3d0b6363f6888189a3bae087fc3a64491a2eb2e73802dafbac
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.spinning_bar
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_spinning_bar.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 179bb43c3e699a27c5d3eacc034a31c338060dcfa6be5d7dd85ffce10a7f7321
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: obstacle.water_pool
+  kind: OBSTACLE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/obstacle_water_pool.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 83b701ed424e3f552ed8cc79f95acd7468dc73ff32e02c815a5739af0f0271f8
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.ball_pit
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_ball_pit.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: cab7453d408728493fa8977c0839eeaa644307bfffcc382f5f9163b03868c94c
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.cage
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_cage.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: ddcaf52d9abfce82cd0345934537bcbb4647ad0affb1431e6acdafb1b81508e6
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.fountain
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_fountain.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: e9de2aea00d79b3783c6b99879839fc3e2d0e0f778f1511dbd0efad6ac90976a
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.giant_animal
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_giant_animal.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 0f94e8eae79937f03f6c218408a86e984b0abfdcdcda2575ba91c0720f17b646
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.key_door
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_key_door.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: fa53b3ca1b0135cae0da050f5d3874fe615e3f27f305a30f7a3c8660208ce0aa
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.long_slide
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_long_slide.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: fcb1eafb19564688ee370027227ad1ff291ecb1f5ed676086f59f486b8cab10e
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.paint_gate
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_paint_gate.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: abb461b4daff53508f9e8976aef982b189884137fb77098743b221261fb494da
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval
+- asset_id: scene.spiral_slide
+  kind: SCENE
+  source_uri: internal://animal-long-slide-generator
+  source_pack_id: internal.long_slide.bootstrap.v1
+  license_evidence_uri: internal://owned-original-procedural-assets
+  license_state: APPROVED
+  commercial_use: true
+  redistribution_allowed: true
+  local_path: data/assets/animal_long_slide/internal/scene_spiral_slide.blend
+  version: '1'
+  blender_min_version: '4.5'
+  dependencies: []
+  production_ready: false
+  technical_qc_passed: true
+  visual_qc_passed: false
+  content_sha256: 158b667fc817952db69d1e5e3bddae7260704a667a599359dea0edfd5a5daf39
+  provenance_notes:
+  - Generated procedurally by scripts/build_long_slide_internal_assets.py.
+  - Preview render exists; semantic visual approval is intentionally pending.
+  tags:
+  - internal_owned
+  - procedural
+  - bootstrap
+  - needs_visual_approval

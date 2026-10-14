@@ -1,0 +1,3 @@
+crowd_behaviors:
+  - {behavior_id: attentive_idle, clip_ids: [idle, turn_head], expression_ids: [neutral, confused], phase_jitter_seconds: 0.35, intensity_min: 0.2, intensity_max: 0.55}
+  - {behavior_id: group_surprise, clip_ids: [flinch, shock_recoil, turn_head], expression_ids: [surprised, confused], phase_jitter_seconds: 0.45, intensity_min: 0.35, intensity_max: 0.85}

@@ -1,0 +1,634 @@
+{
+  "schema": "cine.company.creative_software_mcp_landscape.v220",
+  "as_of": "2026-10-10",
+  "source_type": "WEB_VERIFIED_VENDOR_DOCS_AND_EXPLICIT_COMMUNITY_REPOS",
+  "registry_96_unchanged": true,
+  "no_auto_install": true,
+  "no_auto_execute": true,
+  "no_spend": true,
+  "status": "RESEARCH_REFERENCE_ONLY",
+  "items": [
+    {
+      "id": "ue58_native",
+      "name": "Unreal Engine 5.8 MCP",
+      "connection_class": "OFFICIAL_NATIVE_EXPERIMENTAL",
+      "function": "3D_ENGINE",
+      "priority": "P0",
+      "source_url": "https://www.unrealengine.com/news/unreal-engine-5-8-is-now-available",
+      "departments": [
+        "PRODUCTION",
+        "CINEMATOGRAPHY",
+        "ASSETS",
+        "RND",
+        "VFX"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "GAME_CAPTURE",
+        "MACHINIMA",
+        "SLIDE_3D"
+      ],
+      "requirements_and_cautions": "Free engine subject to Epic licensing; install and workstation/GPU proof required; exposes editor/code, sandbox review required",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "cinema4d_native",
+      "name": "Cinema 4D 2026.4 MCP",
+      "connection_class": "OFFICIAL_NATIVE",
+      "function": "DCC_3D_MOTION",
+      "priority": "P1",
+      "source_url": "https://www.maxon.net/en/article/maxon-adds-support-for-cinema-4d-mcp-server",
+      "departments": [
+        "PRODUCTION",
+        "CINEMATOGRAPHY",
+        "GENERATIVE_MEDIA",
+        "ASSETS",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "MUSICAL_3D",
+        "ANIMATION_2D"
+      ],
+      "requirements_and_cautions": "Paid Cinema 4D license; local token and permissions, optional Python execution and audit logging",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "unity_cli_native",
+      "name": "Unity 6+ CLI MCP",
+      "connection_class": "OFFICIAL_NATIVE_EXPERIMENTAL",
+      "function": "3D_GAME_RUNTIME",
+      "priority": "P1",
+      "source_url": "https://unity.com/features/ai",
+      "departments": [
+        "PRODUCTION",
+        "ASSETS",
+        "RND",
+        "TECHNICAL_DIRECTION"
+      ],
+      "format_families": [
+        "GAME_CAPTURE",
+        "MACHINIMA",
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "requirements_and_cautions": "Unity >=6 and Unity CLI + pipeline package; not an installed application",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "silhouette_native",
+      "name": "Boris FX Silhouette 2026 MCP",
+      "connection_class": "OFFICIAL_NATIVE",
+      "function": "VFX_ROTO_PAINT",
+      "priority": "P1",
+      "source_url": "https://borisfx.com/products/silhouette/",
+      "departments": [
+        "VFX",
+        "EDITORIAL",
+        "COLOR",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "FIELD_CAPTURE",
+        "ANIMATION_2D"
+      ],
+      "requirements_and_cautions": "Paid plugin/app; includes JSON-RPC and Python control requiring strict rights/undo controls",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "resolve_community",
+      "name": "DaVinci Resolve MCP (lordhoell)",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "EDIT_COLOR_AUDIO",
+      "priority": "P1",
+      "source_url": "https://github.com/lordhoell/davinci-resolve-mcp",
+      "departments": [
+        "EDITORIAL",
+        "COLOR",
+        "AUDIO",
+        "QC",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "EXPLAINER",
+        "REAL_ASMR"
+      ],
+      "requirements_and_cautions": "Resolve must be running, license/scripting API differences; 440+ tools are author claims, not our benchmark",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "premiere_community",
+      "name": "Premiere Pro MCP (josegroove)",
+      "connection_class": "COMMUNITY_MCP_MACOS_VERIFIED",
+      "function": "EDIT_TIMELINE",
+      "priority": "P2",
+      "source_url": "https://github.com/josegroove/adobe_premiere_pro_mcp",
+      "departments": [
+        "EDITORIAL",
+        "PRODUCTION",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Adobe subscription; author live validation macOS, CineFactory Windows not verified",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "aftereffects_community",
+      "name": "After Effects MCP (solomondivyananth)",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "MOTION_GRAPHICS_VFX",
+      "priority": "P1",
+      "source_url": "https://github.com/solomondivyananth/aftereffects-mcp",
+      "departments": [
+        "VFX",
+        "EDITORIAL",
+        "PACKAGING",
+        "RND"
+      ],
+      "format_families": [
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "FILM_3D"
+      ],
+      "requirements_and_cautions": "Paid Adobe AE with CEP bridge; arbitrary expressions and scripting need sandbox/undo",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "photoshop_community",
+      "name": "Photoshop UXP MCP (CORE-Automate-WSS)",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "IMAGE_RETOUCH",
+      "priority": "P2",
+      "source_url": "https://github.com/CORE-Automate-WSS/photoshop-mcp",
+      "departments": [
+        "PACKAGING",
+        "ASSETS",
+        "PRODUCTION_DESIGN",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Paid Photoshop, UXP extension trust and image copyright licenses",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "houdini_fx",
+      "name": "Houdini MCP fxhoudinimcp",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "PROCEDURAL_VFX",
+      "priority": "P1",
+      "source_url": "https://github.com/healkeiser/fxhoudinimcp",
+      "departments": [
+        "VFX",
+        "CINEMATOGRAPHY",
+        "ASSETS",
+        "RND",
+        "PRODUCTION"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "SLIDE_3D"
+      ],
+      "requirements_and_cautions": "SideFX Houdini >=20.5 with legal license; scene Python and network bridge security",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "nuke_community",
+      "name": "Nuke MCP kleer001",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "COMPOSITING",
+      "priority": "P1",
+      "source_url": "https://github.com/kleer001/nuke-mcp",
+      "departments": [
+        "VFX",
+        "EDITORIAL",
+        "COLOR",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "FIELD_CAPTURE",
+        "ANIMATION_2D"
+      ],
+      "requirements_and_cautions": "Foundry Nuke license; author-tested 17.0v1, local render/node scripting audit required",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "maya_community",
+      "name": "Maya MCP PatrickPalmer",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "3D_RIGGING_ANIMATION",
+      "priority": "P2",
+      "source_url": "https://github.com/PatrickPalmer/MayaMCP",
+      "departments": [
+        "PERFORMANCE",
+        "ASSETS",
+        "PRODUCTION",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "MUSICAL_3D"
+      ],
+      "requirements_and_cautions": "Maya license; community early release, requires runtime and security review",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "reaper_audio",
+      "name": "REAPER MCP (xDarkzx)",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "AUDIO_SOUND_DESIGN",
+      "priority": "P0",
+      "source_url": "https://github.com/xDarkzx/Reaper-MCP",
+      "departments": [
+        "AUDIO",
+        "EDITORIAL",
+        "QC",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "REAL_ASMR",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "REAPER paid after eval; Lua file IPC needs allowed-directory security; claims need benchmarks",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "audacity_audio",
+      "name": "Audacity MCP (tachyonshuggy)",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "AUDIO_REPAIR",
+      "priority": "P2",
+      "source_url": "https://github.com/tachyonshuggy/audacity-mcp",
+      "departments": [
+        "AUDIO",
+        "EDITORIAL",
+        "RND"
+      ],
+      "format_families": [
+        "VOICE_STORY",
+        "REAL_ASMR",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Audacity free; project and scripting pipe safety, version coverage incomplete",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "natron_vfx",
+      "name": "Natron MCP kleer001",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "FREE_COMPOSITING",
+      "priority": "P1",
+      "source_url": "https://github.com/kleer001/natron-mcp",
+      "departments": [
+        "VFX",
+        "EDITORIAL",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D"
+      ],
+      "requirements_and_cautions": "Natron open-source candidate; tool-count repo metadata inconsistent; review and benchmark",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "godot_engine",
+      "name": "Godot MCP signalcompose",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "OPEN_GAME_ENGINE",
+      "priority": "P2",
+      "source_url": "https://github.com/signalcompose/godot-mcp",
+      "departments": [
+        "PRODUCTION",
+        "RND",
+        "TECHNICAL_DIRECTION"
+      ],
+      "format_families": [
+        "GAME_CAPTURE",
+        "MACHINIMA",
+        "SLIDE_3D"
+      ],
+      "requirements_and_cautions": "Godot 4.6+ according to repo; no proven advantage vs existing Roblox/Blender workflows",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "kitsu_tracking",
+      "name": "Kitsu production tracking MCP",
+      "connection_class": "COMMUNITY_MCP",
+      "function": "SHOT_ASSET_TRACKING",
+      "priority": "P1",
+      "source_url": "https://github.com/huikku/kitsu-mcp",
+      "departments": [
+        "STUDIO_MANAGEMENT",
+        "OPERATIONS",
+        "PRODUCTION",
+        "QC",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "MUSICAL_3D"
+      ],
+      "requirements_and_cautions": "Kitsu instance and Zou/Gazu API needed; do not duplicate company source of truth, write safety gates",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "flow_prod_tracking",
+      "name": "Autodesk Flow Production Tracking",
+      "connection_class": "NO_OFFICIAL_MCP_AS_OF_2026_06",
+      "function": "SHOT_ASSET_TRACKING",
+      "priority": "HOLD",
+      "source_url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Does-Flow-Production-Tracking-plan-to-implement-or-support-an-MCP-connection-for-AI-integrations.html",
+      "departments": [
+        "STUDIO_MANAGEMENT",
+        "OPERATIONS",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D"
+      ],
+      "requirements_and_cautions": "Autodesk explicitly says native MCP unavailable June 2026; Python/REST adapter possible, not official MCP",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "runway_media_mcp",
+      "name": "Runway creative generation MCP",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "CLOUD_VIDEO_IMAGE",
+      "priority": "P2",
+      "source_url": "https://help.runwayml.com/hc/en-us/articles/51931843164691-Connecting-to-Runway-MCP",
+      "departments": [
+        "GENERATIVE_MEDIA",
+        "CINEMATOGRAPHY",
+        "VFX",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Paid credits only, no Explore Mode; OAuth and per-shot budgets needed",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "runway_dev_mcp",
+      "name": "Runway Dev MCP",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "MEDIA_PLATFORM_ADMIN_API",
+      "priority": "P1",
+      "source_url": "https://docs.dev.runwayml.com/guides/mcp/",
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "OPERATIONS",
+        "GENERATIVE_MEDIA"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "For developer account, tasks, routers and model catalog; separate from generation MCP, developer API calls cost money",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "magnific_remote",
+      "name": "Magnific MCP",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "CLOUD_MULTIMODAL_IMAGE_VIDEO",
+      "priority": "P2",
+      "source_url": "https://www.magnific.com/ai/docs/magnific-mcp",
+      "departments": [
+        "PACKAGING",
+        "GENERATIVE_MEDIA",
+        "RND",
+        "PRODUCTION_DESIGN"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Available on paid plans only, MCP generation/edit/upscale consumes credits even for website unlimited models; balance and history lookup are free",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "fal_remote",
+      "name": "fal.ai MCP",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "MODEL_ROUTER_REMOTE",
+      "priority": "P2",
+      "source_url": "https://blog.fal.ai/connect-your-ai-to-1-000-models-with-the-fal-mcp-server/",
+      "departments": [
+        "RND",
+        "GENERATIVE_MEDIA",
+        "TECHNICAL_DIRECTION"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Paid usage; FAL_KEY must never be stored in project repo; allowlist models and caps",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "elevenlabs_remote",
+      "name": "ElevenLabs Creative MCP",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "TTS_SFX_MUSIC_DUB",
+      "priority": "P1",
+      "source_url": "https://elevenlabs.io/mcp",
+      "departments": [
+        "AUDIO",
+        "PERFORMANCE",
+        "EDITORIAL",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Remote paid/plan usage, commercial voice rights, consent and music rights; OAuth",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "shotstack_remote",
+      "name": "Shotstack MCP + CLI + Skill",
+      "connection_class": "OFFICIAL_REMOTE_MCP_CLI",
+      "function": "CLOUD_EDITORIAL_RENDER",
+      "priority": "P2",
+      "source_url": "https://shotstack.io/docs/guide/agents/mcp-server/",
+      "departments": [
+        "EDITORIAL",
+        "OPERATIONS",
+        "PACKAGING",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Free draft preview possible; final export cloud API key/usage, compare to local FFmpeg/Remotion",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "comfy_partner_preview",
+      "name": "Comfy Partner MCP",
+      "connection_class": "OFFICIAL_PRIVATE_PREVIEW",
+      "function": "CLOUD_MULTI_MODEL",
+      "priority": "HOLD",
+      "source_url": "https://github.com/Comfy-Org/docs/blob/main/agent-tools/partner-mcp.mdx",
+      "departments": [
+        "RND",
+        "GENERATIVE_MEDIA"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D"
+      ],
+      "requirements_and_cautions": "Private preview/invitation required, not publicly available, separate from Comfy-Org local MCP",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "comfy_official_local",
+      "name": "Comfy-Org comfy-mcp local",
+      "connection_class": "OFFICIAL_COMMUNITY_OPENSOURCE_BETA",
+      "function": "LOCAL_AI_GRAPH",
+      "priority": "P0",
+      "source_url": "https://github.com/Comfy-Org/comfy-mcp",
+      "departments": [
+        "RND",
+        "GENERATIVE_MEDIA",
+        "EDITORIAL",
+        "TECHNICAL_DIRECTION"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "requirements_and_cautions": "Comfy CLI>=1.14; partner_generate can spend credits and untrusted custom nodes may bill; not auto installed",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "openart_official",
+      "name": "OpenArt MCP",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "CLOUD_AI_STORY_ASSET",
+      "priority": "P2",
+      "source_url": "https://openart.ai/mcp/",
+      "departments": [
+        "GENERATIVE_MEDIA",
+        "DIRECTION",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY"
+      ],
+      "requirements_and_cautions": "Cloud credits and usage rights; previously reviewed in v217, still not connected",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    },
+    {
+      "id": "higgsfield_official",
+      "name": "Higgsfield MCP/CLI",
+      "connection_class": "OFFICIAL_REMOTE_MCP",
+      "function": "CLOUD_AI_CINEMATIC",
+      "priority": "P2",
+      "source_url": "https://higgsfield.ai/cli?tab=claude-code",
+      "departments": [
+        "CINEMATOGRAPHY",
+        "GENERATIVE_MEDIA",
+        "VFX",
+        "RND"
+      ],
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "requirements_and_cautions": "Cloud generation via MCP always uses credits; previously reviewed in v217, still not connected",
+      "installed_and_connected_to_cinefactory": false,
+      "benchmarked": false,
+      "production_approved": false
+    }
+  ]
+}

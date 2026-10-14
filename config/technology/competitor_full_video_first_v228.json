@@ -1,0 +1,31 @@
+{
+  "schema": "cine.company.competitor_full_video_first.v228",
+  "scope": "ALL_26_DEPARTMENTS_ALL_NICHES_ALL_COMPETITOR_CHANNELS_AND_VIDEOS",
+  "effective_date": "2026-10-11",
+  "discovery_requires_full_media": false,
+  "deep_content_analysis_requires_complete_video_and_audio": true,
+  "one_short_excerpt_is_never_full_video": true,
+  "metadata_cannot_prove_production_method": true,
+  "every_selected_reference_must_pass": true,
+  "no_auto_approve_or_paid_api": true,
+  "max_visual_audio_segment_seconds": 30,
+  "authoritative_technology_attribution_from_pixels_alone": false,
+  "allow_auto_publish_after_research": false,
+  "policy": [
+    "Do discovery and candidate selection using YouTube metadata/channel-age/view counts but do not infer video contents from it.",
+    "Watch the whole moving video and original audio from start to finish for EACH video selected for deep competitor study, not just the headliner or viral videos.",
+    "Store exact original video ID, title, source URI, duration, checksum, local authorized media proof, full audio+visual decode, and timecoded visual+audio observations at <=30s intervals.",
+    "Capture causal story structure, characters, timing, obstacles, acting/camera/props/world, voice, SFX/music, retention hypotheses as hypotheses, and full video conclusion.",
+    "Check both viral and underperforming controls; compare full episodes only after their own full reviews.",
+    "Separate OBSERVED pixels/sound from INFERRED production workflow and VERIFIED explicit official tool attribution.",
+    "Have an independent reviewer audit full source and scene notes. Missing audio or window means full-video gate blocked.",
+    "Only after full-watch gate passes may Script Room, Production Design, Character+Acting, Technical Director, Audio+Editorial and QC promote a competitor-based production method.",
+    "A 10-second local rendering sample is only a tech pilot AFTER source-video study, never a substitute for watching an entire competitor episode.",
+    "Studio may not pay to acquire transcripts, scrape licensed media, copy proprietary videos/assets or release without explicit owner rights and QC approval."
+  ],
+  "universal_status": "ENGINE_ENFORCES_READ_ONLY_RESEARCH_CONCLUSION_GATES; EXISTING_OTHER_PRODUCTION_WORK_ORDERS_REQUIRE_SEPARATE_AUTHORIZATION; NOT_ALL_EXECUTION_PATHS_INTERCEPTED",
+  "initial_video_studies_verified": 0,
+  "media_storage": "data/research/competitor_source_media/<video_id>.mp4",
+  "metadata_storage": "data/research/competitor_source_metadata/<video_id>.json",
+  "report_storage": "data/verification/v228_competitor_full_video_reports/<video_id>.json"
+}

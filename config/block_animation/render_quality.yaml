@@ -1,0 +1,67 @@
+render_quality_profiles:
+  - profile_id: rtx3060_quality
+    engine: BLENDER_EEVEE_NEXT
+    render_percentage: 100
+    taa_samples: 96
+    shadow_resolution_scale: 1.25
+    ambient_occlusion: true
+    contact_shadows: true
+    soft_shadows: true
+    volumetrics: false
+    bloom_strength: 0.08
+    motion_blur: true
+    motion_blur_shutter: 0.35
+    use_dof: true
+    transparent_film: false
+    color_management: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.15
+    gamma: 1.0
+    key_light_energy: 1250
+    fill_light_energy: 475
+    rim_light_energy: 900
+    world_strength: 0.32
+    bitrate_mbps: 32
+    tags: [quality, rtx3060, local, zero_api]
+
+  - profile_id: rtx3060_fast
+    engine: BLENDER_EEVEE_NEXT
+    render_percentage: 100
+    taa_samples: 48
+    shadow_resolution_scale: 1.0
+    ambient_occlusion: true
+    contact_shadows: true
+    soft_shadows: true
+    volumetrics: false
+    bloom_strength: 0.04
+    motion_blur: false
+    use_dof: true
+    color_management: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.10
+    key_light_energy: 1100
+    fill_light_energy: 450
+    rim_light_energy: 700
+    world_strength: 0.35
+    bitrate_mbps: 24
+    tags: [fast, rtx3060, local, zero_api]
+
+  - profile_id: preview
+    engine: BLENDER_EEVEE_NEXT
+    render_percentage: 50
+    taa_samples: 16
+    shadow_resolution_scale: 0.5
+    ambient_occlusion: true
+    contact_shadows: false
+    soft_shadows: true
+    motion_blur: false
+    use_dof: false
+    color_management: AgX
+    look: AgX - Medium High Contrast
+    exposure: 0.0
+    key_light_energy: 900
+    fill_light_energy: 350
+    rim_light_energy: 500
+    world_strength: 0.4
+    bitrate_mbps: 12
+    tags: [preview]

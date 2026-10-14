@@ -1,0 +1,524 @@
+{
+  "schema": "cine.technology.external_creator_mcp_research.v217",
+  "as_of": "2026-10-10",
+  "scope": "Research-only. Sources are vendor official, official repository documentation and disclosed vendor customer interviews; no paid API requests or video downloads.",
+  "baseline_96_unchanged": true,
+  "source_validation": "PROVENANCE_REPORTED_NO_LOCAL_RUNTIME_BENCHMARK",
+  "no_auto_install": true,
+  "no_paid_calls": true,
+  "no_backend_switch": true,
+  "credit_budget_usd": 0,
+  "candidates": [
+    {
+      "id": "openart_suite",
+      "name": "OpenArt Suite / Director",
+      "kind": "AI_CLOUD_STORY_STUDIO",
+      "official_source": "https://openart.ai/blog/what-is-openart/",
+      "priority": "P1",
+      "evidence_type": "OPENART_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "CREATIVE_STRATEGY",
+        "DIRECTION",
+        "GENERATIVE_MEDIA",
+        "EDITORIAL",
+        "PACKAGING"
+      ],
+      "role": "One Click Story / Director / repeatable characters; not a deterministic final-film renderer.",
+      "gate": "Subscription credits; commercial use on eligible paid plans, Starter not verified for commercial.",
+      "integration": "MCP_AND_CLI",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "openart_mcp",
+      "name": "OpenArt official MCP and CLI",
+      "kind": "REMOTE_MCP_PAID_CREATIVE",
+      "official_source": "https://openart.ai/mcp/",
+      "priority": "P0",
+      "evidence_type": "OPENART_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "EDITORIAL",
+        "GENERATIVE_MEDIA"
+      ],
+      "role": "Claude-compatible image/video generation, asset references, library, model discovery, projects.",
+      "gate": "OAuth; uses existing OpenArt credits. No spend is authorized.",
+      "integration": "MCP_AND_CLI",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "google_flow",
+      "name": "Google Flow AI filmmaking",
+      "kind": "AI_CLOUD_FILMMAKING",
+      "official_source": "https://labs.google/fx/tools/flow",
+      "priority": "P1",
+      "evidence_type": "GOOGLE_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "DIRECTION",
+        "GENERATIVE_MEDIA",
+        "CINEMATOGRAPHY",
+        "EDITORIAL"
+      ],
+      "role": "Scenebuilder, frames/ingredients to video, Google Veo/Omni/Nano Banana.",
+      "gate": "Website free daily credits subject to eligibility, region; Flow itself not confirmed an official external MCP.",
+      "integration": "WEB_UI",
+      "cost_mode": "FREE_LIMITED_SITE_CREDITS",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "google_veo_api",
+      "name": "Google Gemini API Veo/Omni video",
+      "kind": "REMOTE_API_PAID_CREATIVE",
+      "official_source": "https://ai.google.dev/gemini-api/docs/video",
+      "priority": "P1",
+      "evidence_type": "GOOGLE_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "RND",
+        "GENERATIVE_MEDIA",
+        "CINEMATOGRAPHY"
+      ],
+      "role": "Documented programmatic video generation separate from Flow UI.",
+      "gate": "Veo paid API; no free Veo API tier stated in pricing.",
+      "integration": "API",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "higgsfield_cinema",
+      "name": "Higgsfield Cinema Studio 4.0",
+      "kind": "AI_CLOUD_FILMMAKING",
+      "official_source": "https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-cinema-studio",
+      "priority": "P1",
+      "evidence_type": "HIGGSFIELD_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "DIRECTION",
+        "GENERATIVE_MEDIA",
+        "CINEMATOGRAPHY",
+        "VFX"
+      ],
+      "role": "Cinematography, multi-reference characters/objects, up to 30s clips.",
+      "gate": "Per-second API charges, cloud account subscription or specific licensing.",
+      "integration": "MCP_CLI_API",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "higgsfield_mcp_cli",
+      "name": "Higgsfield official MCP, CLI and Skills",
+      "kind": "REMOTE_MCP_PAID_CREATIVE",
+      "official_source": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent",
+      "priority": "P1",
+      "evidence_type": "HIGGSFIELD_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "GENERATIVE_MEDIA",
+        "EDITORIAL"
+      ],
+      "role": "Claude connector, Claude Code CLI+Skills, paid SaaS orchestration.",
+      "gate": "MCP, CLI, Canvas and Supercomputer ALWAYS deduct credits, even if website unlimited.",
+      "integration": "MCP_AND_CLI",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "magiclight",
+      "name": "MagicLight AI long-form story generator",
+      "kind": "AI_CLOUD_STORY_STUDIO",
+      "official_source": "https://www.magiclight.ai/pricing/",
+      "priority": "P2",
+      "evidence_type": "MAGICLIGHT_OFFICIAL",
+      "format_families": [
+        "ANIMATION_2D",
+        "VOICE_STORY",
+        "MUSICAL_3D",
+        "EXPLAINER"
+      ],
+      "departments": [
+        "WRITERS_ROOM",
+        "PRODUCTION",
+        "EDITORIAL",
+        "GENERATIVE_MEDIA"
+      ],
+      "role": "Script to video with voice and scenes, advertised up to 50-minute story handling.",
+      "gate": "Long-form quality/identity not independently measured; free limited credits and vendor commercial license not full copyright guarantee; no official dev API confirmed.",
+      "integration": "WEB_UI",
+      "cost_mode": "PAID_CREDITS_AFTER_FREE",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "piclumen",
+      "name": "PicLumen AI image/video generator",
+      "kind": "AI_CLOUD_CONCEPT",
+      "official_source": "https://www.piclumen.com/faq/",
+      "priority": "P2",
+      "evidence_type": "PICLUMEN_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "PACKAGING",
+        "GENERATIVE_MEDIA",
+        "PRODUCTION_DESIGN"
+      ],
+      "role": "Concept art, backgrounds, thumbnails and AI image/video generation.",
+      "gate": "Official FAQ says no public developer API; free Basic has NO commercial-use rights.",
+      "integration": "WEB_UI",
+      "cost_mode": "FREE_NONCOMMERCIAL_ONLY",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "krea_nodes_agent",
+      "name": "Krea Nodes / Node Agent",
+      "kind": "AI_CLOUD_WORKFLOW_BUILDER",
+      "official_source": "https://www.krea.ai/blog/ai-workflow-agent",
+      "priority": "P1",
+      "evidence_type": "KREA_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "GENERATIVE_MEDIA",
+        "EDITORIAL"
+      ],
+      "role": "Prompt-to-workflow agent with graph rerun caching, approves plan and compute cost before run.",
+      "gate": "Paid model usage and job costs; no independent local GPU mode verified.",
+      "integration": "WEB_UI",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "freepik_spaces",
+      "name": "Freepik Spaces / Magnific",
+      "kind": "AI_CLOUD_WORKFLOW_BUILDER",
+      "official_source": "https://www.freepik.com/ai/docs/introduction-to-spaces",
+      "priority": "P2",
+      "evidence_type": "FREEPIK_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "RND",
+        "PACKAGING",
+        "PRODUCTION_DESIGN",
+        "GENERATIVE_MEDIA"
+      ],
+      "role": "Node-based collaborative generation/editing/audio/upscaling templates.",
+      "gate": "AI generation spends credits; cloud operation requires license and account.",
+      "integration": "WEB_UI",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "blender_official_mcp",
+      "name": "Blender Lab official MCP Server",
+      "kind": "LOCAL_MCP_EXPERIMENTAL",
+      "official_source": "https://www.blender.org/lab/mcp-server/",
+      "priority": "P0",
+      "evidence_type": "BLENDER_FOUNDATION_LAB",
+      "format_families": [
+        "FILM_3D",
+        "SLIDE_3D",
+        "ANIMATION_2D",
+        "MACHINIMA"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "ASSETS",
+        "PRODUCTION",
+        "CINEMATOGRAPHY"
+      ],
+      "role": "Official Blender Lab add-on and MCP server, executes Blender Python from language agent.",
+      "gate": "Requires Blender >=5.1 (existing Cine 4.5 not compatible); arbitrary bpy execution, isolated sandbox only; source pin.",
+      "integration": "MCP_STDIO_TCP",
+      "cost_mode": "LOCAL_FREE_NOT_INSTALLED",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "blender_community_mcp",
+      "name": "Blender community MCP (scpli/glatinone)",
+      "kind": "LOCAL_MCP_EXPERIMENTAL",
+      "official_source": "https://github.com/scpli/blender-mcp",
+      "priority": "P2",
+      "evidence_type": "GITHUB_PUBLIC_REPO",
+      "format_families": [
+        "FILM_3D",
+        "SLIDE_3D",
+        "MACHINIMA"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "ASSETS",
+        "PRODUCTION"
+      ],
+      "role": "Community matched addon+server for older Blender; includes execute_blender_code and assets.",
+      "gate": "Not the same protocol as official Blender Lab MCP; arbitrary Python, telemetry settings, model add-on downloads need review.",
+      "integration": "MCP_STDIO_TCP",
+      "cost_mode": "LOCAL_FREE_SECURITY_REVIEW",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "comfy_official_mcp",
+      "name": "Comfy-Org Comfy MCP beta",
+      "kind": "LOCAL_MCP_EXPERIMENTAL",
+      "official_source": "https://github.com/Comfy-Org/comfy-mcp",
+      "priority": "P0",
+      "evidence_type": "COMFY_ORG_PUBLIC_REPO",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "MUSICAL_3D"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "GENERATIVE_MEDIA",
+        "EDITORIAL"
+      ],
+      "role": "Official organization local ComfyUI MCP, 40 tools to inspect, validate/edit, run workflows via comfy-cli.",
+      "gate": "Partner generate and partner nodes CAN SPEND CREDITS; requires comfy-cli and sandbox/allow-spend gates.",
+      "integration": "MCP_STDIO",
+      "cost_mode": "LOCAL_CORE_PLUS_PAID_PARTNERS",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "comfy_cloud_mcp",
+      "name": "Comfy Cloud MCP",
+      "kind": "REMOTE_MCP_PAID_CREATIVE",
+      "official_source": "https://docs.comfy.org/agent-tools/mcp",
+      "priority": "P2",
+      "evidence_type": "COMFY_ORG_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "departments": [
+        "RND",
+        "GENERATIVE_MEDIA"
+      ],
+      "role": "Remote cloud GPU workflow tool available to compatible agents.",
+      "gate": "Cloud execution billed; not equal to running ComfyUI on RTX 3060.",
+      "integration": "MCP_HTTP",
+      "cost_mode": "PAID_CREDIT_PER_GENERATION",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "wan2gp",
+      "name": "Wan2GP local optimized video",
+      "kind": "LOCAL_VIDEO_RUNTIME",
+      "official_source": "https://github.com/deepbeepmeep/Wan2GP",
+      "priority": "P0",
+      "evidence_type": "GITHUB_PUBLIC_REPO",
+      "format_families": [
+        "FILM_3D",
+        "ANIMATION_2D",
+        "EXPLAINER"
+      ],
+      "departments": [
+        "RND",
+        "GENERATIVE_MEDIA",
+        "PRODUCTION"
+      ],
+      "role": "Local model runner for image/video/audio model families with low-memory options.",
+      "gate": "Model-by-model 12GB VRAM acceptance, speed and commercial weights must be tested; already in v216 research.",
+      "integration": "LOCAL_RUNTIME",
+      "cost_mode": "FREE_SOFTWARE_WEIGHTS_DIFFER",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "figma_mcp",
+      "name": "Figma official MCP",
+      "kind": "REMOTE_MCP_DESIGN",
+      "official_source": "https://developers.figma.com/docs/figma-mcp-server/",
+      "priority": "P2",
+      "evidence_type": "FIGMA_OFFICIAL",
+      "format_families": [
+        "EXPLAINER",
+        "ANIMATION_2D"
+      ],
+      "departments": [
+        "PACKAGING",
+        "CREATIVE_STRATEGY",
+        "PRODUCTION_DESIGN",
+        "RND"
+      ],
+      "role": "UI/motion graphics assets/design tokens and component inspection.",
+      "gate": "API/access and plan rights depend on account; avoid auto edits.",
+      "integration": "MCP_HTTP",
+      "cost_mode": "PAID_PLAN_MAY_BE_NEEDED",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    },
+    {
+      "id": "claude_code_agent_skills",
+      "name": "Claude Code Agent Skills and MCP orchestration",
+      "kind": "AGENT_CODING_ORCHESTRATOR",
+      "official_source": "https://code.claude.com/docs/en/mcp",
+      "priority": "P0",
+      "evidence_type": "ANTHROPIC_OFFICIAL",
+      "format_families": [
+        "FILM_3D",
+        "SLIDE_3D",
+        "ANIMATION_2D",
+        "EXPLAINER",
+        "VOICE_STORY"
+      ],
+      "departments": [
+        "RND",
+        "TECHNICAL_DIRECTION",
+        "EDITORIAL",
+        "INTELLIGENCE",
+        "STUDIO_MANAGEMENT"
+      ],
+      "role": "Orchestrator/planner to inspect project, build scripts and call allowlisted MCP servers; not a render engine.",
+      "gate": "Claude tokens/plan and external MCP credits distinct; software command execution requires sandbox review.",
+      "integration": "MCP_CLIENT",
+      "cost_mode": "REASONING_PLAN_BILLING",
+      "installed_verified": false,
+      "production_qualified": false,
+      "benchmarked_on_rtx3060": false
+    }
+  ],
+  "case_studies": [
+    {
+      "id": "mile80",
+      "studio": "Mile 80",
+      "publication_date": "2026-07-29",
+      "url": "https://openart.ai/blog/mile80-ai-video-production-case-study/",
+      "declared_workflow": "OpenArt MCP+Claude Skills+start/end frames+VFX green screen",
+      "study_note": "Vendor-published interview: named creator Ryan Sheffer and Claude Skill used by artists to turn scripts into shot requests.",
+      "evidence_tier": "VENDOR_INTERVIEW_NOT_INDEPENDENT_AUDIT"
+    },
+    {
+      "id": "bitt",
+      "studio": "BITT Animation/BITT Plus",
+      "publication_date": "2026-08-25",
+      "url": "https://higgsfield.ai/creator-hub/case-studies/how-bitt-animation-runs-hybrid-ai-production",
+      "declared_workflow": "Maya+Houdini+Nuke+Blender+ComfyUI+Higgsfield+Claude CLI/MCP",
+      "study_note": "Vendor-published studio interview describes R&D lab and evidence-first hybrid shot selection; tested OpenArt, Flow, Runway.",
+      "evidence_tier": "VENDOR_INTERVIEW_NOT_INDEPENDENT_AUDIT"
+    },
+    {
+      "id": "double_shots",
+      "studio": "Double Shots Taiwan",
+      "publication_date": "2026-09-19",
+      "url": "https://higgsfield.ai/creator-hub/case-studies/double-shots-music-videos-cinema-studio-higgsfield",
+      "declared_workflow": "Claude shotlists/prompts+Nano Banana+Seedance+Topaz+live-action",
+      "study_note": "Vendor interview: artist/prop reference capture and week-plus iteration with claimed USD 1.5-2k AI cost per MV.",
+      "evidence_tier": "VENDOR_INTERVIEW_SELF_REPORTED_COST"
+    },
+    {
+      "id": "henry",
+      "studio": "Henry Daubrez / Electric Pink",
+      "publication_date": "2025-09-03",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-resident-filmmaker/",
+      "declared_workflow": "Google Flow filmmaker-in-residence and film creation",
+      "study_note": "Google confirms film created with Flow and filmmaker's involvement; not proof cheaper finished production.",
+      "evidence_tier": "GOOGLE_FIRST_PARTY_CASE"
+    },
+    {
+      "id": "boxel",
+      "studio": "Boxel Studio",
+      "publication_date": "2026-06-30",
+      "url": "https://higgsfield.ai/creator-hub/case-studies/boxel-studio-higgsfield-case-study",
+      "declared_workflow": "Preproduction/previz VFX studio AI hybrid",
+      "study_note": "Vendor interview, researched for production architecture.",
+      "evidence_tier": "VENDOR_INTERVIEW_NOT_INDEPENDENT_AUDIT"
+    },
+    {
+      "id": "kerri",
+      "studio": "Kerri Zane Enterprises",
+      "publication_date": "2026-09-10",
+      "url": "https://higgsfield.ai/creator-hub/case-studies/kerri-zane-emmy-producer-ai-film-test-higgsfield",
+      "declared_workflow": "Higgsfield Cinema Studio previz camera movement tests",
+      "study_note": "Vendor interview estimates pre-production efficiency; no independent measured rig/shot throughput.",
+      "evidence_tier": "VENDOR_INTERVIEW_SELF_REPORTED_COST"
+    }
+  ]
+}

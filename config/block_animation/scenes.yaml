@@ -1,0 +1,91 @@
+scenes:
+  - scene_id: simple_room
+    procedural_kind: room
+    lighting_profile: stylized_day
+    markers:
+      left: {location: {x: -1.5, y: 0.0, z: 0.0}}
+      center: {location: {x: 0.0, y: 0.0, z: 0.0}}
+      right: {location: {x: 1.5, y: 0.0, z: 0.0}}
+      back_left: {location: {x: -1.5, y: 1.5, z: 0.0}}
+      back_right: {location: {x: 1.5, y: 1.5, z: 0.0}}
+    camera_anchors:
+      front: {location: {x: 0.0, y: -7.0, z: 2.3}, rotation_euler: {x: 1.33, y: 0.0, z: 0.0}}
+      left_three_quarter: {location: {x: -5.0, y: -5.0, z: 2.3}, rotation_euler: {x: 1.35, y: 0.0, z: -0.7}}
+      right_three_quarter: {location: {x: 5.0, y: -5.0, z: 2.3}, rotation_euler: {x: 1.35, y: 0.0, z: 0.7}}
+
+  - scene_id: block_classroom
+    procedural_kind: classroom
+    lighting_profile: stylized_day
+    markers:
+      teacher: {location: {x: 0.0, y: 2.1, z: 0.0}}
+      student_a: {location: {x: -1.8, y: 0.2, z: 0.0}}
+      student_b: {location: {x: 0.0, y: 0.2, z: 0.0}}
+      student_c: {location: {x: 1.8, y: 0.2, z: 0.0}}
+      door: {location: {x: -4.7, y: 3.6, z: 0.0}}
+    camera_anchors:
+      front: {location: {x: 0.0, y: -7.8, z: 2.6}}
+      aisle_left: {location: {x: -4.6, y: -4.8, z: 2.4}}
+      aisle_right: {location: {x: 4.6, y: -4.8, z: 2.4}}
+
+  - scene_id: block_street
+    procedural_kind: street
+    lighting_profile: stylized_day
+    markers:
+      center: {location: {x: 0.0, y: 0.0, z: 0.0}}
+      left: {location: {x: -2.0, y: 0.0, z: 0.0}}
+      right: {location: {x: 2.0, y: 0.0, z: 0.0}}
+      far: {location: {x: 0.0, y: 5.0, z: 0.0}}
+    camera_anchors:
+      front: {location: {x: 0.0, y: -9.0, z: 2.5}}
+      low_left: {location: {x: -5.5, y: -5.0, z: 1.7}}
+      high_right: {location: {x: 5.5, y: -5.0, z: 4.2}}
+
+  - scene_id: block_arena
+    procedural_kind: arena
+    lighting_profile: dramatic
+    markers:
+      center: {location: {x: 0.0, y: 0.0, z: 0.0}}
+      fighter_a: {location: {x: -2.1, y: 0.0, z: 0.0}}
+      fighter_b: {location: {x: 2.1, y: 0.0, z: 0.0}}
+      crowd_left: {location: {x: -4.0, y: 2.8, z: 0.0}}
+      crowd_right: {location: {x: 4.0, y: 2.8, z: 0.0}}
+    camera_anchors:
+      hero: {location: {x: 0.0, y: -8.0, z: 2.2}}
+      low_left: {location: {x: -4.8, y: -4.8, z: 1.4}}
+      orbit: {location: {x: 5.8, y: -2.5, z: 3.0}}
+
+  - scene_id: minecraft_classroom
+    procedural_kind: classroom
+    style: MINECRAFT
+    material_profile: minecraft_material_profile
+    lighting_profile: minecraft_classroom
+    markers:
+      hero_a: {location: {x: -2.4, y: 0.8, z: 0.0}}
+      hero_b: {location: {x: 0.0, y: 0.8, z: 0.0}}
+      hero_c: {location: {x: 2.4, y: 1.0, z: 0.0}}
+      presentation_a: {location: {x: -1.4, y: -0.2, z: 0.0}}
+      presentation_b: {location: {x: 1.1, y: 0.1, z: 0.0}}
+    camera_anchors:
+      establishing: {location: {x: 0.0, y: -13.5, z: 4.3}}
+      medium: {location: {x: 0.0, y: -10.0, z: 3.2}}
+      left_three_quarter: {location: {x: -4.8, y: -8.5, z: 3.6}}
+      right_three_quarter: {location: {x: 4.8, y: -8.5, z: 3.6}}
+      orbit: {location: {x: 4.8, y: -8.5, z: 3.8}}
+
+  - scene_id: roblox_classroom
+    procedural_kind: classroom
+    style: ROBLOX
+    material_profile: roblox_material_profile
+    lighting_profile: roblox_classroom
+    markers:
+      hero_a: {location: {x: -2.5, y: 0.7, z: 0.0}}
+      hero_b: {location: {x: 0.0, y: 0.7, z: 0.0}}
+      hero_c: {location: {x: 2.5, y: 1.0, z: 0.0}}
+      presentation_a: {location: {x: -1.4, y: -0.3, z: 0.0}}
+      presentation_b: {location: {x: 1.2, y: 0.0, z: 0.0}}
+    camera_anchors:
+      establishing: {location: {x: 0.0, y: -13.0, z: 4.1}}
+      medium: {location: {x: 0.0, y: -9.5, z: 3.1}}
+      left_three_quarter: {location: {x: -4.8, y: -8.0, z: 3.5}}
+      right_three_quarter: {location: {x: 4.8, y: -8.0, z: 3.5}}
+      orbit: {location: {x: 4.8, y: -8.0, z: 3.7}}

@@ -1,0 +1,75 @@
+# Real CC0 set dressing per environment theme.
+# Every pack here must be registered in source_packs.yaml as APPROVED with
+# commercial_use: true, or the binder drops its rows.
+#
+# zone:   backdrop - scattered in a ring around the course
+#         start / finish - beside the start or finish platform (one per side)
+#         air - floating above the race lanes; spins and pops when an animal runs through
+# height: target height in metres (each model is scaled from its own bounds)
+# Kid-safe only: no weapons, bombs, spikes, saws, skulls or trademarked items.
+version: 1
+
+packs:
+  kenney.nature_kit: data/assets/animal_long_slide/quarantine/kenney/kenney_nature-kit/Models/GLTF format
+  kenney.platformer_kit: data/assets/animal_long_slide/quarantine/kenney/kenney_platformer-kit/Models/GLB format
+  kenney.coaster_kit: data/assets/animal_long_slide/quarantine/kenney/kenney_coaster-kit/Models/GLB format
+  kenney.marble_kit: data/assets/animal_long_slide/quarantine/kenney/kenney_marble-kit/Models/GLB format
+  kenney.food_kit: data/assets/animal_long_slide/quarantine/kenney/kenney_food-kit/Models/GLB format
+  kenney.holiday_kit: data/assets/animal_long_slide/quarantine/kenney/kenney_holiday-kit/Models/GLB format
+  quaternius.ultimate_platformer: data/assets/animal_long_slide/quarantine/quaternius/platformer
+
+common:
+  - {pack: quaternius.ultimate_platformer, file: Level and Mechanics/Blends/Goal_Flag.blend, zone: finish, count: 2, height: 2.8}
+  - {pack: kenney.platformer_kit, file: coin-gold.glb, zone: air, count: 8, height: 0.7}
+  - {pack: kenney.marble_kit, file: banner-high.glb, zone: start, count: 2, height: 3.0}
+
+themes:
+  sunny_park:
+    - {pack: kenney.nature_kit, file: tree_oak.glb, zone: backdrop, count: 6, height: 4.5}
+    - {pack: kenney.nature_kit, file: tree_default.glb, zone: backdrop, count: 4, height: 4.0}
+    - {pack: kenney.nature_kit, file: flower_redA.glb, zone: backdrop, count: 8, height: 0.7}
+    - {pack: kenney.nature_kit, file: flower_yellowA.glb, zone: backdrop, count: 8, height: 0.7}
+    - {pack: kenney.coaster_kit, file: stall-food.glb, zone: backdrop, count: 1, height: 3.2}
+  snow_peak:
+    - {pack: kenney.holiday_kit, file: tree-snow-a.glb, zone: backdrop, count: 5, height: 4.5}
+    - {pack: kenney.holiday_kit, file: tree-decorated-snow.glb, zone: backdrop, count: 1, height: 4.0}
+    - {pack: kenney.holiday_kit, file: snowman.glb, zone: backdrop, count: 3, height: 1.8}
+    - {pack: kenney.holiday_kit, file: present-a-cube.glb, zone: backdrop, count: 4, height: 0.8}
+    - {pack: kenney.holiday_kit, file: present-b-round.glb, zone: backdrop, count: 3, height: 0.8}
+    - {pack: kenney.holiday_kit, file: candy-cane-red.glb, zone: backdrop, count: 4, height: 1.6}
+  candy_hills:
+    - {pack: kenney.food_kit, file: cupcake.glb, zone: backdrop, count: 3, height: 2.6}
+    - {pack: kenney.food_kit, file: donut-sprinkles.glb, zone: backdrop, count: 3, height: 2.0}
+    - {pack: kenney.food_kit, file: lollypop.glb, zone: backdrop, count: 5, height: 3.5}
+    - {pack: kenney.food_kit, file: ice-cream.glb, zone: backdrop, count: 3, height: 3.0}
+    - {pack: kenney.food_kit, file: cake-birthday.glb, zone: backdrop, count: 1, height: 2.4}
+    - {pack: kenney.food_kit, file: popsicle.glb, zone: backdrop, count: 3, height: 2.6}
+  jungle_river:
+    - {pack: kenney.nature_kit, file: tree_palmTall.glb, zone: backdrop, count: 6, height: 6.0}
+    - {pack: kenney.nature_kit, file: tree_palmBend.glb, zone: backdrop, count: 4, height: 5.0}
+    - {pack: kenney.nature_kit, file: plant_bushLarge.glb, zone: backdrop, count: 6, height: 1.4}
+    - {pack: kenney.nature_kit, file: mushroom_redGroup.glb, zone: backdrop, count: 3, height: 0.8}
+    - {pack: quaternius.ultimate_platformer, file: Nature/Blends/Tree_Fruit.blend, zone: backdrop, count: 3, height: 4.0}
+  desert_canyon:
+    - {pack: kenney.nature_kit, file: cactus_tall.glb, zone: backdrop, count: 6, height: 3.2}
+    - {pack: kenney.nature_kit, file: cactus_short.glb, zone: backdrop, count: 6, height: 1.6}
+    - {pack: kenney.nature_kit, file: rock_largeA.glb, zone: backdrop, count: 4, height: 2.4}
+    - {pack: kenney.nature_kit, file: rock_largeC.glb, zone: backdrop, count: 3, height: 2.0}
+    - {pack: kenney.coaster_kit, file: stall-drinks.glb, zone: backdrop, count: 1, height: 3.2}
+  night_glow:
+    - {pack: kenney.nature_kit, file: tree_pineRoundA.glb, zone: backdrop, count: 5, height: 4.5}
+    - {pack: kenney.holiday_kit, file: lantern.glb, zone: backdrop, count: 5, height: 1.6}
+    - {pack: kenney.holiday_kit, file: lights-colored.glb, zone: backdrop, count: 3, height: 2.0}
+    - {pack: quaternius.ultimate_platformer, file: Powerups and Pickups/Blends/Star.blend, zone: air, count: 4, height: 0.8}
+  rainy_day:
+    - {pack: kenney.nature_kit, file: tree_detailed.glb, zone: backdrop, count: 5, height: 4.5}
+    - {pack: kenney.nature_kit, file: mushroom_red.glb, zone: backdrop, count: 6, height: 1.2}
+    - {pack: kenney.nature_kit, file: mushroom_tanGroup.glb, zone: backdrop, count: 4, height: 0.9}
+    - {pack: kenney.nature_kit, file: plant_bush.glb, zone: backdrop, count: 6, height: 1.0}
+    - {pack: kenney.nature_kit, file: stump_round.glb, zone: backdrop, count: 2, height: 0.8}
+  autumn_forest:
+    - {pack: kenney.nature_kit, file: tree_oak_fall.glb, zone: backdrop, count: 5, height: 4.5}
+    - {pack: kenney.nature_kit, file: tree_default_fall.glb, zone: backdrop, count: 4, height: 4.0}
+    - {pack: kenney.nature_kit, file: tree_cone_fall.glb, zone: backdrop, count: 3, height: 4.5}
+    - {pack: kenney.food_kit, file: pumpkin.glb, zone: backdrop, count: 4, height: 0.9}
+    - {pack: kenney.nature_kit, file: stump_old.glb, zone: backdrop, count: 2, height: 1.0}

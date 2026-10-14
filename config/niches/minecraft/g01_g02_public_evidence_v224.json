@@ -1,0 +1,469 @@
+{
+  "schema": "cine.minecraft.g01_g02_public_evidence.v224",
+  "as_of": "2026-10-10",
+  "source_method": "Direct public YouTube video page metadata via yt_dlp skip_download=True, plus public i.ytimg.com storyboard thumbnail sampling; NO full video stream downloaded",
+  "public_view_snapshots_not_daily_growth_history": true,
+  "channel_age_and_14day_breakout_verification_complete": false,
+  "source_video_records": [
+    {
+      "video_id": "ZmT0ITUGUII",
+      "role": "MAIZEN_PRIMARY_CHOICES",
+      "channel": "Maizen",
+      "channel_id": "UCJHBJ7F-nAIlMGolm0Hu4vg",
+      "title": "Mikey and JJ Choose the Right Hole in Minecraft",
+      "upload_date_extracted": "2026-08-29",
+      "duration_seconds": 1684,
+      "view_count_snapshot": 4677671,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=ZmT0ITUGUII",
+      "chapters": [],
+      "chapter_status": "PUBLIC_METADATA_ONLY",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    },
+    {
+      "video_id": "zhPBXzHsLuo",
+      "role": "MAIZEN_PRIMARY_HIDDEN_BASE",
+      "channel": "Maizen",
+      "channel_id": "UCJHBJ7F-nAIlMGolm0Hu4vg",
+      "title": "Built a House inside BED in Minecraft",
+      "upload_date_extracted": "2025-10-15",
+      "duration_seconds": 1117,
+      "view_count_snapshot": 19583823,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=zhPBXzHsLuo",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 92,
+          "duration_seconds": 92,
+          "title": "Breaking in as tiny people",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 92,
+          "end_seconds": 247,
+          "duration_seconds": 155,
+          "title": "Building a base in the bed",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 247,
+          "end_seconds": 393,
+          "duration_seconds": 146,
+          "title": "Designing the interior",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 393,
+          "end_seconds": 509,
+          "duration_seconds": 116,
+          "title": "Creating a hidden farm",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 509,
+          "end_seconds": 711,
+          "duration_seconds": 202,
+          "title": "Installing security systems",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 711,
+          "end_seconds": 847,
+          "duration_seconds": 136,
+          "title": "Recovering stolen diamonds",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 847,
+          "end_seconds": 1117,
+          "duration_seconds": 270,
+          "title": "Defending the base",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        }
+      ],
+      "chapter_status": "AUTHOR_CHAPTERS_EXTRACTED_NOT_OBSERVED",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    },
+    {
+      "video_id": "X09yxFuKLAs",
+      "role": "BIGSCHOOL_HISTORIC_COMPILATION",
+      "channel": "BigSchool",
+      "channel_id": "UC-Diq5SjWZDol8C0_E_1Y7A",
+      "title": "Season 3 All Episode - Minecraft Animation",
+      "upload_date_extracted": "2020-08-18",
+      "duration_seconds": 4173,
+      "view_count_snapshot": 135751858,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=X09yxFuKLAs",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 1,
+          "duration_seconds": 1,
+          "title": "Untitled Chapter 1",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 1,
+          "end_seconds": 648,
+          "duration_seconds": 647,
+          "title": "Baby Zombie was Homeless",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 648,
+          "end_seconds": 1308,
+          "duration_seconds": 660,
+          "title": "Funny Zombie Family",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 1308,
+          "end_seconds": 1978,
+          "duration_seconds": 670,
+          "title": "Poor Skeleton Girl",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 1978,
+          "end_seconds": 4173,
+          "duration_seconds": 2195,
+          "title": "Fight Diamond Bandits (EXTRACTED REMAINDER UNRELIABLE)",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        }
+      ],
+      "chapter_status": "EXTRACTOR_INCOMPLETE_VS_7_DESCRIPTION_CHAPTERS",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    },
+    {
+      "video_id": "oX6Azwe5QLg",
+      "role": "MAIZEN_CURRENT_LONGFORM_CONTROL",
+      "channel": "Maizen",
+      "channel_id": "UCJHBJ7F-nAIlMGolm0Hu4vg",
+      "title": "Minecraft, But Item Drops Are Multiplied Every Time!!",
+      "upload_date_extracted": "2026-09-09",
+      "duration_seconds": 1031,
+      "view_count_snapshot": 1499485,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=oX6Azwe5QLg",
+      "chapters": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 87,
+          "duration_seconds": 87,
+          "title": "Mastering item duplication",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 87,
+          "end_seconds": 188,
+          "duration_seconds": 101,
+          "title": "Gathering rare resources",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 188,
+          "end_seconds": 354,
+          "duration_seconds": 166,
+          "title": "Raiding the pyramid trap",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 354,
+          "end_seconds": 494,
+          "duration_seconds": 140,
+          "title": "Mining for diamonds",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 494,
+          "end_seconds": 621,
+          "duration_seconds": 127,
+          "title": "Crafting premium gear",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 621,
+          "end_seconds": 801,
+          "duration_seconds": 180,
+          "title": "Preparing for the End",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 801,
+          "end_seconds": 1000,
+          "duration_seconds": 199,
+          "title": "Defeating the Ender Dragon",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        },
+        {
+          "start_seconds": 1000,
+          "end_seconds": 1031,
+          "duration_seconds": 31,
+          "title": "Conclusion",
+          "verified_from": "YOUTUBE_PAGE_METADATA_CHAPTERS_NOT_PLAYED"
+        }
+      ],
+      "chapter_status": "AUTHOR_CHAPTERS_EXTRACTED_NOT_OBSERVED",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    },
+    {
+      "video_id": "w2U4rcZlKnQ",
+      "role": "KAMUI_CURRENT_ANIMATION_CONTROL",
+      "channel": "Kamui Animation",
+      "channel_id": "UC-IC1Sv1onK1kWlJTTQfrkw",
+      "title": "Fake JJ Falls for JJ's Sister!? - Maizen Minecraft Animation",
+      "upload_date_extracted": "2026-10-03",
+      "duration_seconds": 525,
+      "view_count_snapshot": 381224,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=w2U4rcZlKnQ",
+      "chapters": [],
+      "chapter_status": "MATURE_CHANNEL_NEGATIVE_CONTROL_CREATION_DATE_NOT_CHECKED",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    },
+    {
+      "video_id": "cSrlIx-rT0Y",
+      "role": "DAIKI_ANIMATION_CONTROL",
+      "channel": "Daiki Animation",
+      "channel_id": "UCTAyyv00zBJP3XQbJdUh93w",
+      "title": "MAIZEN : Tricked by JJ's Sister?! - Minecraft Animation JJ & Mikey",
+      "upload_date_extracted": "2026-07-24",
+      "duration_seconds": 515,
+      "view_count_snapshot": 721964,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=cSrlIx-rT0Y",
+      "chapters": [],
+      "chapter_status": "ANIMATION_CONTROL_NOT_NEW_CHANNEL_VERIFIED",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    },
+    {
+      "video_id": "le0yTRqFRro",
+      "role": "MINEBUZZ_ANIMATION_CONTROL",
+      "channel": "MineBuzz",
+      "channel_id": "UCniy5wEz5cpvrviVt5CTT1w",
+      "title": "MAIZEN: JJ Has Crush on JJ Sister! - Minecraft Animation JJ & Mikey",
+      "upload_date_extracted": "2026-10-04",
+      "duration_seconds": 497,
+      "view_count_snapshot": 242920,
+      "view_count_as_of_date": "2026-10-10",
+      "metadata_source_type": "YOUTUBE_PUBLIC_PAGE_METADATA_EXTRACTED_WITH_YT_DLP",
+      "official_youtube_url": "https://www.youtube.com/watch?v=le0yTRqFRro",
+      "chapters": [],
+      "chapter_status": "NEW_CHANNEL_AGE_UNKNOWN_NOT_BREAKOUT_VERIFIED",
+      "is_live": false,
+      "verified_8min_plus": true,
+      "verified_1m_within_14d": "UNKNOWN_NO_DAILY_VIDEO_HISTORY",
+      "creator_age_0_to_30d": "UNKNOWN_UNLESS_SEPARATE_CREATED_AT_EVIDENCE",
+      "full_frames_played": false,
+      "full_audio_heard": false
+    }
+  ],
+  "g01": {
+    "state": "PARTIAL_PUBLIC_METADATA_VERIFIED_CONTROLS_CHOSEN",
+    "primary_case_count": 3,
+    "current_maizen_longform_comparator_count": 1,
+    "animation_control_count": 3,
+    "all_video_durations_8min_plus": true,
+    "discrepancies": [
+      "Maizen Right Hole extractor upload date 2026-08-29 while YouTube search presentation previously showed 2026-08-28; time-zone rendering is plausible but exact scheduled timestamp unverified",
+      "BigSchool 2020 season3 description shows seven chapter labels; extracted machine chapters list four named plus untitled and maps remaining duration into fourth, so not suitable for exact segment cut points",
+      "Reported total views are accumulated public views at snapshot date; 1M within 14 days NOT established",
+      "Controls' channel creation dates and new-channel age still unverified"
+    ],
+    "missing_acceptance": [
+      "Confirm time-zone-normalized source publish datetime from authoritative metadata, not just day",
+      "Verify >=2 weaker original 8min+ references with exact dated performance and creation date",
+      "Record creator age and daily 0/7/14-day snapshots for any claimed breakout",
+      "Complete category-balanced negative control checks"
+    ],
+    "next_step": "G01_RESOLVE_BREAKOUT_AND_WEAK_CONTROLS_THEN_G02_FULL_VISUAL_AUDIO"
+  },
+  "g02": {
+    "state": "PARTIAL_PUBLIC_THUMBNAIL_SAMPLE_ONLY_NOT_FULL_VIDEO_WATCH",
+    "full_video_frames_reviewed": false,
+    "full_video_audio_listened": false,
+    "frame_scenes_timecoded_continuously": false,
+    "thumbnail_preview_samples": [
+      {
+        "video_id": "zhPBXzHsLuo",
+        "case": "MAIZEN_BED",
+        "public_storyboard_fragments_available": 13,
+        "sampled_fragment_indices": [
+          0,
+          6,
+          12
+        ],
+        "tile_sha256": [
+          "a29a9c8d110e8b27978e9dfdfe59b61678b79efaa1bae231145d9dc0052e8968",
+          "773a35538d1aeb038f447325cd71acaa2f2e9704f8f864794bdbce509ca80720",
+          "b8dafd95ff476e2506f5273591b3f6e1be10902eab063eaf5df6aff43c940923"
+        ],
+        "sampled_visual_observations": [
+          "Minecraft-style HUD/hotbar/crosshair visible in sampled panels",
+          "Exterior house and furnished red interior with first-person viewpoint visible in sampled frames",
+          "English narrative captions over video frames and equipment/security props appear",
+          "Repeated social follow end-card sampled"
+        ],
+        "bounded_interpretation": "Game UI visible is strongly consistent with Minecraft-style captured gameplay, but exact engine/mod/recording stack not verified",
+        "observation_scope": "THREE_PUBLIC_STORYBOARD_MOSAIC_THUMBNAILS_PER_VIDEO_NOT_VIDEO_PLAYBACK",
+        "local_ephemeral_montage": ".tools/minecraft_preview_v224/maizen_bed_public_storyboard_samples.jpg",
+        "sampled_video_audio": false
+      },
+      {
+        "video_id": "oX6Azwe5QLg",
+        "case": "MAIZEN_DROPS",
+        "public_storyboard_fragments_available": 12,
+        "sampled_fragment_indices": [
+          0,
+          6,
+          11
+        ],
+        "tile_sha256": [
+          "0b04b75b804385e40f88bdf6695288837a139d26bbbc54d73ba0e062ca235c6",
+          "b88e311de2682626928344f324d9091a13013f9a1789c03e898519ff3db31045",
+          "64b8bb99f7e70ed1bb98c5a7d1a314db6cefc018f5e9044bedcab83948a44e98"
+        ],
+        "sampled_visual_observations": [
+          "HUD/hotbar/inventory/crafting dialog visible in sampled frames",
+          "Minecraft desert/village/forest/end dimension-like environments appear",
+          "Caption text supports resource multiplication/progression theme",
+          "Repeated social follow end-card sampled"
+        ],
+        "bounded_interpretation": "Visuals support in-game progression/crafting presentation but cannot verify exact game replay mod or pacing/audio",
+        "observation_scope": "THREE_PUBLIC_STORYBOARD_MOSAIC_THUMBNAILS_PER_VIDEO_NOT_VIDEO_PLAYBACK",
+        "local_ephemeral_montage": ".tools/minecraft_preview_v224/maizen_drops_public_storyboard_samples.jpg",
+        "sampled_video_audio": false
+      },
+      {
+        "video_id": "X09yxFuKLAs",
+        "case": "BIGSCHOOL_S3",
+        "public_storyboard_fragments_available": 47,
+        "sampled_fragment_indices": [
+          0,
+          23,
+          46
+        ],
+        "tile_sha256": [
+          "69a7953f43f28a2d8c8d14e11093724ed0ba0883b042a8c6a0616888ff821deb",
+          "a643db51ce1c6406e087e20e676e6ff81fec48f4e6932fbd98f99b390c62797a",
+          "96ea9b57eba8bc6e288a81b5387128e9c719a91b1411640a85103522347e16e3"
+        ],
+        "sampled_visual_observations": [
+          "Third-person external camera angles with multiple block-styled character poses",
+          "School/street/interior stage sets and wide/medium shots in sampled frames",
+          "No gameplay HUD visible in these sampled tiles; cannot extend claim to entire film",
+          "Several varied character/group reaction compositions visible"
+        ],
+        "bounded_interpretation": "Consistent with staged 3D voxel animation but exact renderer software, rig and audio unverified",
+        "observation_scope": "THREE_PUBLIC_STORYBOARD_MOSAIC_THUMBNAILS_PER_VIDEO_NOT_VIDEO_PLAYBACK",
+        "local_ephemeral_montage": ".tools/minecraft_preview_v224/bigschool_s3_public_storyboard_samples.jpg",
+        "sampled_video_audio": false
+      }
+    ],
+    "missing_acceptance": [
+      "Play/inspect lawful actual video frames and soundtrack across all content, not thumbnail mosaics",
+      "Create timestamped beat, camera, sound, pacing, acting and gameplay-mechanics data backed by actual frames/audio",
+      "Distinguish source footage capture from 3D reconstruction with verified runtime/config",
+      "Review weak-control 8+min video similarly before drawing long-form conclusions"
+    ]
+  },
+  "technology_gap_candidates": [
+    {
+      "id": "minecraft_java_legally_licensed",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "role": "Actual game runtime required before claiming real capture",
+      "official_source": "https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc",
+      "status": "LICENSE_AND_LOCAL_INSTALL_UNVERIFIED",
+      "automation_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "fabric_replaymod",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "role": "In-game replay/cinematic free camera and reproducible camera paths",
+      "official_source": "https://www.replaymod.com/download/",
+      "status": "OFFICIAL_COMPATIBILITY_PAGE_VERIFIED_NOT_INSTALLED",
+      "automation_status": "NOT_EXECUTED",
+      "risk": "Fabric Minecraft version pin and mod licensing"
+    },
+    {
+      "id": "fabric_flashback",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "role": "Alternative record/session replay/camera track",
+      "official_source": "https://github.com/Moulberry/Flashback",
+      "status": "UPSTREAM_GITHUB_CONFIRMED_NOT_INSTALLED",
+      "automation_status": "NOT_EXECUTED",
+      "risk": "Custom license, redistribution prohibited; Flashback replay files incompatible with ReplayMod"
+    },
+    {
+      "id": "obs_studio",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "role": "Local screen/game+mic capture and recorded file provenance",
+      "official_source": "https://obsproject.com/",
+      "status": "OFFICIAL_REFERENCE_NOT_EXECUTION_CHECKED",
+      "automation_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "blockbench",
+      "lane": "AUTHORED_VOXEL_3D_ANIMATION",
+      "role": "Original voxel skin/props/glTF into existing Blender 4.5",
+      "official_source": "https://blockbench.net/",
+      "status": "OFFICIAL_REFERENCE_NOT_INSTALLED",
+      "automation_status": "NOT_EXECUTED"
+    },
+    {
+      "id": "existing_cinefactory_blender",
+      "lane": "AUTHORED_VOXEL_3D_ANIMATION",
+      "role": "Persistent Blender4.5 + Character Factory + scene templates + FFmpeg",
+      "official_source": "config/niches/minecraft/research_backlog_v222.yaml",
+      "status": "BASELINE_TWO_SECOND_PROTOTYPE_WITH_12_BLOCKERS",
+      "automation_status": "NO_NEW_EXECUTION"
+    }
+  ],
+  "qc_policy": {
+    "no_partner_paid_credits": true,
+    "do_not_clone_reference_skins": true,
+    "do_not_claim_full_video_watched": true,
+    "do_not_claim_14day_breakout": true,
+    "do_not_switch_backend": true,
+    "owner_approval_for_install": true,
+    "local_demo_preview_only": true
+  }
+}

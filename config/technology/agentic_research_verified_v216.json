@@ -1,0 +1,338 @@
+{
+  "schema": "cine.technology.agentic_research_20261010.v216",
+  "research_date": "2026-10-10",
+  "source_archive": "config/technology/agent_leap_user_study_20261010.md",
+  "registry_96_preserved": true,
+  "requires_executable_review": true,
+  "auto_install": false,
+  "auto_authorize_paid_api": false,
+  "auto_switch_backend": false,
+  "candidates": [
+    {
+      "id": "blender_mcp_218",
+      "name": "RFingAdam/mcp-blender",
+      "url": "https://github.com/RFingAdam/mcp-blender",
+      "status": "REPOSITORY_EXISTS_REPO_CAPABILITY_SELF_REPORTED",
+      "priority": "HOLD",
+      "gates": "Repository page labels AGPL-3.0 yet README says MIT. Confirm exact license from LICENSE and audit arbitrary bpy/script invocation.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "blender_mcp_forced_update",
+      "name": "6xvl/blender-mcp",
+      "url": "https://github.com/6xvl/blender-mcp",
+      "status": "REPOSITORY_EXISTS_SECURITY_RISK",
+      "priority": "HOLD",
+      "gates": "README says addon replaces code from main on Blender startup by default, without opt-out; unsafe for pinned production.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "maya_mcp_patrick",
+      "name": "PatrickPalmer/MayaMCP",
+      "url": "https://github.com/PatrickPalmer/MayaMCP",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "RND",
+      "gates": "Needs Maya license and port exposure/code execution security audit.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "maya_mcp_aydji",
+      "name": "AYDJI/Autodesk-Maya-MCP",
+      "url": "https://github.com/AYDJI/Autodesk-Maya-MCP",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "RND",
+      "gates": "Needs Maya license and port exposure/code execution security audit.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "dcc_mcp_core",
+      "name": "dcc-mcp/dcc-mcp-core",
+      "url": "https://github.com/dcc-mcp/dcc-mcp-core",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "P1",
+      "gates": "Potential multi-DCC control plane; do not duplicate existing CineFactory command executor or grant filesystem rights.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "houdini_mcp_fx",
+      "name": "healkeiser/fxhoudinimcp",
+      "url": "https://github.com/healkeiser/fxhoudinimcp",
+      "status": "REPOSITORY_EXISTS_SELF_REPORTED_215_TOOLS",
+      "priority": "RND",
+      "gates": "Houdini license, Python/network access, USD and node execution review required.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "houdini_mcp_oculair",
+      "name": "oculairmedia/houdini-mcp",
+      "url": "https://github.com/oculairmedia/houdini-mcp",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "RND",
+      "gates": "Check Houdini hrpyc bridge permissions, local binding, and license.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "nuke_mcp_kleer",
+      "name": "kleer001/nuke-mcp",
+      "url": "https://github.com/kleer001/nuke-mcp",
+      "status": "REPOSITORY_EXISTS_SELF_REPORTED_57_TOOLS",
+      "priority": "RND",
+      "gates": "Nuke is commercial; do not assume an executable license or production-time benefit.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "nuke_mcp_linchpin",
+      "name": "linchpinhq/nuke-mcp",
+      "url": "https://github.com/linchpinhq/nuke-mcp",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "RND",
+      "gates": "Nuke node graph remote access; cost and sandbox gating.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "comfy_mcp_artokun",
+      "name": "artokun/comfyui-mcp",
+      "url": "https://github.com/artokun/comfyui-mcp",
+      "status": "REPOSITORY_EXISTS_SELF_REPORTED_178_TOOLS",
+      "priority": "P0",
+      "gates": "Highest local exploration ROI. Review 55 installer packs and download capabilities; do not run model install automatically.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "wan2gp",
+      "name": "deepbeepmeep/Wan2GP",
+      "url": "https://github.com/deepbeepmeep/Wan2GP",
+      "status": "REPOSITORY_EXISTS_MODEL_SUPPORT_LIST_SELF_REPORTED",
+      "priority": "P0",
+      "gates": "Local backend supports MiniMax H3, LTX 2.x and Wan 2.x per README; no evidence RTX 3060 measured acceptance or model-weight commercial clearance.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "ai4animation",
+      "name": "sebastianstarke/AI4Animation",
+      "url": "https://github.com/sebastianstarke/AI4Animation",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "P1",
+      "gates": "Unity academic/animation framework rather than drop-in Blender/R6 automation.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "dramaclaw",
+      "name": "dramaclaw/dramaclaw",
+      "url": "https://github.com/dramaclaw/dramaclaw",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "P1",
+      "gates": "Assess script-to-shot design/QC/orchestration, credit and model API dependencies.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "usd_optimize",
+      "name": "NVIDIA-Omniverse/usd-optimize",
+      "url": "https://github.com/NVIDIA-Omniverse/usd-optimize",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "P1",
+      "gates": "Potential large USD stage optimizing; useful after asset-scale bottleneck established.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "spirula",
+      "name": "harry7557558/spirula-studio",
+      "url": "https://github.com/harry7557558/spirula-studio",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "RND",
+      "gates": "Spatial capture niche only. 3D Gaussian splat project, not evidence of temporal 4D feature.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "graphite",
+      "name": "GraphiteEditor/Graphite",
+      "url": "https://github.com/GraphiteEditor/Graphite",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "P1",
+      "gates": "For graphic/thumbnail/motion design; benchmark with existing Remotion workflow.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "onlook",
+      "name": "onlook-dev/onlook",
+      "url": "https://github.com/onlook-dev/onlook",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "RND",
+      "gates": "Useful for website/UI company division, not default cinematic shot renderer.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "impeccable",
+      "name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "status": "REPOSITORY_EXISTS_NOT_RUNTIME_TESTED",
+      "priority": "P1",
+      "gates": "Potential brand/design QA agent skills; supply-chain review of plugins/hooks required.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "figma_official_mcp",
+      "name": "Figma official MCP",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/",
+      "status": "OFFICIAL_VENDOR_DOCUMENTATION_CONFIRMED",
+      "priority": "P1",
+      "gates": "Client and paid-seat requirements may apply; optional for website/design/packaging.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "figma_guide",
+      "name": "figma/mcp-server-guide",
+      "url": "https://github.com/figma/mcp-server-guide",
+      "status": "REPOSITORY_EXISTS_OFFICIAL_GUIDE_ONLY",
+      "priority": "P1",
+      "gates": "Guide repository is not itself the full production MCP server.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "artcraft",
+      "name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "status": "IN_PREEXISTING_96_NOT_RECHECKED_THIS_PASS",
+      "priority": "P1",
+      "gates": "Already present in CineFactory 96; preserve existing source/status.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "comfy_base",
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "status": "IN_PREEXISTING_96_NOT_RECHECKED_THIS_PASS",
+      "priority": "P0",
+      "gates": "Already present in CineFactory 96.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "openusd",
+      "name": "PixarAnimationStudios/OpenUSD",
+      "url": "https://github.com/PixarAnimationStudios/OpenUSD",
+      "status": "IN_PREEXISTING_96_NOT_RECHECKED_THIS_PASS",
+      "priority": "P1",
+      "gates": "Already present in CineFactory 96.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    },
+    {
+      "id": "penpot",
+      "name": "penpot/penpot",
+      "url": "https://github.com/penpot/penpot",
+      "status": "EXISTENCE_NOT_INDEPENDENTLY_VERIFIED_THIS_PASS",
+      "priority": "RND",
+      "gates": "Web/design department only; no installation or runtime evidence.",
+      "installed": false,
+      "benchmarked": false,
+      "commercially_cleared": false
+    }
+  ],
+  "claims": [
+    {
+      "id": "sora_shutdown",
+      "state": "OFFICIALLY_CONFIRMED",
+      "primary_source": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+      "interpretation": "Sora web/app closed 2026-04-26 and API closed 2026-09-24. Cause claim about pipeline control was not supported by source."
+    },
+    {
+      "id": "flux3",
+      "state": "OFFICIALLY_CONFIRMED_EARLY_ACCESS_NOT_LOCAL",
+      "primary_source": "https://bfl.ai/blog/flux-3-mimic",
+      "interpretation": "Black Forest Labs introduced multimodal FLUX 3 July 23 2026. Not proof weights downloadable, GPU ready or 3 modalities exactly synchronized in all contexts."
+    },
+    {
+      "id": "runway_gen45",
+      "state": "OFFICIALLY_CONFIRMED_PAID_SAAS",
+      "primary_source": "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
+      "interpretation": "Runway Gen-4.5 is a real service. Documented 12 credits/second and 2-10 second clips. Not a free long-film solution."
+    },
+    {
+      "id": "unreal6",
+      "state": "MISSTATED_AS_AVAILABLE",
+      "primary_source": "https://www.unrealengine.com/news/the-road-to-ue-6",
+      "interpretation": "Epic June 2026 calls UE6 an in-development roadmap; June 2026 production release UE5.8. Do not route to UE6 production."
+    },
+    {
+      "id": "houdini22",
+      "state": "PARTIALLY_VERIFIED_SPECIFIC_FEATURES_UNCHECKED",
+      "primary_source": "https://www.sidefx.com/",
+      "interpretation": "SideFX site reports Houdini H22 materials/talks; ONNX native inference claims not verified here."
+    },
+    {
+      "id": "maya_motionmaker",
+      "state": "OFFICIAL_FEATURE_CONFIRMED_NOT_BENCHMARKED",
+      "primary_source": "https://help.autodesk.com/cloudhelp/2026/ENU/Maya-MotionMaker/files/GUID-473B9D09-124C-4A5C-94F8-F3B4B89FAB18.html",
+      "interpretation": "MotionMaker exists in Maya docs, but 80% rig compression and 60 FPS are unverified marketing claims."
+    },
+    {
+      "id": "nuke17",
+      "state": "OFFICIAL_NUKE17_RELEASE_CONFIRMED_SPECIFIC_CLAIMS_UNCHECKED",
+      "primary_source": "https://learn.foundry.com/nuke/content/release_notes/17.0/nuke_17.0v4_releasenotes.html",
+      "interpretation": "Nuke 17.0v4 dated 2026-07-28. SmartRoto 4x and Nuke-native Gaussian splat/Griptape claims remain unverified."
+    },
+    {
+      "id": "gaussian_extension",
+      "state": "OVERSTATED_4D_STANDARD",
+      "primary_source": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+      "interpretation": "Khronos release candidate in Feb 2026 is for 3D Gaussian splats within glTF, not standardized 4D time-varying splats."
+    },
+    {
+      "id": "agentic_electricity",
+      "state": "UNSUPPORTED_QUANTIFIED_SAVINGS",
+      "primary_source": null,
+      "interpretation": "40-75% electricity/render savings not evidenced by comparable controlled benchmark."
+    },
+    {
+      "id": "creative_mcp_vendor_official",
+      "state": "NOT_GROUNDED_FOR_BLENDER",
+      "primary_source": null,
+      "interpretation": "Claim of official Blender MCP should not imply Blender Foundation endorsement for independent GitHub servers."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+niche_id: rain_sleep_white_noise
+display_name: Rain / Sleep / White Noise
+status: ACTIVE_CORE
+content_unit_ontology:
+- environment
+- ambience_segment
+- loop_variation_block
+shared_capabilities:
+- company_governance
+- finance_legal_security
+- versioning_and_provenance
+- production_management
+- universal_filmmaking_principles
+- tool_and_capability_rnd
+- data_and_experiment_framework
+- technical_qa
+- publishing_infrastructure
+niche_specific_domains:
+- audience
+- competitors
+- seo
+- ambience
+- looping
+- procedural_variation
+- volume_stability
+- transient_detection
+- flicker_detection
+- longform_mastering
+audience_model: {}
+competitor_registry: []
+keyword_graph: {}
+format_dna: {}
+production_recipes: {}
+packaging_grammar: {}
+retention_baselines: {}
+risk_profile: {}
+validated_rules: []

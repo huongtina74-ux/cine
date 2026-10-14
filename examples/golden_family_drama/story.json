@@ -1,0 +1,22 @@
+{
+  "title": "The House",
+  "premise": "A daughter discovers her father sold the family home to pay for her mother's care.",
+  "theme": "Love can hide inside sacrifice.",
+  "protagonist_goal": "understand the truth",
+  "central_conflict": "the father hides his sacrifice because he does not want his daughter to feel guilty",
+  "ending_state": "the daughter understands what her father gave up",
+  "beats": [
+    {
+      "beat_id": "B01",
+      "purpose": "plant suspicion",
+      "change": "the daughter realizes the house deed is missing",
+      "audience_question": "what did her father do?"
+    },
+    {
+      "beat_id": "B02",
+      "purpose": "reveal sacrifice",
+      "change": "the daughter begins to understand the truth",
+      "audience_question": "will she confront him?"
+    }
+  ]
+}

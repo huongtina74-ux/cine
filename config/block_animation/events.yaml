@@ -1,0 +1,4 @@
+events:
+  - {event_id: impact_hit, event_type: vfx_sound, renderer_event: impact_flash, sound_asset: null, duration_seconds: 0.18, tags: [impact]}
+  - {event_id: reveal_spark, event_type: vfx_sound, renderer_event: sparkle_burst, sound_asset: null, duration_seconds: 0.35, tags: [reveal]}
+  - {event_id: whoosh, event_type: sound, renderer_event: null, sound_asset: null, duration_seconds: 0.25, tags: [motion]}

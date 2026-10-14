@@ -1,0 +1,136 @@
+{
+  "schema": "cine.company.claude_connector_catalog.v219",
+  "research_only": true,
+  "no_paid_auto_calls": true,
+  "no_third_party_auto_installs": true,
+  "as_of": "2026-10-10",
+  "source_links": {
+    "comfy": "https://github.com/Comfy-Org/comfy-mcp",
+    "blender": "https://www.blender.org/lab/mcp-server/",
+    "claude": "https://code.claude.com/docs/en/mcp",
+    "openart": "https://openart.ai/mcp/",
+    "higgsfield": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent"
+  },
+  "connectors": [
+    {
+      "id": "comfy_local_api",
+      "name": "ComfyUI local HTTP API",
+      "integration_status": "LOCAL_READY_FOR_LIVE_READONLY_CHECK",
+      "recommended_stage": "P0",
+      "capabilities": "Inspect real GPU/node/queue via http://127.0.0.1:8188 from CineFactory MCP; existing Comfy 0.38.0 observed live",
+      "rights_risk": "Read-only localhost GET; model/worker license and generation quality not verified",
+      "activation_requirements": "No extra installation; explicit permission for any future submit/queue action",
+      "auto_enabled": false
+    },
+    {
+      "id": "comfy_official_mcp",
+      "name": "Comfy-Org Comfy MCP",
+      "integration_status": "NOT_INSTALLED_OR_NOT_ON_PATH",
+      "recommended_stage": "P1",
+      "capabilities": "Adds node/workflow/job tools to Claude Code via comfy-cli",
+      "rights_risk": "Official MCP exposes install/download and partner_generate paths with credit risk",
+      "activation_requirements": "Isolated install in separate reviewed env; comfy-cli>=1.14; allowlist paid tools and review before approval",
+      "auto_enabled": false
+    },
+    {
+      "id": "blender_desktop_extension",
+      "name": "Blender MCP Claude Desktop extension",
+      "integration_status": "DESKTOP_EXTENSION_PROCESSES_DETECTED_NOT_CODE_CONNECTED",
+      "recommended_stage": "P1",
+      "capabilities": "Blender MCP processes observed on Oct 10, not proof Blender runtime or CineFactory Claude Code session",
+      "rights_risk": "Code execution through bpy on user workstation; danger to files/credentials",
+      "activation_requirements": "Confirm extension version, addon and Blender process, audit permissions; do not silently attach",
+      "auto_enabled": false
+    },
+    {
+      "id": "blender_lab_official",
+      "name": "Blender Foundation Lab MCP",
+      "integration_status": "VERSION_GATED_RESEARCH_ONLY",
+      "recommended_stage": "P1",
+      "capabilities": "New official Blender Lab server, requires Blender >=5.1",
+      "rights_risk": "Arbitrary LLM-generated bpy Python without guardrails",
+      "activation_requirements": "Separate Blender 5.1 sandbox; production worker Blender 4.5 unchanged",
+      "auto_enabled": false
+    },
+    {
+      "id": "blender_existing_worker",
+      "name": "CineFactory Blender 4.5 persistent worker",
+      "integration_status": "EXISTING_CODE_RUNTIME_NOT_REVALIDATED_TODAY",
+      "recommended_stage": "P0",
+      "capabilities": "Existing versioned clip/rig/camera factory",
+      "rights_risk": "Prefer well-scoped existing worker to arbitrary third-party MCP remote code",
+      "activation_requirements": "Require render acceptance and current worker smoke test before production",
+      "auto_enabled": false
+    },
+    {
+      "id": "openart_mcp",
+      "name": "OpenArt MCP",
+      "integration_status": "OPTIONAL_PAID_NOT_CONNECTED",
+      "recommended_stage": "P2",
+      "capabilities": "Claude Code image/video reference and asset generation",
+      "rights_risk": "Cloud credits consumed; not proven RTX3060 local fit",
+      "activation_requirements": "Human connects OAuth and explicitly approves spending budget",
+      "auto_enabled": false
+    },
+    {
+      "id": "higgsfield_mcp",
+      "name": "Higgsfield MCP / Claude Skills",
+      "integration_status": "OPTIONAL_PAID_NOT_CONNECTED",
+      "recommended_stage": "P2",
+      "capabilities": "Cinematic hero scenes and camera-focused generation",
+      "rights_risk": "MCP/CLI charges credits including web-unlimited accounts",
+      "activation_requirements": "Owner sets per-shot dollar budget and authenticates",
+      "auto_enabled": false
+    },
+    {
+      "id": "google_flow",
+      "name": "Google Flow / Veo Gemini API",
+      "integration_status": "WEB_TOOL_API_SEPARATE",
+      "recommended_stage": "P2",
+      "capabilities": "Cloud filmmaking and hero shots",
+      "rights_risk": "Flow web features do not imply external Claude MCP; Veo API paid",
+      "activation_requirements": "Use separately budgeted Gemini Video API, not imagined Flow MCP",
+      "auto_enabled": false
+    },
+    {
+      "id": "magiclight",
+      "name": "MagicLight AI",
+      "integration_status": "SAAS_REFERENCE_ONLY",
+      "recommended_stage": "P3",
+      "capabilities": "Long-story scenes, script/story organization examples",
+      "rights_risk": "No verified official MCP/API, cloud access rights unknown",
+      "activation_requirements": "Validate official API first; otherwise research only",
+      "auto_enabled": false
+    },
+    {
+      "id": "piclumen",
+      "name": "PicLumen AI",
+      "integration_status": "SAAS_REFERENCE_ONLY",
+      "recommended_stage": "P3",
+      "capabilities": "Concept/thumbnail ideation",
+      "rights_risk": "No public API per vendor; free Basic no commercial use",
+      "activation_requirements": "Commercial plan license review required for monetized channels",
+      "auto_enabled": false
+    },
+    {
+      "id": "krea_nodes",
+      "name": "Krea Nodes Agent",
+      "integration_status": "SAAS_REFERENCE_ONLY",
+      "recommended_stage": "P2",
+      "capabilities": "Node-based creative prompt-to-workflow templates",
+      "rights_risk": "Cloud credit consumption and model licensing",
+      "activation_requirements": "Only after comparative studio workflow benchmarks and explicit budget",
+      "auto_enabled": false
+    },
+    {
+      "id": "ffmpeg_remotion",
+      "name": "FFmpeg / Remotion CineFactory editorial",
+      "integration_status": "EXISTING_PIPELINE_REFERENCE",
+      "recommended_stage": "P0",
+      "capabilities": "Local edit, captions, audio/QC existing code",
+      "rights_risk": "Do not replace stable local pipeline with cloud automation",
+      "activation_requirements": "Use existing approved studio handlers, maintain regression tests",
+      "auto_enabled": false
+    }
+  ]
+}

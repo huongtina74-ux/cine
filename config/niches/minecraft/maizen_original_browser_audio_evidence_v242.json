@@ -1,0 +1,103 @@
+{
+  "schema": "cine.minecraft.maizen_original_browser_av_source.v242",
+  "date": "2026-10-11",
+  "video_id": "ZmT0ITUGUII",
+  "source_url": "https://www.youtube.com/watch?v=ZmT0ITUGUII",
+  "duration_seconds": 1684.461,
+  "project": "MAI01_WATERFALL",
+  "source_trace": {
+    "browser_source": "YouTube Chrome Playwright",
+    "original_visual_browser_playback_segments_complete": 45,
+    "original_visual_snapshot_frames": 153,
+    "original_source_audio_segments": 45,
+    "first_source_audio_0_to_4_s_patch": true,
+    "original_source_audio_0_to_1684_s_covered_by_captures": true,
+    "timeline_gaps_over_0_8_seconds": 0,
+    "audio_segment_sha256_unique": true,
+    "automatic_whisper_en_speech_segments_complete": 45,
+    "recognized_uncorrected_words": 4575,
+    "source_full_mp4_downloaded": false,
+    "original_sound_independent_music_sfx_review_complete": false,
+    "verbatim_spoken_dialogue_100percent_verified": false,
+    "source_face_motion_all_frames_100percent_manually_inspected": false,
+    "independent_reviewer_signed": false
+  },
+  "sources": {
+    "visual": "docs/MAIZEN_ORIGINAL_BROWSER_FULL_TIMELINE_STUDY_V237_20261011.md",
+    "vendor_secondary": "docs/MAIZEN_VIDEO_ONE_VIDIQ_WALKTHROUGH_EVIDENCE_V230_20261011.md",
+    "local_audio_private": ".tools/maizen_audio_full_v239",
+    "local_audio_audit": ".tools/maizen_audio_full_v239/maizen_audio_audit_v242.json"
+  },
+  "chapters": [
+    {
+      "from": 0,
+      "to": 216,
+      "subject": "TNT versus diamond",
+      "speech_story": "Explanation of choosing one correct and one wrong pipe; diamond seen as safe, TNT feared; reactions change after surprise loot in TNT and hostile diamond creatures.",
+      "observed_image": "Two giant pipes, scripted explosion/chest and monsters, HUD and multi-color captions"
+    },
+    {
+      "from": 216,
+      "to": 426,
+      "subject": "Water versus lava",
+      "speech_story": "Mikey applies incorrect lesson that most dangerous-looking path must be correct; two parallel parkour courses appear equivalent, but boat and water mechanics differ from lava outcome.",
+      "observed_image": "Two side-by-side parkour lanes, boat prop and game HUD"
+    },
+    {
+      "from": 426,
+      "to": 624,
+      "subject": "Slime versus honey",
+      "speech_story": "Characters suspect honey's sweetness may be bait, explore locked chambers, search for key hidden in environment, react to bees and a discovered unlock.",
+      "observed_image": "Slime/honey rooms, keys, locks, bee swarm"
+    },
+    {
+      "from": 624,
+      "to": 764,
+      "subject": "Arithmetic choice",
+      "speech_story": "Characters explicitly solve 3+2, enter answers, respond to lever-triggered boulder hazard, escape when bars are unlocked.",
+      "observed_image": "5/6 signs, lever, boulder trap, scene captions"
+    },
+    {
+      "from": 764,
+      "to": 930,
+      "subject": "Mutant zombie versus silverfish",
+      "speech_story": "They predict safety by creature labels; a tiny mutant zombie is easy to defeat but unexpectedly huge silverfish overwhelm the other route.",
+      "observed_image": "Scaled-looking mobs, grey-green rooms, defeat/reward"
+    },
+    {
+      "from": 930,
+      "to": 1081,
+      "subject": "Android versus iPhone",
+      "speech_story": "Characters select phone-branded pipes; the iPhone/showroom side appears rewarding while Android-themed enemies generate surprise and reaction.",
+      "observed_image": "Phone props/showroom, green mascot-looking mobs"
+    },
+    {
+      "from": 1081,
+      "to": 1671,
+      "subject": "Danger versus safe, defense build and boss",
+      "speech_story": "Safe/danger signs mislead about quality of loot; one side receives advanced security gear and one basic materials. Arena announces countdown; narrator walks through building hidden entry, lasers, lava curtain, turrets; boss first attacks vulnerable base then stronger defenses; final win resolves episode.",
+      "observed_image": "Stadium, compressed countdown, white secure house, red lasers, lava trap, dirt hut and cobwebs, boss attack"
+    },
+    {
+      "from": 1671,
+      "to": 1684.461,
+      "subject": "Outro/CTA",
+      "speech_story": "End narration asks viewers to like/subscribe and follow social channels.",
+      "observed_image": "Separate 2D end card"
+    }
+  ],
+  "evidence_note": "Local ASR/visual study of ONE complete episode is not proof of Maizen exact production software or cross-channel replication. Exact mods, bots, Blender, event recording tools unverified.",
+  "quality_gate": {
+    "source_asr_run_complete": true,
+    "source_video_browser_timeline_full": true,
+    "strict_v227_full_original_av_independent_audit_passed": false,
+    "other_two_required_maizen_videos_full_review_passed": false,
+    "g03_production_method_conclusion_approved": false,
+    "music_sfx_100percent_semantic_inspection_complete": false
+  },
+  "rights": {
+    "do_not_commit_copyrighted_source_audio": true,
+    "do_not_copy_maizen_character_design_assets": true,
+    "not_authorized_publish": true
+  }
+}

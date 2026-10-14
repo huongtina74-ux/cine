@@ -1,0 +1,343 @@
+# Preview series bible: same channel, worlds and formats as series_bible.yaml, with a cast
+# made only of animals the renderer can animate today (rigged, Head bone, run motion).
+# Switch back to series_bible.yaml once the licensed elephant/tiger/lion/hippo/gorilla/dinosaur
+# pack is qualified. Names are original placeholders.
+brand: Zoomi Slide Club
+language: en
+min_cast: 4
+max_cast: 5
+cast:
+- character_id: molly
+  name: Molly
+  animal_id: cow
+  trait: cheerful and loud
+  signature: happy moo
+- character_id: daisy
+  name: Daisy
+  animal_id: duck
+  trait: tiny and clever
+  signature: wing flap
+- character_id: hazel
+  name: Hazel
+  animal_id: horse
+  trait: fast and kind
+  signature: victory gallop
+- character_id: pip
+  name: Pip
+  animal_id: pig
+  trait: always hungry
+  signature: snout wiggle
+- character_id: shelly
+  name: Shelly
+  animal_id: sheep
+  trait: fluffy and shy
+  signature: cloud hop
+- character_id: zuri
+  name: Zuri
+  animal_id: zebra
+  trait: loves patterns
+  signature: stripe spin
+- character_id: finn
+  name: Finn
+  animal_id: fox
+  trait: clever planner
+  signature: tail twirl
+- character_id: koda
+  name: Koda
+  animal_id: husky
+  trait: brave in the snow
+  signature: happy howl
+environments:
+- theme_id: sunny_park
+  label: Sunny Park
+  world_color:
+  - 0.55
+  - 0.75
+  - 0.95
+  sun_color:
+  - 1.0
+  - 0.97
+  - 0.9
+  sun_energy: 3.0
+  sun_elevation_deg: 55
+  sun_azimuth_deg: 30
+- theme_id: snow_peak
+  label: Snow Peak
+  world_color:
+  - 0.78
+  - 0.86
+  - 0.95
+  sun_color:
+  - 0.95
+  - 0.97
+  - 1.0
+  sun_energy: 3.4
+  sun_elevation_deg: 35
+  sun_azimuth_deg: -40
+- theme_id: candy_hills
+  label: Candy Hills
+  world_color:
+  - 0.95
+  - 0.72
+  - 0.85
+  sun_color:
+  - 1.0
+  - 0.92
+  - 0.95
+  sun_energy: 2.6
+  sun_elevation_deg: 50
+  sun_azimuth_deg: 60
+- theme_id: jungle_river
+  label: Jungle River
+  world_color:
+  - 0.45
+  - 0.68
+  - 0.5
+  sun_color:
+  - 1.0
+  - 0.95
+  - 0.8
+  sun_energy: 2.4
+  sun_elevation_deg: 60
+  sun_azimuth_deg: 15
+- theme_id: desert_canyon
+  label: Desert Canyon
+  world_color:
+  - 0.9
+  - 0.7
+  - 0.45
+  sun_color:
+  - 1.0
+  - 0.85
+  - 0.65
+  sun_energy: 3.6
+  sun_elevation_deg: 40
+  sun_azimuth_deg: 70
+- theme_id: night_glow
+  label: Glow Night
+  world_color:
+  - 0.05
+  - 0.07
+  - 0.2
+  sun_color:
+  - 0.6
+  - 0.7
+  - 1.0
+  sun_energy: 0.8
+  sun_elevation_deg: 25
+  sun_azimuth_deg: -60
+- theme_id: rainy_day
+  label: Rainy Day
+  world_color:
+  - 0.45
+  - 0.5
+  - 0.58
+  sun_color:
+  - 0.85
+  - 0.88
+  - 0.95
+  sun_energy: 1.4
+  sun_elevation_deg: 45
+  sun_azimuth_deg: 0
+- theme_id: autumn_forest
+  label: Autumn Forest
+  world_color:
+  - 0.85
+  - 0.6
+  - 0.4
+  sun_color:
+  - 1.0
+  - 0.8
+  - 0.6
+  sun_energy: 2.2
+  sun_elevation_deg: 30
+  sun_azimuth_deg: -20
+formats:
+- format_id: rainbow_race
+  label: Rainbow Race
+  scenes:
+  - LONG_SLIDE
+  - SPIRAL_SLIDE
+  - PAINT_GATE
+  title_templates:
+  - '{lead}''s Rainbow Long Slide Race in {env} with {friends} | {brand}'
+  - Who Wins the {env} Slide Race? {lead} the {lead_animal} vs {friends} | {brand}
+  - '{env} Speed Slide: {lead} and Friends Race to the Rainbow Finish | {brand}'
+  synopsis_templates:
+  - '{lead} the {lead_animal} challenges {friends} to a race down the rainbow long slide in {env}.'
+  - In {env}, {lead} and friends line up for the fastest rainbow slide race of the season.
+- format_id: rescue_friend
+  label: Rescue Mission
+  scenes:
+  - KEY_DOOR
+  - CAGE
+  - LONG_SLIDE
+  title_templates:
+  - '{lead} the {lead_animal} Leads a {env} Slide Rescue with {friends} | {brand}'
+  - 'Rescue Mission in {env}: {crew} Open the Secret Gate | {brand}'
+  - '{lead}''s Brave {env} Slide Rescue Team | {brand}'
+  synopsis_templates:
+  - A friend is waiting behind a locked gate in {env}, so {lead} the {lead_animal} gathers {friends} to find the key.
+  - '{lead} plans a careful rescue across the {env} slides, and everyone helps along the way.'
+- format_id: treasure_hunt
+  label: Treasure Hunt
+  scenes:
+  - KEY_DOOR
+  - BALL_PIT
+  - FOUNTAIN
+  title_templates:
+  - '{lead}''s {env} Treasure Hunt on the Long Slide with {friends} | {brand}'
+  - Find the Golden Key! {crew} Slide Through {env} | {brand}
+  - '{env} Treasure Slide: Can {lead} the {lead_animal} Find Every Star? | {brand}'
+  synopsis_templates:
+  - '{lead} the {lead_animal} finds a treasure map and leads {friends} through every slide in {env}.'
+  - Golden stars are hidden all over {env}, and {lead}'s team must slide to collect them.
+- format_id: color_swap
+  label: Color Swap
+  scenes:
+  - PAINT_GATE
+  - FOUNTAIN
+  - SPIRAL_SLIDE
+  title_templates:
+  - '{lead} Changes Colors! {env} Paint Slide with {friends} | {brand}'
+  - 'Magic Paint Gates in {env}: {crew} Get a New Look | {brand}'
+  - '{env} Color Splash Slide: {lead}''s Rainbow Paint Challenge | {brand}'
+  synopsis_templates:
+  - Magic paint gates in {env} turn {lead} the {lead_animal} a new color on every slide.
+  - '{lead} and {friends} try to collect every color of the rainbow in {env}.'
+- format_id: team_relay
+  label: Team Relay
+  scenes:
+  - LONG_SLIDE
+  - SPIRAL_SLIDE
+  - BALL_PIT
+  title_templates:
+  - '{env} Team Relay: {lead}''s Team vs {friends} on the Long Slide | {brand}'
+  - Pass the Flag! {lead} the {lead_animal} Runs the {env} Slide Relay | {brand}
+  - '{crew} Team Up for the {env} Slide Relay | {brand}'
+  synopsis_templates:
+  - Two teams pass a flag from slide to slide in {env}, with {lead} the {lead_animal} running the last leg.
+  - '{lead} builds a relay team with {friends} for the big {env} slide day.'
+- format_id: giant_surprise
+  label: Giant Surprise
+  scenes:
+  - GIANT_ANIMAL
+  - LONG_SLIDE
+  - BALL_PIT
+  title_templates:
+  - A Giant Surprise in {env}! {lead} the {lead_animal} Meets a Huge Friend | {brand}
+  - '{crew} Find a Giant on the {env} Slide | {brand}'
+  - '{env} Giant Slide Day: Little {lead} and a Big Surprise | {brand}'
+  synopsis_templates:
+  - Something huge is waiting at the bottom of the {env} slide, and {lead} the {lead_animal} goes to say hello.
+  - '{lead} and {friends} discover a friendly giant who wants to join the {env} slide games.'
+- format_id: splash_party
+  label: Splash Party
+  scenes:
+  - FOUNTAIN
+  - LONG_SLIDE
+  - PAINT_GATE
+  title_templates:
+  - '{lead}''s {env} Splash Party on the Water Slide with {friends} | {brand}'
+  - 'Fountain Fun in {env}: {lead} the {lead_animal} Makes a Big Splash | {brand}'
+  - Water Slide Day! {crew} Splash Through {env} | {brand}
+  synopsis_templates:
+  - '{lead} the {lead_animal} throws a splash party with fountains and water slides in {env}.'
+  - It's a hot day in {env}, so {lead} and {friends} cool off on the water slides.
+- format_id: birthday_parade
+  label: Birthday Parade
+  scenes:
+  - PAINT_GATE
+  - BALL_PIT
+  - GIANT_ANIMAL
+  title_templates:
+  - '{lead}''s Birthday Slide Parade in {env} with {friends} | {brand}'
+  - Happy Birthday {lead}! A Party Slide Through {env} | {brand}
+  - '{env} Party Parade: {friends} Surprise {lead} the {lead_animal} | {brand}'
+  synopsis_templates:
+  - It's {lead}'s birthday, and {friends} prepare a surprise slide parade in {env}.
+  - '{lead} the {lead_animal} celebrates a birthday with balloons, paint gates and slides in {env}.'
+camera_styles:
+- style_id: classic
+  variants:
+  - - hero_start
+    - chase
+    - obstacle_side
+    - finish_reaction
+  - - hero_start
+    - obstacle_side
+    - chase
+    - finish_reaction
+  - - chase
+    - obstacle_side
+    - finish_reaction
+- style_id: cinematic
+  variants:
+  - - wide_establish
+    - chase
+    - low_front
+    - finish_reaction
+  - - wide_establish
+    - low_front
+    - obstacle_side
+  - - low_front
+    - chase
+    - wide_establish
+    - finish_reaction
+- style_id: overhead
+  variants:
+  - - top_down
+    - chase
+    - obstacle_side
+    - finish_reaction
+  - - wide_establish
+    - top_down
+    - chase
+  - - top_down
+    - low_front
+    - finish_reaction
+- style_id: sport_broadcast
+  variants:
+  - - wide_establish
+    - obstacle_side
+    - chase
+    - finish_reaction
+  - - obstacle_side
+    - wide_establish
+    - chase
+  - - wide_establish
+    - chase
+    - obstacle_side
+    - low_front
+- style_id: close_follow
+  variants:
+  - - hero_start
+    - low_front
+    - chase
+    - finish_reaction
+  - - low_front
+    - chase
+    - finish_reaction
+  - - chase
+    - low_front
+    - obstacle_side
+    - finish_reaction
+endings:
+- ending_id: lead_wins
+  final_outcome: SUCCESS
+  line: '{lead} crosses the finish first and shares the trophy with everyone.'
+- ending_id: team_win
+  final_outcome: SUCCESS
+  line: The whole team finishes together and celebrates as one.
+- ending_id: photo_finish
+  final_outcome: SUCCESS
+  line: It's a photo finish, and the friends cheer for each other.
+- ending_id: surprise_twist
+  final_outcome: TRANSFORM
+  line: At the very end, a magic gate gives {lead} a surprise new look.
+- ending_id: everyone_celebrates
+  final_outcome: SUCCESS
+  line: Everyone makes it down safely and the party begins.
+- ending_id: friendship_save
+  final_outcome: SUCCESS
+  line: '{lead} helps a friend finish the last slide, and they cross the line together.'

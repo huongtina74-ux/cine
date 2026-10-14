@@ -1,0 +1,38 @@
+niche_id: audio_storytelling_seniors
+display_name: Audio Storytelling for Seniors
+status: ACTIVE_CORE
+content_unit_ontology:
+- chapter
+- scene
+- story_beat
+- audio_segment
+shared_capabilities:
+- company_governance
+- finance_legal_security
+- versioning_and_provenance
+- production_management
+- universal_filmmaking_principles
+- tool_and_capability_rnd
+- data_and_experiment_framework
+- technical_qa
+- publishing_infrastructure
+niche_specific_domains:
+- audience
+- competitors
+- seo
+- story_selection
+- rights
+- voice
+- pronunciation
+- accessibility
+- soundscape
+- retention
+audience_model: {}
+competitor_registry: []
+keyword_graph: {}
+format_dna: {}
+production_recipes: {}
+packaging_grammar: {}
+retention_baselines: {}
+risk_profile: {}
+validated_rules: []

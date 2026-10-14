@@ -1,0 +1,32 @@
+[project]
+name = "cinefactory-os"
+version = "1.6.0"
+description = "Local-first AI video production operating system: one prompt -> governed production pipeline."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "pydantic>=2.8",
+  "pydantic-settings>=2.4",
+  "sqlalchemy>=2.0",
+  "pyyaml>=6.0",
+  "typer>=0.12",
+]
+
+[project.optional-dependencies]
+claude = ["mcp>=1.12,<3.0"]
+dev = ["pytest>=8.0", "httpx>=0.27"]
+postgres = ["psycopg[binary]>=3.2"]
+workers = ["celery>=5.4", "redis>=5.0"]
+
+[project.scripts]
+cinefactory = "cinefactory.cli:app"
+
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_default_fixture_loop_scope = "function"

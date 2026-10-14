@@ -1,0 +1,1 @@
+{"mcpServers":{"cinefactory-studio":{"type":"stdio","command":"python","args":["-m","cinefactory.studio.claude_mcp_gateway_v218"]}}}

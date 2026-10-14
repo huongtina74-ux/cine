@@ -1,0 +1,29 @@
+models:
+- model_id: stable-diffusion-v1-5-emaonly
+  revision: sha256:6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa
+  modality: image
+  local_path: .tools/ComfyUI/models/checkpoints/v1-5-pruned-emaonly.safetensors
+  code_license: CreativeML-OpenRAIL-M
+  weights_license: CreativeML-OpenRAIL-M
+  commercial_use_reviewed: true
+  output_terms_reviewed: true
+  approved_for_production: true
+  notes:
+  - Exact safetensors SHA-256 verified against the public stable-diffusion-v1-5 repository.
+  - Model card permits commercial use subject to CreativeML OpenRAIL-M use restrictions.
+  - Baseline local validation model; higher-quality production models require separate
+    registry/license/mastery review.
+- model_id: wan2.1-fun-inpaint-1.3b
+  revision: sha256:8495d2b1673ffb18abb548a64ff3b0e4bd367734f653096f7a8a3ad46954d511
+  modality: video
+  local_path: .tools/ComfyUI/models/diffusion_models/wan2.1_fun_inp_1.3B_bf16.safetensors
+  code_license: Apache-2.0
+  weights_license: Apache-2.0
+  commercial_use_reviewed: true
+  output_terms_reviewed: true
+  approved_for_production: true
+  notes:
+  - Official Comfy-Org Wan 2.1 ComfyUI repackaged artifact; exact SHA-256 verified
+    locally.
+  - Companion UMT5 and Wan VAE component hashes are enforced by CrossBackendVideoService.
+  - 'Production qualification evidence: C:\Users\ADMIN\Downloads\CineFactory_Autonomous_Build\cinefactory-os-v1.6\cinefactory-os-v1.6\data\studio\video_backend_qualification\VIDEOQUAL_d98dd42fbba91aa84ff6.json'

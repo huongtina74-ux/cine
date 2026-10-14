@@ -1,0 +1,31 @@
+{
+  "title": "The House",
+  "logline": "A daughter tries to understand the truth after finding the family deed missing.",
+  "scenes": [
+    {
+      "scene_id": "SC01",
+      "heading": "INT. FAMILY KITCHEN - NIGHT",
+      "location_id": "KITCHEN",
+      "time_of_day": "night",
+      "dramatic_event": "the daughter notices the missing deed and tests her father without revealing what she knows",
+      "entry_state_summary": "Father sits at the table; daughter enters with an empty document folder.",
+      "action": [
+        "The daughter places the empty folder on the table.",
+        "The father continues folding a hospital receipt instead of meeting her eyes."
+      ],
+      "dialogue": [
+        {
+          "speaker": "C01",
+          "text": "Did you move the house papers?",
+          "subtext": "Tell me the truth without making me accuse you."
+        },
+        {
+          "speaker": "C02",
+          "text": "They're safe.",
+          "subtext": "I cannot tell you what I sold yet."
+        }
+      ],
+      "exit_state_summary": "The daughter now suspects the papers are gone; the father still hides the reason."
+    }
+  ]
+}

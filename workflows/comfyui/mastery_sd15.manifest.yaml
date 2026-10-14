@@ -1,0 +1,12 @@
+workflow_id: comfy.mastery.sd15
+version: "1"
+executor_id: local.comfyui
+media_type: image
+model_id: stable-diffusion-v1-5-emaonly
+model_revision: sha256:6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa
+workflow_file: mastery_sd15.json
+local_only: true
+notes:
+  - Core-node-only deterministic local mastery workflow.
+  - No custom nodes and no public-network/API nodes.
+  - Baseline 512x512 validation workflow for RTX 3060.

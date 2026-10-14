@@ -1,0 +1,168 @@
+characters:
+  # DEBUG_BLOCK remains intentionally available for fast CI and renderer smoke tests.
+  - rig_id: block_humanoid_a
+    skeleton_profile: BLOCK_HUMANOID_V1
+    style: DEBUG_BLOCK
+    material_profile: debug_material_profile
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: chest}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [procedural, block, hero]
+  - rig_id: block_humanoid_b
+    skeleton_profile: BLOCK_HUMANOID_V1
+    style: DEBUG_BLOCK
+    material_profile: debug_material_profile
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: chest}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [procedural, block, supporting]
+
+  - rig_id: mc_a
+    skeleton_profile: MINECRAFT_VOXEL_V1
+    style: MINECRAFT
+    skin_path: procedural://skins/mc_a_pixel_16
+    material_profile: minecraft_material_profile
+    expression_profile: minecraft_pixel
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: torso}
+    skeleton_parts: [head, torso, arm.R, arm.L, leg.R, leg.L]
+    accessories: [hair_blue]
+    identity: {skin_id: mc_a_pixel_16, hair: blue, shirt: orange, pants: navy, face: bright, color_identity: MC_A}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, minecraft, principal, original]
+  - rig_id: mc_b
+    skeleton_profile: MINECRAFT_VOXEL_V1
+    style: MINECRAFT
+    skin_path: procedural://skins/mc_b_pixel_16
+    material_profile: minecraft_material_profile
+    expression_profile: minecraft_pixel
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: torso}
+    skeleton_parts: [head, torso, arm.R, arm.L, leg.R, leg.L]
+    accessories: [hair_dark]
+    identity: {skin_id: mc_b_pixel_16, hair: dark, shirt: green, pants: charcoal, face: warm, color_identity: MC_B}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, minecraft, principal, original]
+  - rig_id: mc_c
+    skeleton_profile: MINECRAFT_VOXEL_V1
+    style: MINECRAFT
+    skin_path: procedural://skins/mc_c_pixel_16
+    material_profile: minecraft_material_profile
+    expression_profile: minecraft_pixel
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: torso}
+    skeleton_parts: [head, torso, arm.R, arm.L, leg.R, leg.L]
+    accessories: [hair_blonde]
+    identity: {skin_id: mc_c_pixel_16, hair: blonde, shirt: purple, pants: tan, face: light, color_identity: MC_C}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, minecraft, principal, original]
+  - rig_id: mc_crowd_1
+    skeleton_profile: MINECRAFT_VOXEL_V1
+    style: MINECRAFT
+    skin_path: procedural://skins/mc_crowd_1_pixel_16
+    material_profile: minecraft_material_profile
+    expression_profile: minecraft_pixel
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: torso}
+    skeleton_parts: [head, torso, arm.R, arm.L, leg.R, leg.L]
+    identity: {skin_id: mc_crowd_1_pixel_16, hair: brown, shirt: teal, pants: slate, face: light, color_identity: MC_D}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, minecraft, crowd, original]
+  - rig_id: mc_crowd_2
+    skeleton_profile: MINECRAFT_VOXEL_V1
+    style: MINECRAFT
+    skin_path: procedural://skins/mc_crowd_2_pixel_16
+    material_profile: minecraft_material_profile
+    expression_profile: minecraft_pixel
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: torso}
+    skeleton_parts: [head, torso, arm.R, arm.L, leg.R, leg.L]
+    identity: {skin_id: mc_crowd_2_pixel_16, hair: red, shirt: yellow, pants: brown, face: warm, color_identity: MC_E}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, minecraft, crowd, original]
+  - rig_id: mc_crowd_3
+    skeleton_profile: MINECRAFT_VOXEL_V1
+    style: MINECRAFT
+    skin_path: procedural://skins/mc_crowd_3_pixel_16
+    material_profile: minecraft_material_profile
+    expression_profile: minecraft_pixel
+    sockets: {right_hand: hand.R, left_hand: hand.L, head: head, chest: torso}
+    skeleton_parts: [head, torso, arm.R, arm.L, leg.R, leg.L]
+    identity: {skin_id: mc_crowd_3_pixel_16, hair: black, shirt: coral, pants: olive, face: dark, color_identity: MC_F}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, minecraft, crowd, original]
+
+  - rig_id: r6_a
+    skeleton_profile: ROBLOX_R6_V1
+    style: ROBLOX_R6
+    skin_path: procedural://avatars/r6_a
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: RightArm, left_hand: LeftArm, head: Head, chest: Torso}
+    skeleton_parts: [Head, Torso, LeftArm, RightArm, LeftLeg, RightLeg, HumanoidRoot]
+    accessories: [glasses]
+    identity: {avatar_id: r6_a, face: smile_face, hair: swept_black, clothing: orange_jacket_navy_pants, color_identity: R6_A}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r6, principal, original]
+  - rig_id: r6_b
+    skeleton_profile: ROBLOX_R6_V1
+    style: ROBLOX_R6
+    skin_path: procedural://avatars/r6_b
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: RightArm, left_hand: LeftArm, head: Head, chest: Torso}
+    skeleton_parts: [Head, Torso, LeftArm, RightArm, LeftLeg, RightLeg, HumanoidRoot]
+    accessories: [cap]
+    identity: {avatar_id: r6_b, face: surprised_face, hair: cap_teal, clothing: green_hoodie_black_pants, color_identity: R6_B}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r6, principal, original]
+  - rig_id: r6_c
+    skeleton_profile: ROBLOX_R6_V1
+    style: ROBLOX_R6
+    skin_path: procedural://avatars/r6_c
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: RightArm, left_hand: LeftArm, head: Head, chest: Torso}
+    skeleton_parts: [Head, Torso, LeftArm, RightArm, LeftLeg, RightLeg, HumanoidRoot]
+    accessories: [headphones]
+    identity: {avatar_id: r6_c, face: grin_face, hair: blonde_bob, clothing: purple_sweater_tan_pants, color_identity: R6_C}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r6, principal, original]
+  - rig_id: r6_crowd_1
+    skeleton_profile: ROBLOX_R6_V1
+    style: ROBLOX_R6
+    skin_path: procedural://avatars/r6_crowd_1
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: RightArm, left_hand: LeftArm, head: Head, chest: Torso}
+    skeleton_parts: [Head, Torso, LeftArm, RightArm, LeftLeg, RightLeg, HumanoidRoot]
+    identity: {avatar_id: r6_crowd_1, face: neutral_face, hair: brown_sidepart, clothing: blue_shirt_gray_pants, color_identity: R6_D}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r6, crowd, original]
+  - rig_id: r6_crowd_2
+    skeleton_profile: ROBLOX_R6_V1
+    style: ROBLOX_R6
+    skin_path: procedural://avatars/r6_crowd_2
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: RightArm, left_hand: LeftArm, head: Head, chest: Torso}
+    skeleton_parts: [Head, Torso, LeftArm, RightArm, LeftLeg, RightLeg, HumanoidRoot]
+    identity: {avatar_id: r6_crowd_2, face: happy_face, hair: red_curls, clothing: yellow_tee_denim_pants, color_identity: R6_E}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r6, crowd, original]
+  - rig_id: r6_crowd_3
+    skeleton_profile: ROBLOX_R6_V1
+    style: ROBLOX_R6
+    skin_path: procedural://avatars/r6_crowd_3
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: RightArm, left_hand: LeftArm, head: Head, chest: Torso}
+    skeleton_parts: [Head, Torso, LeftArm, RightArm, LeftLeg, RightLeg, HumanoidRoot]
+    identity: {avatar_id: r6_crowd_3, face: smug_face, hair: black_spikes, clothing: red_hoodie_dark_pants, color_identity: R6_F}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r6, crowd, original]
+
+  - rig_id: r15_validation
+    skeleton_profile: ROBLOX_R15_V1
+    style: ROBLOX_R15
+    skin_path: procedural://avatars/r15_validation
+    material_profile: roblox_material_profile
+    expression_profile: roblox_face
+    sockets: {right_hand: Hand.R, left_hand: Hand.L, head: Head, chest: UpperTorso}
+    skeleton_parts: [Root, Head, UpperTorso, LowerTorso, UpperArm, LowerArm, Hand, UpperLeg, LowerLeg, Foot]
+    identity: {avatar_id: r15_validation, face: neutral_face, hair: short_blue, clothing: cyan_jacket_white_pants, color_identity: R15_TEST}
+    expression_map: {brow_inner_up: brow_inner_up, brow_down: brow_down, eye_wide: eye_wide, eye_squint: eye_squint, jaw_open: jaw_open, mouth_smile: mouth_smile, mouth_frown: mouth_frown}
+    tags: [production, roblox, r15, foundation, original]

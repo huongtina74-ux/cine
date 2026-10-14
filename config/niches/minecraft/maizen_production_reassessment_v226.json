@@ -1,0 +1,245 @@
+{
+  "schema": "cine.minecraft.maizen_directed_storytelling.v226",
+  "date": "2026-10-11",
+  "supersedes_wrong_assumption": "REAL_GAME_CAPTURE_REQUIRED_FOR_ALL_MAIZEN_STYLE_EPISODES",
+  "selected_program": "MAIZEN_INSPIRED_DIRECTED_MINECRAFT_STORYTELLING",
+  "project_id": "MAI01_WATERFALL",
+  "user_correction": "Scripted show/film, not two unscripted people merely playing and recording",
+  "production_default": "METHOD_UNDECIDED_COMPARE_STAGED_GAME_VS_OFFLINE_AUTHORED_CGI",
+  "methods": [
+    {
+      "id": "GAME_ENGINE_STAGED",
+      "label": "Minecraft world stage with scripted commands/mods/actors and game-camera capture",
+      "status": "REFERENCE_EVIDENCE_SUPPORTS_SOME_IN_GAME_RECORDING_NOT_EXACT_SHOT_WORKFLOW",
+      "game_license_required": true,
+      "source_truth": "REAL_MINECRAFT_STAGED_RECORDING",
+      "strengths": [
+        "authentic game visuals/physics/HUD",
+        "fast world continuity",
+        "native inventories and interaction"
+      ],
+      "risks": [
+        "exact game version/plugin unknown",
+        "actors/npcs may require script/extra accounts",
+        "OBS/ReplayMod/Flashback not validated"
+      ],
+      "pilot_gate": "10s real game scripted scene with actor/camera/audio receipts"
+    },
+    {
+      "id": "BLENDER_AUTHORED",
+      "label": "Fully authored original voxel CGI using stable CineFactory Blender 4.5 shot worker",
+      "status": "LOCAL_ENGINE_EXISTS_BUT_STORY_ART_QUALITY_NOT_APPROVED",
+      "game_license_required": false,
+      "source_truth": "ORIGINAL_3D_ANIMATED_MINECRAFT_INSPIRED_STORY",
+      "strengths": [
+        "controlled acting/camera/physics illusions",
+        "reproducible characters",
+        "possible fully offline/no game startup"
+      ],
+      "risks": [
+        "v197 failed 12 art QC gates",
+        "3D Minecraft references cannot be mistaken for actual HUD/game capture",
+        "skin/asset design needs own authorship"
+      ],
+      "pilot_gate": "10s original first-person and dialogue shot with believable blockworld and authored actor"
+    },
+    {
+      "id": "SCENE_HYBRID",
+      "label": "Mixed source shots from authored CGI and authentic staged Minecraft world with continuity/edit matching",
+      "status": "NOT_VERIFIED_NOT_DEFAULT",
+      "game_license_required": "ONLY_IF_GAME_ENGINE_STAGED_SELECTED",
+      "source_truth": "PER_SHOT_EXPLICIT_SOURCE_TAGS",
+      "strengths": [
+        "reuse gameplay and cinematic advantages"
+      ],
+      "risks": [
+        "visual mismatches across cuts",
+        "doubling tooling and rig costs",
+        "more QC and source truth risk"
+      ],
+      "pilot_gate": "two equal-action matched shots and a seam-crossing edit at 1080p"
+    }
+  ],
+  "shot_candidates": [
+    {
+      "id": "P01",
+      "narrative_function": "WATERFALL_ESTABLISH",
+      "first_pilot_method": "GAME_ENGINE_STAGED",
+      "alternative_method": "BLENDER_AUTHORED",
+      "reason": "Forest/waterfall establishing lighting can use either workflow; no claim of exact Maizen engine",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P02",
+      "narrative_function": "FIRST_PERSON_APPROACH",
+      "first_pilot_method": "GAME_ENGINE_STAGED",
+      "alternative_method": "BLENDER_AUTHORED",
+      "reason": "First-person view is a camera convention, not evidence that an unscripted player recorded it",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P03",
+      "narrative_function": "TWO_ACTOR_EXCHANGE",
+      "first_pilot_method": "BLENDER_AUTHORED",
+      "alternative_method": "GAME_ENGINE_STAGED",
+      "reason": "Scripted character blocking and voices; body rig or NPC pathing differ",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P04",
+      "narrative_function": "HIDDEN_CAVE_REVEAL",
+      "first_pilot_method": "BLENDER_AUTHORED",
+      "alternative_method": "GAME_ENGINE_STAGED",
+      "reason": "Potential exaggerated hidden geometry or controlled world and camera",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P05",
+      "narrative_function": "TORCH_PUZZLE_ACTION",
+      "first_pilot_method": "GAME_ENGINE_STAGED",
+      "alternative_method": "BLENDER_AUTHORED",
+      "reason": "Actual game props if runtime; authored interaction if 3D, do not mislabel game mechanic",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P06",
+      "narrative_function": "SOUND_AND_DANGER_CUE",
+      "first_pilot_method": "BLENDER_AUTHORED",
+      "alternative_method": "GAME_ENGINE_STAGED",
+      "reason": "Trigger and camera controlled by director with Foley separate from picture",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P07",
+      "narrative_function": "BLOCK_BUILD_ACTION",
+      "first_pilot_method": "GAME_ENGINE_STAGED",
+      "alternative_method": "BLENDER_AUTHORED",
+      "reason": "Demonstrate genuine block placement only when chosen runtime, otherwise authored animation",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P08",
+      "narrative_function": "CHEST_AND_MAP_REVEAL",
+      "first_pilot_method": "BLENDER_AUTHORED",
+      "alternative_method": "GAME_ENGINE_STAGED",
+      "reason": "Original staged reveal and insert with prop continuity",
+      "method_qualified": false,
+      "real_media_exists": false
+    },
+    {
+      "id": "P09",
+      "narrative_function": "TWO_ACTOR_CLIFFHANGER",
+      "first_pilot_method": "BLENDER_AUTHORED",
+      "alternative_method": "GAME_ENGINE_STAGED",
+      "reason": "Expressive motion and final edit/music strongly directed",
+      "method_qualified": false,
+      "real_media_exists": false
+    }
+  ],
+  "official_primary_sources": [
+    {
+      "uri": "https://maizen.com/video-recording-team/",
+      "source_type": "MAIZEN_OFFICIAL",
+      "fact": "Maizen recruits a Minecraft game video recording team, asks survival, building and Minecraft command skills.",
+      "establishes": "At least some game-stage recording/production expertise; cannot prove method for every shot/video",
+      "does_not_establish": [
+        "raw two-player gameplay",
+        "no script",
+        "Blender as renderer"
+      ]
+    },
+    {
+      "uri": "https://maizen.com/news/maizen-comes-to-the-minecraft-marketplace/",
+      "source_type": "MAIZEN_OFFICIAL",
+      "fact": "Maizen published authored playable Maizencraft Slime Caverns adventure on Minecraft Marketplace in 2026.",
+      "establishes": "Professional authored Minecraft world/scenario ability",
+      "does_not_establish": [
+        "pipeline used in a specific YouTube video",
+        "only gameplay engine footage"
+      ]
+    },
+    {
+      "uri": "https://maizen.com/downloads/",
+      "source_type": "MAIZEN_OFFICIAL",
+      "fact": "The site distributes JJ and Mikey .obj 3D models and separate texture files.",
+      "establishes": "3D character assets exist in company ecosystem",
+      "does_not_establish": [
+        "published videos rendered with Blender",
+        "how rig/animation is built"
+      ]
+    },
+    {
+      "uri": "https://maizen.com/usage-guidelines/",
+      "source_type": "MAIZEN_OFFICIAL",
+      "fact": "Official conditional fan content policy applies; original footage and branding cannot be blindly copied.",
+      "establishes": "Need IP/rights separate validation",
+      "does_not_establish": [
+        "unlimited commercial usage",
+        "permission to impersonate Maizen"
+      ]
+    },
+    {
+      "uri": "https://www.reddit.com/r/Maizen/comments/s9o53x/what_is_maizen_origin_and_faq/",
+      "source_type": "COMMUNITY_ACCOUNT_NOT_VERIFIED_OFFICIAL",
+      "fact": "Fan FAQ describes original Japanese audio, English dub/voice acting and scripted moments.",
+      "establishes": "Reasonable hypothesis to test audio/post workflow",
+      "does_not_establish": [
+        "every 2026 video uses exact same dubbing",
+        "official hiring pipeline"
+      ]
+    }
+  ],
+  "existing_video_samples": {
+    "source": "config/niches/minecraft/g01_g02_public_evidence_v224.json",
+    "full_video_and_audio_watched": false,
+    "sparse_storyboard_preview": true,
+    "attempted_10s_mp4_segment": {
+      "video_id": "zhPBXzHsLuo",
+      "requested_seconds": [
+        105,
+        115
+      ],
+      "result": "REMOTE_VIDEO_STREAM_HTTP_403",
+      "video_watched": false
+    },
+    "transcript_connector": {
+      "result": "INSUFFICIENT_CREDITS_402",
+      "credits_spent": 0
+    }
+  },
+  "departments_updated": {
+    "TECHNICAL_DIRECTION": "Select shot method based on actual evidence and pilot bakeoff; do not force Java account for offline authored Blender scenes",
+    "PRODUCTION": "Make BOTH 10s technology pilots when feasible, prefer safe local Blender pilot first, do not invent full recorded gameplay",
+    "DIRECTION": "Treat all shots as authored dramatic beats, voice and action choreography independent from how footage was captured",
+    "WRITERS_ROOM": "Narrative script leads camera/scene rather than narration attached to spontaneous gaming session",
+    "PRODUCTION_DESIGN": "Build reusable first-party blockworld stage whether real game or CG; provenance per asset",
+    "PERFORMANCE": "Actor dialogue and controlled movement can be puppeteered in game or fully rigged",
+    "CINEMATOGRAPHY": "First-person HUD and third-person framing can be created in different ways; never infer technique from a still",
+    "AUDIO": "Separate Japanese/English localization hypothesis from real source tracks; test original dialog/foley",
+    "RIGHTS": "Original two-character cast only; Minecraft game license required only for authentic game-runtime production"
+  },
+  "stage_gates": {
+    "study_source_is_partial": true,
+    "publish_blocked": true,
+    "no_external_mcp_install": true,
+    "no_paid_credits": true,
+    "do_not_delete_old_v225_receipts": true,
+    "cinematic_quality_pilot_needed": true,
+    "game_install_required_for_all_methods": false,
+    "blender_v197_qc_blockers": 12
+  },
+  "selection_decision": "RND_DUAL_10S_COMPARISON_THEN_DIRECTOR_CHOOSES_PER_SHOT",
+  "possible_outputs": [
+    "LOCAL_OFFLINE_3D_MOVIE",
+    "STAGED_MINECRAFT_GAME_WORLD_FILM",
+    "APPROVED_HYBRID_LATER"
+  ],
+  "no_auto_execute": true
+}

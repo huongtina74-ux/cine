@@ -1,0 +1,57 @@
+version: 2
+mode: ZERO_METERED_API
+
+paid_allowed:
+  agent_reasoning: true
+
+production:
+  allow_local_execution: true
+  allow_fixed_cost_infrastructure: true
+  allow_free_non_metered_services: false
+  allow_metered_generation_api: false
+  cloud_generation_fallback: false
+
+forbidden_executor_kinds:
+  - paid_image_api
+  - paid_video_api
+  - paid_tts_api
+  - paid_music_api
+  - paid_asr_api
+  - paid_upscale_api
+  - paid_vlm_api
+
+network:
+  arbitrary_egress: false
+  allow_loopback_lan: true
+  production_worker_public_internet: false
+
+agent_permissions:
+  can_publish_without_human_gate: false
+  can_install_plugins: false
+  can_install_models: false
+  can_change_rights_status: false
+  can_change_cost_policy: false
+
+rights:
+  unknown_status_action: BLOCK
+  allowed_statuses: [GREEN]
+
+production_truth:
+  canonical_database: postgres
+  queue_is_source_of_truth: false
+  comfyui_is_source_of_truth: false
+  timeline_owner: openchatcut
+
+originality:
+  hard_block: true
+  shingle_size: 7
+  max_generated_shingle_coverage: 0.10
+  max_document_jaccard: 0.18
+  max_sentence_similarity: 0.90
+  max_title_similarity: 0.84
+  max_idea_similarity: 0.72
+  max_structure_similarity: 0.72
+  max_concept_fingerprint_similarity: 0.68
+  min_concept_collision_axes: 4
+  max_prior_own_fingerprint_similarity: 0.62
+  min_differentiation_axes: 3

@@ -1,0 +1,14 @@
+id: documentary
+inherits: global
+version: 1
+creative:
+  camera_movement: informative_only
+  factual_visuals: required
+  talking_head_coverage: restrained
+editing:
+  information_density: high
+  visual_refresh: frequent
+  motion_graphics: allowed
+qc:
+  factual_alignment: strict
+  text_legibility: strict

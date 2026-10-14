@@ -1,0 +1,32 @@
+app:
+  name: CineFactory OS
+  environment: development
+  api_host: 127.0.0.1
+  api_port: 8765
+
+storage:
+  projects_root: ./data/projects
+  artifacts_root: ./data/artifacts
+
+database:
+  # Development uses SQLite. Production should switch this to PostgreSQL.
+  url: sqlite:///./data/cinefactory.db
+
+comfyui:
+  base_url: http://127.0.0.1:8188
+
+production:
+  default_profile: cinematic_story
+  default_aspect_ratio: "16:9"
+  default_output_width: 3840
+  default_output_height: 2160
+
+
+turbo:
+  enabled: true
+  poll_seconds: 0.25
+  prefer_model_affinity: true
+  event_bus: sqlite_wal
+  incremental_edit: true
+  pre_render_logic_gate: true
+  repair_memory: true

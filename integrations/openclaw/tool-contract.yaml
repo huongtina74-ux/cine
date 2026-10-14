@@ -1,0 +1,63 @@
+version: 2
+name: cinefactory
+principle: "OpenClaw supervises; CineFactory owns state, scheduling, repair memory, and governed production."
+
+allowed_high_level_tools:
+  - create_project
+  - register_reference_metadata
+  - inspect_originality
+  - policy_check
+  - submit_topic_strategy
+  - submit_packaging_hypothesis
+  - submit_story
+  - submit_script
+  - submit_asset_bible
+  - submit_director_plan
+  - submit_shot_specs
+  - enqueue_render_job
+  - schedule_job
+  - inspect_job
+  - inspect_audit
+  - inspect_factory_status
+  - inspect_workers
+  - inspect_events
+  - inspect_gpu
+  - inspect_failures
+  - request_targeted_repair
+  - request_master
+
+supervisor_endpoints:
+  health: GET /health
+  factory_status: GET /turbo/status
+  gpu: GET /turbo/gpu
+  work_queue: GET /turbo/work
+  events: GET /turbo/events
+  workers: GET /turbo/workers
+  enqueue_work: POST /turbo/work
+  publish_event: POST /turbo/events
+
+forbidden_direct_capabilities:
+  - arbitrary_shell
+  - arbitrary_model_install
+  - arbitrary_plugin_install
+  - direct_database_write
+  - direct_comfyui_state_ownership
+  - change_cost_policy
+  - change_rights_status
+  - direct_public_generation_api
+  - bypass_project_state_machine
+  - publish_without_release_gate
+
+runtime_rules:
+  - OpenClaw must react to CineFactory events instead of busy-polling render providers.
+  - GPU workers must keep pulling ready work while agent/research/editing tasks continue in parallel.
+  - Scheduler may reorder only execution-ready work; it may not rewrite FilmSpec, ShotSpec, rights, or continuity truth.
+  - Prefer work matching the worker's hot model affinity to reduce model swapping.
+  - Repair requests must use Failure Router ownership and Repair Memory before generic regeneration.
+  - Raw ComfyUI queues are transport state, never project truth.
+
+originality_rules:
+  - Raw competitor scripts stay inside CineFactory reference storage and are never passed into creative prompts.
+  - Competitors are negative references for gap/collision detection only.
+  - Story, script and final packaging must pass the originality gate before production/release.
+  - Prior CineFactory projects are included in similarity checks to reduce repetitive channel output.

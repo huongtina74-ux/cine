@@ -1,0 +1,895 @@
+{
+  "schema": "cine.minecraft.two_lane_master_production.v223",
+  "prepared_date": "2026-10-10",
+  "purpose": "Whole-company numbered end-to-end Minecraft strategy using Maizen and BigSchool as PUBLIC REFERENCES, not cloned production",
+  "verified_historical_baseline": {
+    "video": "data/verification/v197_minecraft_art_direction/minecraft_3shot_visual_pilot_with_original_sfx.mp4",
+    "duration_seconds": 2,
+    "qc_status": "BLOCKED_MINECRAFT_ART_PRODUCTION",
+    "hard_blockers": 12,
+    "full_competitor_footage_viewed": false
+  },
+  "policy": {
+    "owner_credit_budget_usd": 0,
+    "allow_third_party_mcp_auto_install": false,
+    "allow_competitor_asset_reproduction": false,
+    "allow_autopublish": false,
+    "allow_backends_promotion_without_pilot": false,
+    "benchmark_quality_before_speed": true
+  },
+  "lanes": [
+    {
+      "id": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "inspiration": "MAIZEN_OFFICIAL",
+      "source_truth": "ACTUAL_MINECRAFT_GAME_RUNTIME_OR_STAGED_INGAME_MACHINIMA",
+      "focus": "Two contrasting ORIGINAL actors with dialogue; mystery/challenge/build/save with genuine Minecraft footage",
+      "minimum_pilot_seconds": 45,
+      "ideal_first_full_episodes_minutes": [
+        12,
+        18
+      ],
+      "baseline_backend": "ACTUAL_GAME_CAPTURE_NOT_YET_QUALIFIED",
+      "media_ready": false,
+      "requires_real_minecraft_runtime": true,
+      "do_not_use": "BLENDER_RENDER_AS_IF_IT_WERE_AUTHENTIC_GAMEPLAY"
+    },
+    {
+      "id": "AUTHORED_VOXEL_3D_ANIMATION",
+      "inspiration": "BIGSCHOOL",
+      "source_truth": "ORIGINAL_AUTHORED_3D_MINECRAFT_INSPIRED_ANIMATION",
+      "focus": "Original school/family/adventure with expressive acting, story beats, 3D world, cinematography, Foley",
+      "minimum_pilot_seconds": 45,
+      "ideal_first_full_episodes_minutes": [
+        8,
+        12
+      ],
+      "baseline_backend": "EXISTING_BLENDER_4_5_WORKER_ART_NOT_QUALIFIED",
+      "media_ready": false,
+      "requires_real_minecraft_runtime": false,
+      "do_not_use": "COMPILE_NAME_ONLY_AND_CALL_PROFESSIONAL_EPISODE"
+    }
+  ],
+  "reference_videos": [
+    {
+      "id": "maizen_choose_right_hole_2026",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "title": "Mikey and JJ Choose the Right Hole in Minecraft",
+      "url": "https://www.youtube.com/watch?v=ZmT0ITUGUII",
+      "channel": "Maizen",
+      "published_date": "2026-08-28",
+      "reported_views": 2650832,
+      "views_provenance": "YOUTUBE_SEARCH_METADATA_SNAPSHOT_2026-10-10",
+      "reported_duration_seconds": 1685,
+      "duration_provenance": "THIRD_PARTY_INDEX_28_05_NOT_NATIVE_MEDIA_PROBE",
+      "description_summary": "Two pipes with right/wrong answers, treasure versus danger; describes guessing game",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=ZmT0ITUGUII",
+        "https://trendstotally.com/youtube-trends/south-africa"
+      ],
+      "creative_mechanic_hypotheses": [
+        "A/B choices with uncertain outcomes",
+        "Regular reveal and escalating stakes",
+        "Two-character contrast"
+      ],
+      "study_questions": [
+        "Which decisions actually occur, in what order and at what timestamps?",
+        "How many genuine game-engine transitions, edit cuts and audio stings?",
+        "Does the story depend on real Minecraft mechanisms or staged mods?"
+      ],
+      "viewed_full_video": false,
+      "heard_full_audio": false
+    },
+    {
+      "id": "maizen_house_inside_bed_2025",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "title": "Built a House inside BED in Minecraft",
+      "url": "https://www.youtube.com/watch?v=zhPBXzHsLuo",
+      "channel": "Maizen",
+      "published_date": "2025-10-15",
+      "reported_views": 16850200,
+      "views_provenance": "YOUTUBE_SEARCH_METADATA_SNAPSHOT_2026-10-10",
+      "reported_duration_seconds": null,
+      "duration_provenance": "UNKNOWN_NOT_VERIFIED",
+      "description_summary": "Two characters secretly occupy a rival's house to recover stolen diamonds",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=zhPBXzHsLuo"
+      ],
+      "creative_mechanic_hypotheses": [
+        "Hidden base inside ordinary everyday object",
+        "Discovery risk and item recovery",
+        "Suspense and plot reveals"
+      ],
+      "study_questions": [
+        "Which build actions are genuinely captured in-game?",
+        "How is danger of discovery communicated with sound and editing?",
+        "What repeated original set props or mod assets would be required?"
+      ],
+      "viewed_full_video": false,
+      "heard_full_audio": false
+    },
+    {
+      "id": "bigschool_season3_compilation_2020",
+      "lane": "AUTHORED_VOXEL_3D_ANIMATION",
+      "title": "Season 3 All Episode - Minecraft Animation",
+      "url": "https://www.youtube.com/watch?v=X09yxFuKLAs",
+      "channel": "BigSchool",
+      "published_date": "2020-08-18",
+      "reported_views": 135242624,
+      "views_provenance": "YOUTUBE_SEARCH_METADATA_SNAPSHOT_2026-10-10",
+      "reported_duration_seconds": 4174,
+      "duration_provenance": "THIRD_PARTY_INDEX_1_09_34_NOT_NATIVE_MEDIA_PROBE",
+      "description_summary": "Seven chapter titles with public chapters, from Baby Zombie homeless and family to rescue and knockdown challenge",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=X09yxFuKLAs"
+      ],
+      "public_description_chapters": [
+        {
+          "time": "00:00:01",
+          "label": "Baby Zombie was Homeless"
+        },
+        {
+          "time": "00:10:48",
+          "label": "Funny Zombie Family"
+        },
+        {
+          "time": "00:21:48",
+          "label": "Poor Skeleton Girl"
+        },
+        {
+          "time": "00:32:58",
+          "label": "Fight Diamond Bandits"
+        },
+        {
+          "time": "00:46:03",
+          "label": "Rescue Baby Zombie from Piggy"
+        },
+        {
+          "time": "00:57:05",
+          "label": "Ziczac Game"
+        },
+        {
+          "time": "01:08:07",
+          "label": "Can Knockdown"
+        }
+      ],
+      "creative_mechanic_hypotheses": [
+        "Each self-contained original episode has setup/conflict/reaction/payoff",
+        "Compilation can package multiple validated stories, not a single-shot 69min render",
+        "Recurring rig/props/background sound methods worth studying"
+      ],
+      "study_questions": [
+        "What shots / 10-min story are actual versus chapter title implications?",
+        "Which character expressions and physical actions change outcomes?",
+        "Does each chapter use new assets or shared library?",
+        "What music license per chapter and resulting sound mix?",
+        "What percent original vs prior released compilations?"
+      ],
+      "viewed_full_video": false,
+      "heard_full_audio": false
+    }
+  ],
+  "departments": [
+    {
+      "sequence": 1,
+      "id": "STUDIO_MANAGEMENT",
+      "responsibility": "Project mission, budget, kill/pivot and staffing policy",
+      "mandatory_receipt": "signed_project_charter.json",
+      "hard_gate": "Owner-approved lane, rights, budget and staged pilot scope"
+    },
+    {
+      "sequence": 2,
+      "id": "INTELLIGENCE",
+      "responsibility": "Compare dated long-form mature winners, weak uploads and new channels; separate Shorts and livestream",
+      "mandatory_receipt": "competitive_snapshot.json",
+      "hard_gate": "Valid upload dates, duration, public counts and control channels"
+    },
+    {
+      "sequence": 3,
+      "id": "EVIDENCE",
+      "responsibility": "Get lawful watch access and actual scene/audio timestamp proof; authenticate source and hash",
+      "mandatory_receipt": "source_evidence_ledger.json",
+      "hard_gate": "FULL_WATCH only if full footage/audio actually inspected, otherwise NOT_VERIFIED"
+    },
+    {
+      "sequence": 4,
+      "id": "CREATIVE_STRATEGY",
+      "responsibility": "Select recurring audience promise: two-person game adventure or original 3D animated school comedy",
+      "mandatory_receipt": "audience_format_dna.json",
+      "hard_gate": "One coherent channel/series promise and testable content hypothesis"
+    },
+    {
+      "sequence": 5,
+      "id": "PLANNING",
+      "responsibility": "Episode budget, release targets, dependencies, evidence schedule and critical path",
+      "mandatory_receipt": "production_schedule.json",
+      "hard_gate": "Zero unknown-duration production with magic deadlines; owner gates"
+    },
+    {
+      "sequence": 6,
+      "id": "WRITERS_ROOM",
+      "responsibility": "Original story outlines with hook/goal/escalation/climax/payoff/tailhook",
+      "mandatory_receipt": "original_story_outline.md",
+      "hard_gate": "Not copied from JJ/Mikey/BigSchool episodes; independent fresh creative premise"
+    },
+    {
+      "sequence": 7,
+      "id": "SCRIPT_LOGIC",
+      "responsibility": "Beat graph, motivations, cause-and-effect, props, character location continuity",
+      "mandatory_receipt": "story_logic_and_dialogue.json",
+      "hard_gate": "No plot holes or unexplained prop/time jumps"
+    },
+    {
+      "sequence": 8,
+      "id": "DIRECTION",
+      "responsibility": "Narrative intent, acting intention, storyboard approvals, performance choices",
+      "mandatory_receipt": "locked_director_board.json",
+      "hard_gate": "Clear story from 45s animatic without misleading evidence"
+    },
+    {
+      "sequence": 9,
+      "id": "PERFORMANCE",
+      "responsibility": "Voice/acting arcs; original expression rigs, face/lipsync and readable gestures",
+      "mandatory_receipt": "actor_performance_sheet.json",
+      "hard_gate": "Acting readable on phone; legal voice/skin rights"
+    },
+    {
+      "sequence": 10,
+      "id": "CINEMATOGRAPHY",
+      "responsibility": "Camera grammar, geography/eyelines, angle coverage, movement and safe render",
+      "mandatory_receipt": "shot_camera_lighting.json",
+      "hard_gate": "180-degree continuity, shot variation and light/readability QC"
+    },
+    {
+      "sequence": 11,
+      "id": "PRODUCTION_DESIGN",
+      "responsibility": "Style bible, color palette, worlds, class/cave/base, assets/scene layout",
+      "mandatory_receipt": "world_art_bible.json",
+      "hard_gate": "Original voxel style with licensed world/skin/material assets"
+    },
+    {
+      "sequence": 12,
+      "id": "ASSETS",
+      "responsibility": "Create/version original 64x64 skins, character rigs, mobs, props, terrain and sockets",
+      "mandatory_receipt": "asset_identity_license_manifest.json",
+      "hard_gate": "Namespaced versions, rights ledger, usable UV/IK/animation rigs"
+    },
+    {
+      "sequence": 13,
+      "id": "TECHNICAL_DIRECTION",
+      "responsibility": "Per-shot selection Blender 4.5, real game runtime, ComfyUI, FFmpeg, vetted MCPs",
+      "mandatory_receipt": "stage_technology_manifest.json",
+      "hard_gate": "Original 3D != real Minecraft gameplay; GPU/VRAM/licensing/sandbox"
+    },
+    {
+      "sequence": 14,
+      "id": "PRODUCTION",
+      "responsibility": "Pose/block, capture real Minecraft runtime or render Blender scene, dailies and receipts",
+      "mandatory_receipt": "shot_render_or_capture_receipts.json",
+      "hard_gate": "Actual decoded footage, source truth, task IDs and verifiable hashes"
+    },
+    {
+      "sequence": 15,
+      "id": "GENERATIVE_MEDIA",
+      "responsibility": "Select optional concept or hero effect, with identity limits and paid node deny-by-default",
+      "mandatory_receipt": "generation_optional_scope.json",
+      "hard_gate": "No hidden cloud consumption; no replacing original characters without QA"
+    },
+    {
+      "sequence": 16,
+      "id": "VFX",
+      "responsibility": "Compositing, light passes, particles, prop contact, dust, effects",
+      "mandatory_receipt": "vfx_pass_manifest.json",
+      "hard_gate": "Temporal consistency, foreground masks and scene compositing QC"
+    },
+    {
+      "sequence": 17,
+      "id": "EDITORIAL",
+      "responsibility": "Animatic, pacing, scene duration, text/transition/captions and H264/ProRes masters",
+      "mandatory_receipt": "edit_decision_list.otio.json",
+      "hard_gate": "Readable story at normal speed; no dead time or unexplained jump"
+    },
+    {
+      "sequence": 18,
+      "id": "AUDIO",
+      "responsibility": "Consented dialogue, Foley, ambient, original/licensed score, mixing, peak/loudness",
+      "mandatory_receipt": "audio_cues_and_mix_qc.json",
+      "hard_gate": "No clipped voices or stale loops; lipsync and usage rights"
+    },
+    {
+      "sequence": 19,
+      "id": "COLOR",
+      "responsibility": "World color/shot matching, tone mapping, safe SDR output",
+      "mandatory_receipt": "color_grade_review.json",
+      "hard_gate": "Matching character/skin colors across all shots"
+    },
+    {
+      "sequence": 20,
+      "id": "QC",
+      "responsibility": "Visual frames, physics, camera, acting, text, dialog, legal/commercial, release readiness",
+      "mandatory_receipt": "qc_defects_dailies.json",
+      "hard_gate": "Production blocked until independent video+audio human review"
+    },
+    {
+      "sequence": 21,
+      "id": "RIGHTS",
+      "responsibility": "Publisher game guideline, original cast, assets, fonts/music/TTS/third-party clips, platform policy",
+      "mandatory_receipt": "rights_usage_approval.json",
+      "hard_gate": "No copied JJ/Mikey brand/channel confusion and no unresolved rights"
+    },
+    {
+      "sequence": 22,
+      "id": "PACKAGING",
+      "responsibility": "English title, thumbnail, first frames, honest metadata, episode labels",
+      "mandatory_receipt": "package_variants.json",
+      "hard_gate": "Clear differentiating visual; not clickbait claiming unrelated game footage"
+    },
+    {
+      "sequence": 23,
+      "id": "ANALYTICS",
+      "responsibility": "Capture allowed public metrics and own watch-time/retention after publish; 24h/7d/14d",
+      "mandatory_receipt": "episode_performance.json",
+      "hard_gate": "No invented CTR, RPM or retention; no Shorts contamination"
+    },
+    {
+      "sequence": 24,
+      "id": "RND",
+      "responsibility": "Benchmark 3 most difficult shot types, candidate app/rig/audio tools against existing baseline",
+      "mandatory_receipt": "tool_pilot_bakeoff.json",
+      "hard_gate": "Quality first then accepted seconds/hour/retries/VRAM and total cost"
+    },
+    {
+      "sequence": 25,
+      "id": "RD_KNOWLEDGE",
+      "responsibility": "Root cause, validated research, versioned skill/eval updates",
+      "mandatory_receipt": "minecraft_verified_rules.json",
+      "hard_gate": "No untested automated learning or deployment to production"
+    },
+    {
+      "sequence": 26,
+      "id": "OPERATIONS",
+      "responsibility": "Queue health, retries, backups, storage, 3060 utilization, scheduling and delivery",
+      "mandatory_receipt": "ops_runbook_receipts.json",
+      "hard_gate": "Job reproducible; rollback/resume/incident and backup-restore verified"
+    }
+  ],
+  "master_steps": [
+    {
+      "step_id": "G01",
+      "phase": "RESEARCH",
+      "owner": "INTELLIGENCE",
+      "instruction": "Verify selected Maizen/BigSchool *official* sample identity, dates, long-form duration and weak-control selection",
+      "support": [
+        "EVIDENCE",
+        "ANALYTICS"
+      ],
+      "receipt": "candidate_video_ranking.json",
+      "blocking_acceptance": "No direct-video duration/age proof means research-only, never breakout certified",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G02",
+      "phase": "RESEARCH",
+      "owner": "EVIDENCE",
+      "instruction": "Lawfully obtain actual full playable video+audio for each selected sample; timecode scenes, chapters and visual proof",
+      "support": [
+        "INTELLIGENCE",
+        "RIGHTS"
+      ],
+      "receipt": "full_video_audio_evidence.json",
+      "blocking_acceptance": "FULL_VIDEO_WATCH requires verified decoded whole footage and soundtrack",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G03",
+      "phase": "RESEARCH",
+      "owner": "INTELLIGENCE",
+      "instruction": "Analyze hooks, A/B choices, hidden base and BigSchool seven-chapter original/compilation structure",
+      "support": [
+        "DIRECTION",
+        "EDITORIAL",
+        "AUDIO"
+      ],
+      "receipt": "comparative_story_mechanics.json",
+      "blocking_acceptance": "Metadata guesses explicitly separate from observed frames/audio",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G04",
+      "phase": "RESEARCH",
+      "owner": "CREATIVE_STRATEGY",
+      "instruction": "Score niches with longform >8min demand, fresh-channel signals, repeatability, monetization and legal risk",
+      "support": [
+        "ANALYTICS",
+        "RIGHTS"
+      ],
+      "receipt": "niche_greenlight.json",
+      "blocking_acceptance": "No unsupported claim new 30-day channel won 2x1M in 14d",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G05",
+      "phase": "GREENLIGHT",
+      "owner": "STUDIO_MANAGEMENT",
+      "instruction": "Approve one first original series promise and pilot scope/budget before longform",
+      "support": [
+        "PLANNING",
+        "RIGHTS",
+        "RND"
+      ],
+      "receipt": "original_series_charter.json",
+      "blocking_acceptance": "Owner approval for planned spend or production switch",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G06",
+      "phase": "STORY",
+      "owner": "WRITERS_ROOM",
+      "instruction": "Create 10 original concepts, score and select ONE coherent story (not retell Maizen/BigSchool)",
+      "support": [
+        "CREATIVE_STRATEGY",
+        "DIRECTION"
+      ],
+      "receipt": "concept_pitch_and_episode_loglines.json",
+      "blocking_acceptance": "Fresh character/location/conflict and English-audience hook",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G07",
+      "phase": "STORY",
+      "owner": "SCRIPT_LOGIC",
+      "instruction": "Expand chosen concept into scene/beat graph, consistent motivations and prop/time continuity",
+      "support": [
+        "WRITERS_ROOM",
+        "EDITORIAL"
+      ],
+      "receipt": "causal_beats_and_dialogue.json",
+      "blocking_acceptance": "Every beat alters plot stakes and has logical next action",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G08",
+      "phase": "PREPRO",
+      "owner": "DIRECTION",
+      "instruction": "Director storyboards shot-by-shot; thumbnail/animatic with edit timing and audio spots",
+      "support": [
+        "CINEMATOGRAPHY",
+        "EDITORIAL",
+        "AUDIO"
+      ],
+      "receipt": "locked_storyboard_and_animatic.json",
+      "blocking_acceptance": "At least 30-60s original pilot narrative is understandable and art approved",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G09",
+      "phase": "PREPRO",
+      "owner": "PRODUCTION_DESIGN",
+      "instruction": "Original world designs and lighting/color palette: school/village/cave OR real Minecraft playable world",
+      "support": [
+        "RIGHTS",
+        "ASSETS"
+      ],
+      "receipt": "set_world_design_and_rights.json",
+      "blocking_acceptance": "World original or properly licensed and accessible by target renderer",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G10",
+      "phase": "PREPRO",
+      "owner": "ASSETS",
+      "instruction": "Create two original rigged 64x64 skins + second layers, eye/viseme controls, hand sockets and versioned props",
+      "support": [
+        "PERFORMANCE",
+        "TECHNICAL_DIRECTION"
+      ],
+      "receipt": "skin_rig_prop_asset_manifest.json",
+      "blocking_acceptance": "No temporary debug cuboids or copied JJ/Mikey skin as production asset",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G11",
+      "phase": "PREPRO",
+      "owner": "PERFORMANCE",
+      "instruction": "Prepare body and facial action libraries, original voice/timing, actor emotions and lip sync",
+      "support": [
+        "AUDIO",
+        "ASSETS"
+      ],
+      "receipt": "performance_animation_library.json",
+      "blocking_acceptance": "Rig weight/IK FK, turn, walk footplant, grasp, fall, expression QA",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G12",
+      "phase": "PREPRO",
+      "owner": "CINEMATOGRAPHY",
+      "instruction": "Build locked shot cameras, geography and color/lighting cues",
+      "support": [
+        "DIRECTION",
+        "COLOR"
+      ],
+      "receipt": "camera_lighting_slate.json",
+      "blocking_acceptance": "No random zooms or incoherent eyelines; action readable mobile",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G13",
+      "phase": "PREPRO",
+      "owner": "RND",
+      "instruction": "Compare existing Blender 4.5/Comfy/audio/edit before adding optional Blockbench, Mineways, real-game capture, MCP",
+      "support": [
+        "TECHNICAL_DIRECTION",
+        "OPERATIONS"
+      ],
+      "receipt": "qualify_3_hard_shots.json",
+      "blocking_acceptance": "Same-shot GPU/time/visual+audio evidence; no arbitrary Python/cloud credits",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G14",
+      "phase": "PREPRO",
+      "owner": "RIGHTS",
+      "instruction": "Clear skin/rig/scene/music/voice and Minecraft publisher guideline scope and YouTube repetition risk",
+      "support": [
+        "STUDIO_MANAGEMENT",
+        "ASSETS"
+      ],
+      "receipt": "signed_rights_ledger.json",
+      "blocking_acceptance": "No publication or brand use until scope approved",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G15",
+      "phase": "PREPRO",
+      "owner": "PLANNING",
+      "instruction": "Lock shot schedule: durations, takes, render presets, failure budgets and storage capacity",
+      "support": [
+        "OPERATIONS",
+        "PRODUCTION"
+      ],
+      "receipt": "shot_slate_capacity_budget.json",
+      "blocking_acceptance": "RTX 3060 memory and acceptance throughput feasible",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G16",
+      "phase": "PRODUCTION",
+      "owner": "TECHNICAL_DIRECTION",
+      "instruction": "Select per-shot source of truth: REAL_MINECRAFT_CAPTURE or AUTHORED_3D_ANIMATION",
+      "support": [
+        "PRODUCTION",
+        "RND"
+      ],
+      "receipt": "qualified_stage_method.json",
+      "blocking_acceptance": "No Blender fake-gameplay output labelled real play",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G17",
+      "phase": "PRODUCTION",
+      "owner": "PRODUCTION",
+      "instruction": "Create/block real shots or capture authentic game actions with replay/camera control; keep layered takes",
+      "support": [
+        "DIRECTION",
+        "PERFORMANCE"
+      ],
+      "receipt": "captured_or_rendered_dailies.json",
+      "blocking_acceptance": "Actual decodable video, not placeholder paths, hashes and context",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G18",
+      "phase": "PRODUCTION",
+      "owner": "GENERATIVE_MEDIA",
+      "instruction": "Only optional authorized local AI for clean concept/VFX plates; cloud model requires explicit budget",
+      "support": [
+        "RIGHTS",
+        "RND"
+      ],
+      "receipt": "ai_generation_receipts.json",
+      "blocking_acceptance": "No silently changed identity, unlicensed training/asset or credits",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G19",
+      "phase": "PRODUCTION",
+      "owner": "VFX",
+      "instruction": "Add physically motivated particles/light/prop contact and continuity-safe compositing",
+      "support": [
+        "CINEMATOGRAPHY",
+        "COLOR"
+      ],
+      "receipt": "vfx_dailies.json",
+      "blocking_acceptance": "Every effect supports story and matches shots",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G20",
+      "phase": "POST",
+      "owner": "AUDIO",
+      "instruction": "Create synced dialogue, Foley, ambience, music and loudness/no-clip review",
+      "support": [
+        "PERFORMANCE",
+        "EDITORIAL",
+        "RIGHTS"
+      ],
+      "receipt": "audio_master_and_cue_sheet.json",
+      "blocking_acceptance": "VO understandable, sync within reviewed tolerance, licenses documented",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G21",
+      "phase": "POST",
+      "owner": "EDITORIAL",
+      "instruction": "Cut scenes/chapters, track continuity and tension, avoid padding to 8 minutes",
+      "support": [
+        "DIRECTION",
+        "AUDIO"
+      ],
+      "receipt": "episode_master_edl.json",
+      "blocking_acceptance": "Accepted narrative pacing before longform length",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G22",
+      "phase": "POST",
+      "owner": "COLOR",
+      "instruction": "Shot-match and color/lighting changes with consistent identity under SDR",
+      "support": [
+        "CINEMATOGRAPHY",
+        "EDITORIAL"
+      ],
+      "receipt": "shot_color_consistency.json",
+      "blocking_acceptance": "Lighting and original palette pass in motion",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G23",
+      "phase": "QC",
+      "owner": "QC",
+      "instruction": "Independent inspect full decoded film+sound, character identity, framing, timing, copyright, tech metadata",
+      "support": [
+        "DIRECTION",
+        "RIGHTS",
+        "RND"
+      ],
+      "receipt": "release_qc_defects_and_signoff.json",
+      "blocking_acceptance": "Fail closed missing real >30s 1080p24 quality pilot + owner acceptance",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G24",
+      "phase": "QC",
+      "owner": "OPERATIONS",
+      "instruction": "Render/retry only defective shots, reproducible hashes, storage backups and recovery",
+      "support": [
+        "PRODUCTION",
+        "QC"
+      ],
+      "receipt": "rework_and_gpu_cost_report.json",
+      "blocking_acceptance": "No silent skipping of failed shots; source and version preserved",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G25",
+      "phase": "RELEASE",
+      "owner": "PACKAGING",
+      "instruction": "Create 2 original thumbnail/title variants, description, episode chapter names and subtitle/caption checks",
+      "support": [
+        "CREATIVE_STRATEGY",
+        "RIGHTS"
+      ],
+      "receipt": "youtube_release_package.json",
+      "blocking_acceptance": "Honest Minecraft animation vs authentic game recording labeling",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G26",
+      "phase": "RELEASE",
+      "owner": "STUDIO_MANAGEMENT",
+      "instruction": "Owner release decision with QC signed, eligible rights and human final watch",
+      "support": [
+        "QC",
+        "RIGHTS",
+        "OPERATIONS"
+      ],
+      "receipt": "release_authorization.json",
+      "blocking_acceptance": "Zero auto-upload without independently approved release",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G27",
+      "phase": "LEARN",
+      "owner": "ANALYTICS",
+      "instruction": "After publishing, measure YouTube 24h/7d/14d, own CTR/retention/watch time/RPM where connected",
+      "support": [
+        "INTELLIGENCE",
+        "PACKAGING"
+      ],
+      "receipt": "actual_upload_retention_metrics.json",
+      "blocking_acceptance": "Only own actual provider analytics; never infer from public video views",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    },
+    {
+      "step_id": "G28",
+      "phase": "LEARN",
+      "owner": "RD_KNOWLEDGE",
+      "instruction": "Root-cause underperforming shots, update versioned skills/tests and next original episode recipe",
+      "support": [
+        "RND",
+        "DIRECTION",
+        "OPERATIONS"
+      ],
+      "receipt": "validated_learning_delta.json",
+      "blocking_acceptance": "Improvement requires A/B/evidence and no silent production regression",
+      "execution_status": "NOT_EXECUTED_IN_THIS_RESEARCH_PASS"
+    }
+  ],
+  "original_video_queue": [
+    {
+      "id": "MAI01",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "priority": 1,
+      "title": "We Built a Secret Base Beneath a Waterfall",
+      "target_minutes": [
+        12,
+        18
+      ],
+      "original_hook": "Two original friends discover an impossible door behind a waterfall.",
+      "repeatable_structure": "Hidden build > clue > danger > first fail > surprising recovery > new mystery",
+      "difficulties": [
+        "Genuine Minecraft runtime/map capture not verified",
+        "Obtain authorized game assets and scripted action control"
+      ],
+      "status": "ORIGINAL_PITCH_NOT_PRODUCED"
+    },
+    {
+      "id": "MAI02",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "priority": 2,
+      "title": "Which Portal Leads to the Lost Village?",
+      "target_minutes": [
+        12,
+        20
+      ],
+      "original_hook": "Two travelers must choose among portals to recover a stolen map.",
+      "repeatable_structure": "Choice > consequences > changing rule > objective > twist",
+      "difficulties": [
+        "No real game capture backend accepted yet"
+      ],
+      "status": "ORIGINAL_PITCH_NOT_PRODUCED"
+    },
+    {
+      "id": "MAI03",
+      "lane": "SCRIPTED_MINECRAFT_GAMEPLAY",
+      "priority": 3,
+      "title": "The Tiny House Has a Giant Secret",
+      "target_minutes": [
+        12,
+        18
+      ],
+      "original_hook": "Unassuming house hides a non-copied puzzle dimension.",
+      "repeatable_structure": "Visible ordinary object > secret world > escalating threat > earned exit",
+      "difficulties": [
+        "Original mod/gameplay logic must be built and recorded"
+      ],
+      "status": "ORIGINAL_PITCH_NOT_PRODUCED"
+    },
+    {
+      "id": "BIG01",
+      "lane": "AUTHORED_VOXEL_3D_ANIMATION",
+      "priority": 1,
+      "title": "The Lost Lantern",
+      "target_minutes": [
+        0.75,
+        0.75
+      ],
+      "original_hook": "Two original friends follow a stolen glow into a cave; funny reversal.",
+      "repeatable_structure": "Visual clue > fear/reaction > reveal > comic twist",
+      "difficulties": [
+        "12 existing QC blockers must be retired via 1080p45s render"
+      ],
+      "status": "STORYBOARD_ONLY_45S"
+    },
+    {
+      "id": "BIG02",
+      "lane": "AUTHORED_VOXEL_3D_ANIMATION",
+      "priority": 2,
+      "title": "The Quiet Student and the Broken Robot",
+      "target_minutes": [
+        8,
+        12
+      ],
+      "original_hook": "An inventor in a voxel school rescues the robot others discarded.",
+      "repeatable_structure": "Unfairness > kindness > shared task > setback > emotional payoff",
+      "difficulties": [
+        "Complex facial/prop acting and all-new original robot/skin"
+      ],
+      "status": "ORIGINAL_PITCH_NOT_PRODUCED"
+    },
+    {
+      "id": "BIG03",
+      "lane": "AUTHORED_VOXEL_3D_ANIMATION",
+      "priority": 3,
+      "title": "The Villager Who Could Control Weather",
+      "target_minutes": [
+        8,
+        12
+      ],
+      "original_hook": "Child learns to control rain but loses control before a school show.",
+      "repeatable_structure": "New power > funny failures > consequences > heartwarming solution",
+      "difficulties": [
+        "World/weather VFX and time/location continuity"
+      ],
+      "status": "ORIGINAL_PITCH_NOT_PRODUCED"
+    }
+  ],
+  "stage_program": [
+    {
+      "id": "STAGE_0_EVIDENCE",
+      "next": "Select and lawfully watch Maizen Right Hole, Bed, BigSchool season 3 complete footage+audio or audited samples",
+      "must_have": [
+        "primary video URLs",
+        "public metadata proof",
+        "timecoded observed visual/audio notes",
+        "weak-control uploads"
+      ],
+      "state": "PUBLIC_METADATA_ONLY"
+    },
+    {
+      "id": "STAGE_1_CREATIVE_GREENLIGHT",
+      "next": "Approve two original channel promises, original names/skins, no imitation and pilot storyboard",
+      "must_have": [
+        "original series bible",
+        "episode beat map",
+        "rights screen",
+        "resource time budget"
+      ],
+      "state": "NOT_APPROVED"
+    },
+    {
+      "id": "STAGE_2_QUALITY_45S",
+      "next": "Render BigSchool-type first-party 45-second 10-shot pilot, three hard scenes, real Foley/voice",
+      "must_have": [
+        "2 production UV skins",
+        "proper articulated rig and facial animation",
+        "real 1080p24 45s H264+AAC",
+        "full visual/audio QC"
+      ],
+      "state": "STORYBOARD_ONLY"
+    },
+    {
+      "id": "STAGE_3_REAL_MINECRAFT_CAPTURE",
+      "next": "Find licensed runtime+capture+camera/mod API, prove original 45s authentic game source",
+      "must_have": [
+        "game license",
+        "game executable and save world",
+        "deterministic scripted sessions",
+        "raw video/audio receipts"
+      ],
+      "state": "GAME_RUNTIME_NOT_QUALIFIED"
+    },
+    {
+      "id": "STAGE_4_FULL_EPISODES",
+      "next": "After gate-passing pilot, scale original animation to 8-12min and authentic gameplay to 12-18min separately",
+      "must_have": [
+        "complete unique episode",
+        "shots/art/voice/video passes",
+        "accepted seconds/hour",
+        "no bogus padding"
+      ],
+      "state": "NOT_READY"
+    },
+    {
+      "id": "STAGE_5_RELEASE_AND_LEARN",
+      "next": "Prepare packaging, final human QC, owner authorized upload and post-release analytics",
+      "must_have": [
+        "video rights",
+        "channel eligibility",
+        "metadata/thumbnail",
+        "actual watch-time and revenue feedback"
+      ],
+      "state": "NOT_RELEASED"
+    }
+  ]
+}

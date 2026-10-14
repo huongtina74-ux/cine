@@ -1,0 +1,12 @@
+workflow_id: comfy.wan21.fun.inpaint.1.3b
+version: "1"
+executor_id: local.comfyui
+media_type: video
+model_id: wan2.1-fun-inpaint-1.3b
+model_revision: sha256:8495d2b1673ffb18abb548a64ff3b0e4bd367734f653096f7a8a3ad46954d511
+workflow_file: wan21_fun_inpaint_13b.json
+local_only: true
+notes:
+  - Wan 2.1 Fun Inpaint 1.3B reference-conditioned local video workflow.
+  - Static registry workflow is a preflight template; runtime normalizer injects prompt and reference image.
+  - Production routing requires the cross-backend normalizer and per-shot hard gates.
