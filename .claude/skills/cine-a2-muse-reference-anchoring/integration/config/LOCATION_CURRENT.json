@@ -1,0 +1,435 @@
+{
+  "schema": "cine.a2.location_current.v1.1",
+  "project_id": "slow_english_a2_bell_leaf",
+  "locations": {
+    "BELL": {
+      "display_name": "Bell & Leaf House",
+      "site_id": "BELL",
+      "spaces": {
+        "BH-EXT": {
+          "display_name": "Mặt tiền và cổng",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-FOYER": {
+          "display_name": "Sảnh và cầu thang",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-LIVING": {
+          "display_name": "Phòng khách",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-KITCHEN": {
+          "display_name": "Bếp hiện đại cổ điển",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-DINING": {
+          "display_name": "Phòng ăn gia đình",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-POWDER": {
+          "display_name": "WC và giặt-kho",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-LANDING": {
+          "display_name": "Chiếu nghỉ tầng 2",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-PARENTS": {
+          "display_name": "Phòng Evan và Mara",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-JUNO": {
+          "display_name": "Phòng Juno",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-LIA": {
+          "display_name": "Phòng Lia",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-BATH": {
+          "display_name": "Phòng tắm gia đình",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-WORK-EXT": {
+          "display_name": "Cửa công khai xưởng Mara",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-ATELIER": {
+          "display_name": "Xưởng thủ công công khai",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-STORAGE": {
+          "display_name": "Kho dụng cụ khóa",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-STAIR-SECRET": {
+          "display_name": "Lối đi kín xuống phòng chuông",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-BELLCHAMBER": {
+          "display_name": "Phòng chuông Veylora bí mật",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-REAR-GARDEN": {
+          "display_name": "Sân và vườn sau",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BH-PATH": {
+          "display_name": "Lối đi phố và bưu tá",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "ORIN": {
+      "display_name": "Orin’s Hill House",
+      "site_id": "ORIN",
+      "spaces": {
+        "OH-EXT": {
+          "display_name": "Ngoại thất nhà đồi",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-FOYER": {
+          "display_name": "Sảnh và phòng sinh hoạt",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-LIBRARY": {
+          "display_name": "Thư viện và bàn bản đồ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-LAB": {
+          "display_name": "Xưởng đo và chế tác",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-ARCHIVE": {
+          "display_name": "Kho bằng chứng khóa",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-BED": {
+          "display_name": "Phòng ngủ ông ngoại",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-OBS": {
+          "display_name": "Tháp quan sát",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "OH-TRAVEL": {
+          "display_name": "Tủ chuông du hành",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "ROSE": {
+      "display_name": "The Rose Cottage — nhà ông bà nội",
+      "site_id": "ROSE",
+      "spaces": {
+        "RC-EXT": {
+          "display_name": "Ngoại thất hiên hồng",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "RC-LIVING": {
+          "display_name": "Phòng khách ông bà",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "RC-KITCHEN": {
+          "display_name": "Bếp và bàn ăn",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "RC-BED": {
+          "display_name": "Phòng ngủ ông bà",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "RC-GUEST": {
+          "display_name": "Phòng cho các cháu",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "RC-HOBBY": {
+          "display_name": "Góc sửa đồ của ông nội",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "RC-GARDEN": {
+          "display_name": "Vườn hồng và luống rau",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "SCHOOL": {
+      "display_name": "Bellfern Community School",
+      "site_id": "SCHOOL",
+      "spaces": {
+        "SC-EXT": {
+          "display_name": "Cổng và ngoại thất trường",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-COURT": {
+          "display_name": "Sân trường",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-HALL": {
+          "display_name": "Đại sảnh và hành lang",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-LIA": {
+          "display_name": "Lớp Lia (11 tuổi)",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-JUNO": {
+          "display_name": "Lớp Juno (13 tuổi)",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-SCI": {
+          "display_name": "Phòng khoa học",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-LIB": {
+          "display_name": "Thư viện trường",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-ART": {
+          "display_name": "Phòng nghệ thuật",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-CAF": {
+          "display_name": "Nhà ăn",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-GYM": {
+          "display_name": "Phòng vận động",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-TEACH": {
+          "display_name": "Phòng giáo viên",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SC-GARDEN": {
+          "display_name": "Vườn sinh học",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "SQUARE": {
+      "display_name": "Bellfern Town Square",
+      "site_id": "SQUARE",
+      "spaces": {
+        "SQ-MAIN": {
+          "display_name": "Quảng trường và đài phun",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SQ-SHOPS": {
+          "display_name": "Dãy cửa hàng",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SQ-CAFE": {
+          "display_name": "Quán café quảng trường",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "SQ-COUNCIL": {
+          "display_name": "Tòa hành chính",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "POST": {
+      "display_name": "Bellfern Post Office",
+      "site_id": "POST",
+      "spaces": {
+        "PO-EXT": {
+          "display_name": "Mặt tiền bưu điện",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "PO-COUNTER": {
+          "display_name": "Quầy phục vụ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "PO-SORT": {
+          "display_name": "Phòng phân loại và sân sau",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "LIBRARY": {
+      "display_name": "Bellfern Old Library & Archives",
+      "site_id": "LIBRARY",
+      "spaces": {
+        "LI-EXT": {
+          "display_name": "Ngoại thất thư viện cổ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "LI-READ": {
+          "display_name": "Đại sảnh đọc",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "LI-CHILD": {
+          "display_name": "Góc thiếu nhi",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "LI-ARCH": {
+          "display_name": "Kho lưu trữ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "BRIDGE": {
+      "display_name": "Silverbrook Bridge & Riverside",
+      "site_id": "BRIDGE",
+      "spaces": {
+        "BR-DECK": {
+          "display_name": "Mặt cầu đá",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BR-BANK": {
+          "display_name": "Lối bờ suối",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "FOREST": {
+      "display_name": "Whisperwood Forest",
+      "site_id": "FOREST",
+      "spaces": {
+        "FO-ENTRY": {
+          "display_name": "Cổng đường mòn",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "FO-FORK": {
+          "display_name": "Ngã ba cổ thụ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "FO-STONES": {
+          "display_name": "Khoảng trống đá cổ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "BAKERY": {
+      "display_name": "The Little Oven Bakery",
+      "site_id": "BAKERY",
+      "spaces": {
+        "BK-EXT": {
+          "display_name": "Mặt tiền tiệm bánh",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "BK-INSIDE": {
+          "display_name": "Quầy và 2 bàn trà",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "STATION": {
+      "display_name": "Bellfern Railway Station",
+      "site_id": "STATION",
+      "spaces": {
+        "ST-EXT": {
+          "display_name": "Nhà ga và đường dẫn",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "ST-HALL": {
+          "display_name": "Phòng vé và chờ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "ST-PLATFORM": {
+          "display_name": "Sân ga và tàu",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    },
+    "LAKE": {
+      "display_name": "Bellfern Lake & Old Boathouse",
+      "site_id": "LAKE",
+      "spaces": {
+        "LK-SHORE": {
+          "display_name": "Bờ hồ và lối đi",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "LK-BOAT": {
+          "display_name": "Nhà thuyền",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        },
+        "LK-DOCK": {
+          "display_name": "Bến gỗ",
+          "views": {},
+          "approval_state": "PENDING_NOT_GENERATED"
+        }
+      },
+      "status": "DRAFT_TOPOLOGY"
+    }
+  }
+}
