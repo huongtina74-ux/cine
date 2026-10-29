@@ -35,13 +35,19 @@ def install(cine_repo,pack,verify_only=False):
                 if not f.is_file() or digest(f)!=part['sha256']:raise ValueError('Missing/modified original or crop '+str(f))
                 checked.append(part)
             if entry['approved_new_ai_images']:raise ValueError('Generated draft should never be auto-approved')
-        print('PASS',len(checked),'exact user-source hash assets verified')
+        crops=json.loads((base/'metadata/ALL_90_SOURCE_CROPS_MANIFEST.json').read_text())
+        if len(crops['assets'])!=90:raise ValueError('Expected exactly 90 source crops')
+        for item in crops['assets']:
+            f=base/item['file']
+            if not f.is_file() or digest(f)!=item['sha256']:
+                raise ValueError('Modified/absent source crop '+str(f))
+        print('PASS',len(checked),'locked source+details, plus 90 pixel-exact crop SHA assets verified')
         target=cine_repo/'assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source'
         if verify_only:
             print('VERIFY_ONLY: would install',target)
             return
         if target.exists():
-            for part in checked:
+            for part in checked + crops['assets']:
                 f=target/(part.get('path') or part.get('file'))
                 if not f.exists() or digest(f)!=part['sha256']:raise ValueError('Existing canonical asset differs; installation refused')
             print('Already installed. Existing immutable files unchanged.');return
@@ -50,7 +56,7 @@ def install(cine_repo,pack,verify_only=False):
         if staging.exists():raise ValueError('Previous partial installation exists; abort')
         try:
             staging.mkdir()
-            for sub in ['assets/originals','assets/masters','metadata','reports']:
+            for sub in ['assets','metadata','reports']:
                 if (base/sub).exists():shutil.copytree(base/sub,staging/sub)
             staging.rename(target)
         finally:
