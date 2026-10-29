@@ -60,3 +60,15 @@ Inputs: `episode_id`, `script_lock_id`, `shot_id`, `site_id`, `space_id`, `appro
 - Generated storyboard/collage/infographic/mockup is NOT a production camera plate; scenic image must be one clean independent 16:9 plate. Any concept contradicting Bell & Leaf (e.g., resort/villa/pool or excessive amber tint) must be rejected, never stored as approved location.
 - Before generating, consult `registry/CINE_LOCATION_PROP_REGISTRY_v1_1_DRAFT.json` for 12 site/69 space/108 prop IDs, `registry/LOCATION_MULTIVIEW_MANIFEST.csv` and `registry/PROP_MULTIVIEW_MANIFEST.csv` for outstanding plates, and `templates/MUSE_I2V_10S_SHOT_CONTRACT.md` for shot schema.
 - This skill is available in the repository main branch. It will reach the Windows machine only after a successful git pull/deployment; presence in GitHub is not proof of runtime installation.
+
+## Cross-department production enforcement (18-stage CINE integration)
+
+**MANDATORY:** read [WORKFLOW_18_STAGES.md](WORKFLOW_18_STAGES.md) before planning or generating any production location shot. This is the formal Location Identity Pack / Location Lock handoff between ST01–ST18, not a replacement for this skill's registry and multi-angle geometry instructions.
+
+- ST01/ST02 research of competitor locations is **advisory film-language analysis only**, never approved Bell & Leaf architecture.
+- ST05/story canon and ST07/storyboard resolve site/space IDs, floorplan, approved angles and physically correct reverse camera before a shot is accepted.
+- ST10/art builds and approves exterior, interior, reverse, detail, prop and plan plates with immutable image hashes and human review; only needed site/angle coverage may be prioritized, but **every location used by a production shot must be approved**.
+- ST11/DOP and ST12/Flow/Muse must use the precise approved location source and character references; **zero character refs does not imply zero location refs**. Flow stills are one isolated 16:9 image with no subtitle; Muse produces one continuous 10.00-second take with locked external voice WAV when supported.
+- ST15 independent QC verifies actual scene topology, character identity, day/night lighting consistency, no yellow/orange global cast, no embedded text/collage and audio/performance evidence. A green technical render alone is not location approval.
+- Approved locations remain reusable across episodes; changing walls, stairs, window placements, furniture anchors or the building shape requires a new explicitly reviewed version.
+- All currently planned 483 room-view and 756 prop-view slots remain **PENDING_NOT_GENERATED** until original image evidence exists. Do not issue production-ready or Canon-approved labels based on this documentation update.
