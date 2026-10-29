@@ -44,3 +44,19 @@ A2 Bell & Leaf: start with `Lia` and `bubu` individually from the user-supplied 
 
 ## Handoff
 The working export may contain 10 ORIGINAL_USER_SOURCE files and standalone SOURCE_CROP candidates plus individual request prompts. The crop pack is only a preparation kit and must never be represented as Muse generation results. Multi-shot 10s animation requires separate I2V gating and voice-lipsync testing.
+
+
+## CINE Slow English A2 v1.1 — executable reference resolver and pending-image gate
+
+For `project_id=slow_english_a2_bell_leaf`, the mandatory technical integration lives at `integration/`:
+- `config/slow_english_a2_bell_leaf_project_profile.json`
+- `config/CHARACTER_CURRENT.json`, `config/LOCATION_CURRENT.json`: **all not-yet-reviewed assets remain pending**. No hypothetical approved file paths.
+- `schemas/CHARACTER_REGISTRY.schema.json`, `schemas/LOCATION_REGISTRY.schema.json`, `schemas/SHOT.schema.json`
+- `src/bellLeafCanonResolver.ts`: `resolveCharacterRefs`, `resolveLocationRefs`, `buildBellLeafPrompt`, `runBellLeafQC`, `verifyReferenceFiles`, `resolveShot`.
+- `tests/bellLeafCanonResolver.test.mjs`: fixture-only metadata tests (12/12 locally passed, not a live Muse/Flow run).
+- `scripts/muse_reference_render_queue.py`: **dry run by default**; real Meta Muse API calls require `--execute`, a supported account and `MODEL_API_KEY`.
+- `docs/INSTALL_AND_QC.md` and `docs/SHOT_METADATA_TEMPLATE.md` for installation, shot planning and approval handoff.
+
+The source asset bundle is kept as an independent **59 MB private library ZIP**, not falsely claimed committed to GitHub: `/CINE/Slow_English_A2/Character_Reference_Packs/CINE_A2_CHARACTER_REFERENCE_LIBRARY_V1_1_R1.zip`. A portable end-to-end integration kit with exact files is at `/CINE/Slow_English_A2/Canon_Lock_Integration/CINE_A2_CANON_LOCK_INTEGRATION_V1_1_COMPLETE.zip`.
+
+**Runtime warning:** These files in a GitHub branch do not mean the Windows CINE runtime has imported them; integration with its actual orchestrator and local assets must be performed/verified when that device is online. The 270 Muse independent view/expression targets are **PENDING_NEW_RENDER**, not manufactured or approved by documentation. Existing location plates also remain pending.
