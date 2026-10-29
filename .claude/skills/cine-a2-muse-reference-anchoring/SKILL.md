@@ -81,3 +81,10 @@ The full source PNG asset kit is stored persistently in user's CINE Library at `
 - Any location still without an approved plate: BLOCK final production shot, even if character's source identity was locked.
 
 **Mandatory precedence:** ORIGINAL SOURCE > exact source crop and Bubu sparkle detail > independently human-approved new angle/pose/expression > words-only prompt. Do not mark a generative output as identity-verified just because its seed, title, SHA or input character reference matches; SHA validates file identity, NOT facial likeness for newly generated pixels. Never promote new variant without source/target side-by-side review and human acceptance.
+
+
+### Verified 90-crop source library — complete package
+
+**Latest installable asset ZIP:** `/CINE/Slow_English_A2/Character_Reference_Packs/CINE_BELL_LEAF_CANON_SOURCE_LOCK_V1_2_COMPLETE.zip` (SHA-256 `2783de7204e315f89743f9dde0d0715fc023b4ed532443fba6f1e6c57c13fafe`). Unlike the earlier source-only package, this contains **10 original images + 90 native source crops + 10 individual master crops + 2 Bubu detail anchors**. Exact cryptographic and pixel-region provenance was checked for all 90 crop assets: see [canon/ALL_90_SOURCE_CROPS_QC_V1_2.json](canon/ALL_90_SOURCE_CROPS_QC_V1_2.json) and [canon/ALL_90_SOURCE_CROPS_MANIFEST_V1_2.json](canon/ALL_90_SOURCE_CROPS_MANIFEST_V1_2.json). Nothing here proves the new AI-generated variant sheets are face-identical.
+
+**Operational hard rule**: In production, only SOURCE_ORIGINAL and verified source-crop references may be used as identity anchors before independent Muse image candidates receive explicit approval. Crop-to-original pixel correctness does not imply full new perspective or wardrobe identity correctness. Never silently consider a new AI-rendered angle APPROVED. CINE local install must pass verification and then code-level resolver/Flow/Muse integration tests before reporting production READY.
