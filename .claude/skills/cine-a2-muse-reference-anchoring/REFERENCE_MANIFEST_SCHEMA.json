@@ -1,0 +1,55 @@
+{
+  "schema_version": "CINE_A2_MUSE_IMAGE_ANCHOR_v1.1",
+  "canonical_tags": [
+    "bo",
+    "me",
+    "juno",
+    "Lia",
+    "bubu",
+    "bix",
+    "ongngoai",
+    "bangoai",
+    "ongnoi",
+    "banoi"
+  ],
+  "sources_are_user_originals": true,
+  "reference_state": "SOURCE_CROP_UNREVIEWED",
+  "meta_model": "muse-image-1.0",
+  "fields": [
+    "character_tag",
+    "original_source_id",
+    "original_source_sha256",
+    "master_media_id",
+    "view_id",
+    "output_sha256",
+    "generation_model",
+    "response_id",
+    "continuity_version",
+    "reviewer",
+    "reviewed_at",
+    "qc_report",
+    "approval_state"
+  ],
+  "approval_states": [
+    "SOURCE_CROP_UNREVIEWED",
+    "DRAFT_GENERATED",
+    "REVIEW_REQUIRED",
+    "APPROVED_FOR_REFERENCE",
+    "REJECTED"
+  ],
+  "sample": {
+    "character_tag": "Lia",
+    "original_source_id": null,
+    "original_source_sha256": null,
+    "master_media_id": null,
+    "view_id": "FRONT",
+    "output_sha256": null,
+    "generation_model": null,
+    "response_id": null,
+    "continuity_version": "bell_leaf_visual_canon_v1",
+    "reviewer": null,
+    "reviewed_at": null,
+    "qc_report": null,
+    "approval_state": "SOURCE_CROP_UNREVIEWED"
+  }
+}
