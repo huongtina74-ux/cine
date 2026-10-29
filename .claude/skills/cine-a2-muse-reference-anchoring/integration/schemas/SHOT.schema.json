@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bell & Leaf shot production contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "shot_id",
+    "activeCharacterTags",
+    "location_id",
+    "space_id",
+    "location_view_id",
+    "camera_type",
+    "first_frame_action",
+    "emotion",
+    "outfits",
+    "duration_seconds"
+  ],
+  "properties": {
+    "shot_id": {
+      "type": "string",
+      "pattern": "^EP[0-9]{3,}_S[0-9]{3,}$"
+    },
+    "activeCharacterTags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "bo",
+          "me",
+          "juno",
+          "Lia",
+          "bubu",
+          "bix",
+          "ongngoai",
+          "bangoai",
+          "ongnoi",
+          "banoi"
+        ]
+      }
+    },
+    "location_id": {
+      "enum": [
+        "BELL",
+        "ORIN",
+        "ROSE",
+        "SCHOOL",
+        "SQUARE",
+        "POST",
+        "LIBRARY",
+        "BRIDGE",
+        "FOREST",
+        "BAKERY",
+        "STATION",
+        "LAKE"
+      ]
+    },
+    "space_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "location_view_id": {
+      "enum": [
+        "MASTER_WIDE",
+        "FORWARD",
+        "REVERSE_TRUE",
+        "LEFT_3_4",
+        "RIGHT_3_4",
+        "DETAIL_ANCHORS",
+        "PLAN_TOP"
+      ]
+    },
+    "camera_type": {
+      "enum": [
+        "extreme_wide",
+        "wide",
+        "medium_wide",
+        "medium",
+        "close_up",
+        "extreme_close_up"
+      ]
+    },
+    "first_frame_action": {
+      "type": "string",
+      "minLength": 10
+    },
+    "emotion": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outfits": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "duration_seconds": {
+      "const": 10
+    },
+    "dialogue_wav": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}
