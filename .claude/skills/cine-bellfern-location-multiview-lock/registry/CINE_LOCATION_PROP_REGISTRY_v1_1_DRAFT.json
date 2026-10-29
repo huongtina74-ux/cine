@@ -1,0 +1,3593 @@
+{
+  "bible_id": "CINE-BELLFERN-LOCATION-PROP-BIBLE",
+  "version": "1.1.0-reference-skill-draft",
+  "created_on": "2026-10-29",
+  "story_product": "Bell & Leaf, English A2 family mystery adventure, 1000+ episode intent",
+  "canon_priority": [
+    "User-approved visual Canon v1.3",
+    "User-approved family/world canon",
+    "approved/location pack",
+    "approved script",
+    "proposal",
+    "AI-generated concepts"
+  ],
+  "note": "This package is an authored design and generation contract, not a declaration that images/props/rooms are approved or already installed in CineFactory. EP001 has conflicting candidate scripts.",
+  "style_lock": {
+    "look": "photographic material stylized-real 3D CGI, family fantasy, no generic cartoon",
+    "daylight": "D55 nominal 5500K white balance for day; nighttime may have localized motivated practical sources but overall color science still preserves neutrals",
+    "lens": "50mm FF default; f/1.8 aesthetic only where focus readability holds; f/2.8-f/5.6 for groups/rooms when needed",
+    "frame": "16:9 native with full frame, no borders, no blurred side strips",
+    "forbidden": [
+      "yellow/orange tint",
+      "sepia",
+      "global warm LUT",
+      "excessive blue/cyan/magenta/green casts",
+      "magic decoration covering every room",
+      "dozens of bells",
+      "excessive plants/clutter"
+    ]
+  },
+  "sites": [
+    {
+      "site_id": "BELL",
+      "name": "Bell & Leaf House",
+      "dramatic_role": "Gia đình Evan/Mara, Juno, Lia; nơi trở về và bí mật Veylora",
+      "architecture": "Nhà gia đình 2 tầng bằng đá cổ cải tạo; xưởng Mara nối cạnh nhà; lối kho kín dẫn tới phòng chuông dưới xưởng. Kiến trúc đời thường có nét huyền bí cổ tích; nhà chính không phải lâu đài.",
+      "materials_palette": "Đá vôi sáng trung tính, mái đá phiến xanh xám, khung cửa gỗ sồi, cửa kính trong, vải kem và xanh xám; điểm nhấn xanh đêm bạc chỉ ở nơi kín.",
+      "topology_draft": "Từ phố ở phía nam vào sảnh; phòng khách phía tây; bếp-ăn phía đông và sau; cửa phụ ra vườn bắc. Tầng hai: phòng bố mẹ, Juno, Lia độc lập qua chiếu nghỉ; xưởng Mara có lối cửa phụ ngoài nhà, kho bí mật nối xuống phòng chuông.",
+      "magic_rule": "Nhà thường công khai; phép thuật công khai bị cấm khi Evan hay ông bà nội có mặt.",
+      "recognition_anchor": "Cửa chính hình vòm gỗ, ba cụm cửa sổ dễ nhận, mái 2 tầng; xưởng cạnh nhà không bị hoán đổi bên giữa các tập.",
+      "canon_caution": "Nhà thừa kế bên nội rồi sửa, không được giải thích là được tạo ra tức thời bằng phép.",
+      "geography_draft": "Bellfern residential edge; view toward garden/town, không buộc toàn bộ cửa sổ nhìn trực tiếp ra hồ.",
+      "reference": {
+        "reference_id": "Bell_Leaf_exterior_prior_concepts",
+        "local_examples": [
+          "/mnt/data/english_manor_by_the_lakeside.png",
+          "/mnt/data/ivy_covered_lakeside_manor.png"
+        ],
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "ORIN",
+      "name": "Orin’s Hill House",
+      "dramatic_role": "Căn cứ nghiên cứu hạn chế của Orin; dấu vết tìm bà ngoại",
+      "architecture": "Cottage đá xám nhỏ hai tầng trên đồi có buồng quan sát tròn gắn mái, không phải lâu đài; cửa ra vào và lối nghiên cứu hợp lý.",
+      "materials_palette": "Đá xám, slate xanh xám, gỗ sẫm, đồng mờ, giấy da, thuỷ tinh; ánh phép xanh bạc cục bộ trong phòng khóa.",
+      "topology_draft": "Sân trước nối sảnh -> phòng sinh hoạt/ thư viện -> xưởng; cầu thang lên phòng ngủ và tháp quan sát; kho vật liệu khóa có cửa riêng phía trong.",
+      "magic_rule": "Thiết bị phép ở phòng kín, trạm du hành không biến thành cổng mọi thế giới.",
+      "recognition_anchor": "Tháp quan sát tròn nhỏ + một cửa sổ mái/ống kính, cây cổ thụ, lối đá trên đồi.",
+      "canon_caution": "Ghế trống và ảnh/bức thư bà ngoại là điểm cảm xúc, không xác định diện mạo bà ngoại nếu chưa duyệt.",
+      "geography_draft": "Đồi gần Bellfern nhìn về thị trấn/hồ, không sát các nhà phố.",
+      "reference": {
+        "reference_id": "01_Orin_Hill_House",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:b47bb9ea-c696-41a2-9f66-63db07586a71",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "ROSE",
+      "name": "The Rose Cottage — nhà ông bà nội",
+      "dramatic_role": "Không gian bình yên ông bà chăm cháu, không phép thuật",
+      "architecture": "Cottage một tầng rưỡi nhỏ, trắng ngà và cửa sage, hàng rào thấp, vườn hoa hồng vừa phải; nhà tiện nghi đời thường.",
+      "materials_palette": "Vôi trắng ngà, đá xám, gỗ sồi sáng, linen, vải hoa đỏ nhỏ và xanh sage; vật liệu cũ được chăm chút.",
+      "topology_draft": "Hiên trước -> phòng khách -> bếp và bàn ăn phía sau; hành lang ngắn vào phòng ngủ; phòng cháu cạnh phòng ngủ; cửa bếp ra vườn rau nhỏ.",
+      "magic_rule": "Không có thiết bị phép hay chuông Veylora; Bubu/Bix phải che giấu bản chất khi ông bà ở gần.",
+      "recognition_anchor": "Cửa xanh sage + ghế đôi hiên + giàn hồng nhỏ; không thay biến thành trang viên.",
+      "canon_caution": "Ông bà là cha mẹ Evan, bình thường, ở gần gia đình.",
+      "geography_draft": "Khu dân cư cách Bell & Leaf có thể đi bộ; không nằm trên đồi Orin.",
+      "reference": {
+        "reference_id": "02_Rose_Cottage",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:7dc3a850-127b-44d2-a3c1-128312c8b7ac",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "SCHOOL",
+      "name": "Bellfern Community School",
+      "dramatic_role": "Học tập và bí ẩn trường đời thường; Lia 11/Juno 13",
+      "architecture": "Trường công hai cánh tuổi học ghép trong cùng khuôn viên, tòa đá cổ 2 tầng kết hợp lối nối kính hiện đại, sân và vườn khoa học.",
+      "materials_palette": "Đá sáng, mái slate, lan can gỗ/kim loại hiện đại, bảng trắng xanh và màn hình lớp học.",
+      "topology_draft": "Cổng phía nam -> sân -> đại sảnh chính; lớp Lia ở cánh trái; lớp Juno và phòng khoa học cánh phải; thư viện/nhà ăn nối hành lang; sân thể thao phía sau.",
+      "magic_rule": "Trường không dạy phép thuật, không có cổng phép công khai; học sinh/giáo viên là người thường.",
+      "recognition_anchor": "Tháp đồng hồ gọn + hành lang kính, sân rộng đủ di chuyển.",
+      "canon_caution": "Có thể giữ cánh thư viện cổ như manh mối lịch sử, chỉ khi kịch bản duyệt.",
+      "geography_draft": "Trong thị trấn, đi được bằng xe đạp/đưa đón; không đặt sát hồ không lý do.",
+      "reference": {
+        "reference_id": "03_Bellfern_Community_School",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:a51687e4-4e5a-4f68-ac2a-f1fcf5d3274f",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "SQUARE",
+      "name": "Bellfern Town Square",
+      "dramatic_role": "Thị trấn, lễ hội, giao lưu, rủi ro lộ bí mật",
+      "architecture": "Quảng trường lát đá với đài phun nước thấp, tòa công vụ nhỏ có đồng hồ; cửa hàng, quán café, lối đến phố chính.",
+      "materials_palette": "Đá trung tính, bảng màu cửa hàng xanh xám/kem, cây bồn vừa phải, bạt chợ không rực neon.",
+      "topology_draft": "Vỉa hè phía nam dẫn tới đài phun nước giữa; rìa đông có cửa hàng và quán; tòa công vụ phía bắc.",
+      "magic_rule": "Không có phép công khai; lễ hội đèn dây nếu là sự kiện có thể thêm theo shot state.",
+      "recognition_anchor": "Đài phun nước tròn + tòa đồng hồ, không biến thành quảng trường hoàng gia.",
+      "canon_caution": "Nơi Evan gặp người dân; khán giả nhận ra Bellfern ở đây.",
+      "geography_draft": "Trung tâm thị trấn.",
+      "reference": {
+        "reference_id": "04_Bellfern_Town_Square",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:04c21022-02b4-458f-9e37-f4deeb45b049",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "POST",
+      "name": "Bellfern Post Office",
+      "dramatic_role": "Nghề người đưa thư Evan; thư lạ và địa chỉ",
+      "architecture": "Bưu điện đá nhỏ một tầng và áp mái, cửa màu xanh, quầy công khai và bàn phân loại sau quầy.",
+      "materials_palette": "Đá vôi, cửa xanh, thùng thư đỏ hoặc màu bưu chính thống nhất, kệ nhãn giấy gọn.",
+      "topology_draft": "Cửa ngoài -> quầy tiếp khách -> cửa nhân viên -> phòng phân loại -> sân xe đạp phía sau.",
+      "magic_rule": "Địa chỉ bất thường có thể xuất hiện trong thư, nhưng thiết bị và đồng nghiệp đều đời thường.",
+      "recognition_anchor": "Cửa xanh + thùng thư + xe đạp túi thư Evan.",
+      "canon_caution": "Tránh sao chép logo bưu điện có thật nếu không có quyền.",
+      "geography_draft": "Phố gần quảng trường.",
+      "reference": {
+        "reference_id": "05_Bellfern_Post_Office",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:9e9fc8ef-b09b-4e8e-9b9f-ea9bd2c223ea",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "LIBRARY",
+      "name": "Bellfern Old Library & Archives",
+      "dramatic_role": "Lịch sử địa phương, tài liệu bí ẩn hợp lý",
+      "architecture": "Thư viện công cộng đá cổ quy mô vừa, sảnh đọc, quầy thủ thư, khu lưu trữ được quản lý.",
+      "materials_palette": "Đá xám sáng, gỗ tối vừa phải, đèn học hiện đại, giấy và vải; ánh sáng cửa sổ 5500K.",
+      "topology_draft": "Cửa công cộng -> quầy/đại sảnh đọc -> góc sách thiếu nhi; cửa nhân viên dẫn kho hồ sơ ở sau.",
+      "magic_rule": "Không có sách bay hoặc bùa phép công khai; bí ẩn qua văn bản/di vật thật.",
+      "recognition_anchor": "Cửa vòm đá + cửa sổ cao phân ô.",
+      "canon_caution": "Không đưa ký hiệu phá hoại vào sách cho đến khi có cảnh được chốt.",
+      "geography_draft": "Phố cổ gần trung tâm.",
+      "reference": {
+        "reference_id": "06_Bellfern_Old_Library",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:be9f78bb-6baa-47ce-9b70-e5140730c62e",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "BRIDGE",
+      "name": "Silverbrook Bridge & Riverside",
+      "dramatic_role": "Gặp gỡ, cứu động vật, diễn xuất ngoài trời",
+      "architecture": "Cầu đá một nhịp vượt suối sạch, đường lát đá, bờ cỏ, cây liễu lớn, điểm xuống suối an toàn.",
+      "materials_palette": "Đá xám, nước xanh trong, cây lá xanh trung tính.",
+      "topology_draft": "Đầu cầu phía tây kết nối phố; đầu kia dẫn đường ven suối; lối xuống bờ chỉ ở khu vực an toàn.",
+      "magic_rule": "Không có cổng phép thường trực.",
+      "recognition_anchor": "Một vòm cầu và một cây liễu, rõ hướng dòng chảy.",
+      "canon_caution": "Không tự đổi dòng chảy, hướng cầu giữa shot thuận/ngược.",
+      "geography_draft": "Ven rìa Bellfern.",
+      "reference": {
+        "reference_id": "07_Silverbrook_Bridge",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5483e31e-a68c-409a-b329-95d1d932efb9",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "FOREST",
+      "name": "Whisperwood Forest",
+      "dramatic_role": "Khám phá, manh mối, ranh giới thiên nhiên",
+      "architecture": "Rừng sồi/dẻ già có đường mòn, ngã ba đá rêu, suối, vùng đá cổ xa thị trấn.",
+      "materials_palette": "Lá xanh thật, vỏ cây nâu xám, rêu, đá lạnh, phản sáng xanh bạc chỉ khi truyện cho phép.",
+      "topology_draft": "Cổng mòn -> bờ suối -> ngã ba cổ thụ -> khoảng trống đá cổ (khu sâu không đi tùy tiện).",
+      "magic_rule": "Mọi vùng bất thường là tình tiết được kiểm soát, không tràn ngập phép nền.",
+      "recognition_anchor": "Một cây sồi có rễ cong và ba tảng đá mốc đường, hình nhận diện.",
+      "canon_caution": "Rừng không tự biến thành thế giới khác mỗi lần trở lại.",
+      "geography_draft": "Rìa phía ngoài thị trấn.",
+      "reference": {
+        "reference_id": "08_Whisperwood_Forest",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:2401fd0f-1eda-4e32-ad1e-37a70f1be9bb",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "BAKERY",
+      "name": "The Little Oven Bakery",
+      "dramatic_role": "Giao tiếp A2 đời thường, hài nhẹ, sự tử tế",
+      "architecture": "Tiệm bánh mặt phố nhỏ, cửa kính, quầy bánh, bếp phía sau và hai bàn café bên ngoài.",
+      "materials_palette": "Đá trắng, mái slate, rèm xanh nhạt, gỗ mật độ vừa phải, bánh/đồ ăn tự nhiên không ánh vàng LUT.",
+      "topology_draft": "Từ phố qua cửa -> quầy bên phải -> bàn café bên trái -> cửa bếp phía sau.",
+      "magic_rule": "Không phải tiệm bánh phép thuật; chuyện kỳ lạ nếu xảy ra phải do tình huống rõ.",
+      "recognition_anchor": "Mái hiên xanh xám + ô kính trưng bày bánh.",
+      "canon_caution": "Không dùng logo thương hiệu thật.",
+      "geography_draft": "Quảng trường hoặc phố cạnh đó.",
+      "reference": {
+        "reference_id": "09_The_Little_Oven_Bakery",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:5baf8e75-dd9f-41bb-be71-c503b64a6daa",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "STATION",
+      "name": "Bellfern Railway Station",
+      "dramatic_role": "Du hành Trái Đất, chia tay/đoàn tụ, người mới",
+      "architecture": "Ga tàu một sân ga nhỏ, nhà ga đá cũ và đồng hồ, quầy vé và băng ghế; tàu thực.",
+      "materials_palette": "Đá xám, mái slate, sắt sơn xanh đen, bảng giờ điện tử hiện đại hợp cảnh.",
+      "topology_draft": "Lối vào -> phòng vé/chờ -> cửa ra sân ga; ray ở một phía cố định; đường về thị trấn ở phía đối diện.",
+      "magic_rule": "Không phải tàu du hành thế giới.",
+      "recognition_anchor": "Đồng hồ ga + mái chờ + một đường ray; hướng tàu đến có thể khóa theo shot.",
+      "canon_caution": "Không tạo tàu bay hay thiết bị phép.",
+      "geography_draft": "Ven đường sắt ngoài thị trấn.",
+      "reference": {
+        "reference_id": "10_Bellfern_Railway_Station",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:84f2e64d-f13f-4b22-88a2-86361ffd9340",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    },
+    {
+      "site_id": "LAKE",
+      "name": "Bellfern Lake & Old Boathouse",
+      "dramatic_role": "Sự kiện nước, cứu động vật, cảnh nghỉ",
+      "architecture": "Hồ xanh tự nhiên, cầu gỗ nhỏ, nhà thuyền xám một tầng, một thuyền chèo, bờ đá và lau sậy.",
+      "materials_palette": "Nước xanh trung tính, gỗ bạc màu, đá cuội, sậy xanh.",
+      "topology_draft": "Lối từ thị trấn -> bến gỗ -> nhà thuyền; bờ xa có lối mòn về rừng.",
+      "magic_rule": "Không hiện cổng Veylora công khai thường xuyên.",
+      "recognition_anchor": "Nhà thuyền một mái, một bến chữ I, một thuyền gỗ.",
+      "canon_caution": "Quy luật mặt nước, đường bờ và vị trí núi xa phải ổn định.",
+      "geography_draft": "Phía bắc/ngoài Bellfern.",
+      "reference": {
+        "reference_id": "11_Bellfern_Lake",
+        "url": "https://photoshop-api.adobe.io/v2/short-url/urn:aaid:ps:US:08c520dc-c66e-4b45-b75a-fb52c3e5f198",
+        "status": "CONCEPT_ONLY_NOT_APPROVED",
+        "locked_dimensions": false
+      },
+      "design_status": "PROPOSED_AWAITING_USER_APPROVAL"
+    }
+  ],
+  "spaces": [
+    {
+      "space_id": "BH-EXT",
+      "site_id": "BELL",
+      "name": "Mặt tiền và cổng",
+      "placement": "PROPOSED: Nam, cửa trước ở giữa, xưởng phía đông",
+      "fixed_visual_anchors": "Mái slate xanh xám; đá vôi kem; cửa sồi vòm; cửa sổ tầng 1-2 liên hệ trục đứng; lối sỏi và cổng thấp",
+      "narrative_use": "Thiết lập nhà, Evan về nhà, khách đến, hành lang nhìn ra",
+      "forbidden_change": "Không hoán đổi xưởng sang trái, không mọc tháp chuông hoặc nhà kính mới mỗi tập",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Asymmetric but buildable steep gable, a carved ivy-leaf stone relief over the arch and one unusual circular attic window; quaint mysterious silhouette, NO extra bell tower",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-FOYER",
+      "site_id": "BELL",
+      "name": "Sảnh và cầu thang",
+      "placement": "PROPOSED: Ngay sau cửa chính; cầu thang đi lên dọc tường đông",
+      "fixed_visual_anchors": "Sàn gạch đá trung tính; tủ giày thấp; móc áo bưu tá; cửa vòm vào khách tây và bếp đông",
+      "narrative_use": "Evan ra/vào; gia đình chào nhau; đường phân luồng rõ",
+      "forbidden_change": "Không có cổng phép sáng công khai; không đổi vị trí cầu thang",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One subtle carved oak leaf on staircase newel and stained leaded glass with a restrained leaf geometry, not a glowing portal",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-LIVING",
+      "site_id": "BELL",
+      "name": "Phòng khách",
+      "placement": "PROPOSED: Tầng 1 tây, tiếp sảnh; cửa sổ nhìn vườn trước",
+      "fixed_visual_anchors": "Lò sưởi đá ở tường bắc; sofa đối diện; ghế, tủ sách vừa phải; bàn giữa không chắn lối",
+      "narrative_use": "Cảm xúc gia đình, ông bà ghé chơi, lò sưởi; không phô phép",
+      "forbidden_change": "Không treo hàng chục biểu tượng trăng sao; không đổi lò sưởi vách khác",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Limestone hearth with a single restrained antique leaf carving and a recessed gothic-arched book niche; inviting family warmth by composition not amber tint",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-KITCHEN",
+      "site_id": "BELL",
+      "name": "Bếp hiện đại cổ điển",
+      "placement": "PROPOSED: Tầng 1 đông, gần phòng ăn, cửa ra xưởng nằm ngoài hành lang phụ",
+      "fixed_visual_anchors": "Tủ bếp xanh sage mờ; mặt đá xám trắng; bồn rửa cạnh cửa sổ; bếp nấu ở vách cố định",
+      "narrative_use": "Bữa sáng, đối thoại A2, thao tác pha trà/nấu ăn",
+      "forbidden_change": "Không đưa phù chú hiển lộ cho Evan; không đổi vị trí bếp nấu và bồn rửa",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Tiny hand-painted botanical border tile by stove and old exposed wooden roof beam combined with clean modern sage cabinets; no active magic in front of Evan",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-DINING",
+      "site_id": "BELL",
+      "name": "Phòng ăn gia đình",
+      "placement": "PROPOSED: Tầng 1 đông bắc, nối trực tiếp bếp, nhìn vườn sau",
+      "fixed_visual_anchors": "Bàn gỗ sáu ghế, đèn trần bình thường, cửa kính ra vườn",
+      "narrative_use": "Cảnh ăn sáng 6 người, cử chỉ và thoại nhiều nhân vật",
+      "forbidden_change": "Khung cửa không di chuyển, số ghế 6 chuẩn, Bubu/Bix không nói trước Evan",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Gently pointed wooden arch framing a bright garden door, dark blue table linen in occasional scenes, one dried floral arrangement only",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-POWDER",
+      "site_id": "BELL",
+      "name": "WC và giặt-kho",
+      "placement": "PROPOSED: Tầng 1 dưới/thấp cạnh cầu thang, ngoài camera chính",
+      "fixed_visual_anchors": "Cửa gỗ đơn; máy giặt Trái Đất; kệ khăn gọn",
+      "narrative_use": "Đời thường, đường đi logic",
+      "forbidden_change": "Không dùng làm lối sang phòng chuông",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Old limestone window recess with compact modern fixtures, unobtrusive old wood lintel and no fantasy clutter",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-LANDING",
+      "site_id": "BELL",
+      "name": "Chiếu nghỉ tầng 2",
+      "placement": "PROPOSED: Giữa phòng trẻ và phòng bố mẹ; thông cầu thang",
+      "fixed_visual_anchors": "Lan can gỗ và cửa sổ kính 1 bên, 3 cửa phòng rõ hướng",
+      "narrative_use": "Chạy về phòng, lắng nghe, không gian chuyển cảnh",
+      "forbidden_change": "Không đổi số cửa hay bậc thang",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Soft gothic-style leaded window and one half-moon-shaped old oak newel relief, no dangling charms",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-PARENTS",
+      "site_id": "BELL",
+      "name": "Phòng Evan và Mara",
+      "placement": "PROPOSED: Tầng 2 phía nam/tây; một cửa từ chiếu nghỉ",
+      "fixed_visual_anchors": "Giường đôi, tủ gỗ, góc đọc nhỏ, ảnh gia đình; một ngăn khóa tài liệu của Mara có vẻ đời thường",
+      "narrative_use": "Đối thoại kín của bố mẹ, cảm xúc, bình yên",
+      "forbidden_change": "Evan không thấy sách phép công khai; không tự thêm buồng bí mật trong tường",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One antique book in a locked private drawer, subtle midnight-blue woven cushion pattern, otherwise calm adult family bedroom; Evan sees nothing overtly magical",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-JUNO",
+      "site_id": "BELL",
+      "name": "Phòng Juno",
+      "placement": "PROPOSED: Tầng 2 đông; cửa từ chiếu nghỉ, cửa sổ hướng sân sau",
+      "fixed_visual_anchors": "Giường đơn, bàn sáng chế thực dụng trước cửa sổ, bảng sơ đồ, giá dụng cụ an toàn, ổ nằm Bix ở sát chân bàn",
+      "narrative_use": "Tính cách kỹ sư 13 tuổi, chế tạo, học tập, Bix phát triển",
+      "forbidden_change": "KHÔNG trộn với phòng Lia, không thay Bix bằng thú khác, không biến thành phòng máy khổng lồ",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Blueprint of precise geometric wheel with one inherited Veylora-like mathematical motif barely noticeable, not a hovering spell; engineered physical details",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-LIA",
+      "site_id": "BELL",
+      "name": "Phòng Lia",
+      "placement": "PROPOSED: Tầng 2 bắc; cửa từ chiếu nghỉ, cửa sổ nhìn vườn",
+      "fixed_visual_anchors": "Giường đơn, ghế đọc bên cửa, kệ sách truyện, tranh động vật, chỗ ngủ riêng Bubu, vài kỷ vật nhỏ",
+      "narrative_use": "Nơi Lia chăm sóc động vật, học A2, bí mật Bubu",
+      "forbidden_change": "KHÔNG có bàn máy móc của Juno, không thay Bubu màu/chuông, không phủ dây leo kín phòng",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A moon-and-leaf textile wall hanging and arched reading nook, dreamy but natural; the ONLY actual little bell is on Bubu collar, if Bubu appears",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-BATH",
+      "site_id": "BELL",
+      "name": "Phòng tắm gia đình",
+      "placement": "PROPOSED: Tầng 2, cạnh chiếu nghỉ",
+      "fixed_visual_anchors": "Gạch trắng kem, gương, bồn rửa, bồn tắm bình thường",
+      "narrative_use": "Continuity sinh hoạt",
+      "forbidden_change": "Không tự đổi thành phòng tắm cổ đại vô dụng",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Old small arched window paired with modern white tile and neutral grey towels, no moon and stars repeated",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-WORK-EXT",
+      "site_id": "BELL",
+      "name": "Cửa công khai xưởng Mara",
+      "placement": "PROPOSED: Phía đông nhà, lối riêng từ đường bên hông",
+      "fixed_visual_anchors": "Cửa gỗ 2 cánh nhỏ, cửa sổ cao, biển xưởng tối giản không chữ tạo ảnh, thềm đá sạch",
+      "narrative_use": "Khách đưa vật cần sửa; Evan thấy việc nghề nghiệp hợp pháp",
+      "forbidden_change": "Không cho người thường nhìn xuyên vào cổng phép",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A single small handcrafted crescent-leaf carving in shop door trim that passersby read as artisanal branding",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-ATELIER",
+      "site_id": "BELL",
+      "name": "Xưởng thủ công công khai",
+      "placement": "PROPOSED: Cánh nhà đông, có cửa riêng và cửa nội bộ từ lối phụ",
+      "fixed_visual_anchors": "Bàn sửa cơ khí, tủ ngăn kéo, công cụ đo kính lúp, đồng hồ/hộp nhạc; ánh sáng cửa trời",
+      "narrative_use": "Nghề của Mara, sửa đồ, đối thoại kín khi có khách",
+      "forbidden_change": "Không biến thành chợ phép, không rải chuông khắp nơi",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One fine metalwork botanical motif and a locked precision instrument cabinet; public antique-repair workshop, authentic craft, secret magic not visibly active",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-STORAGE",
+      "site_id": "BELL",
+      "name": "Kho dụng cụ khóa",
+      "placement": "PROPOSED: Sau xưởng Mara, kệ hồ sơ, cửa được ngụy trang hợp lý",
+      "fixed_visual_anchors": "Tủ gỗ có khóa, hộp vật liệu, thang xuống phòng an toàn có chốt ẩn",
+      "narrative_use": "Ngăn hai thế giới, hoạt động khi Evan vắng",
+      "forbidden_change": "Không tự chuyển cửa bí mật vào phòng khách hoặc gần cửa chính",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A concealed but physically credible stone step seam behind a lockable equipment shelf; purpose-built security, not autonomous sliding magic wall",
+      "magic_public_policy": "SEALED_OR_HIDDEN"
+    },
+    {
+      "space_id": "BH-STAIR-SECRET",
+      "site_id": "BELL",
+      "name": "Lối đi kín xuống phòng chuông",
+      "placement": "PROPOSED: Dưới khu xưởng, dẫn từ kho khóa",
+      "fixed_visual_anchors": "Cầu thang đá hẹp nhưng đủ người đi; tay vịn; cửa bảo vệ ở cuối",
+      "narrative_use": "Chuyển cảnh logic, âm thanh vang nhẹ",
+      "forbidden_change": "Không cắt teleport nội bộ không lý do; ánh magic chỉ ở sau cửa khóa",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Under-workshop stone vault steps with subtle etched silver line used as orientation; no dense symbols",
+      "magic_public_policy": "SEALED_OR_HIDDEN"
+    },
+    {
+      "space_id": "BH-BELLCHAMBER",
+      "site_id": "BELL",
+      "name": "Phòng chuông Veylora bí mật",
+      "placement": "PROPOSED: Dưới xưởng/địa tầng kín, không phải trên mái",
+      "fixed_visual_anchors": "MỘT chuông trung tâm treo trong khung bạc/đồng cố định; vòng cơ khí; bản đồ tuyến; bàn thao tác; một cửa bảo vệ",
+      "narrative_use": "Nơi mở vài tuyến an toàn, tìm kiếm, sửa mạng; xung đột chính",
+      "forbidden_change": "Không có 20 chuông khác; không tự lộ thiên, không portal vô hạn; không có cửa sổ nhìn hồ",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Secret solemn old stone sanctuary centered on exactly ONE family network bell, two or three precision suspension rings and a dark damaged-route map, localized cool silver light",
+      "magic_public_policy": "SEALED_OR_HIDDEN"
+    },
+    {
+      "space_id": "BH-REAR-GARDEN",
+      "site_id": "BELL",
+      "name": "Sân và vườn sau",
+      "placement": "PROPOSED: Bắc nhà, cửa kính phòng ăn mở ra lối lát đá",
+      "fixed_visual_anchors": "Bàn ngoài trời, ghế dài gỗ, cây ăn quả, bồn hoa vừa phải, một lối đi bên hông xưởng",
+      "narrative_use": "Chơi, chăm động vật, chuyện gia đình, không gian thở",
+      "forbidden_change": "Không tạo mê cung cây, không rải chuông và phù văn trên mọi đá",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Small weathered stone flower arch, birdbath and soft hydrangeas with a broad clear lawn for acting; one carved leaf on a low milestone",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "BH-PATH",
+      "site_id": "BELL",
+      "name": "Lối đi phố và bưu tá",
+      "placement": "PROPOSED: Giáp cổng nam, dẫn tới phố Bellfern",
+      "fixed_visual_anchors": "Hàng rào thấp, thùng thư, lối xe đạp Evan, mốc đá",
+      "narrative_use": "Evan xuất phát tuyến phát thư, continuity nhà-phố",
+      "forbidden_change": "Không đổi vị trí cổng và hướng đi khỏi nhà",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One ordinary carved letterbox pillar with leaf motif, everyday bike tracks, tidy gravel walk",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "OH-EXT",
+      "site_id": "ORIN",
+      "name": "Ngoại thất nhà đồi",
+      "placement": "PROPOSED: Sườn đồi, đường mòn từ thị trấn đi tới",
+      "fixed_visual_anchors": "Cottage đá xám 2 tầng, mái slate, tháp quan sát tròn nhỏ, cửa sồi, cây cổ thụ",
+      "narrative_use": "Khái quát nhân cách Orin, nơi lui về giữa chuyến đi",
+      "forbidden_change": "Không thành lâu đài hoặc ngôi nhà nổi",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Compact stone observatory dome and a single peculiar circular window; one ancient oak adds mysterious silhouette without making a fortress",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "OH-FOYER",
+      "site_id": "ORIN",
+      "name": "Sảnh và phòng sinh hoạt",
+      "placement": "PROPOSED: Tầng 1 ngay cửa chính",
+      "fixed_visual_anchors": "Ghế bành đơn, lò sưởi nhỏ, móc áo đi đường, ấm trà",
+      "narrative_use": "Orin đón cháu, khoảnh khắc an ủi",
+      "forbidden_change": "Không có vô số chuông treo trần",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Single old hand-carved astronomical motif above modest fireplace and a notably empty second armchair",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "OH-LIBRARY",
+      "site_id": "ORIN",
+      "name": "Thư viện và bàn bản đồ",
+      "placement": "PROPOSED: Tầng 1 tây, gần sinh hoạt",
+      "fixed_visual_anchors": "Một bàn nghiên cứu lớn, hồ sơ giấy thật, bản đồ với phần lớn tuyến tối, ghế trống bà ngoại",
+      "narrative_use": "Nghiên cứu thảm họa; gợi xúc cảm người mất tích",
+      "forbidden_change": "Không hiển thị toàn bộ mạng đã sửa xong; giữ bản đồ vết hỏng",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A restrained paper-and-brass route model with many broken links and one empty seat; physical research of a missing family",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "OH-LAB",
+      "site_id": "ORIN",
+      "name": "Xưởng đo và chế tác",
+      "placement": "PROPOSED: Tầng 1 đông, cửa kiểm soát từ thư viện",
+      "fixed_visual_anchors": "Máy tiện nhỏ an toàn, panme, vòng thử vật liệu, kính bảo hộ, ngăn mẫu vật",
+      "narrative_use": "Giải thích giới hạn vật liệu hiếm, cảnh chế tạo chính xác",
+      "forbidden_change": "Không chế hàng nghìn chuông nhanh, không thêm cửa cổng vô hạn",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Functional weathered brass test rings, precise instruments and only localized blue-silver measurement light if activated",
+      "magic_public_policy": "SEALED_OR_HIDDEN"
+    },
+    {
+      "space_id": "OH-ARCHIVE",
+      "site_id": "ORIN",
+      "name": "Kho bằng chứng khóa",
+      "placement": "PROPOSED: Sau thư viện/xưởng, sau cửa thường có khóa",
+      "fixed_visual_anchors": "Hộp thư, nhật ký, mẫu pin ba vết nếu kịch bản thông qua, danh sách mất tích",
+      "narrative_use": "Long arc phá hoại, vật chứng cần tracking",
+      "forbidden_change": "Vật chứng mới ở trạng thái candidate; không tự thay nguồn gốc",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One distinct locked chest with subtle 3-dimensional maker mark; otherwise factual paper and boxes",
+      "magic_public_policy": "SEALED_OR_HIDDEN"
+    },
+    {
+      "space_id": "OH-BED",
+      "site_id": "ORIN",
+      "name": "Phòng ngủ ông ngoại",
+      "placement": "PROPOSED: Tầng 2 tây",
+      "fixed_visual_anchors": "Giường đơn gọn, tủ áo, một ảnh và khăn cũ, cửa sổ nhỏ",
+      "narrative_use": "Cho thấy cô độc và hy vọng tìm vợ",
+      "forbidden_change": "Không tự tạo chân dung bà ngoại được duyệt",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One cherished folded shawl/letter and old star-pattern duvet on simple narrow bed; gentle loneliness",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "OH-OBS",
+      "site_id": "ORIN",
+      "name": "Tháp quan sát",
+      "placement": "PROPOSED: Tầng 2 phía cao tròn, nối từ cầu thang",
+      "fixed_visual_anchors": "Kính thiên văn, cửa tròn/ô mở mái, bàn quan sát, rèm chắn sáng",
+      "narrative_use": "Ánh sáng trời sao, phát hiện tín hiệu; công việc Orin",
+      "forbidden_change": "Kính thiên văn không là portal; ngày vẫn phải cân bằng trắng chuẩn",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One circular clear-glass roof window and old brass telescope, cool night star presence only when episode calls for it",
+      "magic_public_policy": "SUBTLE_HERITAGE_ONLY"
+    },
+    {
+      "space_id": "OH-TRAVEL",
+      "site_id": "ORIN",
+      "name": "Tủ chuông du hành",
+      "placement": "PROPOSED: Phòng khóa từ xưởng",
+      "fixed_visual_anchors": "Một chuông du hành RIÊNG của Orin trong giá chịu lực, bảo vệ chống dùng nhầm",
+      "narrative_use": "Chuẩn bị tuyến an toàn, bảo trì, truy dấu",
+      "forbidden_change": "Không tự chuyển chuông sang nhà ông bà nội hoặc cho trẻ tự dùng",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One stowed separate Orin travel bell, one foam-and-wood transport case and a manual calibration guide, no multiple spare travel bells",
+      "magic_public_policy": "SEALED_OR_HIDDEN"
+    },
+    {
+      "space_id": "RC-EXT",
+      "site_id": "ROSE",
+      "name": "Ngoại thất hiên hồng",
+      "placement": "PROPOSED: Phố yên tĩnh, cửa từ lối lát đá",
+      "fixed_visual_anchors": "Cottage nhỏ trắng ngà, cửa sage xanh xám, hàng rào thấp, hoa hồng một giàn",
+      "narrative_use": "Nhà ông bà nội ấm áp",
+      "forbidden_change": "Không tự mọc tháp chuông, không thành biệt thự",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One weathered climbing rose arch and a sage-green door, a welcoming old-world fairy-tale look with NO secret arcana",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "RC-LIVING",
+      "site_id": "ROSE",
+      "name": "Phòng khách ông bà",
+      "placement": "PROPOSED: Ngay sau hiên, cửa sổ nhìn vườn trước",
+      "fixed_visual_anchors": "Sofa đơn giản, lò sưởi nhỏ, ảnh Evan thuở nhỏ, thảm mềm",
+      "narrative_use": "Những câu chuyện gia đình và hồi ức",
+      "forbidden_change": "Không có phép hay dấu phù thủy",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Handmade wooden toys and ancestral family pictures, deep hearth with shallow arch; folk warmth not supernatural",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "RC-KITCHEN",
+      "site_id": "ROSE",
+      "name": "Bếp và bàn ăn",
+      "placement": "PROPOSED: Sau phòng khách, cửa ra vườn",
+      "fixed_visual_anchors": "Bàn gỗ bốn sáu ghế, lò nướng hiện đại, bánh, bát đĩa, ngăn khăn",
+      "narrative_use": "Làm bánh, chăm cháu, A2 đời thường",
+      "forbidden_change": "Không biến thành xưởng Mara; không đồ đạc quá nhiều",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Blue-white cottage crockery and beautiful flour-dusted kneading surface, not witch cauldron",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "RC-BED",
+      "site_id": "ROSE",
+      "name": "Phòng ngủ ông bà",
+      "placement": "PROPOSED: Hành lang yên tĩnh tầng 1",
+      "fixed_visual_anchors": "Giường đôi, tủ áo, rèm hoa nhẹ, ghế đọc",
+      "narrative_use": "Đời thường người già, riêng tư",
+      "forbidden_change": "Không thay thành phòng hoàng gia",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Old lace curtain and heirloom flower quilt, simple lovely elder home",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "RC-GUEST",
+      "site_id": "ROSE",
+      "name": "Phòng cho các cháu",
+      "placement": "PROPOSED: Tầng lửng hoặc phòng phụ, lối cầu thang nhỏ an toàn",
+      "fixed_visual_anchors": "Hai giường nhỏ hoặc sofa giường, sách cũ, đồ chơi thời Evan",
+      "narrative_use": "Lia/Juno đến nghỉ; truyện kể bà nội",
+      "forbidden_change": "Không có máy Bix to và đồ phép công khai",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Child-scale wooden old storybook shelf and handmade quilt, not a magical refuge",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "RC-HOBBY",
+      "site_id": "ROSE",
+      "name": "Góc sửa đồ của ông nội",
+      "placement": "PROPOSED: Ngách sáng cạnh sân sau",
+      "fixed_visual_anchors": "Bàn mộc gọn, dụng cụ gỗ được treo an toàn, hộp đồ chơi cũ",
+      "narrative_use": "Juno học cách sửa đồ bằng tay; mối quan hệ ông-cháu",
+      "forbidden_change": "Không là phòng luyện thuật hay vũ khí",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Carefully arranged woodworking tools and one tiny repaired wooden bird",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "RC-GARDEN",
+      "site_id": "ROSE",
+      "name": "Vườn hồng và luống rau",
+      "placement": "PROPOSED: Sau bếp, tiếp lối sân",
+      "fixed_visual_anchors": "Bàn trà, ghế gỗ, luống rau nhỏ, cây táo",
+      "narrative_use": "Dã ngoại nhỏ, chăm cây, động vật",
+      "forbidden_change": "Không phủ hoa biến thành rừng nhiệt đới",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Small apple tree, restrained pink roses and pair of afternoon tea chairs, garden clearly walkable",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "SC-EXT",
+      "site_id": "SCHOOL",
+      "name": "Cổng và ngoại thất trường",
+      "placement": "PROPOSED: Phía nam khuôn viên, nhìn thấy tháp đồng hồ",
+      "fixed_visual_anchors": "2 cánh nhà đá, hành lang kính, cổng thấp, xe đạp học sinh",
+      "narrative_use": "Đến trường, bạn bè, định danh trường",
+      "forbidden_change": "Không thành Hogwarts, không thêm lâu đài/phòng phép",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Two ordinary school wings, a modest old clock tower and bright modern glass corridor; storybook heritage without magical academy iconography",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Mặt tiền",
+        "proposed_position": "Nam: cổng; tòa 2 tầng phía bắc; cánh cũ phía tây, cánh cải tạo phía đông; một đồng hồ nhỏ ngay trên sảnh giữa",
+        "fixed_anchors": "Cửa chính hai cánh kính hiện đại, đá sáng, mái slate xám, hành lang kính cánh đông",
+        "camera_anchor": "GATE_SOUTH_TO_NORTH",
+        "hero_props": "Cửa chính, đồng hồ nhỏ, lối tiếp cận, cổng, xe đạp"
+      }
+    },
+    {
+      "space_id": "SC-COURT",
+      "site_id": "SCHOOL",
+      "name": "Sân trường",
+      "placement": "PROPOSED: Giữa nhà cũ và cánh mới",
+      "fixed_visual_anchors": "Ghế dài, cây bóng mát, đường đi sơn rõ, đủ khoảng chạy",
+      "narrative_use": "Giờ nghỉ, bạn bè, xung đột nhỏ",
+      "forbidden_change": "Không thay hình tháp đồng hồ phía sau",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Old stone courtyard paving with one memorable broad-canopy tree and bench",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Sân trường",
+        "proposed_position": "Sân mở phía nam trước nhà; phần sân thể thao phía sau tòa",
+        "fixed_anchors": "Ghế băng dưới một cây lớn, lối đi, dấu vạch sân chơi, chỗ để xe",
+        "camera_anchor": "LOOK_NORTH_TO_FACADE",
+        "hero_props": "Cây bóng mát, ghế, vạch sân, bãi xe"
+      }
+    },
+    {
+      "space_id": "SC-HALL",
+      "site_id": "SCHOOL",
+      "name": "Đại sảnh và hành lang",
+      "placement": "PROPOSED: Từ cửa chính nối hai cánh",
+      "fixed_visual_anchors": "Tủ cặp, bảng tin, lan can, ô kính nhìn sân",
+      "narrative_use": "Các đoạn hội thoại chuyển tiết, di chuyển người",
+      "forbidden_change": "Không thêm hành lang vô tận",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One arched old-stone ceiling segment beside modern lockers",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Hành lang",
+        "proposed_position": "Từ sảnh giữa nối tây/đông; lối kính nối cánh mới phía đông",
+        "fixed_anchors": "Tủ cặp, bảng tin, cửa lớp, dải cửa kính và đèn trần thực tế",
+        "camera_anchor": "HALL_WEST_TO_EAST",
+        "hero_props": "Tủ cặp, bảng thông báo, cửa thoát hiểm, cửa kính"
+      }
+    },
+    {
+      "space_id": "SC-LIA",
+      "site_id": "SCHOOL",
+      "name": "Lớp Lia (11 tuổi)",
+      "placement": "PROPOSED: Cánh trái tầng 1, có cửa sân",
+      "fixed_visual_anchors": "Bàn nhóm, bảng trắng, tranh khoa học/động vật, tủ học cụ",
+      "narrative_use": "Bạn bè Lia, bài học A2, động vật",
+      "forbidden_change": "Không gắn biểu tượng phép lên lớp",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Nature artwork of birds and small animals beside modern practical classroom board",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Lớp Lia",
+        "proposed_position": "Tầng 1 cánh tây, cửa từ hành lang tây, cửa sổ mở về phía sân",
+        "fixed_anchors": "Nhóm bàn 4, bảng trắng, tranh khoa học/động vật, giá sách thấp",
+        "camera_anchor": "LIA_REAR_TO_WHITEBOARD",
+        "hero_props": "Bàn Lia, bảng trắng, góc tranh động vật, kệ sách"
+      }
+    },
+    {
+      "space_id": "SC-JUNO",
+      "site_id": "SCHOOL",
+      "name": "Lớp Juno (13 tuổi)",
+      "placement": "PROPOSED: Cánh phải tầng 2, xa lớp Lia",
+      "fixed_visual_anchors": "Bàn học cá nhân, bảng trắng, máy chiếu, góc dự án kỹ thuật",
+      "narrative_use": "Nghiên cứu, phản biện, phát minh hợp tuổi",
+      "forbidden_change": "Không trùng với lớp Lia, không biến thành xưởng của Juno",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Functional science display showing clockwork mechanics, supervised school equipment",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Lớp Juno",
+        "proposed_position": "Tầng 2 cánh đông, đến qua cầu thang bên đông; cửa sổ nhìn sân sau",
+        "fixed_anchors": "Bàn linh hoạt, bảng trắng + màn hình, góc dự án cơ khí an toàn",
+        "camera_anchor": "JUNO_REAR_TO_WHITEBOARD",
+        "hero_props": "Bàn Juno, màn hình, mô hình tam giác của bài học"
+      }
+    },
+    {
+      "space_id": "SC-SCI",
+      "site_id": "SCHOOL",
+      "name": "Phòng khoa học",
+      "placement": "PROPOSED: Cánh phải gần lớp Juno",
+      "fixed_visual_anchors": "Bàn chống hóa chất, kính hiển vi, bồn rửa, tủ khóa",
+      "narrative_use": "Thí nghiệm an toàn, làm rõ vật lý",
+      "forbidden_change": "Không phô phép công khai; không hóa chất nguy hiểm thao diễn",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One display of prisms and optical patterns linking science to mystery without magic",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Phòng khoa học",
+        "proposed_position": "Cánh đông gần cầu thang Juno",
+        "fixed_anchors": "Bàn có bồn rửa, tủ hóa chất an toàn, kính hiển vi và dụng cụ giáo dục",
+        "camera_anchor": "SCI_DOOR_TO_BENCH",
+        "hero_props": "Kính hiển vi, mô hình cầu giấy, bồn rửa"
+      }
+    },
+    {
+      "space_id": "SC-LIB",
+      "site_id": "SCHOOL",
+      "name": "Thư viện trường",
+      "placement": "PROPOSED: Nối hành lang chính ở trung tâm",
+      "fixed_visual_anchors": "Kệ sách thấp/giữa, ghế đọc, phòng sách cổ sau cửa nhân viên",
+      "narrative_use": "Tra cứu, bí ẩn lịch sử nếu script cho phép",
+      "forbidden_change": "Không giống kho thư viện công, không sách bay",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One older bookcase arch and reading alcove behind standard library shelves",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Thư viện trường",
+        "proposed_position": "Trung tâm nhà cũ, truy cập từ hành lang; khác thư viện công",
+        "fixed_anchors": "Kệ sách thấp, chỗ đọc, khu nhân viên và tài liệu lịch sử (chỉ công khai khi duyệt)",
+        "camera_anchor": "LIB_ENTRANCE_TO_DESK",
+        "hero_props": "Quầy thủ thư, thẻ mượn, góc đọc"
+      }
+    },
+    {
+      "space_id": "SC-ART",
+      "site_id": "SCHOOL",
+      "name": "Phòng nghệ thuật",
+      "placement": "PROPOSED: Cánh trái tầng 2",
+      "fixed_visual_anchors": "Giá vẽ, bảng sản phẩm, bàn thủ công, giá cất màu",
+      "narrative_use": "Cảnh sáng tạo, làm mô hình",
+      "forbidden_change": "Không tự thêm bàn hóa chất",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Restored old vaulted school window alongside student easels",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Phòng mỹ thuật",
+        "proposed_position": "Cánh tây tầng 2",
+        "fixed_anchors": "Bàn thực hành, tranh học sinh, giá vẽ, tủ chất liệu an toàn",
+        "camera_anchor": "ART_DOOR_TO_EASELS",
+        "hero_props": "Giá tranh, cọ vẽ, bàn khô"
+      }
+    },
+    {
+      "space_id": "SC-CAF",
+      "site_id": "SCHOOL",
+      "name": "Nhà ăn",
+      "placement": "PROPOSED: Sau đại sảnh, cửa ra sân sau",
+      "fixed_visual_anchors": "Quầy phục vụ sạch, bàn dài, cửa sổ lớn, thùng rác phân loại",
+      "narrative_use": "Hội thoại bạn bè, tình huống hài",
+      "forbidden_change": "Không xuất hiện đồ ăn ma thuật trừ plot đặc biệt",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Old ceiling timber beams above modern food hygiene arrangement",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Nhà ăn",
+        "proposed_position": "Phía sau gần sảnh và sân",
+        "fixed_anchors": "Quầy tự phục vụ, bàn dài, cửa sổ lớn, thùng phân loại",
+        "camera_anchor": "CAF_ENTRY_TO_SERVE",
+        "hero_props": "Quầy ăn, khay, cửa ra sân"
+      }
+    },
+    {
+      "space_id": "SC-GYM",
+      "site_id": "SCHOOL",
+      "name": "Phòng vận động",
+      "placement": "PROPOSED: Nhà phụ phía bắc sân",
+      "fixed_visual_anchors": "Sàn gỗ, bóng, bảng giờ, dụng cụ tập gọn",
+      "narrative_use": "Vận động, thi đấu, tình bạn",
+      "forbidden_change": "Không đổi vị trí nhà phụ",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Plain restored gym windows, not fantasy stadium",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Phòng thể chất",
+        "proposed_position": "Nhà phụ phía bắc sân thể thao",
+        "fixed_anchors": "Sàn gỗ thể thao, giá bóng và dụng cụ gọn",
+        "camera_anchor": "GYM_DOOR_TO_COURT",
+        "hero_props": "Sàn, cột rổ, giá bóng"
+      }
+    },
+    {
+      "space_id": "SC-TEACH",
+      "site_id": "SCHOOL",
+      "name": "Phòng giáo viên",
+      "placement": "PROPOSED: Gần quầy sảnh tầng 1",
+      "fixed_visual_anchors": "Bàn, máy tính, bảng lịch, hồ sơ kín",
+      "narrative_use": "Gặp phụ huynh, giải quyết vấn đề",
+      "forbidden_change": "Không trộn thành phòng hiệu trưởng hoàng gia",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One town history photograph and modern classroom calendar",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Khu giáo viên",
+        "proposed_position": "Tầng 1 gần sảnh và quầy tiếp đón",
+        "fixed_anchors": "Bàn máy tính, lịch dạy, hồ sơ có khóa",
+        "camera_anchor": "TEACH_HALL_TO_DESK",
+        "hero_props": "Máy tính, lịch, tủ hồ sơ"
+      }
+    },
+    {
+      "space_id": "SC-GARDEN",
+      "site_id": "SCHOOL",
+      "name": "Vườn sinh học",
+      "placement": "PROPOSED: Cạnh sân sau, lối có rào",
+      "fixed_visual_anchors": "Luống cây đánh dấu, nhà kính nhỏ, bàn quan sát côn trùng",
+      "narrative_use": "Lia khám phá, Juno đo đạc, bối cảnh bài học",
+      "forbidden_change": "Không quá rậm khiến không diễn xuất được",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Tidy raised planters with one small glass research shelter, no exotic magical greenhouse",
+      "magic_public_policy": "NO_OVERT_MAGIC",
+      "earth_school_v1_0_patch": {
+        "name": "Vườn sinh học",
+        "proposed_position": "Khu hậu sân cạnh nhà thể chất, ngăn rào thấp",
+        "fixed_anchors": "Bốn luống trồng, nhà kính nhỏ, bàn quan sát côn trùng",
+        "camera_anchor": "GARDEN_PATH_TO_PLANTERS",
+        "hero_props": "Luống cây, kính lúp, chòi kính thấp"
+      }
+    },
+    {
+      "space_id": "SQ-MAIN",
+      "site_id": "SQUARE",
+      "name": "Quảng trường và đài phun",
+      "placement": "PROPOSED: Giữa phố cổ, vỉa hè quanh",
+      "fixed_visual_anchors": "Đài phun tròn thấp, đồng hồ tòa công vụ phía bắc, đá lát",
+      "narrative_use": "Sự kiện cộng đồng, lễ hội, đón khách",
+      "forbidden_change": "Không biến fountain thành portal thường trực",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Single timeworn fountain ring with leaf carving, local old-world charm without spell circles",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "SQ-SHOPS",
+      "site_id": "SQUARE",
+      "name": "Dãy cửa hàng",
+      "placement": "PROPOSED: Dọc rìa đông",
+      "fixed_visual_anchors": "Mặt tiền đồng bộ vừa phải, cửa kính, chậu hoa vừa",
+      "narrative_use": "Người qua lại, mua sắm, hậu cảnh đời thường",
+      "forbidden_change": "Không đổi tương quan cửa hàng với fountain",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "SQ-CAFE",
+      "site_id": "SQUARE",
+      "name": "Quán café quảng trường",
+      "placement": "PROPOSED: Góc phía đông nam",
+      "fixed_visual_anchors": "Mái che, bàn nhỏ, cốc sứ, bảng menu viết tay không cần chữ trong ảnh",
+      "narrative_use": "Gặp gỡ, nghe chuyện",
+      "forbidden_change": "Không phép công khai",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "SQ-COUNCIL",
+      "site_id": "SQUARE",
+      "name": "Tòa hành chính",
+      "placement": "PROPOSED: Bắc quảng trường",
+      "fixed_visual_anchors": "Trụ sở đá và đồng hồ thật, cửa đôi",
+      "narrative_use": "Thông báo sự kiện, quyền hạn thị trấn",
+      "forbidden_change": "Không nhầm với trường học",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "PO-EXT",
+      "site_id": "POST",
+      "name": "Mặt tiền bưu điện",
+      "placement": "PROPOSED: Phố gần quảng trường",
+      "fixed_visual_anchors": "Cửa xanh, khe nhận thư, thùng thư, chỗ xe đạp Evan",
+      "narrative_use": "Establish bưu điện",
+      "forbidden_change": "Không logo hãng bưu điện hiện hữu",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One elegant carved sandstone lintel and ordinary blue postal door, no magical post branding",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "PO-COUNTER",
+      "site_id": "POST",
+      "name": "Quầy phục vụ",
+      "placement": "PROPOSED: Ngay sau cửa chính",
+      "fixed_visual_anchors": "Quầy gỗ, thẻ thứ tự, bàn cân bưu kiện, lịch làm việc",
+      "narrative_use": "Thoại gửi/nhận thư A2",
+      "forbidden_change": "Không tự tạo bảng phép thuật",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "PO-SORT",
+      "site_id": "POST",
+      "name": "Phòng phân loại và sân sau",
+      "placement": "PROPOSED: Sau quầy, cửa nhân viên",
+      "fixed_visual_anchors": "Kệ ô thư, túi thư, xe đạp giao thư; cửa ra sân",
+      "narrative_use": "Thư bí ẩn, Evan điều tra người nhận",
+      "forbidden_change": "Không di chuyển sang tòa khác",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LI-EXT",
+      "site_id": "LIBRARY",
+      "name": "Ngoại thất thư viện cổ",
+      "placement": "PROPOSED: Phố cổ Bellfern",
+      "fixed_visual_anchors": "Vòm cửa đá, kính cao, bậc thềm, bảng tên ngoài camera",
+      "narrative_use": "Thư viện lịch sử",
+      "forbidden_change": "Không tự thành lâu đài phù thủy",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A narrow pointed historic doorway and weathered engraved stone lintel, no occult insignia",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LI-READ",
+      "site_id": "LIBRARY",
+      "name": "Đại sảnh đọc",
+      "placement": "PROPOSED: Ngay sau quầy",
+      "fixed_visual_anchors": "Kệ sách gỗ, đèn bàn trung tính, cửa sổ lớn",
+      "narrative_use": "Đọc, nghiên cứu, giáo dục",
+      "forbidden_change": "Không sách bay, không phép công khai",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LI-CHILD",
+      "site_id": "LIBRARY",
+      "name": "Góc thiếu nhi",
+      "placement": "PROPOSED: Phía sáng sau đại sảnh",
+      "fixed_visual_anchors": "Kệ thấp, ghế bệt, sách hình, lối ra rõ",
+      "narrative_use": "Trẻ cùng học, cảnh thân thiện",
+      "forbidden_change": "Không bừa bộn quần áo đồ chơi",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LI-ARCH",
+      "site_id": "LIBRARY",
+      "name": "Kho lưu trữ",
+      "placement": "PROPOSED: Qua cửa thủ thư khóa, phía sau",
+      "fixed_visual_anchors": "Hộp hồ sơ nhãn, bàn đọc, giá thông khí",
+      "narrative_use": "Manh mối lịch sử đã được biên kịch phê duyệt",
+      "forbidden_change": "Không bày kẻ phá hoại thành chứng cứ tiện lợi",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "BR-DECK",
+      "site_id": "BRIDGE",
+      "name": "Mặt cầu đá",
+      "placement": "PROPOSED: Tây-đông qua suối, một nhịp",
+      "fixed_visual_anchors": "Một vòm cầu, lan can thấp an toàn, nền đá",
+      "narrative_use": "Đi bộ/đối thoại, nhận diện dòng suối",
+      "forbidden_change": "Không đảo hướng suối vô lý",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Age-worn bridge keystone with discreet botanical relief, never glowing portal",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "BR-BANK",
+      "site_id": "BRIDGE",
+      "name": "Lối bờ suối",
+      "placement": "PROPOSED: Một bờ có cây liễu, điểm xuống an toàn",
+      "fixed_visual_anchors": "Bậc đá, cỏ, mực nước và đá mốc cố định",
+      "narrative_use": "Cứu động vật, đọc nước, lời thoại rõ",
+      "forbidden_change": "Không xuất hiện thác nước lớn ở shot ngược",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "FO-ENTRY",
+      "site_id": "FOREST",
+      "name": "Cổng đường mòn",
+      "placement": "PROPOSED: Từ Bellfern vào rừng",
+      "fixed_visual_anchors": "Lối đá, cây sồi già, cột chỉ hướng gỗ không chữ",
+      "narrative_use": "Thay đổi cảm xúc từ phố sang rừng",
+      "forbidden_change": "Không biến thành nghĩa địa ma ám",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "FO-FORK",
+      "site_id": "FOREST",
+      "name": "Ngã ba cổ thụ",
+      "placement": "PROPOSED: Sau cổng đường mòn",
+      "fixed_visual_anchors": "Cây sồi rễ cong, ba tảng đá rêu, suối gần đó",
+      "narrative_use": "Lạc đường, tìm dấu, mốc continuity",
+      "forbidden_change": "Giữ hình dạng tảng đá rêu",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "The distinctive old oak twisted roots and three mossy stones, subtle ancient-wonder atmosphere",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "FO-STONES",
+      "site_id": "FOREST",
+      "name": "Khoảng trống đá cổ",
+      "placement": "PROPOSED: Sâu hơn, lối đi từ ngã ba",
+      "fixed_visual_anchors": "Vòng đá nhỏ tự nhiên/di tích, cửa trời ở trên",
+      "narrative_use": "Bí ẩn có kiểm soát, chỉ sáng cục bộ nếu plot cho phép",
+      "forbidden_change": "Không biến thành cổng mở sẵn liên tục",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "BK-EXT",
+      "site_id": "BAKERY",
+      "name": "Mặt tiền tiệm bánh",
+      "placement": "PROPOSED: Gần quảng trường",
+      "fixed_visual_anchors": "Mái hiên xanh xám, cửa kính, cửa sổ bánh",
+      "narrative_use": "Cảnh bước vào quán, mùi bánh",
+      "forbidden_change": "Không thêm cửa ở 3 phía",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "One gentle curved blue awning and tiny arched pastry window, no magic shop",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "BK-INSIDE",
+      "site_id": "BAKERY",
+      "name": "Quầy và 2 bàn trà",
+      "placement": "PROPOSED: Qua cửa nhìn thấy quầy phải, bàn trái",
+      "fixed_visual_anchors": "Bánh mì, lò phía sau kính, ghế gỗ nhỏ",
+      "narrative_use": "Đặt bánh, giao tiếp A2, sinh hoạt cộng đồng",
+      "forbidden_change": "Không ai dùng phép trước khách",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "ST-EXT",
+      "site_id": "STATION",
+      "name": "Nhà ga và đường dẫn",
+      "placement": "PROPOSED: Ngoài Bellfern, đường làng nối ga",
+      "fixed_visual_anchors": "Mái slate, đồng hồ ga, sân đón",
+      "narrative_use": "Đặt bối cảnh chuyển hành trình",
+      "forbidden_change": "Không chuyển sang ga khổng lồ",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Single historic station clock and human-scale slate roof over functional platform",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "ST-HALL",
+      "site_id": "STATION",
+      "name": "Phòng vé và chờ",
+      "placement": "PROPOSED: Từ cửa ga tới sân ga",
+      "fixed_visual_anchors": "Quầy vé, bảng giờ, ghế, vali",
+      "narrative_use": "Chờ tàu, chào tạm biệt",
+      "forbidden_change": "Không biểu tượng ma thuật",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "ST-PLATFORM",
+      "site_id": "STATION",
+      "name": "Sân ga và tàu",
+      "placement": "PROPOSED: Sau phòng chờ, ray cố định phía đông",
+      "fixed_visual_anchors": "Mái che, bảng sân ga, ray, tàu 2 toa",
+      "narrative_use": "Chuyển động tàu thực, người đến và đi",
+      "forbidden_change": "Không đổi vị trí ray giữa góc thuận/ngược",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LK-SHORE",
+      "site_id": "LAKE",
+      "name": "Bờ hồ và lối đi",
+      "placement": "PROPOSED: Ven hồ nhìn núi xa",
+      "fixed_visual_anchors": "Sỏi/đá, cây bụi thấp, sậy, đường mòn",
+      "narrative_use": "Nghỉ, khám phá, hành động an toàn",
+      "forbidden_change": "Không tự đổi đường bờ",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LK-BOAT",
+      "site_id": "LAKE",
+      "name": "Nhà thuyền",
+      "placement": "PROPOSED: Giáp bến, nhà gỗ một tầng",
+      "fixed_visual_anchors": "Gỗ xám, mái slate, cửa gỗ trượt, mái hiên hẹp",
+      "narrative_use": "Lấy mái chèo, giấu đồ, câu chuyện hồ",
+      "forbidden_change": "Không thêm 5 thuyền mỗi shot",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "Silvered wooden boathouse with one carefully aged triangular roof and antique mooring post",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    },
+    {
+      "space_id": "LK-DOCK",
+      "site_id": "LAKE",
+      "name": "Bến gỗ",
+      "placement": "PROPOSED: Nối trước nhà thuyền xuống nước",
+      "fixed_visual_anchors": "Một bến chữ I, vòng buộc dây, một thuyền chèo",
+      "narrative_use": "Cảnh cứu động vật, thuyền cập bến",
+      "forbidden_change": "Không tự đổi bến chữ I sang cầu cảng đô thị",
+      "spatial_status": "DRAFT_TOPOLOGY_NOT_USER_LOCKED",
+      "minimum_coverage": [
+        "ESTABLISHING_FORWARD",
+        "REVERSE_180",
+        "FUNCTIONAL_WIDE",
+        "DETAIL_ANCHORS"
+      ],
+      "fairytale_signature": "A distinct restrained old-world material detail already present in the fixed anchors, never overt magic unless plot permits",
+      "magic_public_policy": "NO_OVERT_MAGIC"
+    }
+  ],
+  "props": [
+    {
+      "prop_id": "PR-BH-DOOR",
+      "default_space_id": "BH-EXT",
+      "name": "Cửa chính Bell & Leaf",
+      "design_anchor": "Gỗ sồi vòm, bản lề đen, tay nắm mờ; ngay mặt nam",
+      "states": "CLOSED/OPEN; nhìn thấy cùng sảnh trong reverse",
+      "sonic_signature": "gỗ và chốt cửa",
+      "immutable_rule": "Không đổi hướng mở tùy tiện",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-ROOF",
+      "default_space_id": "BH-EXT",
+      "name": "Mái đá phiến và ống khói",
+      "design_anchor": "Mái dốc slate xanh xám, ống khói cùng vị trí",
+      "states": "STATIC; vật liệu không đổi giữa thời tiết",
+      "sonic_signature": "gió chạm ngói nhẹ",
+      "immutable_rule": "Không thêm tháp chuông tùy hứng",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-MAILBOX",
+      "default_space_id": "BH-PATH",
+      "name": "Thùng thư gia đình",
+      "design_anchor": "Hộp kim loại xanh xám bên cổng thấp",
+      "states": "CLOSED/OPEN; Evan nhận thư bình thường",
+      "sonic_signature": "kim loại nhè nhẹ",
+      "immutable_rule": "Không tự có thư phép khi không có plot",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-EVAN-BAG",
+      "default_space_id": "BH-FOYER",
+      "name": "Túi thư của Evan",
+      "design_anchor": "Da nâu cỡ vai đặt móc thấp sát cửa, dây đeo cố định",
+      "states": "HANGING/CARRIED; tháo cất rồi mang đi",
+      "sonic_signature": "vải da, khóa túi nhỏ",
+      "immutable_rule": "Không thêm phù chú vào người đưa thư",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-STAIR",
+      "default_space_id": "BH-FOYER",
+      "name": "Cầu thang gỗ chính",
+      "design_anchor": "Lan can sồi, tay vịn bên phải theo hướng từ cửa lên",
+      "states": "STATIC; one staircase only",
+      "sonic_signature": "bước chân gỗ",
+      "immutable_rule": "Không đổi sang cầu thang xoắn",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-FIRE",
+      "default_space_id": "BH-LIVING",
+      "name": "Lò sưởi gia đình",
+      "design_anchor": "Đá sáng ở tường bắc, gờ đá mỏng, một giá củi",
+      "states": "OFF/SMALL_FIRE; lửa là ánh cục bộ không đổi WB cả shot",
+      "sonic_signature": "lửa củi nổ nhỏ",
+      "immutable_rule": "Không khắc chuông quá cỡ",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-SOFA",
+      "default_space_id": "BH-LIVING",
+      "name": "Sofa kem",
+      "design_anchor": "Sofa 3 chỗ vải kem và hai gối xanh sage",
+      "states": "STATIC/ACTOR_SITS",
+      "sonic_signature": "vải sột soạt",
+      "immutable_rule": "Không tự hoán đổi sang sofa nhung xanh đậm ở shot sau",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-COFFEE",
+      "default_space_id": "BH-LIVING",
+      "name": "Bàn trà gỗ",
+      "design_anchor": "Gỗ sồi dày, mặt chữ nhật gọn, một hai quyển sách",
+      "states": "STATIC/PROP_HANDLING",
+      "sonic_signature": "đặt cốc nhẹ",
+      "immutable_rule": "Bố trí không chắn lối diễn",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-KITCHENSINK",
+      "default_space_id": "BH-KITCHEN",
+      "name": "Bồn rửa",
+      "design_anchor": "Gốm trắng neutral cạnh cửa sổ và vòi kim loại bạc",
+      "states": "OFF/RUNNING",
+      "sonic_signature": "nước nhẹ",
+      "immutable_rule": "Giữ cố định cạnh cửa sổ",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-OVEN",
+      "default_space_id": "BH-KITCHEN",
+      "name": "Bếp nấu hiện đại",
+      "design_anchor": "Bếp nấu an toàn trong tường bên, tủ sage",
+      "states": "OFF/COOKING",
+      "sonic_signature": "click công tắc, sôi nhẹ",
+      "immutable_rule": "Không dùng nồi phép công khai trước Evan",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-DINTABLE",
+      "default_space_id": "BH-DINING",
+      "name": "Bàn ăn 6 chỗ",
+      "design_anchor": "Gỗ sồi 6 ghế, đèn trần bình thường, gần cửa vườn",
+      "states": "BREAKFAST/EMPTY/DINNER",
+      "sonic_signature": "bát thìa gốm",
+      "immutable_rule": "Không tự đổi số ghế",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-KEYS",
+      "default_space_id": "BH-FOYER",
+      "name": "Chìa khóa của Evan",
+      "design_anchor": "Bộ khóa Trái Đất nhỏ gắn móc; thường túi áo hoặc tay",
+      "states": "HELD/HUNG/POCKET; theo đúng shot",
+      "sonic_signature": "ting kim loại nhỏ",
+      "immutable_rule": "Không dịch chuyển tự nhiên trừ câu chuyện",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-WINDOW",
+      "default_space_id": "BH-LIA",
+      "name": "Cửa sổ Lia",
+      "design_anchor": "Khung sồi, kính trong nhìn ra vườn bắc",
+      "states": "OPEN/CLOSED; 1 window fixed",
+      "sonic_signature": "rèm vải, chim ngoài cửa",
+      "immutable_rule": "Không tự hiện Veylora bên ngoài",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-BOOKNOOK",
+      "default_space_id": "BH-LIA",
+      "name": "Ghế đọc sách Lia",
+      "design_anchor": "Đệm vải xám xanh sát cửa sổ, kệ sách thiếu nhi",
+      "states": "STATIC/LIA_READS",
+      "sonic_signature": "lật trang",
+      "immutable_rule": "Không đẩy thành bàn chế tạo Juno",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BUBU-BED",
+      "default_space_id": "BH-LIA",
+      "name": "Đệm ngủ Bubu",
+      "design_anchor": "Đệm thấp màu tím xám, một chỗ ngủ riêng của Bubu",
+      "states": "REST/MOVE",
+      "sonic_signature": "bước chân nhẹ",
+      "immutable_rule": "Bubu phải đúng Canon và có 1 chuông cổ áo",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-JUNOBENCH",
+      "default_space_id": "BH-JUNO",
+      "name": "Bàn chế tạo Juno",
+      "design_anchor": "Bàn gỗ nhỏ, đèn nhiệm vụ 5500K, kẹp dụng cụ và bảng sơ đồ",
+      "states": "IDLE/REPAIR",
+      "sonic_signature": "đồ nghề chạm bàn",
+      "immutable_rule": "Không phình thành máy công nghiệp",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-JUNOTOOLS",
+      "default_space_id": "BH-JUNO",
+      "name": "Bộ dụng cụ Juno",
+      "design_anchor": "Tua vít đầu nhỏ, nhíp, kẹp, ốc vít trong hộp chia ô",
+      "states": "SORTED/IN_USE/STORED",
+      "sonic_signature": "ting cơ khí vừa",
+      "immutable_rule": "Không thêm dụng cụ siêu nhiên tùy ý",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BIX-DOCK",
+      "default_space_id": "BH-JUNO",
+      "name": "Ổ nghỉ Bix",
+      "design_anchor": "Hốc thấp cạnh chân bàn, đệm kỹ thuật xanh xám",
+      "states": "IDLE/ACTIVE",
+      "sonic_signature": "servo êm",
+      "immutable_rule": "Bix không mang chuông; giữ đúng kích thước compact",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-FAMILY-PHOTO",
+      "default_space_id": "BH-PARENTS",
+      "name": "Ảnh gia đình",
+      "design_anchor": "Khung ảnh có chỗ cho 4 người; không sửa khuôn mặt Canon",
+      "states": "FRAMED",
+      "sonic_signature": "chạm khung gỗ",
+      "immutable_rule": "Không tự thêm người mất tích vào ảnh đời thường",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-ATELIERBENCH",
+      "default_space_id": "BH-ATELIER",
+      "name": "Bàn nghề Mara",
+      "design_anchor": "Bàn gỗ gọn, đèn kính lúp, thiết bị sửa đồng hồ hộp nhạc",
+      "states": "WORKING/CLEAN",
+      "sonic_signature": "cờ-lích bé, bánh răng",
+      "immutable_rule": "Công khai hoàn toàn trông như nghề thủ công",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-CABINETS",
+      "default_space_id": "BH-ATELIER",
+      "name": "Ngăn tủ dụng cụ",
+      "design_anchor": "Tủ ngăn kéo dưới bàn, nhãn nhỏ không phải chữ AI",
+      "states": "LOCKED/OPEN",
+      "sonic_signature": "kéo gỗ",
+      "immutable_rule": "Không thành bức tường 1000 bình thuốc",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-STORAGELOCK",
+      "default_space_id": "BH-STORAGE",
+      "name": "Khóa kho xưởng",
+      "design_anchor": "Ổ khóa cơ thực trên cửa ngăn người ngoài",
+      "states": "LOCKED/UNLOCKED",
+      "sonic_signature": "lách cách ổ khóa",
+      "immutable_rule": "Evan không thấy lối xuống phép",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-HIDDEN-STEP",
+      "default_space_id": "BH-STAIR-SECRET",
+      "name": "Bậc thang đá kho kín",
+      "design_anchor": "Thang hẹp với tay vịn, cửa cuối hành lang khóa",
+      "states": "CLOSED/OPEN",
+      "sonic_signature": "bước chân đá vọng nhẹ",
+      "immutable_rule": "Không teleport",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BELL-HOME",
+      "default_space_id": "BH-BELLCHAMBER",
+      "name": "Chuông gia đình Veylora",
+      "design_anchor": "MỘT chuông lớn bằng hợp kim bạc cổ gắn vĩnh viễn trong khung cơ khí, không đeo người",
+      "states": "DORMANT/ARMED/ONE_SAFE_ROUTE/FAULT",
+      "sonic_signature": "ngân bạc có hài âm",
+      "immutable_rule": "Không mở mọi thế giới, không nhân bản chuông",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-BELL-RINGS",
+      "default_space_id": "BH-BELLCHAMBER",
+      "name": "Vòng đỡ chuông",
+      "design_anchor": "2-3 vòng đồng bạc có ổ trục, bánh răng và chốt khóa cơ khí hữu hạn",
+      "states": "IDLE/ROTATING/LOCKED",
+      "sonic_signature": "cơ khí nhè nhẹ",
+      "immutable_rule": "Không sinh vòng mới tùy shot",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-BELL-MAP",
+      "default_space_id": "BH-BELLCHAMBER",
+      "name": "Bản đồ mạng tuyến",
+      "design_anchor": "Bảng hồ sơ lớn một số liên kết đã xác nhận, nhiều kết nối tối",
+      "states": "STATIC/ONE_NODE_ACTIVE",
+      "sonic_signature": "điện tử/âm thanh mềm được design",
+      "immutable_rule": "Không biến tất cả tuyến thành đang mở",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-BELL-GATE",
+      "default_space_id": "BH-BELLCHAMBER",
+      "name": "Cửa nhận an toàn",
+      "design_anchor": "Cửa bên hông cơ cấu chuông, vật lý giới hạn; có vòng bảo vệ",
+      "states": "SEALED/RECEIVING/SAFE_LINK",
+      "sonic_signature": "hơi ngân bạc rất nhẹ",
+      "immutable_rule": "Không tạo portal tùy ý trên mọi tường",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-BELL-WORKTABLE",
+      "default_space_id": "BH-BELLCHAMBER",
+      "name": "Bàn kiểm tra tuyến",
+      "design_anchor": "Bàn đá/gỗ nhỏ, dụng cụ đo, hộp phụ kiện niêm phong",
+      "states": "IDLE/TEST",
+      "sonic_signature": "đặt dụng cụ nhỏ",
+      "immutable_rule": "Không thay bằng 10 bàn pháp sư",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ORIN-TRAVELBELL",
+      "default_space_id": "OH-TRAVEL",
+      "name": "Chuông du hành Orin",
+      "design_anchor": "Một chiếc RIÊNG, khác kích thước và cơ cấu chuông nhà Mara; có vỏ đỡ hành trình",
+      "states": "STORED/CALIBRATED/SAFE_TRAVEL/FAULT",
+      "sonic_signature": "ngân trầm cá tính",
+      "immutable_rule": "Không chuyển thành teleport vô hạn",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-ORIN-MAP",
+      "default_space_id": "OH-LIBRARY",
+      "name": "Bản đồ nghiên cứu Orin",
+      "design_anchor": "Bản đồ giấy và mô hình vài tuyến an toàn, nhiều đường đứt",
+      "states": "INACTIVE/ONE_ROUTE_HIGHLIGHT",
+      "sonic_signature": "bút chạm giấy",
+      "immutable_rule": "Chỉ công nhận tuyến được kiểm chứng",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-ORIN-CHAIR",
+      "default_space_id": "OH-LIBRARY",
+      "name": "Ghế trống bà ngoại",
+      "design_anchor": "Ghế đọc cũ cạnh bàn nghiên cứu, có cảm xúc thiếu vắng",
+      "states": "EMPTY",
+      "sonic_signature": "kẽo kẹt gỗ nhỏ",
+      "immutable_rule": "Không tự tạo người ngồi lên ghế",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ORIN-DESK",
+      "default_space_id": "OH-LIBRARY",
+      "name": "Bàn gỗ Orin",
+      "design_anchor": "Bàn lớn với sổ nhật ký ghi chép và vài mẫu vật",
+      "states": "ACTIVE/IDLE",
+      "sonic_signature": "bút giấy",
+      "immutable_rule": "Không tự đổi vị trí giữa library và tháp quan sát",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ORIN-TELESCOPE",
+      "default_space_id": "OH-OBS",
+      "name": "Kính thiên văn Orin",
+      "design_anchor": "Kính ống cơ học được bắt lên chân đế ở tháp tròn",
+      "states": "STOWED/POINTED",
+      "sonic_signature": "vặn cơ khí",
+      "immutable_rule": "Không biến ống kính thành chuông",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ORIN-CASE",
+      "default_space_id": "OH-ARCHIVE",
+      "name": "Hộp hồ sơ niêm phong",
+      "design_anchor": "Hộp gỗ có khóa, nhật ký, chứng từ thảm họa",
+      "states": "SEALED/OPEN",
+      "sonic_signature": "khóa kim loại",
+      "immutable_rule": "Không tiết lộ nghi phạm khi chưa duyệt",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-PIN-THREECUTS",
+      "default_space_id": "OH-ARCHIVE",
+      "name": "Mẫu chốt ba vết",
+      "design_anchor": "Một vật chứng nhỏ có BA vết khắc nếu kịch bản chốt; mã proposal",
+      "states": "UNKNOWN/SEALED/INSPECTED",
+      "sonic_signature": "rơi kim loại nhỏ",
+      "immutable_rule": "PROPOSED, không tuyên bố hung thủ hoặc ý nghĩa đã chốt",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-ROSE-DOOR",
+      "default_space_id": "RC-EXT",
+      "name": "Cửa xanh nhà ông bà",
+      "design_anchor": "Gỗ sage mờ và tay nắm đồng bình thường",
+      "states": "OPEN/CLOSED",
+      "sonic_signature": "kẽo kẹt nhẹ",
+      "immutable_rule": "Không có biểu tượng Veylora",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ROSE-FAMILY-ALBUM",
+      "default_space_id": "RC-LIVING",
+      "name": "Album của Evan",
+      "design_anchor": "Album ảnh thời Evan nhỏ, gia đình người thường",
+      "states": "CLOSED/OPEN",
+      "sonic_signature": "lật giấy ảnh",
+      "immutable_rule": "Không dùng hình nhận diện nhân vật tự chế",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ROSE-BAKING",
+      "default_space_id": "RC-KITCHEN",
+      "name": "Khu làm bánh của bà nội",
+      "design_anchor": "Lò nướng hiện đại, thớt, tô bột, khay và khăn",
+      "states": "COOKING/IDLE",
+      "sonic_signature": "gỗ gốm, lò nhẹ",
+      "immutable_rule": "Không phép chữa cháy hay bùa bánh",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ROSE-CHAIRS",
+      "default_space_id": "RC-GARDEN",
+      "name": "Bàn trà vườn ông bà",
+      "design_anchor": "Hai ghế gỗ, bàn nhỏ, cây táo bên trái theo lối từ bếp",
+      "states": "TEA/EMPTY",
+      "sonic_signature": "chén trà",
+      "immutable_rule": "Không mọc bộ ghế thứ hai mỗi shot",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-GRANDFATHER-TOOLS",
+      "default_space_id": "RC-HOBBY",
+      "name": "Hộp mộc ông nội",
+      "design_anchor": "Cưa thủ công an toàn cất gọn, nhám, gỗ nhỏ và thước",
+      "states": "STORED/REPAIR",
+      "sonic_signature": "giấy nhám, gỗ",
+      "immutable_rule": "Không công cụ kỹ thuật phép",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SCHOOL-CLOCK",
+      "default_space_id": "SC-EXT",
+      "name": "Đồng hồ trường",
+      "design_anchor": "Một tháp đồng hồ cơ/điện tử nhỏ ở chính diện",
+      "states": "RUNNING",
+      "sonic_signature": "chuông báo giờ trường nhẹ",
+      "immutable_rule": "Chuông trường KHÔNG phải chuông mạng Veylora",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SCHOOL-LOCKERS",
+      "default_space_id": "SC-HALL",
+      "name": "Tủ sách hành lang",
+      "design_anchor": "Tủ cặp màu xanh nhạt, phân khu lớp",
+      "states": "CLOSED/OPEN",
+      "sonic_signature": "đóng tủ nhẹ",
+      "immutable_rule": "Không mọc thêm tầng",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LIA-CLASS",
+      "default_space_id": "SC-LIA",
+      "name": "Bàn học Lia",
+      "design_anchor": "Bàn nhóm 4 chỗ, tranh tự nhiên, bảng trắng",
+      "states": "LESSON/RECESS",
+      "sonic_signature": "lật vở",
+      "immutable_rule": "Không là bàn Juno",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-JUNO-CLASS",
+      "default_space_id": "SC-JUNO",
+      "name": "Bàn học Juno",
+      "design_anchor": "Bàn viết, chỗ để tập, góc mô hình kỹ thuật",
+      "states": "LESSON/PROJECT",
+      "sonic_signature": "bút",
+      "immutable_rule": "Không là phòng ngủ",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SCHOOL-MICROSCOPE",
+      "default_space_id": "SC-SCI",
+      "name": "Kính hiển vi",
+      "design_anchor": "Thiết bị phòng học hiện đại, cất trên bàn gần tủ kính",
+      "states": "IDLE/USED",
+      "sonic_signature": "chuyển núm kính",
+      "immutable_rule": "Thí nghiệm logic, không độc hại",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SCHOOL-BOOKS",
+      "default_space_id": "SC-LIB",
+      "name": "Kệ thư viện trường",
+      "design_anchor": "Sách nhiều cấp độ, thẻ mượn bình thường",
+      "states": "BORROWED/RETURNED",
+      "sonic_signature": "tiếng giấy",
+      "immutable_rule": "Không sách bay",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SCHOOL-CANTEEN",
+      "default_space_id": "SC-CAF",
+      "name": "Quầy nhà ăn",
+      "design_anchor": "Khay thức ăn, bàn dài, quầy tự phục vụ",
+      "states": "LUNCH/EMPTY",
+      "sonic_signature": "khay nhựa/gốm",
+      "immutable_rule": "Không biến thành nhà hàng sang trọng",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SQUARE-FOUNTAIN",
+      "default_space_id": "SQ-MAIN",
+      "name": "Đài phun trung tâm",
+      "design_anchor": "Một đài thấp bằng đá xám, hình tròn, vòi nhỏ",
+      "states": "FLOWING/OFF",
+      "sonic_signature": "nước chảy liên tục",
+      "immutable_rule": "Không trở thành cổng phép",
+      "site_id": "SQUARE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SQUARE-CLOCK",
+      "default_space_id": "SQ-COUNCIL",
+      "name": "Đồng hồ thị chính",
+      "design_anchor": "Trên mái tòa công vụ, hướng mặt ra fountain",
+      "states": "RUNNING",
+      "sonic_signature": "chuông giờ địa phương nhỏ",
+      "immutable_rule": "Không nhân bản thành đồng hồ trường",
+      "site_id": "SQUARE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-POST-BLUE-DOOR",
+      "default_space_id": "PO-EXT",
+      "name": "Cửa xanh bưu điện",
+      "design_anchor": "Cửa gỗ xanh nhạt thường lệ và cửa kính nhỏ",
+      "states": "OPEN/CLOSED",
+      "sonic_signature": "tay nắm",
+      "immutable_rule": "Không giống cửa nhà ông bà",
+      "site_id": "POST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-POST-SORTING",
+      "default_space_id": "PO-SORT",
+      "name": "Kệ thư và túi thư",
+      "design_anchor": "Ô phân loại, tem giấy, túi vải cỡ vai",
+      "states": "BUSY/IDLE",
+      "sonic_signature": "xào xạc giấy",
+      "immutable_rule": "Địa chỉ phải do script cung cấp, không cho AI bịa chữ",
+      "site_id": "POST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-POST-BICYCLE",
+      "default_space_id": "PO-SORT",
+      "name": "Xe đạp công vụ",
+      "design_anchor": "Xe đạp 2 bánh, túi da/vải của Evan, màu theo chỉ đạo ảnh chuẩn",
+      "states": "PARKED/RIDING",
+      "sonic_signature": "lốp xe, chuông xe bình thường",
+      "immutable_rule": "Không tự biến thành xe bay",
+      "site_id": "POST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-ARCHIVE-CARD",
+      "default_space_id": "LI-ARCH",
+      "name": "Hộp thẻ thư viện cổ",
+      "design_anchor": "Hộp thẻ gỗ, hồ sơ thị trấn, khóa nhân viên",
+      "states": "SEALED/RESEARCH",
+      "sonic_signature": "ngăn kéo giấy",
+      "immutable_rule": "Không tự bịa chi tiết âm mưu",
+      "site_id": "LIBRARY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LIB-LAMP",
+      "default_space_id": "LI-READ",
+      "name": "Đèn bàn đọc",
+      "design_anchor": "Đèn kim loại sơn đen đầu hướng xuống, ánh trắng trung tính",
+      "states": "ON/OFF",
+      "sonic_signature": "click đèn",
+      "immutable_rule": "Không ánh vàng phủ phòng",
+      "site_id": "LIBRARY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SILVERBROOK-STONES",
+      "default_space_id": "BR-DECK",
+      "name": "Mốc đá cầu",
+      "design_anchor": "Một vòm và hai lan can thấp, rêu ở đá chân cầu",
+      "states": "STATIC",
+      "sonic_signature": "gió nước",
+      "immutable_rule": "Giữ chiều chảy và hình dạng",
+      "site_id": "BRIDGE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-WILLOW",
+      "default_space_id": "BR-BANK",
+      "name": "Cây liễu bờ suối",
+      "design_anchor": "Một cây to gốc cong bên trái đường bờ",
+      "states": "STATIC/MOVES_WIND",
+      "sonic_signature": "lá xào nhẹ",
+      "immutable_rule": "Không đổi thành sồi",
+      "site_id": "BRIDGE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-FOREST-MARKER",
+      "default_space_id": "FO-FORK",
+      "name": "Ba đá mốc ngã ba",
+      "design_anchor": "Ba phiến đá có rêu ở cùng một gốc sồi",
+      "states": "STATIC",
+      "sonic_signature": "gió rừng",
+      "immutable_rule": "Giữ 3 tảng không mọc thêm",
+      "site_id": "FOREST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-FOREST-STONE",
+      "default_space_id": "FO-STONES",
+      "name": "Đá cổ rừng",
+      "design_anchor": "Vòng đá nhỏ, các phiến rêu có thể là di tích",
+      "states": "INERT/INVESTIGATED",
+      "sonic_signature": "gió rừng",
+      "immutable_rule": "Khả năng phép là đề xuất chờ story lock",
+      "site_id": "FOREST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BAKERY-BREAD",
+      "default_space_id": "BK-INSIDE",
+      "name": "Tủ bánh và bánh mì",
+      "design_anchor": "Bánh và kệ gỗ sạch, vitrines kính, đồng hồ quầy",
+      "states": "FRESH/SOLD_OUT",
+      "sonic_signature": "cửa kính, giấy gói",
+      "immutable_rule": "Không bánh biết bay",
+      "site_id": "BAKERY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BAKERY-AWNING",
+      "default_space_id": "BK-EXT",
+      "name": "Mái hiên xanh tiệm",
+      "design_anchor": "Bạt xanh xám ở mặt tiền duy nhất",
+      "states": "EXTENDED/RETRACTED",
+      "sonic_signature": "gió chạm bạt",
+      "immutable_rule": "Không đổi sang màu đỏ mỗi shot",
+      "site_id": "BAKERY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RAIL-CLOCK",
+      "default_space_id": "ST-EXT",
+      "name": "Đồng hồ ga",
+      "design_anchor": "Một đồng hồ sân ga trên mặt nhà đá",
+      "states": "RUNNING",
+      "sonic_signature": "tic tac xa",
+      "immutable_rule": "Không là đồng hồ trường",
+      "site_id": "STATION",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RAIL-TRAIN",
+      "default_space_id": "ST-PLATFORM",
+      "name": "Tàu 2 toa",
+      "design_anchor": "Tàu chở khách thực, hai toa, vị trí ray một phía",
+      "states": "ARRIVING/PARKED/DEPARTING",
+      "sonic_signature": "ray kim loại",
+      "immutable_rule": "Không tàu bay hay du hành thế giới",
+      "site_id": "STATION",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RAIL-TICKETS",
+      "default_space_id": "ST-HALL",
+      "name": "Vé tàu và bảng giờ",
+      "design_anchor": "Vé in thông thường; bảng giờ điện tử hoặc chữ thật cần hậu kỳ",
+      "states": "IDLE/TICKET_SOLD",
+      "sonic_signature": "máy in giấy",
+      "immutable_rule": "Không yêu cầu AI render chữ chính xác",
+      "site_id": "STATION",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LAKE-BOATHOUSE",
+      "default_space_id": "LK-BOAT",
+      "name": "Nhà thuyền xám",
+      "design_anchor": "Nhà gỗ 1 tầng, một cửa trượt, mái slate",
+      "states": "OPEN/CLOSED",
+      "sonic_signature": "gỗ, nước",
+      "immutable_rule": "Không biến thành biệt thự",
+      "site_id": "LAKE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LAKE-DOCK",
+      "default_space_id": "LK-DOCK",
+      "name": "Bến gỗ chữ I",
+      "design_anchor": "Một cầu ván thẳng ra nước, 2 cọc buộc dây",
+      "states": "STATIC",
+      "sonic_signature": "gỗ kẽo kẹt, sóng",
+      "immutable_rule": "Không đổi hình cầu bến",
+      "site_id": "LAKE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LAKE-ROWBOAT",
+      "default_space_id": "LK-DOCK",
+      "name": "Thuyền chèo",
+      "design_anchor": "Một thuyền gỗ nhỏ buộc dây gần đầu bến",
+      "states": "MOORED/MOVING",
+      "sonic_signature": "nước vỗ mạn",
+      "immutable_rule": "Không bỗng hóa tàu buồm",
+      "site_id": "LAKE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BUBU-COLLAR",
+      "default_space_id": "BH-LIA",
+      "name": "Chuông DUY NHẤT trên cổ Bubu",
+      "design_anchor": "Cổ áo tím với một chuông vàng chạm tinh xảo giống hệt ảnh Canon 08",
+      "states": "IDLE/SINGLE_SUBTLE_CHIME",
+      "sonic_signature": "chuông nhỏ riêng Bubu",
+      "immutable_rule": "Là một phần identity không thêm chuông khác",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "CHARACTER_CANON_RULE_APPLIES",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-BIX-TOOLS",
+      "default_space_id": "BH-JUNO",
+      "name": "Dụng cụ rút ra từ Bix",
+      "design_anchor": "Dụng cụ nhỏ gắn đúng khớp với shell compact theo ảnh Canon 09",
+      "states": "STOWED/EXTRACTED",
+      "sonic_signature": "servo và kim loại nhỏ",
+      "immutable_rule": "KHÔNG có chuông trên Bix",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "CHARACTER_CANON_RULE_APPLIES",
+      "hero_asset": true,
+      "image_requirements": [
+        "FRONT_3_4",
+        "SIDE",
+        "BACK_OR_UNDERSIDE",
+        "DETAIL_LOCK",
+        "STATE_VARIATION"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-LAUNDRY",
+      "default_space_id": "BH-POWDER",
+      "name": "Tủ giặt và máy giặt",
+      "design_anchor": "Máy giặt hiện đại ẩn trong hốc, tủ khăn gỗ, chậu rửa tay nhỏ",
+      "states": "CLOSED/IN_USE",
+      "sonic_signature": "máy quay nhẹ",
+      "immutable_rule": "Không biến thành cửa bí mật",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-LANDING-WINDOW",
+      "default_space_id": "BH-LANDING",
+      "name": "Ô cửa chiếu nghỉ",
+      "design_anchor": "Khung gỗ sồi cố định ở tầng 2 với lan can nhìn xuống sảnh",
+      "states": "OPEN/CLOSED",
+      "sonic_signature": "rèm chạm khung nhẹ",
+      "immutable_rule": "Không đổi số cửa phòng",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-BATH-MIRROR",
+      "default_space_id": "BH-BATH",
+      "name": "Gương phòng tắm",
+      "design_anchor": "Gương hình chữ nhật trên bồn rửa, vòi bạc, gạch trắng xám",
+      "states": "NORMAL/STEAM",
+      "sonic_signature": "nước rửa nhẹ",
+      "immutable_rule": "Không tự tạo gương portal",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-WORK-SIGN",
+      "default_space_id": "BH-WORK-EXT",
+      "name": "Biển xưởng nghề Mara",
+      "design_anchor": "Biển gỗ nhỏ đơn giản bên cửa riêng; chữ chính thức thêm hậu kỳ",
+      "states": "STATIC",
+      "sonic_signature": "gió yếu",
+      "immutable_rule": "Không biển phát sáng tiết lộ phép",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-WORK-LOCK",
+      "default_space_id": "BH-WORK-EXT",
+      "name": "Khóa cửa xưởng bên",
+      "design_anchor": "Ổ khóa cơ học thường, chân cửa bậc đá",
+      "states": "LOCKED/OPEN",
+      "sonic_signature": "khóa kim loại",
+      "immutable_rule": "Không chuyển sang cửa chính nhà",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-GARDEN-BENCH",
+      "default_space_id": "BH-REAR-GARDEN",
+      "name": "Ghế gỗ vườn",
+      "design_anchor": "Ghế cho 2-3 người bên cây, đối diện bãi cỏ thoáng",
+      "states": "STATIC/SEATED",
+      "sonic_signature": "gỗ nhẹ",
+      "immutable_rule": "Không di dời sát cổng nhà",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-GARDEN-PATH",
+      "default_space_id": "BH-REAR-GARDEN",
+      "name": "Đường đá ra xưởng",
+      "design_anchor": "Lối đá nối cửa phòng ăn ra vườn và lối bên xưởng",
+      "states": "STATIC",
+      "sonic_signature": "bước chân đá",
+      "immutable_rule": "Không biến thành mê cung",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-OBS-ROOF",
+      "default_space_id": "OH-EXT",
+      "name": "Mái tròn nhà Orin",
+      "design_anchor": "Tháp quan sát nhỏ mái slate và cửa mở kính, lắp liền công trình",
+      "states": "OPEN/CLOSED",
+      "sonic_signature": "gió qua cửa",
+      "immutable_rule": "Không to bằng tháp lâu đài",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-ANCIENT-TREE",
+      "default_space_id": "OH-EXT",
+      "name": "Cây cổ thụ nhà đồi",
+      "design_anchor": "Một cây sồi già phía trước-trái theo trục từ cửa ra",
+      "states": "STATIC/WIND",
+      "sonic_signature": "lá xào nhẹ",
+      "immutable_rule": "Không mọc thêm 4 cây",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-FIREPLACE",
+      "default_space_id": "OH-FOYER",
+      "name": "Lò sưởi nhỏ Orin",
+      "design_anchor": "Gờ đá xám, ghế bành gần đó, ngăn củi cạnh vách",
+      "states": "OFF/LOW_FIRE",
+      "sonic_signature": "củi nổ nhỏ",
+      "immutable_rule": "Giữ lửa cục bộ, WB trung tính",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-TEACUP",
+      "default_space_id": "OH-FOYER",
+      "name": "Ấm trà và chén Orin",
+      "design_anchor": "Ấm sứ men xanh xám, chén đơn đặt bàn cạnh ghế",
+      "states": "HOT/EMPTY",
+      "sonic_signature": "đặt chén nhẹ",
+      "immutable_rule": "Không trà tự bay",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-TOOLGAUGE",
+      "default_space_id": "OH-LAB",
+      "name": "Dụng cụ đo Orin",
+      "design_anchor": "Panme, cân nhỏ và khay mẫu vật, bày tối giản trên bàn cơ khí",
+      "states": "CALIBRATING/STORED",
+      "sonic_signature": "kim loại tinh xảo",
+      "immutable_rule": "Không phát phép tùy tiện",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-RARE-SAMPLE",
+      "default_space_id": "OH-LAB",
+      "name": "Ống mẫu vật hiếm",
+      "design_anchor": "Bình thủy tinh nhỏ có nắp niêm phong, chất liệu không xác định cho đến story lock",
+      "states": "SEALED/ANALYSED",
+      "sonic_signature": "thủy tinh chạm gỗ",
+      "immutable_rule": "Không mặc định vô hạn nguyên liệu",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-BED-PHOTO",
+      "default_space_id": "OH-BED",
+      "name": "Ảnh gia đình Orin",
+      "design_anchor": "Ảnh ký ức nhỏ, che/nét người chưa duyệt phải không lộ mặt",
+      "states": "ON_TABLE/HELD",
+      "sonic_signature": "đặt khung",
+      "immutable_rule": "Không tự sáng tác gương mặt bà ngoại",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-OH-BED-BLANKET",
+      "default_space_id": "OH-BED",
+      "name": "Chăn giường Orin",
+      "design_anchor": "Chăn len xanh khói đơn sắc trên giường đơn",
+      "states": "FOLDED/USED",
+      "sonic_signature": "vải nhẹ",
+      "immutable_rule": "Không đổi sang phòng ngủ hoàng gia",
+      "site_id": "ORIN",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RC-QUILT",
+      "default_space_id": "RC-BED",
+      "name": "Chăn hoa ông bà",
+      "design_anchor": "Chăn cotton hoa nhỏ, giường đôi đầu gỗ cũ",
+      "states": "MADE/UNTIDY",
+      "sonic_signature": "vải chạm giường",
+      "immutable_rule": "Không thêm biểu tượng ma thuật",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RC-MIRROR",
+      "default_space_id": "RC-BED",
+      "name": "Gương trang điểm bà nội",
+      "design_anchor": "Gương oval khung gỗ đơn giản, cạnh ngăn kéo nhỏ",
+      "states": "STATIC",
+      "sonic_signature": "gỗ",
+      "immutable_rule": "Giữ diện mạo nhà người thường",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RC-KID-BOOKS",
+      "default_space_id": "RC-GUEST",
+      "name": "Kệ sách cũ của Evan",
+      "design_anchor": "Mười hai sách trẻ em đời thường, đồ chơi gỗ cũ và đèn đọc",
+      "states": "TIDY/READING",
+      "sonic_signature": "giấy sột soạt",
+      "immutable_rule": "Không phép công khai",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-COURTYARD-TREE",
+      "default_space_id": "SC-COURT",
+      "name": "Cây bóng mát sân trường",
+      "design_anchor": "Cây lá rộng ở một góc, ghế thấp dưới tán",
+      "states": "STATIC/WIND",
+      "sonic_signature": "lá và tiếng sân trường",
+      "immutable_rule": "Không mọc giữa sân vận động",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-ART-EASEL",
+      "default_space_id": "SC-ART",
+      "name": "Giá vẽ và màu",
+      "design_anchor": "Giá vẽ gỗ và bàn màu an toàn, tranh vẽ học sinh",
+      "states": "STORED/LESSON",
+      "sonic_signature": "cọ chạm giấy",
+      "immutable_rule": "Không tự sinh phù phép trong tranh",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-GYM-BALL",
+      "default_space_id": "SC-GYM",
+      "name": "Bộ bóng thể thao",
+      "design_anchor": "Bóng mềm và giá thể thao cất đúng nơi, tấm đệm sạch",
+      "states": "STORED/PLAY",
+      "sonic_signature": "bóng đập sàn",
+      "immutable_rule": "Không đồ vật bay vô cớ",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-TEACH-CALENDAR",
+      "default_space_id": "SC-TEACH",
+      "name": "Lịch và máy tính giáo viên",
+      "design_anchor": "Lịch công tác và máy tính đời thường ở bàn hành chính",
+      "states": "WORKING/IDLE",
+      "sonic_signature": "gõ bàn phím",
+      "immutable_rule": "Không ghi tên/lịch sai bằng AI, chữ hậu kỳ",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-GARDEN-PLANTERS",
+      "default_space_id": "SC-GARDEN",
+      "name": "Luống thực vật trường",
+      "design_anchor": "Bốn luống nhỏ đánh dấu, kính lúp học sinh, hàng rào thấp",
+      "states": "GROWING/EXAMINED",
+      "sonic_signature": "gió và côn trùng",
+      "immutable_rule": "Không cây ma thuật công khai",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-GARDEN-GREENHOUSE",
+      "default_space_id": "SC-GARDEN",
+      "name": "Nhà kính nhỏ môn khoa học",
+      "design_anchor": "Khung nhôm kính sát khu vườn khoa học, không phải lâu đài kính",
+      "states": "CLOSED/OPEN",
+      "sonic_signature": "cửa nhôm nhẹ",
+      "immutable_rule": "Không chuyển vị trí sang nhà Bell & Leaf",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SQ-SHOP-WINDOW",
+      "default_space_id": "SQ-SHOPS",
+      "name": "Dãy cửa hàng và hộp hoa",
+      "design_anchor": "Cửa kính nhỏ, bồn hoa ở 2-3 cửa, vật trang trí theo shop",
+      "states": "DAY/EVENING",
+      "sonic_signature": "tiếng bước chân xa",
+      "immutable_rule": "Không đổi sang trung tâm mua sắm",
+      "site_id": "SQUARE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SQ-CAFE-TABLE",
+      "default_space_id": "SQ-CAFE",
+      "name": "Bàn café ngoài trời",
+      "design_anchor": "Hai bàn tròn nhỏ ghế gỗ/kim loại, mái che xanh xám",
+      "states": "EMPTY/OCCUPIED",
+      "sonic_signature": "cốc sứ",
+      "immutable_rule": "Không lấp kín lối đi",
+      "site_id": "SQUARE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-PO-COUNTER-SCALE",
+      "default_space_id": "PO-COUNTER",
+      "name": "Cân bưu kiện",
+      "design_anchor": "Cân điện tử đời thường và tập giấy biên nhận trên quầy",
+      "states": "IDLE/WEIGHING",
+      "sonic_signature": "beep thấp",
+      "immutable_rule": "Không biến quầy thành kiosk phép",
+      "site_id": "POST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-PO-TICKET-BOX",
+      "default_space_id": "PO-COUNTER",
+      "name": "Hộp phiếu và phong bì",
+      "design_anchor": "Thùng thư đến, phong bì trơn, kệ tem và giấy",
+      "states": "IDLE/MAIL_DROP",
+      "sonic_signature": "giấy trượt",
+      "immutable_rule": "Chữ và địa chỉ cần làm hậu kỳ",
+      "site_id": "POST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LI-DOOR-ARCH",
+      "default_space_id": "LI-EXT",
+      "name": "Vòm cửa thư viện",
+      "design_anchor": "Đá xám với tay nắm sắt, bậc thềm sạch",
+      "states": "CLOSED/OPEN",
+      "sonic_signature": "bước chân đá",
+      "immutable_rule": "Không tự thành nhà thờ/lâu đài phép",
+      "site_id": "LIBRARY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LI-KID-CUSHION",
+      "default_space_id": "LI-CHILD",
+      "name": "Ghế và đệm đọc thiếu nhi",
+      "design_anchor": "Hai ghế mềm xanh xám và kệ thấp bên cửa sổ",
+      "states": "EMPTY/READING",
+      "sonic_signature": "vải và trang sách",
+      "immutable_rule": "Không thêm đồ chơi che kín khung",
+      "site_id": "LIBRARY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-FO-TRAILPOST",
+      "default_space_id": "FO-ENTRY",
+      "name": "Cọc chỉ đường rừng",
+      "design_anchor": "Một biển chỉ hướng bằng gỗ không render chữ trong AI, bên gốc sồi",
+      "states": "STATIC",
+      "sonic_signature": "gió nhẹ",
+      "immutable_rule": "Không tự đổi thành cổng chạm phép",
+      "site_id": "FOREST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LK-REED",
+      "default_space_id": "LK-SHORE",
+      "name": "Bụi sậy bờ hồ",
+      "design_anchor": "Sậy tự nhiên thành mảng nhỏ theo đường bờ, đá cuội mốc đường",
+      "states": "STATIC/WIND",
+      "sonic_signature": "sậy xào nhẹ",
+      "immutable_rule": "Không rừng sậy che hết mặt hồ",
+      "site_id": "LAKE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-LK-PEBBLE",
+      "default_space_id": "LK-SHORE",
+      "name": "Lối đá bờ hồ",
+      "design_anchor": "Sỏi xám và đá phiến dẫn đến nhà thuyền và bến gỗ",
+      "states": "STATIC",
+      "sonic_signature": "sỏi dưới bước chân",
+      "immutable_rule": "Không di dời nhà thuyền qua bờ đối diện",
+      "site_id": "LAKE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-RC-GUEST-LAMP",
+      "default_space_id": "RC-GUEST",
+      "name": "Đèn đọc phòng cháu",
+      "design_anchor": "Đèn bàn hiện đại bóng trắng neutral, cạnh giường",
+      "states": "OFF/ON",
+      "sonic_signature": "công tắc click",
+      "immutable_rule": "Không phát lửa phép",
+      "site_id": "ROSE",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-ATELIER-DOOR",
+      "default_space_id": "BH-ATELIER",
+      "name": "Cửa nối hành lang xưởng",
+      "design_anchor": "Cửa gỗ nội bộ riêng, không nhìn thẳng xuống kho phép",
+      "states": "CLOSED/OPEN",
+      "sonic_signature": "tay nắm gỗ",
+      "immutable_rule": "Không để Evan thấy phép qua cửa",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BH-ATELIER-BOX",
+      "default_space_id": "BH-ATELIER",
+      "name": "Hộp nhạc cần sửa",
+      "design_anchor": "Hộp nhạc gỗ kích thước bàn tay, bánh răng cơ khí thật",
+      "states": "UNWOUND/WOUND/REPAIRED",
+      "sonic_signature": "nhạc hộp ngắn gốc",
+      "immutable_rule": "Không phát nhạc bản quyền hoặc tự bay",
+      "site_id": "BELL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-LIA-NOTEBOOK",
+      "default_space_id": "SC-LIA",
+      "name": "Vở của Lia",
+      "design_anchor": "Vở giấy lớn bìa xanh nhạt, bút chì, hình vẽ thú",
+      "states": "CLOSED/WRITING",
+      "sonic_signature": "bút giấy",
+      "immutable_rule": "Nội dung chữ A2 hậu kỳ",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-SC-JUNO-PROJECT",
+      "default_space_id": "SC-JUNO",
+      "name": "Mô hình khoa học của Juno",
+      "design_anchor": "Mô hình cơ khí nhỏ an toàn ở bàn dự án học sinh",
+      "states": "STORED/PRESENTED",
+      "sonic_signature": "kim loại nhỏ",
+      "immutable_rule": "Không biến thành thiết bị phép lớn",
+      "site_id": "SCHOOL",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-BK-KITCHENOVEN",
+      "default_space_id": "BK-INSIDE",
+      "name": "Lò nướng tiệm bánh",
+      "design_anchor": "Lò điện đời thường sau quầy, có kính chắn và khay bánh",
+      "states": "OFF/BAKING",
+      "sonic_signature": "quạt lò rất nhẹ",
+      "immutable_rule": "Không tự tăng số lượng bánh vô hạn",
+      "site_id": "BAKERY",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    },
+    {
+      "prop_id": "PR-FO-BROOK",
+      "default_space_id": "FO-FORK",
+      "name": "Suối cạn ngã ba rừng",
+      "design_anchor": "Suối nhỏ ở góc rừng liên hệ với dòng chảy Silverbrook nếu địa lý cho phép",
+      "states": "FLOWING",
+      "sonic_signature": "nước chảy nhẹ",
+      "immutable_rule": "Không tự biến thành thác khổng lồ",
+      "site_id": "FOREST",
+      "dimensions": "Scale relative to approved character and fixed architecture; exact cm NOT LOCKED until model sheet approved",
+      "asset_status": "PROPOSED",
+      "hero_asset": false,
+      "image_requirements": [
+        "FRONT_3_4",
+        "DETAIL_KEY",
+        "PLACED_IN_ROOM"
+      ]
+    }
+  ],
+  "coverage_rules": {
+    "whole_site": [
+      "A_EXT_HERO",
+      "B_EXT_REVERSE",
+      "C_SITE_TOPOLOGY_PLAN",
+      "D_MAIN_INTERIOR",
+      "E_MAIN_INTERIOR_REVERSE",
+      "F_SIGNATURE_DETAILS"
+    ],
+    "story_room": [
+      "A_FORWARD_ROOM",
+      "B_REVERSE_180_ROOM",
+      "C_ACTION_STAGING",
+      "D_ANCHOR_DETAILS"
+    ],
+    "hero_prop": [
+      "A_FRONT_3_4",
+      "B_PROFILE",
+      "C_REAR_OR_UNDERSIDE",
+      "D_MECHANISM_MACRO",
+      "E_STATE_TEST"
+    ],
+    "workflow": [
+      "SCRIPT_CONTINUITY_REVIEW",
+      "LOCATION_TOPOLOGY_LAYOUT_APPROVED",
+      "HERO_REFERENCE_STILLS_APPROVED",
+      "REVERSE_CAMERA_QA",
+      "PROP_ASSET_STATES_LOCKED",
+      "COLOR_D55_QA_PASS",
+      "CHARACTER_REFERENCES_ATTACHED",
+      "FIRST_FRAME_IMAGE_PASS",
+      "MUSE_VIDEO_10S_REVIEW",
+      "WAV_LIPSYNC_AND_SOUND_QA"
+    ]
+  },
+  "production_state": "DESIGN_DRAFT_AWAITING_USER_REVIEW",
+  "location_lock_gate": "BLOCKED",
+  "school_patch_applied_as_proposal": true
+}
