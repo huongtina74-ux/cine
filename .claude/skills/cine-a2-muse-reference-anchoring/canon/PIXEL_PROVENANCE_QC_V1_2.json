@@ -1,0 +1,210 @@
+{
+  "checked_at_utc": "2026-10-29T13:27:42.912621+00:00",
+  "source_hashes_verified": 10,
+  "source_crop_pixel_exact_count": 10,
+  "generated_new_sheets_approved": 0,
+  "generated_new_sheets_rejected_or_held": 10,
+  "method": "Exact SHA256 for all originals and cropped reference assets, RGB pixel exact source-crop spatial match; not a learned facial similarity model and not proof of unseen 3D viewpoints.",
+  "items": [
+    {
+      "tag": "bo",
+      "source_sha256": "0635e06d425b656098c4eb200557c939b35d86c1bb3213f8385935478ff1f590",
+      "crop_sha256": "9d26d4b43d927e511106c9312863e770ec45727119fb4c823a44bf6f8186f460",
+      "pixel_exact": true,
+      "origin_xy": [
+        2,
+        145
+      ],
+      "crop_size": [
+        284,
+        997
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "me",
+      "source_sha256": "02f15c86cae4caba26da5fb9660958f1df71c5a29d8ae6c51d78f347dadfed97",
+      "crop_sha256": "52f3aa35357a2053a8d27e330a9d3d6470d3ebd57933e6028ad1c481b2c60c60",
+      "pixel_exact": true,
+      "origin_xy": [
+        1,
+        128
+      ],
+      "crop_size": [
+        326,
+        982
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "juno",
+      "source_sha256": "6dd5ae8799384526deffda45d12257118383f8c6424d5ff20cf6d2d0a1164aed",
+      "crop_sha256": "d4f19cbb397352b720973030d0e1a6b300e27ba7fa50f4c6990e81870d900c5f",
+      "pixel_exact": true,
+      "origin_xy": [
+        2,
+        128
+      ],
+      "crop_size": [
+        304,
+        737
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "Lia",
+      "source_sha256": "3f29c9ba2efa554d677bed50f1d65825df4c6e44d449dfacc87967628b2f61d0",
+      "crop_sha256": "819629feb7c91cc09846a492ed09bb5325268e98c681e9c40523eb7864404d3f",
+      "pixel_exact": true,
+      "origin_xy": [
+        40,
+        710
+      ],
+      "crop_size": [
+        203,
+        345
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "bubu",
+      "source_sha256": "d27cc64c583edfc0b5fdee0011f0ef6b1f904be9cb4ee879c7ee967affe34b34",
+      "crop_sha256": "8d079974a53b60c1c7dec403ab40b0dac1e95ca488bdbefa37744f998a4785f7",
+      "pixel_exact": true,
+      "origin_xy": [
+        5,
+        674
+      ],
+      "crop_size": [
+        209,
+        178
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "bix",
+      "source_sha256": "378c0812da87817fd3d2f3c5bec878d4020fd4cae569d0bb0fb4641180df5055",
+      "crop_sha256": "a1d1f49cd9a39607b57acbd5002ac108cb6a53fbdca08f1f06e06f5eb3900dcc",
+      "pixel_exact": true,
+      "origin_xy": [
+        366,
+        70
+      ],
+      "crop_size": [
+        662,
+        442
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "ongngoai",
+      "source_sha256": "360bf5f96b6b666ed13e0460e019d2a38832286b0a38b526dcc28f121ac77e31",
+      "crop_sha256": "3df0e8269055e33ee6b27f24d4fbdd4c209ffaec86ff7872fbb65572fee04fc7",
+      "pixel_exact": true,
+      "origin_xy": [
+        2,
+        54
+      ],
+      "crop_size": [
+        349,
+        872
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "bangoai",
+      "source_sha256": "e3841a9b6f9a3257ff2e726e77910c1db3e4282db8a5a3bbd04d0383fc9c5602",
+      "crop_sha256": "85baf209bcc6178b7ace98cbddecdeeab967b33d819bb3e1bfc5c6f76bcc2b8f",
+      "pixel_exact": true,
+      "origin_xy": [
+        1,
+        60
+      ],
+      "crop_size": [
+        324,
+        874
+      ],
+      "source_size": [
+        1055,
+        1491
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "ongnoi",
+      "source_sha256": "badd18ba2b5ace1d45682a84ffd14911d19ee417a4f7da7c333ae9a3ea1c8bae",
+      "crop_sha256": "f27154f6cb0f138352fe41b6ebd72e8a8d0195a1dd5dbcceebc78cb766242bca",
+      "pixel_exact": true,
+      "origin_xy": [
+        4,
+        123
+      ],
+      "crop_size": [
+        369,
+        857
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    },
+    {
+      "tag": "banoi",
+      "source_sha256": "ba6b40f0c67a1dcf64411179eed659e9dfd510795f4d10e881f20f834b4dbe30",
+      "crop_sha256": "85b2c1a69b8116eaf87efee830beeece857bbf6e5c50cfbac28ad3e33ce81d95",
+      "pixel_exact": true,
+      "origin_xy": [
+        2,
+        126
+      ],
+      "crop_size": [
+        343,
+        788
+      ],
+      "source_size": [
+        1122,
+        1402
+      ],
+      "generated_candidate_status": "REVIEW_REQUIRED_NOT_CANON",
+      "generated_candidate_approved": false
+    }
+  ]
+}
