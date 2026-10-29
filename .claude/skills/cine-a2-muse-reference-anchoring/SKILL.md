@@ -88,3 +88,15 @@ The full source PNG asset kit is stored persistently in user's CINE Library at `
 **Latest installable asset ZIP:** `/CINE/Slow_English_A2/Character_Reference_Packs/CINE_BELL_LEAF_CANON_SOURCE_LOCK_V1_2_COMPLETE.zip` (SHA-256 `2783de7204e315f89743f9dde0d0715fc023b4ed532443fba6f1e6c57c13fafe`). Unlike the earlier source-only package, this contains **10 original images + 90 native source crops + 10 individual master crops + 2 Bubu detail anchors**. Exact cryptographic and pixel-region provenance was checked for all 90 crop assets: see [canon/ALL_90_SOURCE_CROPS_QC_V1_2.json](canon/ALL_90_SOURCE_CROPS_QC_V1_2.json) and [canon/ALL_90_SOURCE_CROPS_MANIFEST_V1_2.json](canon/ALL_90_SOURCE_CROPS_MANIFEST_V1_2.json). Nothing here proves the new AI-generated variant sheets are face-identical.
 
 **Operational hard rule**: In production, only SOURCE_ORIGINAL and verified source-crop references may be used as identity anchors before independent Muse image candidates receive explicit approval. Crop-to-original pixel correctness does not imply full new perspective or wardrobe identity correctness. Never silently consider a new AI-rendered angle APPROVED. CINE local install must pass verification and then code-level resolver/Flow/Muse integration tests before reporting production READY.
+
+
+### Source-lock v1.2 FINAL — CLI and acceptance
+
+**Authoritative packaged version:** `/CINE/Slow_English_A2/Character_Reference_Packs/CINE_BELL_LEAF_CANON_SOURCE_LOCK_V1_2_FINAL.zip`, SHA-256 `a9ad67f96ffac90e87dec97f6829b2c7de152514f5f7b61bace90a8f8d05c8c4`. All other v1.2 ZIP variants are intermediate; **use FINAL**.
+
+- `scripts/install_character_canon_into_cine_v1_2.py` validates 10 original SHA-256, 90 original-image crop SHA-256 and Bubu hero/tail anchors before safely installing source files into the CINE worktree; re-running must be idempotent and never overwrite conflicting files.
+- `scripts/resolve_canon_source_references_v1_2.py` maps structured per-shot `activeCharacterTags` only to matching source crops, validates exact SHA-256 and selects two Bubu-specific attachments (hero face and spiral-tail sparkle detail). It does **not** fabricate Flow or Muse media IDs, and it does not mark newly generated frames as QC approved.
+- `tests/test_canon_source_reference_resolver_v1_2.py`: 8/8 local tests passed (no unknown/duplicate tag, correct Lia+Bubu refs, correct 0-ref landscapes, fail closed if file missing). Importer also verified safe install and idempotent re-run in a mock Git worktree.
+- Every shot still requires location-lock refs, real Flow/Muse upload IDs and frame-by-frame visual QC. **CINE local device was offline at this check, so runtime E2E installation and production readiness remain UNVERIFIED.**
+
+`APPROVED_FOR_REFERENCE` is not a synonym for `SOURCE_PIXEL_EXACT`. The source files are user-selected identity truth; they remain 100%-faithful as pixels where cropped, but 10 newly AI-generated sheets and unseen angles remain unapproved.
