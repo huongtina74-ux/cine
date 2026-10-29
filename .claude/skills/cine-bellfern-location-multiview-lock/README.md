@@ -1,6 +1,6 @@
 # Bellfern Location Reference Skill — v1.2 proposed
 
-This directory implements reference *memory and review gates* for CINE Bell & Leaf. The folder is versioned on a **feature branch**, not an approved visual master and not automatically loaded by the Windows CineFactory runtime.
+This directory implements reference *memory and review gates* for CINE Bell & Leaf. The folder is committed to GitHub **main**, but is not an approved visual master and is not yet verified as loaded by the Windows CineFactory runtime.
 
 ## Coverage
 
