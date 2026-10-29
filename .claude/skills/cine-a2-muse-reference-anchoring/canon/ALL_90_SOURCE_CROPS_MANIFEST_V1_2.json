@@ -1,0 +1,727 @@
+{
+  "schema": "cine.bell_leaf.v1.2.90_pixel_exact_source_crops",
+  "claim_scope": "CRYPTOGRAPHIC_PROVENANCE_AND_EXACT_RGB_SOURCE_REGION_ONLY",
+  "approval_note": "Not new Muse render; not approved as unseen camera view, full-body reconstruction or shot. Original user source retains priority.",
+  "assets": [
+    {
+      "asset_id": "CH_bo_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/masters/bo__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "9d26d4b43d927e511106c9312863e770ec45727119fb4c823a44bf6f8186f460",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_FACE_LAUGHING",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/expressions/bo__FACE_LAUGHING__native.png",
+      "sha256": "970fe9b92561fd8214561be5dec12ae3e0a37c93c69c3b4a9e5f39359cba11ef",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_FACE_THOUGHTFUL",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/expressions/bo__FACE_THOUGHTFUL__native.png",
+      "sha256": "9fa4693350daa2d5e61e1f591a1b25f466881c84f7e3122e60f6fd91b3f909d6",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_FACE_WARM_SMILE",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/expressions/bo__FACE_WARM_SMILE__native.png",
+      "sha256": "4179e856972f957be2a5c4a78669f4e31f631068391ec393be8834a557696f9f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_FACE_WINK",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/expressions/bo__FACE_WINK__native.png",
+      "sha256": "55b72e17befc59c5aebc0ad48d96742acac4e46d180c1b9465aa4a39903e3988",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_01",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/wardrobe/bo__OUTFIT_VARIANT_01__native.png",
+      "sha256": "3b939c424109286dc46876f24f744d8a3167d6eae62acbeae2bb2a3fe55d6ceb",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_02",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/wardrobe/bo__OUTFIT_VARIANT_02__native.png",
+      "sha256": "51eb2fee3def4fcf89e72f322de3a93364b1d560d1796bb0bd7151cae6cd6424",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_03",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/wardrobe/bo__OUTFIT_VARIANT_03__native.png",
+      "sha256": "46109b0d1ac2d6cc409c314e8831874fcf1c96936dab1099e8b75284419f3f6f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_04",
+      "tag": "bo",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bo/wardrobe/bo__OUTFIT_VARIANT_04__native.png",
+      "sha256": "8bb75665617f2918ab23a1950ea1434cd8b3372d101126dc44b8b2e776fdbc14",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/masters/me__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "52f3aa35357a2053a8d27e330a9d3d6470d3ebd57933e6028ad1c481b2c60c60",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_FACE_CURIOUS",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/expressions/me__FACE_CURIOUS__native.png",
+      "sha256": "43e97afce5ef46a8e868ac980e58a5235f3e6161c00fd81e667dc5a5593638cb",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_FACE_EXCITED",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/expressions/me__FACE_EXCITED__native.png",
+      "sha256": "5a70e969842b58b3baddc28f9d48b311cb5ac75f6be5eb3113154bed3ac1f69a",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_FACE_GENTLE",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/expressions/me__FACE_GENTLE__native.png",
+      "sha256": "c663784fca1e775bae1300585415a41b9aa1020a4f4610ed44fdce441b476dc8",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_FACE_THOUGHTFUL",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/expressions/me__FACE_THOUGHTFUL__native.png",
+      "sha256": "8d2d17b3458a380c53fbd667bd340c2d6eb904edd40b329d834ce1db1aa0c4ae",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_VIEW_BACK",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/angles/me__VIEW_BACK__native.png",
+      "sha256": "45de202d35c90c57c7be08656c670c8813dc4d497bbea389b064347669e1071f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_VIEW_FRONT",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/angles/me__VIEW_FRONT__native.png",
+      "sha256": "849906c87aa61112295884bd1e58d0668625cdaeed6e62b5a4f84cb909ee1be2",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_VIEW_SIDE",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/angles/me__VIEW_SIDE__native.png",
+      "sha256": "dc99740f88cca8007ca88980b15f4e9ff4b9b9eb98a26871886a01ec2457f142",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_me_VIEW_THREE_QUARTER",
+      "tag": "me",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/me/angles/me__VIEW_THREE_QUARTER__native.png",
+      "sha256": "3760d1b752b97c6900e62e1cb8ea9018a4590b119c3318eddf241487ea6b94ad",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/masters/juno__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "d4f19cbb397352b720973030d0e1a6b300e27ba7fa50f4c6990e81870d900c5f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_FACE_CURIOUS",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/expressions/juno__FACE_CURIOUS__native.png",
+      "sha256": "ce3eb52552f8aa1770cc35f9e21b30dd3f6a24697c3c773ef723fce9e83389b4",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_FACE_SMILING",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/expressions/juno__FACE_SMILING__native.png",
+      "sha256": "d81f5650162bea91a467f1b4013215f111e79777190a0bea2eaaaf860750a2e0",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_FACE_SURPRISED",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/expressions/juno__FACE_SURPRISED__native.png",
+      "sha256": "0c8de182043d745207be59fabbfa3e931984710e778d06e999dda0b2ce012116",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_FACE_THOUGHTFUL",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/expressions/juno__FACE_THOUGHTFUL__native.png",
+      "sha256": "7fdca15fd6828e42ebfb92bb402c76a809036505de070af582dbd0ff07f4ad31",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_BACK",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/angles/juno__VIEW_BACK__native.png",
+      "sha256": "76c9c39a904910195cd9dc4668b1d98f6444918115ffa0b0736eb1fcaf7324c4",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_FRONT",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/angles/juno__VIEW_FRONT__native.png",
+      "sha256": "ad71ecfeb65dbe30df69da384281721105b2f5f749dd1e92d77f9d7dad9eef0d",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_SIDE",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/angles/juno__VIEW_SIDE__native.png",
+      "sha256": "aef81df5be51344f61ec940c65705189cf852079ea21d25afb85d87a6d11083c",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_THREE_QUARTER",
+      "tag": "juno",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/juno/angles/juno__VIEW_THREE_QUARTER__native.png",
+      "sha256": "3f6812ca6892d0cd4b0b99a660ea70b25776cc26e7ea6347f27b582dea9b82d4",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/masters/Lia__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "819629feb7c91cc09846a492ed09bb5325268e98c681e9c40523eb7864404d3f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_CURIOUS",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/expressions/Lia__FACE_CURIOUS__native.png",
+      "sha256": "b99c05a7f10c2f7b2facee76a9ba1957cfe53ef7b6b31e00f911d50625359e46",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_EXCITED",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/expressions/Lia__FACE_EXCITED__native.png",
+      "sha256": "df5f2b403ef61d392424526b293d36b2e8ad34a1d55ab8e19aeb737f8ee86dd0",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_GENTLE",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/expressions/Lia__FACE_GENTLE__native.png",
+      "sha256": "57f7e11ee638439badf384f4cc3237cb52dbff87cb1d9f47a6ccc62b13840b3c",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_HAPPY",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/expressions/Lia__FACE_HAPPY__native.png",
+      "sha256": "438008d3e87d5706d6ed7b5ac680502f40fcb96966d3121eab1edf6e19d6785a",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_BACK",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/angles/Lia__VIEW_BACK__native.png",
+      "sha256": "a73435bae19efb7449887180ae3d9deeeebb8327bb5bc0496c297190eeb1f33a",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_FRONT",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/angles/Lia__VIEW_FRONT__native.png",
+      "sha256": "8cd5d426346e569f5035c5000d7113b0efdf3f06647a6d49097a85f5f20e5915",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_SIDE",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/angles/Lia__VIEW_SIDE__native.png",
+      "sha256": "893ad43598e8a701954c67bf6f43a47324fc418b39dc5927a7a274abc67c186e",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_THREE_QUARTER",
+      "tag": "Lia",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/Lia/angles/Lia__VIEW_THREE_QUARTER__native.png",
+      "sha256": "b5922a37b3df7b286b1197461c442e4336bf0aaebb9fe3cca48c37c79faf6d6e",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/masters/bubu__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "8d079974a53b60c1c7dec403ab40b0dac1e95ca488bdbefa37744f998a4785f7",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_CURIOUS",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/expressions/bubu__FACE_CURIOUS__native.png",
+      "sha256": "1ad144f9d90706d44fb9c2495935da7ec4aad8084cb3528d8efecf957f3e9c31",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_HAPPY",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/expressions/bubu__FACE_HAPPY__native.png",
+      "sha256": "c3a5bf83d278f8b634d1e28d74538cc8fb24dfdfe42109219467748d3c0de4c0",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_PLAYFUL",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/expressions/bubu__FACE_PLAYFUL__native.png",
+      "sha256": "0649df345ea120508ee5649a9bb951d0bc65f7cfb8b0e5c4ccfa579272ee5804",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_PROUD",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/expressions/bubu__FACE_PROUD__native.png",
+      "sha256": "f395653db350687d924a448fca5d2f8ca2964e5387cb52796fa0942d2c8995a6",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_BACK",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/angles/bubu__VIEW_BACK__native.png",
+      "sha256": "ebaf50989eac37e4eff9bef337710a325197c061d30f2019c58285804c3bfdfe",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_FRONT",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/angles/bubu__VIEW_FRONT__native.png",
+      "sha256": "1a77245d5411111b7bcf4ce44ac80d40e9970f2b4fb2a93482ceed5c9ded59ad",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_SIDE",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/angles/bubu__VIEW_SIDE__native.png",
+      "sha256": "965ad842fc65575c71f0ca368d25fca4f83318122a873de92b407899d3e2c6d4",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_THREE_QUARTER",
+      "tag": "bubu",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bubu/angles/bubu__VIEW_THREE_QUARTER__native.png",
+      "sha256": "eeb74e02203ee9fd0245bf376b395815a9182c9e703cbba05e29e8b510532191",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/masters/bix__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "a1d1f49cd9a39607b57acbd5002ac108cb6a53fbdca08f1f06e06f5eb3900dcc",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_FACE_CURIOUS",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/expressions/bix__FACE_CURIOUS__native.png",
+      "sha256": "29df85feb87a2f5658e3403cba84f35111475d57c07b962cfc9a55684071f770",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_FACE_DETERMINED",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/expressions/bix__FACE_DETERMINED__native.png",
+      "sha256": "e58e7b0dae44bbb74a0c97056403a1400c6e028556b59465bfcd6b0f44e53f2c",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_FACE_HAPPY",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/expressions/bix__FACE_HAPPY__native.png",
+      "sha256": "fbfcaeb64ea3957c0a2a933911d0e2128c4292309ffa56fec522de4613600fd1",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_FACE_OBSERVANT",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/expressions/bix__FACE_OBSERVANT__native.png",
+      "sha256": "bd5e5546980ca8e2eb707dd79ec5bed86a933a72c7ce669c9d1d7f12dda1cd29",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_BACK",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/angles/bix__VIEW_BACK__native.png",
+      "sha256": "15738218bb1d71f0ad74fd86a8985a18e4278977e2cdcb480b2c420ef3dca84e",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_FRONT",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/angles/bix__VIEW_FRONT__native.png",
+      "sha256": "9a951549ef030b122d3b020cd12b1bbe613c67b0098f80062c508866b2d16426",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_SIDE",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/angles/bix__VIEW_SIDE__native.png",
+      "sha256": "9952afcbd94b3cac7e5a28db117e04f113770094d41a66a4ad3978bbc755697c",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_THREE_QUARTER",
+      "tag": "bix",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bix/angles/bix__VIEW_THREE_QUARTER__native.png",
+      "sha256": "3a3721a99522bead06bb5c3fbe9c9842b378b64ae522c372dcfa02dd6304d8ab",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/masters/ongngoai__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "3df0e8269055e33ee6b27f24d4fbdd4c209ffaec86ff7872fbb65572fee04fc7",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_CURIOUS",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/expressions/ongngoai__FACE_CURIOUS__native.png",
+      "sha256": "a32e91235d0d663b4ec57775112f219c3dd9ea03febe3e025a01631e0447deb6",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_KIND",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/expressions/ongngoai__FACE_KIND__native.png",
+      "sha256": "7156cba6d00139d1d63a2925ed1c90a207bfb6c8e5d0ac57cd7e557bae48c131",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_LAUGH",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/expressions/ongngoai__FACE_LAUGH__native.png",
+      "sha256": "d7e0fb662f164a373227be5fbc77e268088e574b2abac8a9421ef783ab5ebc01",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_THOUGHTFUL",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/expressions/ongngoai__FACE_THOUGHTFUL__native.png",
+      "sha256": "20158e6cb5c7898224964153d2187381ff38f9781426e28444dc99118e6308ad",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_BACK",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/angles/ongngoai__VIEW_BACK__native.png",
+      "sha256": "eae4fcd365a294c12e80405250dc208dfc162c0fd90158b456cf4d3408bc4a10",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_FRONT",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/angles/ongngoai__VIEW_FRONT__native.png",
+      "sha256": "c13cfffc4b7ec25cac3b23890075cd381fc7dd64e29a6581dec688726f106357",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_SIDE",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/angles/ongngoai__VIEW_SIDE__native.png",
+      "sha256": "e56112fcf0e4ae61677eb92658dde9ab8c1c7c69fa173b35e2bedac30b30e90f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_THREE_QUARTER",
+      "tag": "ongngoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongngoai/angles/ongngoai__VIEW_THREE_QUARTER__native.png",
+      "sha256": "8152e80d1f1ef72094d8ec7b74e642c720026556710760792a11a04c897aeacb",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/masters/bangoai__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "85baf209bcc6178b7ace98cbddecdeeab967b33d819bb3e1bfc5c6f76bcc2b8f",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_JOYFUL",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/expressions/bangoai__FACE_JOYFUL__native.png",
+      "sha256": "de493ef907eafedb136c44cf1ee23d2ebc793c5811b32d2ae550c8d43c4e3b72",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_KIND",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/expressions/bangoai__FACE_KIND__native.png",
+      "sha256": "a568bec1f19b4ce579c96cda95372ce198326fe93db236cf45f48f84165b45a3",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_THOUGHTFUL",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/expressions/bangoai__FACE_THOUGHTFUL__native.png",
+      "sha256": "9158b78a485e7685554f1a8c3f91fcf869610142d1b2820ccd4a210c07a4b04e",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_WISE",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/expressions/bangoai__FACE_WISE__native.png",
+      "sha256": "a9c7f5209048af0c1e7cc043b8069377fe3553ca4f9a51ba92ee0e84e6cb6da5",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_BACK",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/angles/bangoai__VIEW_BACK__native.png",
+      "sha256": "c9f77ec0cb5169ffba92be7a0149a92173bd0b3bd089d7fe59827eac84ed55c9",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_FRONT",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/angles/bangoai__VIEW_FRONT__native.png",
+      "sha256": "cb2c815c9b13693a02f6fca4e45b025517a5a83d370fef4edfe93f19eb828838",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_SIDE",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/angles/bangoai__VIEW_SIDE__native.png",
+      "sha256": "5df10a6cfbe5cc25456fbd49f9eed5952098a1df2018293f598f561945519ae8",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_THREE_QUARTER",
+      "tag": "bangoai",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/bangoai/angles/bangoai__VIEW_THREE_QUARTER__native.png",
+      "sha256": "ef2071936cb6beb9edcff4e6c827e35ee6b4427097f221bc3face35508a14373",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/masters/ongnoi__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "f27154f6cb0f138352fe41b6ebd72e8a8d0195a1dd5dbcceebc78cb766242bca",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_CHEEKY",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/expressions/ongnoi__FACE_CHEEKY__native.png",
+      "sha256": "7ffac103059c96d6b1b825e35a9b460914c028f887c1443f0b19f18f5cb91f9b",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_KIND_SMILE",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/expressions/ongnoi__FACE_KIND_SMILE__native.png",
+      "sha256": "b304b55285524307fa99a37ec51ae4199b366116059414b6779a15dd1f473b6e",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_LAUGH",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/expressions/ongnoi__FACE_LAUGH__native.png",
+      "sha256": "5f8386f2ec2785e886b17d8178f8086eb003c8944a2d20b39524eaadf079e78e",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_THOUGHTFUL",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/expressions/ongnoi__FACE_THOUGHTFUL__native.png",
+      "sha256": "a88781cfa7e86f9d03e0b22fe4e0f5a1366b670c1440ca8b11ba3592b5ad3b72",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_BACK",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/angles/ongnoi__VIEW_BACK__native.png",
+      "sha256": "32867d3b724ce3e6d28b3fb2ae06b31f1ec7d35f242328aa103a3818382e4e35",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_FRONT",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/angles/ongnoi__VIEW_FRONT__native.png",
+      "sha256": "7c748c07d89876cdb8e2d6cdb7aed6eb0bf6dfb42ed648e02c78d17f9d0d082a",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_SIDE",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/angles/ongnoi__VIEW_SIDE__native.png",
+      "sha256": "e1e30317189479c0a5fbc7d260affcb70609c8a6f7bf5b97f39e818a21852fab",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_THREE_QUARTER",
+      "tag": "ongnoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/ongnoi/angles/ongnoi__VIEW_THREE_QUARTER__native.png",
+      "sha256": "a8748c5497f348b21aa613534b4e16098c28e7a62e91c32dd865e7a26a9e2c18",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_MASTER_ANCHOR_SOURCE_CROP",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/masters/banoi__MASTER_ANCHOR_SOURCE_CROP__native.png",
+      "sha256": "85b2c1a69b8116eaf87efee830beeece857bbf6e5c50cfbac28ad3e33ce81d95",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_FACE_AMUSED",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/expressions/banoi__FACE_AMUSED__native.png",
+      "sha256": "595edd4df2aba84951274bf58d2fa848c9b2b8f86a1cd4e090da97b7717725c1",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_FACE_LAUGH",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/expressions/banoi__FACE_LAUGH__native.png",
+      "sha256": "b86435804d3c5fd73a1557d23a726af84286784fc8fa4f8fa0eab58be63f5cba",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_FACE_THOUGHTFUL",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/expressions/banoi__FACE_THOUGHTFUL__native.png",
+      "sha256": "18946fc09f7d0a109775fe58bcd56c4cb7f10e8f3228aa0b232f39c748742687",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_FACE_WARM_SMILE",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/expressions/banoi__FACE_WARM_SMILE__native.png",
+      "sha256": "511636073e02dad32d2ef56a299a4b61f8a6c63db24158f0dbfc5ba25df01e07",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_VIEW_BACK",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/angles/banoi__VIEW_BACK__native.png",
+      "sha256": "fb9f9b317ffb43584a6cc56e97108208d27e9d4d2f725525f7918295dccc26bf",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_VIEW_FRONT",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/angles/banoi__VIEW_FRONT__native.png",
+      "sha256": "b583c86994ac5ace131eaf626156a72d3fc965e46db56e74b969610a2a4bd5f1",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_VIEW_SIDE",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/angles/banoi__VIEW_SIDE__native.png",
+      "sha256": "cd9e18d8a4a707e7ab522d6eece44b5c4eb6855b3736a47531a24442cc89ce22",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    },
+    {
+      "asset_id": "CH_banoi_VIEW_THREE_QUARTER",
+      "tag": "banoi",
+      "source_kind": "EXACT_SOURCE_CROP",
+      "file": "assets/banoi/angles/banoi__VIEW_THREE_QUARTER__native.png",
+      "sha256": "161e1618d0baef80b392c1689d986538e4e9477955032fb5680eb19173494db7",
+      "status": "PROVENANCE_VERIFIED_SOURCE_CROP_ONLY"
+    }
+  ]
+}
