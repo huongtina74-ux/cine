@@ -64,3 +64,20 @@ The source asset bundle is kept as an independent **59 MB private library ZIP**,
 ## Mandatory original-image fidelity override (2026-10-29)
 
 Before generating, approving, or resolving any Bell & Leaf character view/expression, **MUST read [ORIGINAL_FACE_BODY_FIDELITY_20261029.md](ORIGINAL_FACE_BODY_FIDELITY_20261029.md)**. The latest 10 user-reuploaded source images are the primary visual identity authority; generated reference sheets in the associated review archive are ALL drafts. Lock exact original face geometry, proportions, age, skin/fur texture, signature hairstyle, body scale, and accessories. Bubu's purple tail MUST retain sparkles/glow across all individual views. Do NOT promote a prettier but different face into `CHARACTER_CURRENT`. Stage ST15 must verify side-by-side actual source vs candidate before human approval. This constraint takes precedence over generic 'cute', 'Pixar-like', beauty, doll, or stylization prompt words.
+
+
+## REQUIRED SOURCE-CANON MANIFEST v1.2 (2026-10-29, character identity hard lock)
+
+All Bell & Leaf Slow English A2 shots MUST load the **user-approved original-source identity authority** from [canon/CHARACTER_CURRENT_SOURCE_LOCK_V1_2.json](canon/CHARACTER_CURRENT_SOURCE_LOCK_V1_2.json) and its original file SHA-256. Verify bytes before accepting them as actual references. See [canon/PIXEL_PROVENANCE_QC_V1_2.json](canon/PIXEL_PROVENANCE_QC_V1_2.json) and [canon/FINAL_QC_REPORT_V1_2.md](canon/FINAL_QC_REPORT_V1_2.md).
+
+The full source PNG asset kit is stored persistently in user's CINE Library at `/CINE/Slow_English_A2/Character_Reference_Packs/CINE_BELL_LEAF_CANON_SOURCE_LOCK_V1_2.zip`; these 22 PNGs are **not** committed to this text-only GitHub branch. When device is available, use `scripts/install_character_canon_into_cine_v1_2.py` to verify and install them into local CINE. If missing/unverified, report `CANON_SOURCE_NOT_INSTALLED` and do NOT silently generate new random identities.
+
+**Status distinctions are non-negotiable**:
+- 10 original sheets: `USER_APPROVED_SOURCE_IDENTITY` — immutable identity reference for future generations.
+- 10 extracted source masters: `SOURCE_EXACT_PIXEL_VERIFIED` — 10/10 full RGB exact-crop checks; identity matches source **only for visible pixels**, not a new-angle approval.
+- Bubu supplemental HERO and SPARKLING-TAIL reference: use both to avoid the original low-resolution cropped master losing the glow or the spiral.
+- 10 generated replacement multi-panel sheets: `REVIEW_REQUIRED_NOT_CANON`, none authorized to replace user originals.
+- 270 proposed independent Muse angle/expression renders: still `PENDING_NEW_RENDER`.
+- Any location still without an approved plate: BLOCK final production shot, even if character's source identity was locked.
+
+**Mandatory precedence:** ORIGINAL SOURCE > exact source crop and Bubu sparkle detail > independently human-approved new angle/pose/expression > words-only prompt. Do not mark a generative output as identity-verified just because its seed, title, SHA or input character reference matches; SHA validates file identity, NOT facial likeness for newly generated pixels. Never promote new variant without source/target side-by-side review and human acceptance.
