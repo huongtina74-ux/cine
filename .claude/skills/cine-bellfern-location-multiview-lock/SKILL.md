@@ -2,7 +2,7 @@
 name: cine-bellfern-location-multiview-lock
 version: "1.2.0-proposed"
 description: "MANDATORY CINE Bell & Leaf location/prop multi-angle identity and camera topology lock for image generation, Muse I2V 10s, character canon, lighting and production QA."
-status: "GITHUB REVIEW BRANCH — LOCATION IMAGES NOT CANON-APPROVED"
+status: "INSTALLED IN GITHUB MAIN — LOCATION IMAGES NOT CANON-APPROVED"
 ---
 
 # CINE / Bellfern — Location Identity & Multi-Angle Reference Skill
@@ -59,4 +59,4 @@ Inputs: `episode_id`, `script_lock_id`, `shot_id`, `site_id`, `space_id`, `appro
 - Muse fixed 10.00 seconds, one continuous take, original reference first-frame + pre-defined end frame when supported, actor animation and real lip sync using externally locked voice WAV. Camera-only zoom does not satisfy action. Check at least start/middle/end frames, dialogue and original props.
 - Generated storyboard/collage/infographic/mockup is NOT a production camera plate; scenic image must be one clean independent 16:9 plate. Any concept contradicting Bell & Leaf (e.g., resort/villa/pool or excessive amber tint) must be rejected, never stored as approved location.
 - Before generating, consult `registry/CINE_LOCATION_PROP_REGISTRY_v1_1_DRAFT.json` for 12 site/69 space/108 prop IDs, `registry/LOCATION_MULTIVIEW_MANIFEST.csv` and `registry/PROP_MULTIVIEW_MANIFEST.csv` for outstanding plates, and `templates/MUSE_I2V_10S_SHOT_CONTRACT.md` for shot schema.
-- The production studio should consume this skill only after its branch is reviewed and merged; a GitHub branch does not install it onto an offline PC automatically.
+- This skill is available in the repository main branch. It will reach the Windows machine only after a successful git pull/deployment; presence in GitHub is not proof of runtime installation.
