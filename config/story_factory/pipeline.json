@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "name": "CINE Script Factory",
+  "version": "0.1.0",
+  "owner_standard": "docs/CINE_PER_NICHE_A_B_C_D_OWNER_STANDARD_20261028.md",
+  "niche_registry": "config/research/per_niche/niches.json",
+  "modes": [
+    "ORIGINAL_FICTION",
+    "COZY_FICTION",
+    "HISTORY_SLEEP",
+    "SCIENCE_SLEEP",
+    "EDUCATION",
+    "SOFTWARE_TUTORIAL",
+    "A2_ANIMATED_SCREENPLAY"
+  ],
+  "modes_require_claim_ledger": [
+    "HISTORY_SLEEP",
+    "SCIENCE_SLEEP",
+    "EDUCATION",
+    "SOFTWARE_TUTORIAL"
+  ],
+  "stages": [
+    {
+      "id": "research",
+      "owner": "research-director",
+      "skill": "cine-per-niche-radar",
+      "requires": [],
+      "artifacts": [
+        "01_research/evidence.json"
+      ]
+    },
+    {
+      "id": "insights",
+      "owner": "audience-strategist",
+      "skill": "cine-research-evidence",
+      "requires": [
+        "research"
+      ],
+      "artifacts": [
+        "02_insights/audience_insights.json"
+      ]
+    },
+    {
+      "id": "concepts",
+      "owner": "concept-director",
+      "skill": "cine-story-insight-transfer",
+      "requires": [
+        "insights"
+      ],
+      "artifacts": [
+        "03_concepts/portfolio.json"
+      ]
+    },
+    {
+      "id": "story",
+      "owner": "showrunner",
+      "skill": "cine-story-development",
+      "requires": [
+        "concepts"
+      ],
+      "artifacts": [
+        "04_story/story_dna.json"
+      ]
+    },
+    {
+      "id": "outline",
+      "owner": "narrative-architect",
+      "skill": "cine-story-development",
+      "requires": [
+        "story"
+      ],
+      "artifacts": [
+        "05_outline/beat_sheet.json"
+      ]
+    },
+    {
+      "id": "script",
+      "owner": "senior-writer",
+      "skill": "cine-longform-narration-writing",
+      "requires": [
+        "outline"
+      ],
+      "artifacts": [
+        "06_script/script.md"
+      ]
+    },
+    {
+      "id": "review",
+      "owner": "independent-reviewer",
+      "skill": "cine-script-doctor",
+      "requires": [
+        "script"
+      ],
+      "artifacts": [
+        "07_review/creative_review.json",
+        "07_review/compliance_review.json"
+      ]
+    },
+    {
+      "id": "final",
+      "owner": "showrunner",
+      "skill": "cine-script-factory",
+      "requires": [
+        "review"
+      ],
+      "artifacts": [
+        "08_final/final_script.md",
+        "08_final/audio_handoff.json"
+      ]
+    }
+  ],
+  "constraints": {
+    "min_unique_concepts": 5,
+    "require_independent_reviewer": true,
+    "require_reviewed_script_hash_match": true,
+    "script_is_not_youtube_approval": true,
+    "no_video_ai_credits_required": true,
+    "never_overwrite_unrelated_files": true
+  },
+  "specializations": {
+    "A2_ANIMATED_SCREENPLAY": {
+      "niche_id": "magical_witch_family_stories",
+      "parent_niche_id": "slow_english_a2_story",
+      "series_id": "bell_leaf",
+      "project_id": "slow_english_a2_bell_leaf",
+      "target_minutes": [
+        30,
+        50
+      ],
+      "skill_graph": "config/story_factory/a2_bell_leaf_skill_graph.json",
+      "requires_original_fountain_screenplay": true,
+      "narrator_allowed": false,
+      "production_authorization": false
+    }
+  }
+}
