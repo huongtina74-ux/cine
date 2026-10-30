@@ -1,0 +1,157 @@
+{
+  "schema": "cine.a2.character_visual_description.draft.v1.1.r1",
+  "source": "visual inspection of user-provided character sheets; text is supportive metadata, original image/hash is authoritative",
+  "review_state": "DRAFT_NEEDS_CANON_APPROVAL",
+  "characters": [
+    {
+      "tag": "bo",
+      "name": "Evan",
+      "role": "father, ordinary postman",
+      "face": "young adult male, wavy dark chestnut hair, soft stubble, gentle brown eyes, warm reserved smile",
+      "silhouette": "medium-tall adult in navy work jacket with burgundy neck scarf, leather cross-body postal satchel",
+      "locks": [
+        "No magical face markings",
+        "Keep postal identity grounded",
+        "Clothes can vary only via reviewed outfit refs"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "me",
+      "name": "Mara",
+      "role": "mother, secret witch",
+      "face": "adult woman, chestnut curly hair in layered braids and loose strands, expressive brown eyes and soft freckles",
+      "silhouette": "layered cream blouse and deep blue-green embroidered outer dress with leather belt and purposeful workshop pouches",
+      "locks": [
+        "Distinct from Lia despite shared curly hair",
+        "Secret magic hidden from Evan and paternal grandparents",
+        "Do not add new magical pendants or bell tools"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "juno",
+      "name": "Juno",
+      "role": "13-year-old inventive older brother",
+      "face": "teen boy, tousled chestnut brown curls, curious brown eyes, youthful freckled face",
+      "silhouette": "navy explorer jacket, practical leather belt, utility bag, goggles as situational accessory",
+      "locks": [
+        "Teen proportions not adult male face",
+        "Bix is his small companion",
+        "No randomized hair/outfit in intercut shots"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "Lia",
+      "name": "Lia",
+      "role": "11-year-old younger sister, animal empath",
+      "face": "child girl, voluminous long chestnut curly hair, round expressive amber-brown eyes, freckles, floral hair ribbons",
+      "silhouette": "layered white floral dress with red-blue trim, leather small satchel and brown ankle boots",
+      "locks": [
+        "Child proportions never adult glamour model",
+        "Keep freckles, curls and distinctive outfit",
+        "Bubu is companion; do not substitute another purple cat"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "bubu",
+      "name": "Bubu",
+      "role": "purple feline bell spirit",
+      "face": "small purple cat, large luminous amber-gold eyes, pale cream muzzle and chest, pink inner ears",
+      "silhouette": "compact cat with very large spiraled fluffy purple tail and small purple/gold collar bell",
+      "locks": [
+        "Exactly one approved collar bell",
+        "No change in species",
+        "Tail curl shape remains recognizable"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "bix",
+      "name": "Bix",
+      "role": "small mechanical turtle-pangolin field repair companion",
+      "face": "round pale cream snout/face with large brown eyes and expressive eye lids",
+      "silhouette": "squat four-footed teal and warm brass articulated shell with small utility pack and delicate mechanical manipulator",
+      "locks": [
+        "NO BELL even if candidate sheet has one",
+        "Mechanical limbs, not plush animal paws",
+        "No transforming into full-sized dinosaur"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "ongngoai",
+      "name": "Orin",
+      "role": "maternal wizard grandfather",
+      "face": "elderly man with long wavy silver-white hair, white beard, expressive kind eyes",
+      "silhouette": "blue/navy patterned explorer robe over practical clothing, worn travel pack, single personal travel bell",
+      "locks": [
+        "Distinct from paternal grandfather",
+        "Keep one travel bell, not necklaces of bells",
+        "Same white beard and hair silhouette"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "bangoai",
+      "name": "maternal grandmother",
+      "role": "dispersed Veylora relative",
+      "face": "elderly woman with luminous silver/white hair styled in long braids, warm gentle facial features",
+      "silhouette": "deep blue and cream layered embroidered witch/traveler dress and leather accessories",
+      "locks": [
+        "Status and location of this character governed by mystery canon",
+        "Do not invent her reunion or visibility",
+        "Avoid random magic staff/bells before approval"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "ongnoi",
+      "name": "paternal grandfather",
+      "role": "ordinary Earth grandfather",
+      "face": "elderly smiling man, round wire spectacles, light gray hair, brown tweed flat cap",
+      "silhouette": "shorter stocky elderly body, tweed jacket and sweater vest, small bow tie, brown trousers",
+      "locks": [
+        "Not Orin, no magic",
+        "Keep glasses and tweed cap",
+        "Do not assign wizard coat or travel bell"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    },
+    {
+      "tag": "banoi",
+      "name": "paternal grandmother",
+      "role": "ordinary Earth grandmother",
+      "face": "elderly woman with short gray-white curled hair, gentle eyes behind round glasses",
+      "silhouette": "red floral knitted cardigan, pale patterned dress, comfortable shoes, basket optional",
+      "locks": [
+        "Not maternal grandmother",
+        "Keep warm home style without magical ornaments",
+        "No knowledge of family magic"
+      ],
+      "priority": "original approved image > reviewed master angle > descriptive note > generative prior",
+      "source_media_id": null,
+      "approved_master_asset_id": null
+    }
+  ]
+}

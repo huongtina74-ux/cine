@@ -1,0 +1,337 @@
+{
+  "schema": "cine.bell_leaf.canon_source_lock.v1.2",
+  "project_id": "slow_english_a2_bell_leaf",
+  "generated_at_utc": "2026-10-29T13:27:42.912621+00:00",
+  "policy": "SOURCE_MASTERS_LOCKED; NEW_AI_GENERATED_VIEWS_NOT_APPROVED",
+  "user_reference_approval": "Original user-uploaded sheets repeatedly confirmed as face/body canon in conversation",
+  "tags": [
+    "bo",
+    "me",
+    "juno",
+    "Lia",
+    "bubu",
+    "bix",
+    "ongngoai",
+    "bangoai",
+    "ongnoi",
+    "banoi"
+  ],
+  "characters": {
+    "bo": {
+      "display_name": "bo",
+      "locked_identity_original": {
+        "path": "assets/originals/bo_SOURCE_CANON.png",
+        "sha256": "0635e06d425b656098c4eb200557c939b35d86c1bb3213f8385935478ff1f590",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/bo_EXACT_SOURCE_CROP.png",
+        "sha256": "9d26d4b43d927e511106c9312863e770ec45727119fb4c823a44bf6f8186f460",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          2,
+          145
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "a2f1accdd21d05d61567de11eef9df4b6c1b75af7909804e86e4a358ab07e83c",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "bo",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "me": {
+      "display_name": "me",
+      "locked_identity_original": {
+        "path": "assets/originals/me_SOURCE_CANON.png",
+        "sha256": "02f15c86cae4caba26da5fb9660958f1df71c5a29d8ae6c51d78f347dadfed97",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/me_EXACT_SOURCE_CROP.png",
+        "sha256": "52f3aa35357a2053a8d27e330a9d3d6470d3ebd57933e6028ad1c481b2c60c60",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          1,
+          128
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "289876db3a49d0dbc3938439a8fbb7d080223c1b100a09bb7a4641eec4281c17",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "me",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "juno": {
+      "display_name": "juno",
+      "locked_identity_original": {
+        "path": "assets/originals/juno_SOURCE_CANON.png",
+        "sha256": "6dd5ae8799384526deffda45d12257118383f8c6424d5ff20cf6d2d0a1164aed",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/juno_EXACT_SOURCE_CROP.png",
+        "sha256": "d4f19cbb397352b720973030d0e1a6b300e27ba7fa50f4c6990e81870d900c5f",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          2,
+          128
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "b127fba79bc06a0f61d72a0b007cf5ae4ea06d3179c6710662127f33fc579897",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "juno",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "Lia": {
+      "display_name": "Lia",
+      "locked_identity_original": {
+        "path": "assets/originals/Lia_SOURCE_CANON.png",
+        "sha256": "3f29c9ba2efa554d677bed50f1d65825df4c6e44d449dfacc87967628b2f61d0",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/Lia_EXACT_SOURCE_CROP.png",
+        "sha256": "819629feb7c91cc09846a492ed09bb5325268e98c681e9c40523eb7864404d3f",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          40,
+          710
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "944ab06cb0a163ab0ebf6b2784981293aa8fd3acbe550bd92a58eb7ebdc26c83",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "Lia",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "bubu": {
+      "display_name": "bubu",
+      "locked_identity_original": {
+        "path": "assets/originals/bubu_SOURCE_CANON.png",
+        "sha256": "d27cc64c583edfc0b5fdee0011f0ef6b1f904be9cb4ee879c7ee967affe34b34",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/bubu_EXACT_SOURCE_CROP.png",
+        "sha256": "8d079974a53b60c1c7dec403ab40b0dac1e95ca488bdbefa37744f998a4785f7",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          5,
+          674
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED",
+        "limitation": "Existing 205px-ish frontal crop does not show fully glowing spiral tail; never use it without original sheet and mandatory sparkle reference."
+      },
+      "generated_candidate_sheet": {
+        "sha256": "ee28823ba0d8810099a04aa99b3309dfa10814a8f8c0a818365d74991c0388e5",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "bubu",
+      "mandatory_visual_cues": [
+        {
+          "purpose": "TAIL_SPARKLE_DETAIL_SOURCE",
+          "file": "assets/masters/bubu_TAIL_SPARKLE_DETAIL_SOURCE.png",
+          "sha256": "a288cb7b3b6171f0ce69365acfcb59533258a87a48cb7512bf872c6086deb80a",
+          "origin_xy": [
+            10,
+            172
+          ],
+          "pixel_provenance_verified": true,
+          "requirement": "preserve exact golden-eye face, spiral purple tail and magical sparkle particles"
+        },
+        {
+          "purpose": "HERO_FACE_AND_BODY_SOURCE",
+          "file": "assets/masters/bubu_HERO_FACE_AND_BODY_SOURCE.png",
+          "sha256": "74959932e2a781497766c2f7e59bbc7c51aa43d424e4b2632a6a73d3465dec7a",
+          "origin_xy": [
+            300,
+            22
+          ],
+          "pixel_provenance_verified": true,
+          "requirement": "preserve exact golden-eye face, spiral purple tail and magical sparkle particles"
+        }
+      ],
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "bix": {
+      "display_name": "bix",
+      "locked_identity_original": {
+        "path": "assets/originals/bix_SOURCE_CANON.png",
+        "sha256": "378c0812da87817fd3d2f3c5bec878d4020fd4cae569d0bb0fb4641180df5055",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/bix_EXACT_SOURCE_CROP.png",
+        "sha256": "a1d1f49cd9a39607b57acbd5002ac108cb6a53fbdca08f1f06e06f5eb3900dcc",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          366,
+          70
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "e63bb6afb927c8c871b932d2d977cf1a155e5cf191f1cd6de0d671a720a9bfe7",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "bix",
+      "visual_canon_important": "NO BELL: ignore source sheet prop-detail panel depicting a bell; approved narrative rules override this contradictory concept detail.",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "ongngoai": {
+      "display_name": "ongngoai",
+      "locked_identity_original": {
+        "path": "assets/originals/ongngoai_SOURCE_CANON.png",
+        "sha256": "360bf5f96b6b666ed13e0460e019d2a38832286b0a38b526dcc28f121ac77e31",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/ongngoai_EXACT_SOURCE_CROP.png",
+        "sha256": "3df0e8269055e33ee6b27f24d4fbdd4c209ffaec86ff7872fbb65572fee04fc7",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          2,
+          54
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "f0da76229f0f6eba050e4c858203090ae41aadc284d8b62095fa5ac6218ba4dd",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "ongngoai",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "bangoai": {
+      "display_name": "bangoai",
+      "locked_identity_original": {
+        "path": "assets/originals/bangoai_SOURCE_CANON.png",
+        "sha256": "e3841a9b6f9a3257ff2e726e77910c1db3e4282db8a5a3bbd04d0383fc9c5602",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/bangoai_EXACT_SOURCE_CROP.png",
+        "sha256": "85baf209bcc6178b7ace98cbddecdeeab967b33d819bb3e1bfc5c6f76bcc2b8f",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          1,
+          60
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "2a41b1314968603b998d1c262b5ec6d49fc76d197cca67cfdfc1441a9759324f",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "bangoai",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "ongnoi": {
+      "display_name": "ongnoi",
+      "locked_identity_original": {
+        "path": "assets/originals/ongnoi_SOURCE_CANON.png",
+        "sha256": "badd18ba2b5ace1d45682a84ffd14911d19ee417a4f7da7c333ae9a3ea1c8bae",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/ongnoi_EXACT_SOURCE_CROP.png",
+        "sha256": "f27154f6cb0f138352fe41b6ebd72e8a8d0195a1dd5dbcceebc78cb766242bca",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          4,
+          123
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "41779593a4758cfbd78d079127ae4a86641c788540d99443de9245691511a970",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "ongnoi",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    },
+    "banoi": {
+      "display_name": "banoi",
+      "locked_identity_original": {
+        "path": "assets/originals/banoi_SOURCE_CANON.png",
+        "sha256": "ba6b40f0c67a1dcf64411179eed659e9dfd510795f4d10e881f20f834b4dbe30",
+        "status": "USER_APPROVED_SOURCE_IDENTITY"
+      },
+      "source_master_crop": {
+        "path": "assets/masters/banoi_EXACT_SOURCE_CROP.png",
+        "sha256": "85b2c1a69b8116eaf87efee830beeece857bbf6e5c50cfbac28ad3e33ce81d95",
+        "verified_exact_pixels_from_original": true,
+        "source_xy": [
+          2,
+          126
+        ],
+        "status": "SOURCE_EXACT_PIXEL_VERIFIED"
+      },
+      "generated_candidate_sheet": {
+        "sha256": "590293ebc82b491cc5c7a73abede51da328e6169c07fa77f542cfcfce0e7234e",
+        "status": "REVIEW_REQUIRED_NOT_CANON"
+      },
+      "approved_new_ai_images": [],
+      "production_lock_status": "ORIGINAL_SOURCE_LOCKED",
+      "missing_views_status": "MUSE_NEW_ANGLES_PENDING_QC",
+      "character_tag": "banoi",
+      "generation_policy": "Source images and exact crops are identity references only; any newly synthesized multi-angle view MUST be individually approved before becoming canon.",
+      "source_status": "SOURCE_IDENTITY_LOCKED",
+      "rendered_multiangle_status": "PENDING_HUMAN_QC"
+    }
+  }
+}

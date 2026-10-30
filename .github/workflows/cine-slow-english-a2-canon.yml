@@ -1,0 +1,40 @@
+name: CINE Slow English A2 — Canon & Asset Queue
+on:
+  pull_request:
+    paths:
+      - 'cinefactory/studio/slow_english_a2.py'
+      - 'config/niches/slow_english_a2/**'
+      - '.claude/skills/cine-a2-fixed10s-asset-bridge/**'
+      - '.claude/skills/cine-a2-muse-reference-anchoring/**'
+      - '.claude/skills/cine-bellfern-location-multiview-lock/**'
+      - 'tests/test_slow_english_a2_canon.py'
+  push:
+    branches: [main]
+    paths:
+      - 'cinefactory/studio/slow_english_a2.py'
+      - 'config/niches/slow_english_a2/**'
+      - '.claude/skills/cine-a2-fixed10s-asset-bridge/**'
+      - '.claude/skills/cine-a2-muse-reference-anchoring/**'
+      - '.claude/skills/cine-bellfern-location-multiview-lock/**'
+      - 'tests/test_slow_english_a2_canon.py'
+jobs:
+  canon-contracts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image verification dependency
+        run: python -m pip install -e . 'Pillow>=10,<13'
+      - name: Validate syntax and canonical routing
+        run: |
+          python -m compileall -q cinefactory/studio/slow_english_a2.py .claude/skills/cine-a2-fixed10s-asset-bridge/scripts scripts/slow_english_a2_preflight.py
+          PYTHONPATH=. python -m unittest discover -s tests -p test_slow_english_a2_canon.py -v
+          PYTHONPATH=. python -m unittest discover -s .claude/skills/cine-a2-fixed10s-asset-bridge/tests -p test_asset_bridge.py -v
+      - name: Ensure no real image was falsely marked approved
+        run: |
+          python .claude/skills/cine-a2-fixed10s-asset-bridge/scripts/audit_and_import.py --render-root .claude/skills/cine-a2-fixed10s-asset-bridge --out /tmp/a2_readiness.json
+          python -c 'import json; j=json.load(open("/tmp/a2_readiness.json")); assert j["independent_plates"]["expected"] == 1239; assert j["independent_plates"]["approved_with_human_evidence"] == 0'

@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CINE Bell & Leaf Character Current Pointers",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "project_id",
+    "series",
+    "characters"
+  ],
+  "properties": {
+    "schema": {
+      "const": "cine.a2.character_current.v1.1"
+    },
+    "project_id": {
+      "const": "slow_english_a2_bell_leaf"
+    },
+    "series": {
+      "const": "Bell & Leaf"
+    },
+    "characters": {
+      "type": "object",
+      "required": [
+        "bo",
+        "me",
+        "juno",
+        "Lia",
+        "bubu",
+        "bix",
+        "ongngoai",
+        "bangoai",
+        "ongnoi",
+        "banoi"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "bo": {
+          "$ref": "#/$defs/character"
+        },
+        "me": {
+          "$ref": "#/$defs/character"
+        },
+        "juno": {
+          "$ref": "#/$defs/character"
+        },
+        "Lia": {
+          "$ref": "#/$defs/character"
+        },
+        "bubu": {
+          "$ref": "#/$defs/character"
+        },
+        "bix": {
+          "$ref": "#/$defs/character"
+        },
+        "ongngoai": {
+          "$ref": "#/$defs/character"
+        },
+        "bangoai": {
+          "$ref": "#/$defs/character"
+        },
+        "ongnoi": {
+          "$ref": "#/$defs/character"
+        },
+        "banoi": {
+          "$ref": "#/$defs/character"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "anchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "asset_id",
+        "file",
+        "sha256",
+        "status"
+      ],
+      "properties": {
+        "asset_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "status": {
+          "enum": [
+            "SOURCE_ONLY",
+            "PENDING_REVIEW",
+            "APPROVED_FOR_REFERENCE",
+            "REJECTED"
+          ]
+        },
+        "approved_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "character": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "display_name",
+        "source_original",
+        "approved_assets",
+        "pending_new_render_slots",
+        "approval_state"
+      ],
+      "properties": {
+        "display_name": {
+          "type": "string"
+        },
+        "source_original": {
+          "$ref": "#/$defs/anchor"
+        },
+        "approved_assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/anchor"
+          }
+        },
+        "pending_new_render_slots": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "approval_state": {
+          "enum": [
+            "DRAFT",
+            "REVIEW_REQUIRED",
+            "APPROVED_FOR_REFERENCE"
+          ]
+        }
+      }
+    }
+  }
+}

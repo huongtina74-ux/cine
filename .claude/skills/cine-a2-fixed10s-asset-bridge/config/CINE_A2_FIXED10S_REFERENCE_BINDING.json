@@ -1,0 +1,80 @@
+{
+  "schema": "cine.a2.fixed10s.asset_bridge.v2",
+  "project_id": "slow_english_a2_bell_leaf",
+  "alias": [
+    "Bell & Leaf",
+    "Family Magic Slow English A2"
+  ],
+  "shot_duration_seconds": 10,
+  "video_provider_duration_contract_verified": false,
+  "source_assets": {
+    "characters": "source_archives/CINE_BELL_LEAF_CANON_SOURCE_LOCK_V1_2_FINAL.zip",
+    "location_concept_sheets": "source_archives/CINE_BELLFERN_12_LOCATION_CONCEPT_SHEETS_DRAFT.zip",
+    "room_manifest": ".claude/skills/cine-bellfern-location-multiview-lock/registry/LOCATION_MULTIVIEW_MANIFEST.csv",
+    "prop_manifest": ".claude/skills/cine-bellfern-location-multiview-lock/registry/PROP_MULTIVIEW_MANIFEST.csv",
+    "source_registry": ".claude/skills/cine-bellfern-location-multiview-lock/registry/CINE_LOCATION_PROP_REGISTRY_v1_1_DRAFT.json"
+  },
+  "still_image_targets": {
+    "room_angles": 483,
+    "prop_angles": 756,
+    "total": 1239,
+    "rendered_production_approved": 0
+  },
+  "character_tags": [
+    "bo",
+    "me",
+    "juno",
+    "Lia",
+    "bubu",
+    "bix",
+    "ongngoai",
+    "bangoai",
+    "ongnoi",
+    "banoi"
+  ],
+  "episode_core_characters": [
+    "bo",
+    "me",
+    "juno",
+    "Lia",
+    "bubu",
+    "bix",
+    "ongngoai",
+    "ongnoi",
+    "banoi"
+  ],
+  "conditional_character": "bangoai",
+  "quality": {
+    "single_full_bleed_16_9": true,
+    "no_panels_or_subtitles": true,
+    "neutral_D55_5500K": true,
+    "no_global_yellow_cast": true,
+    "true_physical_reverse_angle": true,
+    "character_identity_lock": true,
+    "location_topology_lock": true,
+    "bubu_spiral_tail_sparkles": true,
+    "bix_has_no_bell": true
+  },
+  "reference_resolver_policy": {
+    "character_tags": "strict_structured_per_shot_only",
+    "location_id": "must_match_approved_site_and_space",
+    "if_approved_location_missing": "BLOCK_PRODUCTION",
+    "if_approved_voice_wav_missing": "BLOCK_SPOKEN_VIDEO_PRODUCTION",
+    "never_set_current_pointer_without_human_approval": true
+  },
+  "eight_skill_mapping": {
+    "cine-a2-orchestrator": "Require asset readiness report before episode job starts",
+    "cine-a2-script-director": "Preserve A2 lines and location/character IDs; no invented visual canon",
+    "cine-a2-shot-director": "Exactly 10 seconds per planned shot; select physical camera view by coordinates, not mirrored image",
+    "cine-character-continuity": "Use exact original source images and approved generated view IDs, with Bubu sparkle anchor",
+    "cine-voice-performance": "Distinct approved voice WAV and matching transcript per speaking character; do not infer actual voice from image prompts",
+    "cine-muse-image": "Generate one isolated 16:9 image from approved character/location refs; one prompt per line and exactly one blank line between prompts",
+    "cine-muse-video": "10s image-to-video animation with independently verified physical movement; lip sync only where WAV conditioning validated",
+    "cine-a2-production-qc": "Reject if source missing, character drift, camera reverse mirrored, multi-panel output, embedded text, 10s mismatch, or WAV missing"
+  },
+  "readiness": "NOT_READY_ASSET_GATED",
+  "character_canon_source_locked": true,
+  "new_generated_angles_approved": false,
+  "real_WAV_samples_verified": false,
+  "muse_10s_E2E_verified": false
+}

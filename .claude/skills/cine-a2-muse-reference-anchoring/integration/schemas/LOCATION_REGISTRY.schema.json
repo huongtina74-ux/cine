@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CINE Bellfern Location Current Pointers",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "project_id",
+    "locations"
+  ],
+  "properties": {
+    "schema": {
+      "const": "cine.a2.location_current.v1.1"
+    },
+    "project_id": {
+      "const": "slow_english_a2_bell_leaf"
+    },
+    "locations": {
+      "type": "object",
+      "required": [
+        "BELL",
+        "ORIN",
+        "ROSE",
+        "SCHOOL",
+        "SQUARE",
+        "POST",
+        "LIBRARY",
+        "BRIDGE",
+        "FOREST",
+        "BAKERY",
+        "STATION",
+        "LAKE"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "BELL": {
+          "$ref": "#/$defs/location"
+        },
+        "ORIN": {
+          "$ref": "#/$defs/location"
+        },
+        "ROSE": {
+          "$ref": "#/$defs/location"
+        },
+        "SCHOOL": {
+          "$ref": "#/$defs/location"
+        },
+        "SQUARE": {
+          "$ref": "#/$defs/location"
+        },
+        "POST": {
+          "$ref": "#/$defs/location"
+        },
+        "LIBRARY": {
+          "$ref": "#/$defs/location"
+        },
+        "BRIDGE": {
+          "$ref": "#/$defs/location"
+        },
+        "FOREST": {
+          "$ref": "#/$defs/location"
+        },
+        "BAKERY": {
+          "$ref": "#/$defs/location"
+        },
+        "STATION": {
+          "$ref": "#/$defs/location"
+        },
+        "LAKE": {
+          "$ref": "#/$defs/location"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "display_name",
+        "site_id",
+        "spaces",
+        "status"
+      ],
+      "properties": {
+        "display_name": {
+          "type": "string"
+        },
+        "site_id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "DRAFT_TOPOLOGY",
+            "REVIEW_REQUIRED",
+            "APPROVED_FOR_REFERENCE"
+          ]
+        },
+        "spaces": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/space"
+          }
+        }
+      }
+    },
+    "space": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "display_name",
+        "views",
+        "approval_state"
+      ],
+      "properties": {
+        "display_name": {
+          "type": "string"
+        },
+        "views": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/view"
+          }
+        },
+        "approval_state": {
+          "enum": [
+            "DRAFT_TOPOLOGY",
+            "PENDING_NOT_GENERATED",
+            "REVIEW_REQUIRED",
+            "APPROVED_FOR_REFERENCE"
+          ]
+        }
+      }
+    },
+    "view": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "asset_id",
+        "file",
+        "sha256",
+        "status"
+      ],
+      "properties": {
+        "asset_id": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "status": {
+          "const": "APPROVED_FOR_REFERENCE"
+        },
+        "approved_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "approved_at": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

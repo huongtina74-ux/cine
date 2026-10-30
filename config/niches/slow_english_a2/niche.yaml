@@ -1,0 +1,21 @@
+niche_id: slow_english_a2
+project_id: slow_english_a2_bell_leaf
+display_name: Bell & Leaf — Slow English A2 Magic Family
+status: ASSET_GATED_NOT_PRODUCTION_READY
+project_profile: config/niches/slow_english_a2/production.json
+shared_capabilities:
+  - studio_kernel
+  - research_intelligence
+  - writers_room
+  - character_and_location_canon
+  - cinematography_and_direction
+  - audio_and_voice
+  - editorial_and_color
+  - qc_and_youtube_analytics
+niche_specific_rules:
+  - no_narrator
+  - use_only_explicit_active_character_tags
+  - every_shot_exactly_10_seconds
+  - native_single_frame_16_9
+  - bubu_sparkling_spiral_tail
+  - bix_no_bell
