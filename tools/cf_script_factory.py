@@ -86,7 +86,7 @@ def initialize(args):
     write_json(path / "manifest.json", manifest)
     (path / "audit.jsonl").touch()
     for stage in settings["stages"]:
-        for rel in stage["artifacts"]:
+        for rel in stage_files(path, settings, stage):
             (path / rel).parent.mkdir(parents=True, exist_ok=True)
     print(json.dumps({"status": "initialized", "project_dir": str(path),
                       "stages": [s["id"] for s in settings["stages"]]}, indent=2))

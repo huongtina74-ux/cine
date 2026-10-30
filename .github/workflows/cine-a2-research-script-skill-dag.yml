@@ -1,0 +1,35 @@
+name: CINE A2 Research-to-Screenplay Skill DAG
+on:
+  pull_request:
+    paths:
+      - '.claude/skills/r0*/**'
+      - '.claude/skills/s0*/**'
+      - '.claude/skills/s1*/**'
+      - '.claude/skills/cine-script-factory/**'
+      - 'config/story_factory/**'
+      - 'config/research/per_niche/**'
+      - 'tools/cf_script_factory.py'
+      - 'tools/cf_a2_story_contract.py'
+      - 'tests/test_cine_a2_script_factory_graph.py'
+  push:
+    branches: [main]
+    paths:
+      - 'config/story_factory/**'
+      - 'tools/cf_script_factory.py'
+      - 'tools/cf_a2_story_contract.py'
+      - 'tests/test_cine_a2_script_factory_graph.py'
+jobs:
+  causal-skill-dag:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile and verify actual 21-node handoffs
+        run: |
+          python -m compileall -q tools/cf_script_factory.py tools/cf_a2_story_contract.py
+          python tools/cf_a2_story_contract.py
+          python -m unittest discover -s tests -p test_cine_a2_script_factory_graph.py -v
