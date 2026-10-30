@@ -1,0 +1,34 @@
+name: CINE A2 — One Master Skill Runtime
+on:
+  pull_request:
+    paths:
+      - '.claude/skills/cine-script-factory/**'
+      - 'tools/cf_a2_master_skill.py'
+      - 'tools/cf_script_factory.py'
+      - 'config/story_factory/a2_bell_leaf_skill_graph.json'
+      - 'tests/test_cine_a2_master_skill.py'
+      - 'CLAUDE.md'
+  push:
+    branches: [main]
+    paths:
+      - '.claude/skills/cine-script-factory/**'
+      - 'tools/cf_a2_master_skill.py'
+      - 'tools/cf_script_factory.py'
+      - 'tests/test_cine_a2_master_skill.py'
+jobs:
+  master-skill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile and verify actual Master Skill and 21-role handoffs
+        run: |
+          python -m compileall -q tools/cf_a2_master_skill.py tools/cf_script_factory.py
+          python tools/cf_a2_story_contract.py
+          python -m unittest discover -s tests -p test_cine_a2_master_skill.py -v
+          python -m unittest discover -s tests -p test_cine_a2_script_factory_graph.py -v
+          python -m unittest discover -s tests -p test_cine_a2_director_bridge.py -v
