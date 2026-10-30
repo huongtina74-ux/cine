@@ -19,3 +19,7 @@ Every scene uses explicit `activeCharacterTags` only, `location_id`, `space_id`,
 Use `cinefactory.studio.slow_english_a2.BellLeafCanon` for verified source reference routing. Flow first frames and Muse video prompts remain separate; image prompts must be one physical line each with exactly one blank line between jobs. Raw frames 16:9 full-bleed; no subtitles, text, contact sheets or global amber grade. Voice must use a rights-cleared approved WAV per speaker; lipsync provider capability must be verified with actual media.
 
 Historical PR #2 Location and PR #3 Character were superseded by PR #4, which was merged into main; PR #5 added the ten voice casting descriptions. Physical multi-view plates and approved WAVs remain outstanding.
+
+## Official Master Skill
+
+One entrypoint for Bell & Leaf research-to-script: `.claude/skills/cine-script-factory/SKILL.md`. To resume existing CINE episode work: `python tools/cf_a2_master_skill.py next --id EPISODE_ID`; after an agent actually creates the specified artifacts, run `record`, then the original Script Factory human-reviewed stage gate. This is one CINE workflow, not another project.

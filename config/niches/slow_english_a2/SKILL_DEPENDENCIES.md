@@ -11,3 +11,7 @@ The owner's ZIP skillpack contained eight specialist specifications, NOT eight f
 8. CINE Orchestrator → existing Studio Kernel/Company Runner; optional CLI in scripts/slow_english_a2_preflight.py.
 
 This PR integrates data definitions and an actual **read-only preflight** into one repo. The legacy full prompt compiler from the separate ZIP must still be imported and reconciled with the real CINE company runner before claiming one-click auto-production. The Desktop Commander device was offline at the audit. No new standalone CINE OS is authorized.
+
+## The single authoritative Master Skill
+
+Use only `.claude/skills/cine-script-factory/SKILL.md` as the public Bell & Leaf entrypoint. The 21 original A2 specialist skills are internal professional roles in `config/story_factory/a2_bell_leaf_skill_graph.json`. `tools/cf_a2_master_skill.py` dispatches them and records SHA-bound output receipts in the existing episode directory, while `tools/cf_script_factory.py` retains real stage gates and `tools/cf_a2_director_bridge.py` retains 10-second director intake. Status/PASS on file contracts never substitutes independent human A2/creative/Canon approval.
