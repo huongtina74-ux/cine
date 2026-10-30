@@ -204,6 +204,9 @@ def status(args):
             for rel in stage_files(base,settings,stage):
                 inspect_file(base,rel)
             validate_content(base,settings,stage)
+            if manifest["mode"] == "A2_ANIMATED_SCREENPLAY":
+                from cf_a2_master_skill import require_stage_ready
+                require_stage_ready(base,sid,manifest)
             for d in stage["requires"]:
                 if verdicts.get(d)!="PASS":
                     raise ValueError("upstream stage changed: "+d)
@@ -235,6 +238,9 @@ def advance(args):
         raise ValueError("Writer cannot approve their own script")
     hashes={rel:inspect_file(base,rel) for rel in stage_files(base,settings,stage)}
     validate_content(base,settings,stage)
+    if manifest["mode"] == "A2_ANIMATED_SCREENPLAY":
+        from cf_a2_master_skill import require_stage_ready
+        require_stage_ready(base,args.stage,manifest)
     manifest["approved_stages"][args.stage]={
         "actor_id": args.actor,"approved_at_utc":iso_now(),"artifact_hashes":hashes,
         "disclaimer":"Internal artifact/reviewer attestation; not an external YouTube approval"
