@@ -6,7 +6,7 @@ import csv, json, hashlib, pathlib, re
 from collections import Counter
 
 ROOT=pathlib.Path(__file__).resolve().parent.parent
-SNAP=ROOT/'source_snapshots'; OUT=ROOT/'queue'
+SNAP=ROOT.parent/'cine-bellfern-location-multiview-lock'/'registry'; OUT=ROOT/'queue'
 
 VIEWS={
  'MASTER_WIDE':'Use one wide camera establishing the entire actual space. Keep all architectural anchors readable.',
@@ -48,9 +48,9 @@ def main():
  for r in props:
   assert r['view'] in VIEWS,r['view']
   s=site[r['site_id']];p=prop[r['prop_id']]
-  z=space.get(r['default_space_id'],{})
-  prompt=f"PLATE_ID {r['plate_id']}. SINGLE ORIGINAL HERO PROP REFERENCE STILL REQUEST, NOT AN APPROVED CANON IMAGE. Prop {clean(p['name'])}, physical identity {clean(p['design_anchor'])}, immutable rule {clean(p['immutable_rule'])}, permitted states {clean(p['states'])}, size rule {clean(r['dimensions'])}; belongs to location {clean(s['name'])}, space {clean(z.get('name',r['default_space_id']))}, canonical site materials {clean(s['materials_palette'])}. View {r['view']}: {VIEWS[r['view']]} {VISUAL} {NEG} One prop only unless physical room landmarks are necessary for PLACED_IN_SCENE; not a model sheet or text-labelled comparison."
-  work.append({'plate_id':r['plate_id'],'type':'prop','site_id':r['site_id'],'space_id':r['default_space_id'],'prop_id':r['prop_id'],'view':r['view'],'prompt':clean(prompt),'output_relpath':f"output/prop/{r['site_id']}/{r['prop_id']}/{r['plate_id']}.png",'status':'PENDING_NOT_GENERATED','origin_manifest':'PROP_MULTIVIEW_MANIFEST.csv','reference_status':'SOURCE_PROP_NOT_APPROVED','requires_human_QC':True})
+  z=space.get((r.get('default_space_id') or r.get('space_id')),{})
+  prompt=f"PLATE_ID {r['plate_id']}. SINGLE ORIGINAL HERO PROP REFERENCE STILL REQUEST, NOT AN APPROVED CANON IMAGE. Prop {clean(p['name'])}, physical identity {clean(p['design_anchor'])}, immutable rule {clean(p['immutable_rule'])}, permitted states {clean(p['states'])}, size rule {clean((r.get('dimensions') or r.get('size_cm') or p['dimensions']))}; belongs to location {clean(s['name'])}, space {clean(z.get('name',(r.get('default_space_id') or r.get('space_id'))))}, canonical site materials {clean(s['materials_palette'])}. View {r['view']}: {VIEWS[r['view']]} {VISUAL} {NEG} One prop only unless physical room landmarks are necessary for PLACED_IN_SCENE; not a model sheet or text-labelled comparison."
+  work.append({'plate_id':r['plate_id'],'type':'prop','site_id':r['site_id'],'space_id':(r.get('default_space_id') or r.get('space_id')),'prop_id':r['prop_id'],'view':r['view'],'prompt':clean(prompt),'output_relpath':f"output/prop/{r['site_id']}/{r['prop_id']}/{r['plate_id']}.png",'status':'PENDING_NOT_GENERATED','origin_manifest':'PROP_MULTIVIEW_MANIFEST.csv','reference_status':'SOURCE_PROP_NOT_APPROVED','requires_human_QC':True})
  assert len(work)==1239 and len({x['plate_id'] for x in work})==1239
  for x in work: assert '\n' not in x['prompt']
  OUT.mkdir(exist_ok=True)

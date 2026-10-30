@@ -59,3 +59,7 @@ No hidden installation claim: the user's Windows CINE machine was OFFLINE at thi
 - Never invent a file path, media ID, voice identity, or APPROVED status.
 
 **End-to-end green production readiness is not yet achieved.**
+
+## Unified CINE niche path (2026-10-30)
+
+The active production profile for this original CINE repo is `config/niches/slow_english_a2/production.json`. The Python runtime preflight is `cinefactory/studio/slow_english_a2.py`; the 10s character/space/prop/voice gates use the real CINE canonical registries. **Do not create new `CINE_*` projects**, do not treat `source_snapshots/` as authoritative, and do not install unreviewed concept sheets as production plates. PR #4 consolidates PR #2 and PR #3 content pending review; 10 source identity sheets are held privately with hash checks, not embedded here. This project remains NOT PRODUCTION READY until actual assets are reviewed and the existing Studio runner is wired and verified end-to-end.

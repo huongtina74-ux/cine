@@ -10,7 +10,11 @@ CONCEPT_ARCHIVE=ROOT/'source_archives/CINE_BELLFERN_12_LOCATION_CONCEPT_SHEETS_D
 TAGS=['bo','me','juno','Lia','bubu','bix','ongngoai','bangoai','ongnoi','banoi']
 
 def checksum(data):return hashlib.sha256(data).hexdigest()
-def loadqueue():return [json.loads(l) for l in QUEUE.read_text('utf-8').splitlines() if l.strip()]
+def loadqueue():
+ if not QUEUE.exists():
+  import build_asset_queue
+  build_asset_queue.main()
+ return [json.loads(l) for l in QUEUE.read_text('utf-8').splitlines() if l.strip()]
 def audit_characters():
  errors=[];info={}
  if not CHAR_ARCHIVE.is_file():return {'status':'MISSING','verified_original':0,'verified_crop':0,'errors':['Source character archive missing']}
