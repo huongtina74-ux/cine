@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install image verification dependency
-        run: python -m pip install 'Pillow>=10,<13'
+        run: python -m pip install -e . 'Pillow>=10,<13'
       - name: Validate syntax and canonical routing
         run: |
           python -m compileall -q cinefactory/studio/slow_english_a2.py .claude/skills/cine-a2-fixed10s-asset-bridge/scripts scripts/slow_english_a2_preflight.py
