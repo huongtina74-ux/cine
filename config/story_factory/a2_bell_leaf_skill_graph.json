@@ -1,0 +1,321 @@
+{
+  "schema": "cine.a2.skill_dag.v1",
+  "repository": "huongtina74-ux/cine",
+  "project_id": "slow_english_a2_bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "generic_parent_niche": "slow_english_a2_story",
+  "learning_level": "A2",
+  "series_id": "bell_leaf",
+  "mode": "A2_ANIMATED_SCREENPLAY",
+  "scene_type": "original_magical_family_screenplay",
+  "runtime_target_minutes": [
+    30,
+    50
+  ],
+  "narrator_allowed": false,
+  "shot_duration_seconds": 10,
+  "policy": "A single canonical CINE Story/Script Factory. Research evidence is source-fed; writer agents not automatically executed. APPROVED only after genuinely independent reviews and original human assessment.",
+  "stage_order": [
+    "research",
+    "insights",
+    "concepts",
+    "story",
+    "outline",
+    "script",
+    "review",
+    "final"
+  ],
+  "nodes": [
+    {
+      "id": "r01-source-evidence",
+      "stage": "research",
+      "requires": [],
+      "outputs": [
+        "01_research/evidence_register.json"
+      ],
+      "skill_file": ".claude/skills/r01-source-evidence/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "r04-competitive-outlier",
+      "stage": "research",
+      "requires": [
+        "r01-source-evidence"
+      ],
+      "outputs": [
+        "01_research/outlier_board.csv"
+      ],
+      "skill_file": ".claude/skills/r04-competitive-outlier/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "r05-competitor-story-autopsy",
+      "stage": "research",
+      "requires": [
+        "r01-source-evidence",
+        "r04-competitive-outlier"
+      ],
+      "outputs": [
+        "01_research/story_autopsy.md"
+      ],
+      "skill_file": ".claude/skills/r05-competitor-story-autopsy/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "r02-audience-jtbd",
+      "stage": "insights",
+      "requires": [
+        "r01-source-evidence"
+      ],
+      "outputs": [
+        "02_insights/audience_segments.md"
+      ],
+      "skill_file": ".claude/skills/r02-audience-jtbd/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "r03-comment-insight",
+      "stage": "insights",
+      "requires": [
+        "r01-source-evidence"
+      ],
+      "outputs": [
+        "02_insights/comment_insights.md",
+        "02_insights/coded_comment_sample.csv"
+      ],
+      "skill_file": ".claude/skills/r03-comment-insight/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "r06-psychological-hooks",
+      "stage": "insights",
+      "requires": [
+        "r02-audience-jtbd",
+        "r03-comment-insight",
+        "r05-competitor-story-autopsy"
+      ],
+      "outputs": [
+        "02_insights/psychology_patterns.md"
+      ],
+      "skill_file": ".claude/skills/r06-psychological-hooks/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "r07-story-opportunity",
+      "stage": "insights",
+      "requires": [
+        "r04-competitive-outlier",
+        "r05-competitor-story-autopsy",
+        "r06-psychological-hooks"
+      ],
+      "outputs": [
+        "02_insights/opportunity_matrix.md"
+      ],
+      "skill_file": ".claude/skills/r07-story-opportunity/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s01-original-concept-lab",
+      "stage": "concepts",
+      "requires": [
+        "r07-story-opportunity",
+        "r02-audience-jtbd"
+      ],
+      "outputs": [
+        "03_concepts/concept_cards.md",
+        "03_concepts/concept_scorecard.csv"
+      ],
+      "skill_file": ".claude/skills/s01-original-concept-lab/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s02-character-bible",
+      "stage": "story",
+      "requires": [
+        "s01-original-concept-lab"
+      ],
+      "outputs": [
+        "04_story/character_bible.md",
+        "04_story/relationship_state.json"
+      ],
+      "skill_file": ".claude/skills/s02-character-bible/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s03-micro-hook-designer",
+      "stage": "outline",
+      "requires": [
+        "s01-original-concept-lab",
+        "s02-character-bible"
+      ],
+      "outputs": [
+        "05_outline/hooks.md"
+      ],
+      "skill_file": ".claude/skills/s03-micro-hook-designer/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s04-causal-beat-architect",
+      "stage": "outline",
+      "requires": [
+        "s03-micro-hook-designer",
+        "s02-character-bible"
+      ],
+      "outputs": [
+        "05_outline/beat_sheet.md",
+        "05_outline/setup_payoff.csv"
+      ],
+      "skill_file": ".claude/skills/s04-causal-beat-architect/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s05-mini-story-treatment",
+      "stage": "outline",
+      "requires": [
+        "s04-causal-beat-architect"
+      ],
+      "outputs": [
+        "05_outline/treatment.md"
+      ],
+      "skill_file": ".claude/skills/s05-mini-story-treatment/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s06-comedy-and-emotion",
+      "stage": "outline",
+      "requires": [
+        "s05-mini-story-treatment"
+      ],
+      "outputs": [
+        "05_outline/emotion_comedy_pass.md"
+      ],
+      "skill_file": ".claude/skills/s06-comedy-and-emotion/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s09-anthology-architect",
+      "stage": "outline",
+      "requires": [
+        "s05-mini-story-treatment"
+      ],
+      "outputs": [
+        "05_outline/episode_map.md"
+      ],
+      "skill_file": ".claude/skills/s09-anthology-architect/SKILL.md",
+      "enabled_by_default": false
+    },
+    {
+      "id": "s07-dialogue-a2",
+      "stage": "script",
+      "requires": [
+        "s05-mini-story-treatment",
+        "s02-character-bible"
+      ],
+      "outputs": [
+        "06_script/a2_dialogue_pass.md"
+      ],
+      "skill_file": ".claude/skills/s07-dialogue-a2/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s08-professional-screenplay",
+      "stage": "script",
+      "requires": [
+        "s05-mini-story-treatment",
+        "s06-comedy-and-emotion",
+        "s07-dialogue-a2"
+      ],
+      "outputs": [
+        "06_script/screenplay.fountain",
+        "06_script/scene_index.csv"
+      ],
+      "skill_file": ".claude/skills/s08-professional-screenplay/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s10-continuity-ledger",
+      "stage": "review",
+      "requires": [
+        "s08-professional-screenplay",
+        "s02-character-bible"
+      ],
+      "outputs": [
+        "07_review/continuity_issues.csv",
+        "07_review/continuity_pass.md"
+      ],
+      "skill_file": ".claude/skills/s10-continuity-ledger/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s11-adversarial-story-editor",
+      "stage": "review",
+      "requires": [
+        "s08-professional-screenplay",
+        "s10-continuity-ledger"
+      ],
+      "outputs": [
+        "07_review/story_doctor.md"
+      ],
+      "skill_file": ".claude/skills/s11-adversarial-story-editor/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s12-a2-comprehension-check",
+      "stage": "review",
+      "requires": [
+        "s08-professional-screenplay",
+        "s07-dialogue-a2"
+      ],
+      "outputs": [
+        "07_review/a2_qa.md"
+      ],
+      "skill_file": ".claude/skills/s12-a2-comprehension-check/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s13-originality-and-kids-safety",
+      "stage": "review",
+      "requires": [
+        "s08-professional-screenplay",
+        "r05-competitor-story-autopsy"
+      ],
+      "outputs": [
+        "07_review/originality_safety.md"
+      ],
+      "skill_file": ".claude/skills/s13-originality-and-kids-safety/SKILL.md",
+      "enabled_by_default": true
+    },
+    {
+      "id": "s14-script-lock-and-learning",
+      "stage": "final",
+      "requires": [
+        "s10-continuity-ledger",
+        "s11-adversarial-story-editor",
+        "s12-a2-comprehension-check",
+        "s13-originality-and-kids-safety"
+      ],
+      "outputs": [
+        "08_final/SCRIPT_LOCK.md"
+      ],
+      "skill_file": ".claude/skills/s14-script-lock-and-learning/SKILL.md",
+      "enabled_by_default": true
+    }
+  ],
+  "conditional_nodes": [
+    "s09-anthology-architect"
+  ],
+  "conditional_policy": "Anthology only after a showrunner explicitly decides the episode is a connected collection; Bell & Leaf defaults to one causally continuous magical family adventure with Veylora arc.",
+  "required_independent_reviews": [
+    "07_review/a2_review.json",
+    "07_review/canon_review.json",
+    "07_review/timed_read.json"
+  ],
+  "final_handoff": [
+    "08_final/shot_handoff.json"
+  ],
+  "canonical_series_bible": "config/niches/slow_english_a2/SERIES_BIBLE.md",
+  "canonical_voice_registry": "config/niches/slow_english_a2/voice_registry.json",
+  "canonical_story_profile": "config/niches/slow_english_a2/production.json",
+  "no_internal_content_reuse_from_competitors": true,
+  "source_windows_snapshot": "C:/Users/ADMIN/Documents/CINE_A2_Research_Audit_20261022/CINE_A2_SCRIPTROOM_V1/skills (owner-provided original CINE A2 skills, 2026-10-22)"
+}
