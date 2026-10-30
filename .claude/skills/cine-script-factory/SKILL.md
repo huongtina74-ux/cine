@@ -1,11 +1,69 @@
 ---
 name: cine-script-factory
-description: End-to-end CINE audio-first original YouTube script creation workflow. Route niche-separated competitor evidence through audience insights, five distinct concepts, original story DNA, causal beats, complete narration draft, independent creative/policy reviews and final production-ready script package. Use for "write a full episode", "research then script" or "script factory".
+description: ONE authoritative CINE Master Skill for all research-to-script projects. Slow English A2 / Gia dinh phu thuy / Bell & Leaf uses 21 causal specialist skills through the existing Script Factory with A2, Veylora Canon, independent review, locked SHA and 10s director handoff. Other niches preserve original audio workflows.
 ---
+
+# ONE MASTER SKILL — CINE Slow English A2 / Bell & Leaf
+
+**Single operating entrypoint:** this existing `cine-script-factory` skill is the only Master Skill for research, concept, writing, Story Doctor, A2 checking and Script Lock. Do not create a second CINE, another script factory or another character/location/voice Bible. The 21 original `r01`–`r07` and `s01`–`s14` skill files are internal specialist instructions called in a verified causal sequence. They are NOT 21 competing studio entrypoints.
+
+## Identity, film canon and scope
+
+- Classification: Slow English → A2 → Magical Witch Family Stories (`magical_witch_family_stories`) → Bell & Leaf (`slow_english_a2_bell_leaf`). This is one subniche within CINE, not all Slow English.
+- Film: original animated family adventure, natural accessible American English A2, a continuing Veylora bell-network mystery, meaningful emotional and comedic beats and a fresh local surprise/payoff per episode. Default is ONE continuous 30–50-minute episode, not an audio narration, not a random anthology and not a vocabulary lecture.
+- Character and location Canon: use existing approved original references and fixed physical geometry; Bubu has glittering spiraling purple tail and one collar bell; Bix does not have a bell. Lost maternal grandmother only when series script permits. No redesign, no unapproved assets.
+- Production format: NO narrator; expressive character acting, deliberate visual camera, 16:9 neutral D55 (~5500K), 10.0 seconds per Muse shot. Use measured WAV speech and show reactions within remaining time, not stretched speech.
+
+## Actual execution by the Claude Code agent — one reusable loop
+
+1. Before starting, read `config/niches/slow_english_a2/SERIES_BIBLE.md`, `config/niches/slow_english_a2/production.json`, voice registry and current episode continuity. Preserve canonical IDs.
+2. For a new episode, initialize **the original CINE Script Factory** once (do not overwrite existing project folders): `python tools/cf_script_factory.py init --id bell_leaf_ep001 --niche magical_witch_family_stories --mode A2_ANIMATED_SCREENPLAY --minutes 40 --writer ACTUAL_WRITER_ID`.
+3. Ask the ONE dispatcher what work is next: `python tools/cf_a2_master_skill.py next --id bell_leaf_ep001`. It returns the exact skill ID, prerequisites and artifact output paths.
+4. **Actually read the returned specialist `SKILL.md` and upstream artifacts.** The active Claude Code agent/authorized research and writing tools must perform that work. The Python dispatcher NEVER runs an LLM, watches a video or writes the story itself. Output real, original, substantive artifacts at the listed paths and mark evidence modality truthfully.
+5. After work and inspection, record an integrity-bound handoff: `python tools/cf_a2_master_skill.py record --id bell_leaf_ep001 --skill RETURNED_SKILL_ID --actor ACTUAL_AUTHOR_ID`. This stores SHA-256 of outputs and upstream handoffs, but DOES NOT certify editorial quality or human approval.
+6. Repeat step 3–5 until `next` returns `STAGE_QC_GATE`. A real independent reviewer checks the current stage and evidence; run the **same existing factory** stage approval only if actually qualified: `python tools/cf_script_factory.py advance --id bell_leaf_ep001 --stage RETURNED_STAGE --actor ACTUAL_REVIEWER_ID`. Never invent a signature, observation, evaluation or a fabricated PASS.
+7. Repeat for eight CINE stages: research → insights → concepts → story → outline → script → review → final. Use `python tools/cf_a2_master_skill.py status --id bell_leaf_ep001` to detect missing, stale or altered specialist outputs. Changes upstream invalidate downstream receipts and stage gates.
+8. At final script lock, only when exact script SHA, actual measured 30–50-minute table-read, A2 human comprehension and independent creative/Canon reviews exist, call `python tools/cf_a2_director_bridge.py --id bell_leaf_ep001 --out REVIEWED_OUTPUT_DIR`. The bridge calls existing CINE 10-second shot preflight; it does NOT generate film or authorize paid API usage.
+
+## One strict specialist DAG
+
+Single source of role order and file contracts: `config/story_factory/a2_bell_leaf_skill_graph.json`. It has **21 original skill files, 38 prerequisite edges, 27 specialist output artifacts, 20 default active roles + conditional s09**. The original eight stages belong to `tools/cf_script_factory.py`. This new dispatcher is only an integrity-bound work-order selector, not a duplicate stage runner.
+
+| Stage | Ordered professional roles | Result |
+|---|---|---|
+| Research | r01 evidence → r04 age-normalized outliers → r05 film autopsy | URLs, source modality, timestamped verifiable competitor findings |
+| Insights | r02 audiences + r03 comments → r06 psychology → r07 opportunities | evidence-backed hypotheses with counterexamples, not copied plots |
+| Concepts | s01 concept lab | at least five genuinely different original episode premises |
+| Story | s02 character and Veylora Bible | fixed character knowledge, emotional want, mystery progression |
+| Outline | s03 hook → s04 causal beats → s05 treatment → s06 humor/emotion | scene actions, escalating stakes, setup/payoff and variation |
+| Script | s07 A2 dialogue → s08 complete Fountain screenplay | filmable visual action and clear US English A2; NO narrator |
+| Review | s10 continuity, s11 adversarial editor, s12 comprehension, s13 originality/safety | actual independent reviews, evidence, corrections and measured reading |
+| Final | s14 script lock | reviewed exact script SHA, voice and 10s director handoff |
+
+`s09-anthology-architect` is OPTIONAL and off for normal Bell & Leaf. A showrunner must explicitly opt into a cohesive anthology. Never use disconnected mini-stories simply to fill the running time.
+
+## Hard QA and truth-in-status
+
+- Reject mixed baselines: direct Bell & Leaf subniche cohort is separate from general Slow English A2, other family audio/history content and fiction storytelling.
+- Video transcript inspected ≠ full audiovisual footage inspected. No imaginary video retention, view velocity or audience demographics.
+- Independent reviewer identity, real A2 learner test, true originality and license evidence are not proven merely by JSON fields or CI. Preserve owner approval checkpoints.
+- The Master Skill's `HANDOFF_RECORDED` means a correctly hashed work product, NOT an approved plot. `STAGE_QC_GATE` means reviewer action is needed, NOT that QC passed.
+- Missing real audio WAV, approved 483 room plates/756 prop plates, original source-image installation, Flow/Muse media, lipsync, visual QC or analytics must remain BLOCKED.
+- Two external public repositories (`story-skills`, `youtube-niche-finder`) are OPTIONAL craft/research references, not installed runtime adapters or proof of real competitor analysis.
+- Windows CINE checkout is a separate dirty/divergent worktree; do not `reset`, `clean`, `pull` or force merge without safe reconciliation and source preservation.
+
+## Non-Bell & Leaf support
+
+For other CINE audio/history/story niches, continue using the existing modes and procedures below. The specific A2 screenplay branch applies **only** when the episode manifest selects `A2_ANIMATED_SCREENPLAY` and the exact `magical_witch_family_stories` subniche. Generic narration directives below never override Bell & Leaf's film screenplay rules.
+
+---
+
+# Existing general CINE Script Factory instructions
+
 # CINE SCRIPT FACTORY v0.1 — MASTER ORCHESTRATION SKILL
 
 ## Mission and scope
-Produce one original, professional, listener-worthy English script from verified evidence for one narrowly scoped YouTube subniche. Scope ENDS with final narration script and audio production handoff; it MUST NOT render, upload, purchase media credits or claim successful YouTube monetization. Reuse existing repository Skills and preserve existing production infrastructure.
+Produce one original, professional, listener-worthy English script from verified evidence for one narrowly scoped YouTube subniche. In non-Bell & Leaf audio mode only, scope ends with final narration script and audio production handoff; it MUST NOT render, upload, purchase media credits or claim successful YouTube monetization. Reuse existing repository Skills and preserve existing production infrastructure.
 
 ## Inputs — mandatory
 - niche_id from `config/research/per_niche/niches.json`; channel_id / channel_name and series identity.

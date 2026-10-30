@@ -3,6 +3,11 @@
 CineFactory turns a channel bible into finished, original videos every day.
 **KPI: approved finished minutes per week.** Research, audits and new code exist only to raise that number.
 
+
+## Official ONE Master Skill — Slow English A2 / Gia đình phù thủy / Bell & Leaf
+
+For Bell & Leaf research, competitor insights, episode concepts, scriptwriting, Story Doctor, A2 comprehension or Script Lock **invoke `.claude/skills/cine-script-factory/SKILL.md` as the single master entrypoint**. Use `python tools/cf_a2_master_skill.py next --id EPISODE_ID` to select the next one of 21 existing specialized skills, perform genuine research/writing, then `record` its output and use the existing `cf_script_factory.py advance` with actual reviewer evidence at stage boundaries. The original 8-stage CINE runner and 10-second `cf_a2_director_bridge.py` remain authoritative. Do not spawn a new project, script factory, narrator, independent skill runner, parallel canonical registry or fake approval.
+
 ## Working rules (apply to every agent, every answer)
 1. **Measure, don't guess.** Not measured yet = say "not measured". Run the tool before claiming it works.
 2. **Label every number:** OBSERVED (file/command shown) · INFERRED (your reasoning) · OWNER (the owner said so).
