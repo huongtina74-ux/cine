@@ -89,6 +89,11 @@ def receipt_status(base,node,graph):
             raise ValueError("Wrong skill receipt identity/status")
         if rec.get("outputs_sha256")!={p:_inspect_output(base,p) for p in node["outputs"]}:
             raise ValueError("Output changed since skill handoff")
+        if node["id"]=="r01-source-evidence":
+            source=pathlib.Path(base)/"01_research/input_sources.json"
+            observed=digest(source) if source.is_file() else None
+            if rec.get("source_inputs_sha256")!=observed:
+                raise ValueError("Original research input changed after R01")
         for dep in node["requires"]:
             dependency=_receipt_file(base,dep)
             if not dependency.is_file() or rec.get("upstream_receipts_sha256",{}).get(dep)!=digest(dependency):
@@ -174,6 +179,7 @@ def record(repo,episode_id,skill,actor,store=None):
              "status":"HANDOFF_RECORDED_NOT_ARTISTIC_APPROVAL",
              "author_id":actor.strip(),"recorded_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
              "outputs_sha256":outputs,"upstream_receipts_sha256":deps,
+             "source_inputs_sha256":(digest(base/"01_research/input_sources.json") if skill=="r01-source-evidence" and (base/"01_research/input_sources.json").is_file() else None),
              "warning":"Files/hash/dependencies only. Does not certify human, independent artistic QC, YouTube evidence or actual LLM execution."}
     _write(target,receipt)
     return {"skill_id":skill,"status":receipt["status"],"receipt_sha256":digest(target),

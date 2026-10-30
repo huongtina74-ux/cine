@@ -100,6 +100,22 @@ class A2MasterSkillIntegration(unittest.TestCase):
         self.assertTrue(status["stages"]["research"].startswith("STALE: "))
         self.assertFalse(status["script_ready_for_production"])
 
+    def test_historical_research_input_change_stales_R01_and_downstream(self):
+        self.research()
+        self.write("01_research/input_sources.json", json.dumps({
+            "subniche_id":"magical_witch_family_stories","sources":[
+                {"url":"https://www.youtube.com/watch?v=HistoricalSource1",
+                 "observed_at_utc":"2026-10-22T13:12:07+00:00","method":"public_metadata",
+                 "peer_group":"ADJACENT_SLOW_ENGLISH"}]}))
+        master.record(ROOT,self.pid,"r01-source-evidence","researcher-1",self.storage)
+        graph=json.loads((ROOT/"config/story_factory/a2_bell_leaf_skill_graph.json").read_text("utf-8"))
+        node=next(n for n in graph["nodes"] if n["id"]=="r01-source-evidence")
+        self.assertEqual(master.receipt_status(self.base,node,graph)["status"],"HANDOFF_RECORDED")
+        self.write("01_research/input_sources.json", json.dumps({
+            "subniche_id":"magical_witch_family_stories","sources":[]}))
+        self.assertEqual(master.receipt_status(self.base,node,graph)["status"],"STALE_OR_INVALID")
+        self.assertEqual(master.scan(ROOT,self.pid,self.storage)["next"]["skill_id"],"r01-source-evidence")
+
     def test_wrong_subniche_refused(self):
         mf=json.loads((self.base/"manifest.json").read_text("utf-8"))
         mf["niche_id"]="slow_english_a2_story"

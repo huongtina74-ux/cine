@@ -23,3 +23,7 @@ Historical PR #2 Location and PR #3 Character were superseded by PR #4, which wa
 ## Official Master Skill
 
 One entrypoint for Bell & Leaf research-to-script: `.claude/skills/cine-script-factory/SKILL.md`. To resume existing CINE episode work: `python tools/cf_a2_master_skill.py next --id EPISODE_ID`; after an agent actually creates the specified artifacts, run `record`, then the original Script Factory human-reviewed stage gate. This is one CINE workflow, not another project.
+
+## Windows — Execute one real Claude specialist in the ONE CINE project
+
+Read `config/niches/slow_english_a2/LOCAL_WINDOWS_RUNBOOK.md`. With real dated R01 sources supplied in the existing episode folder, run `python tools/cf_a2_claude_agent.py --id EPISODE_ID --execute --actor claude-code-sonnet`; it invokes a logged-in Claude CLI with no filesystem tools and only accepts exact DAG-bound outputs. Stage review remains human-gated. `python tools/cf_a2_master_skill.py next --id EPISODE_ID` shows the next role.

@@ -6,6 +6,8 @@ CineFactory turns a channel bible into finished, original videos every day.
 
 ## Official ONE Master Skill — Slow English A2 / Gia đình phù thủy / Bell & Leaf
 
+On the existing CINE Windows machine, the verified real Claude Code executor is `python tools/cf_a2_claude_agent.py --id EPISODE_ID --execute --actor claude-code-sonnet`. It runs exactly the next DAG-selected role with Claude filesystem tools disabled, accepts only declared output artifacts and SHA-bound real source records; no actor can silently approve a QC stage. See `config/niches/slow_english_a2/LOCAL_WINDOWS_RUNBOOK.md`. Do not create another CineFactory repo or overwrite the divergent/dirty Windows git worktree.
+
 For Bell & Leaf research, competitor insights, episode concepts, scriptwriting, Story Doctor, A2 comprehension or Script Lock **invoke `.claude/skills/cine-script-factory/SKILL.md` as the single master entrypoint**. Use `python tools/cf_a2_master_skill.py next --id EPISODE_ID` to select the next one of 21 existing specialized skills, perform genuine research/writing, then `record` its output and use the existing `cf_script_factory.py advance` with actual reviewer evidence at stage boundaries. The original 8-stage CINE runner and 10-second `cf_a2_director_bridge.py` remain authoritative. Do not spawn a new project, script factory, narrator, independent skill runner, parallel canonical registry or fake approval.
 
 ## Working rules (apply to every agent, every answer)
