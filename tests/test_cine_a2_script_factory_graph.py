@@ -102,7 +102,7 @@ class A2StorySkillGraphTests(unittest.TestCase):
             (base/"01_research").mkdir()
             (base/"01_research/evidence.json").write_text(json.dumps({
                 "niche_id":"slow_english_a2_story","sources":[{"url":"https://youtube.com","observed_at_utc":"2026-10-30T00:00:00Z","evidence_type":"METADATA_ONLY"}]}))
-            with self.assertRaisesRegex(ValueError,"different research subniche"):
+            with self.assertRaisesRegex(ValueError,"cohort is not magical family stories"):
                 graph.validate_a2_stage(base,"research",{"mode":"A2_ANIMATED_SCREENPLAY","niche_id":"magical_witch_family_stories","target_minutes":40})
 
     def test_reject_missing_full_screenplay(self):
