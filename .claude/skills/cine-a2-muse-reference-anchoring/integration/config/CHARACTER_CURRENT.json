@@ -1,0 +1,147 @@
+{
+  "schema": "cine.a2.character_current.v1.1",
+  "project_id": "slow_english_a2_bell_leaf",
+  "series": "Bell & Leaf",
+  "characters": {
+    "bo": {
+      "display_name": "Evan",
+      "source_original": {
+        "asset_id": "CH_bo_ORIGINAL",
+        "file": "assets/bo/original/bo__original_user_sheet.png",
+        "sha256": "0635e06d425b656098c4eb200557c939b35d86c1bb3213f8385935478ff1f590",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "me": {
+      "display_name": "Mara",
+      "source_original": {
+        "asset_id": "CH_me_ORIGINAL",
+        "file": "assets/me/original/me__original_user_sheet.png",
+        "sha256": "02f15c86cae4caba26da5fb9660958f1df71c5a29d8ae6c51d78f347dadfed97",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "juno": {
+      "display_name": "Juno",
+      "source_original": {
+        "asset_id": "CH_juno_ORIGINAL",
+        "file": "assets/juno/original/juno__original_user_sheet.png",
+        "sha256": "6dd5ae8799384526deffda45d12257118383f8c6424d5ff20cf6d2d0a1164aed",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "Lia": {
+      "display_name": "Lia",
+      "source_original": {
+        "asset_id": "CH_Lia_ORIGINAL",
+        "file": "assets/Lia/original/Lia__original_user_sheet.png",
+        "sha256": "3f29c9ba2efa554d677bed50f1d65825df4c6e44d449dfacc87967628b2f61d0",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "bubu": {
+      "display_name": "Bubu",
+      "source_original": {
+        "asset_id": "CH_bubu_ORIGINAL",
+        "file": "assets/bubu/original/bubu__original_user_sheet.png",
+        "sha256": "d27cc64c583edfc0b5fdee0011f0ef6b1f904be9cb4ee879c7ee967affe34b34",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "bix": {
+      "display_name": "Bix",
+      "source_original": {
+        "asset_id": "CH_bix_ORIGINAL",
+        "file": "assets/bix/original/bix__original_user_sheet.png",
+        "sha256": "378c0812da87817fd3d2f3c5bec878d4020fd4cae569d0bb0fb4641180df5055",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "ongngoai": {
+      "display_name": "Orin",
+      "source_original": {
+        "asset_id": "CH_ongngoai_ORIGINAL",
+        "file": "assets/ongngoai/original/ongngoai__original_user_sheet.png",
+        "sha256": "360bf5f96b6b666ed13e0460e019d2a38832286b0a38b526dcc28f121ac77e31",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "bangoai": {
+      "display_name": "Maternal Grandmother",
+      "source_original": {
+        "asset_id": "CH_bangoai_ORIGINAL",
+        "file": "assets/bangoai/original/bangoai__original_user_sheet.png",
+        "sha256": "e3841a9b6f9a3257ff2e726e77910c1db3e4282db8a5a3bbd04d0383fc9c5602",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "ongnoi": {
+      "display_name": "Paternal Grandfather",
+      "source_original": {
+        "asset_id": "CH_ongnoi_ORIGINAL",
+        "file": "assets/ongnoi/original/ongnoi__original_user_sheet.png",
+        "sha256": "badd18ba2b5ace1d45682a84ffd14911d19ee417a4f7da7c333ae9a3ea1c8bae",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    },
+    "banoi": {
+      "display_name": "Paternal Grandmother",
+      "source_original": {
+        "asset_id": "CH_banoi_ORIGINAL",
+        "file": "assets/banoi/original/banoi__original_user_sheet.png",
+        "sha256": "ba6b40f0c67a1dcf64411179eed659e9dfd510795f4d10e881f20f834b4dbe30",
+        "status": "SOURCE_ONLY",
+        "approved_by": null,
+        "approved_at": null
+      },
+      "approved_assets": [],
+      "pending_new_render_slots": 27,
+      "approval_state": "REVIEW_REQUIRED"
+    }
+  }
+}

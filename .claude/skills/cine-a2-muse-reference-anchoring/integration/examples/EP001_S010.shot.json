@@ -1,0 +1,22 @@
+{
+  "shot_id": "EP001_S010",
+  "activeCharacterTags": [
+    "Lia",
+    "bubu"
+  ],
+  "location_id": "BELL",
+  "space_id": "BH-ATELIER",
+  "location_view_id": "FORWARD",
+  "camera_type": "medium_wide",
+  "first_frame_action": "Inside Mara's workshop Lia and Bubu see a silver-blue glow emerging from the gateway, before the visitor appears.",
+  "emotion": [
+    "curious",
+    "surprised"
+  ],
+  "outfits": {
+    "Lia": "DEFAULT",
+    "bubu": "DEFAULT"
+  },
+  "duration_seconds": 10,
+  "dialogue_wav": null
+}

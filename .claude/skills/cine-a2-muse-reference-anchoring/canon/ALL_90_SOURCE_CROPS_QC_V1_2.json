@@ -1,0 +1,1000 @@
+{
+  "status": "VERIFIED_SOURCE_PROVENANCE_ONLY",
+  "verified_count": 90,
+  "total_count": 90,
+  "failures": [],
+  "per_character": {
+    "bo": 9,
+    "me": 9,
+    "juno": 9,
+    "Lia": 9,
+    "bubu": 9,
+    "bix": 9,
+    "ongngoai": 9,
+    "bangoai": 9,
+    "ongnoi": 9,
+    "banoi": 9
+  },
+  "items": [
+    {
+      "asset_id": "CH_bo_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        2,
+        145
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_FACE_LAUGHING",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        535,
+        675
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_FACE_THOUGHTFUL",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        701,
+        675
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_FACE_WARM_SMILE",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        355,
+        675
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_FACE_WINK",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        879,
+        675
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_01",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        300,
+        45
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_02",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        452,
+        45
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_03",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        611,
+        45
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bo_OUTFIT_VARIANT_04",
+      "character_tag": "bo",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        771,
+        45
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        1,
+        128
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_FACE_CURIOUS",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        531,
+        50
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_FACE_EXCITED",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        698,
+        50
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_FACE_GENTLE",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        363,
+        50
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_FACE_THOUGHTFUL",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        860,
+        50
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_VIEW_BACK",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        856,
+        315
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_VIEW_FRONT",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        357,
+        315
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_VIEW_SIDE",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        686,
+        315
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_me_VIEW_THREE_QUARTER",
+      "character_tag": "me",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        522,
+        315
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        2,
+        128
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_FACE_CURIOUS",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        603,
+        39
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_FACE_SMILING",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        459,
+        39
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_FACE_SURPRISED",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        749,
+        39
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_FACE_THOUGHTFUL",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        315,
+        39
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_BACK",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        901,
+        926
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_FRONT",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        574,
+        926
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_SIDE",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        794,
+        926
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_juno_VIEW_THREE_QUARTER",
+      "character_tag": "juno",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        682,
+        926
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        40,
+        710
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_CURIOUS",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        745,
+        53
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_EXCITED",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        882,
+        53
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_GENTLE",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        607,
+        231
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_FACE_HAPPY",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        607,
+        53
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_BACK",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        872,
+        415
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_FRONT",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        602,
+        415
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_SIDE",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        781,
+        415
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_Lia_VIEW_THREE_QUARTER",
+      "character_tag": "Lia",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        689,
+        415
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        5,
+        674
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_CURIOUS",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        18,
+        906
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_HAPPY",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        655,
+        906
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_PLAYFUL",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        230,
+        906
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_FACE_PROUD",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        451,
+        906
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_BACK",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        676,
+        676
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_FRONT",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        10,
+        676
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_SIDE",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        451,
+        676
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bubu_VIEW_THREE_QUARTER",
+      "character_tag": "bubu",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        225,
+        676
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        366,
+        70
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_FACE_CURIOUS",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        652,
+        916
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_FACE_DETERMINED",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        440,
+        916
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_FACE_HAPPY",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        238,
+        916
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_FACE_OBSERVANT",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        24,
+        916
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_BACK",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        661,
+        575
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_FRONT",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        20,
+        575
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_SIDE",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        450,
+        575
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bix_VIEW_THREE_QUARTER",
+      "character_tag": "bix",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        230,
+        575
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        2,
+        54
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_CURIOUS",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        807,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_KIND",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        399,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_LAUGH",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        535,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_FACE_THOUGHTFUL",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        669,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_BACK",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        778,
+        641
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_FRONT",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        391,
+        641
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_SIDE",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        650,
+        641
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongngoai_VIEW_THREE_QUARTER",
+      "character_tag": "ongngoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        527,
+        641
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        1,
+        60
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_JOYFUL",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        555,
+        741
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_KIND",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        395,
+        741
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_THOUGHTFUL",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        714,
+        741
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_FACE_WISE",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        877,
+        741
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_BACK",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        886,
+        288
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_FRONT",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        404,
+        288
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_SIDE",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        736,
+        288
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_bangoai_VIEW_THREE_QUARTER",
+      "character_tag": "bangoai",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        576,
+        288
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        4,
+        123
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_CHEEKY",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        863,
+        766
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_KIND_SMILE",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        383,
+        766
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_LAUGH",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        543,
+        766
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_FACE_THOUGHTFUL",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        701,
+        766
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_BACK",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        863,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_FRONT",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        374,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_SIDE",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        701,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_ongnoi_VIEW_THREE_QUARTER",
+      "character_tag": "ongnoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        538,
+        303
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
+      "production_canon_status": "SOURCE_CROP_ONLY_NOT_NEW_VIEW_APPROVED"
+    },
+    {
+      "asset_id": "CH_banoi_MASTER_ANCHOR_SOURCE_CROP",
+      "character_tag": "banoi",
+      "exact_source_pixels": true,
+      "origin_xy": [
+        2,
+        126
+      ],
+      "source_kind": "EXACT_SOURCE_CROP",
+      "new_ai_image": false,
