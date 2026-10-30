@@ -1,0 +1,12 @@
+# Slow English A2 — niche-specific research configuration (same CINE company intelligence)
+priority_market: en_US_Tier1
+separate_niche_baseline: true
+daily_outlier_scan: true
+long_form_min_minutes: 8
+breakout_channel_age_max_days: 30
+breakout_video_count_over_1m: 2
+breakout_window_days: 14
+verified_public_evidence_required: true
+copy_risk_policy: original_characters_scripts_worlds_only
+analysis_fields: [competitor, video_url, publication_date, views, channel_age, hook, retention_mechanism, format_pattern, originality_risk]
+script_handoff: research_to_writers_room_to_director_to_10s_shots

@@ -1,0 +1,89 @@
+{
+  "project_id": "slow_english_a2_bell_leaf",
+  "niche_id": "slow_english_a2",
+  "series": "Bell & Leaf",
+  "version": "a2_v1.1_fixed10s",
+  "status": "ASSET_GATED_NOT_PRODUCTION_READY",
+  "source_of_truth": "single_CINE_repository",
+  "duration_seconds": 10,
+  "aspect_ratio": "16:9",
+  "no_narrator": true,
+  "active_tags": [
+    "bo",
+    "me",
+    "juno",
+    "Lia",
+    "bubu",
+    "bix",
+    "ongngoai",
+    "bangoai",
+    "ongnoi",
+    "banoi"
+  ],
+  "nine_core_tags": [
+    "bo",
+    "me",
+    "juno",
+    "Lia",
+    "bubu",
+    "bix",
+    "ongngoai",
+    "ongnoi",
+    "banoi"
+  ],
+  "conditional_tags": [
+    "bangoai"
+  ],
+  "room_plate_targets": 483,
+  "prop_plate_targets": 756,
+  "site_count": 12,
+  "space_count": 69,
+  "prop_count": 108,
+  "source_registries": {
+    "characters": ".claude/skills/cine-a2-muse-reference-anchoring/canon/CHARACTER_CURRENT_SOURCE_LOCK_V1_2.json",
+    "physical_character_files": "assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source",
+    "sites": ".claude/skills/cine-bellfern-location-multiview-lock/registry/CINE_LOCATION_PROP_REGISTRY_v1_1_DRAFT.json",
+    "room_views": ".claude/skills/cine-bellfern-location-multiview-lock/registry/LOCATION_MULTIVIEW_MANIFEST.csv",
+    "prop_views": ".claude/skills/cine-bellfern-location-multiview-lock/registry/PROP_MULTIVIEW_MANIFEST.csv",
+    "voices": "config/niches/slow_english_a2/voice_registry.json"
+  },
+  "canon_rules": [
+    "original_user_face_and_body_take_priority",
+    "bubu_luminous_sparkling_spiral_tail_and_one_collar_bell",
+    "bix_has_no_bell",
+    "orin_one_personal_travel_bell",
+    "home_bell_in_secret_workshop_chamber",
+    "ordinary_earth_school_not_magical_academy"
+  ],
+  "visuals": {
+    "style": "rich_stylized_real_material_CGI",
+    "white_balance": "D55_5500K",
+    "no_global_yellow": true,
+    "default_lens_mm": 50,
+    "no_subtitles_in_image": true,
+    "no_collage": true,
+    "true_reverse_camera": true
+  },
+  "readiness": {
+    "location_plates_approved": 0,
+    "prop_plates_approved": 0,
+    "new_muse_character_views_approved": 0,
+    "voice_samples_approved": 0,
+    "muse_10s_e2e_verified": false
+  },
+  "pipeline": [
+    "niche_competitor_research",
+    "original_A2_writers_room",
+    "script_canon_review",
+    "10s_shot_direction",
+    "canonical_refs_resolution",
+    "Flow_or_Muse_image_first_frame",
+    "still_QC",
+    "10s_I2V_acting",
+    "voice_WAV_lipsync",
+    "edit_sound_color",
+    "independent_QC",
+    "publish_analytics_learning"
+  ],
+  "policy": "FAIL_CLOSED_UNTIL_REAL_ASSETS_HASHES_HUMAN_APPROVAL"
+}

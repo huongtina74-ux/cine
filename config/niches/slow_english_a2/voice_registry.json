@@ -1,0 +1,76 @@
+{
+  "schema": "cine.slow_english_a2.voice_lock.v1",
+  "no_narrator": true,
+  "voices": {
+    "bo": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "me": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "juno": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "Lia": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "bubu": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "bix": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "ongngoai": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "bangoai": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "ongnoi": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    },
+    "banoi": {
+      "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
+      "voice_id": null,
+      "sample_wav": null,
+      "sample_sha256": null,
+      "transcript": null
+    }
+  }
+}
