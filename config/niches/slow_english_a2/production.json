@@ -95,5 +95,31 @@
     "provider_candidate": "VoxCPM2",
     "approval_gate": "WAV_SHA_RIGHTS_ENGINE_LISTENING_QC",
     "no_narrator": true
+  },
+  "parent_niche_id": "slow_english",
+  "learning_level": "A2",
+  "subniche_id": "magical_witch_family_stories",
+  "subniche_name": "Magical Witch Family Stories",
+  "subniche_name_vi": "Chuyện gia đình phù thủy / gia đình phép thuật",
+  "series_id": "bell_leaf",
+  "niche_hierarchy": [
+    "slow_english",
+    "slow_english_a2",
+    "magical_witch_family_stories",
+    "bell_leaf"
+  ],
+  "classification_policy": "Bell & Leaf is exactly one magical-family story subniche inside Slow English A2; it is not the entire Slow English niche, not the definition of A2, and not a separate CineFactory instance.",
+  "story_scope": {
+    "genres": [
+      "family_drama",
+      "magical_family_adventure",
+      "mystery",
+      "fantasy"
+    ],
+    "target_learning_level": "A2",
+    "audience": "English learners and family-friendly adventure viewers, children and adults; content classification evaluated independently for each upload",
+    "core_hook": "new magical world adventure or supernatural home event with genuine surprises and Veylora clue progression",
+    "continuity": "one recurring family/series canon across 1000+ proposed episodes",
+    "magic_disclosure": "Evan and paternal grandparents are ordinary Earth relatives and unaware of family magic; do not imply every family member is a witch"
   }
 }

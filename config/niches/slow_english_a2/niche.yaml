@@ -1,4 +1,12 @@
 niche_id: slow_english_a2
+parent_niche_id: slow_english
+learning_level: A2
+subniche_id: magical_witch_family_stories
+subniche_name: Magical Witch Family Stories
+subniche_name_vi: Chuyện gia đình phù thủy / gia đình phép thuật
+series_id: bell_leaf
+series_name: Bell & Leaf
+taxonomy_policy: bell_leaf_is_one_subniche_not_the_whole_slow_english_niche
 project_id: slow_english_a2_bell_leaf
 display_name: Bell & Leaf — Slow English A2 Magic Family
 status: ASSET_GATED_NOT_PRODUCTION_READY

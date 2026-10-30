@@ -1,3 +1,11 @@
+# CINE niche hierarchy — Bell & Leaf
+
+**Single CineFactory repository** `huongtina74-ux/cine`. **Hierarchy: Slow English (parent) → Slow English A2 (level/format) → Magical Witch Family Stories (subniche / chuyện gia đình phù thủy) → Bell & Leaf (one original series).**
+
+This classification is binding for research cohorts, screenplay/story canon, voice and visual registries, shot preflight, production QC, packaging and Analytics. **Bell & Leaf does not represent every Slow English or Slow English A2 project**; future non-magical A2 stories or other learning formats must remain separate within the same company.
+
+**Do not rename** existing `project_id=slow_english_a2_bell_leaf`, `niche_id=slow_english_a2`, folder or character/location voice reference IDs: those are stable backward-compatible operational identifiers. `subniche_id=magical_witch_family_stories` differentiates the actual storytelling segment. Comparisons must use the subniche cohort as the direct baseline, treating generic Slow English only as adjacent market context.
+
 # Slow English A2 / Bell & Leaf — canonical CINE niche
 
 One repository: `huongtina74-ux/cine`. This is an in-repo niche configuration, **not another CINE project**. It reuses the existing Studio Kernel, Project DNA, research, writers, director, production design, audio, QC, publishing and analytics departments.
@@ -10,4 +18,4 @@ Every scene uses explicit `activeCharacterTags` only, `location_id`, `space_id`,
 
 Use `cinefactory.studio.slow_english_a2.BellLeafCanon` for verified source reference routing. Flow first frames and Muse video prompts remain separate; image prompts must be one physical line each with exactly one blank line between jobs. Raw frames 16:9 full-bleed; no subtitles, text, contact sheets or global amber grade. Voice must use a rights-cleared approved WAV per speaker; lipsync provider capability must be verified with actual media.
 
-Historical PR #2 Location and PR #3 Character files are consolidated into the existing PR #4 branch. After a reviewed unified merge, the original PRs should be closed as superseded instead of merged again.
+Historical PR #2 Location and PR #3 Character were superseded by PR #4, which was merged into main; PR #5 added the ten voice casting descriptions. Physical multi-view plates and approved WAVs remain outstanding.
