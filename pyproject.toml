@@ -30,3 +30,8 @@ build-backend = "setuptools.build_meta"
 pythonpath = ["."]
 testpaths = ["tests"]
 asyncio_default_fixture_loop_scope = "function"
+
+# Install only the real CineFactory package, not unrelated top-level data folders.
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cinefactory*"]
