@@ -11,9 +11,9 @@ TAGS=['bo','me','juno','Lia','bubu','bix','ongngoai','bangoai','ongnoi','banoi']
 
 def checksum(data):return hashlib.sha256(data).hexdigest()
 def loadqueue():
- from build_asset_queue import generate, export
- # Always rebuild from the original CINE location registry, never a stale duplicate snapshot.
- export(generate(), ROOT / 'queue')
+ import build_asset_queue
+ # Always rebuild the queue from the authoritative CINE registry, not stale duplicates.
+ build_asset_queue.main()
  return [json.loads(l) for l in QUEUE.read_text('utf-8').splitlines() if l.strip()]
 def audit_characters():
  errors=[];info={}
