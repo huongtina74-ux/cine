@@ -1,0 +1,123 @@
+{
+  "schema": "cine.a2.external_skill_refs.v1",
+  "project_id": "slow_english_a2_bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "scope": "optional_external_references_not_production_dependencies",
+  "repositories": [
+    {
+      "id": "story-skills",
+      "url": "https://github.com/danjdewhurst/story-skills",
+      "observed_windows_commit_prefix": "57121ee",
+      "license": "MIT",
+      "role": "craft_guidance_only",
+      "verified_local_checkout_at_audit": true,
+      "github_submodule_installed": false,
+      "runtime_adapter_connected": false,
+      "source_path_hint": "C:/Users/ADMIN/Documents/CINE_A2_Research_Audit_20261022/repos/story-skills",
+      "original_skill_inventory_count": 24
+    },
+    {
+      "id": "youtube-niche-finder",
+      "url": "https://github.com/pandich93/youtube-niche-finder",
+      "observed_windows_commit_prefix": "cff1002",
+      "license": "MIT",
+      "role": "candidate_research_tool_optional",
+      "verified_local_checkout_at_audit": true,
+      "github_submodule_installed": false,
+      "runtime_adapter_connected": false,
+      "source_path_hint": "C:/Users/ADMIN/Documents/CINE_A2_Research_Audit_20261022/repos/youtube-niche-finder",
+      "note": "Existing CINE Research Intelligence remains source of truth; cloning this tool does not mean it ran or watched YouTube."
+    }
+  ],
+  "role_skill_references": {
+    "r01-source-evidence": [
+      "research"
+    ],
+    "r02-audience-jtbd": [
+      "reader-panel",
+      "research"
+    ],
+    "r03-comment-insight": [
+      "research",
+      "reader-panel"
+    ],
+    "r04-competitive-outlier": [
+      "research"
+    ],
+    "r05-competitor-story-autopsy": [
+      "plot-structure",
+      "scene-craft"
+    ],
+    "r06-psychological-hooks": [
+      "theme-craft",
+      "genre-craft"
+    ],
+    "r07-story-opportunity": [
+      "premise-workshop",
+      "research"
+    ],
+    "s01-original-concept-lab": [
+      "premise-workshop",
+      "genre-craft"
+    ],
+    "s02-character-bible": [
+      "character-management",
+      "worldbuilding"
+    ],
+    "s03-micro-hook-designer": [
+      "scene-craft",
+      "premise-workshop"
+    ],
+    "s04-causal-beat-architect": [
+      "plot-structure",
+      "scene-craft"
+    ],
+    "s05-mini-story-treatment": [
+      "chapter-writing",
+      "scene-craft"
+    ],
+    "s06-comedy-and-emotion": [
+      "genre-craft",
+      "theme-craft"
+    ],
+    "s07-dialogue-a2": [
+      "voice-style",
+      "line-editing"
+    ],
+    "s08-professional-screenplay": [
+      "scene-craft",
+      "chapter-writing"
+    ],
+    "s09-anthology-architect": [
+      "series-continuity",
+      "plot-structure"
+    ],
+    "s10-continuity-ledger": [
+      "revision-continuity",
+      "series-continuity"
+    ],
+    "s11-adversarial-story-editor": [
+      "editorial-review",
+      "feedback-triage"
+    ],
+    "s12-a2-comprehension-check": [
+      "line-editing",
+      "reader-panel"
+    ],
+    "s13-originality-and-kids-safety": [
+      "editorial-review",
+      "research"
+    ],
+    "s14-script-lock-and-learning": [
+      "story-maintenance",
+      "submission"
+    ]
+  },
+  "policy": [
+    "never_execute_external_repo_merely_because_link_exists",
+    "respect_license_and_authorized_source",
+    "external_craft_skills_do_not_override_series_canon",
+    "do_not_copy_competitor_story_dialogue_or_footage",
+    "no_external_skill_approval_claim_without_execution_evidence"
+  ]
+}
