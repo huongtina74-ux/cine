@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-10-28",
+  "global_policy": {
+    "language_priority": [
+      "en-US",
+      "en-GB"
+    ],
+    "general_longform_minutes_min": 8,
+    "channel_new_days_max": 30,
+    "new_breakout_min_distinct_videos": 2,
+    "new_breakout_min_views_each": 1000000,
+    "breakout_published_days_max": 15,
+    "early_warning_days_max": 5,
+    "recent_leader_video_days_max": 30,
+    "relative_outlier_min_multiplier": 5,
+    "min_same_channel_comparable_baseline_n": 5,
+    "views_subs_review_multipliers": [
+      5,
+      10,
+      30,
+      100
+    ],
+    "max_silent_assumptions": 0
+  },
+  "niches": [
+    {
+      "id": "mom_grandma_family_original",
+      "name": "Original Mom, Grandma & Family Audio Stories",
+      "formats": [
+        "original-fiction-audio"
+      ],
+      "duration_target_minutes": [
+        30,
+        90
+      ]
+    },
+    {
+      "id": "cozy_bedtime_fiction",
+      "name": "Original Cozy Bedtime Fiction",
+      "formats": [
+        "cozy-sleep-audio"
+      ],
+      "duration_target_minutes": [
+        45,
+        150
+      ]
+    },
+    {
+      "id": "everyday_history_sleep",
+      "name": "Boring Everyday History for Sleep",
+      "formats": [
+        "history-documentary-sleep"
+      ],
+      "duration_target_minutes": [
+        90,
+        240
+      ]
+    },
+    {
+      "id": "historical_mysteries_sleep",
+      "name": "Historical Mysteries for Sleep",
+      "formats": [
+        "history-mysteries-audio"
+      ],
+      "duration_target_minutes": [
+        90,
+        240
+      ]
+    },
+    {
+      "id": "science_space_nature_sleep",
+      "name": "Science, Space & Nature for Sleep",
+      "formats": [
+        "science-documentary-sleep"
+      ],
+      "duration_target_minutes": [
+        90,
+        240
+      ]
+    },
+    {
+      "id": "slow_english_a2_story",
+      "name": "Slow English A2 Animated and Audio Stories",
+      "formats": [
+        "slow-english-a2-stories"
+      ],
+      "duration_target_minutes": [
+        25,
+        90
+      ]
+    },
+    {
+      "id": "senior_retirement_finance",
+      "name": "US/UK Senior Retirement, Banking and Finance Education",
+      "formats": [
+        "retirement-explainer"
+      ],
+      "duration_target_minutes": [
+        12,
+        60
+      ]
+    },
+    {
+      "id": "ai_software_automation",
+      "name": "AI Software and Business Automation Screencast",
+      "formats": [
+        "software-demo"
+      ],
+      "duration_target_minutes": [
+        8,
+        120
+      ]
+    },
+    {
+      "id": "original_horror_audio",
+      "name": "Original Horror Audio Narration",
+      "formats": [
+        "original-horror"
+      ],
+      "duration_target_minutes": [
+        30,
+        180
+      ]
+    },
+    {
+      "id": "magical_witch_family_stories",
+      "name": "Bell & Leaf | Magical Witch Family Stories | Slow English A2",
+      "parent_niche_id": "slow_english_a2_story",
+      "series_id": "bell_leaf",
+      "project_id": "slow_english_a2_bell_leaf",
+      "formats": [
+        "original-magical-family-a2-animation"
+      ],
+      "duration_target_minutes": [
+        30,
+        50
+      ],
+      "direct_peer_baseline": "magical_witch_family_stories_a2_animation",
+      "no_mixed_baseline": true
+    }
+  ],
+  "notes": [
+    "Niche-specific competitor membership and baselines; cannot pool across niches",
+    "Channel ID retained after aging beyond 30d",
+    "Research flags not guarantees of RPM/YPP/viral reach"
+  ]
+}
