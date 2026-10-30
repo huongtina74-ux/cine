@@ -44,7 +44,7 @@ def run(repo_root: Path, script_file: Path, out: Path):
     for name,prompts in [("FLOW_IMAGE_PROMPTS_ONE_LINE.txt",flow_prompts),("MUSE_VIDEO_PROMPTS_ONE_LINE.txt",video_prompts)]:
         (out/name).write_text("\n\n".join(prompts)+"\n",encoding="utf-8")
     status = "BLOCKED_FOR_PRODUCTION" if any(r["blockers"] for r in manifest) else "REFERENCES_VERIFIED_PROVIDER_UPLOAD_AND_MEDIA_QC_REQUIRED"
-    report = {"project_id":"slow_english_a2_bell_leaf","shot_count":len(shots),
+    report = {"project_id":"slow_english_a2_bell_leaf","parent_niche_id":bible.profile.get("parent_niche_id"),"subniche_id":bible.profile.get("subniche_id"),"series_id":bible.profile.get("series_id"),"shot_count":len(shots),
               "planned_duration_seconds":len(shots)*10,"reference_preflight_status":status,
               "approved_media_rendered_by_this_tool":0,"muse_video_e2e_verified":False,"shots":manifest}
     (out/"REFERENCE_PREFLIGHT_QC.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

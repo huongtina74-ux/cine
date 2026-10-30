@@ -1,3 +1,13 @@
+# Hierarchy: Slow English > Slow English A2 > Magical Witch Family Stories > Bell & Leaf.
+parent_niche_id: slow_english
+learning_level: A2
+subniche_id: magical_witch_family_stories
+series_id: bell_leaf
+competitor_cohort: magical_witch_family_stories_a2_animation
+baseline_scope: same_subniche_only
+adjacent_research_context: slow_english_a2_general
+do_not_mix_competitors_or_baselines: true
+# General Slow English listening channels are adjacent context, NOT direct Bell & Leaf peer baselines.
 # Slow English A2 — niche-specific research configuration (same CINE company intelligence)
 priority_market: en_US_Tier1
 separate_niche_baseline: true

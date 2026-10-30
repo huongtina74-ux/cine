@@ -116,7 +116,7 @@ class BellLeafCanon:
             if p is None: blockers.append("VOICE_WAV_MISSING_OR_CHANGED:"+tag)
             else: voice_refs.append({"tag":tag,"wav":str(p),"voice_id":voice.get("voice_id")})
         return {
-            "project_id":self.profile["project_id"],"shot_id":shot.get("shot_id"),"duration_seconds":10,
+            "project_id":self.profile["project_id"],"niche_id":self.profile.get("niche_id"),"parent_niche_id":self.profile.get("parent_niche_id"),"subniche_id":self.profile.get("subniche_id"),"series_id":self.profile.get("series_id"),"shot_id":shot.get("shot_id"),"duration_seconds":10,
             "activeCharacterTags":tags,"character_refs":char_refs,"location_refs":location_refs,"prop_refs":prop_refs,"voice_refs":voice_refs,
             "blockers":sorted(set(blockers)),"provider_media_ids":[],
             "status":"BLOCKED_FOR_PRODUCTION" if blockers else "REFERENCES_VERIFIED_UPLOAD_TO_PROVIDER_REQUIRED",

@@ -34,6 +34,7 @@ jobs:
           python -m compileall -q cinefactory/studio/slow_english_a2.py .claude/skills/cine-a2-fixed10s-asset-bridge/scripts scripts/slow_english_a2_preflight.py
           PYTHONPATH=. python -m unittest discover -s tests -p test_slow_english_a2_canon.py -v
           PYTHONPATH=. python -m unittest discover -s tests -p test_slow_english_a2_voice_casting.py -v
+          PYTHONPATH=. python -m unittest discover -s tests -p test_slow_english_a2_subniche.py -v
           PYTHONPATH=. python -m unittest discover -s .claude/skills/cine-a2-fixed10s-asset-bridge/tests -p test_asset_bridge.py -v
       - name: Ensure no real image was falsely marked approved
         run: |

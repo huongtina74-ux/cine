@@ -302,5 +302,10 @@
     "reference_wav_and_transcript_required": true,
     "rights_check_required": true,
     "prohibit_unconsented_minor_voice_cloning": true
-  }
+  },
+  "parent_niche_id": "slow_english",
+  "learning_level": "A2",
+  "subniche_id": "magical_witch_family_stories",
+  "series_id": "bell_leaf",
+  "taxonomy_scope": "These ten voice profiles belong to Bell & Leaf within Magical Witch Family Stories, not to all Slow English A2."
 }
