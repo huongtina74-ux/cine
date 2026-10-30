@@ -85,5 +85,15 @@
     "independent_QC",
     "publish_analytics_learning"
   ],
-  "policy": "FAIL_CLOSED_UNTIL_REAL_ASSETS_HASHES_HUMAN_APPROVAL"
+  "policy": "FAIL_CLOSED_UNTIL_REAL_ASSETS_HASHES_HUMAN_APPROVAL",
+  "voice_casting_design": {
+    "version": "v1.0",
+    "registry": "config/niches/slow_english_a2/voice_registry.json",
+    "prompts": "config/niches/slow_english_a2/voice_casting_prompts.txt",
+    "guide": "config/niches/slow_english_a2/VOICE_CASTING_STANDARDS.md",
+    "status": "DESIGN_METADATA_COMPLETE_AUDIO_NOT_APPROVED",
+    "provider_candidate": "VoxCPM2",
+    "approval_gate": "WAV_SHA_RIGHTS_ENGINE_LISTENING_QC",
+    "no_narrator": true
+  }
 }
