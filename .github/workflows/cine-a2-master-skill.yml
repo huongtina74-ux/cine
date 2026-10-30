@@ -25,6 +25,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install existing CineFactory Studio dependencies
+        run: python -m pip install -e . 'Pillow>=10,<13'
       - name: Compile and verify actual Master Skill and 21-role handoffs
         run: |
           python -m compileall -q tools/cf_a2_master_skill.py tools/cf_script_factory.py
