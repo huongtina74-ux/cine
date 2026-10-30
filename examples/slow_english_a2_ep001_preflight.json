@@ -1,0 +1,26 @@
+{
+  "project_id": "slow_english_a2_bell_leaf",
+  "episode_id": "EP001",
+  "shots": [
+    {
+      "shot_id": "EP001_S010",
+      "duration_seconds": 10,
+      "activeCharacterTags": [
+        "Lia",
+        "bubu"
+      ],
+      "location_id": "BELL",
+      "space_id": "BH-ATELIER",
+      "location_view_id": "FORWARD",
+      "activePropIds": [],
+      "action": "Lia follows Bubu toward a peculiar shimmer inside Mara's workshop, both surprised but curious",
+      "camera": "Medium 50mm, motivated subtle lateral movement",
+      "dialogue": [
+        {
+          "speaker_tag": "Lia",
+          "text": "Bubu, what is that light?"
+        }
+      ]
+    }
+  ]
+}
