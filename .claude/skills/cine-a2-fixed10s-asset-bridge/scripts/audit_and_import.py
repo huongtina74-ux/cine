@@ -11,9 +11,9 @@ TAGS=['bo','me','juno','Lia','bubu','bix','ongngoai','bangoai','ongnoi','banoi']
 
 def checksum(data):return hashlib.sha256(data).hexdigest()
 def loadqueue():
- if not QUEUE.exists():
-  import build_asset_queue
-  build_asset_queue.main()
+ from build_asset_queue import generate, export
+ # Always rebuild from the original CINE location registry, never a stale duplicate snapshot.
+ export(generate(), ROOT / 'queue')
  return [json.loads(l) for l in QUEUE.read_text('utf-8').splitlines() if l.strip()]
 def audit_characters():
  errors=[];info={}
@@ -60,7 +60,9 @@ def audit_locations():
 def audit_generated(output_root):
  jobs=loadqueue();done=[];invalid=[];review_pending=[];accepted=[];unseen=[];hash_seen={}
  for j in jobs:
-  file=output_root/pathlib.Path(j['output_relpath'])
+  relpath=pathlib.PurePosixPath(j['output_relpath'])
+  if relpath.is_absolute() or '..' in relpath.parts:raise ValueError('Invalid output path')
+  file=output_root.joinpath(*relpath.parts)
   if not file.exists():unseen.append(j['plate_id']);continue
   try:
    with Image.open(file) as im:
