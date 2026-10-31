@@ -1,0 +1,1442 @@
+{
+  "schema_version": "1.0.0",
+  "recorded_date": "2026-10-31",
+  "namespace": "CINE.YOGA_KIDS",
+  "purpose": "non-canonical proposed character memory for multi-outfit kids-yoga animation",
+  "status": "PROPOSED_REFERENCE_ONLY_NOT_APPROVED",
+  "scope": "Separate from CINE Slow English A2 / Bell & Leaf",
+  "counts": {
+    "female": 23,
+    "male": 10,
+    "total": 33
+  },
+  "source_status": "Some images generated in conversation or Adobe, NOT downloaded into GitHub; no SHA256 and no final image approval. Text roster preserves owner design intent; existence of names does not imply original 33 independent face masters.",
+  "universal_rules": {
+    "original_ip": true,
+    "original_character_identity": "Face shape, eyes, age-appropriate body proportions, signature hair, head ornaments, primary palette and personal symbol must be stable across angles/outfits/episodes",
+    "outfit_categories": [
+      "yoga",
+      "casual",
+      "street",
+      "sport",
+      "chill"
+    ],
+    "all_yoga_mat_footwear": "GRIP_SOCKS_ONLY_NO_SHOES",
+    "socks_requirements": "Each character has unique comfortable fitted non-slip socks with themed print and clear silicone sole traction. No decorative loose attachments on soles or toes.",
+    "non_yoga_footwear": "Sneakers permitted only off the mat in casual/street/sport introductions",
+    "production_quality": "High fidelity polished CGI 3D, vivid modern kid-safe multi-style fashion, distinct facial identities, bright neutral D55 lighting, detailed hair/fabric, natural movement and anatomical QA",
+    "child_appropriate": true,
+    "content_packaging": "Designed for child audience; assess and apply platform child-directed labeling. Do not promise exemption from Made for Kids classification.",
+    "reference_priority": "explicit user-approved single-character master > approved turnarounds > owner-selected lineup > provisional concept; text prompts never override approved identity",
+    "fail_closed": "No approval, no matching uploaded reference or ambiguous identity => status PENDING, not LOCKED. No fake face lock or sock QC PASS.",
+    "model_sheet": "One girl/boy per asset; full body front/3quarter/side/back, expressions, signature hair ornaments, all five distinct looks, closeup grip-sock top and sole, three safe yoga poses; yoga panels strictly sock-only.",
+    "merge_rule": "Same face/hair identity = outfit variant; change of hair color or outfit alone does not create a new person. Similar faces but unverified names require human comparison; never merge automatically."
+  },
+  "characters": [
+    {
+      "id": "YK-F-01",
+      "name": "Luna",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "chestnut curly hair in two asymmetrical high buns; warm brown eyes; light freckles",
+      "signature_accessories": "sunflower clips, yellow-orange beads",
+      "palette": [
+        "sunshine yellow",
+        "hot pink",
+        "coral"
+      ],
+      "symbols": [
+        "sun",
+        "star"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "sun tee with pink patterned joggers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "heart-patch denim shorts over fitted leggings and bomber",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "pink-yellow varsity jacket with loose graphic cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "sun-emblem team top and layered skort",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "sun cloud soft lounge set",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching sunshine yellow / hot pink colors; motif sun, star; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-02",
+      "name": "Bella",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long honey-blonde curled high ponytail; bright blue eyes",
+      "signature_accessories": "oversized pink bow, pastel heart hairclips, charm bracelet",
+      "palette": [
+        "pink",
+        "lilac",
+        "cream"
+      ],
+      "symbols": [
+        "heart",
+        "ribbon"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "lavender wrap bolero, pink tiered athletic skort over leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "pastel cardigan with heart-patch flare jeans",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "lilac cropped varsity jacket with high-waist relaxed cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "pink-and-violet breathable tunic with fitted leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "soft knitted heart-pattern tracksuit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching pink / lilac colors; motif heart, ribbon; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-03",
+      "name": "Sky",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long flowing lavender-periwinkle waves gathered in half bun",
+      "signature_accessories": "crescent moon clips, small star charms",
+      "palette": [
+        "lavender",
+        "sky blue",
+        "periwinkle"
+      ],
+      "symbols": [
+        "crescent",
+        "cloud"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "sky-print sweater and cloud joggers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "blue moon tunic with soft layered tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "celestial hooded bomber with wide-leg trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "lightweight galaxy zip top and athletic leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "starry pastel fleece matching set",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching lavender / sky blue colors; motif crescent, cloud; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-04",
+      "name": "Zoe",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "rich deep-chestnut long thick side braid; warm hazel eyes",
+      "signature_accessories": "teal ribbons, tiny sunflower pins",
+      "palette": [
+        "teal",
+        "jade",
+        "lime"
+      ],
+      "symbols": [
+        "leaf",
+        "flower"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "botanical wrap top and olive yoga culottes",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "mint embroidered shirt dress over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "teal utility jacket and comfortable cargo trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "turquoise sleeveless sport top and fitted tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "sage loose knit and leaf-print pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching teal / jade colors; motif leaf, flower; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-05",
+      "name": "Nova",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "vibrant bubblegum pink curly twin space buns; brown eyes",
+      "signature_accessories": "gold star clips and colorful scrunchies",
+      "palette": [
+        "fuchsia",
+        "pink",
+        "purple",
+        "peach"
+      ],
+      "symbols": [
+        "star",
+        "creative spark"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "star tee with asymmetric flutter panel and leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "pink graphic romper over bike shorts",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "fuchsia lightweight bomber and lilac patch cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "pink-purple dance athletic jumpsuit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "soft fluffy star fleece and wide lounge pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching fuchsia / pink colors; motif star, creative spark; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-06",
+      "name": "Mia",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "dark espresso-black high ponytail with purple-lilac ribbons; playful expressive eyes",
+      "signature_accessories": "butterfly pins, violet scrunchie",
+      "palette": [
+        "violet",
+        "lavender",
+        "lilac"
+      ],
+      "symbols": [
+        "butterfly",
+        "graceful dance"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "lavender wrap tunic over bell-bottom stretch pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "orchid pleated sporty pinafore over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "purple varsity jacket and charcoal cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "violet dance jersey with athletic leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "lavender cozy oversized sweatshirt and printed joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching violet / lavender colors; motif butterfly, graceful dance; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-07",
+      "name": "Ellie",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "copper-orange natural curls in a high bun; green-hazel eyes and freckles",
+      "signature_accessories": "white daisy clips, tiny animal charms",
+      "palette": [
+        "tangerine",
+        "warm orange",
+        "cream"
+      ],
+      "symbols": [
+        "pawprint",
+        "sun"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "orange skort over full floral leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "animal-print short overalls and cream tee",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "orange animal-patch denim jacket with cargo trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "peach jersey and opaque printed leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "orange cozy fleece and pawprint pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching tangerine / warm orange colors; motif pawprint, sun; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-08",
+      "name": "Sophie",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "honey blonde twin braids; large light-blue round glasses",
+      "signature_accessories": "blue headband, book/star clips",
+      "palette": [
+        "cobalt",
+        "sky blue",
+        "white"
+      ],
+      "symbols": [
+        "book",
+        "star"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "blue star tunic over opaque stretch leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "blue checked pinafore over collared tee",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "cobalt academy jacket and wide jeans",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "sky sports jersey, pleated panel, blue tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cloud-print cardigan and soft pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching cobalt / sky blue colors; motif book, star; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-09",
+      "name": "Ruby",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long dark espresso-brown waves with subtle berry-magenta streaks",
+      "signature_accessories": "black-and-pink cap, lightning pins",
+      "palette": [
+        "black",
+        "fuchsia",
+        "violet",
+        "red"
+      ],
+      "symbols": [
+        "lightning",
+        "bold move"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "black graphic tunic with fitted flexible leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "berry cap and asymmetric black top with denim shorts over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "black-red street bomber and violet panel cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "dark pink trim jersey with opaque leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "comfy charcoal hoodie and berry fleece pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching black / fuchsia colors; motif lightning, bold move; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-10",
+      "name": "Ivy",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "very long dark teal-green flowing waves with curly ends",
+      "signature_accessories": "floral wreath, small leaf clips",
+      "palette": [
+        "sage",
+        "jade",
+        "cream"
+      ],
+      "symbols": [
+        "vine",
+        "daisy"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "leaf wrap tunic over olive stretch pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "floral tee and soft cream culottes",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "sage utility bomber and olive cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "jade sport tunic with fitted leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "knit green flower cardigan and lounge trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching sage / jade colors; motif vine, daisy; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-11",
+      "name": "Aria",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "dark brown voluminous curly high ponytail; warm brown skin",
+      "signature_accessories": "cobalt ribbons and gold star clips",
+      "palette": [
+        "cobalt",
+        "white",
+        "gold"
+      ],
+      "symbols": [
+        "star",
+        "teamwork"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "cobalt star tee with blue layered skort over leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "blue denim overall shorts layered over tee",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "blue-white varsity jacket with dark cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "electric blue sleeveless jersey and stretch tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "soft powder-blue cloud sweatshirt and joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching cobalt / white colors; motif star, teamwork; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-12",
+      "name": "Nina",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long dark brown curly hair; expressive eyes behind blue-purple round glasses",
+      "signature_accessories": "lavender butterfly clips, purple headband",
+      "palette": [
+        "lilac",
+        "blue",
+        "orchid"
+      ],
+      "symbols": [
+        "butterfly",
+        "creativity"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "lilac butterfly tee with purple wide-leg stretch pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "butterfly cardigan and blue pleated skirt over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "navy lilac school-street bomber and black cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "lavender graphic jersey with stretch leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "orchid plaid lounge suit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching lilac / blue colors; motif butterfly, creativity; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-13",
+      "name": "Willow",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long copper red ringlets with delicate freckles and green eyes",
+      "signature_accessories": "white daisies and leaf hair garland",
+      "palette": [
+        "sage",
+        "moss",
+        "cream",
+        "rose"
+      ],
+      "symbols": [
+        "daisy",
+        "botanical calm"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "green floral wrap top and soft yoga pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "nature patch denim jumper over cream leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "olive jacket, leaf-print loose cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "sage technical shirt, forest colored skort over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "botanical soft-knit two piece",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching sage / moss colors; motif daisy, botanical calm; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-14",
+      "name": "Stella",
+      "gender": "female",
+      "roster_group": "named_original_roster",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "voluminous honey-blonde curled high ponytail; bright eyes",
+      "signature_accessories": "gold stars, peach scrunchie",
+      "palette": [
+        "peach",
+        "gold",
+        "coral",
+        "hot pink"
+      ],
+      "symbols": [
+        "gold star",
+        "sunshine"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "peach star tee and bright pink balloon yoga trousers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "peach layered mini skort over pink leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "pink-gold star varsity jacket and loose black cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "orange athletic top and peach movement leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cream star hoodie and pastel joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching peach / gold colors; motif gold star, sunshine; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-F-15",
+      "name": "Sunny",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long chestnut curly high ponytail, tan complexion; distinctly not Luna's twin buns",
+      "signature_accessories": "sunny yellow scrunchie and sun clips",
+      "palette": [
+        "yellow",
+        "hot pink",
+        "rainbow"
+      ],
+      "symbols": [
+        "sunshine",
+        "rainbow"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "sun-yellow tee and pink rainbow compression leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "yellow shortall romper over coral leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "sun varsity jacket and asymmetric hot pink cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "sun printed breathable jersey and legging shorts over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "citrus fleece set",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching yellow / hot pink colors; motif sunshine, rainbow; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-16",
+      "name": "Melody",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "deep brown-black hair styled in two distinct buns; mint ribbons",
+      "signature_accessories": "mint floral clips and small leaf earrings",
+      "palette": [
+        "mint",
+        "turquoise",
+        "ivory"
+      ],
+      "symbols": [
+        "mint leaf",
+        "calm"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "mint asymmetrical tunic and green fitted trousers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "mint layered culottes and white blouse",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "ivory green utility jacket with leaf-patch cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "mint sleeveless active tee over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "pastel green cozy knit two-piece",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching mint / turquoise colors; motif mint leaf, calm; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-17",
+      "name": "Zara",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "dark brown skin, naturally voluminous afro coils, violet headband",
+      "signature_accessories": "purple headband and golden star beads",
+      "palette": [
+        "purple",
+        "violet",
+        "gold"
+      ],
+      "symbols": [
+        "bold star"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "purple star top and flexible purple leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "lavender sleeveless hoodie and dark tapered pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "purple-yellow contrast varsity jacket and relaxed trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "violet sport jersey with opaque stretch leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "plush purple star hoodie and joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching purple / violet colors; motif bold star; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-18",
+      "name": "Liv",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "long honey blonde waves with pastel pink-and-blue highlight braid; blue eyes",
+      "signature_accessories": "rainbow star clips and pastel ribbons",
+      "palette": [
+        "baby blue",
+        "pastel pink",
+        "lilac",
+        "cream"
+      ],
+      "symbols": [
+        "rainbow",
+        "cloud"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "pastel rainbow yoga top and cloud leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "blue layered sundress over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "pastel varsity jacket with high waisted loose cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "multicolor sport top and airy exercise pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "soft rainbow cloud pajama-look loungewear",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching baby blue / pastel pink colors; motif rainbow, cloud; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-19",
+      "name": "River",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "medium tan skin, long dark-brown ponytail, outdoorsy expressive face",
+      "signature_accessories": "purple outdoor hair tie, explorer pendant",
+      "palette": [
+        "olive",
+        "purple",
+        "tan"
+      ],
+      "symbols": [
+        "compass",
+        "river"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "violet wrap sport tee and olive flex pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "trail-pattern shirt, soft olive shorts over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "purple utility jacket and khaki cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "light outdoor jersey and sport leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cozy purple green sweat set",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching olive / purple colors; motif compass, river; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-20",
+      "name": "Skye",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "freckled fair skin, ginger two messy high buns, light green-blue eyes",
+      "signature_accessories": "sunny ribbons and tiny floral clips",
+      "palette": [
+        "cream",
+        "sunshine gold",
+        "teal"
+      ],
+      "symbols": [
+        "sun sketch",
+        "nature"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "sun white long-sleeve top and teal botanical leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "printed pinafore over stretch pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "yellow-teal windbreaker and wide blue pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "sleeved cream sport top and athletic patterned tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "soft pastel art-hoodie and loose lounge pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching cream / sunshine gold colors; motif sun sketch, nature; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-21",
+      "name": "Zuri",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "warm brown skin, long glossy black hair in high half-ponytail with teal tie",
+      "signature_accessories": "aqua elastic band and wave accessory",
+      "palette": [
+        "teal",
+        "navy",
+        "aqua"
+      ],
+      "symbols": [
+        "free spirit",
+        "wave"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "teal active tunic and indigo pattern leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "aqua overall-skirt over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "dark teal bomber and navy utility trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "aqua sports shirt and patterned full leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "aqua fleece and navy joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching teal / navy colors; motif free spirit, wave; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-22",
+      "name": "Kaya",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "deep brown skin, natural high curly puff hair, bright coral headband",
+      "signature_accessories": "coral hairband and small geometric charms",
+      "palette": [
+        "coral",
+        "magenta",
+        "pink"
+      ],
+      "symbols": [
+        "sunrise",
+        "courage"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "coral tee with magenta flexible full leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "coral overalls layered over opaque leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "peach-pink bold street jacket and sporty cargo pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "bright sunrise sport jersey and leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "peach soft hoodie with comfy tapered pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching coral / magenta colors; motif sunrise, courage; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-F-23",
+      "name": "Chloe",
+      "gender": "female",
+      "roster_group": "additional_named_posters",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "honey-blonde soft shoulder waves ending in mint green dyed tips",
+      "signature_accessories": "mint flower barrettes and mint backpack",
+      "palette": [
+        "mint",
+        "peach",
+        "cream"
+      ],
+      "symbols": [
+        "flower",
+        "new growth"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "mint hoodie and stretch yoga leggings",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "peach layered denim pinafore over cream tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "mint varsity jacket, peach graphic cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "green-peach sport top with workout leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "mint soft cloud-knit lounge outfit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching mint / peach colors; motif flower, new growth; soft fitted fabric, silicone sole grip visible; no shoes on mat",
+      "identity_notes": "Do not merge from named posters without owner face review; similarity by clothes/color alone is insufficient."
+    },
+    {
+      "id": "YK-M-01",
+      "name": "Kai",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "electric cobalt-blue tousled spiky hair; friendly big brown eyes",
+      "signature_accessories": "blue lightning headband",
+      "palette": [
+        "electric blue",
+        "yellow",
+        "white"
+      ],
+      "symbols": [
+        "lightning"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "blue athletic top with tapered yoga joggers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "cobalt windbreaker, denim utility shorts",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "navy-black lightning street tracksuit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "blue sleeveless top and shorts over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "blue-cloud plush lounge hoodie",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching electric blue / yellow colors; motif lightning; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-02",
+      "name": "Leo",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "golden-blonde tousled hair; warm brown eyes",
+      "signature_accessories": "mint star wristband",
+      "palette": [
+        "mint green",
+        "forest",
+        "cream"
+      ],
+      "symbols": [
+        "star",
+        "kindness"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "mint star tee and flexible yoga pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "green zip hoodie with light jeans",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "green-black varsity jacket with dark cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "white-green sports jersey and breathable shorts over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "mint teddy fleece and soft pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching mint green / forest colors; motif star, kindness; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-03",
+      "name": "Milo",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "ginger-copper curly short hair; warm freckles",
+      "signature_accessories": "sun patch and hiking wristbands",
+      "palette": [
+        "teal",
+        "orange",
+        "sunshine"
+      ],
+      "symbols": [
+        "sun",
+        "mountain"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "teal sun top with stretch trousers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "orange zip hoodie with light teal joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "teal-orange patchwork street jacket and cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "sun sleeveless sports top and navy sport shorts",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cream fluffy hoodie and teal fleece pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching teal / orange colors; motif sun, mountain; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-04",
+      "name": "Theo",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "chestnut tousled short hair; thoughtful dark eyes",
+      "signature_accessories": "musical note headphones and small crown cap",
+      "palette": [
+        "navy",
+        "turquoise",
+        "sky"
+      ],
+      "symbols": [
+        "music",
+        "crown"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "navy yoga tee with cyan soft pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "denim jacket and beige cargo trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "black cyan graphic oversized hoodie and street cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "turquoise sports tee with navy stretch shorts",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "blue-white cloud hoodie with relaxed fleece",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching navy / turquoise colors; motif music, crown; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-05",
+      "name": "Finn",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "chestnut windswept hair; brown eyes",
+      "signature_accessories": "orange outdoor scarf, leaf compass",
+      "palette": [
+        "olive",
+        "orange",
+        "beige"
+      ],
+      "symbols": [
+        "mountain",
+        "compass"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "olive leaf yoga wrap top with flexible trousers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "orange scarf and olive cargo outfit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "forest-green outdoor jacket and black-orange utility trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "orange green trail-inspired sports tee and shorts over leggings",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cream fuzzy sweater and leaf-print lounge pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching olive / orange colors; motif mountain, compass; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-06",
+      "name": "Jett",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "black slightly long swept hair with vivid green streaks",
+      "signature_accessories": "reverse black cap with neon green symbol",
+      "palette": [
+        "black",
+        "forest green",
+        "mint"
+      ],
+      "symbols": [
+        "mountain crown",
+        "leaf"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "olive yoga wrap tee with stretch forest pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "sage patterned overshirt and relaxed shorts",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "black-green graphic jacket with wide-leg cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "green-white athletic T-shirt over stretch tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "soft woodland fleece and pajama trousers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching black / forest green colors; motif mountain crown, leaf; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-07",
+      "name": "Axel",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "short tousled platinum-blonde hair; bright blue eyes",
+      "signature_accessories": "black-gold triangle pendant and wrist guards",
+      "palette": [
+        "black",
+        "gold",
+        "ivory"
+      ],
+      "symbols": [
+        "mountain triangle"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "black-gold yoga top with stretch joggers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "white tee, gold outline soft cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "black gold oversized varsity jacket and cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "gold-trim sports jersey with breathable athletic bottoms",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cream hoodie and lounge pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching black / gold colors; motif mountain triangle; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-08",
+      "name": "Max",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "black spiky hair with sharp red highlights; large brown eyes",
+      "signature_accessories": "red-black wristband and lightning patch",
+      "palette": [
+        "red",
+        "black",
+        "white"
+      ],
+      "symbols": [
+        "lightning",
+        "energy"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "white lightning tank, black flexible yoga pants",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "red cap and dark denim shortalls",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "black red dynamic graphic bomber and wide-leg cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "red-white sport jersey with black tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cream fluffy red-trim hoodie and cozy pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching red / black colors; motif lightning, energy; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-09",
+      "name": "Noah",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "black fluffy hair with cobalt-blue front streak; dark brown eyes",
+      "signature_accessories": "cloud hair accent and blue bracelet",
+      "palette": [
+        "sky blue",
+        "navy",
+        "white"
+      ],
+      "symbols": [
+        "cloud",
+        "calm"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "blue cloud top and stretch navy yoga joggers",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "pale blue jacket with navy cargo pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "dark navy cloud-patch bomber and wide cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "blue white sport top and navy exercise shorts over tights",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "plush blue-white clouds tracksuit",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching sky blue / navy colors; motif cloud, calm; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    },
+    {
+      "id": "YK-M-10",
+      "name": "Rio",
+      "gender": "male",
+      "roster_group": "male_character_expansion",
+      "image_reference_status": "EXISTS_IN_CHAT_NOT_COMMITTED_TO_GITHUB",
+      "identity_approval": "PENDING_OWNER_CANON_REVIEW",
+      "face_and_hair": "black-brown curly mid-length hair with distinctive orange swoosh at front; warm brown eyes",
+      "signature_accessories": "orange-teal bracelets and tiny palm sun charm",
+      "palette": [
+        "turquoise",
+        "sunset orange",
+        "cream"
+      ],
+      "symbols": [
+        "ocean wave",
+        "palm sun"
+      ],
+      "outfits": {
+        "yoga": {
+          "description": "turquoise-orange sun tee with comfy yoga shorts over opaque stretch tights",
+          "footwear": "CHARACTER_SPECIFIC_NONSLIP_GRIP_SOCKS_NO_SHOES"
+        },
+        "casual": {
+          "description": "teal windbreaker, graphic shorts and relaxed joggers",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "street": {
+          "description": "black-teal street hoodie with orange accents and large cargos",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "sport": {
+          "description": "light mint graphic sport shirt and flexible sport pants",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        },
+        "chill": {
+          "description": "cream cloud fleece and pastel blue relaxed lounge bottoms",
+          "footwear": "SNEAKERS_OPTIONAL_OFF_MAT"
+        }
+      },
+      "yoga_sock_design": "Matching turquoise / sunset orange colors; motif ocean wave, palm sun; soft fitted fabric, silicone sole grip visible; no shoes on mat"
+    }
+  ],
+  "pending_gates": [
+    "Obtain source approved full-resolution PNG for each character",
+    "Verify unique face vs every other candidate and label duplicate outfits",
+    "Check front/side/back hair ornaments consistency",
+    "Verify sock sole grip, no footwear on mats in every panel",
+    "Verify safe yoga anatomy & comfortable child clothing",
+    "Owner approval and asset hash / path before canon lock"
+  ]
+}
