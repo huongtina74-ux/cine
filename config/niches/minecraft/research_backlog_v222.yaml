@@ -105,7 +105,7 @@ technology_study:
     control: CODE_HEADLESS
     role: blend_world_material_and_mob_preparation
     source: https://github.com/Moo-Ack-Productions/MCprep
-    installed_and_version_checked: false
+    installed_and_version_checked: true  # OBSERVED 2026-11-01: MCprep 3.6.3 enabled in a separate Blender 4.5.15 LTS (C:\\Program Files\\Blender Foundation\\Blender 4.5, official MSI sha256 5fc1b354...98ae); 80 rigs listed, test spawn OK; textures need a resource pack
     production_quality_qualified: false
     priority: P1
     gate: "SOURCE_VERIFIED 2026-11-01: MCprep 3.6.3 states one install for Blender 2.83-5.2. Still needs an isolated Blender 4.5 check on the owner PC before the production worker loads it; no auto-install."
