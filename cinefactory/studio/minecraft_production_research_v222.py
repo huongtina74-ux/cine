@@ -111,7 +111,7 @@ def minecraft_research_conference() -> dict:
         "reviewed_technology_candidates":[{
             "id":t["id"],"role":t["role"],"priority":t["priority"],
             "source":t["source"],"installed_checked":t["installed_and_version_checked"],
-            "production_qualified":False,"next_gate":t["gate"],
+            "production_qualified":False,"next_gate":t["gate"],"control":t.get("control","UNASSESSED"),
         } for t in tech],
         "tool_priorities":dict(Counter(t["priority"] for t in tech)),
         "pilot_story":board["pilot_plan"]["title"],

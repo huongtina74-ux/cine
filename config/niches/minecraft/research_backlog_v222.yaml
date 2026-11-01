@@ -66,7 +66,11 @@ competitor_cases:
       - "Can the video be legally inspected frame by frame for generic cinematography, not copied rigs?"
       - "Which movements are keyframed externally vs game capture? UNVERIFIED until footage."
 technology_study:
+  # control: CODE_HEADLESS = Cine runs it without a person; CODE_FILE = Cine writes/reads its files, a person opens and renders;
+  # CODE_API_KEY = API with an owner key/OAuth; GUI_ONLY = a person operates it; REPLACED_BY_CINE = an existing Cine tool covers it;
+  # POLICY_BLOCKED = conflicts with the original-IP rule; LEARNING_ONLY / UNVERIFIED as named.
   - id: existing_blender_4_5
+    control: CODE_HEADLESS
     role: primary_deterministic_voxel_animation
     source: https://www.blender.org/releases/4-5/
     installed_and_version_checked: true
@@ -74,6 +78,7 @@ technology_study:
     priority: P0
     gate: "Improve original rig, face, acting, world and lighting; compare same shots after visual signoff."
   - id: blockbench_original_assets
+    control: CODE_FILE
     role: original_rigged_model_skin_pixel_uv
     source: https://blockbench.net/wiki/guides/export-formats/
     installed_and_version_checked: false
@@ -81,6 +86,7 @@ technology_study:
     priority: P0
     gate: "Creator-authored original props and GLB/glTF export; validate bones, texture nearest and rights."
   - id: blender_studio_course
+    control: LEARNING_ONLY
     role: published_professional_workflow_reference
     source: https://studio.blender.org/training/minecraft-animation-workshop/
     installed_and_version_checked: false
@@ -88,6 +94,7 @@ technology_study:
     priority: P0
     gate: "Course curriculum only read; membership video not watched. Learn world, skin, rig, light, render, audio."
   - id: mineways
+    control: UNVERIFIED
     role: original_world_export_to_blender
     source: https://github.com/erich666/Mineways
     installed_and_version_checked: false
@@ -95,13 +102,15 @@ technology_study:
     priority: P1
     gate: "Must own legal game/world source and permission. Test export on Blender 4.5 with original world."
   - id: mcprep
+    control: CODE_HEADLESS
     role: blend_world_material_and_mob_preparation
     source: https://github.com/Moo-Ack-Productions/MCprep
     installed_and_version_checked: false
     production_quality_qualified: false
-    priority: HOLD
-    gate: "README compatibility older Blender; require Blender 4.5 isolated check, no auto-install."
+    priority: P1
+    gate: "SOURCE_VERIFIED 2026-11-01: MCprep 3.6.3 states one install for Blender 2.83-5.2. Still needs an isolated Blender 4.5 check on the owner PC before the production worker loads it; no auto-install."
   - id: mineimator
+    control: CODE_FILE
     role: owner_priority_block_animation_backend_via_project_file
     source: https://www.mineimator.com/download
     installed_and_version_checked: false
@@ -109,6 +118,7 @@ technology_study:
     priority: P0
     gate: "OWNER 2026-11-01: most important tool. SOURCE_VERIFIED: .miproject is JSON (github.com/stuffbydavid/Mine-imator project_save_*.gml). cinefactory/block_animation/mineimator.py writes a compiled episode into a copy of an owner-made template; still no headless render API, so rendering stays in the Mine-imator UI. Next gate: owner template passes block-mineimator-inspect, then one calibration export opened on the owner PC (axes, camera, audio)."
   - id: replay_mod
+    control: GUI_ONLY
     role: in_game_capture_and_free_camera
     source: https://www.replaymod.com/
     installed_and_version_checked: false
@@ -116,6 +126,7 @@ technology_study:
     priority: P1
     gate: "Owner plays/acts in an original world; no CineFactory API. Check shader pack licence before monetised use."
   - id: bbs_mod
+    control: GUI_ONLY
     role: in_game_actor_playback_and_camera_paths
     source: https://www.curseforge.com/minecraft/mc-mods/bbs-mod
     installed_and_version_checked: false
@@ -123,6 +134,7 @@ technology_study:
     priority: P2
     gate: "Fabric 1.20+ mod; data files may be scriptable but format unverified. Test on one original scene first."
   - id: mineflayer
+    control: CODE_HEADLESS
     role: scripted_bot_actors_on_local_server
     source: https://github.com/PrismarineJS/mineflayer
     installed_and_version_checked: false
@@ -130,6 +142,7 @@ technology_study:
     priority: P2
     gate: "Only on an owner-run local server with owner accounts/offline mode; never on public servers. Pair with Replay Mod capture."
   - id: mixamo
+    control: GUI_ONLY
     role: motion_library_for_blender_rigs
     source: https://www.mixamo.com/
     installed_and_version_checked: false
@@ -137,6 +150,7 @@ technology_study:
     priority: P2
     gate: "Requires owner Adobe login and manual FBX download (no scripted account use). Retarget to Blender rigs; not importable by Mine-imator directly."
   - id: skin_sources
+    control: POLICY_BLOCKED
     role: skin_reference_only
     source: https://www.minecraftskins.com/ ; https://vi.namemc.com/ ; https://www.planetminecraft.com/skins ; https://minecraft.novaskin.me/
     installed_and_version_checked: false
@@ -144,6 +158,7 @@ technology_study:
     priority: HOLD
     gate: "Original IP rule: cast skins are drawn for CineFactory (NovaSkin editor is fine for drawing). Community skins need creator permission; competitor characters (JJ, Mikey, Steve-as-lead) are blocked."
   - id: map_sources
+    control: GUI_ONLY
     role: world_and_set_sources
     source: https://www.planetminecraft.com/projects ; https://www.minecraft-maps.com/
     installed_and_version_checked: false
@@ -151,6 +166,7 @@ technology_study:
     priority: P1
     gate: "Each map's licence/credit terms recorded before use; prefer CineFactory-built sets. Mine-imator imports schematics/worlds."
   - id: music_sfx_sources
+    control: CODE_API_KEY
     role: licensed_music_and_effects
     source: https://incompetech.com/ ; https://freesound.org/
     installed_and_version_checked: false
@@ -158,6 +174,7 @@ technology_study:
     priority: P1
     gate: "Incompetech = CC-BY, credit Kevin MacLeod in the description. Freesound: per-sound licence, CC0/CC-BY only, credits recorded by cf_auto_edit."
   - id: voice_tools
+    control: REPLACED_BY_CINE
     role: voice_and_character_pitch
     source: https://ttsmaker.com/ ; https://www.audacityteam.org/
     installed_and_version_checked: false
@@ -165,13 +182,23 @@ technology_study:
     priority: P1
     gate: "TTSMaker commercial terms unverified; human or owner-cloned voice preferred. Audacity pitch shift is equivalent to the existing FFmpeg path."
   - id: capcut_pc
+    control: REPLACED_BY_CINE
     role: manual_edit_alternative
     source: https://www.capcut.com/
     installed_and_version_checked: false
     production_quality_qualified: false
     priority: HOLD
     gate: "No API; tools/cf_auto_edit.py already covers VO, ducked music, SFX, captions and -14 LUFS."
+  - id: blender_mcp_community
+    control: CODE_HEADLESS
+    role: interactive_claude_to_blender_on_owner_pc
+    source: https://github.com/ahujasid/blender-mcp
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P2
+    gate: "OBSERVED 2026-11-01: registered on the owner PC as local MCP 'Blender' but Blender was not listening on :9876. Runs arbitrary Python in a live Blender; use for interactive previs/asset checks only, never as the production worker."
   - id: comfyui_local
+    control: CODE_HEADLESS
     role: concept_and_optional_hero_visuals_only
     source: https://github.com/Comfy-Org/ComfyUI
     installed_and_version_checked: true
@@ -179,6 +206,7 @@ technology_study:
     priority: P2
     gate: "Core app confirmed local API only; persistent 3D character continuity unproven, no paid nodes."
   - id: blender_lab_mcp
+    control: CODE_HEADLESS
     role: isolated_claude_3d_scene_commands
     source: https://www.blender.org/lab/mcp-server/
     installed_and_version_checked: false
@@ -186,6 +214,7 @@ technology_study:
     priority: HOLD
     gate: "Requires Blender 5.1+, unsandboxed bpy; don't replace existing production 4.5 worker."
   - id: ffmpeg_existing
+    control: CODE_HEADLESS
     role: deterministic_local_post_production
     source: https://ffmpeg.org/
     installed_and_version_checked: true
