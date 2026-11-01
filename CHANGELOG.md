@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Added Mine-imator export for block animation: `cinefactory/block_animation/mineimator.py` writes a compiled episode (character/limb/head/camera keyframes, audio track) into a copy of an owner-made `.miproject` template; conventions in `config/block_animation/mineimator.yaml` (UNCALIBRATED until opened on the owner PC). CLI: `block-mineimator-inspect`, `block-mineimator-export`. See `docs/MINEIMATOR_ADAPTER.md`.
+- Minecraft technology register: Mine-imator raised to P0 (owner priority); Replay Mod, BBS, Mineflayer, Mixamo, skin/map sources, Incompetech/Freesound, TTSMaker/Audacity and CapCut added with rights/usage gates.
+- Verification: pytest tests/test_block_mineimator_export.py 8 passed; not yet opened in Mine-imator (not measured).
+
 ## 1.6.0
 
 - Added RTX 3060 local render-quality profiles with zero metered production API use.

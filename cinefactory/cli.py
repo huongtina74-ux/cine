@@ -1802,6 +1802,32 @@ def block_factory(poll_seconds:float=typer.Option(.05,"--poll-seconds",min=.02,m
     typer.echo("CineFactory Block Animation Factory started. Ctrl+C to stop."); f.run_forever()
 
 
+@app.command("block-mineimator-inspect")
+def block_mineimator_inspect(file: Path=typer.Option(...,"--file",exists=True,readable=True)) -> None:
+    """Check an owner-made Mine-imator .miproject before using it as an export template."""
+    from cinefactory.block_animation.mineimator import inspect_project
+    report=inspect_project(file); typer.echo(json.dumps(report,ensure_ascii=False,indent=2))
+    if not report["ready_as_template"]: raise typer.Exit(code=2)
+
+@app.command("block-mineimator-export")
+def block_mineimator_export(
+    file: Path=typer.Option(...,"--file",exists=True,readable=True,help="EpisodeSpec JSON"),
+    template: Path=typer.Option(...,"--template",exists=True,readable=True,help="owner-made .miproject with the characters, a camera and an audio track"),
+    out: Path=typer.Option(...,"--out",help="new .miproject to write (the template is never modified)"),
+    audio: Path|None=typer.Option(None,"--audio",help="episode mix / voice track to attach"),
+    actor_map: list[str]=typer.Option([],"--map",help="actor_id=TemplateCharacterName, repeatable"),
+    camera: str|None=typer.Option(None,"--camera"),
+    take: int=typer.Option(0,"--take",min=0,help="camera take index per shot"),
+) -> None:
+    """Compile an episode and write its performance into a copy of a Mine-imator template."""
+    from cinefactory.block_animation.mineimator import MineImatorExporter
+    ctx=context(); ep=EpisodeSpec.model_validate_json(file.read_text(encoding="utf-8")); c=EpisodeAssembler.from_root(ctx.root).compile(ep)
+    mapping=dict(x.split("=",1) for x in actor_map)
+    report=MineImatorExporter.from_root(ctx.root).export(c,template,out,actor_map=mapping,camera_name=camera,audio_path=audio,take_index=take)
+    out.with_suffix(".export_report.json").write_text(json.dumps(report.as_dict(),ensure_ascii=False,indent=2),encoding="utf-8")
+    typer.echo(json.dumps(report.as_dict(),ensure_ascii=False,indent=2))
+
+
 @app.command("logic-check")
 def logic_check(file: Path = typer.Option(..., "--file", exists=True, readable=True), auto_fill_missing: bool = typer.Option(True, "--auto-fill/--no-auto-fill")) -> None:
     raw=json.loads(file.read_text(encoding="utf-8")); shots=[ShotSpec.model_validate(x) for x in raw]
