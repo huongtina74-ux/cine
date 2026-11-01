@@ -40,7 +40,7 @@ Blender 4.5 portable: `.tools/blender-4.5.14-windows-x64/blender.exe`. GPU: RTX 
 | `tools/cf_auto_edit.py` | build the edit from the DC (VO, ducked music, SFX, SRT, chapters, -14 LUFS) |
 | `tools/cf_qc.py` | technical QC + contact sheet |
 | `tools/cf_policy_check.py` | metadata vs content, tags, CTA, kids, AI disclosure |
-| `tools/cf_research_stats.py` | medians, outliers, views/day from saved research rows |
+| `tools/cf_research_stats.py` | medians, outliers, views/day from saved research rows; `--kind skins` = Minecraft skin trends (skill `minecraft-trend-watch`) |
 | `tools/cf_decision.py` | decision log `data/decisions.jsonl` |
 | `tools/cf_notify.py` | message to the owner's phone (Telegram/webhook) |
 | `tools/claude_reasoning_bridge.py` | Claude as `CINEFACTORY_REASONING_COMMAND` |
