@@ -24,6 +24,9 @@ from the skin), props, crowd, VFX events. Shots are joined with hard cuts.
 
 ## Owner steps (once)
 
+0. Install Mine-imator 2.0.2 and upgrade Trial → Full: the Trial build burns a watermark into every exported movie/image.
+   The Full key is free at https://www.mineimator.com/upgrade ("I'd rather not donate" → Get key); it is stored in
+   `<Mine-imator>/Data/key.midata`. OBSERVED 2026-11-01 on the owner PC: installed at `C:\Users\ADMIN\Mine-imator`, title shows `v2.0.2` (no TRIAL).
 1. In Mine-imator 2.x create `template.miproject` with:
    - the original cast as characters, named like the actor ids (or use `--map actor=Name`),
    - one camera,

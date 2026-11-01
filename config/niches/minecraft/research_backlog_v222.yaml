@@ -113,7 +113,7 @@ technology_study:
     control: CODE_FILE
     role: owner_priority_block_animation_backend_via_project_file
     source: https://www.mineimator.com/download
-    installed_and_version_checked: false
+    installed_and_version_checked: true  # OBSERVED 2026-11-01: 2.0.2 Full at C:\\Users\\ADMIN\\Mine-imator (Trial would watermark renders)
     production_quality_qualified: false
     priority: P0
     gate: "OWNER 2026-11-01: most important tool. SOURCE_VERIFIED: .miproject is JSON (github.com/stuffbydavid/Mine-imator project_save_*.gml). cinefactory/block_animation/mineimator.py writes a compiled episode into a copy of an owner-made template; still no headless render API, so rendering stays in the Mine-imator UI. Next gate: owner template passes block-mineimator-inspect, then one calibration export opened on the owner PC (axes, camera, audio)."
