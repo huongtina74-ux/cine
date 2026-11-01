@@ -3,6 +3,23 @@
 Source of truth for each tool's status: `config/niches/minecraft/research_backlog_v222.yaml`
 (`control`, `priority`, `gate`). This page says how to combine them.
 
+## 0. Owner rule: free tools only (OWNER 2026-11-01)
+
+Paid tools are skipped or replaced (`policy.free_tools_only`, per-tool `cost` in the register).
+
+| Paid / needs a paid prerequisite | Status | Free replacement |
+| --- | --- | --- |
+| Replay Mod, BBS mod (need Minecraft Java Edition) | HOLD | Mine-imator (R2) actors + camera paths; Blender 4.5 + MCprep (R1) |
+| Mineflayer capture (needs the game client to film) | parked | same as above |
+| Blender Studio training (membership) | HOLD | Blender manual via Blender Lab MCP `search_manual_docs`, MCprep wiki |
+| CapCut Pro features | HOLD | `tools/cf_auto_edit.py` |
+| Freesound (skipped earlier) | HOLD | Incompetech (CC BY 4.0), Kenney (CC0), Pixabay, Cine-synthesised SFX |
+
+Route R3 (in-game capture) is therefore parked; R1 and R2 are fully free.
+
+Blender MCP: the owner PC's Claude connector "Blender" is the official Blender Lab MCP (needs Blender 5.1+).
+It runs in a separate Blender 5.2.3 install with add-on `mcp-1.0.3` for interactive previs only; the 4.5 production worker is unchanged.
+
 ## 1. What Cine can actually drive
 
 | Control level | Tools | Meaning for production |
@@ -16,7 +33,7 @@ Source of truth for each tool's status: `config/niches/minecraft/research_backlo
 Facts checked 2026-11-01 (OBSERVED from the sources):
 - Mine-imator: project file is JSON; the app passes launch arguments only to Qt (no open-file or render command found), so rendering is manual.
 - MCprep 3.6.3: one install for Blender 2.83–5.2.
-- Blender MCP (ahujasid): one tool `execute_blender_code` = arbitrary Python in a live Blender, socket :9876. Interactive use only.
+- Blender Lab MCP (official, GPL-3.0-or-later, free): add-on `mcp` 1.0.3 needs Blender 5.1+, socket localhost:9876, needs Preferences > System > Allow Online Access; runs unguarded Python. Interactive use only.
 - Mineflayer: Minecraft 1.8–26.1, `auth: 'offline'` for an owner-run offline server.
 - Incompetech: CC BY 4.0; credit "Title Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0" in the description; monetisation allowed.
 - Freesound API: token for search/previews (60/min, 2000/day); original files need OAuth2. Use CC0/CC-BY only.
@@ -45,5 +62,5 @@ Render the same 45-second original pilot (`pilot_plan` in the register) through 
 1. Merge PR #12, pull on the Windows machine without overwriting local changes.
 2. Mine-imator 2.x: make `template.miproject` (cast, camera, audio track) → `block-mineimator-inspect` → one calibration export (`docs/MINEIMATOR_ADAPTER.md`).
 3. Blender: install MCprep 3.6.3 in a test copy of Blender 4.5 and run one rig/world import.
-4. Optional R3: local Fabric server in offline mode, Replay Mod or BBS in the owner's client.
+4. R3 parked (needs paid Minecraft Java) under the free-only rule.
 5. Blender 4.5.15 (official MSI, SHA-256 verified) as the MCprep test install; production worker stays untouched.

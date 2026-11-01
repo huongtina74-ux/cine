@@ -44,7 +44,8 @@ def test_technical_workflow_source_provenance_and_missing_qualifications():
     assert tech["existing_blender_4_5"]["installed_checked"]
     assert tech["blockbench_original_assets"]["priority"]=="P0"
     assert tech["mcprep"]["priority"]=="P1"
-    assert tech["blender_lab_mcp"]["priority"]=="HOLD"
+    assert tech["blender_lab_mcp"]["priority"]=="P2"
+    assert tech["blender_mcp_community"]["priority"]=="HOLD"
     assert all(not x["production_qualified"] for x in tech.values())
 
 
@@ -98,3 +99,14 @@ def test_existing_niche_strategy_displays_minecraft_actual_art_receipts():
     assert school["minecraft_original_animation_research"]["pilot_seconds"]==45
     other=prepare_niche_technology_strategy("minecraft_recorded_survival")
     assert other["minecraft_original_animation_research"] is None
+
+
+def test_owner_free_only_rule_parks_every_paid_tool():
+    d=module.minecraft_research_conference()
+    assert d["free_tools_only"] is True
+    tech={r["id"]:r for r in d["reviewed_technology_candidates"]}
+    assert all(x["cost"]!="UNASSESSED" for x in tech.values())
+    paid={k for k,x in tech.items() if x["cost"] in ("PAID","PAID_PREREQUISITE","FREE_TIER")}
+    assert {"replay_mod","bbs_mod","blender_studio_course","capcut_pc"}<=paid
+    assert all(tech[k]["priority"]=="HOLD" for k in paid)
+    assert tech["mineimator"]["cost"]=="FREE" and tech["mcprep"]["cost"]=="FREE"
