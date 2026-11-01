@@ -102,12 +102,75 @@ technology_study:
     priority: HOLD
     gate: "README compatibility older Blender; require Blender 4.5 isolated check, no auto-install."
   - id: mineimator
-    role: optional_block_specific_animation_comparison
+    role: owner_priority_block_animation_backend_via_project_file
     source: https://www.mineimator.com/download
     installed_and_version_checked: false
     production_quality_qualified: false
+    priority: P0
+    gate: "OWNER 2026-11-01: most important tool. SOURCE_VERIFIED: .miproject is JSON (github.com/stuffbydavid/Mine-imator project_save_*.gml). cinefactory/block_animation/mineimator.py writes a compiled episode into a copy of an owner-made template; still no headless render API, so rendering stays in the Mine-imator UI. Next gate: owner template passes block-mineimator-inspect, then one calibration export opened on the owner PC (axes, camera, audio)."
+  - id: replay_mod
+    role: in_game_capture_and_free_camera
+    source: https://www.replaymod.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
     priority: P1
-    gate: "No verified headless API/MCP. Compare manually on one legally original shot, no automatic integration."
+    gate: "Owner plays/acts in an original world; no CineFactory API. Check shader pack licence before monetised use."
+  - id: bbs_mod
+    role: in_game_actor_playback_and_camera_paths
+    source: https://www.curseforge.com/minecraft/mc-mods/bbs-mod
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P2
+    gate: "Fabric 1.20+ mod; data files may be scriptable but format unverified. Test on one original scene first."
+  - id: mineflayer
+    role: scripted_bot_actors_on_local_server
+    source: https://github.com/PrismarineJS/mineflayer
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P2
+    gate: "Only on an owner-run local server with owner accounts/offline mode; never on public servers. Pair with Replay Mod capture."
+  - id: mixamo
+    role: motion_library_for_blender_rigs
+    source: https://www.mixamo.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P2
+    gate: "Requires owner Adobe login and manual FBX download (no scripted account use). Retarget to Blender rigs; not importable by Mine-imator directly."
+  - id: skin_sources
+    role: skin_reference_only
+    source: https://www.minecraftskins.com/ ; https://vi.namemc.com/ ; https://www.planetminecraft.com/skins ; https://minecraft.novaskin.me/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "Original IP rule: cast skins are drawn for CineFactory (NovaSkin editor is fine for drawing). Community skins need creator permission; competitor characters (JJ, Mikey, Steve-as-lead) are blocked."
+  - id: map_sources
+    role: world_and_set_sources
+    source: https://www.planetminecraft.com/projects ; https://www.minecraft-maps.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "Each map's licence/credit terms recorded before use; prefer CineFactory-built sets. Mine-imator imports schematics/worlds."
+  - id: music_sfx_sources
+    role: licensed_music_and_effects
+    source: https://incompetech.com/ ; https://freesound.org/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "Incompetech = CC-BY, credit Kevin MacLeod in the description. Freesound: per-sound licence, CC0/CC-BY only, credits recorded by cf_auto_edit."
+  - id: voice_tools
+    role: voice_and_character_pitch
+    source: https://ttsmaker.com/ ; https://www.audacityteam.org/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "TTSMaker commercial terms unverified; human or owner-cloned voice preferred. Audacity pitch shift is equivalent to the existing FFmpeg path."
+  - id: capcut_pc
+    role: manual_edit_alternative
+    source: https://www.capcut.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "No API; tools/cf_auto_edit.py already covers VO, ducked music, SFX, captions and -14 LUFS."
   - id: comfyui_local
     role: concept_and_optional_hero_visuals_only
     source: https://github.com/Comfy-Org/ComfyUI

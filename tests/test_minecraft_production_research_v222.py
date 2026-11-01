@@ -35,8 +35,10 @@ def test_no_competitor_workflow_can_be_attributed_without_watching():
 
 def test_technical_workflow_source_provenance_and_missing_qualifications():
     d=module.minecraft_research_conference()
-    assert len(d["reviewed_technology_candidates"])==9
+    assert len(d["reviewed_technology_candidates"])==18
     tech={r["id"]:r for r in d["reviewed_technology_candidates"]}
+    assert tech["mineimator"]["priority"]=="P0"
+    assert tech["skin_sources"]["priority"]=="HOLD" and tech["capcut_pc"]["priority"]=="HOLD"
     assert tech["existing_blender_4_5"]["installed_checked"]
     assert tech["blockbench_original_assets"]["priority"]=="P0"
     assert tech["mcprep"]["priority"]=="HOLD"
