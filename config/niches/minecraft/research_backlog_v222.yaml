@@ -166,13 +166,13 @@ technology_study:
     priority: P1
     gate: "Each map's licence/credit terms recorded before use; prefer CineFactory-built sets. Mine-imator imports schematics/worlds."
   - id: music_sfx_sources
-    control: CODE_API_KEY
+    control: GUI_ONLY
     role: licensed_music_and_effects
-    source: https://incompetech.com/ ; https://freesound.org/
+    source: https://incompetech.com/ ; https://kenney.nl/assets/category:Audio ; https://pixabay.com/sound-effects/
     installed_and_version_checked: false
     production_quality_qualified: false
     priority: P1
-    gate: "Incompetech = CC-BY, credit Kevin MacLeod in the description. Freesound: per-sound licence, CC0/CC-BY only, credits recorded by cf_auto_edit."
+    gate: "OWNER 2026-11-01: skip Freesound. Music = Incompetech, CC BY 4.0, credit 'Title Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0' in the description (some tracks draw false Content ID claims; keep the ISRC). SFX = Kenney audio packs (CC0) + Pixabay sound effects (no attribution; never redistribute standalone; no bulk copying) + Cine-synthesised SFX. Record each file's source and licence."
   - id: voice_tools
     control: REPLACED_BY_CINE
     role: voice_and_character_pitch
