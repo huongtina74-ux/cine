@@ -159,16 +159,16 @@ technology_study:
     installed_and_version_checked: false
     production_quality_qualified: false
     priority: P2
-    gate: "Free with an owner-created Adobe ID (no payment); owner logs in and downloads FBX by hand (no scripted account use). Retarget to Blender rigs; not importable by Mine-imator directly."
+    gate: "Free with an owner-created Adobe ID; characters and animations royalty-free in films/videos (Adobe Mixamo FAQ, OBSERVED). Auto-rigger wants one clean humanoid mesh, so animate on Mixamo's stock character and retarget onto MCprep rigs in Blender (R1). No FBX animation import found for Mine-imator (not verified). Owner logs in and downloads by hand; no scripted account use."
   - id: skin_sources
     control: POLICY_BLOCKED
     cost: FREE
     role: skin_reference_only
-    source: https://www.minecraftskins.com/ ; https://vi.namemc.com/ ; https://www.planetminecraft.com/skins ; https://minecraft.novaskin.me/
+    source: https://namemc.com/ ; https://www.minecraftskins.com/ ; https://www.planetminecraft.com/skins ; https://www.minecraftskins.net/ ; https://skinmc.net/ ; https://minecraft.novaskin.me/
     installed_and_version_checked: false
     production_quality_qualified: false
     priority: HOLD
-    gate: "Original IP rule: cast skins are drawn for CineFactory (NovaSkin editor is fine for drawing). Community skins need creator permission; competitor characters (JJ, Mikey, Steve-as-lead) are blocked."
+    gate: "Checked 2026-11-01. Community/player skins carry no licence on the listing pages (Planet Minecraft OBSERVED: none) and many copy third-party IP, so they are trend reference only; a skin is used only with the creator's written permission recorded. NameMC = manual trend research only, no scraping. NovaSkin and SkinMC editors (free, browser) are fine for drawing CineFactory's own skins. NovaSkin wallpapers are CC BY-NC-SA 3.0 (OBSERVED on the page) = non-commercial, so never in monetised thumbnails; render our own thumbnail scenes in Blender/Mine-imator instead."
   - id: map_sources
     control: GUI_ONLY
     cost: FREE
