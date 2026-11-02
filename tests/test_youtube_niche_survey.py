@@ -96,3 +96,17 @@ def test_env_file_key_and_committed_watchlist(tmp_path, monkeypatch):
     wl = json.loads((ROOT / "config/research/minecraft_niche_watchlist.json").read_text(encoding="utf-8"))
     assert len(wl["niches"]) >= 10 and all(n.get("queries") for n in wl["niches"].values())
     assert s.seconds("PT1H2M3S") == 3723 and s.seconds("P0D") == 0
+
+
+def test_bad_handle_404_is_skipped_but_403_stops(monkeypatch):
+    from urllib.error import HTTPError
+    def raiser(code):
+        def f(url, timeout=20):
+            raise HTTPError(url, code, "x", {}, None)
+        return f
+    monkeypatch.setattr(s, "urlopen", raiser(404))
+    assert s.Client._http("https://x/?key=SECRET") == {"items": [], "_error": 404}
+    monkeypatch.setattr(s, "urlopen", raiser(403))
+    with pytest.raises(RuntimeError) as e:
+        s.Client._http("https://x/?key=SECRET")
+    assert "SECRET" not in str(e.value) and "403" in str(e.value)

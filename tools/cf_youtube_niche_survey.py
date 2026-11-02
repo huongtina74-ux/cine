@@ -25,6 +25,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlencode
+from urllib.error import HTTPError
 from urllib.request import urlopen
 
 API = "https://www.googleapis.com/youtube/v3/"
@@ -49,9 +50,14 @@ class Client:
         try:
             with urlopen(url, timeout=20) as s:
                 return json.load(s)
+        except HTTPError as e:
+            # 400/404 = one bad handle or a channel without an uploads playlist: skip it, keep going.
+            # 403 = quota/key problem: stop. Never surface urllib messages (they contain the key).
+            if e.code in (400, 404):
+                return {"items": [], "_error": e.code}
+            raise RuntimeError(f"YouTube API refused the request (HTTP {e.code}: quota or key restriction)") from None
         except Exception:
-            # never surface urllib messages: they contain the URL and therefore the key
-            raise RuntimeError("YouTube API request failed (quota, key restriction or network)") from None
+            raise RuntimeError("YouTube API request failed (network)") from None
 
     def get(self, endpoint: str, **params) -> dict:
         cost = COST[endpoint]
