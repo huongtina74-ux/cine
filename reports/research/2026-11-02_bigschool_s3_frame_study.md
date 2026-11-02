@@ -77,3 +77,46 @@ no cookies, no Groq/OpenAI key). Used `youtube read|search|subtitle` (yt-dlp bac
 - Agent-Reach limits: no frames/visual watching (that still needs the browser pane); `transcribe` needs a
   Groq/OpenAI key (not configured, owner rule: no metered APIs). yt-dlp access to YouTube is outside the official
   API; for repeatable research keep using `tools/cf_youtube_niche_survey.py` (Data API).
+
+## Addendum 2 — full-length storyboard pass + 1080p frame inspection (OBSERVED, 2026-11-02 23:5x)
+Method (no download): YouTube's own seek-preview storyboards (level 3: 320×180, one frame / 10 s, 47 sheets × 9 =
+419 frames for S3). Viewed 17 sheets = 153 frames, every ~30 s across all 5 episodes, plus 4 frames drawn from the
+paused 1080p player onto an on-page canvas to inspect detail (16:58, 0:20, 19:01, 19:06), plus 2 sheets of
+"BABY ZOMBIE Lv.1 - Lv.300" (2022).
+- Rendering evidence (all seen):
+  - cast soft shadows on grass (wither skeleton at night, 19:06) — vanilla Minecraft has no such shadows
+  - point light from campfire lighting characters at night (sheet M12)
+  - depth of field with blurred background on close-ups (19:01)
+  - ambient-occlusion dark corners (16:58)
+  - emissive glowing eyes (Herobrine)
+  - no HUD, no first-person view, no name tags, no motion blur
+- Rig evidence:
+  - one-piece limbs that bend in the middle with a continuous texture (elbows, knees, sitting and crouching poses)
+  - removable cartoon eyes that pop on and off any mob as a gag (enderman, slime, creeper, baby zombie)
+  - tears
+- Props: non-voxel models (cylinder basket, round football, white car, TV with an animated screen texture,
+  Plinko board, image planes such as "wanted posters").
+- Post-production signatures:
+  - full-frame TV-static noise used as a scene transition (S3 and the 2022 video)
+  - speech-bubble tag "Baby Zombie"
+  - chalkboard titles ("Bottle Throw")
+  - floating yellow "Lvl.30" labels and a "94%" progress bar (2022)
+  - "BigSchool" watermark top right
+- Third-party IP spotted (do not copy):
+  - a horror-film clown look-alike
+  - a horror-game marionette look-alike
+  - a Superman logo shirt
+  - Coca-Cola cans and logo
+  - SCP-096 in the Season 4 title
+- Pipeline unchanged from 2020 to 2022 (same rigs, lighting, transitions).
+
+### Conclusion (INFERRED, confidence medium-high for the category, medium for the exact tool)
+- **Category:** keyframed 3D animation in a Minecraft-native animator, not gameplay capture, not a mod.
+- **Pipeline:**
+  - **Scene:** worlds/schematics built in Minecraft and imported as scenery.
+  - **Animation:** bendable Minecraft rigs with add-on cartoon eyes, keyframed per shot at 30 fps. Shadows, a point light, DOF and AO are rendered by the animator.
+  - **Edit:** a video editor adds static transitions, text bubbles and labels, plus CC-BY music (Kevin MacLeod, Twin Musicom, Audionautix) and freesound.org SFX credited by author.
+  - **Distribution:** about 11-minute episodes, then 30 min–3 h season compilations.
+- **Tool:** Mine-imator is the best match (free, bundled assets, bend rigs, sun shadows, point lights, DOF, 30 fps default workflows).
+- Blender + a Minecraft rig would also fit visually, so the exact tool stays NOT VERIFIED.
+- Next confirmation step: render the same shot types in the owner's Mine-imator 2.0.2 and compare side by side.
