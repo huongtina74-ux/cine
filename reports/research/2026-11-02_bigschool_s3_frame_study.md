@@ -62,3 +62,18 @@ Audio was NOT listened to: no sound/voice claims below.
   - compilations
   - free CC-BY music with full credits
 - docs/MINECRAFT_MAIZEN_BIGSCHOOL_COMPLETE_COMPANY_MASTER_V223 says "BIGSCHOOL-STYLE = Blender". This frame study suggests Mine-imator for the 2020 seasons. Treat the tool as **unverified** either way.
+
+## Addendum — subtitles and channel scan via Agent-Reach 1.6.1 (OBSERVED, 2026-11-02 23:4x)
+Agent-Reach installed in `%USERPROFILE%\.agent-reach-venv` on the owner PC (uv, pypi.org only; no `--system`, no logins,
+no cookies, no Groq/OpenAI key). Used `youtube read|search|subtitle` (yt-dlp backend, text only, no media download).
+- Auto-subtitles S3 (69.5 min): 401 sound tags, of which music 292, laughter 22, bell 19, snorts 15, screaming 15,
+  crying 4, cheering 5. Only **363 spoken words ≈ 5.2 words/min**, all interjections ("Huh?", "Hey", "Wow",
+  "Help me", "Thank you", "Oh my god"). → confirms near-wordless acting; music almost wall-to-wall.
+- 6 more BigSchool videos read (2020-08 → 2022-05): no software named in any description; every description credits
+  Kevin MacLeod / Twin Musicom / Audionautix music and individual freesound.org SFX authors (cartoon eye blink,
+  cute laugh, siren whistle). Episodes are 10–14 min; compilations 32 min to 3 h 08 min ("Season 9", 58.6M views).
+  Top single: "BABY ZOMBIE Lv.1 - Lv.300" 37.7M (2022-04-01, 12:05).
+- Software stays NOT VERIFIED (INFERRED Mine-imator, medium confidence).
+- Agent-Reach limits: no frames/visual watching (that still needs the browser pane); `transcribe` needs a
+  Groq/OpenAI key (not configured, owner rule: no metered APIs). yt-dlp access to YouTube is outside the official
+  API; for repeatable research keep using `tools/cf_youtube_niche_survey.py` (Data API).
