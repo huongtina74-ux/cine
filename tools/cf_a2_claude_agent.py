@@ -43,7 +43,10 @@ def prepare(repo,episode,store):
       ("voice_registry","config/niches/slow_english_a2/voice_registry.json"),
       ("production_profile","config/niches/slow_english_a2/production.json")):
         canon[label]=read(repo/path)
+    from cf_a2_external_craft import load_for_role
+    craft = load_for_role(node["id"], repo=repo)
     task={
+      "external_story_craft_guidance":craft,
       "project_id":"slow_english_a2_bell_leaf","subniche_id":"magical_witch_family_stories",
       "episode_id":episode,"stage":node["stage"],"required_outputs":node["outputs"],
       "upstream_artifacts":upstream,"original_source_records":sources,
