@@ -16,6 +16,7 @@ policy:
   long_form_minimum_seconds: 480
   quality_before_speed: true
   free_tools_only: true  # OWNER 2026-11-01: paid tools are skipped or replaced by a free alternative
+  owner_paid_exceptions: [minecraft_java]  # OWNER 2026-11-02: buy Minecraft Java & Bedrock (~$29.99) for the three Minecraft lanes
 prior_research:
   - docs/MINECRAFT_ART_RECOVERY_V1637.md
   - docs/CINEFACTORY_MINECRAFT_SUBNICHES_V207.md
@@ -126,22 +127,22 @@ technology_study:
     gate: "OWNER 2026-11-01: most important tool. SOURCE_VERIFIED: .miproject is JSON (github.com/stuffbydavid/Mine-imator project_save_*.gml). cinefactory/block_animation/mineimator.py writes a compiled episode into a copy of an owner-made template; still no headless render API, so rendering stays in the Mine-imator UI. Next gate: owner template passes block-mineimator-inspect, then one calibration export opened on the owner PC (axes, camera, audio)."
   - id: replay_mod
     control: GUI_ONLY
-    cost: PAID_PREREQUISITE
+    cost: FREE_NEEDS_OWNED_GAME
     role: in_game_capture_and_free_camera
     source: https://www.replaymod.com/
     installed_and_version_checked: false
     production_quality_qualified: false
-    priority: HOLD
-    gate: "OWNER 2026-11-01 free-only: needs a paid Minecraft Java Edition licence, so skipped. Free replacement: Mine-imator (R2) or Blender 4.5 + MCprep (R1) cameras."
+    priority: P1
+    gate: "OWNER 2026-11-02 lifted HOLD (Minecraft Java approved). Backup capture; Flashback is the primary camera (free, ARR, Fabric 1.21-26.2, 9:16 export). Not installed yet."
   - id: bbs_mod
     control: GUI_ONLY
-    cost: PAID_PREREQUISITE
+    cost: FREE_NEEDS_OWNED_GAME
     role: in_game_actor_playback_and_camera_paths
     source: https://www.curseforge.com/minecraft/mc-mods/bbs-mod
     installed_and_version_checked: false
     production_quality_qualified: false
-    priority: HOLD
-    gate: "OWNER 2026-11-01 free-only: BBS 2.4 (Fabric 1.21.1) runs inside paid Minecraft Java, so skipped. Free replacement: Mine-imator keyframe actors and camera paths (block-mineimator-export)."
+    priority: P0
+    gate: "OWNER 2026-11-02 lifted HOLD (Minecraft Java approved). Role: acting/entity animation for SAVEWALKER (config/niches/minecraft/savewalker). Pin Fabric 1.21.1; licence differs Modrinth (ARR) vs GitHub (MIT) - use, never redistribute. Not installed yet."
   - id: mineflayer
     control: CODE_HEADLESS
     cost: FREE

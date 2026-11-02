@@ -107,6 +107,9 @@ def test_owner_free_only_rule_parks_every_paid_tool():
     tech={r["id"]:r for r in d["reviewed_technology_candidates"]}
     assert all(x["cost"]!="UNASSESSED" for x in tech.values())
     paid={k for k,x in tech.items() if x["cost"] in ("PAID","PAID_PREREQUISITE","FREE_TIER")}
-    assert {"replay_mod","bbs_mod","blender_studio_course","capcut_pc"}<=paid
+    assert {"blender_studio_course","capcut_pc"}<=paid
     assert all(tech[k]["priority"]=="HOLD" for k in paid)
+    # OWNER 2026-11-02: Minecraft Java bought for the channel -> mods that only need the game are unblocked
+    assert tech["bbs_mod"]["cost"]=="FREE_NEEDS_OWNED_GAME" and tech["bbs_mod"]["priority"]=="P0"
+    assert tech["replay_mod"]["priority"]!="HOLD"
     assert tech["mineimator"]["cost"]=="FREE" and tech["mcprep"]["cost"]=="FREE"
