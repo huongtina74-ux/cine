@@ -308,7 +308,7 @@ function renderAt(t){
   } else if(t<X.s15){ // Ow! my foot
     cam(V3(-1.8,1.6,5.1),V3(1.6,1.0,1.9),40);
   } else if(t<X.s17){ // TA-DA: crane up reveal
-    const u=ease((t-X.s16)/(X.s17-X.s16));cam(V3(4,lerp(1.0,3.4,u),lerp(13.5,12.2,u)),V3(4,lerp(1.3,2.6,u),0.8),46);
+    const u=ease((t-X.s16)/(X.s17-X.s16));cam(V3(4,lerp(1.2,3.2,u),lerp(10.6,10.2,u)),V3(4,lerp(1.5,2.5,u),0.8),50);
   } else if(t<X.s18){ // Yay!
     cam(V3(4.1,1.0,6.7),V3(4,1.35,3.6),40);
   } else if(t<X.s19){ // group hug
