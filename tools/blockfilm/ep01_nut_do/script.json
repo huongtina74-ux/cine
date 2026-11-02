@@ -1,0 +1,165 @@
+[
+ {
+  "id": "hook",
+  "who": "bin",
+  "text": "Á á á á á! Bo ơi, cứu tớ với!",
+  "pre": 0.3,
+  "post": 0.4,
+  "cap": "ÁAAAA! Bo ơi, cứu tớ với!"
+ },
+ {
+  "id": "card",
+  "who": "nar",
+  "text": "Ba mươi giây trước...",
+  "cap": "30 GIÂY TRƯỚC...",
+  "pre": 0.2,
+  "post": 1.0,
+  "speed": 0.6
+ },
+ {
+  "id": "see",
+  "who": "bin",
+  "text": "Bo ơi, nhìn kìa! Có một cái nút đỏ to đùng!",
+  "pre": 0.6,
+  "post": 0.3
+ },
+ {
+  "id": "warn",
+  "who": "bo",
+  "text": "Bin, trên đó ghi là đừng bấm. Cậu đừng có bấm nhé!",
+  "cap": "Bin, trên đó ghi là ĐỪNG BẤM. Cậu đừng có bấm nhé!",
+  "pre": 0.2,
+  "post": 0.3
+ },
+ {
+  "id": "tiny",
+  "who": "bin",
+  "text": "Chỉ bấm một tí xíu thôi mà...",
+  "pre": 0.2,
+  "post": 0.2
+ },
+ {
+  "id": "press",
+  "who": "bo",
+  "text": "Bin! Không, không, không!",
+  "cap": "Bin! KHÔNG, KHÔNG, KHÔNGGG!",
+  "pre": 0.5,
+  "post": 0.6
+ },
+ {
+  "id": "fall",
+  "who": "bin",
+  "text": "Á á á á á á á!",
+  "pre": 0.0,
+  "post": 1.0,
+  "cap": "ÁAAAAAA!"
+ },
+ {
+  "id": "jump",
+  "who": "bo",
+  "text": "Bin! Chờ đấy, tớ xuống cứu cậu!",
+  "pre": 0.3,
+  "post": 1.2
+ },
+ {
+  "id": "gold",
+  "who": "bin",
+  "text": "Bo ơi, nhìn này! Cả một căn phòng toàn là vàng!",
+  "pre": 0.3,
+  "post": 0.2
+ },
+ {
+  "id": "rich",
+  "who": "bin",
+  "text": "Chúng ta giàu to rồi!",
+  "pre": 0.1,
+  "post": 0.3
+ },
+ {
+  "id": "wait",
+  "who": "bo",
+  "text": "Khoan đã! Kho báu dưới lòng đất thường có bẫy đấy.",
+  "pre": 0.2,
+  "post": 0.3
+ },
+ {
+  "id": "grab",
+  "who": "bin",
+  "text": "Tớ lấy một cục thôi mà...",
+  "pre": 0.2,
+  "post": 1.3
+ },
+ {
+  "id": "lava",
+  "who": "bo",
+  "text": "Nham thạch đang dâng lên! Chạy mau!",
+  "pre": 0.1,
+  "post": 0.2
+ },
+ {
+  "id": "climb",
+  "who": "bo",
+  "text": "Leo lên theo tớ!",
+  "pre": 0.1,
+  "post": 0.3
+ },
+ {
+  "id": "heavy",
+  "who": "bin",
+  "text": "Đợi tớ với! Vàng nặng quá!",
+  "pre": 0.1,
+  "post": 0.2
+ },
+ {
+  "id": "drop",
+  "who": "bo",
+  "text": "Bỏ vàng xuống đi Bin!",
+  "pre": 0.1,
+  "post": 0.2
+ },
+ {
+  "id": "never",
+  "who": "bin",
+  "text": "Không đời nào!",
+  "pre": 0.1,
+  "post": 0.9
+ },
+ {
+  "id": "phew",
+  "who": "bo",
+  "text": "Phù... thoát rồi! Hứa với tớ, không bấm nút lạ nữa nhé.",
+  "pre": 0.3,
+  "post": 0.2
+ },
+ {
+  "id": "promise",
+  "who": "bin",
+  "text": "Tớ hứa!",
+  "pre": 0.1,
+  "post": 0.8
+ },
+ {
+  "id": "blue",
+  "who": "bin",
+  "text": "Ơ... ở đây có cái nút màu xanh nè!",
+  "pre": 0.2,
+  "post": 0.2
+ },
+ {
+  "id": "boom",
+  "who": "bo",
+  "text": "Bin! Đừng, đừng, đừng!",
+  "cap": "BIN! ĐỪNG, ĐỪNG, ĐỪNGGG!",
+  "pre": 0.2,
+  "post": 2.2
+ },
+ {
+  "id": "end",
+  "who": "nar",
+  "text": "Chuyện gì sẽ xảy ra tiếp theo? Bấm đăng ký để xem tập hai nhé!",
+  "cap": "Chuyện gì sẽ xảy ra tiếp theo? Bấm ĐĂNG KÝ để xem TẬP 2 nhé!",
+  "pre": 0.3,
+  "post": 1.5,
+  "speed": 0.85
+ }
+]

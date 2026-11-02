@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased — blockfilm
+
+- Added `tools/blockfilm/`: the three.js block-world engine that rendered Bin & Bo ep01 "Nút Đỏ Bí Ẩn" (audio-first timeline, pose library, face states, voice-driven mouths, 18 designed shots, numpy music/SFX). Test: `tests/test_blockfilm_episode.py`.
+
 ## 1.6.0
 
 - Added RTX 3060 local render-quality profiles with zero metered production API use.
