@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- `tools/cf_minecraft_rcon.py`: local-only RCON driver for a Minecraft Java server (OBSERVED on the owner PC 2026-11-02: server 1.21.1 + Microsoft OpenJDK 21; fill/setblock/sign NBT/time/datapack function/save-all succeeded). Test set `config/niches/minecraft/savewalker/sets/s01e01_house_test.mcfunction`.
 - `tools/cf_youtube_niche_survey.py` + `config/research/minecraft_niche_watchlist.json`: official YouTube Data API survey of Minecraft niches (13 niches, quota-capped, key read from env/.env and never printed).
 - Minecraft trend watch: `cf_research_stats.py --kind skins` (rank-weighted skin trends, week-over-week, IP-safe brief), skill `minecraft-trend-watch`, baseline snapshot `config/niches/minecraft/skin_trends/2026-11-01.json` (observed by hand, no scraper).
 
