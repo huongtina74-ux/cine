@@ -139,6 +139,23 @@ def scan(repo,episode_id,store=None):
             break
         if not next_item:
             all_recorded=all(seen[n["id"]]["status"]=="HANDOFF_RECORDED" for n in current)
+            if stage=="research" and all_recorded:
+                from cf_a2_research_quality import inspect as inspect_research
+                gate=inspect_research(base)
+                if gate["status"]!="EVIDENCE_STRUCTURALLY_REVIEWABLE":
+                    next_item={"type":"BLOCKED_RESEARCH_QUALITY","stage":stage,
+                               "reasons":gate["reasons"],"direct_peer_count":gate["direct_peer_count"],
+                               "note":"R01/R04/R05 completed file handoffs, but current evidence cannot substantiate a deep competitor story analysis. Collect new actual source evidence and rerun affected roles. No auto-approval."}
+                    break
+            if all_recorded:
+                stage_config=next(s for s in factory.config()["stages"] if s["id"]==stage)
+                required=factory.stage_files(base,factory.config(),stage_config)
+                missing=[rel for rel in required if not (base/rel).is_file()]
+                if missing:
+                    next_item={"type":"STAGE_ASSEMBLY_REQUIRED","stage":stage,
+                               "missing_factory_artifacts":missing,
+                               "note":"Specialist role outputs and original Script Factory stage artifacts are DIFFERENT contracts. A real editor/agent must assemble the missing stage outputs from verified upstream work before QC review; no automatic quality PASS."}
+                    break
             next_item=({"type":"STAGE_QC_GATE","stage":stage,
                         "command":"python tools/cf_script_factory.py advance --id "+episode_id+
                           " --stage "+stage+" --actor <actual-reviewer-id>",

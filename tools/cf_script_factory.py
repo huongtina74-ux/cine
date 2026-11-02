@@ -128,6 +128,9 @@ def validate_content(base, settings, stage):
     def doc(rel):
         return read_json(base / rel)
     if sid == "research":
+        if manifest["mode"] == "A2_ANIMATED_SCREENPLAY":
+            from cf_a2_research_quality import require_research_ready
+            require_research_ready(base)
         info = doc("01_research/evidence.json")
         if info.get("niche_id") != read_json(base / "manifest.json")["niche_id"]:
             raise ValueError("Research report niche does not match project")

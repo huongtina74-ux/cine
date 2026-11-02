@@ -1,0 +1,33 @@
+name: CINE A2 — Research Evidence Quality and Stage Handoff
+on:
+  pull_request:
+    paths:
+      - 'tools/cf_a2_research_quality.py'
+      - 'tools/cf_a2_master_skill.py'
+      - 'tools/cf_script_factory.py'
+      - 'tests/test_cine_a2_research_quality.py'
+      - 'tests/test_cine_a2_master_skill.py'
+      - 'config/niches/slow_english_a2/RESEARCH_SCREENPLAY_EFFECTIVENESS_AUDIT_20261102.md'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/cf_a2_research_quality.py'
+      - 'tools/cf_a2_master_skill.py'
+      - 'tools/cf_script_factory.py'
+      - 'tests/test_cine_a2_research_quality.py'
+jobs:
+  verify-a2-research-handoff:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify research block and stage receipt semantics
+        run: |
+          python -m compileall -q tools/cf_a2_research_quality.py tools/cf_a2_master_skill.py tools/cf_script_factory.py
+          python -m unittest discover -s tests -p test_cine_a2_research_quality.py -v
+          python -m unittest discover -s tests -p test_cine_a2_master_skill.py -v
+          python -m unittest discover -s tests -p test_cine_a2_script_factory_graph.py -v
