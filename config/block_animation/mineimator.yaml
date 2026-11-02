@@ -1,0 +1,45 @@
+# Mine-imator 2.x export conventions for cinefactory/block_animation/mineimator.py
+#
+# The .miproject format is JSON (Mine-imator source: project_save_*.gml,
+# value names from app_startup_lists.gml, human model parts from steve.mimodel).
+# Everything below that is NOT read from the source is a convention we must
+# confirm on the owner's PC with one calibration export (see
+# docs/MINEIMATOR_ADAPTER.md). Until then calibration_status stays UNCALIBRATED
+# and every export report says so.
+calibration_status: UNCALIBRATED
+source_verified:
+  project_format: "JSON; keyframes keyed by frame position; only values that differ from default are stored"
+  value_names: [POS_X, POS_Y, POS_Z, ROT_X, ROT_Y, ROT_Z, BEND_ANGLE_X, VISIBLE, TRANSITION, CAM_FOV, CAM_ROTATE, CAM_ROTATE_DISTANCE, CAM_ROTATE_ANGLE_XY, CAM_ROTATE_ANGLE_Z, SOUND_OBJ]
+  human_parts: [body, head, right_arm, left_arm, right_leg, left_leg]
+  timeline_types: {character: char, part: bodypart, camera: camera, audio: audio}
+
+# 1 Cine block (Blender metre) = 16 Mine-imator units (one texture pixel).
+units_per_block: 16
+# Cine/Blender axis -> Mine-imator value, with sign. Mine-imator is Z-up like Blender.
+axis_map:
+  x: {value: POS_X, sign: 1}
+  y: {value: POS_Y, sign: 1}
+  z: {value: POS_Z, sign: 1}
+# Character yaw: Mine-imator ROT_Z degrees = sign * degrees(rotation_euler.z) + offset
+yaw: {value: ROT_Z, sign: 1, offset_degrees: 0}
+# Limb swing axis and sign: positive swing = limb moves forward.
+limb_swing: {value: ROT_X, sign: -1}
+limb_spread: {value: ROT_Z, sign: 1}
+head_yaw: {value: ROT_Z, sign: 1}
+head_pitch: {value: ROT_X, sign: -1}
+bend: {value: BEND_ANGLE_X, sign: 1}
+# Camera: the template camera orbits its own position (CAM_ROTATE) so the
+# exporter only needs the look-at point, distance and two angles.
+camera:
+  use_rotate_mode: true
+  eye_height_blocks: 1.55
+  pitch_degrees: 8
+  sensor_height_mm: 24
+  shot_size_distance_blocks: {ECU: 0.9, CU: 1.5, MCU: 2.1, MS: 3.0, MWS: 4.2, WS: 6.5, EWS: 11.0}
+  anchor_angle_degrees: {front: 0, left_three_quarter: -35, right_three_quarter: 35, left: -80, right: 80, over_shoulder: 150, top: 0}
+  angle_xy_offset_degrees: 0
+# Keyframes are written every N frames of the template tempo (Mine-imator interpolates between them).
+sample_step_frames: 2
+transition: linear
+# Locomotion speed for root-motion clips, blocks per second.
+root_motion_speed: {walk: 1.4, run: 3.6}

@@ -1,0 +1,1490 @@
+{
+ "meta": {
+  "observed": "2026-11-01",
+  "observer": "claude (interactive session, owner request), manual page views, no scraper",
+  "sources": {
+   "namemc": "https://namemc.com/minecraft-skins/trending/weekly + /monthly + /minecraft-skins/tag",
+   "skindex": "https://www.minecraftskins.com/ (Top, page 1; coded from titles only)",
+   "planetminecraft": "not read: Cloudflare check, not bypassed"
+  },
+  "labels": "rank/favorites/age_days/tag counts OBSERVED; archetype/palette/features INFERRED (visual or title coding)",
+  "rights": "No skin image downloaded or stored. Observations only; skins belong to their creators."
+ },
+ "skins": [
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 1,
+   "favorites": 774,
+   "age_days": 9.6,
+   "archetype": "dark-silhouette",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "hood",
+    "glowing-eyes"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 2,
+   "favorites": 333,
+   "age_days": 6.8,
+   "archetype": "swimsuit-meme",
+   "palette": [
+    "brown",
+    "pink"
+   ],
+   "features": [
+    "swimwear"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 3,
+   "favorites": 76,
+   "age_days": 3.8,
+   "archetype": "anime-girl",
+   "palette": [
+    "white",
+    "navy"
+   ],
+   "features": [
+    "long-hair"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 4,
+   "favorites": 804,
+   "age_days": 11,
+   "archetype": "cartoon-zombie",
+   "palette": [
+    "green",
+    "brown"
+   ],
+   "features": [
+    "tie",
+    "torn-clothes"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Plants vs. Zombies zombie"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 5,
+   "favorites": 508,
+   "age_days": 9.0,
+   "archetype": "meme-food-face",
+   "palette": [
+    "white",
+    "brown"
+   ],
+   "features": [
+    "doodle-face"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 6,
+   "favorites": 356,
+   "age_days": 9.4,
+   "archetype": "cute-zombie",
+   "palette": [
+    "teal",
+    "black"
+   ],
+   "features": [
+    "striped-socks",
+    "bandages"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 7,
+   "favorites": 1469,
+   "age_days": 15,
+   "archetype": "streetwear-boy",
+   "palette": [
+    "black",
+    "white",
+    "gray"
+   ],
+   "features": [
+    "messy-hair",
+    "chain"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 8,
+   "favorites": 111,
+   "age_days": 4.9,
+   "archetype": "cozy-girl",
+   "palette": [
+    "brown",
+    "red"
+   ],
+   "features": [
+    "sweater",
+    "long-hair"
+   ],
+   "season": "fall",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 9,
+   "favorites": 166,
+   "age_days": 6.2,
+   "archetype": "meme-creature",
+   "palette": [
+    "yellow"
+   ],
+   "features": [
+    "big-smile"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 10,
+   "favorites": 837,
+   "age_days": 13,
+   "archetype": "horror-slasher",
+   "palette": [
+    "navy",
+    "white"
+   ],
+   "features": [
+    "mask"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Michael Myers (Halloween films)"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 11,
+   "favorites": 53,
+   "age_days": 3.8,
+   "archetype": "suit-character",
+   "palette": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "features": [
+    "suit",
+    "tie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 12,
+   "favorites": 594,
+   "age_days": 12,
+   "archetype": "e-girl",
+   "palette": [
+    "gray",
+    "black"
+   ],
+   "features": [
+    "cat-ears",
+    "hood"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 13,
+   "favorites": 443,
+   "age_days": 12,
+   "archetype": "emo-boy",
+   "palette": [
+    "navy",
+    "red"
+   ],
+   "features": [
+    "jacket",
+    "bandages"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 14,
+   "favorites": 100,
+   "age_days": 5.3,
+   "archetype": "steve-hat-meme",
+   "palette": [
+    "teal",
+    "purple",
+    "black"
+   ],
+   "features": [
+    "animal-hat"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 15,
+   "favorites": 392,
+   "age_days": 12,
+   "archetype": "white-hair-boy",
+   "palette": [
+    "white",
+    "black"
+   ],
+   "features": [
+    "white-hair"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 16,
+   "favorites": 163,
+   "age_days": 5.9,
+   "archetype": "horror-slasher",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "mask",
+    "hood"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Ghostface (Scream)"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 17,
+   "favorites": 443,
+   "age_days": 12,
+   "archetype": "pastel-girl",
+   "palette": [
+    "pink",
+    "white"
+   ],
+   "features": [
+    "frills",
+    "animal-ears"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 18,
+   "favorites": 26,
+   "age_days": 2.0,
+   "archetype": "e-girl",
+   "palette": [
+    "black",
+    "gray",
+    "white"
+   ],
+   "features": [
+    "bow"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 19,
+   "favorites": 274,
+   "age_days": 9.8,
+   "archetype": "cute-animal-hood",
+   "palette": [
+    "brown",
+    "orange"
+   ],
+   "features": [
+    "animal-hood"
+   ],
+   "season": "fall",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 20,
+   "favorites": 69,
+   "age_days": 5.9,
+   "archetype": "emo-boy",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "stripes"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 21,
+   "favorites": 86,
+   "age_days": 6.0,
+   "archetype": "white-hair-girl",
+   "palette": [
+    "white",
+    "black"
+   ],
+   "features": [
+    "animal-ears"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 22,
+   "favorites": 183,
+   "age_days": 8.7,
+   "archetype": "dark-silhouette",
+   "palette": [
+    "black"
+   ],
+   "features": [
+    "hood"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 23,
+   "favorites": 172,
+   "age_days": 8.9,
+   "archetype": "royal-suit",
+   "palette": [
+    "white",
+    "black",
+    "gold"
+   ],
+   "features": [
+    "crown",
+    "suit"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_weekly",
+   "board_size": 24,
+   "rank": 24,
+   "favorites": 35,
+   "age_days": 3.9,
+   "archetype": "dark-hooded-elder",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "hood",
+    "beard"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 1,
+   "favorites": 3832,
+   "age_days": 26,
+   "archetype": "horror-slasher",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "mask",
+    "hood"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Ghostface (Scream)"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 2,
+   "favorites": 1830,
+   "age_days": 19,
+   "archetype": "goth-mask",
+   "palette": [
+    "black",
+    "gray"
+   ],
+   "features": [
+    "mask",
+    "hood"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 3,
+   "favorites": 1469,
+   "age_days": 15,
+   "archetype": "streetwear-boy",
+   "palette": [
+    "black",
+    "white",
+    "gray"
+   ],
+   "features": [
+    "messy-hair",
+    "chain"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 4,
+   "favorites": 4776,
+   "age_days": 29,
+   "archetype": "minecraft-mob-meme",
+   "palette": [
+    "brown",
+    "white"
+   ],
+   "features": [
+    "shirtless"
+   ],
+   "season": "",
+   "third_party_ip": false,
+   "note": "Minecraft villager parody (Mojang mob, not our cast)"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 5,
+   "favorites": 2691,
+   "age_days": 31,
+   "archetype": "bear-meme",
+   "palette": [
+    "brown",
+    "blue"
+   ],
+   "features": [
+    "animal-body"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 6,
+   "favorites": 804,
+   "age_days": 11,
+   "archetype": "cartoon-zombie",
+   "palette": [
+    "green",
+    "brown"
+   ],
+   "features": [
+    "tie",
+    "torn-clothes"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Plants vs. Zombies zombie"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 7,
+   "favorites": 1680,
+   "age_days": 19,
+   "archetype": "duck-costume",
+   "palette": [
+    "yellow",
+    "red"
+   ],
+   "features": [
+    "animal-onesie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 8,
+   "favorites": 1155,
+   "age_days": 20,
+   "archetype": "duck-costume",
+   "palette": [
+    "black",
+    "yellow",
+    "red"
+   ],
+   "features": [
+    "animal-head",
+    "beanie",
+    "hoodie",
+    "plaid"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 9,
+   "favorites": 774,
+   "age_days": 9.6,
+   "archetype": "dark-silhouette",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "hood",
+    "glowing-eyes"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 10,
+   "favorites": 837,
+   "age_days": 13,
+   "archetype": "horror-slasher",
+   "palette": [
+    "navy",
+    "white"
+   ],
+   "features": [
+    "mask"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Michael Myers (Halloween films)"
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 11,
+   "favorites": 1381,
+   "age_days": 24,
+   "archetype": "suit-character",
+   "palette": [
+    "black",
+    "white",
+    "red"
+   ],
+   "features": [
+    "suit",
+    "tie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 12,
+   "favorites": 798,
+   "age_days": 16,
+   "archetype": "casual-boy",
+   "palette": [
+    "brown",
+    "black"
+   ],
+   "features": [
+    "hoodie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 13,
+   "favorites": 1546,
+   "age_days": 31,
+   "archetype": "pastel-goth-girl",
+   "palette": [
+    "pink",
+    "black",
+    "white"
+   ],
+   "features": [
+    "bow",
+    "striped-socks"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 14,
+   "favorites": 595,
+   "age_days": 12,
+   "archetype": "e-girl",
+   "palette": [
+    "gray",
+    "black"
+   ],
+   "features": [
+    "cat-ears",
+    "hood"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 15,
+   "favorites": 2545,
+   "age_days": 39,
+   "archetype": "streetwear-boy",
+   "palette": [
+    "brown",
+    "black",
+    "white"
+   ],
+   "features": [
+    "beanie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 16,
+   "favorites": 2132,
+   "age_days": 35,
+   "archetype": "royal-suit",
+   "palette": [
+    "white",
+    "black",
+    "red",
+    "gold"
+   ],
+   "features": [
+    "crown",
+    "roses",
+    "suit"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 17,
+   "favorites": 644,
+   "age_days": 21,
+   "archetype": "uniform-officer",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "cap",
+    "uniform"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "namemc",
+   "board": "trending_monthly",
+   "board_size": 30,
+   "rank": 18,
+   "favorites": 868,
+   "age_days": 20,
+   "archetype": "dark-silhouette",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "glowing-eyes"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 1,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "pumpkin-head",
+   "palette": [
+    "orange",
+    "black"
+   ],
+   "features": [
+    "pumpkin"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 2,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "ghost-girl",
+   "palette": [
+    "purple",
+    "white"
+   ],
+   "features": [
+    "ghost"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 4,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "horror-bride",
+   "palette": [
+    "blue",
+    "white"
+   ],
+   "features": [
+    "veil"
+   ],
+   "season": "halloween",
+   "third_party_ip": true,
+   "note": "Corpse Bride"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 5,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "cozy-girl",
+   "palette": [
+    "orange",
+    "brown"
+   ],
+   "features": [
+    "sweater"
+   ],
+   "season": "fall",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 6,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "knight",
+   "palette": [
+    "gray",
+    "silver"
+   ],
+   "features": [
+    "armor"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 9,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "duck-costume",
+   "palette": [
+    "yellow"
+   ],
+   "features": [
+    "animal-onesie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 11,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "duck-costume",
+   "palette": [
+    "yellow",
+    "black"
+   ],
+   "features": [
+    "animal-onesie",
+    "suit"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 12,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "superhero",
+   "palette": [
+    "red",
+    "blue"
+   ],
+   "features": [
+    "mask"
+   ],
+   "season": "",
+   "third_party_ip": true,
+   "note": "Spider-Man"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 13,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "pastel-skeleton",
+   "palette": [
+    "pink",
+    "white"
+   ],
+   "features": [
+    "skeleton"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 14,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "cat-girl",
+   "palette": [
+    "purple",
+    "orange"
+   ],
+   "features": [
+    "cat-ears"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 15,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "superhero",
+   "palette": [
+    "red",
+    "black"
+   ],
+   "features": [
+    "mask"
+   ],
+   "season": "",
+   "third_party_ip": true,
+   "note": "Scarlet Spider"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 16,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "duck-costume",
+   "palette": [
+    "rainbow",
+    "yellow"
+   ],
+   "features": [
+    "animal-onesie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 17,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "movie-character",
+   "palette": [
+    "blue",
+    "yellow"
+   ],
+   "features": [],
+   "season": "",
+   "third_party_ip": true,
+   "note": "Coraline"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 20,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "cute-zombie",
+   "palette": [
+    "teal",
+    "black"
+   ],
+   "features": [
+    "striped-socks",
+    "bandages"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 21,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "pastel-girl",
+   "palette": [
+    "pink",
+    "white"
+   ],
+   "features": [
+    "frills"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 23,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "cottagecore-girl",
+   "palette": [
+    "green",
+    "brown"
+   ],
+   "features": [
+    "flowers"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 25,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "anime-crossover-meme",
+   "palette": [
+    "black",
+    "red"
+   ],
+   "features": [],
+   "season": "",
+   "third_party_ip": true,
+   "note": "Pingu x Akatsuki"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 28,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "pastel-girl",
+   "palette": [
+    "pink",
+    "brown",
+    "white"
+   ],
+   "features": [
+    "frills"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 29,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "porcelain-doll",
+   "palette": [
+    "white",
+    "pink"
+   ],
+   "features": [
+    "bow"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 31,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "vampire-girl",
+   "palette": [
+    "red",
+    "black"
+   ],
+   "features": [
+    "fangs"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 34,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "anime-character",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [],
+   "season": "",
+   "third_party_ip": true,
+   "note": "Monokuma (Danganronpa)"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 36,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "meme-food-face",
+   "palette": [
+    "yellow"
+   ],
+   "features": [
+    "banana"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 38,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "ghost-girl",
+   "palette": [
+    "white"
+   ],
+   "features": [
+    "ghost"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 39,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "candy-costume",
+   "palette": [
+    "orange",
+    "yellow",
+    "white"
+   ],
+   "features": [
+    "candy"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 40,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "gothic-doll",
+   "palette": [
+    "black",
+    "white"
+   ],
+   "features": [
+    "bow"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 44,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "swimsuit-meme",
+   "palette": [
+    "brown",
+    "blue"
+   ],
+   "features": [
+    "swimwear"
+   ],
+   "season": "",
+   "third_party_ip": false,
+   "note": "Steve parody"
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 46,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "witch",
+   "palette": [
+    "green",
+    "purple"
+   ],
+   "features": [
+    "witch-hat"
+   ],
+   "season": "halloween",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 53,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "duck-costume",
+   "palette": [
+    "green",
+    "yellow"
+   ],
+   "features": [
+    "animal-onesie"
+   ],
+   "season": "",
+   "third_party_ip": false
+  },
+  {
+   "source": "skindex",
+   "board": "top_page1",
+   "board_size": 58,
+   "rank": 55,
+   "favorites": 0,
+   "age_days": null,
+   "archetype": "demon-creature",
+   "palette": [
+    "black",
+    "purple"
+   ],
+   "features": [
+    "horns"
+   ],
+   "season": "",
+   "third_party_ip": false
+  }
+ ],
+ "tags": [
+  {
+   "source": "namemc",
+   "tag": "girl",
+   "count": 46615
+  },
+  {
+   "source": "namemc",
+   "tag": "boy",
+   "count": 26109
+  },
+  {
+   "source": "namemc",
+   "tag": "egirl",
+   "count": 14800
+  },
+  {
+   "source": "namemc",
+   "tag": "black",
+   "count": 14273
+  },
+  {
+   "source": "namemc",
+   "tag": "eboy",
+   "count": 9586
+  },
+  {
+   "source": "namemc",
+   "tag": "christmas",
+   "count": 7424
+  },
+  {
+   "source": "namemc",
+   "tag": "pink",
+   "count": 7261
+  },
+  {
+   "source": "namemc",
+   "tag": "cute",
+   "count": 6950
+  },
+  {
+   "source": "namemc",
+   "tag": "steve",
+   "count": 6634
+  },
+  {
+   "source": "namemc",
+   "tag": "red",
+   "count": 6057
+  },
+  {
+   "source": "namemc",
+   "tag": "anime",
+   "count": 6051
+  },
+  {
+   "source": "namemc",
+   "tag": "blue",
+   "count": 5509
+  },
+  {
+   "source": "namemc",
+   "tag": "halloween",
+   "count": 5262
+  },
+  {
+   "source": "namemc",
+   "tag": "white",
+   "count": 4901
+  },
+  {
+   "source": "namemc",
+   "tag": "dark",
+   "count": 4559
+  },
+  {
+   "source": "namemc",
+   "tag": "black hair",
+   "count": 4429
+  },
+  {
+   "source": "namemc",
+   "tag": "brown hair",
+   "count": 4400
+  },
+  {
+   "source": "namemc",
+   "tag": "purple",
+   "count": 4331
+  },
+  {
+   "source": "namemc",
+   "tag": "suit",
+   "count": 3958
+  },
+  {
+   "source": "namemc",
+   "tag": "mask",
+   "count": 3852
+  },
+  {
+   "source": "namemc",
+   "tag": "green",
+   "count": 3668
+  },
+  {
+   "source": "namemc",
+   "tag": "hoodie",
+   "count": 3644
+  },
+  {
+   "source": "namemc",
+   "tag": "pink hair",
+   "count": 3553
+  },
+  {
+   "source": "namemc",
+   "tag": "white hair",
+   "count": 3120
+  },
+  {
+   "source": "namemc",
+   "tag": "cat",
+   "count": 3104
+  },
+  {
+   "source": "namemc",
+   "tag": "blue hair",
+   "count": 3011
+  },
+  {
+   "source": "namemc",
+   "tag": "emo",
+   "count": 2931
+  },
+  {
+   "source": "namemc",
+   "tag": "horns",
+   "count": 2540
+  },
+  {
+   "source": "namemc",
+   "tag": "hat",
+   "count": 2341
+  },
+  {
+   "source": "namemc",
+   "tag": "bear",
+   "count": 2281
+  }
+ ]
+}

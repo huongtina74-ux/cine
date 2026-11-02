@@ -6,6 +6,8 @@ description: Direct research and preproduction of high-quality ORIGINAL Minecraf
 
 Read `CLAUDE.md`. Ask local MCP `minecraft_company_roadmap` (v223 26 departments and 28 mandatory steps) and `minecraft_next_approved_step`, then `minecraft_research_conference` and `original_minecraft_pilot_storyboard` BEFORE deciding new tools or approving rendering. Video case study M01/M02/B01 now has v224 public YouTube direct metadata plus sparse thumbnail previews for Maizen Bed, Maizen Drops and BigSchool Season3. Call `minecraft_g01_g02_evidence` for the 7 videos (3 main + 4 comparator cases). Do not call thumbnail previews full footage or audio. Video cases still require full moving video+sound inspection and source rights. To check alternate technology candidates, ask `company_scene_connector_plan` for `minecraft_story_adventure` / VFX, PRODUCTION, AUDIO, EDITORIAL.
 
+Trends: before choosing a story, costume or new cast look, read the newest `reports/research/*_minecraft_skins.md` (skill `minecraft-trend-watch`); if it is older than 7 days, run that skill first.
+
 Evidence discipline:
 - Cite BigSchool/Maizen/Kamui catalog/website data as PUBLIC_METADATA only. Never call a thumbnail, transcript or scraped description a full-video review. Obtain lawful actual video+audio and timecodes for any shot-level claim.
 - The existing v197 video at `data/verification/v197_minecraft_art_direction/minecraft_3shot_visual_pilot_with_original_sfx.mp4` was truly decoded and its SHA verified, but FAILS 12 Minecraft art gates. Never mark it pro/production-ready.
