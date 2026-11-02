@@ -1,0 +1,81 @@
+niche: slow_english_a2
+series_id: bell_leaf
+project_id: slow_english_a2_bell_leaf
+subniche_id: magical_witch_family_stories
+label: Bell & Leaf — Slow English A2 Magical Family
+targets:
+  language: en-US
+  level: A2
+  aspect: '16:9'
+  resolution:
+  - 1920
+  - 1080
+  shot_duration_seconds: 10
+  no_narrator: true
+  voice_wpm: TBD after audition and measured A2 listening QC
+stages:
+  tts:
+  - id: voxcpm2_ten_voice_master
+    kind: external_verified_wav
+    commercial: true
+    production: false
+    requires: []
+    notes: Requires ten approved and licensed voice reference WAVs; casting prompts are not WAV evidence Candidate only;
+      needs model license/rights, reference, media and human QC approval before commercial execution.
+  image:
+  - id: flow_source_locked_image
+    kind: external_manual
+    commercial: true
+    production: false
+    requires: []
+    notes: Requires original character sheets and independently approved location plate; never collage Candidate only;
+      needs model license/rights, reference, media and human QC approval before commercial execution.
+  motion:
+  - id: muse_10s_i2v
+    kind: external_manual
+    commercial: true
+    production: false
+    requires: []
+    notes: Requires actual 10-second motion/lip-sync evaluation; Ken Burns forbidden Candidate only; needs model license/rights,
+      reference, media and human QC approval before commercial execution.
+  hero_motion:
+  - id: muse_10s_acting
+    kind: external_manual
+    commercial: true
+    production: false
+    requires: []
+    notes: All character shots require real animation and acting; no three-hero-clip shortcut Candidate only; needs
+      model license/rights, reference, media and human QC approval before commercial execution.
+  music:
+  - id: licensed_original_score
+    kind: external_manual
+    commercial: true
+    production: false
+    requires: []
+    notes: Music must be licensed and matched to the episode Candidate only; needs model license/rights, reference,
+      media and human QC approval before commercial execution.
+  subtitles:
+  - id: separate_yt_caption_track
+    kind: artifact_only
+    commercial: true
+    production: false
+    requires: []
+    notes: Only separate accessible captions after final audio align; no burned-in image subtitles Candidate only; needs
+      model license/rights, reference, media and human QC approval before commercial execution.
+hold:
+- id: kokoro
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+- id: piper
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+- id: tone_stub
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+- id: ken_burns
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+- id: title_cards
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+- id: manual_drop
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+- id: owner_clips
+  reason: Historical Mia/narrator/Ken Burns pipeline is not Bell & Leaf Canon
+production_policy: FAIL_CLOSED_UNTIL_REAL_ASSET_AND_VOICE_APPROVAL
+references: config/niches/slow_english_a2/production.json

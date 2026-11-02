@@ -9,6 +9,10 @@ import cf_a2_claude_agent as agent
 
 class CINEClaudeAgentWindowsTests(unittest.TestCase):
  def setUp(self):
+  # This unit test mocks Claude's subprocess; keep the separately tested optional external repo reader isolated.
+  self.external=mock.patch('cf_a2_external_craft.load_for_role',return_value={'status':'MOCK_EXTERNAL','items':[]})
+  self.external.start()
+  self.addCleanup(self.external.stop)
   self.tmp=tempfile.TemporaryDirectory()
   self.storage=pathlib.Path(self.tmp.name)
   self.ep="bell_leaf_agent_test"

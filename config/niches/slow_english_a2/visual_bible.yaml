@@ -1,0 +1,271 @@
+series_id: bell_leaf
+project_id: slow_english_a2_bell_leaf
+parent_niche_id: slow_english
+niche_id: slow_english_a2
+subniche_id: magical_witch_family_stories
+canon_source: config/niches/slow_english_a2/production.json
+character_registry: .claude/skills/cine-a2-muse-reference-anchoring/canon/CHARACTER_CURRENT_SOURCE_LOCK_V1_2.json
+location_registry: .claude/skills/cine-bellfern-location-multiview-lock/registry/CINE_LOCATION_PROP_REGISTRY_v1_1_DRAFT.json
+style: 'Bell & Leaf original family-magic cinematic 3D CGI: rich refined real-world materials, faithful original faces
+  and body sizes; restrained natural bright palette, no amber global grade.'
+render_tech: Premium physically-based stylized CGI, plausible skin, fur, fabric and metal shading; single uninterrupted
+  16:9 shot with shot-specific acting.
+palette:
+  sky: '#94C8E4'
+  grass: '#78AA7A'
+  wood: '#92775C'
+  stone: '#A3A3A2'
+  accent_purple: '#9569C2'
+lighting: Neutral D55 daylight approximately 5500K, softly balanced; absolutely no global yellow/orange cast.
+camera:
+  lens_mm: 50
+  f_stop: 1.8
+  dof: slight background blur, subjects sharp
+  shot_sizes:
+  - establishing wide
+  - two-shot
+  - medium
+  - close-up
+  - insert
+  heights:
+  - eye-level
+  - motivated low or high only when story calls for it
+  moves:
+  - static with acting
+  - motivated slow dolly
+  - motivated tracking shot
+  - character-following pan
+  rules:
+  - Exactly 10.0 seconds per shot; continuous performance, not freeze or Ken Burns filler
+  - True physical reverse angle, never mirror-flipped
+  - Location view comes from selected approved reference plate, not concept montage
+  - Only characters listed in explicit activeCharacterTags are present
+  - No camera-only zoom substituted for meaningful acting
+direction:
+  pipeline: reference_locked_10s_i2v
+  shot_cards_required: true
+  prompt_notes: Bell & Leaf; D55 neutral daylight; 50mm mild DoF; independent full-bleed 16:9; exact original characters,
+    topology, costume; active tags only; expressive acting; no burned-in subtitles; no Ken Burns.
+typography:
+  caption_box: false
+  on_image_text: false
+  subtitles_in_image: false
+characters:
+- id: bo
+  name: Evan
+  tag: bo
+  identity: adult male with textured curly dark hair and natural warm features, exactly as in the original user-authored
+    Evan character sheet; adult father and postman, around forty, practical, affectionate, not aware of the family magic
+  wardrobe: postal gear with messenger bag, navy or earth-tone clothing matching the approved original user sheet
+  hook: adult father and postman, around forty, practical, affectionate, not aware of the family magic
+  interaction: adjusts mail bag strap, pauses to check address, gentle practical smile
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Evan; adult male with textured curly dark hair and natural warm features, exactly as in the original user-authored
+    Evan character sheet; postal gear with messenger bag, navy or earth-tone clothing matching the approved original
+    user sheet; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/bo_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: 0635e06d425b656098c4eb200557c939b35d86c1bb3213f8385935478ff1f590
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: me
+  name: Mara
+  tag: me
+  identity: adult woman with curled brown hair and original full-body proportions and distinctive features from Mara
+    source sheet; adult mother, knowledgeable witch who protects the family
+  wardrobe: original Mara blue/gold/earth-toned layered workshop clothes, not Mia raincoat
+  hook: adult mother, knowledgeable witch who protects the family
+  interaction: calm protective gestures; precise magical hand movements
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Mara; adult woman with curled brown hair and original full-body proportions and distinctive features from
+    Mara source sheet; original Mara blue/gold/earth-toned layered workshop clothes, not Mia raincoat; only original
+    user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/me_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: 02f15c86cae4caba26da5fb9660958f1df71c5a29d8ae6c51d78f347dadfed97
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: juno
+  name: Juno
+  tag: juno
+  identity: 13-year-old boy with dark tousled curly hair, original teen face and height from Juno source sheet; 13-year-old
+    son, careful inventor and beginner in magic
+  wardrobe: original inventor outfit with dark jacket, belt, backpack or repair gear
+  hook: 13-year-old son, careful inventor and beginner in magic
+  interaction: tests an invention cautiously, checks a dial, thoughtful expression
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Juno; 13-year-old boy with dark tousled curly hair, original teen face and height from Juno source sheet;
+    original inventor outfit with dark jacket, belt, backpack or repair gear; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/juno_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: 6dd5ae8799384526deffda45d12257118383f8c6424d5ff20cf6d2d0a1164aed
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: Lia
+  name: Lia
+  tag: Lia
+  identity: 11-year-old girl with distinctive brown curls and original youthful proportions; 11-year-old daughter, animal
+    empath, adventurous and kind
+  wardrobe: original earth-toned detailed adventure dress and outerwear from the source sheet
+  hook: 11-year-old daughter, animal empath, adventurous and kind
+  interaction: kneels to help animals, curious hand gesture, honest emotional reactions
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Lia; 11-year-old girl with distinctive brown curls and original youthful proportions; original earth-toned
+    detailed adventure dress and outerwear from the source sheet; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/Lia_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: 3f29c9ba2efa554d677bed50f1d65825df4c6e44d449dfacc87967628b2f61d0
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: bubu
+  name: Bubu
+  tag: bubu
+  identity: purple and white cat with original proportions, a visibly spiralling PURPLE TAIL with sparkles; small purple
+    magical cat spirit, playful and mischievous
+  wardrobe: ONE collar bell; no additional bells
+  hook: small purple magical cat spirit, playful and mischievous
+  interaction: sparkling curled tail in every visible rear or side pose; alert ears and expressive eyes
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Bubu; purple and white cat with original proportions, a visibly spiralling PURPLE TAIL with sparkles; ONE
+    collar bell; no additional bells; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/bubu_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: d27cc64c583edfc0b5fdee0011f0ef6b1f904be9cb4ee879c7ee967affe34b34
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: bix
+  name: Bix
+  tag: bix
+  identity: small rounded articulated mechanical turtle-pangolin, expressive light face and original brass/blue body;
+    tiny turtle-pangolin mechanical companion, Juno's logical helper
+  wardrobe: original compact robot shells and fittings; NO collar bell or chest bell
+  hook: tiny turtle-pangolin mechanical companion, Juno's logical helper
+  interaction: careful precise mechanical arm movement and dry-humor expression
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Bix; small rounded articulated mechanical turtle-pangolin, expressive light face and original brass/blue
+    body; original compact robot shells and fittings; NO collar bell or chest bell; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/bix_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: 378c0812da87817fd3d2f3c5bec878d4020fd4cae569d0bb0fb4641180df5055
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: ongngoai
+  name: Orin
+  tag: ongngoai
+  identity: elder wizard with long silver hair, beard and original aged facial features; maternal grandfather, senior
+    wizard seeking his lost family
+  wardrobe: rich blue embroidered cloak and ONE personal travel bell
+  hook: maternal grandfather, senior wizard seeking his lost family
+  interaction: considered gestures, serious but warm gaze
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Orin; elder wizard with long silver hair, beard and original aged facial features; rich blue embroidered
+    cloak and ONE personal travel bell; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/ongngoai_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: 360bf5f96b6b666ed13e0460e019d2a38832286b0a38b526dcc28f121ac77e31
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: bangoai
+  name: Maternal Grandmother
+  tag: bangoai
+  identity: elderly dignified silver-haired woman from the original source sheet; lost Veylora relative; appearance
+    only upon a specific approved arc reveal
+  wardrobe: original intricate older-witch robe, wardrobe colors locked to the source
+  hook: lost Veylora relative; appearance only upon a specific approved arc reveal
+  interaction: measured tender movement; never introduce before the story allows
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Maternal Grandmother; elderly dignified silver-haired woman from the original source sheet; original intricate
+    older-witch robe, wardrobe colors locked to the source; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/bangoai_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: e3841a9b6f9a3257ff2e726e77910c1db3e4282db8a5a3bbd04d0383fc9c5602
+  story_permission: ARC_REVEAL_ONLY
+  image_generation_approved: false
+- id: ongnoi
+  name: Paternal Grandfather
+  tag: ongnoi
+  identity: warm older man with glasses and gray/white hair, original face and proportions; ordinary Earth grandfather,
+    cheerful, not aware of family magic
+  wardrobe: original Earth clothing in brown and moss green
+  hook: ordinary Earth grandfather, cheerful, not aware of family magic
+  interaction: gentle humor, warm body language, no magic
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Paternal Grandfather; warm older man with glasses and gray/white hair, original face and proportions; original
+    Earth clothing in brown and moss green; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/ongnoi_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: badd18ba2b5ace1d45682a84ffd14911d19ee417a4f7da7c333ae9a3ea1c8bae
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+- id: banoi
+  name: Paternal Grandmother
+  tag: banoi
+  identity: older gray-haired woman with glasses, original face, stature and curls; ordinary Earth grandmother, nurturing
+    and witty, not aware of family magic
+  wardrobe: original patterned dresses and cardigan
+  hook: ordinary Earth grandmother, nurturing and witty, not aware of family magic
+  interaction: warm humorous expression, caring daily gestures; no magic
+  expressions: Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.
+  canonical: Paternal Grandmother; older gray-haired woman with glasses, original face, stature and curls; original
+    patterned dresses and cardigan; only original user source is authoritative.
+  references:
+  - assets/canon/character_refs/slow_english_a2/bell_leaf/v1_2_user_source/assets/originals/banoi_SOURCE_CANON.png
+  references_status: ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL
+  original_sha256: ba6b40f0c67a1dcf64411179eed659e9dfd510795f4d10e881f20f834b4dbe30
+  story_permission: USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT
+  image_generation_approved: false
+guest_characters:
+  rule: New guest is a role, not a replacement for locked family; obtain explicit source-approved identity and geography
+    before rendering.
+locations:
+  site_count: 12
+  site_ids:
+  - BELL
+  - ORIN
+  - ROSE
+  - SCHOOL
+  - SQUARE
+  - POST
+  - LIBRARY
+  - BRIDGE
+  - FOREST
+  - BAKERY
+  - STATION
+  - LAKE
+  registry: .claude/skills/cine-bellfern-location-multiview-lock/registry/CINE_LOCATION_PROP_REGISTRY_v1_1_DRAFT.json
+  independent_room_plates_target: 483
+  independent_prop_plates_target: 756
+  concept_sheets_approved_as_production_plates: false
+voice:
+  voice_registry: config/niches/slow_english_a2/voice_registry.json
+  no_narrator: true
+  voice_casting_descriptions_complete: true
+  approved_WAV_count: 0
+prompt_rules:
+- One shot is exactly one continuous single-line Flow image prompt and one separate single-line Muse video prompt, with
+  exactly one blank line between shots
+- ACTIVE TAGS FOR THIS SHOT explicit; character, site, space and physical view from Canon registry
+- Bubu purple spiral tail sparkle and ONE collar bell; Bix NO bell
+- One cinematic image, never split-screen, collage or identity sheet in actual shot
+- Dialogue must use approved matching character WAV and real measured lip sync, no narrator
+- Do not overlay captions, watermarks or fonts on the generated image
+negative:
+- Mia
+- Grandpa Walter
+- Biscuit
+- Ken Burns
+- narrator
+- golden yellow color cast
+- contact sheet
+- mirrored reverse
+- overlaid subtitles
+- deformed face
