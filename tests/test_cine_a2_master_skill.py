@@ -8,6 +8,7 @@ import pathlib
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"tools"))
@@ -72,29 +73,47 @@ class A2MasterSkillIntegration(unittest.TestCase):
 
     def test_stage_cannot_approve_without_master_receipts(self):
         self.research()
-        with self.assertRaisesRegex(ValueError,"Missing/stale master skill handoff"):
-            factory.advance(argparse.Namespace(id=self.pid,root=self.storage,stage="research",actor="reviewer-2"))
+        with mock.patch("cf_a2_research_quality.require_research_ready",return_value={"status":"TEST_ONLY"}):
+            with self.assertRaisesRegex(ValueError,"Missing/stale master skill handoff"):
+                factory.advance(argparse.Namespace(id=self.pid,root=self.storage,stage="research",actor="reviewer-2"))
 
     def test_full_research_stage_handoffs_then_stage_gate(self):
         self.research()
         for x in ("r01-source-evidence","r04-competitive-outlier","r05-competitor-story-autopsy"):
             master.record(ROOT,self.pid,x,"researcher-1",self.storage)
         state=master.scan(ROOT,self.pid,self.storage)
-        self.assertEqual(state["next"]["type"],"STAGE_QC_GATE")
+        self.assertEqual(state["next"]["type"],"BLOCKED_RESEARCH_QUALITY")
         self.assertEqual(state["next"]["stage"],"research")
-        with contextlib.redirect_stdout(io.StringIO()):
+        with self.assertRaisesRegex(ValueError,"A2_RESEARCH_QUALITY_BLOCKED"):
             factory.advance(argparse.Namespace(id=self.pid,root=self.storage,stage="research",actor="reviewer-2"))
         new=master.scan(ROOT,self.pid,self.storage)
-        self.assertEqual(new["stage_gates"]["research"],"PASS")
-        self.assertEqual(new["next"]["skill_id"],"r02-audience-jtbd")
+        self.assertEqual(new["stage_gates"]["research"],"NOT_APPROVED")
+        self.assertEqual(new["next"]["type"],"BLOCKED_RESEARCH_QUALITY")
         self.assertFalse(new["production_authorized"])
+
+    def test_stage_assembly_contract_is_not_satisfied_by_role_receipts(self):
+        self.research()
+        for x in ("r01-source-evidence","r04-competitive-outlier","r05-competitor-story-autopsy"):
+            master.record(ROOT,self.pid,x,"researcher-test",self.storage)
+        (self.base/"01_research/evidence.json").unlink()
+        # Simulate separately qualified sources ONLY to isolate the
+        # missing factory-stage artifact; not a real research approval.
+        with mock.patch("cf_a2_research_quality.inspect",return_value={
+            "status":"EVIDENCE_STRUCTURALLY_REVIEWABLE","reasons":[],
+            "direct_peer_count":2}):
+            state=master.scan(ROOT,self.pid,self.storage)
+        self.assertEqual(state["next"]["type"],"STAGE_ASSEMBLY_REQUIRED")
+        self.assertIn("01_research/evidence.json",state["next"]["missing_factory_artifacts"])
 
     def test_upstream_change_stales_approved_stage(self):
         self.research()
         for x in ("r01-source-evidence","r04-competitive-outlier","r05-competitor-story-autopsy"):
             master.record(ROOT,self.pid,x,"researcher-1",self.storage)
-        with contextlib.redirect_stdout(io.StringIO()):
-            factory.advance(argparse.Namespace(id=self.pid,root=self.storage,stage="research",actor="reviewer-2"))
+        # Unit-isolate the existing receipt invalidation behavior: a mocked
+        # structural research review is NOT real human/AV research approval.
+        with mock.patch("cf_a2_research_quality.require_research_ready",return_value={"status":"TEST_ONLY"}):
+            with contextlib.redirect_stdout(io.StringIO()):
+                factory.advance(argparse.Namespace(id=self.pid,root=self.storage,stage="research",actor="reviewer-2"))
         self.write("01_research/evidence_register.json",json.dumps({"items":[{"id":"MUTATED"}]}))
         status=factory.status(argparse.Namespace(id=self.pid,root=self.storage))
         self.assertTrue(status["stages"]["research"].startswith("STALE: "))
