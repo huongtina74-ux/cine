@@ -1,0 +1,58 @@
+{
+  "schema": "cine.youtube_niche_survey.v1",
+  "note": "Seed channels per Minecraft niche from the 2026-11-01/02 research notes; unknown handles are reported as unresolved, discovery queries find new/small channels. Benchmark = medians.",
+  "niches": {
+    "kids_animation_roleplay": {
+      "channels": ["@maizenofficial", "@mstoonss", "@johnnyminecraftyt", "@cash", "@nico", "@aphmau", "UC_NqVr5AA1vziN0ZLR-QiLw", "UC-Diq5SjWZDol8C0_E_1Y7A"],
+      "queries": ["minecraft animation jj mikey", "minecraft poor vs rich"]
+    },
+    "general_3d_animation": {
+      "channels": ["@alanbecker", "@ZAMinationProductions", "@rainimator", "@SquaredMedia", "@cubusmaximus"],
+      "queries": ["minecraft animation movie", "minecraft animation battle"]
+    },
+    "horror_arg_found_footage": {
+      "channels": ["@Wifies", "@Zachobuilds", "@thatmob", "@lookout3d", "@dryfruits", "@kaironefps"],
+      "queries": ["minecraft found footage", "minecraft ARG"]
+    },
+    "horror_mod_gameplay": {
+      "channels": ["@ForgeLabs", "@Chiefxd", "@Swayle"],
+      "queries": ["minecraft horror mod"]
+    },
+    "player_simulations": {
+      "channels": ["@wemmbumc", "@spokeishere", "@ish"],
+      "queries": ["minecraft players simulate"]
+    },
+    "manhunt_challenges": {
+      "channels": ["@dream", "@kiply", "@donibobes", "@Wisp", "@Beppo"],
+      "queries": ["minecraft but", "minecraft manhunt"]
+    },
+    "hardcore_100_days": {
+      "channels": ["@lukethenotable", "@bentheboss", "@WelcominTV"],
+      "queries": ["100 days minecraft hardcore"]
+    },
+    "smp_series": {
+      "channels": ["@FR3shlol", "@mythicalsausage", "@Parrot"],
+      "queries": ["minecraft smp"]
+    },
+    "lore_mystery_explainer": {
+      "channels": ["@SkipTheTutorial", "@mongolico"],
+      "queries": ["minecraft lore explained", "minecraft mystery"]
+    },
+    "building_tutorial": {
+      "channels": ["@fwhip", "@grian", "@MumboJumbo"],
+      "queries": ["minecraft build tutorial"]
+    },
+    "redstone_technical": {
+      "channels": ["@mattbatwings"],
+      "queries": ["minecraft redstone"]
+    },
+    "news_updates": {
+      "channels": ["@xisumavoid", "@phoenixsc"],
+      "queries": ["minecraft update"]
+    },
+    "speedrun": {
+      "channels": ["@Couriway"],
+      "queries": ["minecraft speedrun"]
+    }
+  }
+}

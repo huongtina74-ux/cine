@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- `tools/cf_youtube_niche_survey.py` + `config/research/minecraft_niche_watchlist.json`: official YouTube Data API survey of Minecraft niches (13 niches, quota-capped, key read from env/.env and never printed).
 - Minecraft trend watch: `cf_research_stats.py --kind skins` (rank-weighted skin trends, week-over-week, IP-safe brief), skill `minecraft-trend-watch`, baseline snapshot `config/niches/minecraft/skin_trends/2026-11-01.json` (observed by hand, no scraper).
 
 - Added Mine-imator export for block animation: `cinefactory/block_animation/mineimator.py` writes a compiled episode (character/limb/head/camera keyframes, audio track) into a copy of an owner-made `.miproject` template; conventions in `config/block_animation/mineimator.yaml` (UNCALIBRATED until opened on the owner PC). CLI: `block-mineimator-inspect`, `block-mineimator-export`. See `docs/MINEIMATOR_ADAPTER.md`.
