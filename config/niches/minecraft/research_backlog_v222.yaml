@@ -228,10 +228,10 @@ technology_study:
     cost: FREE
     role: isolated_claude_3d_scene_commands
     source: https://www.blender.org/lab/mcp-server/
-    installed_and_version_checked: false
+    installed_and_version_checked: true
     production_quality_qualified: false
     priority: P2
-    gate: "OBSERVED 2026-11-01: Claude desktop Blender connector present on the owner PC; add-on mcp-1.0.3 (GPL-3.0-or-later, needs Blender 5.1+) downloaded from blender.org/lab and Blender 5.2.3 MSI (SHA-256 verified) placed next to the 4.5 production worker. Interactive previs/asset checks only; it runs unguarded bpy, so work on copies; never the production worker."
+    gate: "OBSERVED 2026-11-02: Blender 5.2.3 LTS + add-on mcp 1.0.3 (bl_ext.user_default.mcp) + MCprep 3.6.3 installed on the owner PC; Claude connector execute_blender_code answered (5.2.3 LTS). Interactive previs only, unguarded bpy, work on copies; .blend saved in 5.2 may not open cleanly in 4.5. Known issue: *_for_cli tools time out on Windows (blender_mcp issue #42)."
   - id: ffmpeg_existing
     control: CODE_HEADLESS
     cost: FREE
