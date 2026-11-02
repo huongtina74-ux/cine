@@ -110,3 +110,26 @@ def test_bad_handle_404_is_skipped_but_403_stops(monkeypatch):
     with pytest.raises(RuntimeError) as e:
         s.Client._http("https://x/?key=SECRET")
     assert "SECRET" not in str(e.value) and "403" in str(e.value)
+
+
+def test_classify_and_related_queries():
+    assert s.classify("The Disturbing Lost Footage of Player 274") == "arg_found_footage_horror"
+    assert s.classify("JJ and Mikey Survive Zombie Apocalypse") == "kids_roleplay_maizen_ip"
+    assert s.classify("I Survived 100 Days in Minecraft Hardcore") == "hardcore_n_days"
+    assert s.classify("10,000 Players Simulate COLD WAR") == "player_simulation_war"
+    assert s.classify("Minecraft, But Drops Are Random") == "challenge_minecraft_but"
+    assert s.classify("cozy cottage") == "other_minecraft"
+    rel = s.related_queries(["Minecraft Found Footage Seed", "Found Footage Seed Explained", "Minecraft found footage"],
+                            {"minecraft found footage"}, 2)
+    assert rel and rel[0] != "minecraft found footage" and all(q.startswith("minecraft ") for q in rel)
+
+
+def test_trend_scan_flags_new_channels():
+    calls = []
+    c = s.Client("SECRET", 2000, fake_api(calls))
+    res = s.trend_scan(c, ["minecraft arg"], NOW, days=7, expand=1)
+    tiny = [r for r in res["videos"] if r["channel_id"] == "UCbbbbbbbbbbbbbbbbbbbbbb"][0]
+    assert tiny["channel_age_days"] == (NOW.date() - __import__("datetime").date(2025, 3, 1)).days
+    assert calls.count("search") == 2 and res["quota_units_used"] == sum(s.COST[e] for e in calls)
+    md = s.trend_markdown(res, new_days=700, min_views=1)
+    assert "Every popular video from a new channel (1)" in md and "SECRET" not in md

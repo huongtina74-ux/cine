@@ -12,6 +12,15 @@ The key is never printed or written. Quota (10,000 units/day free): channels/pla
 cost 1 unit per call, search.list costs 100 - the run prints its estimate first and stops at
 --max-units. No scraping: official API only.
 
+Trend scan (what is popular in the last N days, and which NEW channels are in it):
+
+    python tools/cf_youtube_niche_survey.py --trend-keywords config/research/minecraft_trend_keywords.txt \
+        --days 7 --expand 12 --out-dir reports/research/minecraft_trend_scan
+
+Each keyword (short, long-tail, related) runs one search.list (order=viewCount, publishedAfter=N days),
+then up to --expand related keywords are generated from the most frequent phrases in the result titles.
+Every video gets a rule-based genre (GENRES below) and its channel's creation date and subscribers.
+
 Runs on plain Python 3.10+ (also inside Blender's Python) because it uses only the standard library.
 """
 from __future__ import annotations
@@ -195,6 +204,137 @@ def survey(cfg: dict, c: Client, now: datetime, per_channel: int = 30, short_s: 
     return out
 
 
+# Ordered: first match wins. Patterns run on lower-case title + tags + start of description.
+GENRES: list[tuple[str, str]] = [
+    ("kids_roleplay_maizen_ip", r"\bjj\b|mikey|maizen|cash and nico|cash & nico|\bnico\b"),
+    ("arg_found_footage_horror", r"found footage|\barg\b|analog horror|lost footage|creepypasta|haunted|seed .*(cursed|haunted)|something is wrong|don.?t play|disturbing|player \d{2,}|world \d{3,}|entity|verity|herobrine sighting|backrooms"),
+    ("horror_mod_gameplay", r"horror mod|scary mod|horror|scary|terrifying|nightmare|creepy|jumpscare"),
+    ("player_simulation_war", r"players? (simulate|vs|war|battle)|\d[\d,]* players|civilization|army|\bwar\b"),
+    ("manhunt", r"manhunt|hunters|speedrunner vs"),
+    ("hardcore_n_days", r"\d+\s*days|hardcore"),
+    ("challenge_minecraft_but", r"minecraft,? but|but every|\bbut\b.*(drops|blocks|mobs|i can)|challenge|\bop\b|random"),
+    ("smp_series", r"\bsmp\b|lifesteal|server"),
+    ("noob_pro_poor_rich", r"noob|\bpro\b|hacker|god|poor|rich"),
+    ("animation_story", r"animation|animated|cartoon|\bmovie\b|full movie|short film|story"),
+    ("lore_explainer_commentary", r"lore|explained|theory|history of|mystery|why |investigat|truth|documentary|tier list|ranking"),
+    ("building_tutorial", r"build|house|base|tutorial|how to|hacks|design|timelapse|interior"),
+    ("redstone_technical", r"redstone|farm|machine|computer|technical|contraption"),
+    ("speedrun_pvp", r"speedrun|world record|pvp|bedwars|hypixel|skywars|clutch|mace|crystal"),
+    ("news_update_snapshot", r"update|snapshot|\b1\.2\d|\b26\.\d|new mob|new block|minecraft live|mojang"),
+    ("music_parody", r"song|music|parody|rap|remix"),
+    ("prank_funny_meme", r"prank|funny|meme|troll|trolling|brainrot|\blol\b"),
+]
+_GEN = [(g, re.compile(rx)) for g, rx in GENRES]
+
+
+def classify(title: str, tags: list | None = None, desc: str = "") -> str:
+    text = " ".join([title or "", " ".join(tags or []), (desc or "")[:300]]).lower()
+    for g, rx in _GEN:
+        if rx.search(text):
+            return g
+    return "other_minecraft"
+
+
+STOP = set("minecraft the a an and or of to in on for with is are i my me we you your it this that vs but at by from as be was it's i'm".split())
+
+
+def related_queries(titles: list[str], seen: set[str], n: int) -> list[str]:
+    from collections import Counter
+    grams: Counter = Counter()
+    for t in titles:
+        w = [x for x in re.findall(r"[a-z0-9']+", t.lower()) if x not in STOP and len(x) > 2 and not x.isdigit()]
+        for i in range(len(w)):
+            grams[w[i]] += 1
+            if i + 1 < len(w):
+                grams[w[i] + " " + w[i + 1]] += 2   # prefer phrases
+    out = []
+    for g, _ in grams.most_common(200):
+        q = "minecraft " + g
+        if q not in seen and all(q not in o and o not in q for o in out):
+            out.append(q)
+        if len(out) >= n:
+            break
+    return out
+
+
+def trend_scan(c: Client, keywords: list[str], now: datetime, days: int = 7, expand: int = 12,
+               region: str = "US", per_query: int = 50) -> dict:
+    after = (now - timedelta(days=days)).isoformat(timespec="seconds").replace("+00:00", "Z")
+    hits: dict[str, set] = {}
+
+    def run(q: str) -> list[str]:
+        data = c.get("search", part="snippet", q=q, type="video", order="viewCount", maxResults=per_query,
+                     publishedAfter=after, regionCode=region, relevanceLanguage="en")
+        ids = [it["id"]["videoId"] for it in data.get("items", []) if it.get("id", {}).get("videoId")]
+        for i in ids:
+            hits.setdefault(i, set()).add(q)
+        return ids
+
+    seen = set(k.strip().lower() for k in keywords if k.strip())
+    for k in sorted(seen):
+        run(k)
+    vids = {v["id"]: v for v in videos(c, list(hits))}
+    titles = sorted(vids.values(), key=lambda v: -int(v.get("statistics", {}).get("viewCount", 0)))
+    extra = related_queries([v["snippet"]["title"] for v in titles[:300]], seen, expand) if expand else []
+    new_ids = []
+    for q in extra:
+        new_ids += [i for i in run(q) if i not in vids]
+    for v in videos(c, sorted(set(new_ids))):
+        vids[v["id"]] = v
+    chans = resolve_channels(c, sorted({v["snippet"]["channelId"] for v in vids.values()}))
+    rows = []
+    for v in vids.values():
+        r = row(v, now, chans.get(v["snippet"]["channelId"]))
+        sn = v.get("snippet", {})
+        r["genre"] = classify(sn.get("title", ""), sn.get("tags"), sn.get("description", ""))
+        r["keywords"] = sorted(hits.get(v["id"], []))
+        r["is_short"] = 0 < r["duration_s"] <= 180
+        created = r.get("channel_created") or ""
+        r["channel_age_days"] = (now.date() - datetime.fromisoformat(created).date()).days if created else None
+        rows.append(r)
+    return {"as_of": now.isoformat(timespec="seconds"), "days": days, "region": region,
+            "seed_keywords": sorted(seen), "related_keywords": extra, "videos": rows, "quota_units_used": c.used}
+
+
+def trend_markdown(res: dict, new_days: int = 365, small: int = 100_000, min_views: int = 50_000) -> str:
+    rows = [r for r in res["videos"] if r["views"] >= 1]
+    by = {}
+    for r in rows:
+        by.setdefault(r["genre"], []).append(r)
+    L = [f"# Minecraft trend scan — last {res['days']} days (as of {res['as_of'][:10]}, region {res['region']})", "",
+         f"OBSERVED via YouTube Data API: {len(res['seed_keywords'])} seed + {len(res['related_keywords'])} related keywords, "
+         f"{len(rows)} unique videos, quota {res['quota_units_used']} units. Genre = rule-based (INFERRED). "
+         f"New channel = created ≤ {new_days} days ago; small = < {_fmt(small)} subs.", "",
+         "Related keywords generated from popular titles: " + (", ".join(res["related_keywords"]) or "-"), "",
+         f"## Where new channels get in (videos with ≥ {_fmt(min_views)} views in the window)", "",
+         "| Genre | Videos | Channels | Median views | Median views/day | Long-form share | New-channel videos | New-channel share | Small-channel videos | Best new-channel video |",
+         "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+    table = []
+    for g, rs in by.items():
+        pop = [r for r in rs if r["views"] >= min_views]
+        if not pop:
+            continue
+        newv = [r for r in pop if r.get("channel_age_days") is not None and r["channel_age_days"] <= new_days]
+        smallv = [r for r in pop if r.get("channel_subs") is not None and r["channel_subs"] < small]
+        best = max(newv, key=lambda r: r["views"], default=None)
+        table.append((len(newv) / len(pop), g, pop, newv, smallv, best))
+    for share, g, pop, newv, smallv, best in sorted(table, key=lambda t: (-t[0], -len(t[2]))):
+        L.append(f"| {g} | {len(pop)} | {len({r['channel_id'] for r in pop})} | {_fmt(statistics.median(r['views'] for r in pop))} | "
+                 f"{_fmt(statistics.median(r['views_per_day'] for r in pop))} | {100 * sum(not r['is_short'] for r in pop) // len(pop)}% | "
+                 f"{len(newv)} | {round(100 * share)}% | {len(smallv)} | "
+                 + (f"{_fmt(best['views'])} · {best['channel']} ({best['channel_age_days']} d old)" if best else "-") + " |")
+    newall = sorted([r for r in rows if r.get("channel_age_days") is not None and r["channel_age_days"] <= new_days and r["views"] >= min_views],
+                    key=lambda r: -r["views"])
+    L += ["", f"## Every popular video from a new channel ({len(newall)})", "",
+          "| Views | Views/day | Genre | Short? | Channel | Channel age (d) | Subs | Title |", "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+    for r in newall[:120]:
+        L.append(f"| {_fmt(r['views'])} | {_fmt(r['views_per_day'])} | {r['genre']} | {'S' if r['is_short'] else 'L'} | {r['channel']} | "
+                 f"{r['channel_age_days']} | {_fmt(r.get('channel_subs'))} | [{r['title'][:70].replace('|', '/')}]({r['url']}) |")
+    L += ["", "Caveats: one search snapshot (YouTube ranking, one region); 'new channel' uses the channel creation date, so",
+          "renamed/repurposed old channels count as old; genre rules can mislabel - read titles before deciding."]
+    return "\n".join(L) + "\n"
+
+
 def _fmt(n) -> str:
     if n is None:
         return "hidden"
@@ -240,7 +380,10 @@ def to_markdown(res: dict, new_after: str = "2024-01-01", small_subs: int = 100_
 
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    p.add_argument("watchlist")
+    p.add_argument("watchlist", nargs="?")
+    p.add_argument("--trend-keywords", default="", help="text file, one keyword per line (# comments)")
+    p.add_argument("--days", type=int, default=7)
+    p.add_argument("--expand", type=int, default=12)
     p.add_argument("--out-dir", default="reports/research/niche_survey")
     p.add_argument("--env-file", default=".env")
     p.add_argument("--per-channel", type=int, default=30)
@@ -248,6 +391,28 @@ def main(argv=None) -> int:
     p.add_argument("--no-search", action="store_true")
     p.add_argument("--region", default="US")
     a = p.parse_args(argv)
+    if a.trend_keywords:
+        kws = [x.strip() for x in Path(a.trend_keywords).read_text(encoding="utf-8").splitlines() if x.strip() and not x.startswith("#")]
+        print(f"ESTIMATE::keywords={len(kws)}::expand={a.expand}::units~{(len(kws) + a.expand) * 100 + 40}::max={a.max_units}")
+        key = read_key(a.env_file)
+        if not key:
+            print("NO_API_KEY::set YOUTUBE_DATA_API_KEY in the environment or --env-file (never paste it in chat)")
+            return 3
+        c = Client(key, a.max_units)
+        try:
+            res = trend_scan(c, kws, datetime.now(timezone.utc), a.days, a.expand, a.region)
+        except Quota as e:
+            print(f"QUOTA_STOP::{e}::used={c.used}")
+            return 4
+        out = Path(a.out_dir)
+        out.mkdir(parents=True, exist_ok=True)
+        day = res["as_of"][:10]
+        (out / f"{day}_trend_raw.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+        (out / f"{day}_trend.md").write_text(trend_markdown(res), encoding="utf-8")
+        print(f"TREND_OK::{out / (day + '_trend.md')}::videos={len(res['videos'])}::units={c.used}")
+        return 0
+    if not a.watchlist:
+        p.error("watchlist or --trend-keywords required")
     cfg = json.loads(Path(a.watchlist).read_text(encoding="utf-8"))
     key = read_key(a.env_file)
     n_ch = len({r for n in cfg["niches"].values() for r in n.get("channels", [])})
