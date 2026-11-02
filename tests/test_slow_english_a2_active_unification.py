@@ -58,6 +58,16 @@ class UnifiedA2ProductionTests(unittest.TestCase):
    self.assertFalse(result["model_or_cli_executed_from_external_repo"])
   else:
    self.assertEqual(result["status"],"OPTIONAL_REPO_NOT_INSTALLED")
+ def test_no_legacy_generic_prompt_pack_for_bell_leaf(self):
+  from cinefactory.prompt_pack import write_pack,write_sheets,picture_prompt
+  with self.assertRaisesRegex(ValueError,"exact 10s source-locked shots"):
+   write_pack("slow_english_a2",{},ROOT,None,ROOT)
+  with self.assertRaisesRegex(ValueError,"immutable"):
+   write_sheets("slow_english_a2",ROOT)
+  shot=picture_prompt(load_bible("slow_english_a2",ROOT),{},{"setting":"Bellfern school"},"Lia discovers a bell")
+  self.assertIn("no embedded text or subtitles",shot)
+  self.assertNotIn("empty space at the bottom for subtitles",shot)
+
  def test_source_shas_match_visual_links(self):
   p,c,l,v,b,t=load(ROOT)
   for ch in b["characters"]:
