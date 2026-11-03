@@ -6,20 +6,25 @@ from pathlib import Path
 
 import pytest
 
-D = Path(__file__).resolve().parents[1] / "tools" / "mineimator" / "binbo_thu01"
+ROOT = Path(__file__).resolve().parents[1] / "tools" / "mineimator"
 TRANSITIONS = {"linear", "instant", "bezier"} | {
     f"ease{w}{c}" for w in ("in", "out", "inout")
     for c in ("quad", "cubic", "quart", "quint", "sine", "expo", "circ", "elastic", "back", "bounce")}
 
 
-@pytest.fixture(scope="module")
-def project(tmp_path_factory):
-    work = tmp_path_factory.mktemp("mi")
-    subprocess.run([sys.executable, str(D / "skins.py"), str(work / "proj" / "skins")], check=True)
+@pytest.fixture(scope="module", params=["binbo_thu01", "binbo_thu02"])
+def project(request, tmp_path_factory):
+    D = ROOT / request.param
+    work = tmp_path_factory.mktemp(request.param)
+    if (D / "prep.py").exists():
+        subprocess.run([sys.executable, str(D / "prep.py"), str(work)], check=True, cwd=D)
+    else:
+        subprocess.run([sys.executable, str(D / "skins.py"), str(work / "proj" / "skins")], check=True)
     out = subprocess.run([sys.executable, str(D / "build.py"), str(work)], check=True,
                          capture_output=True, text=True).stdout
     assert "MIPROJECT_OK" in out
-    return work, json.loads((work / "proj" / "BinBo MI thu 01.miproject").read_text())
+    mi = next((work / "proj").glob("*.miproject"))
+    return work, json.loads(mi.read_text())
 
 
 def test_references_resolve(project):
@@ -33,6 +38,8 @@ def test_references_resolve(project):
         assert t["parent"] == "root" or t["parent"] in tls
         if "temp" in t and t["type"] != "camera":
             assert t["temp"] in temps
+        if t["type"] == "surface":
+            assert tls[t["parent"]].get("model_part_name") == "head"
         for kf in t["keyframes"].values():
             assert kf["TRANSITION"] in TRANSITIONS
             if "TEXTURE_OBJ" in kf:
