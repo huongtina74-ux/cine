@@ -3,6 +3,7 @@
 ## Unreleased — blockfilm
 
 - Added `tools/blockfilm/`: the three.js block-world engine that rendered Bin & Bo ep01 "Nút Đỏ Bí Ẩn" (audio-first timeline, pose library, face states, voice-driven mouths, 18 designed shots, numpy music/SFX). Test: `tests/test_blockfilm_episode.py`.
+- Added `tools/blockfilm/sfxkit.py`: 38 original code-generated sound effects (block place/break per material, footsteps, item pop, XP ding, door/chest, eating, TNT, explosion, cartoon boing/bonk/whoosh/slide whistle/sad trombone/dun-dun-dun/record scratch/heartbeat/riser, retro pickups) with a demo reel. Test: `tests/test_blockfilm_sfxkit.py`.
 
 ## 1.6.0
 
