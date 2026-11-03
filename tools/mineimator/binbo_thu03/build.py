@@ -127,7 +127,8 @@ PZ = mk('surface', 'Pizza', PIZZA, shadows=True)
 
 # ---------------- set (Mine-imator's own blocks; 16 units = 1 block, timeline position = block corner) ----------------
 SET = [  # (block, state, (blocks along X, along Y, high), label), corner position (x, y, z)
-    (('planks', {'variant': 'oak'}, (14, 10, 1), 'Floor'), (-112, -80, -15.9)),   # top 0.1 above the ground plane (z-fight)
+    (('planks', {'variant': 'oak'}, (14, 10, 1), 'Floor'), (-112, -80, -16)),
+    (('grass_block', {}, (40, 40, 1), 'Yard'), (-320, -320, -16.5)),   # replaces the built-in ground (it z-fought the floor)
     (('planks', {'variant': 'birch'}, (14, 1, 4), 'Back wall'), (-112, 64, 0)),
     (('planks', {'variant': 'birch'}, (1, 9, 4), 'Side wall'), (-112, -80, 0)),
     (('planks', {'variant': 'dark_oak'}, (2, 1, 1), 'Table'), (-16, 8, 0)),
@@ -443,6 +444,7 @@ used |= {t.get('model_tex') for t in temps} | {t['shape']['tex'] for t in temps 
 d['resources'] = res = [r for r in res if r['id'] in used]          # ship only the textures the scene uses
 d['timelines'] = [cam] + new
 d['project']['render_settings'] = ''
+d['background']['ground_show'] = False
 d['render'].update(render_samples=48, render_subsurface_samples=16, render_ssao=True, render_shadows=True)
 pr = d['project']
 pr.update(name=NAME, video_width=1920, video_height=1080, tempo=FPS)

@@ -84,7 +84,7 @@ def test_scene03_effects_are_keyed_and_blocks_use_known_names():
     subprocess.run([sys.executable, str(D / "build.py"), str(work)], check=True, capture_output=True)
     d = json.loads(next((work / "proj").glob("*.miproject")).read_text())
     blocks = {t["block"]["name"] for t in d["templates"] if t["type"] == "block"}
-    assert blocks <= {"planks", "bookshelf", "flower_pot", "carpet"}
+    assert blocks <= {"planks", "bookshelf", "flower_pot", "carpet", "grass_block"}
     floor = next(t for t in d["templates"] if t.get("name") == "Floor")
     assert floor["block"]["repeat"] == [14, 1, 10]          # saved as [x, up, y]
     cam = next(t for t in d["timelines"] if t["type"] == "camera")

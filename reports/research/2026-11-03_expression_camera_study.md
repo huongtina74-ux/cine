@@ -76,3 +76,17 @@
 - **Bối cảnh:** sàn, tường, bàn, kệ sách, chậu hoa và thảm từ block có sẵn của Mine-imator.
 
 Render kiểm chứng: `BinBo_MI_thu03`. Lỗi tìm thấy và cách sửa ghi trong `tools/mineimator/MEASURED_FACTS.md`.
+
+## Kết quả đo scene 03 (bản c, OBSERVED 2026-11-03, `benchmark_frames.py`)
+
+| Chỉ số | thu02 | **thu03** | BigSchool | MSToons |
+|---|---|---|---|---|
+| Chuyển động (median khác biệt khung 0.2 s) | 3.9 | **9.8** | 5.1–5.4 | 13–20 |
+| Độ sáng | 149 | **139** | 116–133 | 73–95 |
+| Độ bão hòa | 0.437 | 0.459 | 0.43–0.45 | 0.38–0.64 |
+| Loudness | −13.1 LUFS | −14.4 LUFS | — | — |
+
+**Còn lại (INFERRED từ contact sheet):**
+- Ở góc xa, sàn gỗ bị z-fight với mặt đất mặc định. Bản d đã sửa: tắt ground, thay bằng lớp `grass_block` thấp hơn 0.5. Bản d chưa render được: Mine-imator bị treo khi mở bản d, nên chưa kiểm chứng.
+- Má 3D phồng lên vẫn khó thấy từ góc cao.
+- Độ sáng còn cao hơn BigSchool.
