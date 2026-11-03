@@ -1,0 +1,16 @@
+# Minecraft animation story niche — competitor watchlist (rules: config/research/minecraft_story_rules.md)
+# Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
+# subs and joined are OBSERVED from the channel page/About on the "added" date; "new" = closest new-challenger candidate (none met the 0–30-day + 2×1M rule on 2026-11-03)
+UC-Diq5SjWZDol8C0_E_1Y7A | BigSchool | @BigSchoolMinecraft | 32.4M | 2019-08-13 | leader | added 2026-11-03 | owner reference format; median 1.7M over last 30 long videos, but newest long upload ~1y ago (long-form dormant)
+UCc2RL8jvY1rJPuCnJVsIQWw | MSToons | @mstoonss | 1.77M | 2017-11-17 | leader | added 2026-11-03 | strongest current story animator; median 1.6M; 7.76M/7.01M in ~28d; 1.28M in 2d; 10-14 min episodes (Maizen fan IP: learn the formula only)
+UCJHBJ7F-nAIlMGolm0Hu4vg | Maizen | @maizenofficial | 17.9M | 2020-12-26 | leader | added 2026-11-03 | owner of JJ & Mikey universe the sub-niche orbits; median 1.6M; 4.77M in ~9d; long 17-55 min
+UCToxKVrkEuAONR4rFIJ_DyQ | GameToons | @GameToonsOfficial | 12.8M | 2020-03-18 | leader | added 2026-11-03 | 8-min story episodes + 1-hour compilations; median 880K; mascot-IP origin stories
+UCkXiYodooLCuCmPEhrz32Ig | MyMy toon | @mymytoon7 | 1.95M | 2012-05-28 | leader | added 2026-11-03 | SAD ORIGIN / HAS A BABY family formula; median 403K; 4.1M and 2.15M outliers
+UC8r4SVVsfj8YfPCu9I9LOAw | Mine Block | @MineBlockia | 114K | 2025-07-09 | leader | added 2026-11-03 | young channel, 10/17 long videos >=1M; 3.45M = 30x subs; couple/love-curse stories 8-27 min
+UCZccjtuYFXgnHJZuti2PrhQ | Cubeee Animations | @CubeeeAnimations | 49.7K | 2025-03-23 | leader | added 2026-11-03 | only 8 videos, 7 >=1M; 54-min compilation 2.06M in ~6d (41x subs)
+UCo5PIvuZMD14ij_8fQXhvSg | Морфиз | @Morfizmine | 73.3K | 2025-05-06 | leader | added 2026-11-03 | love-story outliers 4.6M/4.5M/3M; 1.54M in ~14d = 21x subs
+UCHu4LZoHcIwOT16wIjYl0Lw | ZomBo | @zombo9508 | 2.9M | 2019-02-03 | leader | added 2026-11-03 | sad-story (parents turned into zombies, lost pet) specialist; median only 64K but sad outliers 630-710K
+UCN1IH9Yuz3WlVDJ3jDIAI5A | Class Monster School | @classmonsterschool | 2.96M | 2022-04-27 | leader | added 2026-11-03 | closest active ORIGINAL-style BigSchool peer (Herobrine, baby zombie family, poor vs rich); median 146K; full-movie compilations 2M-4.3M
+UCkB4kByxpTDtGDT56RZfXsg | Ligabka | @Ligabka_OFFICIAL | 68.8K | 2026-02-27 | new | added 2026-11-03 | ~8-month channel; 2.2M (~30d) + 672K in ~3d (9.8x subs); love-story titles with emoji
+UCyUKWmArpcU2YeJFYfqVSSw | JJ Cartoons | @JJCartoons-h5o | 3.55K | 2026-09-19 | new | added 2026-11-03 | youngest found (45 days); best 281K; ~22-min build challenges; watch for first 1M
+UCkTI_fxFyWU1U-iInYnMt2A | DL Minecraft | @dlminecraft01 | 2.58K | 2017-02-08 | new | added 2026-11-03 | joined 2017 but all 21 videos within ~1 month (INFERRED repurposed); ORIGINAL Steve & Alex + baby mob + food stories; 502K = 195x subs, 184K in ~7d = 71x subs

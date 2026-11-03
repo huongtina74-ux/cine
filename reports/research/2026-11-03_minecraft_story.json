@@ -1,0 +1,879 @@
+{
+  "videos": 361,
+  "channels": 33,
+  "median": 452000,
+  "p25": 55000.0,
+  "p75": 1500000.0,
+  "max": 8200000,
+  "long_median": 452000,
+  "short_median": null,
+  "channel_rows": [
+    [
+      "ProBoiz 95",
+      1,
+      6816679
+    ],
+    [
+      "Bline Crafter",
+      1,
+      3159753
+    ],
+    [
+      "Carry Depie",
+      4,
+      2614399.0
+    ],
+    [
+      "Karry Kraft",
+      2,
+      2071931.0
+    ],
+    [
+      "AlphaExtra",
+      2,
+      2019880.0
+    ],
+    [
+      "Cubeee Animations",
+      8,
+      1930197.5
+    ],
+    [
+      "Milo and Chip",
+      1,
+      1831784
+    ],
+    [
+      "BigSchool",
+      30,
+      1700000.0
+    ],
+    [
+      "MSToons",
+      30,
+      1600000.0
+    ],
+    [
+      "Maizen",
+      30,
+      1600000.0
+    ],
+    [
+      "Mizzi",
+      1,
+      1194738
+    ],
+    [
+      "Mine Block",
+      17,
+      1100000
+    ],
+    [
+      "GameToons",
+      30,
+      880500.0
+    ],
+    [
+      "Ligabka",
+      3,
+      671879
+    ],
+    [
+      "Iron Studio Minecraft Animation",
+      1,
+      419995
+    ],
+    [
+      "MyMy toon",
+      29,
+      403000
+    ],
+    [
+      "MV Channel",
+      1,
+      369578
+    ],
+    [
+      "Mikey Spikey",
+      1,
+      338737
+    ],
+    [
+      "BowlerCraft",
+      1,
+      323156
+    ],
+    [
+      "RumiGlow",
+      1,
+      263815
+    ],
+    [
+      "Морфиз",
+      20,
+      258000.0
+    ],
+    [
+      "Mikey Maizen - Minecraft",
+      1,
+      252370
+    ],
+    [
+      "🎀 𝑴𝑰𝑹𝑼𝑴𝑰 🎀",
+      1,
+      168067
+    ],
+    [
+      "Class Monster School",
+      30,
+      146000.0
+    ],
+    [
+      "JJ Cartoons",
+      14,
+      81000.0
+    ],
+    [
+      "ZomBo",
+      17,
+      64000
+    ],
+    [
+      "Craftium Animations",
+      1,
+      50558
+    ],
+    [
+      "Teddy and Freddy",
+      30,
+      29500.0
+    ],
+    [
+      "Babu Tech",
+      1,
+      23580
+    ],
+    [
+      "PipCraft",
+      1,
+      18825
+    ],
+    [
+      "HB Toon",
+      30,
+      12500.0
+    ],
+    [
+      "DL Minecraft",
+      20,
+      6650.0
+    ],
+    [
+      "LOR Minecraft Animation & Minecraft World",
+      1,
+      104
+    ]
+  ],
+  "outlier_words": [
+    [
+      "animation",
+      38
+    ],
+    [
+      "minecraft",
+      37
+    ],
+    [
+      "maizen",
+      16
+    ],
+    [
+      "mikey",
+      16
+    ],
+    [
+      "verity",
+      12
+    ],
+    [
+      "asmr",
+      12
+    ],
+    [
+      "convenience",
+      11
+    ],
+    [
+      "store",
+      11
+    ],
+    [
+      "mukbang",
+      11
+    ],
+    [
+      "baby",
+      9
+    ],
+    [
+      "sister",
+      8
+    ],
+    [
+      "story",
+      5
+    ]
+  ],
+  "outliers": [
+    {
+      "channel": "DL Minecraft",
+      "title": "Steve and Alex rescuing a Baby Villager and Giving Him Pizza for the First Time!",
+      "views": 502000,
+      "published": "2026-10-13",
+      "duration_s": 623.0,
+      "channel_subs": 2580,
+      "url": "https://www.youtube.com/watch?v=tRXWDQFJ1Do",
+      "age_days": 21,
+      "views_per_day": 23904.761904761905,
+      "x_channel": 75.48872180451127,
+      "is_short": false
+    },
+    {
+      "channel": "Class Monster School",
+      "title": "Ninja School : Season 1 + 2 - Minecraft Animation",
+      "views": 4300000,
+      "published": "2025-11-03",
+      "duration_s": 2719.0,
+      "channel_subs": 2960000,
+      "url": "https://www.youtube.com/watch?v=nCFiA9lNYho",
+      "age_days": 365,
+      "views_per_day": 11780.82191780822,
+      "x_channel": 29.45205479452055,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "VERITY: THE LAST ONE LEFT ON EARTH... | MineCraft | Convenience Store MUKBANG Animation | ASMR",
+      "views": 353000,
+      "published": "2026-10-04",
+      "duration_s": 1308.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=42yZFRIBpI4",
+      "age_days": 30,
+      "views_per_day": 11766.666666666666,
+      "x_channel": 28.24,
+      "is_short": false
+    },
+    {
+      "channel": "DL Minecraft",
+      "title": "Baby Zombie Couldn’t Believe This Giant Pizza & Fried Chicken Feast Was for Him! 🍕🍗🧀",
+      "views": 183820,
+      "published": "2026-10-27",
+      "duration_s": 644.0,
+      "channel_subs": 2580,
+      "url": "https://www.youtube.com/watch?v=xLlYCcahMPE",
+      "age_days": 7,
+      "views_per_day": 26260.0,
+      "x_channel": 27.642105263157895,
+      "is_short": false
+    },
+    {
+      "channel": "Морфиз",
+      "title": "WEREWOLVES GIRLS LOVE CURSE HELL PRISON",
+      "views": 4600000,
+      "published": "2026-02-06",
+      "duration_s": 714.0,
+      "channel_subs": 73300,
+      "url": "https://www.youtube.com/watch?v=o5iCT5tAaJc",
+      "age_days": 270,
+      "views_per_day": 17037.037037037036,
+      "x_channel": 17.829457364341085,
+      "is_short": false
+    },
+    {
+      "channel": "Морфиз",
+      "title": "Herobrine Escapes GIRLS POLICE ACADEMY LOVE CURSE",
+      "views": 4500000,
+      "published": "2026-02-06",
+      "duration_s": 1330.0,
+      "channel_subs": 73300,
+      "url": "https://www.youtube.com/watch?v=gfng_3zm5QM",
+      "age_days": 270,
+      "views_per_day": 16666.666666666668,
+      "x_channel": 17.441860465116278,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "BABY VERITY: ABANDONED at BIRTH...| Minecraft | Convenience Store MUKBANG Animation | ASMR",
+      "views": 188000,
+      "published": "2026-10-04",
+      "duration_s": 1292.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=8tc_NSOCgGU",
+      "age_days": 30,
+      "views_per_day": 6266.666666666667,
+      "x_channel": 15.04,
+      "is_short": false
+    },
+    {
+      "channel": "Class Monster School",
+      "title": "Full Movie : The Story of Poor Zombie Boy and Rich Zombie Girl - Minecraft Animation",
+      "views": 2000000,
+      "published": "2025-11-03",
+      "duration_s": 3423.0,
+      "channel_subs": 2960000,
+      "url": "https://www.youtube.com/watch?v=6nXcC2J8U7Q",
+      "age_days": 365,
+      "views_per_day": 5479.45205479452,
+      "x_channel": 13.698630136986301,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "Touching Stories: VERITY Is Not A Monster...| MineCraft | Convenience Store MUKBANG Animation | ASMR",
+      "views": 162000,
+      "published": "2026-10-04",
+      "duration_s": 1315.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=ZrZqn1bt504",
+      "age_days": 30,
+      "views_per_day": 5400.0,
+      "x_channel": 12.96,
+      "is_short": false
+    },
+    {
+      "channel": "Морфиз",
+      "title": "MAIZEN: JJ became Spider Man and met Spider Gwen - Minecraft Animation",
+      "views": 3000000,
+      "published": "2026-09-04",
+      "duration_s": 723.0,
+      "channel_subs": 73300,
+      "url": "https://www.youtube.com/watch?v=LxIdx0vdRKI",
+      "age_days": 60,
+      "views_per_day": 50000.0,
+      "x_channel": 11.627906976744185,
+      "is_short": false
+    },
+    {
+      "channel": "ZomBo",
+      "title": "MAIZEN : JJ threw the Cat out the door! - Minecraft Animation JJ & Mikey",
+      "views": 708000,
+      "published": "2026-10-04",
+      "duration_s": 776.0,
+      "channel_subs": 2900000,
+      "url": "https://www.youtube.com/watch?v=fjArwKrzlTM",
+      "age_days": 30,
+      "views_per_day": 23600.0,
+      "x_channel": 11.0625,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "PROTOTYPE HAS A BABY?! | Poppy Playtime Chapter 5 | Convenience Store MUKBANG animation | ASMR",
+      "views": 134000,
+      "published": "2026-10-04",
+      "duration_s": 569.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=IKih53gI684",
+      "age_days": 30,
+      "views_per_day": 4466.666666666667,
+      "x_channel": 10.72,
+      "is_short": false
+    },
+    {
+      "channel": "MyMy toon",
+      "title": "The RISE of RAINBOW VERITY! | Minecraft | Convenience Store MUKBANG animation | asmr | MYMY",
+      "views": 4100000,
+      "published": "2026-10-04",
+      "duration_s": 630.0,
+      "channel_subs": 1950000,
+      "url": "https://www.youtube.com/watch?v=GHC16W24rho",
+      "age_days": 30,
+      "views_per_day": 136666.66666666666,
+      "x_channel": 10.173697270471465,
+      "is_short": false
+    },
+    {
+      "channel": "ZomBo",
+      "title": "MAIZEN : JJ's Pet Was Left All Alone... 😢 - Minecraft Animation JJ & Mikey",
+      "views": 629691,
+      "published": "2026-10-04",
+      "duration_s": 1576.0,
+      "channel_subs": 2900000,
+      "url": "https://www.youtube.com/watch?v=aKF_nNJtazc",
+      "age_days": 30,
+      "views_per_day": 20989.7,
+      "x_channel": 9.838921875,
+      "is_short": false
+    },
+    {
+      "channel": "DL Minecraft",
+      "title": "I Got Lost in the World of Minecraft #1 - Minecraft Animation",
+      "views": 55000,
+      "published": "2026-10-04",
+      "duration_s": 483.0,
+      "channel_subs": 2580,
+      "url": "https://www.youtube.com/watch?v=k8zZpkAkMGA",
+      "age_days": 30,
+      "views_per_day": 1833.3333333333333,
+      "x_channel": 8.270676691729323,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "The RISE of VERITY BALL! | Minecraft | Convenience Store MUKBANG animation | ASMR",
+      "views": 97000,
+      "published": "2026-10-04",
+      "duration_s": 1275.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=KBj7T-6QXbA",
+      "age_days": 30,
+      "views_per_day": 3233.3333333333335,
+      "x_channel": 7.76,
+      "is_short": false
+    },
+    {
+      "channel": "MyMy toon",
+      "title": "SEA LIFE WHALE HAS A BABY! | Sea Life Animation | Convenience Store MUKBANG animation | asmr | MYMY",
+      "views": 2700000,
+      "published": "2026-10-06",
+      "duration_s": 586.0,
+      "channel_subs": 1950000,
+      "url": "https://www.youtube.com/watch?v=JFYYad58pGs",
+      "age_days": 28,
+      "views_per_day": 96428.57142857143,
+      "x_channel": 6.699751861042183,
+      "is_short": false
+    },
+    {
+      "channel": "DL Minecraft",
+      "title": "Baby Piglin Thought He Had Lost Everything… Until Steve & Alex Prepared a Surprise for Him 🥩🍓✨",
+      "views": 41379,
+      "published": "2026-10-31",
+      "duration_s": 526.0,
+      "channel_subs": 2580,
+      "url": "https://www.youtube.com/watch?v=JVcApKT2YT4",
+      "age_days": 3,
+      "views_per_day": 13793.0,
+      "x_channel": 6.222406015037594,
+      "is_short": false
+    },
+    {
+      "channel": "ZomBo",
+      "title": "MAIZEN : Top 4 Sad story with JJ! - Minecraft Animation JJ & Mikey",
+      "views": 386000,
+      "published": "2026-09-04",
+      "duration_s": 2436.0,
+      "channel_subs": 2900000,
+      "url": "https://www.youtube.com/watch?v=ZKpcpvSmWHE",
+      "age_days": 60,
+      "views_per_day": 6433.333333333333,
+      "x_channel": 6.03125,
+      "is_short": false
+    },
+    {
+      "channel": "Морфиз",
+      "title": "MAIZEN: JJ and Love JJ Sister POLICE Love Story - MAIZEN Minecraft Animation",
+      "views": 1544742,
+      "published": "2026-10-20",
+      "duration_s": 777.0,
+      "channel_subs": 73300,
+      "url": "https://www.youtube.com/watch?v=ekwQBMtUNPM",
+      "age_days": 14,
+      "views_per_day": 110338.71428571429,
+      "x_channel": 5.9873720930232555,
+      "is_short": false
+    },
+    {
+      "channel": "MyMy toon",
+      "title": "BABY PINKI:1-HOUR COMPLETE EDITION! |Incredibox Sprunki - Convenience Store MUKBANG Animation | ASMR",
+      "views": 2300000,
+      "published": "2026-10-13",
+      "duration_s": 4225.0,
+      "channel_subs": 1950000,
+      "url": "https://www.youtube.com/watch?v=2iRWRPz9aTQ",
+      "age_days": 21,
+      "views_per_day": 109523.80952380953,
+      "x_channel": 5.707196029776675,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "VERITY HAS A TWIN SISTER, FALSITY?! | Minecraft | Convenience Store MUKBANG animation | ASMR",
+      "views": 67000,
+      "published": "2026-10-04",
+      "duration_s": 1244.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=O2u1OKyEkcU",
+      "age_days": 30,
+      "views_per_day": 2233.3333333333335,
+      "x_channel": 5.36,
+      "is_short": false
+    },
+    {
+      "channel": "MyMy toon",
+      "title": "The RISE of LORD VERITY! | Minecraft | SAD ORIGIN STORY animation | asmr | MYMY",
+      "views": 2151238,
+      "published": "2026-10-20",
+      "duration_s": 618.0,
+      "channel_subs": 1950000,
+      "url": "https://www.youtube.com/watch?v=mYRFII_4qSs",
+      "age_days": 14,
+      "views_per_day": 153659.85714285713,
+      "x_channel": 5.338059553349876,
+      "is_short": false
+    },
+    {
+      "channel": "GameToons",
+      "title": "VERITY: The EARLY YEARs... (Minecraft Animation)",
+      "views": 4600000,
+      "published": "2026-09-04",
+      "duration_s": 3651.0,
+      "channel_subs": 12800000,
+      "url": "https://www.youtube.com/watch?v=bhvJf7Q19mA",
+      "age_days": 60,
+      "views_per_day": 76666.66666666667,
+      "x_channel": 5.224304372515616,
+      "is_short": false
+    },
+    {
+      "channel": "Class Monster School",
+      "title": "All Transformers Transform and roll out - Robot Battle",
+      "views": 759000,
+      "published": "2025-11-03",
+      "duration_s": 433.0,
+      "channel_subs": 2960000,
+      "url": "https://www.youtube.com/watch?v=I29TTH52rNI",
+      "age_days": 365,
+      "views_per_day": 2079.4520547945203,
+      "x_channel": 5.198630136986301,
+      "is_short": false
+    },
+    {
+      "channel": "MSToons",
+      "title": "JJ was Buried Under The Water - Maizen Minecraft Animation",
+      "views": 8200000,
+      "published": "2026-09-04",
+      "duration_s": 671.0,
+      "channel_subs": 1770000,
+      "url": "https://www.youtube.com/watch?v=WHpNapdjfoQ",
+      "age_days": 60,
+      "views_per_day": 136666.66666666666,
+      "x_channel": 5.125,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "MEAN VERITY MOM Loved the TWIN SISTER MORE! | Minecraft | Convenience Store MUKBANG animation | ASMR",
+      "views": 61000,
+      "published": "2026-10-04",
+      "duration_s": 1282.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=K_W4JREufuM",
+      "age_days": 30,
+      "views_per_day": 2033.3333333333333,
+      "x_channel": 4.88,
+      "is_short": false
+    },
+    {
+      "channel": "MSToons",
+      "title": "JJ VERITY vs Mikey CURIOSITY! - Maizen Minecraft Animation",
+      "views": 7758209,
+      "published": "2026-10-06",
+      "duration_s": 853.0,
+      "channel_subs": 1770000,
+      "url": "https://www.youtube.com/watch?v=W7R8k10Kjfk",
+      "age_days": 28,
+      "views_per_day": 277078.89285714284,
+      "x_channel": 4.848880625,
+      "is_short": false
+    },
+    {
+      "channel": "Teddy and Freddy",
+      "title": "Mikey & JJ Family: POOR vs RICH: TROPICAL ISLAND HOTEL Build Challenge in Minecraft",
+      "views": 136000,
+      "published": "2026-10-13",
+      "duration_s": 1548.0,
+      "channel_subs": 107000,
+      "url": "https://www.youtube.com/watch?v=a5GiBVUy_ho",
+      "age_days": 21,
+      "views_per_day": 6476.190476190476,
+      "x_channel": 4.610169491525424,
+      "is_short": false
+    },
+    {
+      "channel": "BigSchool",
+      "title": "Steve Becomes Herobrine Takes Revenge On The Villagers - Episode 1",
+      "views": 7700000,
+      "published": "2023-11-04",
+      "duration_s": 582.0,
+      "channel_subs": 32400000,
+      "url": "https://www.youtube.com/watch?v=AwRScowxRo0",
+      "age_days": 1095,
+      "views_per_day": 7031.963470319634,
+      "x_channel": 4.529411764705882,
+      "is_short": false
+    },
+    {
+      "channel": "MSToons",
+      "title": "JJ's Girl EAT JJ CAKE - Maizen Minecraft Animation",
+      "views": 7011080,
+      "published": "2026-10-06",
+      "duration_s": 613.0,
+      "channel_subs": 1770000,
+      "url": "https://www.youtube.com/watch?v=qtWfSIqNfdU",
+      "age_days": 28,
+      "views_per_day": 250395.7142857143,
+      "x_channel": 4.381925,
+      "is_short": false
+    },
+    {
+      "channel": "BigSchool",
+      "title": "Baby Steve Becomes Thor - Minecraft Animation",
+      "views": 7400000,
+      "published": "2023-11-04",
+      "duration_s": 903.0,
+      "channel_subs": 32400000,
+      "url": "https://www.youtube.com/watch?v=twcBG93WBQE",
+      "age_days": 1095,
+      "views_per_day": 6757.990867579909,
+      "x_channel": 4.352941176470588,
+      "is_short": false
+    },
+    {
+      "channel": "Class Monster School",
+      "title": "Ninja School : The Evil Landlord and the Giant ( Season 2 part 6 ) - Minecraft Animation",
+      "views": 627000,
+      "published": "2025-11-03",
+      "duration_s": 486.0,
+      "channel_subs": 2960000,
+      "url": "https://www.youtube.com/watch?v=6Qgp_8BQwRQ",
+      "age_days": 365,
+      "views_per_day": 1717.8082191780823,
+      "x_channel": 4.294520547945205,
+      "is_short": false
+    },
+    {
+      "channel": "BigSchool",
+      "title": "A Poor White Sheep Is Unable To Give Birth - Minecraft Animation",
+      "views": 7300000,
+      "published": "2023-11-04",
+      "duration_s": 791.0,
+      "channel_subs": 32400000,
+      "url": "https://www.youtube.com/watch?v=-7PVKzx41Aw",
+      "age_days": 1095,
+      "views_per_day": 6666.666666666667,
+      "x_channel": 4.294117647058823,
+      "is_short": false
+    },
+    {
+      "channel": "ZomBo",
+      "title": "MAIZEN : Top 5 Little JJ Muscular episodes! - Minecraft Animation JJ & Mikey",
+      "views": 267000,
+      "published": "2026-09-04",
+      "duration_s": 765.0,
+      "channel_subs": 2900000,
+      "url": "https://www.youtube.com/watch?v=wMKqgHp7Ong",
+      "age_days": 60,
+      "views_per_day": 4450.0,
+      "x_channel": 4.171875,
+      "is_short": false
+    },
+    {
+      "channel": "Teddy and Freddy",
+      "title": "Mikey & JJ Family - NOOB vs PRO RAINBOW WATER HOUSE Build Challenge in Minecraft",
+      "views": 120000,
+      "published": "2026-10-06",
+      "duration_s": 1541.0,
+      "channel_subs": 107000,
+      "url": "https://www.youtube.com/watch?v=WX5gyGhk3AE",
+      "age_days": 28,
+      "views_per_day": 4285.714285714285,
+      "x_channel": 4.067796610169491,
+      "is_short": false
+    },
+    {
+      "channel": "Class Monster School",
+      "title": "The Legend of Battle Robots (part 2.1) - Minecraft Animation",
+      "views": 583000,
+      "published": "2025-11-03",
+      "duration_s": 719.0,
+      "channel_subs": 2960000,
+      "url": "https://www.youtube.com/watch?v=LycchUCe-hA",
+      "age_days": 365,
+      "views_per_day": 1597.2602739726028,
+      "x_channel": 3.993150684931507,
+      "is_short": false
+    },
+    {
+      "channel": "Морфиз",
+      "title": "JJ and JJ Sister On The Island - Minecraft Animation JJ & Mikey",
+      "views": 1000000,
+      "published": "2026-10-04",
+      "duration_s": 755.0,
+      "channel_subs": 73300,
+      "url": "https://www.youtube.com/watch?v=0hOGBF3KGJc",
+      "age_days": 30,
+      "views_per_day": 33333.333333333336,
+      "x_channel": 3.875968992248062,
+      "is_short": false
+    },
+    {
+      "channel": "HB Toon",
+      "title": "LILY LOVEBRAIDS HAS A BABY!| VERITY 😀 Kpop Demon Hunter | Convenience Store MUKBANG Animation | ASMR",
+      "views": 48000,
+      "published": "2026-10-04",
+      "duration_s": 543.0,
+      "channel_subs": 6530,
+      "url": "https://www.youtube.com/watch?v=2hSZ09aDZ48",
+      "age_days": 30,
+      "views_per_day": 1600.0,
+      "x_channel": 3.84,
+      "is_short": false
+    },
+    {
+      "channel": "Teddy and Freddy",
+      "title": "NOOB vs PRO: JERRY THE DOG Safest Security House Build Challenge to Protect My Family",
+      "views": 113000,
+      "published": "2026-10-24",
+      "duration_s": 996.0,
+      "channel_subs": 107000,
+      "url": "https://www.youtube.com/watch?v=4DlkvvTgt68",
+      "age_days": 10,
+      "views_per_day": 11300.0,
+      "x_channel": 3.830508474576271,
+      "is_short": false
+    },
+    {
+      "channel": "Mine Block",
+      "title": "MAIZEN: JJ is Against Island Pirate Girls - Minecraft Animation JJ & JJ Sister & Mikey",
+      "views": 3900000,
+      "published": "2026-03-08",
+      "duration_s": 482.0,
+      "channel_subs": 114000,
+      "url": "https://www.youtube.com/watch?v=EH19YB11UXE",
+      "age_days": 240,
+      "views_per_day": 16250.0,
+      "x_channel": 3.5454545454545454,
+      "is_short": false
+    },
+    {
+      "channel": "Maizen",
+      "title": "Mikey and JJ Choose the Right Hole in Minecraft",
+      "views": 5600000,
+      "published": "2026-09-04",
+      "duration_s": 1685.0,
+      "channel_subs": 17900000,
+      "url": "https://www.youtube.com/watch?v=ZmT0ITUGUII",
+      "age_days": 60,
+      "views_per_day": 93333.33333333333,
+      "x_channel": 3.5,
+      "is_short": false
+    },
+    {
+      "channel": "JJ Cartoons",
+      "title": "Mikey & JJ Friends From POOR to RICH in Minecraft…Maizen",
+      "views": 281489,
+      "published": "2026-10-22",
+      "duration_s": 1360.0,
+      "channel_subs": 3550,
+      "url": "https://www.youtube.com/watch?v=JqwECK8JIJU",
+      "age_days": 12,
+      "views_per_day": 23457.416666666668,
+      "x_channel": 3.4751728395061727,
+      "is_short": false
+    },
+    {
+      "channel": "Ligabka",
+      "title": "MAIZEN - JJ and Love JJ SISTER - ❤️ Love Story !? 💕 - Minecraft Animation",
+      "views": 2200000,
+      "published": "2026-10-04",
+      "duration_s": 490.0,
+      "channel_subs": 68800,
+      "url": "https://www.youtube.com/watch?v=Lr7gXFIetNk",
+      "age_days": 30,
+      "views_per_day": 73333.33333333333,
+      "x_channel": 3.2743991105541324,
+      "is_short": false
+    },
+    {
+      "channel": "GameToons",
+      "title": "LORD VERITY: MASTER of AI! (Cartoon Animation)",
+      "views": 2849962,
+      "published": "2026-10-13",
+      "duration_s": 496.0,
+      "channel_subs": 12800000,
+      "url": "https://www.youtube.com/watch?v=297i_hQ7k3Q",
+      "age_days": 21,
+      "views_per_day": 135712.47619047618,
+      "x_channel": 3.236754116978989,
+      "is_short": false
+    },
+    {
+      "channel": "Морфиз",
+      "title": "MAIZEN: JJ Got a GIRLFRIEND - Minecraft Animation JJ & Mikey",
+      "views": 833465,
+      "published": "2026-10-13",
+      "duration_s": 770.0,
+      "channel_subs": 73300,
+      "url": "https://www.youtube.com/watch?v=79egDYFvxtY",
+      "age_days": 21,
+      "views_per_day": 39688.80952380953,
+      "x_channel": 3.230484496124031,
+      "is_short": false
+    },
+    {
+      "channel": "ZomBo",
+      "title": "MAIZEN : Top 5 with JJ! - Minecraft Animation JJ & Mikey",
+      "views": 205000,
+      "published": "2026-09-04",
+      "duration_s": 585.0,
+      "channel_subs": 2900000,
+      "url": "https://www.youtube.com/watch?v=9N6N0tQxFnw",
+      "age_days": 60,
+      "views_per_day": 3416.6666666666665,
+      "x_channel": 3.203125,
+      "is_short": false
+    },
+    {
+      "channel": "Mine Block",
+      "title": "JJ Became Spider-Man, JJ Sister Spider-Girl?!- Minecraft Animation JJ & JJ Sister & Mikey",
+      "views": 3450004,
+      "published": "2026-10-13",
+      "duration_s": 1561.0,
+      "channel_subs": 114000,
+      "url": "https://www.youtube.com/watch?v=RjyeHZ5hSaE",
+      "age_days": 21,
+      "views_per_day": 164285.90476190476,
+      "x_channel": 3.1363672727272727,
+      "is_short": false
+    },
+    {
+      "channel": "ZomBo",
+      "title": "Parents turned into ZOMBIES! 😭 MAIZEN: - Minecraft Animation JJ & Mikey",
+      "views": 195000,
+      "published": "2026-10-20",
+      "duration_s": 1701.0,
+      "channel_subs": 2900000,
+      "url": "https://www.youtube.com/watch?v=o4tpYYsu8Fw",
+      "age_days": 14,
+      "views_per_day": 13928.57142857143,
+      "x_channel": 3.046875,
+      "is_short": false
+    },
+    {
+      "channel": "Mine Block",
+      "title": "MAIZEN: JJ Became Family! - Minecraft Animation JJ & JJ Sister & Mikey",
+      "views": 3300000,
+      "published": "2026-10-04",
+      "duration_s": 1056.0,
+      "channel_subs": 114000,
+      "url": "https://www.youtube.com/watch?v=xQ_2u_WT1yU",
+      "age_days": 30,
+      "views_per_day": 110000.0,
+      "x_channel": 3.0,
+      "is_short": false
+    }
+  ]
+}
