@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased — Mine-imator
+- `tools/mineimator/binbo_thu01`: Python writes a full Mine-imator 2.0.2 project for a 17 s Bin/Bo/Zu scene. It has original skins, face swaps with `TEXTURE_OBJ` on the body part, mouth timing from the voice envelope, 6 camera shots and a sound mix. Rendered on the RTX 3060 PC: 409 frames at 1080p24 took about 3.5 min (OBSERVED).
+
 ## Unreleased — blockfilm
 
 - Added `tools/blockfilm/`: the three.js block-world engine that rendered Bin & Bo ep01 "Nút Đỏ Bí Ẩn" (audio-first timeline, pose library, face states, voice-driven mouths, 18 designed shots, numpy music/SFX). Test: `tests/test_blockfilm_episode.py`.
