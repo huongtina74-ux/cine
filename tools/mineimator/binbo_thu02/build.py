@@ -182,6 +182,14 @@ for n,ph in (('bin',0),('bo',11),('zu',5)):
     body=P[n]['body']
     for f in range(84+ph if n!='zu' else ph,END,24):
         K(body,f,'easeinoutsine',ROT_X=1.5 if (f//24)%2 else -0.5, ROT_Z=0)
+# ================= LIGHTING (recipe "B" from light lab v2, MEASURED_FACTS.md) =================
+_base={k:v for k,v in cam.items() if k!='keyframes'}
+def _tl(type_,name,idx):
+    t=copy.deepcopy(_base); t.update(id=nid(),type=type_,name=name,temp='null',keyframes={},parent='root',parent_tree_index=idx); return t
+BGT=_tl('background','Environment',4); FILL=_tl('pointlight','Fill light',5)
+K(BGT,0,'linear',BG_SKY_TIME=-45,BG_SUNLIGHT_STRENGTH=1.5,BG_SUNLIGHT_COLOR='#FFE9C4',BG_AMBIENT_COLOR='#6F7FA0',BG_SKY_COLOR='#78A7FF')
+LIGHTS=[BGT,FILL]
+for n in ('bin','bo','zu'): K(P[n]['char'],0,'linear',SUBSURFACE=0.6)
 # ================= CAMERA (hard cuts) =================
 def look(px,py,pz,tx,ty,tz):
     dx,dy,dz=tx-px,ty-py,tz-pz
@@ -197,12 +205,15 @@ SH=[ # start,end,(cam start),(cam end),fov
  (306,END,(24,-120,26,20,0,14),(20,-96,24,18,0,14),44)]        # S6 wide celebration
 for s,e,a,b,fov in SH:
     K(cam,s,'easeinoutsine',CAM_FOV=fov,**look(*a)); K(cam,e,'instant',CAM_FOV=fov,**look(*b))
+for s_,e_,a_,b_,fov_ in SH:
+    K(FILL,s_,'instant',POS_X=a_[0]-10,POS_Y=a_[1]+6,POS_Z=a_[2]+8,LIGHT_COLOR='#FFE2C0',LIGHT_STRENGTH=0.6,LIGHT_RANGE=140,LIGHT_SIZE=6)
 flush()
 cam['keyframes'].pop(str(END),None); K(cam,END,'linear',CAM_FOV=44,**look(20,-96,24,18,0,14)); flush()
 # ---- assemble
 cam['parent_tree_index']=0
 for i,n in enumerate(('bin','bo','zu')): P[n]['char']['parent_tree_index']=i+1
-d['templates']=temps; d['resources']=res; d['timelines']=[cam]+new
+d['templates']=temps; d['resources']=res; d['timelines']=[cam]+new+LIGHTS
+d['project']['render_settings']=''; d['render'].update(render_samples=48,render_subsurface_samples=16,render_ssao=True,render_shadows=True)
 pr=d['project']; pr['name']='BinBo MI thu 02'; pr['video_width']=1920; pr['video_height']=1080; pr['tempo']=FPS
 pr['timeline']['marker']=0; pr['timeline']['zoom']=3.5; pr['timeline']['hor_scroll']=0; pr['timeline']['region_start']=0; pr['timeline']['region_end']=END
 json.dump(d,open('proj/BinBo MI thu 02.miproject','w'),indent=1)

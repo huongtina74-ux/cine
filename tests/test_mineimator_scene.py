@@ -36,7 +36,7 @@ def test_references_resolve(project):
     tls = {t["id"]: t for t in d["timelines"]}
     for t in d["timelines"]:
         assert t["parent"] == "root" or t["parent"] in tls
-        if "temp" in t and t["type"] != "camera":
+        if t.get("temp") not in (None, "null"):
             assert t["temp"] in temps
         if t["type"] == "surface":
             assert tls[t["parent"]].get("model_part_name") == "head"
