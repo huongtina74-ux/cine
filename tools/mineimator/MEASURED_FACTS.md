@@ -13,6 +13,11 @@ Each line is labelled **SOURCE** (read in stuffbydavid/mine-imator 2.0.2 GmProje
 - SOURCE: point and spot lights are `pointlight`/`spotlight` timelines. Light keys and their defaults: LIGHT_COLOR white, LIGHT_STRENGTH 1, LIGHT_RANGE 250, LIGHT_SIZE 2, LIGHT_FADE_SIZE 0.5, LIGHT_SPOT_RADIUS 50, LIGHT_SPOT_SHARPNESS 0.5.
 - SOURCE: **render presets override the file.** If `project.render_settings` is non-empty (for example `"performance"`) and the matching `.mirender` preset exists, loading the project re-imports that preset over the saved `render` block. Use `""` (Custom, Full edition) to keep our own render values.
 - SOURCE: visibility is the `VISIBLE` value, and a texture swap is the `TEXTURE_OBJ` value (a resource id).
+- SOURCE: a keyframe only stores values that differ from `tl_value_default`. `VISIBLE` defaults to true, so a hidden key must write `"VISIBLE": false`; `SCA_*`, `ALPHA` and `CAM_FOV` default to 1/1/45, so a value of 0 must be written explicitly.
+- SOURCE + RENDER: every point3D in the file (for example `block.repeat`, `rot_point`) is saved as **[x, up, y]** (`json_save_var_point3D` / `value_get_point3D` swap Y and Z). In scene 03 v1, `repeat: [3, 2, 1]` meant for a 3×2 rug rendered as a red wall 3 wide and 2 blocks tall.
+- SOURCE + RENDER: a `block` template with `repeat_enable` tiles one block into a box. The timeline position is the box's min corner, and each block is 16 units (scene 03 set: oak floor, birch walls, dark-oak table, bookshelf, flower pot, red carpet).
+- SOURCE: camera extras available as keyframe values: `CAM_SHAKE` (+ `CAM_SHAKE_STRENGTH_X/Y/Z`, `CAM_SHAKE_SPEED_X/Y/Z`), `CAM_DOF` (+ `CAM_DOF_DEPTH`, `CAM_DOF_RANGE` default 200, `CAM_DOF_FADE_SIZE` default 100, `CAM_DOF_BLUR_SIZE` default .01), `CAM_VIGNETTE` (+ `_STRENGTH`, `_RADIUS`, `_SOFTNESS`). Camera `ROT_Y` gives a dutch roll (RENDER: visible tilt in scene 03).
+- SOURCE: a shape template with `face_camera: true` is a billboard (used for hearts, sparkles, crumbs, steam, "!" / "?").
 
 ## Space and orientation
 - RENDER: for characters and the camera view, `ROT_Z = t` faces the direction (sin t, cos t). So 0 = +Y, 90 = +X, -90 = −X, 180 = −Y.
@@ -26,6 +31,8 @@ Each line is labelled **SOURCE** (read in stuffbydavid/mine-imator 2.0.2 GmProje
 - RENDER: Mine-imator ignores fast clicks. Press, hold about 0.3 s, then release. The Save/Open dialogs only appear when they are clicked this way.
 - RENDER: re-opening the project that is already open does not reload it. Open another project first, then reopen it.
 - RENDER: the export dialog keeps its last FPS, which is reset to 30 in a new app instance, so check it each time.
+- RENDER: opening a new `.miproject` in the same project folder as the one already open did not reload the scene (scene 03 v2 in folder `BinBo MI thu 03`); putting it in a new folder (`BinBo MI thu 03b`) did. Ship each revision to its own folder.
+- RENDER: the Claude desktop window can sit on top of Mine-imator while it is driven; start every action batch by clicking the Mine-imator taskbar button and check with a zoom, never with the masked screenshot.
 
 ## Performance (RTX 3060)
 - RENDER: 1080p24, 24 samples, high-quality render: 409 frames took about 3.5 min, roughly 0.5 s per frame.
@@ -36,4 +43,5 @@ Each line is labelled **SOURCE** (read in stuffbydavid/mine-imator 2.0.2 GmProje
 - RENDER: `SUBSURFACE` 0.6 on the characters plus `render_subsurface_samples` 16 makes skin warmer, brighter and softer. This was the clearest improvement over the default.
 - RENDER: with Custom render settings (`render_settings: ""`), 48 samples and 1080p24, the render ran at about 0.75 s/frame for the light lab (96 frames in about 70 s, 2 characters) and about 1.25 s/frame for scene 02 with lights + subsurface (408 frames in about 8.5 min). That is roughly 2.5× the time of 24 samples without subsurface.
 - RENDER: for night, the day settings recoloured — sun `#3B4C9B` at strength 0.25, ambient `#10152B`, sky `#0B1130`, custom fog `#0B1022`, plus a warm point lamp (`#FFB24D`, strength 2.2, range 120) — gave a believable night. Without custom fog the horizon stays a bright band (v1).
+- RENDER (scene 03 v1): face layers `heart`, `sparkle`, `squeeze`, `popped` eyes, `drool` / `chew` / `scream` / `wavy` mouths and the `blush` layer read clearly in close-ups; arms at `ROT_X -150, ROT_Z +34·side` crossed in front of Bin's face (fixed to `-172, -32·side`).
 - RENDER: a rim point light behind the characters at strength 1.6–3, range 60–90, has hardly any visible effect on Minecraft-style blocks. The edge highlight needs a stronger, closer light or a sun backlight.

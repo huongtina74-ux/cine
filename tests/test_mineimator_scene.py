@@ -12,7 +12,7 @@ TRANSITIONS = {"linear", "instant", "bezier"} | {
     for c in ("quad", "cubic", "quart", "quint", "sine", "expo", "circ", "elastic", "back", "bounce")}
 
 
-@pytest.fixture(scope="module", params=["binbo_thu01", "binbo_thu02"])
+@pytest.fixture(scope="module", params=["binbo_thu01", "binbo_thu02", "binbo_thu03"])
 def project(request, tmp_path_factory):
     D = ROOT / request.param
     work = tmp_path_factory.mktemp(request.param)
@@ -38,7 +38,7 @@ def test_references_resolve(project):
         assert t["parent"] == "root" or t["parent"] in tls
         if t.get("temp") not in (None, "null"):
             assert t["temp"] in temps
-        if t["type"] == "surface":
+        if t["type"] in ("surface", "cube") and t["parent"] != "root":
             assert tls[t["parent"]].get("model_part_name") == "head"
         for kf in t["keyframes"].values():
             assert kf["TRANSITION"] in TRANSITIONS
@@ -48,8 +48,11 @@ def test_references_resolve(project):
 
 def test_root_tree_indices_unique(project):
     _, d = project
-    idx = [t["parent_tree_index"] for t in d["timelines"] if t["parent"] == "root"]
-    assert len(idx) == len(set(idx))
+    by_parent = {}
+    for t in d["timelines"]:
+        by_parent.setdefault(t["parent"], []).append(t.get("parent_tree_index"))
+    for parent, idx in by_parent.items():
+        assert len(idx) == len(set(idx)), parent      # a duplicate index detached scene 03's cheek cubes from the head
 
 
 def test_camera_cuts_and_length(project):
@@ -71,3 +74,24 @@ def test_benchmark_frames_counts_hard_cuts(tmp_path):
     m = json.loads(out)
     assert m["cuts"] == 2 and abs(m["avg_shot_s"] - 2.0) < 0.2
     assert m["saturation"] > 0.3 and m["luma"] > 60
+
+
+def test_scene03_effects_are_keyed_and_blocks_use_known_names():
+    D = ROOT / "binbo_thu03"
+    import tempfile
+    work = Path(tempfile.mkdtemp())
+    subprocess.run([sys.executable, str(D / "prep.py"), str(work)], check=True, capture_output=True)
+    subprocess.run([sys.executable, str(D / "build.py"), str(work)], check=True, capture_output=True)
+    d = json.loads(next((work / "proj").glob("*.miproject")).read_text())
+    blocks = {t["block"]["name"] for t in d["templates"] if t["type"] == "block"}
+    assert blocks <= {"planks", "bookshelf", "flower_pot", "carpet"}
+    floor = next(t for t in d["templates"] if t.get("name") == "Floor")
+    assert floor["block"]["repeat"] == [14, 1, 10]          # saved as [x, up, y]
+    cam = next(t for t in d["timelines"] if t["type"] == "camera")
+    keys = set().union(*(set(k) for k in cam["keyframes"].values()))
+    assert {"CAM_SHAKE", "CAM_DOF", "ROT_Y", "CAM_VIGNETTE"} <= keys
+    fovs = [k["CAM_FOV"] for f, k in sorted(cam["keyframes"].items(), key=lambda x: int(x[0])) if 70 <= int(f) <= 80]
+    assert max(fovs) - min(fovs) >= 30          # crash zoom
+    # every hidden effect is written with an explicit VISIBLE false (true is the default and is omitted)
+    sweat = next(t for t in d["timelines"] if t.get("name") == "bin_sweat")
+    assert sweat["keyframes"]["0"]["VISIBLE"] is False and "VISIBLE" not in sweat["keyframes"]["318"]

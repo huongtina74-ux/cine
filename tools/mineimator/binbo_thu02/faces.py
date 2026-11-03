@@ -15,7 +15,11 @@ K = (28, 22, 26, 255)
 M = (118, 28, 42, 255)      # mouth inside
 TG = (226, 96, 110, 255)    # tongue
 TEAR = (110, 190, 255, 230)
+CRUMB = (214, 160, 72, 255)
 BLUSH = (255, 120, 140, 150)
+HEART_C = (255, 70, 130, 255)
+# 8x9 pixel heart, w = glint
+HEART = ['.##..##.', '#w######', '#w######', '########', '.######.', '..####..', '...##...', '........', '........']
 
 CH = {
     'bin': dict(skin=(244, 196, 160), hair=(214, 110, 40), iris=(52, 140, 74)),
@@ -72,6 +76,33 @@ def eyes(state, c):
                 yy = y0 + 3 + abs(i - mid) // 1
                 d.rectangle((i, min(yy, y1 - 2), i, min(yy, y1 - 2) + 1), fill=K)
             d.ellipse((x0 - 1, y1 + 1, x0 + 5, y1 + 4), fill=BLUSH) if side == 1 else d.ellipse((x1 - 5, y1 + 1, x1 + 1, y1 + 4), fill=BLUSH)
+        elif state == 'heart':      # love-struck: pink pixel hearts with a white glint (pupils hidden)
+            for yy, row in enumerate(HEART):
+                for xx, ch in enumerate(row):
+                    if ch != '.':
+                        d.point((x0 + xx, y0 - 1 + yy), fill={'#': HEART_C, 'w': W, 'k': K}[ch])
+        elif state == 'sparkle':    # huge glossy iris with big glints (anime "want it!"), pupils hidden
+            d.rectangle((x0, y0 - 2, x1 - 1, y1 - 1), fill=W)
+            d.rectangle((x0, y0 - 2, x1 - 1, y0 - 2), fill=K)
+            iris = shade(c['iris'], 1.6) if sum(c['iris']) < 200 else c['iris'] + (255,)
+            d.rectangle((x0 + 1, y0 - 1, x1 - 2, y1 - 1), fill=iris)
+            d.rectangle((x0 + 3, y0 + 2, x1 - 4, y1 - 3), fill=K)
+            d.rectangle((x0 + 1, y0 - 1, x0 + 3, y0 + 1), fill=W)
+            d.rectangle((x1 - 3, y1 - 3, x1 - 2, y1 - 2), fill=W)
+        elif state == 'squeeze':    # > <  (joy / effort), pupils hidden; point of the chevron faces the nose
+            mid = (y0 + y1) // 2
+            for i in range(4):
+                xa = (x0 + 1 + 2 * i) if side == 1 else (x1 - 3 - 2 * i)
+                d.rectangle((xa, mid - 3 + i, xa + 1, mid - 2 + i), fill=K)
+                d.rectangle((xa, mid + 3 - i, xa + 1, mid + 4 - i), fill=K)
+        elif state == 'dot':        # blank shock: tiny black dots on the skin
+            cx_, cy_ = (x0 + x1) // 2, (y0 + y1) // 2
+            d.rectangle((cx_ - 1, cy_ - 1, cx_, cy_), fill=K)
+        elif state == 'popped':     # eyes bulging out: oversized whites, pin-prick pupil drawn in (pupils hidden)
+            d.rectangle((x0 - 1, y0 - 3, x1, y1 + 1), fill=W)
+            d.rectangle((x0 - 1, y0 - 3, x1, y0 - 3), fill=K)
+            cx_, cy_ = (x0 + x1) // 2, (y0 + y1) // 2
+            d.rectangle((cx_ - 1, cy_ - 1, cx_, cy_), fill=K)
     return im
 
 
@@ -137,12 +168,36 @@ def mouth(state, c):
         d.rectangle((cx - 4, y, cx + 3, y + hh), fill=M)
         d.rectangle((cx - 5, y + hh - 1, cx - 5, y + hh + 1), fill=K)
         d.rectangle((cx + 4, y + hh - 1, cx + 4, y + hh + 1), fill=K)
+    elif state == 'drool':                       # dreamy open smile, tongue out, drool drop at the corner
+        d.rectangle((cx - 4, y - 1, cx + 3, y + 2), fill=M)
+        d.rectangle((cx - 4, y - 1, cx + 3, y - 1), fill=W)
+        d.rectangle((cx - 2, y + 1, cx + 1, y + 4), fill=TG)
+        d.rectangle((cx + 4, y + 1, cx + 4, y + 5), fill=TEAR)
+        d.rectangle((cx + 3, y + 5, cx + 5, y + 6), fill=TEAR)
+    elif state == 'scream':                      # huge shocked mouth, teeth + tongue
+        d.rectangle((cx - 5, y - 3, cx + 4, y + 5), fill=M)
+        d.rectangle((cx - 4, y - 3, cx + 3, y - 2), fill=W)
+        d.rectangle((cx - 3, y + 3, cx + 2, y + 5), fill=TG)
+    elif state == 'wavy':                        # awkward / nervous ~~~
+        for i in range(-5, 5):
+            d.rectangle((cx + i, y + (i % 2), cx + i, y + (i % 2)), fill=K)
+    elif state.startswith('chew'):               # cheeks full: closed wide mouth moving, crumbs
+        n = int(state[-1])
+        if n == 1:
+            d.rectangle((cx - 4, y, cx + 3, y + 1), fill=K)
+        else:
+            d.rectangle((cx - 3, y - 1, cx + 2, y + 1), fill=M)
+            d.rectangle((cx - 3, y - 1, cx + 2, y - 1), fill=K)
+        for px, py in ((cx - 6, y + 2), (cx + 5, y - 1), (cx + 1, y + 3)):
+            d.point((px, py), fill=CRUMB)
     return im
 
 
-EYE_STATES = ['open', 'half', 'closed', 'happy', 'sad', 'angry', 'wide', 'cry']
+EYE_STATES = ['open', 'half', 'closed', 'happy', 'sad', 'angry', 'wide', 'cry', 'heart', 'sparkle', 'squeeze', 'dot', 'popped']
+NO_PUPIL = {'closed', 'happy', 'heart', 'sparkle', 'squeeze', 'dot', 'popped'}   # eye states that draw their own pupils
 BROW_STATES = ['neutral', 'raised', 'angry', 'sad', 'curious', 'worried']
-MOUTH_STATES = ['rest', 'smile', 'frown', 'oh', 'open1', 'open2', 'open3', 'grin1', 'grin2', 'grin3', 'wail1', 'wail2', 'wail3']
+MOUTH_STATES = ['rest', 'smile', 'frown', 'oh', 'open1', 'open2', 'open3', 'grin1', 'grin2', 'grin3', 'wail1', 'wail2', 'wail3',
+                'drool', 'scream', 'wavy', 'chew1', 'chew2']
 
 
 def faceless_skin(src_png, dst_png, c):
