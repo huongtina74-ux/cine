@@ -4,7 +4,7 @@ Built after a frame-by-frame look at the competitor benchmark (reports/research/
 the gaps vs our scene 02 were flat faces, upright heads, small poses, eye-level static cameras and an empty set.
 New here (each one is a reusable helper):
   faces   heart / sparkle / squeeze / popped eyes, drool / scream / wavy / chew mouths (binbo_thu02/faces.py)
-  fx      blush layer, 3D cheek blocks that puff, sweat drop that slides, "!" pop-up, floating hearts, crumbs, steam
+  fx      blush layer, cheeks that puff (head widens per chew), sweat drop that slides, "!" pop-up, floating hearts, crumbs, steam
   acting  head roll (ROT_Y) tilt, squash & stretch on head and body, anticipation crouch -> jump arc -> landing squash,
           brows that jump off the face
   camera  low angle, worm's-eye, high angle, over-the-shoulder, crash zoom (FOV), push-in / pull-out, dutch (ROT_Y),
@@ -63,10 +63,9 @@ def shape_t(kind, tex, name, face_camera=False):
 
 
 SURF = shape_t('surface', 'bin_eyes_open', 'face layer')
-BB = {k: shape_t('surface', 'fx_' + k, 'fx ' + k, face_camera=True) for k in ('heart', 'sparkle', 'crumb', 'steam', 'mark_excl', 'mark_q')}
+BB = {k: shape_t('surface', 'fx_' + k, 'fx ' + k, face_camera=True) for k in ('sparkle', 'steam')}   # world-level only: billboards ignore a parent (RENDER thu03)
 SWEAT = shape_t('surface', 'fx_sweat', 'sweat')
 PIZZA = shape_t('surface', 'fx_pizza', 'pizza')
-CHEEK = {'zu': shape_t('cube', 'fx_cheek_zu', 'cheek zu'), 'blush': shape_t('cube', 'fx_cheek_pink', 'cheek blush')}
 
 
 def block_t(name, state, rep, label):
@@ -112,15 +111,12 @@ for n in ('bin', 'zu'):
         s_['inherit'] = dict(s_['inherit'], texture=False, alpha=True, visibility=True, scale=True, position=True, rotation=True)
         P[n][layer] = s_; P[n][layer + '_y'] = dy
     P[n]['sweat'] = mk('surface', f'{n}_sweat', SWEAT, parent=head, parent_tree_index=6, shadows=False, ssao=False)
-    P[n]['mark'] = mk('surface', f'{n}_mark', BB['mark_excl'], parent=head, parent_tree_index=7, shadows=False, ssao=False)
+    P[n]['mark'] = mk('surface', f'{n}_mark', SURF, parent=head, parent_tree_index=7, shadows=False, ssao=False)
     P[n]['mark']['inherit'] = dict(P[n]['mark']['inherit'], texture=False)
-# Zu's puffable cheeks: two 3D blocks on the lower face (cube 16 units at SCA 1, centred)
-for side, x, idx in (('r', 2.4, 8), ('l', -2.4, 19)):          # unique child index, or the cube falls back to world space
-    P['zu']['cheek_' + side] = mk('cube', f'zu_cheek_{side}', CHEEK['zu'], parent=P['zu']['head']['id'], parent_tree_index=idx, shadows=False)
-    P['zu']['cheek_' + side + '_x'] = x
 # floating hearts (Zu), crumbs (Zu eating), steam (pizza)
-HEARTS = [mk('surface', f'heart_{i}', BB['heart'], parent=P['zu']['head']['id'], parent_tree_index=9 + i, shadows=False, ssao=False) for i in range(4)]
-CRUMBS = [mk('surface', f'crumb_{i}', BB['crumb'], parent=P['zu']['head']['id'], parent_tree_index=13 + i, shadows=False, ssao=False) for i in range(6)]
+ONHEAD = {k: shape_t('surface', 'fx_' + k, 'fx ' + k + ' (head)') for k in ('heart', 'crumb')}
+HEARTS = [mk('surface', f'heart_{i}', ONHEAD['heart'], parent=P['zu']['head']['id'], parent_tree_index=9 + i, shadows=False, ssao=False) for i in range(4)]
+CRUMBS = [mk('surface', f'crumb_{i}', ONHEAD['crumb'], parent=P['zu']['head']['id'], parent_tree_index=13 + i, shadows=False, ssao=False) for i in range(6)]
 STEAM = [mk('surface', f'steam_{i}', BB['steam'], shadows=False, ssao=False) for i in range(3)]
 SPARK = [mk('surface', f'sparkle_{i}', BB['sparkle'], shadows=False, ssao=False) for i in range(3)]
 PZ = mk('surface', 'Pizza', PIZZA, shadows=True)
@@ -139,7 +135,9 @@ SET = [  # (block, state, (blocks along X, along Y, high), label), corner positi
 SETTL = []
 for (bn, st, rep, label), pos in SET:
     t = mk('block', label, block_t(bn, st, rep, label))
-    t['keyframes'] = {'0': {'POS_X': pos[0], 'POS_Y': pos[1], 'POS_Z': pos[2], 'TRANSITION': 'linear'}}
+    # RENDER-fit (thu03 f383, 67 px total error vs 390 for corner origin): the repeated box is centred on the
+    # timeline position in X and Y and rises from it in Z, so convert our min-corner layout to the centre
+    t['keyframes'] = {'0': {'POS_X': pos[0] + rep[0] * 8, 'POS_Y': pos[1] + rep[1] * 8, 'POS_Z': pos[2], 'TRANSITION': 'linear'}}
     SETTL.append(t)
 
 # ---------------- keyframe helper (state carried forward; only non-default values are written) ----------------
@@ -197,8 +195,8 @@ for i, f in enumerate(range(52, 108, 14)):
 K(Z['head'], 108, 'easeinoutsine', ROT_Y=0, ROT_X=-4)
 for arm, s in (('right_arm', 1), ('left_arm', -1)):           # hands clasped under the chin when in love
     K(Z[arm], 38, 'easeinoutquad', ROT_X=0, ROT_Z=0)
-    K(Z[arm], 46, 'easeoutback', ROT_X=-70, ROT_Z=-28 * s)
-    K(Z[arm], 160, 'easeinoutquad', ROT_X=-70, ROT_Z=-28 * s)
+    K(Z[arm], 46, 'easeoutback', ROT_X=-52, ROT_Z=-20 * s)
+    K(Z[arm], 160, 'easeinoutquad', ROT_X=-52, ROT_Z=-20 * s)
     K(Z[arm], 168, 'easeinoutquad', ROT_X=-20, ROT_Z=0)
 # S3 Bin's double take: arms fly up, head stretches then squashes and settles (easeoutelastic)
 K(B['head'], 108, 'easeinoutquad', ROT_X=4, ROT_Y=0, SCA_X=1, SCA_Y=1, SCA_Z=1)
@@ -241,7 +239,7 @@ K(Z['head'], 246, 'easeoutquad', ROT_X=26)                      # bite
 for i, f in enumerate(range(252, 312, 6)):
     K(Z['head'], f, 'easeinoutsine', ROT_X=8 if i % 2 == 0 else 14, ROT_Y=6 if i % 4 < 2 else -6)
 for arm, s in (('right_arm', 1), ('left_arm', -1)):
-    K(Z[arm], 240, 'easeinoutquad', ROT_X=-30, ROT_Z=8 * s); K(Z[arm], 248, 'easeoutback', ROT_X=-80, ROT_Z=-10 * s)
+    K(Z[arm], 240, 'easeinoutquad', ROT_X=-30, ROT_Z=8 * s); K(Z[arm], 248, 'easeoutback', ROT_X=-50, ROT_Z=6 * s)
 # S6 Bin: awkward smile + sweat, then laughs (body bounce, head back)
 K(B['char'], 312, 'linear', ROT_Z=-115)
 K(B['head'], 312, 'easeinoutquad', ROT_X=0, ROT_Y=0); K(B['head'], 320, 'easeoutquad', ROT_Y=-12)
@@ -252,9 +250,9 @@ for i, f in enumerate(range(352, 384, 5)):
 for arm, s in (('right_arm', 1), ('left_arm', -1)):
     K(B[arm], 312, 'easeinoutquad', ROT_X=-15, ROT_Z=6 * s)
     K(B[arm], 352, 'easeoutback', ROT_X=-40, ROT_Z=-30 * s)        # hands on belly-ish
-K(B['right_arm'], 318, 'easeoutquad', ROT_X=-150, ROT_Z=-30); K(B['right_arm'], 346, 'easeinoutquad', ROT_X=-150, ROT_Z=-30)   # scratches head
+K(B['right_arm'], 318, 'easeoutquad', ROT_X=-150, ROT_Z=-46); K(B['right_arm'], 346, 'easeinoutquad', ROT_X=-150, ROT_Z=-46)   # scratches head
 for f in range(322, 346, 4):
-    K(B['right_arm'], f, 'easeinoutsine', ROT_X=-150 if (f // 4) % 2 else -140, ROT_Z=-30)
+    K(B['right_arm'], f, 'easeinoutsine', ROT_X=-150 if (f // 4) % 2 else -140, ROT_Z=-46)
 zsca(350, 'easeinoutquad', POS_Z=16); zsca(356, 'easeoutquad', sx=.9, sz=1.15, POS_Z=19); zsca(362, 'easeinquad', POS_Z=16)
 zsca(366, 'easeoutelastic', POS_Z=16)
 
@@ -307,16 +305,11 @@ for n in FX:
         K(ch['blush'], f, 'instant', TEXTURE_OBJ=RID['fx_blush'], POS_Y=ch['blush_y'], SCA_X=.5, SCA_Y=.5, SCA_Z=.5,
           VISIBLE=bool(st.get('blush')))
 
-# Zu's 3D cheeks: tucked inside the head until he eats, then puff out and pulse with each chew
-for side in ('r', 'l'):
-    t, x = Z['cheek_' + side], Z['cheek_' + side + '_x']
-    K(t, 0, 'instant', POS_X=x, POS_Y=2.8, POS_Z=-2.0, SCA_X=.12, SCA_Y=.12, SCA_Z=.12)
-    K(t, 246, 'easeinoutquad', POS_Y=2.8, SCA_X=.12, SCA_Y=.12, SCA_Z=.12)
-    K(t, 252, 'easeoutback', POS_X=x * 1.08, POS_Y=3.5, SCA_X=.26, SCA_Y=.2, SCA_Z=.24)
-    for i, f in enumerate(range(256, 384, 6)):
-        k = .26 if i % 2 else .3
-        K(t, f, 'easeinoutsine', POS_X=x * 1.08, POS_Y=3.5, SCA_X=k, SCA_Y=.2, SCA_Z=k * .92)
-
+# Zu's cheeks puff: the head widens on every chew (the cube cheeks crossed his mouth in v1)
+for i, f in enumerate(range(252, 312, 6)):
+    k = 1.12 if i % 2 == 0 else 1.05
+    K(Z['head'], f, 'easeinoutsine', SCA_X=ZH * k, SCA_Y=ZH * 1.02, SCA_Z=ZH * (2 - k) ** .5)
+K(Z['head'], 314, 'easeoutelastic', SCA_X=ZH, SCA_Y=ZH, SCA_Z=ZH)
 # sweat drop on Bin (slides down the side of the face), "!" pop over Bin's head
 SW = B['sweat']
 K(SW, 0, 'instant', VISIBLE=False, POS_X=-3.1, POS_Y=4.07, POS_Z=2.6, SCA_X=.1, SCA_Y=.1, SCA_Z=.1)
@@ -325,7 +318,7 @@ K(SW, 322, 'easeoutback', SCA_X=.12, SCA_Y=.12, SCA_Z=.12)
 K(SW, 346, 'easeinquad', POS_Z=-1.0)
 K(SW, 350, 'instant', VISIBLE=False)
 MK = B['mark']
-K(MK, 0, 'instant', VISIBLE=False, POS_X=0, POS_Y=0, POS_Z=9, SCA_X=.01, SCA_Y=.01, SCA_Z=.01)
+K(MK, 0, 'instant', VISIBLE=False, POS_X=0, POS_Y=4.2, POS_Z=9, SCA_X=.01, SCA_Y=.01, SCA_Z=.01)
 K(MK, 119, 'instant', VISIBLE=True, TEXTURE_OBJ=RID['fx_mark_excl'])
 K(MK, 123, 'easeoutback', SCA_X=.42, SCA_Y=.42, SCA_Z=.42, POS_Z=10)
 K(MK, 128, 'easeinoutquad', SCA_X=.34, SCA_Y=.34, SCA_Z=.34)
@@ -345,7 +338,7 @@ for i, h in enumerate(HEARTS):
         if f0 + 36 > 168:
             break
         x0 = (-3, 3, -1, 2)[i]
-        K(h, f0, 'instant', VISIBLE=True, POS_X=x0, POS_Y=2, POS_Z=4, SCA_X=.05, SCA_Y=.05, SCA_Z=.05)
+        K(h, f0, 'instant', VISIBLE=True, POS_X=x0, POS_Y=4.6, POS_Z=4, SCA_X=.05, SCA_Y=.05, SCA_Z=.05)
         K(h, f0 + 8, 'easeoutback', POS_X=x0 * 1.6, POS_Z=7, SCA_X=.2, SCA_Y=.2, SCA_Z=.2)
         K(h, f0 + 34, 'easeinquad', POS_X=x0 * 2.2 + (2 if i % 2 else -2), POS_Z=13, SCA_X=.12, SCA_Y=.12, SCA_Z=.12)
         K(h, f0 + 36, 'instant', VISIBLE=False)
