@@ -12,6 +12,7 @@ Pipeline (run inside a work folder):
 Facts checked against the source (stuffbydavid/mine-imator) and on the RTX 3060 PC:
 - Keyframes store only non-default values, so a key left out of a keyframe means default (0). `build.py` carries state forward.
 - Face swap: a `TEXTURE_OBJ` keyframe (skin resource id) on the **body** part. Head and hat inherit it, so head rotation keys stay separate.
-- Camera: `+ROT_Z` turns the view toward +X and `+ROT_X` tilts it down. Characters: `ROT_Z 90` faces -X and `180` faces -Y; arm `+ROT_X` swings forward.
+- Facing: `ROT_Z = t` points a character, and the camera view, along (sin t, cos t). So 90 faces +X, -90 faces -X and 180 faces -Y. Camera `+ROT_X` tilts the view down.
+- `+ROT_X` tips the top of a part forward. A head looks down, while a hanging arm or leg swings back. To raise an arm in front, use a negative value.
 - Root timelines need unique `parent_tree_index` values, or some are missing from the tree.
 - GUI driving: Mine-imator ignores fast clicks. Press, hold about 0.3 s, then release.

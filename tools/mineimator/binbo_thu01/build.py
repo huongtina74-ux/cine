@@ -52,56 +52,58 @@ def flush():
         tl['keyframes']=out
 # ================= BLOCKING =================
 B,O,Z=P['bin'],P['bo'],P['zu']
+# Conventions (measured on renders): facing(ROT_Z=t)=(sin t, cos t); +ROT_X tips a part's top forward,
+# so a hanging arm/leg swings BACK with +ROT_X (raise arm forward = negative), head +ROT_X looks down.
 # Zu sits at origin facing camera (-Y), scale 0.6, big head
 K(Z['char'],0,'linear',POS_X=0,POS_Y=0,POS_Z=-6,ROT_Z=180,SCA_X=.6,SCA_Y=.6,SCA_Z=.6)
 K(Z['head'],0,'linear',SCA_X=1.25,SCA_Y=1.25,SCA_Z=1.25,ROT_X=18)
-for leg in ('right_leg','left_leg'): K(Z[leg],0,'linear',ROT_X=90)
-for arm,s in (('right_arm',1),('left_arm',-1)): K(Z[arm],0,'linear',ROT_X=40,BEND_ANGLE_X=70,ROT_Z=8*s)
+for leg in ('right_leg','left_leg'): K(Z[leg],0,'linear',ROT_X=-90)
+for arm,s in (('right_arm',1),('left_arm',-1)): K(Z[arm],0,'linear',ROT_X=-35,ROT_Z=8*s)
 # sobbing shoulders 0..240
 for f in range(12,296,12): K(Z['char'],f,'easeinoutsine',POS_Z=-5.4 if (f//12)%2 else -6)
 # Bin & Bo walk in from +X (screen-left) to stops, facing -X (ROT_Z 90)
 for ch,x0,x1,y,off in ((B,120,30,-8,0),(O,150,58,6,3)):
-    K(ch['char'],0,'linear',POS_X=x0,POS_Y=y,ROT_Z=90)
-    K(ch['char'],80,'easeoutquad',POS_X=x1,POS_Y=y,ROT_Z=90)
+    K(ch['char'],0,'linear',POS_X=x0,POS_Y=y,ROT_Z=-90)
+    K(ch['char'],80,'easeoutquad',POS_X=x1,POS_Y=y,ROT_Z=-90)
     for i,f in enumerate(range(0+off,80,6)):
         a=30 if i%2 else -30
         K(ch['right_leg'],f,'easeinoutsine',ROT_X=a); K(ch['left_leg'],f,'easeinoutsine',ROT_X=-a)
         K(ch['right_arm'],f,'easeinoutsine',ROT_X=-a); K(ch['left_arm'],f,'easeinoutsine',ROT_X=a)
     for part in ('right_leg','left_leg','right_arm','left_arm'): K(ch[part],84,'easeoutquad',ROT_X=0)
 # Bin: "Huh? Bo, look!" turn toward camera side then point at Zu
-K(B['char'],84,'easeinoutquad',ROT_Z=90); K(B['char'],96,'easeoutback',ROT_Z=120)
-K(B['head'],84,'easeoutquad',ROT_Y=0); K(B['head'],92,'easeoutback',ROT_X=-10)
-K(B['right_arm'],96,'easeoutback',ROT_X=0); K(B['right_arm'],106,'easeoutquad',ROT_X=95,ROT_Z=-10)
-K(B['char'],132,'easeinoutquad',ROT_Z=120); K(B['char'],142,'easeinoutquad',ROT_Z=90)
-K(B['right_arm'],128,'easeinoutquad',ROT_X=95,ROT_Z=-10); K(B['right_arm'],140,'easeinoutquad',ROT_X=0,ROT_Z=0)
-K(B['head'],130,'easeinoutquad',ROT_X=-10); K(B['head'],140,'easeinoutquad',ROT_X=8)
+K(B['char'],84,'easeinoutquad',ROT_Z=-90); K(B['char'],96,'easeoutback',ROT_Z=-120)
+K(B['head'],84,'easeoutquad',ROT_Y=0); K(B['head'],92,'easeoutback',ROT_X=-5)
+K(B['right_arm'],96,'easeoutback',ROT_X=0); K(B['right_arm'],106,'easeoutquad',ROT_X=-95,ROT_Z=-10)
+K(B['char'],132,'easeinoutquad',ROT_Z=-120); K(B['char'],142,'easeinoutquad',ROT_Z=-90)
+K(B['right_arm'],128,'easeinoutquad',ROT_X=-95,ROT_Z=-10); K(B['right_arm'],140,'easeinoutquad',ROT_X=0,ROT_Z=0)
+K(B['head'],130,'easeinoutquad',ROT_X=-5); K(B['head'],140,'easeinoutquad',ROT_X=8)
 # Bo: kneel-ish lean + reach hand "Are you okay?"
 K(O['char'],140,'easeinoutquad',POS_X=58,POS_Z=0); K(O['char'],152,'easeoutquad',POS_X=44,POS_Z=-3)
 K(O['head'],140,'easeinoutquad',ROT_X=0); K(O['head'],150,'easeoutquad',ROT_X=14)
-K(O['left_arm'],140,'easeinoutquad',ROT_X=0); K(O['left_arm'],154,'easeoutback',ROT_X=60,BEND_ANGLE_X=20)
-K(O['left_arm'],196,'easeinoutquad',ROT_X=60,BEND_ANGLE_X=20); K(O['left_arm'],208,'easeinoutquad',ROT_X=0,BEND_ANGLE_X=0)
+K(O['left_arm'],140,'easeinoutquad',ROT_X=0); K(O['left_arm'],154,'easeoutback',ROT_X=-60)
+K(O['left_arm'],196,'easeinoutquad',ROT_X=-60); K(O['left_arm'],208,'easeinoutquad',ROT_X=0)
 # Zu looks up at Bo when spoken to, then down while answering
 K(Z['head'],150,'easeinoutquad',ROT_X=18); K(Z['head'],162,'easeoutquad',ROT_X=-8,ROT_Z=-15)
 K(Z['head'],204,'easeinoutquad',ROT_X=-8,ROT_Z=-15); K(Z['head'],214,'easeinoutquad',ROT_X=12,ROT_Z=0)
 # Bin: "Don't cry! We'll help you!" fist pump
-K(B['right_arm'],258,'easeinoutquad',ROT_X=0); K(B['right_arm'],266,'easeoutback',ROT_X=150,BEND_ANGLE_X=40)
-K(B['right_arm'],286,'easeoutback',ROT_X=150,BEND_ANGLE_X=40); K(B['right_arm'],298,'easeinoutquad',ROT_X=0,BEND_ANGLE_X=0)
+K(B['right_arm'],258,'easeinoutquad',ROT_X=0); K(B['right_arm'],266,'easeoutback',ROT_X=-150)
+K(B['right_arm'],286,'easeoutback',ROT_X=-150); K(B['right_arm'],298,'easeinoutquad',ROT_X=0)
 K(B['head'],262,'easeoutquad',ROT_X=0)
 # Zu stands up and hops (Really? Yaaay!)
 K(Z['char'],300,'easeoutback',POS_Z=-6); K(Z['char'],312,'easeoutquad',POS_Z=0)
-for leg in ('right_leg','left_leg'): K(Z[leg],300,'easeoutback',ROT_X=90); K(Z[leg],312,'easeoutquad',ROT_X=0)
+for leg in ('right_leg','left_leg'): K(Z[leg],300,'easeoutback',ROT_X=-90); K(Z[leg],312,'easeoutquad',ROT_X=0)
 K(Z['head'],300,'easeoutquad',ROT_X=12); K(Z['head'],312,'easeoutquad',ROT_X=-6)
 for arm,s in (('right_arm',1),('left_arm',-1)):
-    K(Z[arm],300,'easeinoutquad',ROT_X=40,BEND_ANGLE_X=70,ROT_Z=8*s); K(Z[arm],314,'easeoutback',ROT_X=165,BEND_ANGLE_X=0,ROT_Z=25*s)
+    K(Z[arm],300,'easeinoutquad',ROT_X=-35,ROT_Z=8*s); K(Z[arm],314,'easeoutback',ROT_X=-165,ROT_Z=25*s)
 hop=[(324,0),(331,9),(338,0),(345,9),(352,0),(359,9),(366,0)]
 for f,z in hop: K(Z['char'],f,'easeoutquad' if z else 'easeinquad',POS_Z=z)
 # Bo + Bin cheer, then "Group hug!" step in
 for ch in (B,O):
     for arm,s in (('right_arm',1),('left_arm',-1)):
-        K(ch[arm],330,'easeinoutquad',ROT_X=0); K(ch[arm],340,'easeoutback',ROT_X=150,ROT_Z=20*s)
-        K(ch[arm],372,'easeinoutquad',ROT_X=150,ROT_Z=20*s); K(ch[arm],384,'easeoutquad',ROT_X=80,ROT_Z=0)
+        K(ch[arm],330,'easeinoutquad',ROT_X=0); K(ch[arm],340,'easeoutback',ROT_X=-150,ROT_Z=20*s)
+        K(ch[arm],372,'easeinoutquad',ROT_X=-150,ROT_Z=20*s); K(ch[arm],384,'easeoutquad',ROT_X=-80,ROT_Z=0)
 K(O['char'],340,'easeinoutquad',POS_X=44,POS_Z=-3); K(O['char'],350,'easeoutquad',POS_X=48,POS_Z=0)
-K(B['char'],370,'easeinoutquad',POS_X=30,POS_Y=-8,ROT_Z=90); K(B['char'],386,'easeoutquad',POS_X=16,POS_Y=-6,ROT_Z=90)
+K(B['char'],370,'easeinoutquad',POS_X=30,POS_Y=-8,ROT_Z=-90); K(B['char'],386,'easeoutquad',POS_X=16,POS_Y=-6,ROT_Z=-90)
 K(O['char'],370,'easeinoutquad',POS_X=48,POS_Y=6); K(O['char'],386,'easeoutquad',POS_X=20,POS_Y=9)
 # ================= FACES (TEXTURE_OBJ on body; head/hat inherit) =================
 FACE={n:{} for n in ('bin','bo','zu')}
