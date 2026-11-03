@@ -8,12 +8,12 @@ Số liệu là **OBSERVED** trong vòng nghiên cứu 1 (`2026-11-03_minecraft_
 |---|---|---|---|
 | 1 | Fan-animation Maizen (JJ/Mikey, JJ Sister, love story) | Cubeee 2.06M = 41× subs; Mine Block 3.45M = 30× subs; Морфиз 1.54M = 21× subs; Ligabka 672K sau 3 ngày = 9.8× subs | **Không.** Dùng nhân vật của Maizen là vi phạm luật IP gốc của kênh và có rủi ro bản quyền |
 | 2 | Crossover mascot hot (Verity, Sprunki, Poppy Playtime) | MyMy toon 4.1M = 10× median kênh | **Không** (IP của bên thứ ba). Chỉ học cấu trúc "SAD ORIGIN STORY" |
-| 3 | Video AI bán-hiện-thực: Steve & Alex + baby mob + đồ ăn | DL Minecraft (2.58K subs): 502K = 195× subs | Có thể, nhưng cần **credit video AI trả phí**, giữ nhân vật nhất quán khó, và có rủi ro chính sách "nội dung sản xuất hàng loạt" của YouTube |
+| 3 | Video AI bán-hiện-thực: Steve & Alex + baby mob + đồ ăn | DL Minecraft (2.58K subs): 502K = 195× subs | **Có, bằng 3D tự dựng, không cần AI** (sửa 2026-11-03: bản đầu ghi nhầm là phải dùng credit AI). Dựng rig khối trong Blender, render Cycles với vật liệu PBR thật và asset Poly Haven CC0. Nên dùng Zu thay cho Steve/Alex. Thời gian render chưa đo |
 | 4 | **Hoạt hình truyện Minecraft gốc** (gia đình, nghèo–giàu, mob) | Iron Studio "Rich Axolotl's Downfall" 420K = 20.8× subs sau ~12 ngày; BigSchool median 1.7M; Class Monster School compilation 4.3M | **Có, đây là ngách chính của ta** |
 | 5 | Gameplay / roleplay, "100 Days" | Mozi 945,889 view sau ~7 ngày = 2.6× subs; ProBoiz 6.82M/14 ngày; Carry Depie 2.57M/11 ngày | Chất lượng hình dễ đạt cao (Replay Mod + shader), nhưng **cần người chơi thật** 40–60 giờ mỗi video dài |
 | 6 | "100 Days" dạng hoạt hình | Maizen "Survived 100 Days in an EXPANDING…" 3.52M trong ~28 ngày | **Có.** Ghép ngách 4 với thể thức 100 ngày; cần set lớn (Minecraft Java + map) |
 
-**Thứ tự đề xuất:** 4 → 6 → (5 nếu chủ kênh tự chơi) → 3 (nếu chủ kênh có ngân sách AI). Ngách 1 và 2 bỏ.
+**Thứ tự đề xuất:** 4 → 3 (dựng 3D bằng Blender, dùng Zu) → 6 → (5 nếu chủ kênh tự chơi). Ngách 1 và 2 bỏ.
 
 ## B. Quy trình có đạt chất lượng cao trong các ngách đó không (INFERRED)
 
