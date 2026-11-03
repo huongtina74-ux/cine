@@ -71,6 +71,27 @@ def test_loose_field_names_and_dates_parse():
     assert stats.to_seconds("12:30") == 750
 
 
+def test_snapshot_then_compare_gives_views_gained_per_day(tmp_path):
+    def raw(views, name):
+        rows = [{"channel": "A", "title": f"v{i}", "views": v, "published": "2026-10-20",
+                 "url": f"https://youtu.be/{i}", "channel_subs": 5000} for i, v in enumerate(views)]
+        p = tmp_path / name
+        p.write_text(json.dumps(rows), encoding="utf-8")
+        return p
+
+    snap = tmp_path / "snap" / "day1.csv"
+    assert stats.main([str(raw([1000, 50000], "d1.json")), "--as-of", "2026-11-01",
+                       "--out", str(tmp_path / "d1.md"), "--snapshot", str(snap)]) == 0
+    assert snap.read_text(encoding="utf-8").count("https://youtu.be/") == 2
+    out = tmp_path / "d2.md"
+    assert stats.main([str(raw([1100, 650000, 7], "d2.json")), "--as-of", "2026-11-03",
+                       "--out", str(out), "--compare", str(snap)]) == 0
+    g = stats.growth(stats.load(tmp_path / "d2.json"), snap, stats.to_date("2026-11-03"))
+    assert [r["gain_per_day"] for r in g["rows"]] == [300000, 50] and g["new_urls"] == 1
+    md = out.read_text(encoding="utf-8")
+    assert "Growth since previous snapshot" in md and "Videos not in the previous snapshot: 1." in md
+
+
 # ---------------------------------------------------------------- decision log
 
 def test_observed_decisions_need_evidence(tmp_path):

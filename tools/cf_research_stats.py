@@ -12,6 +12,10 @@ Field names are matched loosely (view_count, publishedAt, channelTitle, duration
 Outputs: niche median and spread (not the best number), per-channel median views,
 outliers (>= 3x their own channel median, the formula worth studying), views/day, long vs short,
 and the words that repeat in outlier titles. Every number is OBSERVED from the input file as of its date.
+
+Daily loops: `--snapshot reports/research/snapshots/<date>.csv` writes a small committed copy of
+url/views/subs, and `--compare <previous snapshot>` adds the real growth (views gained per day between
+the two readings) — the "is it exploding right now" signal that one reading cannot give.
 """
 from __future__ import annotations
 
@@ -166,6 +170,41 @@ def analyse(rows: list[dict], as_of: date, outlier_x: float, short_s: float) -> 
     }
 
 
+SNAP_FIELDS = ("as_of", "url", "channel", "channel_subs", "views", "published", "duration_s", "title")
+
+
+def write_snapshot(rows: list[dict], as_of: date, path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=SNAP_FIELDS)
+        w.writeheader()
+        for r in rows:
+            if r["url"]:
+                w.writerow({"as_of": as_of.isoformat(), "url": r["url"], "channel": r["channel"],
+                            "channel_subs": r["channel_subs"] if r["channel_subs"] is not None else "",
+                            "views": r["views"], "published": r["published"].isoformat() if r["published"] else "",
+                            "duration_s": "" if r["duration_s"] is None else int(r["duration_s"]), "title": r["title"]})
+
+
+def growth(rows: list[dict], prev_path: Path, as_of: date) -> dict:
+    """Views gained per day since the previous snapshot, for videos present in both."""
+    with prev_path.open(encoding="utf-8-sig", newline="") as fh:
+        prev = {r["url"]: r for r in csv.DictReader(fh) if r.get("url")}
+    out, seen = [], set()
+    for r in rows:
+        p = prev.get(r["url"])
+        if not r["url"] or r["url"] in seen or not p:
+            continue
+        seen.add(r["url"])
+        then = to_date(p.get("as_of"))
+        days = max(1, (as_of - then).days) if then else 1
+        gained = r["views"] - int(float(p["views"]))
+        out.append({**r, "prev_views": int(float(p["views"])), "gained": gained, "gain_days": days,
+                    "gain_per_day": gained / days})
+    out.sort(key=lambda g: -g["gain_per_day"])
+    return {"rows": out, "prev": prev_path.as_posix(), "new_urls": len({r["url"] for r in rows if r["url"]} - set(prev))}
+
+
 def to_markdown(a: dict, niche: str, src: Path, as_of: date, outlier_x: float) -> str:
     L = [f"# Research stats — {niche or src.stem}", "",
          f"As of {as_of.isoformat()} · source `{src.as_posix()}` · {a['videos']} videos from {a['channels']} channels · all numbers OBSERVED from this file.", "",
@@ -191,6 +230,19 @@ def to_markdown(a: dict, niche: str, src: Path, as_of: date, outlier_x: float) -
         L += [f"| {fmt(r['views_per_day'])} | {fmt(r['views'])} | {r['channel']} | {r['title'].replace('|', '/')} |" for r in a["fresh"]]
     else:
         L.append("None in the sample (no publish dates, or nothing newer than 30 days).")
+    g = a.get("growth")
+    if g is not None:
+        L += ["", f"## Growth since previous snapshot (`{g['prev']}`)", ""]
+        if g["rows"]:
+            L += ["| Gained/day | Gained | Days | Views now | Channel | Title |", "| --- | --- | --- | --- | --- | --- |"]
+            for r in g["rows"][:15]:
+                title = r["title"].replace("|", "/")
+                if r["url"].startswith("http"):
+                    title = f"[{title}]({r['url']})"
+                L.append(f"| {fmt(max(r['gain_per_day'], 0))} | {fmt(max(r['gained'], 0))} | {r['gain_days']} | {fmt(r['views'])} | {r['channel']} | {title} |")
+        else:
+            L.append("No video appears in both snapshots.")
+        L.append(f"Videos not in the previous snapshot: {g['new_urls']}.")
     L += ["", "## Channels by median views", "", "| Channel | Videos | Median views |", "| --- | --- | --- |"]
     L += [f"| {c} | {n} | {fmt(m)} |" for c, n, m in a["channel_rows"][:25]]
     L += ["", "Caveats: public views only (no CTR, retention or RPM); small samples swing; survivorship bias — channels that failed are not in the list."]
@@ -206,6 +258,8 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--short-seconds", type=float, default=180)
     p.add_argument("--out", default="")
     p.add_argument("--json", default="")
+    p.add_argument("--snapshot", default="", help="write a compact CSV (url, views, subs ...) to commit for tomorrow")
+    p.add_argument("--compare", default="", help="previous snapshot CSV: adds views gained per day")
     args = p.parse_args(argv)
     src = Path(args.input)
     if not src.is_file():
@@ -217,15 +271,26 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     as_of = to_date(args.as_of) if args.as_of else datetime.now(timezone.utc).date()
     a = analyse(rows, as_of, args.outlier_x, args.short_seconds)
+    if args.compare:
+        if not Path(args.compare).is_file():
+            print(f"BAD_INPUT::{args.compare} not found")
+            return 2
+        a["growth"] = growth(rows, Path(args.compare), as_of)
+    if args.snapshot:
+        write_snapshot(rows, as_of, Path(args.snapshot))
     md = to_markdown(a, args.niche, src, as_of, args.outlier_x)
     out = Path(args.out) if args.out else src.with_name(src.stem + "_stats.md")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(md, encoding="utf-8")
     if args.json:
-        slim = {k: v for k, v in a.items() if k not in ("outliers", "fresh")}
+        slim = {k: v for k, v in a.items() if k not in ("outliers", "fresh", "growth")}
+        if "growth" in a:
+            slim["growth"] = [{k: r[k] for k in ("url", "channel", "views", "prev_views", "gained", "gain_days", "gain_per_day")}
+                              for r in a["growth"]["rows"][:50]]
         slim["outliers"] = [{k: (str(v) if isinstance(v, date) else v) for k, v in r.items()} for r in a["outliers"]]
         Path(args.json).write_text(json.dumps(slim, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
-    print(f"STATS_OK::{out}::videos={a['videos']}::median={a['median']:.0f}::outliers={len(a['outliers'])}")
+    grown = f"::compared={len(a['growth']['rows'])}" if "growth" in a else ""
+    print(f"STATS_OK::{out}::videos={a['videos']}::median={a['median']:.0f}::outliers={len(a['outliers'])}{grown}")
     return 0
 
 
