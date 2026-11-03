@@ -144,9 +144,9 @@ Fit with our channel:
 |---|---|---|---|
 | Bối cảnh | Luôn có set đầy đủ (thành phố, phòng, biển, xe buýt) | Bãi cỏ trống, trời trống | Import world từ Minecraft Java (hoặc dựng set bằng block trong Mine-imator) |
 | Cảm xúc khuôn mặt | Phóng đại: mắt tim, nước mắt chảy, mồ hôi, má đỏ | Có 8 trạng thái mắt + miệng nói, nhưng chưa có hiệu ứng | Thêm lớp FX trên mặt: nước mắt, mồ hôi, má hồng, "!?" |
-| Màu | Bão hòa, tương phản mạnh, nền màu theo cảm xúc (hồng/đỏ/đêm) | Ánh sáng ngày ấm (recipe B), khá nhạt | Dùng recipe C1 (hoàng hôn) / D (đêm) theo cảm xúc từng cảnh; tăng saturation ở bước edit |
+| Màu / độ sáng | Đổi tông theo cảm xúc; độ sáng 73–133 (OBSERVED 2026-11-03, đo khung hình) | Độ bão hòa ngang BigSchool (0.437 vs 0.43–0.45, OBSERVED) — **không nhạt** như nhận định từ thumbnail; nhưng quá sáng (luma 149) | Hạ độ sáng về 115–130 (ít trời, nắng 1.2); recipe C1/D theo cảm xúc. Chi tiết: `reports/research/2026-11-03_quality_benchmark_thu02.md` |
 | Đạo cụ trung tâm | Mỗi video có 1 vật thể "hero" (xe buýt, bánh, pizza) | Không có đạo cụ | Mỗi tập chọn 1 đạo cụ hero, xuất hiện trong thumbnail + cảnh 1 |
-| Khung hình | Cận mặt 2 nhân vật | Có cận, nhưng tay Bin che mặt ở ~11.5 s | Sửa pose tay; thêm góc qua vai (over-the-shoulder) |
+| Khung hình / chuyển động | Cận mặt 2 nhân vật; BigSchool shot 1.3–1.5 s, MSToons camera luôn chuyển động (OBSERVED 2026-11-03) | 2/6 khung tốt; khối tay che ¼ khung ở 7.3 s; camera đứng yên (motion 3.9 vs 5–20) | Luật bố cục tự kiểm + camera push-in/orbit mọi shot + reaction close-up sau mỗi câu |
 
 ---
 

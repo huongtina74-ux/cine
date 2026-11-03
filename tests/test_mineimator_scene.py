@@ -59,3 +59,15 @@ def test_camera_cuts_and_length(project):
     assert frames[0] == 0 and frames[-1] == d["project"]["timeline"]["region_end"]
     cuts = [f for f in frames if cam["keyframes"][str(f)]["TRANSITION"] == "instant"]
     assert len(cuts) >= 5
+
+
+def test_benchmark_frames_counts_hard_cuts(tmp_path):
+    """Three flat colour shots of 2 s each (5 fps sampling) = 2 cuts, 3 shots of ~2 s."""
+    vid = tmp_path / "three_shots.mp4"
+    subprocess.run(["ffmpeg", "-v", "error", "-f", "lavfi", "-i", "color=c=red:s=320x180:d=2:r=24",
+                    "-f", "lavfi", "-i", "color=c=blue:s=320x180:d=2:r=24", "-f", "lavfi", "-i", "color=c=white:s=320x180:d=2:r=24",
+                    "-filter_complex", "[0][1][2]concat=n=3:v=1", "-pix_fmt", "yuv420p", str(vid)], check=True)
+    out = subprocess.run([sys.executable, str(ROOT / "benchmark_frames.py"), str(vid)], check=True, capture_output=True, text=True).stdout
+    m = json.loads(out)
+    assert m["cuts"] == 2 and abs(m["avg_shot_s"] - 2.0) < 0.2
+    assert m["saturation"] > 0.3 and m["luma"] > 60
