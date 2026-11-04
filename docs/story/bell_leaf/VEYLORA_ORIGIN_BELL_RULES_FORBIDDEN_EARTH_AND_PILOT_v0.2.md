@@ -1,4 +1,7 @@
 # BELL & LEAF — VEYLORA ORIGIN & THE FORBIDDEN EARTH
+
+> **CONTINUITY UPDATE — v0.3:** Orin's repair method, slow expansion of reachable routes, verified remote Root Bell response and Mara's private EARTH HOME ANCHOR for frequent same-day family return are elaborated in [BELL_ROUTE_RESTORATION_AND_DAILY_FAMILY_TRAVEL_v0.3.md](BELL_ROUTE_RESTORATION_AND_DAILY_FAMILY_TRAVEL_v0.3.md). This v0.2 remains the catastrophe/forbidden-Earth proposal; the v0.3 route/return mechanics supersede any conflicting vague language below. Neither file is active Canon Lock.
+
 ## Showrunner Story Bible addendum v0.2 | Story proposal to review before 1,000 episodes
 **Date:** 2026-11-04  
 **Series:** `slow_english_a2_bell_leaf` / `magical_witch_family_stories`  
