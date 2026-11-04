@@ -30,3 +30,18 @@ The generator was run inline through the Blender bridge. Its output is `datapack
 - **Landscape:** a raised platform with a pillar retaining wall, a grand stair, a parterre with hedges, flower beds and cone trees, two fountains, lamp posts and tree avenues.
 
 Still missing compared with the Unstable SMP builds: terrain shaping (mountains), a city fabric of varied houses, curved walls and interiors.
+
+## City v2 + mountains (2026-11-05)
+Run order in game (each is one `/function binbo:<name>`): `palace` → `cv2_0` (clear the ring) → `cv2_1` (ring roads r=72/89, 8 avenues, lamps, fountains) → `cv2_2`, `cv2_3` (166 houses, 5 palettes, hip/dome/tower/flat roofs) → `cv2_4` (wall r=112, 16 copper-dome towers) → `mtn_0..mtn_3` + `mtn_trees` → `cv2_6` (about 200 crowd mannequins). City centre (260, 60), ground y=-60.
+- `palace` and `cv2_*` are generator output, copied from the PC. The generator was run inline and its source was not kept.
+- `mtn_*` are produced by `gen_mountains.py` (tested in `tests/test_mc_java_mountains.py`). They replace the old `cv2_5`, whose 2×2 single-material columns read as vertical grey stripes.
+  - 1×1 value-noise height field: peaks reach 61 blocks; most neighbour steps are ≤2.
+  - The ring rises behind the wall and falls away outside, so there is no flat vertical outer face.
+  - Surface material by height and slope: grass and dirt, mixed rock patches, calcite and snow on the peaks.
+  - Spruce trees on the gentle slopes.
+- Reference shots are in `Downloads\Bin_Bo\java_test\city_v3b_*.png`.
+- Still weak:
+  - Steep cliffs close up show the vertical grain of the stone texture.
+  - The south sector is empty.
+  - Houses have no interiors.
+  - Lighting is vanilla, because there are no shaders.
