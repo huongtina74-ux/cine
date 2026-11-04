@@ -45,3 +45,17 @@ Run order in game (each is one `/function binbo:<name>`): `palace` → `cv2_0` (
   - The south sector is empty.
   - Houses have no interiors.
   - Lighting is vanilla, because there are no shaders.
+
+## Snow castle arena (2026-11-05)
+`gen_snow_arena.py` is an original hero location, made after the owner asked for builds at the scale of the big war videos. Its tests are in `tests/test_mc_java_snow_arena.py`. It is centred at (700, 60), east of the city.
+- **The build:**
+  - a round walled arena (r=62) with pilasters, a dark band, battlements, buttresses, arrow slits and lanterns;
+  - 8 towers plus 2 taller gate towers, each with a spruce lookout room, a balcony and a deepslate-tile spire;
+  - chain-and-lantern garlands between the towers;
+  - a castle keep with 4 turrets, a donjon and a viewing balcony;
+  - a frozen river with a bridge, hay fields, smooth snowy hills and about 2,000 spruce trees;
+  - a crowd of 2,000 mannequins with a clear aisle, plus Bin, Bo and Zu on the balcony.
+- **Run order:** `arena_ground` → `arena_hills_0..4` → `arena_build_0` → `arena_trees` → `arena_crowd`.
+- **Generated output:** about 9 MB and 250k commands. It is not committed; regenerate it with `python tools/mc_java/gen_snow_arena.py OUT`.
+- **Gotcha:** in 26.x the block `chain` is `iron_chain`. One unknown block makes the whole function fail with "Unknown function".
+- **Not measured yet:** the FPS with 2,000 mannequins. The game stayed responsive while the screenshots were taken.
