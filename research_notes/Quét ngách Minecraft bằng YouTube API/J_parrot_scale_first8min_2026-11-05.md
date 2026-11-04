@@ -80,3 +80,17 @@ What is staged:
 - the cinematic shots.
 
 For us: NPC armies are the same trick as our mannequins. A title must not claim "players" for NPCs (policy-check: misleading metadata).
+
+## Follow-up frames (owner shared another AI's analysis; checked 2026-11-05)
+OBSERVED:
+- **11:42:** first-person HUD in a wooden barn with a wheat crop. TheobaldTheBird and ReinaDrop are in armour. The claimed "immortality machine" is not visible in the frame; that claim would need audio or the transcript, so it is unverified.
+- **3:51:26:** the reinforcement army, thousands of white-armoured figures cresting a hill. Warm low sun with haze and light shafts, so a shader is used in at least this cinematic shot.
+- **3:51:40:** real in-game kill feed: "... was smashed by ClownPierce" (mace kill message), "... left the game", "... by SezodexCombo_40". The fighting is real Minecraft PvP, not animation.
+
+INFERRED:
+- The crowds are a mix. Kill and leave messages happen for real accounts and for bots alike. Generated-looking names such as "SezodexCombo_40" and "ShasilynRune" keep appearing.
+- One vanilla server cannot hold 10,000 real players fighting in one place, which supports NPC or bot fill.
+
+Corrections to the other AI's text:
+- Wind Charge and Mace are vanilla items since Java 1.21, not plugins.
+- The proxy/shard explanation is a guess, with no evidence in the frames.
