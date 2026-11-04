@@ -119,16 +119,42 @@ Fit with our channel:
 - **Why it doesn't fit (INFERRED):** Bin & Bo & Zu is a family brand for children. Romance with chains and coercion risks kids-content policy problems and goes off-brand.
 
 ### S5 — "Lần đầu tiên" + đồ ăn + baby mob, ấm áp
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-03 · status: watching · fit: **usable — closest to us**.
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-04 · status: watching (downgraded 2026-11-04: only 4 videos in 7 d on the API scan; DL Minecraft 511K = 190× subs is the single strong case) · fit: usable.
 - **Evidence (OBSERVED 2026-11-03):**
   - [Steve and Alex rescuing a Baby Villager and Giving Him Pizza for the First Time!](https://www.youtube.com/watch?v=tRXWDQFJ1Do): 502K = 195× subs, 75× the channel median.
   - The same channel has another video at 184K after ~7 days = 71× subs.
 - **Original version (INFERRED):** "Baby Zombie Zu Tries PIZZA for the First Time?!"
 
 ### S6 — Halloween / chuyện ma
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-03 · status: seasonal, expected to expire after early November · fit: usable (light, not frightening).
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-03 · status: **expired** (season ended; marked 2026-11-04) · fit: usable (light, not frightening).
 - **Evidence (OBSERVED 2026-11-03):** [DONT CALL 3 AM SECRET JJ SISTER SCARY HALLOWEEN](https://www.youtube.com/watch?v=g0yIHLLAlnQ) 384K after ~6 days = 5.2× subs.
 - **Note (INFERRED):** the season has passed. Next year, plan Halloween episodes by late September. The next seasonal hook to watch is Thanksgiving/Christmas, which has no evidence yet and should be checked in the next round.
+
+### S7 — "Zombie Outbreak:" + bộ đếm ngày (30/100 ngày, khóa trong một nơi)
+- **Tracking:** first seen 2026-10-06 · last seen 2026-11-04 · status: hot · fit: **usable** (main lane).
+- **Evidence (OBSERVED 2026-11-04 API):**
+  - 100 English videos from 12 channels in the lane scan; 5 long videos ≥1M.
+  - Day Zero (channel 30 d): [I Survived 100 Days in a REALISTIC APOCALYPSE](https://www.youtube.com/watch?v=crnpqkov3ps) 1.91M = 136× subs.
+  - Kit vs The End (38 d): [Zombie Outbreak: 100 Days Trapped On A Zombie Cruise Ship](https://www.youtube.com/watch?v=xdj5PL0t61k) 715K, +59K/day.
+  - Nobody Gets In (34 d, stickman): [Zombie Outbreak: 30 Days Locked Inside a Supermarket](https://www.youtube.com/watch?v=oXj7bWgRX_I) 3.28M, plus a sequel at 1.86M.
+  - Maizen used the phrase on 2026-10-25 (5.00M).
+- **Original version (INFERRED):** "Zombie Outbreak: 30 Days Locked in a Supermarket… But Our Little Brother IS a Zombie". Make 1–2 sequels at most, then compile them into a Full Movie.
+
+### S8 — Mô phỏng trận đánh mob, Shorts ("6 Overworld Mobs vs 6 Nether Mobs — Who Wins?", "Tug of War: Villagers vs Mobs")
+- **Tracking:** first seen 2026-11-04 · last seen 2026-11-04 · status: watching · fit: usable (Mojang mobs only, command-driven).
+- **Evidence (OBSERVED 2026-11-04):**
+  - 82% of the non-mega ≥100K battle hits come from channels under 100K subs, and 45% from channels ≤30 d old. These come from only 6 newcomer channels.
+  - Brawl Lab (23 d): [6 Overworld Mobs vs 6 Nether Mobs — Who Wins?](https://www.youtube.com/watch?v=tshtU9_yED8) 1.85M.
+  - Hoodie Steve (4,970 subs): [Minecraft Tug of War: Villagers vs Mobs](https://www.youtube.com/watch?v=xpsiRQd7ssg) 1.97M = 49.5× its median.
+- **Risk (INFERRED):** daily "matchup" uploads can look repetitive under the inauthentic-content policy. Vary the premise and setting; long-form battles have a median of only 71K.
+
+### S9 — Third-party IP waves (formula only, never the characters)
+- **Tracking:** Dr Donut (first seen 2026-09-23), "1 or 2 Reaction" (2026-09-29), Jerry the Wolf (2026-08-31), Verity (2026-06-21) · last seen 2026-11-04 · status: hot, but short-lived · fit: does not fit the channel.
+- **Evidence (OBSERVED 2026-11-04):** 43% of the exploding videos in the 16.8 h re-snapshot carry third-party IP.
+  - Small-channel exploders split almost evenly: 115 original vs 114 third-party.
+  - The two groups gain views at about the same speed (~2.3K vs ~2.2K views/h).
+  - Fastest third-party example: [Who Will ADOPT JJ Kitten?!](https://www.youtube.com/watch?v=glwTiwUdhJo) 3.54M, ~132K views/h.
+  - So original IP loses nothing on speed.
 
 ---
 
