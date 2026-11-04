@@ -1,4 +1,7 @@
 # BELL & LEAF — THE LOST ROUTES & THE FAMILY THAT ALWAYS COMES HOME
+
+> **Continuity proposal v0.4 (2026-11-04):** The previous v0.3 draft does not give Evan a meaningful traveling-father role and leaves the forbidden Earth route underexplained. Read [EVAN_ROLE_EARTH_FORBIDDEN_GATE_CONTINUITY_v0.4.md](EVAN_ROLE_EARTH_FORBIDDEN_GATE_CONTINUITY_v0.4.md) for an **optional early on-screen reveal** by which Evan learns the truth and sometimes joins adventures, and the **private Earth receiving endpoint** of the original single Earth world key. Existing active Canon still treats Evan as unaware **until** the showrunner approves and scripts that reveal. v0.4 supersedes v0.3 only as a proposed correction, not as already locked fact.
+
 ## CINE Showrunner Route Mechanics, Exploration Protocol and Episodic Engine v0.3
 **Status:** PROPOSED SHOWRUNNER STORY MECHANICS; for owner review; NOT active Canon Lock and NOT a finished screenplay.
 **Date:** 2026-11-04
