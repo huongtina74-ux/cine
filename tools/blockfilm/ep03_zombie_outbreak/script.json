@@ -1,0 +1,18 @@
+[
+ {"id":"hook","who":"nar","text":"Nine P.M. The city went dark.","cap":"9 PM. The city went DARK.","pre":2.2,"post":0.5},
+ {"id":"run","who":"bin","text":"Run! Into the store!","cap":"RUN! Into the store!","pre":0.3,"post":0.6},
+ {"id":"door","who":"bo","text":"Bin! Close the door!","cap":"BIN! CLOSE THE DOOR!","pre":0.4,"post":2.4},
+ {"id":"made","who":"bin","text":"We... we made it.","pre":1.0,"post":0.6},
+ {"id":"hungry","who":"zu","text":"Bin... I'm hungry.","pre":0.5,"post":0.8},
+ {"id":"rules","who":"bo","text":"Okay. New rules.","pre":0.4,"post":0.3},
+ {"id":"thirty","who":"bo","text":"Thirty days. No noise. And nobody sees Zu.","cap":"30 DAYS. NO NOISE. Nobody sees ZU.","pre":0.2,"post":1.4},
+ {"id":"day2","who":"nar","text":"Day two.","cap":"DAY 2","pre":0.6,"post":1.6},
+ {"id":"shh","who":"bin","text":"Zu! Shhh!","cap":"ZU! SHHH!","pre":2.6,"post":0.4},
+ {"id":"sorry","who":"zu","text":"Sorry... it was loud.","pre":0.2,"post":1.0},
+ {"id":"day3","who":"nar","text":"Day three.","cap":"DAY 3","pre":0.6,"post":3.2},
+ {"id":"bunny","who":"zu","text":"That's my bunny!","cap":"That's MY BUNNY!","pre":0.4,"post":0.5},
+ {"id":"how","who":"bo","text":"How does he have your toy?","pre":0.3,"post":0.5},
+ {"id":"know","who":"bin","text":"Zu... do you know him?","pre":0.4,"post":1.0},
+ {"id":"home","who":"zu","text":"He smells... like home.","pre":0.3,"post":3.0},
+ {"id":"end","who":"nar","text":"Day four. Someone wants Zu back.","cap":"NEXT: Someone wants ZU back...","pre":0.3,"post":3.4}
+]

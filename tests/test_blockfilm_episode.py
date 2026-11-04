@@ -31,6 +31,11 @@ def test_script_timeline_picture_agree(ep):
     assert used, "picture code references no beats"
     assert used <= set(ids), f"picture references unknown beats: {sorted(used - set(ids))}"
 
+    audio = ep / "audio.py"
+    if audio.exists():
+        cues = set(re.findall(r"\b[SE]\('([A-Za-z0-9_]+)'\)", audio.read_text(encoding="utf-8")))
+        assert cues <= set(ids), f"sound cues reference unknown beats: {sorted(cues - set(ids))}"
+
 
 def test_episodes_exist():
     assert EPISODES, "no blockfilm episode folders found"
