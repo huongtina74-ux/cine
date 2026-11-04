@@ -1,4 +1,7 @@
 # BELL & LEAF — CORE STORY ARCHITECTURE v0.1 (PROPOSAL, NOT CANON LOCK)
+
+> **SHOWRUNNER UPDATE 2026-11-04 — READ FIRST:** The owner reconfirmed Orin is head of the witch clan and Keeper of Bells, only a few bellmakers can craft routes, the disaster violently scattered people through separate emergency gates, and Earth is a prohibited destination. The separately reviewed screenplay proposal now lives at [VEYLORA_ORIGIN_BELL_RULES_FORBIDDEN_EARTH_AND_PILOT_v0.2.md](VEYLORA_ORIGIN_BELL_RULES_FORBIDDEN_EARTH_AND_PILOT_v0.2.md). In conflicts of proposed mechanisms, **v0.2 supersedes earlier speculative passages in this v0.1**; original user-approved Canon remains authoritative. The exact physical catastrophe, forbidden-Earth explanation, culprit identity and grandmother's fate are NOT canon-locked. No Research Gate, A2 table-read, independent Story Doctor, or Script Lock approval is claimed.
+
 **Date:** 2026-11-04  
 **Series / niche:** slow_english_a2_bell_leaf / magical_witch_family_stories  
 **Format:** original continuous family-fantasy animated series; 45-minute target per episode, no narrator, naturally comprehensible English A2, 10.0-second downstream shot contract  
