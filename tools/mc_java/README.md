@@ -20,3 +20,13 @@ Known issues:
   - The feedback line is delogo'd, which leaves a visible smear in shot 1.
   - Fix next time: set the tutorial step to none in options.txt, and trigger the camera with a delay.
 - Lighting is vanilla. Shaders need Fabric + Iris, which needs owner approval.
+
+## Palace v2 (2026-11-05): detail rules that fixed the "sparse" look
+The generator was run inline through the Blender bridge. Its output is `datapack_binbozu/data/binbo/function/palace.mcfunction` on the PC, at about 4,200 commands. It applies standard build-craft rules:
+- **Depth layers:** core wall → face plane → pilasters (+1) → sills, lintels and cornices (+1/+2). Windows sit one block back.
+- **Trim vocabulary:** stairs (upside-down lintels), slabs (sills, cornices), chiseled caps, a keystone on every bay, a balustrade with lanterns.
+- **Limited palette per surface:** quartz bricks, smooth quartz, pillar, chiseled. Roof and dome accents in waxed oxidized copper, highlights in gold.
+- **Silhouette:** a central pavilion with a pediment, a drum plus a big dome and lantern, corner towers with domes, and lower wings with end domes.
+- **Landscape:** a raised platform with a pillar retaining wall, a grand stair, a parterre with hedges, flower beds and cone trees, two fountains, lamp posts and tree avenues.
+
+Still missing compared with the Unstable SMP builds: terrain shaping (mountains), a city fabric of varied houses, curved walls and interiors.
