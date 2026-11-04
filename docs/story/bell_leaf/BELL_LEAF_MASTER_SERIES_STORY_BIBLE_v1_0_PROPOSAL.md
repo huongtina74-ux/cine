@@ -1,4 +1,6 @@
 # BELL & LEAF — THE LOST BELLS OF VEYLORA
+
+> **SHOWRUNNER CONSISTENCY UPDATE (2026-11-04):** For a clearer three-layer explanation of **why Earth is forbidden**, how an abnormal **one-way evacuation** reached a destination with weak return signal, why Orin could recover a **private** (not public) Earth return endpoint only after years, and why **Mara repeatedly returns to Earth and travels to other safe worlds**, consult [WHY_EARTH_IS_FORBIDDEN_AND_WHY_MARA_COMES_HOME_v1_1.md](WHY_EARTH_IS_FORBIDDEN_AND_WHY_MARA_COMES_HOME_v1_1.md). In case of divergent explanations, prefer v1.1 as the most recent **creative proposal**; active `main` Canon remains unchanged pending owner approval. Historical lost expedition and edited records are new proposals, not established facts.
 ## MASTER SERIES STORY BIBLE v1.0 — SHOWRUNNER PROPOSAL
 **Date:** 2026-11-04  
 **Repository:** huongtina74-ux/cine  
