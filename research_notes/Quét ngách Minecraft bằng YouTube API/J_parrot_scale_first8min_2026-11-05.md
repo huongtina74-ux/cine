@@ -60,3 +60,23 @@ Viewing:
   - Distant Horizons for the horizon.
 
   Both are free mods, but each download needs owner approval.
+
+## Correction: are the crowds real players? (2026-11-05, owner question)
+OBSERVED: the name tags in the owner's frame of the night plaza army fall into two kinds.
+- **Combinator patterns:** "xX_Hunter_Xx", "xX_Knight_Xx", "LuckyHunter", "LuckySniper", "LuckyGhost", "Cyber_Viper", "CyberBlade", "CyberReaper", "Epic_Viper", "EpicReaper1993", "Iron_Raven", "IronGhost91", "TheMiner3", "TheRider2013", "TheWolf7", "SwiftWolf", "GhostMiner2000", "Neon_Bear".
+- **Pronounceable nonsense:** "Plastclaertung", "Shexmaichpack", "Measwiextrax", "Skoulglish".
+
+The soldiers wear identical armour and shields and stand in exact rows.
+
+INFERRED: a large share of the "10,000 players" in the army shots are generated NPC or bot players, not fans. Our earlier notes said "thousands of real fan players". That is now unproven: real fans may be present at some moments, but the formation armies are most likely NPCs.
+
+What is real:
+- the game (Minecraft Java on a multiplayer server; first-person HUD with hearts, hunger and hotbar, item tooltips);
+- the creators who play;
+- the PvP.
+
+What is staged:
+- the story (the description: "a staged Minecraft server where ... tell stories");
+- the cinematic shots.
+
+For us: NPC armies are the same trick as our mannequins. A title must not claim "players" for NPCs (policy-check: misleading metadata).
