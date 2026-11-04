@@ -95,6 +95,9 @@ def arena():
                 put(x, G + WALL_H, z, 'stone_brick_wall')
                 if int(arc) % 9 == 0:
                     put(x, G + WALL_H + 1, z, 'lantern')
+                if int(arc) % 7 == 3:                   # hanging banners between the pilasters
+                    col = 'red' if int(arc) // 7 % 2 == 0 else 'yellow'
+                    put(x, G + 9, z, f'{col}_wall_banner[facing={facing_to(x, z, AX, AZ)}]')
         elif R_WALL0 <= d < R_WALL1 - 1:        # core
             for y in range(G - 1, G + WALL_H):
                 if gate and y < G + 9 and not (y == G + 8 and adiff(a, GATE_A) * math.pi / 180 * 64 > 3.5):
@@ -102,6 +105,8 @@ def arena():
                 b = stone(x, y, z)
                 if y == G + WALL_H - 1:
                     b = 'polished_andesite'
+                    if not gate and _hash(x, z, 47) < .4:
+                        put(x, G + WALL_H, z, 'snow')
                 if gate and y >= G + 8:
                     b = 'chiseled_stone_bricks' if adiff(a, GATE_A) * math.pi / 180 * 64 < .8 else 'stone_bricks'
                 put(x, y, z, b)
@@ -120,6 +125,8 @@ def arena():
                 if y in (G + 5, G + 6) and int(arc) % 6 == 3 and not gate:
                     b = 'air'
                 put(x, y, z, b)
+            if not gate and int(arc) % 2 == 0:
+                put(x, top, z, 'snow')
         elif not gate and int(arc) % 12 in (0, 1):  # buttresses
             if d < R_WALL1 + 1:
                 top = G + 9
@@ -133,7 +140,7 @@ def arena():
 
 
 # ---------------------------------------------------------------- towers
-def spire(cx, cz, y0, r0, h, mat='deepslate_tile'):
+def spire(cx, cz, y0, r0, h, mat='deepslate_tile', dormers=True, flag='red_wool'):
     for k in range(h):
         rk = r0 * (1 - k / h) ** 1.15
         if rk < .6:
@@ -142,34 +149,91 @@ def spire(cx, cz, y0, r0, h, mat='deepslate_tile'):
         for x, z, d in disk(cx, cz, rk):
             edge = d >= rk - 1.05
             put(x, y0 + k, z, f'{mat}_stairs[facing={facing_to(x, z, cx, cz)}]' if edge else f'{mat}s')
-    put(round(cx), y0 + h, round(cz), 'deepslate_tile_wall')
-    put(round(cx), y0 + h + 1, round(cz), 'lightning_rod')
+    for x, z, d in disk(cx, cz, r0 + .9):            # flared eave
+        if d >= r0 - .1:
+            put(x, y0, z, f'{mat}_slab')
+    if dormers and r0 >= 6:                           # four little gable windows with a lit room behind
+        rk = r0 * (1 - 3 / h) ** 1.15
+        e = int(rk)
+        icx, icz = round(cx), round(cz)
+        for ax, az in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            for lat in (-1, 0, 1):
+                lx, lz = (0, lat) if ax else (lat, 0)
+                bx, bz = icx + ax * e + lx, icz + az * e + lz
+                for yy in (y0 + 2, y0 + 3):
+                    put(bx, yy, bz, 'glass_pane' if lat == 0 else 'dark_oak_planks')
+                put(bx, y0 + 4, bz, f'{mat}s' if lat == 0 else
+                    f'{mat}_stairs[facing={"east" if lx + lz < 0 and ax == 0 else "west" if ax == 0 else "south" if lx + lz < 0 else "north"}]')
+                put(bx, y0 + 1, bz, 'stripped_spruce_log')
+            put(icx + ax * (e + 0) , y0 + 5, icz + az * (e + 0), f'{mat}_slab')
+            put(icx + ax * (e - 1), y0 + 2, icz + az * (e - 1), 'shroomlight')
+    ax0, az0 = round(cx), round(cz)
+    put(ax0, y0 + h, az0, 'deepslate_tile_wall')
+    for k in (1, 2, 3):
+        put(ax0, y0 + h + k, az0, 'end_rod')
+    put(ax0, y0 + h + 4, az0, 'lightning_rod')
+    if flag:
+        for fx in (1, 2, 3):
+            for fy in (2, 3):
+                put(ax0 + fx, y0 + h + fy, az0, flag)
 
 
-def tower(cx, cz, body=22, r=6.0, spire_h=18):
+def tower(cx, cz, body=22, r=6.0, spire_h=18, flag='red_wool'):
     top = G + body
-    for x, z, d in disk(cx, cz, r):
+    rib_a = [k * 45 + 22.5 for k in range(8)]
+    win_a = [k * 90 + 45 for k in range(4)]
+    for x, z, d in disk(cx, cz, r + 1.2):
+        a = ang(x, z, cx, cz)
+        if d >= r:                                    # plinth + ribs outside the body
+            if d < r + 1:
+                for y in range(G - 1, G + 3):
+                    put(x, y, z, 'polished_andesite')
+                put(x, G + 3, z, f'stone_brick_stairs[facing={facing_to(x, z, cx, cz)}]')
+                if min(adiff(a, ra) for ra in rib_a) * d * math.pi / 180 < .7:
+                    for y in range(G + 3, top - 3):
+                        put(x, y, z, 'polished_andesite')
+                    put(x, top - 3, z, f'stone_brick_stairs[facing={facing_to(x, z, cx, cz)}]')
+            continue
         for y in range(G - 1, top):
             b = stone(x, y, z) if d >= r - 1.5 else 'stone_bricks'
             if y <= G + 2:
                 b = 'polished_andesite'
+            elif y <= G + 6 and d >= r - 1.5 and _hash(x * 3 + y, z, 41) < .35:
+                b = 'mossy_stone_bricks'
             if y in (G + 10, G + body - 4) and d >= r - 1.5:
                 b = 'polished_deepslate'
-            if G + 13 <= y <= G + 14 and d >= r - 1.2 and int((ang(x, z, cx, cz) + 180) / 45) % 2 == 0 \
-                    and adiff(ang(x, z, cx, cz), round(ang(x, z, cx, cz) / 45) * 45) < 6:
-                b = 'air'                    # slit windows
             put(x, y, z, b)
-    for x, z, d in disk(cx, cz, r + 1.6):   # corbels + balcony floor
+        if d >= r - 1.2:                              # framed windows, lit from inside
+            arc_off = min(adiff(a, wa) for wa in win_a) * d * math.pi / 180
+            for y0w in (G + 6, G + 14):
+                if arc_off < 1.0:
+                    put(x, y0w - 1, z, 'polished_andesite')
+                    for yy in range(y0w, y0w + 3):
+                        put(x, yy, z, 'glass_pane')
+                    put(x, y0w + 3, z, 'chiseled_stone_bricks' if arc_off < .5 else 'polished_deepslate')
+                elif arc_off < 1.8:
+                    for yy in range(y0w - 1, y0w + 4):
+                        put(x, yy, z, 'polished_andesite')
+        elif r - 2.6 <= d < r - 1.2:
+            a2 = min(adiff(a, wa) for wa in win_a) * d * math.pi / 180
+            if a2 < 1.0:
+                for y0w in (G + 6, G + 14):
+                    put(x, y0w + 1, z, 'shroomlight')
+    for x, z, d in disk(cx, cz, r + 1.6):            # machicolation teeth + balcony
         if d >= r - .2:
-            put(x, top - 1, z, 'stone_brick_slab[type=top]' if d < r + .8 else 'air')
+            a = ang(x, z, cx, cz)
+            tooth = int(a * math.pi / 180 * d) % 2 == 0
+            if d < r + .9:
+                put(x, top - 1, z, f'stone_brick_stairs[facing={facing_to(x, z, cx, cz)},half=top]')
+                if tooth:
+                    put(x, top - 2, z, f'stone_brick_stairs[facing={facing_to(x, z, cx, cz)},half=top]')
             put(x, top, z, 'spruce_slab[type=top]')
             if d >= r + .6:
-                a = ang(x, z, cx, cz)
                 put(x, top + 1, z, 'spruce_fence')
                 if adiff(a, round(a / 45) * 45) < 5:
                     put(x, top + 2, z, 'lantern')
     room_r = r - 1
-    for x, z, d in disk(cx, cz, room_r):    # lookout room
+    for x, z, d in disk(cx, cz, room_r):              # timber-framed lookout room, glazed, lit
         put(x, top, z, 'spruce_planks')
         if d >= room_r - 1.1:
             a = ang(x, z, cx, cz)
@@ -177,15 +241,22 @@ def tower(cx, cz, body=22, r=6.0, spire_h=18):
             for y in range(top + 1, top + 6):
                 if post:
                     b = 'stripped_spruce_log'
+                elif y == top + 1:
+                    b = 'dark_oak_planks'
                 elif y in (top + 2, top + 3):
-                    b = 'spruce_trapdoor[open=true,facing=north]' if False else 'black_stained_glass'
-                elif y == top + 5:
-                    b = 'stripped_spruce_log[axis=y]'
+                    b = 'glass_pane'
+                elif y == top + 4:
+                    b = 'stripped_spruce_wood'
                 else:
                     b = 'dark_oak_planks'
                 put(x, y, z, b)
-            put(x, top + 4, z, 'gold_block' if post else 'dark_oak_planks')
-    spire(cx, cz, top + 6, r + 1.5, spire_h)
+            if post:
+                put(x, top + 4, z, 'gold_block')
+        elif d < 1.0:
+            put(x, top + 5, z, 'shroomlight')
+        elif d < 2.2 and _hash(x, z, 43) < .3:
+            put(x, top + 1, z, 'lantern')
+    spire(cx, cz, top + 6, r + 1.5, spire_h, flag=flag)
     return top
 
 
@@ -233,6 +304,7 @@ def towers():
 def keep():
     x0, x1, z0, z1 = AX - 20, AX + 20, AZ + 70, AZ + 96
     H = 30
+    lit = []
     for x in range(x0, x1 + 1):
         for z in range(z0, z1 + 1):
             shell = x in (x0, x0 + 1, x1 - 1, x1) or z in (z0, z0 + 1, z1 - 1, z1)
@@ -243,10 +315,15 @@ def keep():
                 if shell and y in (G + 8, G + 18) :
                     b = 'polished_deepslate'
                 if shell and (x in (x0, x1) or z in (z0, z1)) and y % 10 in (3, 4, 5) and (x + z) % 4 == 0 and y > G + 1:
-                    b = 'black_stained_glass'
+                    b = 'glass_pane'
+                    if y % 10 == 4:
+                        lit.append((x + (1 if x == x0 else -1 if x == x1 else 0), y,
+                                    z + (1 if z == z0 else -1 if z == z1 else 0)))
                 put(x, y, z, b)
             if shell and (x in (x0, x1) or z in (z0, z1)) and (x + z) % 2 == 0:
                 put(x, G + H, z, 'stone_bricks')
+    for p in lit:                                                  # light behind the keep windows
+        put(*p, 'shroomlight')
     for cx, cz in ((x0, z0), (x1, z0), (x0, z1), (x1, z1)):      # corner turrets
         for x, z, d in disk(cx, cz, 5):
             for y in range(G - 1, G + H + 8):

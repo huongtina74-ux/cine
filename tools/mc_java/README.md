@@ -73,3 +73,11 @@ Run order in game (each is one `/function binbo:<name>`): `palace` → `cv2_0` (
   - Tested in `tests/test_mc_java_cinegrade.py`.
 - **Limit:** no real shadows or volumetric light. Those need a shader mod (Iris) or a Blender re-render.
 - **The crowd does not render from about 150 blocks away** (entity view distance), so aerial shots show an empty arena.
+- **Detail pass** (same day):
+  - towers get a plinth with a stepped base, 8 vertical ribs, mossy base courses, framed glass windows lit by shroomlight;
+  - upside-down-stair machicolations, a glazed timber lookout room with lanterns and a ceiling light;
+  - spires get a flared eave, 4 lit dormers and an end-rod flag pole with a red flag;
+  - the wall gets alternating red/yellow hanging banners and snow on merlons and the walkway;
+  - the keep windows are lit from inside.
+  - Close-ups are in `Downloads\Bin_Bo\java_test\detail_*.png`.
+- **Bridge gotcha:** re-committing the same staged path to the PC can deliver a stale earlier copy. Use a fresh staged path and check the md5 on the PC before copying it into the datapack.
