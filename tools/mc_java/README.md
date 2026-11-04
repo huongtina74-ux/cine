@@ -59,3 +59,17 @@ Run order in game (each is one `/function binbo:<name>`): `palace` → `cv2_0` (
 - **Generated output:** about 9 MB and 250k commands. It is not committed; regenerate it with `python tools/mc_java/gen_snow_arena.py OUT`.
 - **Gotcha:** in 26.x the block `chain` is `iron_chain`. One unknown block makes the whole function fail with "Unknown function".
 - **Not measured yet:** the FPS with 2,000 mannequins. The game stayed responsive while the screenshots were taken.
+
+## Look without mods (2026-11-05)
+- **options.txt** (backup at `options.txt.bak_before_cinematic` on the PC): `renderDistance:32`, `cloudRange:128`, `improvedTransparency:true`, `tutorialStep:none`, `entityDistanceScaling:5.0`.
+- **In 26.x the daylight gamerule is `/gamerule advance_time false`.** `doDaylightCycle` no longer exists.
+- **Time of day matters most for mood:**
+  - 11900 late sun
+  - 13000 dusk: lit lanterns against a red sky (the best vanilla look)
+  - 18000 night
+- **`cinegrade.py`** adds the post-production half of a shader look to vanilla frames, about 1–2 s per 1440p frame:
+  - haze at the horizon, bloom on lights, optional sun shafts;
+  - teal/warm split toning, filmic contrast, vignette, grain, optional 2.39:1 bars.
+  - Tested in `tests/test_mc_java_cinegrade.py`.
+- **Limit:** no real shadows or volumetric light. Those need a shader mod (Iris) or a Blender re-render.
+- **The crowd does not render from about 150 blocks away** (entity view distance), so aerial shots show an empty arena.
