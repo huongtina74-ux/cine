@@ -1,4 +1,6 @@
 # BELL & LEAF — EVAN'S PLACE & THE FORBIDDEN EARTH PARADOX
+
+> **MASTER STORY RECONCILIATION (2026-11-04):** [BELL_LEAF_MASTER_SERIES_STORY_BIBLE_v1_0_PROPOSAL.md](BELL_LEAF_MASTER_SERIES_STORY_BIBLE_v1_0_PROPOSAL.md) integrates the catastrophe→Earth→Orin's missions→family adventures→long mystery. This v0.4 remains a development note; the v1.0 is the preferred story-level proposal on this branch, but neither supersedes active locked Canon without owner approval. Evan's EP002 awareness is a SUGGESTED on-screen change only. No Script Lock is claimed.
 **Showrunner mechanics and character-continuity proposal v0.4 — 2026-11-04**
 **Status:** PROPOSAL ONLY, not active Canon Lock, not 45-minute screenplay, no verified market/A2 audience validation.
 
