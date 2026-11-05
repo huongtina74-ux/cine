@@ -1,4 +1,6 @@
 # BELL & LEAF — WHY EARTH IS FORBIDDEN; WHY MARA RETURNS
+
+> **SHOWRUNNER MECHANICS + FAMILY CLARIFICATION (2026-11-05):** Refer first to [WORLD_BELL_GATE_MECHANICS_AND_MARA_LOST_FAMILY_v1_3.md](WORLD_BELL_GATE_MECHANICS_AND_MARA_LOST_FAMILY_v1_3.md) for the simpler ONE GATE BELL/WORLD + personal travel key + TWO-BELL RESPONSE model, Earth Gate Bell's ancient physical installation, and newly dispersed maternal grandmother plus **two** elder brothers (all as proposals, not Canon Lock). This v1.1 historical Earth prohibition / Mara's reasons for returning still applies unless mechanically inconsistent with v1.3. Grandmother is NOT physically in Veylora maintaining a long-term barrier.
 ## Showrunner causal-continuity addendum v1.1 (2026-11-04)
 **Status:** development proposal only; NOT locked into active Canon on main, NOT a full screenplay, NOT production approved.
 **Scope:** fix two under-motivated features in draft v1.0: why a forbidden planet is truly special, and why the Bell family repeatedly returns to Earth while undertaking ongoing missions.
