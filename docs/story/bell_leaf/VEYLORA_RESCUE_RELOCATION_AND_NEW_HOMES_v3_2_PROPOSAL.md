@@ -1,5 +1,7 @@
 # BELL & LEAF — WHERE DO WE TAKE THE PEOPLE WE FIND?
 
+> **USER-DIRECTED V4.0 STORY REBOOT (2026-11-06):** See [BELL_LEAF_MASTER_STORY_REBOOT_V4_0_EARTH_BUBU_RIFTS_PROPOSAL.md](BELL_LEAF_MASTER_STORY_REBOOT_V4_0_EARTH_BUBU_RIFTS_PROPOSAL.md) for NEW PRIORITY. Earth is now an initially **UNKNOWN, magic-restorative world**, NOT an ancient prohibited mapped planet, and is the primary optional early refuge for recovered Veylora residents. The former Underleaf-primary and forbidden-Earth assumptions below are ARCHIVED, not v4.0 story authority. Keep voluntary relocation and capacity limitations, and the all-Veylora search promise.
+
 > **SPECIFIC SETTLEMENT LOCATION PROPOSAL v3.3 (2026-11-06):** Underleaf's future negotiated **Bellhaven** district is the main voluntary Veylora survivor reception/settlement and Orin's coordination base; Mara/Evan/children still reside on Earth (Bellfern); Veylora itself remains sealed and a future chosen-home option. Site starts small only after Underleaf resident consent, supplies and a verified GREEN route. Other survivor communities may remain elsewhere by choice. Read [BELLHAVEN_UNDERLEAF_RESCUE_BASE_V3_3_PROPOSAL.md](BELLHAVEN_UNDERLEAF_RESCUE_BASE_V3_3_PROPOSAL.md). This does not lock active Canon.
 ## VEYLORA LOST PEOPLE: SAFETY, NEW HOMES AND CHOSEN RETURN v3.2 — 2026-11-06
 **Status:** PROPOSED SERIES BIBLE ADDENDUM on story branch only; not owner-approved Canon Lock; not a completed screenplay or implemented logistics system. Answers the showrunner question: "Vậy khi tìm được người thì sẽ để họ ở đâu?" 
