@@ -1,4 +1,6 @@
 # BELL & LEAF — SEARCH FOR ALL THE LOST PEOPLE OF VEYLORA
+
+> **REFUGEE DESTINATIONS v3.2 (2026-11-06):** Finding a survivor is NOT the same as relocating them. See [VEYLORA_RESCUE_RELOCATION_AND_NEW_HOMES_v3_2_PROPOSAL.md](VEYLORA_RESCUE_RELOCATION_AND_NEW_HOMES_v3_2_PROPOSAL.md). Survivors may remain safely with their host communities, receive aid in place, reunite voluntarily via verified GREEN routes, move to small consent-based reception communities on ALREADY SAFE worlds with real food/beds/medical capacity, or choose a later return to Veylora when genuinely safe. Earth/Mara's home is never a mass refugee center, and Veylora is not presently open. This is development-branch proposal, not active main Canon.
 ## SHOWRUNNER COLLECTIVE RESCUE CORE v3.1 — 2026-11-06
 **Status:** DEVELOPMENT-BRANCH STORY BIBLE AMENDMENT, not approved/locked active \`main\` Canon, not a full 45min screenplay. User's instruction: Orin and Mara's family MUST work to find **all the people from Veylora/the witch world** dispersed after the catastrophe, not only grandmother and Mara's two older brothers. This is a permanent SERIES-WIDE DRAMATIC GOAL for all future ideation.
 
