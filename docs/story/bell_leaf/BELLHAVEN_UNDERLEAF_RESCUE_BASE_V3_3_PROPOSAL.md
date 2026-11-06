@@ -1,4 +1,6 @@
 # BELL & LEAF — WHERE THE PEOPLE LIVE
+
+> **SUPERSEDED BY USER-DIRECTED STORY REBOOT V4.0 (2026-11-06):** For the CURRENT proposed plot, read [BELL_LEAF_MASTER_STORY_REBOOT_V4_0_EARTH_BUBU_RIFTS_PROPOSAL.md](BELL_LEAF_MASTER_STORY_REBOOT_V4_0_EARTH_BUBU_RIFTS_PROPOSAL.md) FIRST. The new user direction replaces earlier conflicting proposals: Veylora's progressive magical decline drives exploration; established gates are used by ringing their FIXED gate bell (personal travel bells not required); disaster fractures also send people to unknown worlds; Earth is a newly found/restorative world, NOT an ancient banned Earth gate; Bubu's ONE collar bell CAN open limited echo-driven new-world doors and a bonded return to Earth; voluntary Earth refuge is primary, Underleaf/Bellhaven only a possible later auxiliary. Keep all original nine visual identities and clan-wide rescue mission. Older text below is ARCHIVED HISTORICAL DEVELOPMENT and must NOT be imported as current v4 rules; active `main` Canon remains unchanged until approved.
 ## Bellhaven in Underleaf — settlement decision v3.3, creative proposal
 **Date:** 2026-11-06
 **Status:** Proposed showrunner location decision on development branch; NOT active Canon Lock, not designed/approved location image sheet. This responds to the owner's question on where Orin's found Veylora survivors actually settle.
