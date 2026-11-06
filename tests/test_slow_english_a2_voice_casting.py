@@ -9,7 +9,7 @@ class VoiceCastingContract(unittest.TestCase):
  def test_ten_exact_tags(self):self.assertEqual(set(self.d["voices"]),TAGS)
  def test_no_narrator(self):self.assertTrue(self.d["no_narrator"]);self.assertNotIn("narrator",self.d["voices"])
  def test_ten_proposed_profiles(self):
-  self.assertEqual({v["display_name"] for v in self.d["voices"].values()}, {"Evan","Mara","Juno","Lia","Bubu","Bix","Orin","Maternal Grandmother","Paternal Grandfather","Paternal Grandmother"})
+  self.assertEqual({v["display_name"] for v in self.d["voices"].values()}, {"Evan Bell","Mara","Juno","Lia","Bubu","Bix","Orin","Elara","Arthur Bell","Rose Bell"})
  def test_complete_direction(self):
   for tag,v in self.d["voices"].items():
    for key in ("personality","voice_timbre","delivery_direction","distinguish_from","voice_casting_prompt"):

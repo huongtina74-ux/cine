@@ -49,7 +49,7 @@ lines=[]
 for character,(alias,display) in mapping.items():
     v=data["voices"][alias]
     lines.append(f"CHARACTER TAG: {alias}; VOICE PROFILE KEY: {v['voice_profile_key']}; {v['voice_casting_prompt']}")
-(config/"voice_casting_prompts.txt").write_text("\n".join(lines)+"\n",encoding="utf-8")
+(config/"voice_casting_prompts.txt").write_text("\n\n".join(lines)+"\n",encoding="utf-8")
 assert all(data["voices"][alias]["voice_id"] is None for alias,_ in mapping.values())
 assert data["voices"]["juno"]["casting_role"]=="Juno, thirteen-year-old boy inventor"
 print("VOICE_SYNC_OK 10 canonical slots; 15 profiles documented; 0 false WAV approvals")
