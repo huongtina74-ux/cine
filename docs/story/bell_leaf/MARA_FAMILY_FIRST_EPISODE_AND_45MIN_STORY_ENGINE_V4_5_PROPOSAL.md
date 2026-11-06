@@ -1,4 +1,6 @@
 # BELL & LEAF — MARA FAMILY FIRST
+
+> **ANTAGONIST DEEP-DIVE V4.6 (2026-11-06):** Read [ANTAGONIST_PSYCHOLOGY_ACTIVE_THREAT_AND_REVEAL_PLAN_V4_6_PUBLIC_PROPOSAL.md](ANTAGONIST_PSYCHOLOGY_ACTIVE_THREAT_AND_REVEAL_PLAN_V4_6_PUBLIC_PROPOSAL.md). The masked antagonist must visibly act from early episodes without replacing Mara family as leads. New narrative REVEAL split: **viewers MAY know the mask's civilian identity around EP160–250**, generating suspense as Mara remains unaware; **Mara and the public obtain independently corroborated proof around EP550–700**. This REFINEs any older shorthand 'identity revealed EP601–700' rather than changing catastrophe timeline, first-contact Earth or Bubu gate limitations. Exact civilian identity and final culprit proof kept OUT of public repository in a showrunner-only file. Still a development proposal, not Canon Lock.
 ## Showrunner's Series Format, Old/New World Travel and 40–50-minute Episode Engine v4.5
 **Date:** 2026-11-06
 **Status:** USER-DIRECTED EDITORIAL PRIORITY on story-development branch. NOT yet approved Canon Lock in active main. No 40–50-minute full screenplay, dialogue read-through, rendered episodes or YouTube audience data are claimed.
