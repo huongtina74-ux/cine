@@ -1,0 +1,241 @@
+[
+  {
+    "shot": 1,
+    "time": "0:00–0:10",
+    "tags": [
+      "ORIN",
+      "MARA"
+    ],
+    "dialogue_cues": [
+      "The light is fading.",
+      "It was bright yesterday."
+    ],
+    "performance_direction": "ORIN: elderly male; low warm resonant; precise restrained diction; protective urgency, not shouting except danger; MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 2,
+    "time": "0:10–0:20",
+    "tags": [
+      "MARA"
+    ],
+    "dialogue_cues": [
+      "Why is our magic getting weaker?"
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 3,
+    "time": "0:20–0:30",
+    "tags": [
+      "ORIN",
+      "MARA"
+    ],
+    "dialogue_cues": [
+      "We must look beyond Veylora."
+    ],
+    "performance_direction": "ORIN: elderly male; low warm resonant; precise restrained diction; protective urgency, not shouting except danger; MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 4,
+    "time": "0:30–0:40",
+    "tags": [],
+    "dialogue_cues": [],
+    "performance_direction": "No licensed dialogue",
+    "notes": "Sound effects/score only; no invented voices."
+  },
+  {
+    "shot": 5,
+    "time": "0:40–0:50",
+    "tags": [
+      "ORIN",
+      "MARA"
+    ],
+    "dialogue_cues": [
+      "Mara! Take my hand!",
+      "Father!"
+    ],
+    "performance_direction": "ORIN: elderly male; low warm resonant; precise restrained diction; protective urgency, not shouting except danger; MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 6,
+    "time": "0:50–1:00",
+    "tags": [
+      "MARA"
+    ],
+    "dialogue_cues": [
+      "This is not Veylora."
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 7,
+    "time": "1:00–1:10",
+    "tags": [
+      "ORIN",
+      "MARA"
+    ],
+    "dialogue_cues": [
+      "The magic is growing back.",
+      "But our people are lost."
+    ],
+    "performance_direction": "ORIN: elderly male; low warm resonant; precise restrained diction; protective urgency, not shouting except danger; MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 8,
+    "time": "1:10–1:20",
+    "tags": [
+      "MARA",
+      "EVAN",
+      "JUNO",
+      "LIA"
+    ],
+    "dialogue_cues": [
+      "One quiet morning, please."
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest; EVAN: adult non-magical male; approachable warm natural voice, lightly comic, no magical vocal effect; JUNO: 13-year-old boy; lively curious youthful voice, not an adult or toddler; LIA: 11-year-old girl; gentle curious bright youthful voice, not a grown woman",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 9,
+    "time": "1:20–1:30",
+    "tags": [
+      "BUBU",
+      "LIA",
+      "BIX"
+    ],
+    "dialogue_cues": [
+      "Bubu, what do you hear?",
+      "Not from here."
+    ],
+    "performance_direction": "LIA: 11-year-old girl; gentle curious bright youthful voice, not a grown woman; BIX: small turtle-pangolin robot; light, softly synthetic articulated voice; not a human child; BUBU: tiny purple cat bell-spirit; playful little higher voice with emotion; not a human adult voice",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 10,
+    "time": "1:30–1:40",
+    "tags": [
+      "ORIN"
+    ],
+    "dialogue_cues": [
+      "Mara, I found someone from home."
+    ],
+    "performance_direction": "ORIN: elderly male; low warm resonant; precise restrained diction; protective urgency, not shouting except danger",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 11,
+    "time": "1:40–1:50",
+    "tags": [
+      "MARA",
+      "BUBU"
+    ],
+    "dialogue_cues": [
+      "She has nowhere to go.",
+      "Then we can help her."
+    ],
+    "performance_direction": "ORIN: elderly male; low warm resonant; precise restrained diction; protective urgency, not shouting except danger; MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest; BUBU: tiny purple cat bell-spirit; playful little higher voice with emotion; not a human adult voice",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 12,
+    "time": "1:50–2:00",
+    "tags": [
+      "MARA",
+      "JUNO",
+      "BIX"
+    ],
+    "dialogue_cues": [
+      "The suitcase is flying!",
+      "That is a problem."
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest; JUNO: 13-year-old boy; lively curious youthful voice, not an adult or toddler; BIX: small turtle-pangolin robot; light, softly synthetic articulated voice; not a human child",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 13,
+    "time": "2:00–2:10",
+    "tags": [
+      "LIA",
+      "JUNO",
+      "BIX"
+    ],
+    "dialogue_cues": [
+      "Everything okay?",
+      "Yes, Dad! Just a game!"
+    ],
+    "performance_direction": "EVAN: adult non-magical male; approachable warm natural voice, lightly comic, no magical vocal effect; JUNO: 13-year-old boy; lively curious youthful voice, not an adult or toddler; LIA: 11-year-old girl; gentle curious bright youthful voice, not a grown woman; BIX: small turtle-pangolin robot; light, softly synthetic articulated voice; not a human child",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 14,
+    "time": "2:10–2:20",
+    "tags": [
+      "MARA",
+      "BUBU"
+    ],
+    "dialogue_cues": [
+      "We will help you find your family."
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest; BUBU: tiny purple cat bell-spirit; playful little higher voice with emotion; not a human adult voice",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 15,
+    "time": "2:20–2:30",
+    "tags": [
+      "MARA",
+      "JUNO"
+    ],
+    "dialogue_cues": [
+      "Look! It has new roots!",
+      "Earth is helping it grow."
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest; JUNO: 13-year-old boy; lively curious youthful voice, not an adult or toddler",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 16,
+    "time": "2:30–2:40",
+    "tags": [],
+    "dialogue_cues": [],
+    "performance_direction": "No licensed dialogue",
+    "notes": "Sound effects/score only; no invented voices."
+  },
+  {
+    "shot": 17,
+    "time": "2:40–2:50",
+    "tags": [
+      "LIA",
+      "BUBU"
+    ],
+    "dialogue_cues": [
+      "That is not on our map.",
+      "It is calling me."
+    ],
+    "performance_direction": "LIA: 11-year-old girl; gentle curious bright youthful voice, not a grown woman; BUBU: tiny purple cat bell-spirit; playful little higher voice with emotion; not a human adult voice",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  },
+  {
+    "shot": 18,
+    "time": "2:50–3:00",
+    "tags": [
+      "MARA",
+      "JUNO",
+      "LIA",
+      "BIX",
+      "BUBU"
+    ],
+    "dialogue_cues": [
+      "Wherever they are, we will keep looking.",
+      "Together."
+    ],
+    "performance_direction": "MARA: adult female; warm grounded expressive and protective; calm, focused, emotionally honest; JUNO: 13-year-old boy; lively curious youthful voice, not an adult or toddler; LIA: 11-year-old girl; gentle curious bright youthful voice, not a grown woman; BIX: small turtle-pangolin robot; light, softly synthetic articulated voice; not a human child; BUBU: tiny purple cat bell-spirit; playful little higher voice with emotion; not a human adult voice",
+    "notes": "Render locked visual, then add exact character WAV and validated lip-sync."
+  }
+]

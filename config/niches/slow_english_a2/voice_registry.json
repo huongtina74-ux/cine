@@ -8,7 +8,7 @@
       "sample_wav": null,
       "sample_sha256": null,
       "transcript": null,
-      "display_name": "Evan",
+      "display_name": "Evan Bell",
       "casting_role": "father and postal worker, around 40",
       "personality": "grounded, patient, friendly, warm; practical but gently humorous",
       "voice_timbre": "adult American male, warm medium-low baritone with subtle natural texture, lightly husky and trustworthy",
@@ -28,7 +28,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Evan, father and postal worker, around 40; personality grounded, patient, friendly, warm; practical but gently humorous; vocal signature adult American male, warm medium-low baritone with subtle natural texture, lightly husky and trustworthy; delivery conversational, patient, relaxed, clear words, gentle humor; Distinct from Orin's deeper resonance and paternal Grandpa's older grain. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Evan Bell, loving adult human postman and father. Use one consistent speaking voice: adult American male, warm medium-low relaxed baritone with gentle chest resonance and lightly husky but clear timbre; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: everyday practical, approachable, dry warm humor, patient and loving. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Orin's deep authority, not Rowan's rugged confidence."
     },
     "me": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -56,7 +56,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Mara, mother, knowledgeable protective witch; personality intelligent, protective, mature, gentle with quiet authority; vocal signature adult American woman, warm clear middle register with calm resonance; delivery tender in family conversation, composed authority when urgency rises; Distinct from Lia's bright child register; never made teen-sounding. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Mara, caring adult mother, witch and magical researcher. Use one consistent speaking voice: adult American female, warm smooth softly velvety medium-register voice with clear natural resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: maternal tenderness, calm intelligence, quiet authority, determined under danger. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Rose's brightly teasing senior timbre or Elara's deep measured dignity."
     },
     "juno": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -65,7 +65,7 @@
       "sample_sha256": null,
       "transcript": null,
       "display_name": "Juno",
-      "casting_role": "inventor, boy aged 13",
+      "casting_role": "Juno, thirteen-year-old boy inventor",
       "personality": "quick-thinking, methodical, sincerely curious, careful",
       "voice_timbre": "youthful male-sounding American synthetic voice, bright focused middle-high range, natural light texture",
       "delivery_direction": "precise consonants, measured excitement, never robotic or adult",
@@ -84,7 +84,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Juno, inventor, boy aged 13; personality quick-thinking, methodical, sincerely curious, careful; vocal signature youthful male-sounding American synthetic voice, bright focused middle-high range, natural light texture; delivery precise consonants, measured excitement, never robotic or adult; More thoughtful and measured than Lia and not dry/mechanical like Bix. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Juno, thirteen-year-old BOY inventor who built Bix. Use one consistent speaking voice: youthful early-teen MALE voice, clear lively bright medium-high register with natural adolescent resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: precise, curious, rapid thoughts but unhurried clear words; excitement controlled. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Lia's female childlike brightness, not Bix's electronic rhythm, not adult."
     },
     "Lia": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -112,7 +112,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Lia, empathetic girl aged 11; personality curious, compassionate, adventurous, emotionally expressive; vocal signature age-appropriate youthful female-sounding American synthetic voice, clear gentle bright register; delivery warm spontaneous discovery, tender concern, intelligible natural pauses; Clearly a child voice, not Mara's mature middle voice. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Lia, eleven-year-old girl with animal-empathy magic. Use one consistent speaking voice: light clear gently bright YOUTHFUL FEMALE voice, medium-high pitch and natural childlike resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: kind, curious, gently courageous, emotionally sensitive, unhurried conversational delivery. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no adult woman, baby voice or squeaky forced cuteness."
     },
     "bubu": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -140,7 +140,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Bubu, small purple magical cat and Lia's companion; personality playful, mischievous, funny, occasionally clumsy and endearing; vocal signature original youthful agile mid-high American character voice, nimble warm tone without harsh pitch shifting; delivery light witty musical inflections while maintaining clear A2 pronunciation; Distinct from Bix's steady measured voice; no exaggerated shrill/cartoon filter. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Bubu, little purple bell-spirit cat with one gold collar bell and sparkly spiral purple tail. Use one consistent speaking voice: distinctive soft lightly bright animated-character voice, medium-high register, subtle musical warmth WITHOUT singing; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: playful, mischievous, deeply affectionate; thoughtful when serious, short clear lines. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no meowing in place of words, baby squeak or adult narrator."
     },
     "bix": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -168,7 +168,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Bix, small mechanical turtle-pangolin and Juno's companion; personality precise, logical, helpful, dryly funny; vocal signature clear mid-bright American character voice, stable restrained resonance with subtle mechanical cadence but no distortion; delivery careful syllable timing, dry wit and small meaningful warmth; Distinct from Bubu's playful varied delivery; intelligibility always more important than robot effects. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Bix, compact turtle-pangolin robot built by Juno, no bell. Use one consistent speaking voice: youthful friendly gender-neutral clean synthetic voice, medium pitch, a SUBTLE digital resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: precise pronunciation, literal humor, restrained surprise and curiosity. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no metallic harshness, random glitches or dehumanized monotone."
     },
     "ongngoai": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -196,7 +196,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Orin, maternal grandfather, wise wizard searching for missing family; personality experienced, loving, scholarly, mysterious when revealing clues; vocal signature older American male with deep warm resonant baritone, subtle age texture; delivery patient thoughtful pauses, gravitas without trailer-announcer theatrics; Deeper and more meditative than the cheerful paternal grandfather. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Orin, elderly master wizard, Mara's father and search leader. Use one consistent speaking voice: deep warm mature American male baritone, low-to-medium-low pitch, softly weathered resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: patient and scholarly, wise, dignified, deliberate rhythm, loving grandfather. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not trailer-announcer boom; distinct from relaxed jokey Arthur and controlled Isel."
     },
     "bangoai": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -204,8 +204,8 @@
       "sample_wav": null,
       "sample_sha256": null,
       "transcript": null,
-      "display_name": "Maternal Grandmother",
-      "casting_role": "lost Veylora relative; conditional mystery character",
+      "display_name": "Elara",
+      "casting_role": "Elara, maternal Veylora grandmother and Orin's missing wife",
       "personality": "elegant, gentle, emotionally profound and wise",
       "voice_timbre": "older American female, silky soft low-middle register with delicate mature resonance",
       "delivery_direction": "measured intimate and heartfelt; only active when story canon authorizes an appearance",
@@ -224,7 +224,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "REQUIRE_VEYLORA_ARC_APPROVAL",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Maternal Grandmother, lost Veylora relative; conditional mystery character; personality elegant, gentle, emotionally profound and wise; vocal signature older American female, silky soft low-middle register with delicate mature resonance; delivery measured intimate and heartfelt; only active when story canon authorizes an appearance; Distinct from paternal grandmother's lively homely tone. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Elara, maternal grandma, Orin's wife, experienced Veylora witch. Use one consistent speaking voice: mature American female medium-low voice, smooth graceful gently resonant and elegantly clear; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: wise, calm, enduring love, quiet strength, measured affectionate cadence and restrained grief. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not frail, not theatrical sorceress, distinct from Rose and Mara."
     },
     "ongnoi": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -232,8 +232,8 @@
       "sample_wav": null,
       "sample_sha256": null,
       "transcript": null,
-      "display_name": "Paternal Grandfather",
-      "casting_role": "ordinary Earth grandfather, friendly and humorous",
+      "display_name": "Arthur Bell",
+      "casting_role": "Arthur Bell, paternal Earth grandfather and ordinary human",
       "personality": "approachable, funny, everyday wise, affectionate",
       "voice_timbre": "older American male, friendly middle-low mildly husky voice with conversational grain",
       "delivery_direction": "warm chuckles, homely storytelling rhythm, no wizard aura",
@@ -252,7 +252,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Paternal Grandfather, ordinary Earth grandfather, friendly and humorous; personality approachable, funny, everyday wise, affectionate; vocal signature older American male, friendly middle-low mildly husky voice with conversational grain; delivery warm chuckles, homely storytelling rhythm, no wizard aura; Distinct from Orin's deep serious scholarly baritone. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Arthur Bell, paternal grandpa, ordinary Earth human. Use one consistent speaking voice: healthy elderly American male mellow warm medium-low baritone, gentle natural husk, slightly smiling texture; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: cheerful, homely, patient jokes, grandfatherly practical reassurance. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not a frail whisper or Orin's commanding wizard voice."
     },
     "banoi": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -260,8 +260,8 @@
       "sample_wav": null,
       "sample_sha256": null,
       "transcript": null,
-      "display_name": "Paternal Grandmother",
-      "casting_role": "ordinary Earth grandmother, nurturing and witty",
+      "display_name": "Rose Bell",
+      "casting_role": "Rose Bell, paternal Earth grandmother and ordinary human",
       "personality": "caring, affectionate, teasing in a kind way",
       "voice_timbre": "older American female, warm rounded and gently airy voice with a bright smile",
       "delivery_direction": "welcoming intimate speech, light wit and lively natural reactions",
@@ -280,7 +280,7 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Design an ORIGINAL English (US) voice for Bell & Leaf CGI animation; Paternal Grandmother, ordinary Earth grandmother, nurturing and witty; personality caring, affectionate, teasing in a kind way; vocal signature older American female, warm rounded and gently airy voice with a bright smile; delivery welcoming intimate speech, light wit and lively natural reactions; Distinct from maternal grandmother's restrained and wistful elegance. Clear natural A2 English with emotionally expressive but non-exaggerated acting, consistent timbre across episodes, no recognizable real-performer imitation, no narrator. Use licensed age-appropriate synthetic voice design for child roles. This is a casting sample only, not an approved voice ID."
+      "voice_casting_prompt": "Rose Bell, paternal grandma, ordinary Earth human. Use one consistent speaking voice: healthy elderly American female, warm soft gently bright medium pitch, slight natural maturity texture; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: nurturing, observant, playfully teasing, firm but affectionate. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not young Mara, not lower elegant Elara, not shrill."
     }
   },
   "casting_design_version": "BellLeafVoiceCasting.v1.0",
