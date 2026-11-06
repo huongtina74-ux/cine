@@ -1,4 +1,6 @@
 # BELL & LEAF — THE LAST SONG OF VEYLORA
+
+> **VISIBLE RECURRING VILLAIN UPDATE v4.1 (2026-11-06):** User explicitly wants a BAD GUY visibly appearing throughout the movie, with active confrontations and layered fair-play twists, not merely an unknown person in an old record. Read [RECURRING_VISIBLE_ANTAGONIST_AND_TWIST_LADDER_V4_1_PUBLIC_PROPOSAL.md](RECURRING_VISIBLE_ANTAGONIST_AND_TWIST_LADDER_V4_1_PUBLIC_PROPOSAL.md) for a recurring masked **Ash Bellkeeper** and public rescue-leader persona, in mapped worlds and later on Earth ONLY after earning the route. His precise civilian identity and plot ending are reserved for showrunner spoiler files. All v4 first-contact Earth, fixed-gate and Bubu-rift mechanics still apply. Proposal only; `main` Canon unmodified.
 ## MASTER SERIES STORY REBOOT v4.0 | Earth Renewal, Wild Rifts, Bubu Gates & Collective Rescue
 **Date:** 2026-11-06  
 **Status:** OWNER-REQUESTED NEW CREATIVE DIRECTION + SHOWRUNNER MECHANICS PROPOSAL. Working authority for **story development on this branch only**, NOT automatically active Canon Lock on \`main\`, not finished episode scripts or approved visual identities. 
