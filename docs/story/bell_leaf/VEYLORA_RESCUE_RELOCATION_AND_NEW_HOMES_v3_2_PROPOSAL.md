@@ -50,7 +50,7 @@ Never invent numbers unless established on-screen and logged. If capacity is zer
 **101–250:** first refugee community and its governance disputes; some local solutions, some voluntary resettlement; repaired routes permit a few meaningful reunions.
 **251–500:** survivors become network operators; build and staff several separate reception sites; find Rowan/Cael/Elara but their own local responsibilities prevent automatic extraction.
 **501–750:** misinformation / forged rescue missions and political struggle over who gets access, which corridor is actually safe, not just villain flashbacks. Help people during attacks on existing centers.
-**751–900:** multiple communities participate in truly decentralized rescue and self-governance, preventing repeat of a single Isel-style monopoly without publishing actual secret antagonist name.
+**751–900:** multiple communities participate in truly decentralized rescue and self-governance, preventing another one-person monopoly over routes without publishing any secret antagonist identity.
 **901–1000:** after safe entry to Veylora becomes possible, support return for those who elect it, contact those who remain away, and account honestly for unrecovered/missing cases. Avoid guaranteed everyone alive/endless capacity.
 
 ## VIII. HARD NO / BLOCK CONDITIONS
