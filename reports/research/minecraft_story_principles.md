@@ -90,7 +90,8 @@ Fit with our channel:
 - **không hợp kênh** (does not fit the channel).
 
 ### S1 — "Sống sót trong nơi chật hẹp giữa thảm họa"
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-05 · status: hot · fit: usable.
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-06 · status: hot · fit: usable.
+- **2026-11-06 (OBSERVED):** Karry Kraft "DON'T ENTER THIS HAUNTED SUPERMARKET AT 3AM!" 1.24M at ~6 d; Teddy and Freddy "NOOB vs PRO: ZOMBIE APOCALYPSE Safest Security Bus Build…" 26K. Confined-place premise still pulls when a big channel uses it.
 - **2026-11-05 (OBSERVED):** Maizen bus video 5.20M at ~11 d, +~199K/24 h (steady). The search page shows it titled "Zombie Outbreak" while the channel page shows "SURVIVING in BUS…" — INFERRED: title A/B test, S1 and S7 are the same premise.
 - **Evidence (OBSERVED 2026-11-03):**
   - [SURVIVING in BUS During ZOMBIE APOCALYPSE](https://www.youtube.com/watch?v=UH1HSIN4L20): 4.77M after ~9 days (~530K/day).
@@ -98,7 +99,7 @@ Fit with our channel:
 - **Original version (INFERRED):** "Bin and Bo Hide Baby Zombie Zu in a Tiny Treehouse During the Storm?!"
 
 ### S2 — Biến hình vật thể thành quái vật ("X EATER", "HOUSE HEAD")
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-05 (MSToons [JJ BUS EATER is NOT a MONSTER...](https://www.youtube.com/watch?v=UJ8WGHPcyHo) 3.39M ~14 d; [BUS EATER was Buried…](https://www.youtube.com/watch?v=Lnl-4FT77Ws) 1.72M, +~207K/24 h, OBSERVED 2026-11-05) · status: hot · fit: formula only.
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-06 (BUS EATER 1.89M, +~172K/24 h, OBSERVED 2026-11-06; earlier: MSToons [JJ BUS EATER is NOT a MONSTER...](https://www.youtube.com/watch?v=UJ8WGHPcyHo) 3.39M ~14 d; [BUS EATER was Buried…](https://www.youtube.com/watch?v=Lnl-4FT77Ws) 1.72M, +~207K/24 h, OBSERVED 2026-11-05) · status: hot · fit: formula only.
 - **Evidence (OBSERVED 2026-11-03):**
   - [JJ BUS EATER…](https://www.youtube.com/watch?v=Lnl-4FT77Ws) 1.28M after ~2 days.
   - [JJ and Mikey FUSED into TRAIN EATER?!](https://www.youtube.com/watch?v=NMqcAa5Di7I) 2.84M after ~12 days.
@@ -106,21 +107,21 @@ Fit with our channel:
 - **Note (INFERRED):** the "Bus Eater/Train Eater" monsters are borrowed from a third-party meme. If we use this idea, the monster must be our own, gentle and kid-friendly; for example, Zu turns into a "cookie block".
 
 ### S3 — Mascot IP đang hot (Verity, Sprunki, Poppy Playtime, Save the Shapes)
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-05 (Omenasito "Cat In The Hat … With Verity" 8.66M ~11 d; ohnepixel raw "Can Verity Beat Hardcore Minecraft?" 1.50M ~2 d; GameToons+ "REVENGE of LORD VERITY" 799K ~5 d, OBSERVED 2026-11-05) · status: hot · fit: does not fit the channel (third-party IP).
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-06 (GameToons "VERITY, But They're BABIES?!" 470K ~6 d, 64 min; my MONSTER SCHOOL "CATS VS LORD VERITY…" 385K ~6 d; Banazen Verity seeds 565K, +~52K/24 h, OBSERVED 2026-11-06; earlier: Omenasito "Cat In The Hat … With Verity" 8.66M ~11 d; ohnepixel raw "Can Verity Beat Hardcore Minecraft?" 1.50M ~2 d; GameToons+ "REVENGE of LORD VERITY" 799K ~5 d, OBSERVED 2026-11-05) · status: hot · fit: does not fit the channel (third-party IP).
 - **Evidence (OBSERVED 2026-11-03):**
   - [LORD VERITY: MASTER of AI!](https://www.youtube.com/watch?v=297i_hQ7k3Q) 2.85M = 3.2× median.
   - [The RISE of RAINBOW VERITY!](https://www.youtube.com/watch?v=GHC16W24rho) 4.10M = 10.2× median.
 - **What we can learn (INFERRED):** the "SAD ORIGIN STORY" structure, i.e. a backstory explaining why a character is the way it is. Original version: "Zu's SAD ORIGIN STORY… Why Is Zu Alone?"
 
 ### S4 — Truyện tình cảm "bị bắt/bị yêu" (mắt trái tim, xích, emoji tim trong tiêu đề)
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-05 (Dagar "SUPERHERO GIRLS Fell in Love with ME" 3.94M ~9 d; Aphmau "The VAMPIRE LORD KIDNAPPED Me: The MOVIE!" 1.05M ~4 d; Ligabka LOVE QUEEN 908K, +~95K/24 h, OBSERVED 2026-11-05) · status: hot · fit: does not fit the channel.
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-06 (MSToons "Dark JJ's Girl Stole JJ - Sad Love Story" 695K at ~1 d; Ligabka LOVE QUEEN 976K, +~68K/24 h = decelerating, OBSERVED 2026-11-06; earlier: Dagar "SUPERHERO GIRLS Fell in Love with ME" 3.94M ~9 d; Aphmau "The VAMPIRE LORD KIDNAPPED Me: The MOVIE!" 1.05M ~4 d; Ligabka LOVE QUEEN 908K, +~95K/24 h, OBSERVED 2026-11-05) · status: hot · fit: does not fit the channel.
 - **Evidence (OBSERVED 2026-11-03):**
   - [MAIZEN - JJ and LOVE QUEEN - ❤️ LOVE STORY !? 💕](https://www.youtube.com/watch?v=10vzXGySExY) 672K after ~3 days = 9.8× subs.
   - [JJ and Love JJ Sister POLICE Love Story](https://www.youtube.com/watch?v=ekwQBMtUNPM) 1.54M = 21× subs.
 - **Why it doesn't fit (INFERRED):** Bin & Bo & Zu is a family brand for children. Romance with chains and coercion risks kids-content policy problems and goes off-brand.
 
 ### S5 — "Lần đầu tiên" + đồ ăn + baby mob, ấm áp
-- **Tracking:** first seen 2026-11-03 · last seen 2026-11-05 (DL Minecraft baby-zombie pizza 221K ~9 d, +~17K/24 h; new 'Baby Piglin Thought He Had Lost Everything' 58K ~5 d, OBSERVED 2026-11-05) · status: watching (downgraded 2026-11-04: only 4 videos in 7 d on the API scan; DL Minecraft 511K = 190× subs is the single strong case) · fit: usable.
+- **Tracking:** first seen 2026-11-03 · last seen 2026-11-06 (DL Minecraft baby-zombie pizza 234K at ~10 d, +~13K/24 h = slowing; new 'Baby Ender Dragon ramen' 1K at ~3 d, OBSERVED 2026-11-06; earlier 221K ~9 d, +~17K/24 h; new 'Baby Piglin Thought He Had Lost Everything' 58K ~5 d, OBSERVED 2026-11-05) · status: watching (downgraded 2026-11-04: only 4 videos in 7 d on the API scan; DL Minecraft 511K = 190× subs is the single strong case) · fit: usable.
 - **Evidence (OBSERVED 2026-11-03):**
   - [Steve and Alex rescuing a Baby Villager and Giving Him Pizza for the First Time!](https://www.youtube.com/watch?v=tRXWDQFJ1Do): 502K = 195× subs, 75× the channel median.
   - The same channel has another video at 184K after ~7 days = 71× subs.
@@ -132,7 +133,9 @@ Fit with our channel:
 - **Note (INFERRED):** the season has passed. Next year, plan Halloween episodes by late September. The next seasonal hook to watch is Thanksgiving/Christmas, which has no evidence yet and should be checked in the next round.
 
 ### S7 — "Zombie Outbreak:" + bộ đếm ngày (30/100 ngày, khóa trong một nơi)
-- **Tracking:** first seen 2026-10-06 · last seen 2026-11-05 · status: hot but **maturing** · fit: **usable** (main lane).
+- **Tracking:** first seen 2026-10-06 · last seen 2026-11-06 · status: **saturating** (big demand, but new follow-up uploads now land at 10–300K, not 1M+) · fit: **usable** (main lane, only with a strong twist).
+- **2026-11-06 (OBSERVED, public channel pages):** the first movers' NEW uploads have collapsed versus their 1–3M hits: Nobody Gets In last 6 uploads 49K–103K at 1–6 d (its first hits 3.35M/1.89M); Beanie Survives Ep. 11–13 + Season Finale 71K–94K at 1–7 d; Kit vs The End last 3 videos 12K–31K at 2–6 d; Day Zero 2nd long 390K (+~7K/24 h). New tiny entrants still get 100K+ hits: Marrow (2.45K subs) "…Last Soldier on the Bridge, Day 1 To Day 100 (Full Story)" 275K at 6 d = 112× subs; Zombie Days Diaries (2.58K subs) "365 Days to Fortify a Tiny House" 160K at 6 d = 62× subs. In both, the **Full Story / day-range compilation** beats the single parts.
+- **INFERRED 2026-11-06:** the bare "Zombie Outbreak: N Days in <place>" title is now a commodity — audiences reward a new angle (fortify/build a base, a protective relationship) and long compilations, not another location swap. Our entry must lead with the Zu twist (the zombie is the little brother) and a build/protect goal.
 - **2026-11-05 (OBSERVED, 24 h deltas vs 2026-11-04 ~12:00Z):** the English first movers are slowing — Kit vs The End cruise ship 763K (+~48K/24 h, was 59K/day), Day Zero 2nd long 383K (+~7K), Nobody Gets In school 1.885M (+~25K), supermarket 3.35M (+~70K). The format is spreading: Beanie Survives runs it as a numbered series ("Zombie Outbreak Ep. 5" 525K), Nobody Gets In moves to other disasters ("Quarantined at Sea", "Flight 212"), and copies appear in Turkish ("Zombi Salgınında Bir Benzinlikte 365 Gün" 1.12M on a 5.89K-sub channel = ~190× subs) and Portuguese (Realidade em Pan, 6.98K subs). New tiny entrant Stick It Out (304 subs, "Zombie Outbreak: 100 Days Trapped…" 54K, 61 min).
 - **INFERRED 2026-11-05:** demand is still large, but plain "Zombie Outbreak: N Days in <place>" is getting crowded; our edge must be the cast twist (the zombie is our little brother Zu) and Minecraft-rendered quality, not the bare title formula.
 - **Evidence (OBSERVED 2026-11-04 API):**
@@ -144,7 +147,8 @@ Fit with our channel:
 - **Original version (INFERRED):** "Zombie Outbreak: 30 Days Locked in a Supermarket… But Our Little Brother IS a Zombie". Make 1–2 sequels at most, then compile them into a Full Movie.
 
 ### S8 — Mô phỏng trận đánh mob, Shorts ("6 Overworld Mobs vs 6 Nether Mobs — Who Wins?", "Tug of War: Villagers vs Mobs")
-- **Tracking:** first seen 2026-11-04 · last seen 2026-11-04 · status: watching · fit: usable (Mojang mobs only, command-driven). 2026-11-05: not re-measured (browser fallback shows no ages on Shorts tabs).
+- **Tracking:** first seen 2026-11-04 · last seen 2026-11-06 · status: watching · fit: usable (Mojang mobs only, command-driven). 2026-11-05: not re-measured.
+- **2026-11-06 (OBSERVED, original-IP race variant):** Mochi & Pals (1.91K subs, +41% vs 1.35K on 2026-11-05) Shorts "Who can dig down the fastest?" 1.8M, "Who can build the best house?" 597K (newest), "Who can build the tallest tower?" 285K (+~24K/24 h). Title formula = "Who can <verb> the <superlative>?" with a fixed trio. Shorts tabs show no age → ages not measured.
 - **Evidence (OBSERVED 2026-11-04):**
   - 82% of the non-mega ≥100K battle hits come from channels under 100K subs, and 45% from channels ≤30 d old. These come from only 6 newcomer channels.
   - Brawl Lab (23 d): [6 Overworld Mobs vs 6 Nether Mobs — Who Wins?](https://www.youtube.com/watch?v=tshtU9_yED8) 1.85M.
@@ -160,14 +164,29 @@ Fit with our channel:
   - So original IP loses nothing on speed.
 
 ### S10 — Mô phỏng chiến tranh/server hàng nghìn người chơi ("10,000 Players Simulate…")
-- **Tracking:** first seen 2026-11-05 (Spoke COLD WAR seen 2026-11-03 as an outlier) · last seen 2026-11-05 · status: hot · fit: **không hợp kênh** (needs hundreds of real players; production scale we do not have).
+- **Tracking:** first seen 2026-11-05 (Spoke COLD WAR seen 2026-11-03 as an outlier) · last seen 2026-11-06 (Parrot 14.70M, +~2.63M/24 h, decelerating from ~4M/day; SpeedSilver Containment Zone 2.98M, +~211K/24 h, OBSERVED 2026-11-06) · status: hot · fit: **không hợp kênh** (needs hundreds of real players; production scale we do not have).
 - **Evidence (OBSERVED 2026-11-05):** Parrot [10,000 Player Minecraft War: Nether VS Overworld](https://www.youtube.com/watch?v=bHxLy6Qza3M) 12.07M at ~3 d (4 h long); FlameFrags [10,000 VS 10,000 Player Minecraft War](https://www.youtube.com/watch?v=ZT-k42SC7L0) 5.28M at ~4 d; SpeedSilver 1000 Players… Containment Zone 2.77M at ~5 d; Spoke COLD WAR 14.10M (+~366K/24 h, was ~505K/day: decelerating).
 - **What we can learn (INFERRED):** the "faction vs faction" framing (Nether vs Overworld) works as a Shorts battle premise with Mojang mobs (links to S8), not as a long-form lane for us.
 
 ### S11 — "If X's Life Was a Movie…" (tiểu sử nhân vật dạng phim ngắn)
-- **Tracking:** first seen 2026-11-05 · last seen 2026-11-05 · status: watching · fit: usable as a formula (never with a real person).
+- **Tracking:** first seen 2026-11-05 · last seen 2026-11-06 (Sticks 4.03M, +~266K/24 h; GupMC "Minecraft Mob Slayers: THE MOVIE" 924K at ~5 d, 79 min, OBSERVED 2026-11-06) · status: watching · fit: usable as a formula (never with a real person).
 - **Evidence (OBSERVED 2026-11-05):** Sticks [If Technoblade's Life Was a Movie...](https://www.youtube.com/watch?v=ZGYi_JjKhfE) 3.76M at ~4 d, 14 min, on a 1.16M-sub channel (3.2× subs). Third-party real-creator persona: formula only.
 - **Original version (INFERRED):** "If Baby Zombie Zu's Life Was a Movie…" — fits the L1 emotional core and the S3 origin-story structure.
+
+### S12 — "Bí ẩn quái vật / dấu chân / 3 giờ sáng" (horror nhẹ, điều tra dấu vết)
+- **Tracking:** first seen 2026-11-06 · last seen 2026-11-06 · status: hot · fit: usable (light, kid-safe; only Mojang mobs or our own creature — never community creepypasta names).
+- **Evidence (OBSERVED 2026-11-06):** MrAlpha [I Found FOOTPRINTS of FAMOUS Minecraft MONSTERS…](https://www.youtube.com/watch?v=hoV3jpHd4WE) 1.09M at ~3 d; Junkeyy [12 WAYS to STEAL SCARY ITEMS from SCARY MYTH…](https://www.youtube.com/watch?v=-MdlTz9EqkM) 1.43M at ~4 d; Karry Kraft [DON'T ENTER THIS HAUNTED SUPERMARKET AT 3AM!](https://www.youtube.com/watch?v=CoNyot0UsSY) 1.24M at ~6 d and "We Found GIANT SCARY FOOTPRINTS" 2.0M at ~13 d; Bionic "Minecraft, But Drops are Scary Myths" 573K at ~5 d.
+- **Original version (INFERRED):** "We Found TINY Footprints Outside Our House at 3AM… It Was Baby Zombie Zu?!" — mystery hook that resolves warm (L1).
+
+### S13 — "Được nhận nuôi bởi gia đình X" / "You Have A X FAMILY"
+- **Tracking:** first seen 2026-11-06 · last seen 2026-11-06 · status: hot · fit: usable (with our own family; never Ben 10/Godzilla/Spider-Man).
+- **Evidence (OBSERVED 2026-11-06):** Aphmau [Adopted by DEMONS in Minecraft!](https://www.youtube.com/watch?v=UYE3CFt8-oM) 1.01M at ~6 d; Omz runs a series "You Have A <X> FAMILY in Minecraft!" (Godzilla 390K, Elemental Millionaire 311K, Spiderman 278K, YouTuber 261K, all ≤7 d); Knoxy "Adopted By BEN 10 FAMILY" 304K at ~4 d; Cadres "I Was ADOPTED by a FAMILY OF GODS" 156K at <1 d.
+- **Original version (INFERRED):** "Bin and Bo Were ADOPTED by a ZOMBIE FAMILY?!" — Zu's zombie parents adopt the brothers; flips the usual Bin/Bo-protect-Zu dynamic.
+
+### S14 — "Minecraft, But <một luật bị bẻ>" (thử thách luật chơi)
+- **Tracking:** first seen 2026-11-06 (in ideas since 2026-11-05) · last seen 2026-11-06 · status: hot · fit: usable (scripted, with our cast).
+- **Evidence (OBSERVED 2026-11-06):** Carry Depie [Minecraft, But Your Hearts = Realism…](https://www.youtube.com/watch?v=1G3RbNd2ZJA) 3.14M (+~191K/24 h); Karry Kraft [Minecraft but you Can Equip Anything!](https://www.youtube.com/watch?v=45cS67nDAmk) 1.07M at ~2 d; TechyCraft [Minecraft, But Every Mob Can Talk…](https://www.youtube.com/watch?v=5iezZOqCz24) 524K at ~3 d; Wisp "Minecraft, But Your Health = Size…" 369K at ~1 d.
+- **Original version (INFERRED):** "Minecraft, But Baby Zombie Zu Can Talk…" (first time Zu speaks — character payoff).
 
 ---
 
@@ -197,5 +216,6 @@ Fit with our channel:
 4. "Baby Zombie Zu Was LOST… Bin and Bo to the Rescue!" — L1, L5. Develops the thu01 scene; if it does well, make a sequel.
 
 ## Nhật ký cập nhật
+- 2026-11-06: browser fallback again (Blender MCP port closed, CLI Blender not found; ~40 public page loads). S7 downgraded to **saturating** (first movers' new uploads 10–103K vs earlier 1–3M; tiny entrants still 60–112× subs with Full Story compilations). New S12 (monster footprints/3AM mystery), S13 (adopted-by-family), S14 ("Minecraft, But…"). S8 gains an original-IP Shorts race case (Mochi & Pals). S1–S5, S10, S11 last-seen updated. L1–L7 unchanged (no S-rule has 4 weeks yet; S7 is at 4.5 weeks since first seen but is decaying, so it is NOT promoted).
 - 2026-11-05: browser fallback (API/Blender unreachable; 75 public page loads). S1/S2/S3/S4/S5/S7/S9 last-seen updated; S7 marked maturing (24 h deltas); new S10 (mass-player war sims, does not fit) and S11 ("Life Was a Movie", watching). S6 stays expired. Long-term L1–L7 unchanged (round 3 of ≥4 weeks needed for promotion of any S-rule).
 - 2026-11-03: round 1 created L1–L7 and S1–S6 from 361 videos (OBSERVED). The snapshot is in `reports/research/snapshots/2026-11-03_minecraft_story.csv`. From round 2 onwards, use `--compare` to measure real views/day.
