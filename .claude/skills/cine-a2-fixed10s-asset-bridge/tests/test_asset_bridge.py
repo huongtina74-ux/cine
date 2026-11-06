@@ -14,7 +14,7 @@ class CanonicalAssetQueueTests(unittest.TestCase):
  def test_no_duplicate_plate(self):self.assertEqual(len(set(x['plate_id'] for x in self.jobs)),1239)
  def test_single_line(self):self.assertTrue(all('\n' not in x['prompt'] for x in self.jobs))
  def test_separate_one_blank_line(self):
-  self.assertEqual(len((ROOT/'queue/FLOW_483_LOCATION_ONE_LINE_BLANK.txt').read_text().strip().split('\n\n')),483)
+  self.assertEqual(len((ROOT/'queue/FLOW_483_LOCATION_ONE_LINE_BLANK.txt').read_text(encoding='utf-8').strip().split('\n\n')),483)
  def test_no_fake_approval(self):self.assertTrue(all(x['status']=='PENDING_NOT_GENERATED' for x in self.jobs))
  def test_d55(self):self.assertTrue(all('D55' in x['prompt'] for x in self.jobs))
  def test_real_reverse(self):self.assertTrue(any('NEVER mirror' in x['prompt'] for x in self.jobs if x['view']=='REVERSE_TRUE'))

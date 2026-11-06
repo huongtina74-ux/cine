@@ -31,6 +31,8 @@ def _verify(base, rel, expected):
     h = hashlib.sha256(file.read_bytes()).hexdigest()
     return file if h == expected.lower() else None
 
+from cinefactory.slow_english_a2_source_hash import _verify_character_source
+
 def _approved(row, prop=False):
     fields = ("human_approved","scale_verified","d55_review") if prop else ("human_approved","geometry_verified","d55_review")
     return row.get("approval_status") == "APPROVED" and all(
@@ -84,7 +86,7 @@ class BellLeafCanon:
                 if len(source)<3: blockers.append("BUBU_SPARKLING_SPIRAL_TAIL_SOURCE_MISSING")
             for ref in source:
                 rel=ref.get("path") or ref.get("file")
-                path=_verify(source_root,rel,ref.get("sha256"))
+                path=_verify_character_source(source_root,rel,ref.get("sha256"))
                 if path is None: blockers.append("CHARACTER_SOURCE_MISSING_OR_CHANGED:"+tag)
                 else: char_refs.append({"tag":tag,"path":str(path),"sha256":ref["sha256"],"provider_media_id":None,"scope":"ORIGINAL_IDENTITY_ONLY"})
         r=room[0]
