@@ -1,4 +1,6 @@
 # BELL & LEAF — THE VILLAIN WHO ACTUALLY APPEARS
+
+> **ANTAGONIST DEEP-DIVE V4.6 (2026-11-06):** Read [ANTAGONIST_PSYCHOLOGY_ACTIVE_THREAT_AND_REVEAL_PLAN_V4_6_PUBLIC_PROPOSAL.md](ANTAGONIST_PSYCHOLOGY_ACTIVE_THREAT_AND_REVEAL_PLAN_V4_6_PUBLIC_PROPOSAL.md). The masked antagonist must visibly act from early episodes without replacing Mara family as leads. New narrative REVEAL split: **viewers MAY know the mask's civilian identity around EP160–250**, generating suspense as Mara remains unaware; **Mara and the public obtain independently corroborated proof around EP550–700**. This REFINEs any older shorthand 'identity revealed EP601–700' rather than changing catastrophe timeline, first-contact Earth or Bubu gate limitations. Exact civilian identity and final culprit proof kept OUT of public repository in a showrunner-only file. Still a development proposal, not Canon Lock.
 ## Recurring On-Screen Antagonist, Fair-Play Twists & Earth-Discovery Rules — V4.1
 **Date:** 2026-11-06  
 **Status:** development-branch, spoiler-safe STORY PROPOSAL. Based on owner instruction: "TÔI VẪN MUỐN CÓ 1 KẺ XẤU XUẤT HIỆN ĐỂ NHIỀU TWIST VÀ TÒ MÒ." This is a recurring PRESENT-TENSE villain, not only a late archival culprit. The real unmasked identity and exact finale remain reserved for private showrunner dossier. Active \`main\` Canon unchanged.
