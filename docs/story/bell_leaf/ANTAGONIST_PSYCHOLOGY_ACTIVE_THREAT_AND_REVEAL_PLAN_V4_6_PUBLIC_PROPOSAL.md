@@ -1,4 +1,6 @@
 # BELL & LEAF — THE VILLAIN WHO THINKS HE IS SAVING EVERYONE
+
+> **CURRENT OWNER WORLD-DIVISION RULE v4.7 (2026-11-06):** [ORIN_OLD_WORLDS_MARA_BUBU_NEW_WORLDS_V4_7_SHOWRUNNER_RULES.md](ORIN_OLD_WORLDS_MARA_BUBU_NEW_WORLDS_V4_7_SHOWRUNNER_RULES.md) controls future episode generation. Orin chiefly EXPLORES OLD mapped worlds, repairing gates and searching dispersed people, and is RARE on-screen. MARA/Evan/Juno/Lia/Bix/Bubu are the main family POV and chiefly explore UNKNOWN/NEW worlds through Bubu's limited echo portals (including revisits), plus Earth family adventures. Mara family only occasionally goes to OLD worlds for a justified Orin assignment or independently surprising urgent/personal event. Starting geography HYPOTHESIS: 65% NEW including revisits, 20% EARTH, 10% OLD exceptions, 5% multi. Supersedes older old-world-heavy story mixes and any wording suggesting equal routine old/new Mara travel; no change to Bubu mechanics, Earth origin, clan-wide rescue or active main Canon.
 ## Active Antagonist Psychology, Family Stakes, Plot Devices and Fair-Play Reveal V4.6
 **Date:** 2026-11-06 | **STATUS:** spoiler-safe working screenplay proposal on story branch, NOT active main Canon; new named character designs/voices require approval and exact visual references. Full showrunner identity/scene solutions stored separately OFF public GitHub.
 
