@@ -53,7 +53,7 @@ def load(root=ROOT):
 def build_visual(root=ROOT):
     prod,char,loc,voice,_,_=load(root)
     source_root=prod["source_registries"]["physical_character_files"].strip("/")
-    from cinefactory.studio.slow_english_a2 import _verify_character_source
+    from cinefactory.slow_english_a2_source_hash import _verify_character_source
     characters=[]
     for tag in TAGS:
         name,role,identity,wardrobe,action=DESCRIPTIONS[tag]
@@ -165,7 +165,7 @@ def audit(root=ROOT):
     srcbase=root/p["source_registries"]["physical_character_files"]
     # Verify the authoritative PNG bytes OR independently pinned exact RGBA
     # pixels (lossless local re-encoding). Never accept visual similarity.
-    from cinefactory.studio.slow_english_a2 import _verify_character_source
+    from cinefactory.slow_english_a2_source_hash import _verify_character_source
     existing=0
     for tag in TAGS:
         original=c["characters"][tag]["locked_identity_original"]
