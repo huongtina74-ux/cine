@@ -1,5 +1,7 @@
 # BELL & LEAF — WHY EARTH IS FORBIDDEN; WHY MARA RETURNS
 
+> **USER-DIRECTED V4.0 STORY REBOOT (2026-11-06):** See [BELL_LEAF_MASTER_STORY_REBOOT_V4_0_EARTH_BUBU_RIFTS_PROPOSAL.md](BELL_LEAF_MASTER_STORY_REBOOT_V4_0_EARTH_BUBU_RIFTS_PROPOSAL.md) for NEW PRIORITY. Earth is now an initially **UNKNOWN, magic-restorative world**, NOT an ancient prohibited mapped planet, and is the primary optional early refuge for recovered Veylora residents. The former Underleaf-primary and forbidden-Earth assumptions below are ARCHIVED, not v4.0 story authority. Keep voluntary relocation and capacity limitations, and the all-Veylora search promise.
+
 > **SHOWRUNNER MECHANICS + FAMILY CLARIFICATION (2026-11-05):** Refer first to [WORLD_BELL_GATE_MECHANICS_AND_MARA_LOST_FAMILY_v1_3.md](WORLD_BELL_GATE_MECHANICS_AND_MARA_LOST_FAMILY_v1_3.md) for the simpler ONE GATE BELL/WORLD + personal travel key + TWO-BELL RESPONSE model, Earth Gate Bell's ancient physical installation, and newly dispersed maternal grandmother plus **two** elder brothers (all as proposals, not Canon Lock). This v1.1 historical Earth prohibition / Mara's reasons for returning still applies unless mechanically inconsistent with v1.3. Grandmother is NOT physically in Veylora maintaining a long-term barrier.
 ## Showrunner causal-continuity addendum v1.1 (2026-11-04)
 **Status:** development proposal only; NOT locked into active Canon on main, NOT a full screenplay, NOT production approved.
