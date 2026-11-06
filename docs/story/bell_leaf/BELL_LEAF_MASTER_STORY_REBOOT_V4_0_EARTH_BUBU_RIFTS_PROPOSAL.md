@@ -1,5 +1,7 @@
 # BELL & LEAF — THE LAST SONG OF VEYLORA
 
+> **WORLD ATLAS EXPANSION v4.3 (2026-11-06):** The showrunner explicitly wants MANY old mapped worlds AND newly discovered worlds. [WORLD_ATLAS_OLD_AND_NEW_REALMS_V4_3_PROPOSAL.md](WORLD_ATLAS_OLD_AND_NEW_REALMS_V4_3_PROPOSAL.md) provides 36 initial SEED destinations (18 old / 18 new), separate magic AFFINITY vs regeneration, varied societies, route state, Bubu's limited unknown echo portals, recurring character/community arcs and an expandable CINE World Registry. These are creative candidates, NOT already reachable/approved worlds or images; active `main` Canon is unchanged.
+
 > **VISIBLE RECURRING VILLAIN UPDATE v4.1 (2026-11-06):** User explicitly wants a BAD GUY visibly appearing throughout the movie, with active confrontations and layered fair-play twists, not merely an unknown person in an old record. Read [RECURRING_VISIBLE_ANTAGONIST_AND_TWIST_LADDER_V4_1_PUBLIC_PROPOSAL.md](RECURRING_VISIBLE_ANTAGONIST_AND_TWIST_LADDER_V4_1_PUBLIC_PROPOSAL.md) for a recurring masked **Ash Bellkeeper** and public rescue-leader persona, in mapped worlds and later on Earth ONLY after earning the route. His precise civilian identity and plot ending are reserved for showrunner spoiler files. All v4 first-contact Earth, fixed-gate and Bubu-rift mechanics still apply. Proposal only; `main` Canon unmodified.
 ## MASTER SERIES STORY REBOOT v4.0 | Earth Renewal, Wild Rifts, Bubu Gates & Collective Rescue
 **Date:** 2026-11-06  
