@@ -88,7 +88,20 @@ class BellLeafCanon:
                 rel=ref.get("path") or ref.get("file")
                 path=_verify_character_source(source_root,rel,ref.get("sha256"))
                 if path is None: blockers.append("CHARACTER_SOURCE_MISSING_OR_CHANGED:"+tag)
-                else: char_refs.append({"tag":tag,"path":str(path),"sha256":ref["sha256"],"provider_media_id":None,"scope":"ORIGINAL_IDENTITY_ONLY"})
+                else:
+                    # File upload SHA and immutable user-source PNG SHA can differ
+                    # for a lossless re-encoded PNG with byte-for-byte equal RGBA.
+                    # Always hash the ACTUAL file for provider upload receipts.
+                    actual_file_sha256 = hashlib.sha256(path.read_bytes()).hexdigest()
+                    char_refs.append({
+                        "tag":tag,"path":str(path),"sha256":actual_file_sha256,
+                        "canonical_source_sha256":ref["sha256"],
+                        "image_identity_provenance":(
+                            "EXACT_ORIGINAL_PNG_BYTES" if actual_file_sha256 == ref["sha256"]
+                            else "PINNED_RGBA_PIXEL_EQUIVALENT"
+                        ),
+                        "provider_media_id":None,"scope":"ORIGINAL_IDENTITY_ONLY"
+                    })
         r=room[0]
         if not _approved(r):
             blockers.append("LOCATION_VIEW_NOT_APPROVED:"+r["plate_id"])
