@@ -1,5 +1,7 @@
 # BELL & LEAF — EPISODE VARIETY & AUDIENCE CURIOSITY ENGINE
 
+> **CURRENT OWNER WORLD-DIVISION RULE v4.7 (2026-11-06):** [ORIN_OLD_WORLDS_MARA_BUBU_NEW_WORLDS_V4_7_SHOWRUNNER_RULES.md](ORIN_OLD_WORLDS_MARA_BUBU_NEW_WORLDS_V4_7_SHOWRUNNER_RULES.md) controls future episode generation. Orin chiefly EXPLORES OLD mapped worlds, repairing gates and searching dispersed people, and is RARE on-screen. MARA/Evan/Juno/Lia/Bix/Bubu are the main family POV and chiefly explore UNKNOWN/NEW worlds through Bubu's limited echo portals (including revisits), plus Earth family adventures. Mara family only occasionally goes to OLD worlds for a justified Orin assignment or independently surprising urgent/personal event. Starting geography HYPOTHESIS: 65% NEW including revisits, 20% EARTH, 10% OLD exceptions, 5% multi. Supersedes older old-world-heavy story mixes and any wording suggesting equal routine old/new Mara travel; no change to Bubu mechanics, Earth origin, clan-wide rescue or active main Canon.
+
 > **SHOWRUNNER FAMILY-POV UPDATE v4.5 (2026-11-06):** For travel ownership and 40–50-minute writing, read [MARA_FAMILY_FIRST_EPISODE_AND_45MIN_STORY_ENGINE_V4_5_PROPOSAL.md](MARA_FAMILY_FIRST_EPISODE_AND_45MIN_STORY_ENGINE_V4_5_PROPOSAL.md). Mara/Evan/Juno/Lia/Bix/Bubu visit BOTH verified repaired OLD Gate worlds via a **newly built Earth workshop fixed Gate Station** (created after their first-contact arrival) AND Bubu-revealed UNCHARTED worlds via temporary echo doors; Orin is rare on-screen as clan-chief supporting mystery/rescue line, NOT the sole old-world protagonist. Geographic story mix vs thematic emphasis are separate axes. Seven-act 46-minute treatment and no-empty-padding gates are proposed, not yet completed episode scripts. Earth has NO pre-disaster fixed gate; original visual/active main Canon unchanged.
 ## SHOWRUNNER EDITORIAL PROPOSAL v4.4 — 2026-11-06
 **Status:** non-Canon creative proposal for CINE story ideation. No real Bell & Leaf YouTube channel A/B analytics have been collected/verified; all episode ratios below are HYPOTHESES TO TEST, not generalized audience facts. Builds on reboot v4.0, recurring antagonist v4.1, ecology v4.2 and 18-known/18-new world atlas v4.3. Main Canon remains unchanged until owner approval.
@@ -16,13 +18,10 @@
 
 The writer always asks: "If viewers skip the following episode, was today's story still worth watching?" If NO, redesign payoff. "If loyal fans watch ten episodes, did facts/relationships/route states truly change?" If NO, redesign arc.
 
-# 3. Editorial test mix — primary episode emphasis, NOT exclusive tags
-**30% NEW-WORLD EXPLORATION** (Bubu's specific echo-driven temporary discovery; not arbitrary world-dial).
-**25% RETURN TO A KNOWN/ALREADY-SEEN WORLD** (new district/problem/new character stakes; lasting changes).
-**20% LOST VEYLORA PEOPLE / REUNION / COMMUNITY RELIEF** (may be any known or new world; family missing persons are subset, NOT sole rescued).
-**15% ACTIVE VILLAIN + INVESTIGATION** (masked opponent genuinely acts and may defeat/lose; no filler shadows, or false accusation solved).
-**10% EARTH/HOME MAGICAL EVENT** (Evan postal case, school, family secret, restorative ecology, Bubu's new unexplained signal; episode still has surprise).
-These ratios are WRITING START POINTS to compare with actual YouTube retention and returning-viewer behavior; re-balance based on demonstrated response. Categories overlap in execution; track each episode's one dominant intent for slate planning, plus secondary tags.
+# 3. Revised episode geography vs topic (supersedes older provisional mix)
+**GEOGRAPHY v4.7 owner direction:** 65% NEW worlds including revisits; 20% EARTH; 10% OLD-world Mara exceptional visit; 5% multi. ORIN normally researches OLD worlds offscreen. The family pursues Bubu's new-world echoes; the first discoveries must have planted reasons and safe return, not gratuitous random teleport. These are editorial STARTING HYPOTHESES, not validated YouTube metrics. 
+**TOPIC is SEPARATE:** a new-world story can concern a missing witch, local comedy, an ecology test or a mystery; a special old-world episode can include visible Ash Bellkeeper only when his real old route permits. Themes can overlap, don't use category quotas to force travel.
+The archived 20-episode slate below is a **historical example ONLY**, and it still visits OLD worlds too frequently for the user's newer choice. Use the v4.7 twenty-episode geography demo for future writing, NOT the table below; retaining older ideas is fine after relocating and rewriting causality.
 
 # 4. A proposed 20-episode development slate (NOT final episode plot LOCK)
 | Episode | PRIMARY | Working high-concept opening | Local honest payoff | Serial hook/value |
