@@ -1,4 +1,6 @@
 # BELL & LEAF — THE TWO AXES OF WORLD MAGIC
+
+> **WORLD ATLAS EXPANSION v4.3 (2026-11-06):** The showrunner explicitly wants MANY old mapped worlds AND newly discovered worlds. [WORLD_ATLAS_OLD_AND_NEW_REALMS_V4_3_PROPOSAL.md](WORLD_ATLAS_OLD_AND_NEW_REALMS_V4_3_PROPOSAL.md) provides 36 initial SEED destinations (18 old / 18 new), separate magic AFFINITY vs regeneration, varied societies, route state, Bubu's limited unknown echo portals, recurring character/community arcs and an expandable CINE World Registry. These are creative candidates, NOT already reachable/approved worlds or images; active `main` Canon is unchanged.
 ## Magic Ecology & Why Earth is Different | Working Story Bible v4.2 — 2026-11-06
 
 **Status:** branch-level proposal, NOT active main Canon. Explicitly resolves the author's question: if the Veylora witches have explored so many worlds with magic, why was Earth uniquely useful for renewal? Read v4.0 (declining Veylora, unknown Earth, normal fixed-gate travel and living Bubu temporary portals) first. v4.1 gives recurring active villain; v4.3 is the expanding old/new world atlas.
