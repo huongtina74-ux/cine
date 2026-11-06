@@ -53,18 +53,20 @@ def load(root=ROOT):
 def build_visual(root=ROOT):
     prod,char,loc,voice,_,_=load(root)
     source_root=prod["source_registries"]["physical_character_files"].strip("/")
+    from cinefactory.studio.slow_english_a2 import _verify_character_source
     characters=[]
     for tag in TAGS:
         name,role,identity,wardrobe,action=DESCRIPTIONS[tag]
         original=char["characters"][tag]["locked_identity_original"]
         ref=f'{source_root}/{original["path"]}'
+        is_source_verified=bool(_verify_character_source(Path(root)/source_root,original["path"],original["sha256"]))
         characters.append({
             "id":tag,"name":name,"tag":tag,"identity":identity+"; "+role,
             "wardrobe":wardrobe,"hook":role,
             "interaction":action,
             "expressions":"Curious, worried, joyful, surprised, thoughtful; preserve source face identity and age.",
             "canonical":f"{name}; {identity}; {wardrobe}; only original user source is authoritative.",
-            "references":[ref],"references_status":"ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL",
+            "references":[ref],"references_status":("ORIGINAL_SOURCE_RGBA_VERIFIED_LOCAL" if is_source_verified else "ORIGINAL_SOURCE_PENDING_LOCAL_INSTALL"),
             "original_sha256":original["sha256"],
             "story_permission":"ARC_REVEAL_ONLY" if tag=="bangoai" else "USE_ONLY_WHEN_ACTIVE_TAG_IN_SHOT",
             "image_generation_approved":False
@@ -161,12 +163,17 @@ def audit(root=ROOT):
     approved=sum(x.get("approval_status")=="APPROVED" for x in v["voices"].values())
     if approved<10:blockers.append(f"VOICE_WAV_APPROVALS:{approved}/10")
     srcbase=root/p["source_registries"]["physical_character_files"]
+    # Verify the authoritative PNG bytes OR independently pinned exact RGBA
+    # pixels (lossless local re-encoding). Never accept visual similarity.
+    from cinefactory.studio.slow_english_a2 import _verify_character_source
     existing=0
     for tag in TAGS:
         original=c["characters"][tag]["locked_identity_original"]
         item=srcbase/original["path"]
-        if item.is_file() and sha(item)==original["sha256"]:existing+=1
-        elif item.is_file():failures.append("CHARACTER_IMAGE_HASH_MISMATCH:"+tag)
+        if _verify_character_source(srcbase,original["path"],original["sha256"]):
+            existing+=1
+        elif item.is_file():
+            failures.append("CHARACTER_IMAGE_HASH_MISMATCH:"+tag)
     if existing<10:blockers.append(f"ORIGINAL_SOURCE_IMAGES_INSTALLED:{existing}/10")
     if p["readiness"]["location_plates_approved"]<483:blockers.append("INDEPENDENT_ROOM_PLATES_NOT_APPROVED")
     if p["readiness"]["prop_plates_approved"]<756:blockers.append("INDEPENDENT_PROP_PLATES_NOT_APPROVED")
