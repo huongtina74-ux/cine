@@ -1,4 +1,6 @@
 # BELL & LEAF — BUBU: THE SPIRIT WHO LISTENS TO BELLS
+
+> **FAMILY CONNECTION UPDATE v1.5 (2026-11-06):** The user's new requirement gives Bubu a separate **Orin-to-family voice connection** function, in addition to hearing magic bell irregularities. See [BUBU_FAMILY_BELL_LINK_COMMUNICATION_RULES_v1_5_PROPOSAL.md](BUBU_FAMILY_BELL_LINK_COMMUNICATION_RULES_v1_5_PROPOSAL.md) for source/receiver requirements, live vs weak calls, permission, spoofing checks and missing-family restrictions. Bubu's collar bell still does NOT open gates or locate unreachable worlds; all changes are proposals only.
 ## Character Bible / Magic Design Proposal v1.4 | 2026-11-06
 **Status:** DEVELOPMENT PROPOSAL. NOT ACTIVE CANON. NOT a new image/rig/voice approval. This does not rewrite the existing nine locked character identities or handwave the known restricted travel rules.
 
