@@ -1,4 +1,6 @@
 # BELL & LEAF — THE LOST BELLS OF VEYLORA
+
+> **SHOWRUNNER MISSION CORRECTION v3.1 — 2026-11-06:** The overarching goal is **SEARCH, HELP, CONTACT AND REUNITE ALL THE LOST PEOPLE OF VEYLORA** after the catastrophe, not just grandmother and Mara's two brothers. The missing relatives provide the emotional heart of this CIVILIZATION-WIDE SEARCH. Read [VEYLORA_ALL_PEOPLE_SEARCH_RESCUE_MISSION_V3_1_PROPOSAL.md](VEYLORA_ALL_PEOPLE_SEARCH_RESCUE_MISSION_V3_1_PROPOSAL.md) for rescue network, survivor census, multiple communities, scaling, safety and 1,000-episode architecture. This is the latest development-branch direction; active main Canon awaits owner approval.
 ## UNIFIED MASTER SERIES STORY BIBLE V3.0 — SPOILER-SAFE, PUBLIC CREATIVE PROPOSAL
 **Date:** 2026-11-06  
 **Series:** Slow English A2 → Magical Witch Family Stories → Bell & Leaf  
@@ -15,12 +17,23 @@
 7. Detailed irreversible hidden antagonist, culprit, grandmother and finale spoilers are in a **SEPARATE PRIVATE showrunner file held outside public GitHub**; public code and working episode prompts must not expose secret identity prematurely.
 
 # 1. Core promise
-**A family lost its way home. One father and daughter rebuild a family on forbidden Earth. Years later, the grandfather's cautious repairs reopen a few safe routes; he assigns Mara's family missions to help stranded people, collect rare parts and understand the catastrophe. Every adventure has a complete local consequence and advances the true story of family reunion, lost brothers, missing grandmother and who weaponized the bells.**
+**When the bells of Veylora are deliberately broken, people from an entire witch homeland scatter across many worlds. Orin—the clan chief—and Mara's family dedicate themselves to accounting for and helping ALL displaced Veylora people: reconnecting separated families, rescuing communities, restoring safe communications and routes, and finding why the catastrophe happened. The missing grandmother and two elder brothers matter deeply, but are three stories inside a far wider civilization-wide search. Every episode must deliver a genuine local emotional outcome, not just a clue to the three relatives.**
 
 The audience gets three intertwined worlds of emotion:
 - **HOME:** Mara, Evan, Juno (13), Lia (11), small robot Bix, purple spirit cat Bubu, nearby ordinary paternal grandparents; school, post office, marriage, promises and humor matter. Family usually returns to Earth by choice, not magical curfew.
 - **MISSIONS:** Orin is clan chief and Keeper of Bells, away investigating, restoring routes or pursuing time-critical leads. He delegates appropriate tasks to Mara's team, not omniscient commands. Allies in verified worlds may ask for help; Earth can have surprises; family makes independent choices.
 - **LONG MYSTERY:** sabotage, forced diaspora, address manipulation, the ancient Earth taboo, the separate protective sealing of Veylora, missing relatives in different unreachable worlds, later hostile interference and ethical rebuilding of the route network.
+
+## 1A. THE ULTIMATE RESCUE PROMISE — ALL PEOPLE, NOT ONLY ORIN'S FAMILY
+**Orin's pledge:** "I will find our people. I will not leave them behind."
+- **Orin's family** is only one of many scattered by the malicious catastrophe. The search includes unrelated witch parents, children, elders, workers, teachers, healers, bellsmiths, entire refuge camps and people possibly remaining within sealed Veylora. Each has independent identity and agency.
+- **Scope:** establish contact, account for status where evidence allows, send aid, safely reconnect loved ones, and restore the RIGHT to choose whether to return, settle elsewhere, or stay in adopted communities. Do NOT equate rescue with forcibly moving everyone to Earth or back to Veylora. Do NOT assert everybody is alive, the entire population evacuated, exact total survivors or instant full census.
+- **Method:** surviving partial Veylora evacuation ledgers + physical testimony + verified bell relay signals + real local humanitarian partners + returned signed letters. Maintain an evolving Book of Lost Bells with UNKNOWN/REPORTED/CONFIRMED CONTACT/NEEDS HELP/SAFE IN PLACE/RETURN CHOSEN HOME states and evidence sources. No omniscient location map or unverifiable total success stats.
+- **Scale:** Orin orchestrates a growing cooperative network of survivors, skilled repaired-route bellkeepers and consenting host-world communities. Mara's Bell family is the trusted *forward team*, not the only workers or an army with unlimited reach. The new partner groups independently help people in their own worlds.
+- **Causality:** recover one real person/group → get firsthand leads to other refugee camps → locate another responding Gate Bell via a known verified relay → test GREEN two-way route → deliver aid/contact → expand safe response. Some leads fail and must be reported as UNKNOWN. One world may contain MANY separated Veylora people; not one new world per person.
+- **Role separation:** Bubu provides voice link only on GREEN/AMBER real signal paths, not universal family telepathy; Evan resolves letters/identity after approved knowledge reveal; Juno/Bix measure/record, Lia empathizes/helps locals; Mara decides safe travel and safeguarding of dependents. If the route is GRAY, nobody crosses because of a desperate child or beloved relative.
+- **Ethical boundary:** children's safety, consent of displaced people and local communities, identity verification and refuge capacity matter. Earth's private Gate Bell is neither public nor capable of resettling the whole Veylora population.
+- **Moral continuity:** even after grandmother, Rowan and Cael are recovered or contacted, **Orin and Mara remain committed to everyone else**. Finding one's own family is not the ending; restoring connection and hope to the whole dispersed community is.
 
 # 2. Fixed world chronology (no arbitrary time travel)
 ## BEFORE catastrophe
@@ -92,16 +105,16 @@ Every Orin task has (1) a genuine or independently checked sender, (2) concrete 
 **Fair-play evidence:** genuine original signed evacuation order, later route-address revisions, technician tool provenance, witness statements, time-stamped old maps, local documents, physical gate damage, Bubu's fragment (NEVER sufficient alone), brother's independent records, grandma's firsthand account. These must be planted BEFORE the reveal and cross-checked.
 **No cheap twists:** no last-minute new powers, memory wipes, fake deaths, infinite teleport, magical innocence by feeling, or revealing a new unknown main villain at episode 999.
 
-# 8. Long-form architecture BEFORE episode ideation
-001–100: Bell family mission team; Aila's pre-established EP001 rescue/limited travel key/flying suitcase and Earth family payoff; route rules, Evan's proposed early discovery, Orin's voice via Bubu, first authentic trace of a brother.  
-101–200: Earn contact with older brother Rowan through a real safe intermediary; actual rescue-community outcomes; confront his distrust of Orin.  
-201–350: Earn contact with Cael, restore a limited line, compare archive and technical evidence; exonerate at least one wrongly accused technician.  
-351–500: Earn evidence and eventually contact/reunion with lost grandmother Elara in another world; her protective one-time action distinguished from malicious sabotage; some rescued people choose to stay in their adopted home.  
-501–650: Find signs of coordinated contemporary interference, forged Orin assignments and true restricted-route abuse; collect independent proof.  
-651–750: Principal malicious actor becomes identifiable from several sources; conflict changes to protection against an active adversary.  
-751–850: Former victims/world communities form a new safe route alliance instead of ceding all gates to one controller.  
-851–950: Proven contact with viable remnants of Veylora, safe return restoration, fair treatment of residents, accountability.  
-951–1000: Resolve saboteur, protective isolation, reunion outcomes, distribute route governance and Mara's two homes. **Not all answers are withheld until finale.**
+# 8. Long-form architecture BEFORE episode ideation — collective search first
+001–100: Establish Orin-to-Mara rescue mandates, authentic identity verification and Book of Lost Bells. Help multiple UNRELATED Veylora refugees/groups; Aila EP001 chronology stays intact; first sibling trace is not the only measurable progress.  
+101–200: Locate first verifiable sizeable Veylora refuge community, deliver meaningful aid and family contact. Earn contact with Rowan through safe routes; survivors help map additional scattered groups.  
+201–350: Build regional survivor-led search partnerships, return messages to separated relatives, rescue a community with a real local dilemma; contact Cael, test historic gate records.  
+351–500: Locate further displaced communities and an earned line to grandmother Elara in ANOTHER world. She has her own people to help and can choose to stay temporarily. Deliver multiple unrelated reunions alongside her personal arc.  
+501–650: Coordinate safe stations across several known worlds, protect refugee routes, reveal forged messages and parallel organized interference; more survivors find safety through consent and local cooperation.  
+651–750: Principal malicious actor is exposed through independent evidence; direct threats affect refugee communities, volunteers and repaired routes, not only Orin's relatives.  
+751–850: Survivors and local worlds build independently led, decentralized communication/rescue systems; the Bell family supports but does not command every world.  
+851–950: Earn access to Veylora, account for some people who remained there, connect dispersed populations safely and protect choices of those who found a new home.  
+951–1000: Resolve the sabotage, restore fair governance, honor confirmed losses, account for outstanding cases where possible and sustain future missing-person search; no instant one-spell recovery and no coercive repatriation.  
 
 # 9. Episode quality bar to apply LATER
 Each future 30–50m film episode requires a memorable visual hook, a local WANT/OPPOSITION, at least one planted and earned reversal, a character decision with cost, a *complete* local payoff, a precise evidentiary/relationship/route advancement if justified, and a credible return/changed home consequence. Natural A2 language, no narrator, little exposition; production tool format is a downstream step and not the structure of dramatic scenes. Vary protagonist, story origin, world, route status, community, local moral dilemma and type of twist. New world each episode is neither needed nor plausible.
