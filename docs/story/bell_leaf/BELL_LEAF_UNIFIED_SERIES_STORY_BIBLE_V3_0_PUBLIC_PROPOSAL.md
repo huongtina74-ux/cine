@@ -1,5 +1,7 @@
 # BELL & LEAF — THE LOST BELLS OF VEYLORA
 
+> **REFUGEE DESTINATIONS v3.2 (2026-11-06):** Finding a survivor is NOT the same as relocating them. See [VEYLORA_RESCUE_RELOCATION_AND_NEW_HOMES_v3_2_PROPOSAL.md](VEYLORA_RESCUE_RELOCATION_AND_NEW_HOMES_v3_2_PROPOSAL.md). Survivors may remain safely with their host communities, receive aid in place, reunite voluntarily via verified GREEN routes, move to small consent-based reception communities on ALREADY SAFE worlds with real food/beds/medical capacity, or choose a later return to Veylora when genuinely safe. Earth/Mara's home is never a mass refugee center, and Veylora is not presently open. This is development-branch proposal, not active main Canon.
+
 > **SHOWRUNNER MISSION CORRECTION v3.1 — 2026-11-06:** The overarching goal is **SEARCH, HELP, CONTACT AND REUNITE ALL THE LOST PEOPLE OF VEYLORA** after the catastrophe, not just grandmother and Mara's two brothers. The missing relatives provide the emotional heart of this CIVILIZATION-WIDE SEARCH. Read [VEYLORA_ALL_PEOPLE_SEARCH_RESCUE_MISSION_V3_1_PROPOSAL.md](VEYLORA_ALL_PEOPLE_SEARCH_RESCUE_MISSION_V3_1_PROPOSAL.md) for rescue network, survivor census, multiple communities, scaling, safety and 1,000-episode architecture. This is the latest development-branch direction; active main Canon awaits owner approval.
 ## UNIFIED MASTER SERIES STORY BIBLE V3.0 — SPOILER-SAFE, PUBLIC CREATIVE PROPOSAL
 **Date:** 2026-11-06  
