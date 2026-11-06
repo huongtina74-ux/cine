@@ -124,4 +124,20 @@ class BellLeafLocalIntegrationTests(unittest.TestCase):
    self.assertEqual(digests[-1],x["canonical_rgba_sha256"])
   self.assertEqual(hashlib.sha256("\n".join(digests).encode()).hexdigest(),PIXEL_HASH_ORDER_SHA)
 
+ def test_character_ref_upload_sha_is_actual_file_bytes_when_installed(self):
+  from cinefactory.studio.slow_english_a2 import BellLeafCanon
+  from scripts.recover_bell_leaf_local_pixel_canon import ROOT_OUT
+  if not ROOT_OUT.exists():self.skipTest("Owner original PNGs not installed in CI")
+  shot=dict(self.shot,activeCharacterTags=["Lia","bubu"],dialogue=[])
+  state=BellLeafCanon(ROOT).resolve_shot(shot)
+  self.assertEqual(len(state["character_refs"]),4)
+  expected=json.loads((ROOT/".claude/skills/cine-a2-muse-reference-anchoring/canon/CHARACTER_CURRENT_SOURCE_LOCK_V1_2.json").read_text(encoding="utf-8"))["characters"]
+  for row in state["character_refs"]:
+   file=pathlib.Path(row["path"])
+   self.assertEqual(row["sha256"],hashlib.sha256(file.read_bytes()).hexdigest())
+   self.assertEqual(len(row["canonical_source_sha256"]),64)
+   self.assertIn(row["image_identity_provenance"],("EXACT_ORIGINAL_PNG_BYTES","PINNED_RGBA_PIXEL_EQUIVALENT"))
+  lia=next(x for x in state["character_refs"] if x["tag"]=="Lia")
+  self.assertEqual(lia["canonical_source_sha256"],expected["Lia"]["locked_identity_original"]["sha256"])
+
 if __name__=="__main__":unittest.main()
