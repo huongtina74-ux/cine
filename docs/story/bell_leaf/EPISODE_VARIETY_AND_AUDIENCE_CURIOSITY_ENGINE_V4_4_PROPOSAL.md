@@ -1,4 +1,6 @@
 # BELL & LEAF — EPISODE VARIETY & AUDIENCE CURIOSITY ENGINE
+
+> **SHOWRUNNER FAMILY-POV UPDATE v4.5 (2026-11-06):** For travel ownership and 40–50-minute writing, read [MARA_FAMILY_FIRST_EPISODE_AND_45MIN_STORY_ENGINE_V4_5_PROPOSAL.md](MARA_FAMILY_FIRST_EPISODE_AND_45MIN_STORY_ENGINE_V4_5_PROPOSAL.md). Mara/Evan/Juno/Lia/Bix/Bubu visit BOTH verified repaired OLD Gate worlds via a **newly built Earth workshop fixed Gate Station** (created after their first-contact arrival) AND Bubu-revealed UNCHARTED worlds via temporary echo doors; Orin is rare on-screen as clan-chief supporting mystery/rescue line, NOT the sole old-world protagonist. Geographic story mix vs thematic emphasis are separate axes. Seven-act 46-minute treatment and no-empty-padding gates are proposed, not yet completed episode scripts. Earth has NO pre-disaster fixed gate; original visual/active main Canon unchanged.
 ## SHOWRUNNER EDITORIAL PROPOSAL v4.4 — 2026-11-06
 **Status:** non-Canon creative proposal for CINE story ideation. No real Bell & Leaf YouTube channel A/B analytics have been collected/verified; all episode ratios below are HYPOTHESES TO TEST, not generalized audience facts. Builds on reboot v4.0, recurring antagonist v4.1, ecology v4.2 and 18-known/18-new world atlas v4.3. Main Canon remains unchanged until owner approval.
 
