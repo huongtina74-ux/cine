@@ -79,7 +79,7 @@ Not every episode requires villain appearance. He is part of the ongoing source 
 
 ### 9 — Family-first 46-minute episode case study
 **Working title:** *The Kind Man and the Missing Names*.
-**Geography:** OLD mapped and currently confirmed SAFE harbor town, reached by Mara's family using the NEW post-arrival fixed Gate Station built beneath the Earth workshop; NOT an Isel visit to uncharted rift.
+**Geography:** OLD mapped and currently confirmed SAFE harbor town, reached by Mara's family using the NEW post-arrival fixed Gate Station built beneath the Earth workshop; NOT an villain's visit to uncharted rift.
 0:00–00:45: Happy mother and child reunion; joyous bells; somebody has removed names from the aid wall.
 00:45–06:30: Earth postal note contains conflicting return addresses. Mara chooses to investigate; Evan may participate only AFTER proper magic-awareness reveal, otherwise reassign his role. Child/family relation changes make stakes concrete.
 06:30–15:00: The public leader genuinely gives medicines, earns gratitude; Lia defends his kindness. One refugee teacher reports a family missing from his otherwise excellent rescue registry.
