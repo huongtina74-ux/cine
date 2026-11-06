@@ -1,4 +1,6 @@
 # BELL & LEAF — WHERE DO WE TAKE THE PEOPLE WE FIND?
+
+> **SPECIFIC SETTLEMENT LOCATION PROPOSAL v3.3 (2026-11-06):** Underleaf's future negotiated **Bellhaven** district is the main voluntary Veylora survivor reception/settlement and Orin's coordination base; Mara/Evan/children still reside on Earth (Bellfern); Veylora itself remains sealed and a future chosen-home option. Site starts small only after Underleaf resident consent, supplies and a verified GREEN route. Other survivor communities may remain elsewhere by choice. Read [BELLHAVEN_UNDERLEAF_RESCUE_BASE_V3_3_PROPOSAL.md](BELLHAVEN_UNDERLEAF_RESCUE_BASE_V3_3_PROPOSAL.md). This does not lock active Canon.
 ## VEYLORA LOST PEOPLE: SAFETY, NEW HOMES AND CHOSEN RETURN v3.2 — 2026-11-06
 **Status:** PROPOSED SERIES BIBLE ADDENDUM on story branch only; not owner-approved Canon Lock; not a completed screenplay or implemented logistics system. Answers the showrunner question: "Vậy khi tìm được người thì sẽ để họ ở đâu?" 
 **Supersedes underdeveloped assumptions:** Do NOT relocate all displaced Veylora people to Mara's Earth home, Orin's personal house, a magically infinite shelter, or Veylora while its gate remains sealed. Finding a person, establishing voice contact, getting them out, reuniting a family, and helping them choose a long-term home are FIVE different accomplishments.
