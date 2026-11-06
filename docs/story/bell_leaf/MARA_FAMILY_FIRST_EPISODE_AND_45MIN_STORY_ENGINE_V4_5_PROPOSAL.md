@@ -1,12 +1,14 @@
 # BELL & LEAF — MARA FAMILY FIRST
 
+> **AUTHOR-APPROVED WORLD ASSIGNMENT v4.7 (2026-11-06) — OVERRIDES OLD RATIOS/ROLES BELOW:** [ORIN_OLD_WORLDS_MARA_BUBU_NEW_WORLDS_V4_7_SHOWRUNNER_RULES.md](ORIN_OLD_WORLDS_MARA_BUBU_NEW_WORLDS_V4_7_SHOWRUNNER_RULES.md). ORIN primarily goes to old mapped Gate worlds; MARA'S FAMILY primarily follows BUBU into new/unknown worlds; OLD-world trips with Mara are rare exceptions for Orin's specific mission or an unexpected personal/emergency event. Orin is rarely on-screen, family POV dominates. New suggested geography trial 65% new-world spaces including revisits, 20% Earth, 10% rare old world, 5% multi-world. The old 35% OLD / 30% NEW proposal is SUPERSEDED. Active main Canon unchanged.
+
 > **ANTAGONIST DEEP-DIVE V4.6 (2026-11-06):** Read [ANTAGONIST_PSYCHOLOGY_ACTIVE_THREAT_AND_REVEAL_PLAN_V4_6_PUBLIC_PROPOSAL.md](ANTAGONIST_PSYCHOLOGY_ACTIVE_THREAT_AND_REVEAL_PLAN_V4_6_PUBLIC_PROPOSAL.md). The masked antagonist must visibly act from early episodes without replacing Mara family as leads. New narrative REVEAL split: **viewers MAY know the mask's civilian identity around EP160–250**, generating suspense as Mara remains unaware; **Mara and the public obtain independently corroborated proof around EP550–700**. This REFINEs any older shorthand 'identity revealed EP601–700' rather than changing catastrophe timeline, first-contact Earth or Bubu gate limitations. Exact civilian identity and final culprit proof kept OUT of public repository in a showrunner-only file. Still a development proposal, not Canon Lock.
 ## Showrunner's Series Format, Old/New World Travel and 40–50-minute Episode Engine v4.5
 **Date:** 2026-11-06
 **Status:** USER-DIRECTED EDITORIAL PRIORITY on story-development branch. NOT yet approved Canon Lock in active main. No 40–50-minute full screenplay, dialogue read-through, rendered episodes or YouTube audience data are claimed.
 
 ## 0. The showrunner decision in one sentence
-**Mara, Evan, Juno, Lia, Bix and Bubu must be THE PRIMARY POV for the overwhelming majority of the 1,000 episodes, and may visit BOTH old and new worlds.** Orin is an important rare-on-screen grandfather, clan leader, outer-network investigator, mysterious correspondent and occasional high-stakes guest, NOT the only person who visits old worlds and NOT the star of an alternate parallel series.
+**Mara, Evan, Juno, Lia, Bix and Bubu must be the PRIMARY POV for the overwhelming majority of the 1,000 episodes, primarily on NEW/UNKNOWN worlds that Bubu discovers.** Orin primarily travels OLD mapped worlds repairing routes and searching for ALL Veylora refugees; Mara family goes to OLD worlds only exceptionally when Orin gives a specific needed mission or a credible unexpected personal/urgent event occurs. Orin is a rare-on-screen grandfather, investigator and occasional event guest, NOT a parallel lead.
 
 The series promises:
 - Every episode is a complete compelling 40–50m magical-family adventure, with an independent local goal and satisfying changed-world payoff.
@@ -36,17 +38,15 @@ The series promises:
 **UNRELATED SURVIVORS:** all of Veylora, not just Elara, Rowan and Cael; stand-alone refugees and communities have their own interests and lasting outcome.
 **ANTAGONIST:** Ash Bellkeeper sometimes appears in old-known worlds accessible to him and sometimes only influences a clue; strong scenes spaced with genuine victories/losses, not repetitive masked chase filler.
 
-## 3. Balance story GEOGRAPHY versus story TOPIC (two axes, don't confuse)
-**Where MOST of the episode is located** — starting 20-episode mix for writer's room, NOT measured audience preference:
-- About 35% an OLD / already mapped world, visited by Mara's family via a confirmed rebuilt route;
-- About 30% a NEW / previously unknown world region or newly reached realm (may include revisits to a new-world community; NOT necessarily 1 brand-new location per episode);
-- About 25% primarily EARTH/Bellfern, secret workshop, refuge, school, human relatives;
-- About 10% deliberately mixed-location two-site story, only when transitions carry causal plot.
-
-**What the episode IS ABOUT** may overlap any geography: rescue/lost people, antagonist evidence, ecological mystery, local holiday, warm comedy, story of a child, magical disaster, restorative research or genuine family promise.
-A NEW world should be *first discovered* substantially less frequently than 30% of installments. Suggested pilot slate: 2–3 genuinely first-time discovered worlds in 20 episodes, plus revisits to those and many previously discovered old worlds. This is a flexible creative target. No quota of 1,000 unique worlds.
-
-**Orin scene ownership:** never separate the 35%-old-world category into a distinct Orin show. Orin most often repairs/connects routes OFF-SCREEN in plausible elapsed time while Mara's family DOES the actual on-camera old-world adventures. Sometimes the family reaches a place first and Orin learns from their research.
+## 3. NEW RULE v4.7: Orin old worlds, Mara/Bubu unknown worlds — NOT equal ownership
+**World geography editorial hypothesis for 20-episode planning (NOT measured audience preference):**
+- ~65% NEW/UNKNOWN worlds, comprising Bubu's **first discovery** and meaningful revisits to those discovered worlds, with changing residents and real local outcomes.
+- ~20% EARTH/Bellfern: family life, magical anomalies, care of rescued people, magic restoration experiments.
+- ~10% OLD already mapped worlds: Mara's family enters ONLY for justified urgent Orin assignments, rescue of someone personally important, or unforeseen event affecting them; actual Gate pair must work.
+- ~5% MULTI-location specials that naturally require interacting worlds.
+**Orin's independent old-world investigations are normally OFF-SCREEN.** Brief proof-based messages/notes via Bubu when path exists, sometimes rare guest appearance. Do not label every Mara episode an Orin dispatch.
+**Episode SUBJECT** is a second overlapping axis: discovered survivor, mystery, villain evidence, home comedy, family promise, ecological study, adventure, reunion; one doesn't imply a particular world's geography.
+These percentages replace earlier 35% OLD, 30% NEW, 25% EARTH, 10% mixed. A NEW-world emphasis does not mean a brand-new world EACH episode; revisit worlds originally found by Bubu, especially to show how their communities change. The 46-minute Underleaf example below is an **EXCEPTIONAL old-world mission**, not the regular weekly format.
 
 ## 4. Seven types of opening — avoid same episode formula
 1. **Home intrusion:** object/animal/call/bell sound turns an ordinary day strange; no assigned mission.
