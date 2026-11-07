@@ -454,6 +454,7 @@ def offer_ideas(niche_id: str, series_id: str, count: int = 10,
     blocked = {o.get("seed_signature") for o in old if o.get("seed_signature")}
     directions, seen = [], set()
     # Reproducible broad rotation. Deterministic, not a viral/story generator.
+    slot = slot.casefold() if isinstance(slot, str) else ""
     if not _valid_id(slot):
         return fail_code("INVALID_IDEA_DEVELOPMENT_SLOT")
     salt = int(hashlib.sha256((niche_id+"|"+series_id+"|"+slot).encode()).hexdigest()[:8], 16)
