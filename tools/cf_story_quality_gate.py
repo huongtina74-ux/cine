@@ -408,6 +408,10 @@ def require_factory_stage(base: Path, manifest: dict, stage: str,
     plan = read_json(path)
     if plan.get("niche_id") != manifest.get("niche_id") or plan.get("target_minutes") != manifest.get("target_minutes"):
         raise ValueError("STORY_QUALITY_PROJECT_ID_OR_FORMAT_MISMATCH")
+    if manifest.get("mode") not in load_profiles()["niches"][manifest["niche_id"]]["allowed_factory_modes"]:
+        raise ValueError("STORY_QUALITY_WRONG_SCRIPT_MODE_FOR_NICHE")
+    if manifest.get("episode_id") and plan.get("episode_id") != manifest["episode_id"]:
+        raise ValueError("STORY_QUALITY_EPISODE_ID_MISMATCH")
     result = evaluate(plan, project_root=project_root)
     if result["status"] == "BLOCKED":
         raise ValueError("STORY_QUALITY_BLOCKED_" + "|".join(result["blocking"][:8]))
@@ -437,7 +441,7 @@ def require_factory_stage(base: Path, manifest: dict, stage: str,
 
 
 def offer_ideas(niche_id: str, series_id: str, count: int = 10,
-                ledger_root: Path = LEDGER_ROOT) -> dict:
+                ledger_root: Path = LEDGER_ROOT, slot: str = "initial") -> dict:
     """Offer compositional *directions*, never 10 automatic repetitive scripts."""
     p = load_profiles()
     if niche_id not in p["niches"] or not _valid_id(series_id):
@@ -450,13 +454,16 @@ def offer_ideas(niche_id: str, series_id: str, count: int = 10,
     blocked = {o.get("seed_signature") for o in old if o.get("seed_signature")}
     directions, seen = [], set()
     # Reproducible broad rotation. Deterministic, not a viral/story generator.
-    shift = sum(ord(c) for c in series_id) % len(axes["conflict"])
+    if not _valid_id(slot):
+        return fail_code("INVALID_IDEA_DEVELOPMENT_SLOT")
+    salt = int(hashlib.sha256((niche_id+"|"+series_id+"|"+slot).encode()).hexdigest()[:8], 16)
+    shift = salt % len(axes["conflict"])
     for k in range(count * 12 + 300):
-        character = axes["perspective"][(k * 3 + k // 7) % len(axes["perspective"])]
-        world = axes["setting"][(k * 5 + k // 11) % len(axes["setting"])]
+        character = axes["perspective"][(k * 3 + k // 7 + salt//11) % len(axes["perspective"])]
+        world = axes["setting"][(k * 5 + k // 11 + salt//17) % len(axes["setting"])]
         conflict = axes["conflict"][(k + shift) % len(axes["conflict"])]
-        cost = axes["choice_cost"][(k * 7 + k // 13) % len(axes["choice_cost"])]
-        genre = axes["emotion"][(k * 11 + k // 5) % len(axes["emotion"])]
+        cost = axes["choice_cost"][(k * 7 + k // 13 + salt//19) % len(axes["choice_cost"])]
+        genre = axes["emotion"][(k * 11 + k // 5 + salt//23) % len(axes["emotion"])]
         signature = hashlib.sha256(("|".join((character,world,conflict,cost,genre))).encode()).hexdigest()[:16]
         if signature in blocked or signature in seen:
             continue
@@ -475,7 +482,7 @@ def offer_ideas(niche_id: str, series_id: str, count: int = 10,
             break
     return {
         "status": "IDEA_SEEDS_NEED_WRITER_DEVELOPMENT" if len(directions) == count else "IDEA_BANK_EXHAUSTED_OR_MISSING_VARIETY",
-        "niche_id": niche_id, "series_id": series_id,
+        "niche_id": niche_id, "series_id": series_id, "development_slot": slot,
         "known_approved_episode_count": len(old), "directions": directions,
         "not_a_script": True, "youtube_release_authorized": False,
     }
@@ -544,6 +551,7 @@ def cli(argv=None):
     ap.add_argument("--niche", default="magical_witch_family_stories")
     ap.add_argument("--series", default="bell_leaf")
     ap.add_argument("--count", type=int, default=12)
+    ap.add_argument("--slot", default="initial", help="unique planned episode/season slot for fresh deterministic idea seeds")
     ap.add_argument("--plan", type=Path)
     ap.add_argument("--review", type=Path)
     ap.add_argument("--out", type=Path)
@@ -553,7 +561,7 @@ def cli(argv=None):
         if args.command == "ideas":
             if not 1 <= args.count <= 50:
                 raise ValueError("Idea seed count must be 1..50")
-            result = offer_ideas(args.niche, args.series, args.count, args.ledger_root)
+            result = offer_ideas(args.niche, args.series, args.count, args.ledger_root, args.slot)
         elif args.command == "check":
             if not args.plan:
                 raise ValueError("--plan required")
