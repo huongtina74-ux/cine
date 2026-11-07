@@ -10,6 +10,7 @@ import hashlib
 import importlib.util
 import json
 import os
+import sys
 import tempfile
 from pathlib import Path
 from types import SimpleNamespace
@@ -220,6 +221,7 @@ def test_reviewed_ledger_append_is_explicit_and_no_overwrite():
 
 
 def test_new_script_factory_project_hard_requires_quality_files():
+    sys.path.insert(0, str(ROOT / 'tools'))
     spec2=importlib.util.spec_from_file_location("cf_factory_under_test", ROOT / "tools/cf_script_factory.py")
     factory=importlib.util.module_from_spec(spec2)
     spec2.loader.exec_module(factory)
