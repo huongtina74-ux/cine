@@ -179,6 +179,7 @@ def owned_learning():
     return {
         "niche_id": "mom_grandma_family_original",
         "baseline_niche_id": "mom_grandma_family_original",
+        "owned_channel_id": "UC_OWNER_CHANNEL",
         "evidence_origin": "OWNED_YOUTUBE_STUDIO",
         "hypothesis": "A new family-driven contradiction before the first minute improves clarity",
         "experiment_id": "family_experiment_A01",
