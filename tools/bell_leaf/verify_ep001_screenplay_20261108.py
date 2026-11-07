@@ -43,7 +43,7 @@ def analyze():
         all_lines.append(action.strip().casefold())
         # Speech in these prose directions uses single or double quotes; count
         # without claiming exact TTS seconds or that all text is voice.
-        quoted=re.findall(r"(?<!\w)['‘“](.+?)['’”]",action)
+        quoted=re.findall(r"""(?<!\w)['"‘“](.+?)['"’”]""",action)
         spoken=sum(len(re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?",q)) for q in quoted)
         words.append(spoken)
         spoken_by_scene[1+(i-1)//9]+=spoken
