@@ -21,7 +21,7 @@
 | BL-C16 | Phản diện gây ra mọi cuộc khủng hoảng? | Nhiều xung đột tự nhiên, xã hội, hiểu lầm/đạo đức, phép có giới hạn. Kẻ đối đầu trung tâm vẫn có kế hoạch chủ động thay đổi; không xuất hiện cưỡng ép. | LOCKED OWNER 04 |
 | BL-C17 | Orin new-world exception khác hành trình chính? | Chỉ "hiếm khi", khi tín hiệu/breach vật lý hợp lệ, phải có đường trở về có nguyên nhân, không biến thành series riêng. | ALLOWED ADDITIVE, NO RETCON |
 | BL-C18 | Ảnh source đã có nghĩa giữ 3D face trong video? | Ảnh source và crop SHA có thể verified nhưng chưa chứng minh Muse giữ người/voice/lip-sync trong clip. Tách story approval, asset approval, 10-second video E2E. | QC HOLD |
-| BL-C19 | Isel là tên Canon hay proposed? | Nguồn 04 đánh dấu 'tên đề xuất/chưa khóa Canon'; người sở hữu sau đó dặn giữ Isel Varr. Đội biên kịch giữ nguyên tên trong private notes, không thay hoặc tiết lộ; formal public reveal/timing cần owner phê duyệt. | PRIVATE OWNER-REFERENCED NAME |
+| BL-C19 | Tên thật của nhân vật đeo mặt nạ đã khóa chưa? | Nguồn 04 đánh dấu tên thật ở mức đề xuất; chủ sở hữu yêu cầu giữ nguyên nhân vật trong private notes. Không thay tên, không tiết lộ danh tính công khai; thời điểm reveal và chứng cứ phải được duyệt. | PRIVATE OWNER-REFERENCED NAME |
 | BL-C20 | Chi tiết tuổi, niên đại, ngày khai sinh Bubu, cha của hai anh trai? | Nguồn chưa cho timeline tuyệt đối; không tự điền tuổi người lớn, năm thảm họa, chính xác ngày Bubu ra đời hoặc tên nhân vật chưa được chốt. | OWNER_DECISION_REQUIRED IF PLOT-CRITICAL |
 
 ## Bảng đóng băng / cấm tự thay
