@@ -40,9 +40,24 @@ class BellLeafSubnicheClassification(unittest.TestCase):
   self.assertIn("cine-bellfern-location-multiview-lock",self.prod["source_registries"]["sites"])
  def test_original_story_not_generic_slow_english(self):
   bible=(BASE/"SERIES_BIBLE.md").read_text("utf-8")
-  self.assertIn("Gia đình phù thủy",bible)
-  self.assertIn("Mara is a witch",bible)
-  self.assertIn("Evan and paternal grandparents are normal Earth relatives",bible)
+  # Original Story Bible used terse descriptions; the owner-approved
+  # current version uses explicit cast and family canon. Accept either wording.
+  self.assertTrue(
+   "Gia đình phù thủy" in bible or
+   ("family-friendly 3D CGI fantasy adventures" in bible and "Bell & Leaf" in bible),
+   "Bell & Leaf must stay a distinct magical family series",
+  )
+  self.assertTrue(
+   "Mara is a witch" in bible or
+   "MARA adult mother/wizard-researcher" in bible,
+   "Mara's magical identity must not be erased",
+  )
+  self.assertTrue(
+   "Evan and paternal grandparents are normal Earth relatives" in bible or
+   ("EVAN human father/postman, initially ignorant of magic" in bible and
+    "ordinary Earth human grandparents initially unaware of magic" in bible),
+   "Evan and paternal grandparents must retain their Earth family identity",
+  )
  def test_preflight_propagates_identity(self):
   source=(ROOT/"cinefactory/studio/slow_english_a2.py").read_text("utf-8")
   self.assertIn('"subniche_id":self.profile.get("subniche_id")',source)
