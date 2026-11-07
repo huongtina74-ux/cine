@@ -1,0 +1,135 @@
+{
+  "schema": "cine.bell_leaf.writer_contract.v1",
+  "niche_id": "slow_english_a2",
+  "series_id": "bell_leaf",
+  "source_date": "2026-11-07",
+  "source_authority": "FOUR_OWNER_DOCUMENTS_LOCKED_UNLESS_EXPLICIT_USER_CHANGE",
+  "release_status": "STORY_DEVELOPMENT_ONLY",
+  "spoiler_policy": "PUBLIC_SAFE_GITHUB__CONFIDENTIAL_SOURCE_LOCAL_ONLY",
+  "owner_source_ids": [
+    {
+      "id": "SRC01_VEYLORA",
+      "private_local_path": "data/story/bell_leaf/owner_sources_private/20261107/01_LAST_SONG_OF_VEYLORA_OWNER.txt",
+      "git_publish": false
+    },
+    {
+      "id": "SRC02_ECOLOGY_ATLAS",
+      "private_local_path": "data/story/bell_leaf/owner_sources_private/20261107/02_MAGIC_ECOLOGY_WORLD_ATLAS_OWNER.txt",
+      "git_publish": false
+    },
+    {
+      "id": "SRC03_MARA_FAMILY",
+      "private_local_path": "data/story/bell_leaf/owner_sources_private/20261107/03_MARA_FAMILY_FIRST_OWNER.txt",
+      "git_publish": false
+    },
+    {
+      "id": "SRC04_SHOWRUNNER_VILLAIN",
+      "private_local_path": "data/story/bell_leaf/owner_sources_private/20261107/04_SHOWRUNNER_CONFIDENTIAL_OWNER.txt",
+      "git_publish": false
+    }
+  ],
+  "public_documents": [
+    "docs/story/bell_leaf/BELL_LEAF_WRITERS_ROOM_CANON_CONTRACT_V1_20261107.md",
+    "docs/story/bell_leaf/BELL_LEAF_WRITERS_ROOM_SOP_V1_20261107.md",
+    "docs/story/bell_leaf/BELL_LEAF_OWNER_SOURCE_CONFLICT_REGISTER_20261107.md",
+    "docs/story/bell_leaf/README.md"
+  ],
+  "core_characters": [
+    "EVAN",
+    "MARA",
+    "JUNO",
+    "LIA",
+    "BIX",
+    "BUBU",
+    "ORIN",
+    "GRANDPA_EARTH",
+    "GRANDMA_EARTH"
+  ],
+  "supporting_source_character": "ELARA",
+  "protected_character_rules": {
+    "JUNO": "13_YEAR_OLD_BOY_INVENTOR",
+    "LIA": "11_YEAR_OLD_GIRL_ANIMAL_EMPATHY",
+    "BIX": "ROBOT_TURTLE_PANGOLIN_NO_BELL",
+    "BUBU": "PURPLE_CAT_ONE_GOLD_COLLAR_BELL_SPARKLING_SPIRAL_PURPLE_TAIL",
+    "GRANDPA_EARTH": "ARTHUR_BELL_PATERNAL_NO_INITIAL_MAGIC_KNOWLEDGE",
+    "GRANDMA_EARTH": "ROSE_BELL_PATERNAL_NO_INITIAL_MAGIC_KNOWLEDGE",
+    "ELARA": "ORIN_WIFE_MARA_MOTHER_LOST_MATERNAL_GRANDMOTHER"
+  },
+  "macro_canon": {
+    "vey_life_cycle_declined_before_sabotage": true,
+    "catastrophe_trigger": "INTENTIONAL_CENTRAL_RESONANCE_SAFETY_OVERRIDE",
+    "earth_initial_status": "UNMAPPED_NO_PREEXISTING_EARTH_STATION",
+    "earth_magic": "SLOW_BALANCED_RENEWAL_NOT_INFINITE_EXTRACTION",
+    "known_world_travel": "FIXED_STATION_BELL_ONLY_VERIFIED_REPAIRED_ROUTE",
+    "unknown_world_travel": "BUBU_ECHO_TRIGGERED_TEMPORARY_PASSAGE_NO_ARBITRARY_DESTINATIONS",
+    "earth_station": "BUILT_AFTER_ACCIDENTAL_ARRIVAL",
+    "bubu_earth_return": "NEEDS_WILL_STAMINA_WORKING_EARTH_ANCHOR_VALID_PATH_SMALL_GROUP",
+    "orin_primary": "OLD_MAPPED_WORLDS_RESUE_AND_GATES_RARE_DIRECT_APPEARANCE",
+    "mara_primary": "FAMILY_FIRST_OLD_AND_NEW_AND_EARTH"
+  },
+  "planning": {
+    "episode_minutes_min": 40,
+    "episode_minutes_target": 46,
+    "episode_minutes_max": 50,
+    "shot_seconds": 10,
+    "fps": 24,
+    "frame_count": 240,
+    "aspect_ratio": "16:9",
+    "language": "GENERAL_AMERICAN_A2_NATURAL",
+    "main_setting_mix_percent_trial_only": {
+      "old": 35,
+      "new": 30,
+      "earth": 25,
+      "mixed": 10
+    },
+    "orin_direct_appearance_per_20_trial": [
+      1,
+      2
+    ],
+    "orin_link_contact_per_20_trial": [
+      3,
+      4
+    ],
+    "episode_full_screenplay_status": "NOT_WRITTEN_BY_THIS_CONTRACT",
+    "ep001_status": "TREATMENT_AND_18_SHOT_TRAILER_PACK_ONLY"
+  },
+  "episode_story_gates": [
+    "CAUSAL_HOOK",
+    "PERSONAL_STAKES",
+    "LOCAL_GOAL_AND_PAYOFF",
+    "WORLD_AGENCY_AND_CONSENT",
+    "ALTERNATIVE_BLOCKED_BY_RULE",
+    "REVERSAL_HAS_PREVIOUS_SETUP",
+    "CONSEQUENCES_PERSIST",
+    "A2_NATURAL_DIALOGUE",
+    "CANON_AND_TIMELINE_CROSSCHECK",
+    "NO_NEW_CHARACTER_FACE_WITHOUT_ASSET_APPROVAL"
+  ],
+  "plot_conflict_register_ids": [
+    "BL-C01",
+    "BL-C02",
+    "BL-C03",
+    "BL-C04",
+    "BL-C05",
+    "BL-C06",
+    "BL-C07",
+    "BL-C08",
+    "BL-C09",
+    "BL-C10",
+    "BL-C11",
+    "BL-C12",
+    "BL-C13",
+    "BL-C14",
+    "BL-C15",
+    "BL-C16",
+    "BL-C17",
+    "BL-C18",
+    "BL-C19",
+    "BL-C20"
+  ],
+  "asset_stage_state": "NOT_DERIVED_FROM_SCRIPT_APPROVAL",
+  "voice_approval_state": "HUMAN_SIGNOFF_REQUIRED",
+  "real_muse_i2v_state": "INDEPENDENT_E2E_REQUIRED",
+  "required_gate_on_owner_conflict": "OWNER_DECISION_REQUIRED",
+  "allowed_auto_edit": "EPISODE_DRAFT_IN_EXISTING_CANON_ONLY"
+}
