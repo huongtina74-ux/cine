@@ -69,6 +69,10 @@ def initialize(args):
             raise ValueError("Bell & Leaf research must use the magical_witch_family_stories subniche")
         if not spec["target_minutes"][0] <= args.minutes <= spec["target_minutes"][1]:
             raise ValueError("Bell & Leaf episode target must be 30-50 minutes")
+    from cf_story_quality_gate import load_profiles
+    quality_profile = load_profiles()["niches"][args.niche]
+    if args.mode not in quality_profile["allowed_factory_modes"]:
+        raise ValueError("Script mode does not match this niche; cannot inherit another niche story template")
     if not 8 <= args.minutes <= 360:
         raise ValueError("Target minutes must be 8 to 360")
     if not args.writer or not args.writer.strip():
@@ -81,6 +85,8 @@ def initialize(args):
         "writer_id": args.writer, "language": args.language,
         "created_utc": iso_now(), "workflow_version": settings["version"],
         "approved_stages": {},
+        "story_quality_contract_version": "1",
+        "episode_id": getattr(args, "episode_id", None),
         "notice": "Internal file attestation only, not AI execution or external approval"
     }
     write_json(path / "manifest.json", manifest)
@@ -100,6 +106,11 @@ def stage_files(base, settings, stage):
     if read_json(base / "manifest.json")["mode"] == "A2_ANIMATED_SCREENPLAY":
         from cf_a2_story_contract import required_artifacts
         files.extend(required_artifacts(ROOT, stage["id"]))
+    if read_json(base / "manifest.json").get("story_quality_contract_version") == "1":
+        if stage["id"] == "outline":
+            files.append("05_outline/episode_quality_plan.json")
+        if stage["id"] == "review":
+            files.append("07_review/story_quality_review.json")
     return list(dict.fromkeys(files))
 
 
@@ -122,6 +133,9 @@ def inspect_file(base, rel):
 def validate_content(base, settings, stage):
     sid = stage["id"]
     manifest = read_json(base / "manifest.json")
+    if manifest.get("story_quality_contract_version") == "1" and sid in ("outline", "script", "review", "final"):
+        from cf_story_quality_gate import require_factory_stage
+        require_factory_stage(base, manifest, sid, ROOT)
     if manifest["mode"] == "A2_ANIMATED_SCREENPLAY":
         from cf_a2_story_contract import validate_a2_stage
         validate_a2_stage(base, sid, manifest)
@@ -218,6 +232,8 @@ def status(args):
             verdicts[sid]="STALE: "+str(e)
             all_good=False
     return {"id":args.id,"niche":manifest["niche_id"],
+            "story_quality_contract": "V1_REQUIRED_FOR_OUTLINE_ONWARD" if manifest.get("story_quality_contract_version") == "1" else "LEGACY_PROJECT_UNVERIFIED",
+            "editorial_originality_human_verified":False,
             "script_ready_for_production":all_good if manifest["mode"] != "A2_ANIMATED_SCREENPLAY" else False,
             "structural_stage_gates_passed":all_good,
             "production_authorized":False,
@@ -267,6 +283,7 @@ def main():
     init.add_argument("--mode",required=True)
     init.add_argument("--minutes",required=True,type=int)
     init.add_argument("--writer",required=True)
+    init.add_argument("--episode-id",help="Explicit episode continuity ID; if set, blueprint must match")
     init.add_argument("--language",default="en-US")
     stat=sub.add_parser("status")
     stat.add_argument("--id",required=True)

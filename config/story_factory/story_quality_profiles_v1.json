@@ -1,0 +1,502 @@
+{
+  "schema": "cine.story_quality_profiles.v1",
+  "source": "Existing CINE research niche registry 2026-11-08",
+  "approval_semantics": "All seeds are unapproved, all structural checks require human editorial review",
+  "niches": {
+    "mom_grandma_family_original": {
+      "duration_minutes": [
+        30,
+        90
+      ],
+      "narrative_context": "audio",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "older family member",
+          "adult child",
+          "neighbor with an old promise",
+          "friend returning home",
+          "quiet observer with conflicting loyalties"
+        ],
+        "setting": [
+          "family home and garden",
+          "small coastal town",
+          "café after closing",
+          "night train",
+          "old family workshop"
+        ],
+        "conflict": [
+          "an inheritance tests family loyalty",
+          "a misplaced message changes a relationship",
+          "two sincere memories contradict",
+          "a comfort ritual conceals an unresolved regret",
+          "a character must choose between fairness and affection"
+        ],
+        "choice_cost": [
+          "speak an uncomfortable truth",
+          "give up an easy financial gain",
+          "accept a reconciliation without control",
+          "return something personally important",
+          "rebuild trust through action"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "ORIGINAL_FICTION"
+      ]
+    },
+    "cozy_bedtime_fiction": {
+      "duration_minutes": [
+        45,
+        150
+      ],
+      "narrative_context": "audio",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "older family member",
+          "adult child",
+          "neighbor with an old promise",
+          "friend returning home",
+          "quiet observer with conflicting loyalties"
+        ],
+        "setting": [
+          "family home and garden",
+          "small coastal town",
+          "café after closing",
+          "night train",
+          "old family workshop"
+        ],
+        "conflict": [
+          "an inheritance tests family loyalty",
+          "a misplaced message changes a relationship",
+          "two sincere memories contradict",
+          "a comfort ritual conceals an unresolved regret",
+          "a character must choose between fairness and affection"
+        ],
+        "choice_cost": [
+          "speak an uncomfortable truth",
+          "give up an easy financial gain",
+          "accept a reconciliation without control",
+          "return something personally important",
+          "rebuild trust through action"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "COZY_FICTION"
+      ]
+    },
+    "everyday_history_sleep": {
+      "duration_minutes": [
+        90,
+        240
+      ],
+      "narrative_context": "history",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "ordinary household of the historical period",
+          "craft worker",
+          "merchant or apprentice",
+          "historical archive keeper",
+          "modern researcher reviewing primary sources"
+        ],
+        "setting": [
+          "port archive",
+          "market and guild",
+          "farm household",
+          "trade route",
+          "school and workshop"
+        ],
+        "conflict": [
+          "documented sources disagree on everyday routines",
+          "an unknown date changes interpretation",
+          "a common object has a misunderstood social purpose",
+          "a historic policy affected different households unequally",
+          "scientific evidence corrects a romanticized popular story"
+        ],
+        "choice_cost": [
+          "retain uncertainty rather than invent a scene",
+          "separate documented source from dramatic illustration",
+          "show multiple interpretations of a disputed fact",
+          "challenge a familiar historical myth",
+          "admit primary sources are missing"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "HISTORY_SLEEP"
+      ]
+    },
+    "historical_mysteries_sleep": {
+      "duration_minutes": [
+        90,
+        240
+      ],
+      "narrative_context": "history",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "ordinary household of the historical period",
+          "craft worker",
+          "merchant or apprentice",
+          "historical archive keeper",
+          "modern researcher reviewing primary sources"
+        ],
+        "setting": [
+          "port archive",
+          "market and guild",
+          "farm household",
+          "trade route",
+          "school and workshop"
+        ],
+        "conflict": [
+          "documented sources disagree on everyday routines",
+          "an unknown date changes interpretation",
+          "a common object has a misunderstood social purpose",
+          "a historic policy affected different households unequally",
+          "scientific evidence corrects a romanticized popular story"
+        ],
+        "choice_cost": [
+          "retain uncertainty rather than invent a scene",
+          "separate documented source from dramatic illustration",
+          "show multiple interpretations of a disputed fact",
+          "challenge a familiar historical myth",
+          "admit primary sources are missing"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "HISTORY_SLEEP"
+      ]
+    },
+    "science_space_nature_sleep": {
+      "duration_minutes": [
+        90,
+        240
+      ],
+      "narrative_context": "science",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "curious observer",
+          "field scientist",
+          "engineering team",
+          "teacher explaining a question",
+          "community measuring an effect"
+        ],
+        "setting": [
+          "night sky observation",
+          "river ecosystem",
+          "ocean depth",
+          "microscopic world",
+          "planetary field experiment"
+        ],
+        "conflict": [
+          "a surprising observation has several explanations",
+          "data from two instruments disagree",
+          "an analogy distorts the science",
+          "a new study changes an earlier estimate",
+          "a practical limit makes ideal solutions fail"
+        ],
+        "choice_cost": [
+          "state uncertainty clearly",
+          "drop a visually dramatic but inaccurate claim",
+          "recalculate a first conclusion",
+          "verify a source rather than extrapolate",
+          "choose a narrower but reliable answer"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "SCIENCE_SLEEP"
+      ]
+    },
+    "slow_english_a2_story": {
+      "duration_minutes": [
+        25,
+        90
+      ],
+      "narrative_context": "audio",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "older family member",
+          "adult child",
+          "neighbor with an old promise",
+          "friend returning home",
+          "quiet observer with conflicting loyalties"
+        ],
+        "setting": [
+          "family home and garden",
+          "small coastal town",
+          "café after closing",
+          "night train",
+          "old family workshop"
+        ],
+        "conflict": [
+          "an inheritance tests family loyalty",
+          "a misplaced message changes a relationship",
+          "two sincere memories contradict",
+          "a comfort ritual conceals an unresolved regret",
+          "a character must choose between fairness and affection"
+        ],
+        "choice_cost": [
+          "speak an uncomfortable truth",
+          "give up an easy financial gain",
+          "accept a reconciliation without control",
+          "return something personally important",
+          "rebuild trust through action"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "ORIGINAL_FICTION"
+      ]
+    },
+    "senior_retirement_finance": {
+      "duration_minutes": [
+        12,
+        60
+      ],
+      "narrative_context": "finance",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "older household planning retirement",
+          "bank customer investigating a fee",
+          "consumer comparing pension rules",
+          "family budgeting together",
+          "researcher analyzing public financial data"
+        ],
+        "setting": [
+          "US retirement planning",
+          "UK workplace pension",
+          "banking fee dispute",
+          "tax-year comparison",
+          "household budget"
+        ],
+        "conflict": [
+          "an attractive promise hides a key limitation",
+          "rules differ sharply across countries",
+          "a rate changed since the cited article",
+          "inflation alters purchasing power assumptions",
+          "fees complicate a simple headline return"
+        ],
+        "choice_cost": [
+          "make no personal recommendation",
+          "declare uncertainty and scenario assumptions",
+          "verify jurisdiction and current rule",
+          "choose conservative numerical examples",
+          "show a downside instead of an income guarantee"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "EDUCATION"
+      ]
+    },
+    "ai_software_automation": {
+      "duration_minutes": [
+        8,
+        120
+      ],
+      "narrative_context": "software",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "developer building a reproducible demo",
+          "automation analyst",
+          "software reviewer",
+          "designer testing a workflow",
+          "security-conscious creator"
+        ],
+        "setting": [
+          "desktop screen recording",
+          "local open-source lab",
+          "browser-based workflow",
+          "versioned CLI experiment",
+          "production-like staging environment"
+        ],
+        "conflict": [
+          "documentation diverges from installed version",
+          "a dependency breaks the demonstration",
+          "an API limit changes the plan",
+          "license terms restrict the intended use",
+          "automation works in demo but fails an edge case"
+        ],
+        "choice_cost": [
+          "show the failure on screen and fix it",
+          "remove an unsupported capability claim",
+          "keep a reproducible fallback",
+          "re-test after changing dependencies",
+          "delay release until real evidence exists"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "SOFTWARE_TUTORIAL"
+      ]
+    },
+    "original_horror_audio": {
+      "duration_minutes": [
+        30,
+        180
+      ],
+      "narrative_context": "horror",
+      "episode_scope": "NICHE_ORIGINAL_SOURCE_AND_RIGHTS_CHECK",
+      "idea_axes": {
+        "perspective": [
+          "isolated traveler",
+          "night shift worker",
+          "sibling investigating a sound",
+          "archivist finding inconsistencies",
+          "skeptical friend"
+        ],
+        "setting": [
+          "abandoned boarding house",
+          "quiet mountain road",
+          "local archive",
+          "empty station",
+          "storm-cut island"
+        ],
+        "conflict": [
+          "the evidence contradicts the narrator's memory",
+          "a safety rule has a hidden cost",
+          "a trusted witness disappears",
+          "a sound repeats with impossible timing",
+          "the apparent supernatural event has a plausible explanation until a final clue"
+        ],
+        "choice_cost": [
+          "ask for help despite disbelief",
+          "sacrifice a reassuring certainty",
+          "leave a valuable clue behind",
+          "tell the truth to someone at risk",
+          "accept an unsettling unresolved question"
+        ],
+        "emotion": [
+          "curiosity",
+          "compassion",
+          "unexpected discovery",
+          "emotional consequence",
+          "evidence-led reinterpretation",
+          "measured suspense"
+        ]
+      },
+      "allowed_factory_modes": [
+        "ORIGINAL_FICTION"
+      ]
+    },
+    "magical_witch_family_stories": {
+      "duration_minutes": [
+        40,
+        50
+      ],
+      "narrative_context": "family",
+      "episode_scope": "OWNER_CANON_LOCKED_BELL_LEAF",
+      "idea_axes": {
+        "perspective": [
+          "EVAN",
+          "MARA",
+          "JUNO",
+          "LIA",
+          "BIX",
+          "BUBU",
+          "GRANDPA_EARTH",
+          "GRANDMA_EARTH"
+        ],
+        "setting": [
+          "Bellfern home life",
+          "Earth school/market",
+          "repaired old-world bell station",
+          "new unmapped echo world",
+          "shared Earth/new-world consequence"
+        ],
+        "conflict": [
+          "different witnesses disagree about a rescue decision",
+          "unexpected ecological effect of repaired magic",
+          "an honest promise conflicts with emergency safety",
+          "a scientific invention solves one problem but creates another",
+          "two communities disagree on consent and resource sharing",
+          "a harmless-looking clue points to the wrong person"
+        ],
+        "choice_cost": [
+          "admit an error in front of the family",
+          "delay a reunion to protect a community",
+          "repair damage before exploring further",
+          "give up a powerful tool to respect consent",
+          "choose an honest disclosure despite embarrassment",
+          "accept a smaller rescue to avoid a dangerous overload"
+        ],
+        "emotion": [
+          "warm mystery",
+          "playful physical comedy",
+          "ethical dilemma",
+          "gentle suspense",
+          "sincere family reconciliation",
+          "hope after a setback"
+        ]
+      },
+      "allowed_factory_modes": [
+        "A2_ANIMATED_SCREENPLAY"
+      ]
+    }
+  }
+}
