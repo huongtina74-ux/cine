@@ -495,6 +495,22 @@ def require_factory_stage(base: Path, manifest: dict, stage: str,
         lines = [textnorm(x) for x in body.splitlines() if len(textnorm(x)) >= 40]
         if lines and max(Counter(lines).values()) > 5:
             raise ValueError("REPEATED_SCREENPLAY_SCENE_OR_DIALOGUE_TEMPLATE")
+        history = _legacy_archive_module(project_root)
+        prior = history.scan(manifest["niche_id"],
+                             archive_root=project_root / "data/script_factory/projects",
+                             exclude_project_id=manifest.get("project_id"))
+        old_matches = history.compare_script(body, prior)
+        hard = [m["project_id"] for m in old_matches if m["level"] == "BLOCK_HISTORICAL_SCRIPT_COPY"]
+        if hard:
+            raise ValueError("SCRIPT_DUPLICATES_HISTORICAL_PROJECT_" + ",".join(hard[:10]))
+        if stage in {"review", "final"}:
+            moderate = {m["project_id"] for m in old_matches if
+                        m["level"] == "EDITOR_REVIEW_HISTORICAL_SCRIPT_SIMILARITY"}
+            if moderate:
+                review = read_json(base / "07_review/story_quality_review.json")
+                acknowledged = review.get("reviewed_historical_project_ids", [])
+                if not isinstance(acknowledged, list) or not moderate.issubset(set(acknowledged)):
+                    raise ValueError("EDITOR_MUST_REVIEW_HISTORICAL_SCRIPT_SIMILARITIES")
     if stage in {"review", "final"}:
         _writer_review(base / "07_review/story_quality_review.json", manifest)
 
