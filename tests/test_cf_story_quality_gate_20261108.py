@@ -318,7 +318,7 @@ def test_new_factory_rejects_wrong_niche_script_modes():
         arg=SimpleNamespace(id="bad_cross_mode",mode="A2_ANIMATED_SCREENPLAY",
             niche="mom_grandma_family_original",minutes=45,writer="synthetic_writer",
             language="en-US",root=Path(d))
-        with pytest.raises(ValueError,match="Script mode does not match"):
+        with pytest.raises(ValueError,match="magical_witch_family_stories"):
             factory.initialize(arg)
 
 
