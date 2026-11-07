@@ -142,9 +142,24 @@ def compare_episodes(plan: dict, entries: list[dict]) -> list[dict]:
                                          r["risk_score"]), reverse=True)
 
 
+def _legacy_archive_module(project_root: Path):
+    # Test harnesses also load this module by explicit file location.
+    import importlib.util
+    src = project_root / "tools/cf_story_archive_scan.py"
+    if not src.is_file():
+        raise ValueError("Legacy screenplay scanner missing from CINE")
+    spec = importlib.util.spec_from_file_location("cine_story_archive_scan", src)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader
+    spec.loader.exec_module(module)
+    return module
+
+
 def evaluate(plan: dict, *, ledger_root: Path = LEDGER_ROOT,
              check_bell_leaf_proposals: bool = True,
-             project_root: Path = ROOT) -> dict:
+             project_root: Path = ROOT,
+             historical_root: Path | None = None,
+             exclude_project_id: str | None = None) -> dict:
     """Evaluate structural story logic and prior episodes; no editorial PASS asserted."""
     errors, warnings = [], []
     p = load_profiles()
@@ -356,6 +371,26 @@ def evaluate(plan: dict, *, ledger_root: Path = LEDGER_ROOT,
     matches = compare_episodes(plan, entries) if not any(x.startswith("INVALID_EPISODE") for x in errors) else []
     if any(x["level"] in {"EXISTING_APPROVED_ID", "BLOCK_DUPLICATE"} for x in matches):
         errors.append("DUPLICATES_PRIOR_APPROVED_EPISODE")
+    archive_matches = []
+    archive_count = 0
+    archive_status = "NOT_SCANNED"
+    try:
+        old = _legacy_archive_module(project_root)
+        archive = old.scan(niche, archive_root=historical_root or
+                           (project_root / "data/script_factory/projects"),
+                           exclude_project_id=exclude_project_id)
+        archive_status = archive["status"]
+        archive_count = len(archive["historical_records"])
+        archive_matches = old.compare_plan(plan, archive)
+        if any(x["level"] == "BLOCK_HISTORICAL_STORY_COPY" for x in archive_matches):
+            errors.append("DUPLICATES_HISTORICAL_PROJECT_OUTLINE")
+        if archive_status == "ARCHIVE_NOT_MOUNTED":
+            warnings.append("HISTORICAL_SCRIPT_ARCHIVE_NOT_MOUNTED")
+        for entry in archive["historical_records"]:
+            if entry["status"] == "STALE_SCRIPT_SHA_STAGE_ATTESTATION":
+                warnings.append("HISTORICAL_PROJECT_SHA_STALE_" + entry["project_id"])
+    except (ValueError, OSError, KeyError, TypeError, json.JSONDecodeError) as e:
+        errors.append("HISTORICAL_PROJECT_ARCHIVE_UNREADABLE_" + str(e))
     proposal_status = "NOT_APPLICABLE"
     if niche == "magical_witch_family_stories" and check_bell_leaf_proposals and not errors:
         import importlib.util
@@ -393,6 +428,9 @@ def evaluate(plan: dict, *, ledger_root: Path = LEDGER_ROOT,
         "niche_id": niche, "series_id": series, "episode_id": episode_id,
         "blocking": sorted(set(errors)), "warnings": sorted(set(warnings)),
         "similar_approved_episodes": matches[:20],
+        "legacy_project_matches": archive_matches[:20],
+        "historical_script_archive_count": archive_count,
+        "historical_archive_scan_status": archive_status,
         "approved_ledger_count": len(entries),
         "bell_leaf_proposal_gate": proposal_status,
         "automated_story_approval": False, "youtube_release_authorized": False,
@@ -432,7 +470,8 @@ def require_factory_stage(base: Path, manifest: dict, stage: str,
         raise ValueError("STORY_QUALITY_WRONG_SCRIPT_MODE_FOR_NICHE")
     if manifest.get("episode_id") and plan.get("episode_id") != manifest["episode_id"]:
         raise ValueError("STORY_QUALITY_EPISODE_ID_MISMATCH")
-    result = evaluate(plan, project_root=project_root)
+    result = evaluate(plan, project_root=project_root,
+                      exclude_project_id=manifest.get("project_id"))
     if result["status"] == "BLOCKED":
         raise ValueError("STORY_QUALITY_BLOCKED_" + "|".join(result["blocking"][:8]))
     if stage in {"script", "review", "final"}:
@@ -456,6 +495,22 @@ def require_factory_stage(base: Path, manifest: dict, stage: str,
         lines = [textnorm(x) for x in body.splitlines() if len(textnorm(x)) >= 40]
         if lines and max(Counter(lines).values()) > 5:
             raise ValueError("REPEATED_SCREENPLAY_SCENE_OR_DIALOGUE_TEMPLATE")
+        history = _legacy_archive_module(project_root)
+        prior = history.scan(manifest["niche_id"],
+                             archive_root=project_root / "data/script_factory/projects",
+                             exclude_project_id=manifest.get("project_id"))
+        old_matches = history.compare_script(body, prior)
+        hard = [m["project_id"] for m in old_matches if m["level"] == "BLOCK_HISTORICAL_SCRIPT_COPY"]
+        if hard:
+            raise ValueError("SCRIPT_DUPLICATES_HISTORICAL_PROJECT_" + ",".join(hard[:10]))
+        if stage in {"review", "final"}:
+            moderate = {m["project_id"] for m in old_matches if
+                        m["level"] == "EDITOR_REVIEW_HISTORICAL_SCRIPT_SIMILARITY"}
+            if moderate:
+                review = read_json(base / "07_review/story_quality_review.json")
+                acknowledged = review.get("reviewed_historical_project_ids", [])
+                if not isinstance(acknowledged, list) or not moderate.issubset(set(acknowledged)):
+                    raise ValueError("EDITOR_MUST_REVIEW_HISTORICAL_SCRIPT_SIMILARITIES")
     if stage in {"review", "final"}:
         _writer_review(base / "07_review/story_quality_review.json", manifest)
 

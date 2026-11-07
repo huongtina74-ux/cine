@@ -49,3 +49,11 @@ These are deterministic STRUCTURAL and LEXICAL controls. Changing names and rewo
 
 Tests:
     python -m pytest -q -p no:cacheprovider tests/test_cf_story_quality_gate_20261108.py
+
+## Read-only LEGACY Script Factory archive — previous scripts do not disappear
+- NEW: tools/cf_story_archive_scan.py scans data/script_factory/projects/*/manifest.json for the selected *exact* niche_id. It discovers old story DNA/beat sheets and full script/final Markdown even if they were written before the new episode memory ledger existed. It NEVER upgrades old stage attestations into true human approval and it never publishes or writes historic scripts to GitHub.
+- Inventory CLI: python tools/cf_story_archive_scan.py --niche mom_grandma_family_original --out data/story_quality/legacy_mom_grandma_inventory.json. Run separately for magical_witch_family_stories, audio and other registered niches. No cross-niche borrowing or comparison.
+- New outline quality preflight compares the current 7-axis premise/goal/conflict/twist/payoff against prior same-niche historic story DNA as well as the new approved ledger. Substantively copied conflict+resolution => BLOCKED. Historical project record malformed or cross-niche => BLOCKED. Missing archive => explicit warning, not false assurance.
+- New script/review/final stage checks copy across the actual prior same-niche screenplay using 7-word overlap shingles. Strong overlap => BLOCKED; moderate overlap demands reviewed_historical_project_ids in the separate editorial review receipt, but a textual acknowledgement cannot prove genuine editor identity.
+- Legacy archive SHA changes are signaled; these scripts remain comparisons even when their original stage hashes are stale. Only an actual owner-approved human review can register a new record in the append-only approved ledger.
+- **Real local audit as-of 2026-11-08:** 3 Script Factory projects found; Mom/Grandma had one complete historical script and one empty pilot, Bell & Leaf had one initialized pilot but no completed full screenplay in that folder. Other files/episodes outside Script Factory may exist and are NOT covered until indexed. The new memory ledger was empty before onboarding. Hence NO claim of 1,000 unique finished episodes.
