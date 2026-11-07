@@ -229,17 +229,104 @@ def assess(brief: dict, policy: dict | None = None, registry: dict | None = None
     return result
 
 
+
+
+def assess_learning_update(event: dict, policy: dict | None = None,
+                           registry: dict | None = None) -> dict:
+    """Validate OWNED analytics experiment before considering an editorial skill update.
+
+    Does not fetch YouTube Studio, establish causal impact, or mutate skills.
+    A formally valid record always remains human-review only.
+    """
+    policy = policy if policy is not None else read_json(POLICY)
+    registry = registry if registry is not None else read_json(REGISTRY)
+    niche = event.get("niche_id")
+    problems = []
+    if niche not in policy["profiles"] or niche not in {x["id"] for x in registry["niches"]}:
+        problems.append("UNKNOWN_OR_UNROUTED_NICHE")
+    if event.get("baseline_niche_id") != niche:
+        problems.append("CROSS_NICHE_ANALYTICS_COMPARISON")
+    if event.get("evidence_origin") != "OWNED_YOUTUBE_STUDIO":
+        problems.append("OWNED_ANALYTICS_SOURCE_REQUIRED")
+    for k in ("hypothesis", "experiment_id", "intervention", "confounders",
+              "analysis_summary", "source_receipt_path", "reproducible_measurement_method"):
+        if not nonempty(event.get(k), 20 if k != "experiment_id" else 4):
+            problems.append("MISSING_LEARNING_FIELD_" + k.upper())
+    if not valid_time(event.get("experiment_started_utc")):
+        problems.append("MISSING_EXPERIMENT_START_DATE")
+    if event.get("measurement_metric") not in {
+        "INTRO_30S_RETENTION", "AVERAGE_VIEW_DURATION_SECONDS", "RETENTION_AT_CHAPTER",
+        "RETURNING_VIEWER_RATE", "CTR_OWNED"}:
+        problems.append("INVALID_OWNED_VIDEO_MEASUREMENT")
+    baseline = event.get("baseline_videos") or []
+    treatment = event.get("treatment_video") or {}
+    if not isinstance(baseline, list) or len(baseline) < 5:
+        problems.append("AT_LEAST_FIVE_SAME_FORMAT_BASELINE_VIDEOS_REQUIRED")
+        baseline = []
+    ids = [x.get("video_id") for x in baseline if isinstance(x, dict)]
+    if len(ids) != len(set(ids)) or not all(isinstance(v, str) and len(v) == 11 for v in ids):
+        problems.append("BASELINE_VIDEO_ID_DUPLICATE_OR_INVALID")
+    if not isinstance(treatment, dict) or not treatment.get("video_id"):
+        problems.append("MISSING_TREATMENT_VIDEO")
+        treatment = {}
+    if treatment.get("video_id") in ids:
+        problems.append("TREATMENT_VIDEO_MUST_BE_OUTSIDE_BASELINE")
+    duration = treatment.get("duration_seconds")
+    if not isinstance(duration, (float, int)) or duration <= 0:
+        problems.append("TREATMENT_DURATION_REQUIRED")
+    all_rows = baseline + [treatment]
+    for idx, row in enumerate(all_rows):
+        if not isinstance(row, dict):
+            problems.append(f"METRIC_{idx}_INVALID_OBJECT")
+            continue
+        if row.get("niche_id") != niche:
+            problems.append(f"METRIC_{idx}_CROSS_NICHE")
+        if row.get("owned_channel_id") != event.get("owned_channel_id") or not row.get("owned_channel_id"):
+            problems.append(f"METRIC_{idx}_CROSS_CHANNEL_OR_UNKNOWN_CHANNEL")
+        if not valid_time(row.get("captured_utc")):
+            problems.append(f"METRIC_{idx}_UNVERIFIED_SNAPSHOT_DATE")
+        val = row.get("value")
+        if not isinstance(val, (int, float)) or val < 0:
+            problems.append(f"METRIC_{idx}_INVALID_VALUE")
+        elif event.get("measurement_metric") in {"INTRO_30S_RETENTION", "RETURNING_VIEWER_RATE", "RETENTION_AT_CHAPTER", "CTR_OWNED"} and val > 1:
+            problems.append(f"METRIC_{idx}_PERCENT_MUST_BE_FRACTION_0_TO_1")
+        d = row.get("duration_seconds")
+        if not isinstance(d, (float, int)) or d <= 0:
+            problems.append(f"METRIC_{idx}_MISSING_DURATION")
+        elif isinstance(duration, (float, int)) and duration > 0 and abs(d-duration) / duration > 0.2:
+            problems.append(f"METRIC_{idx}_NOT_SIMILAR_FORMAT_LENGTH")
+    change = event.get("proposed_skill_change") or {}
+    if not isinstance(change, dict) or not nonempty(change.get("reason"), 25) or not change.get("rollback_reference"):
+        problems.append("SKILL_CHANGE_REASON_AND_ROLLBACK_REQUIRED")
+    elif not str(change.get("file", "")).startswith((".claude/skills/", ".agents/skills/")):
+        problems.append("LEARNING_SKILL_CHANGE_PATH_NOT_ALLOWED")
+    if not nonempty(event.get("reviewer_id"), 3) or event.get("reviewer_id") == event.get("researcher_id"):
+        problems.append("INDEPENDENT_LEARNING_REVIEWER_REQUIRED")
+    return {
+        "status": "BLOCKED" if problems else "INDEPENDENT_LEARNING_REVIEW_REQUIRED",
+        "niche_id": niche,
+        "blocking": sorted(set(problems)),
+        "baseline_count": len(baseline),
+        "release_authorized": False,
+        "skill_auto_update_authorized": False,
+        "note": "Self-declared analytics source and reviewer are not externally authenticated. Independent analysis, owner approval and rollback verification required.",
+    }
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=("inventory", "preflight"))
+    parser.add_argument("command", choices=("inventory", "preflight", "learning"))
     parser.add_argument("--brief", type=Path)
     parser.add_argument("--out", type=Path)
     args = parser.parse_args(argv)
     try:
-        result = inventory(read_json(POLICY), read_json(REGISTRY)) if args.command == "inventory" else (
-            assess(read_json(args.brief)) if args.brief else
-            {"status": "BLOCKED", "blocking": ["MISSING_BRIEF"], "release_authorized": False}
-        )
+        if args.command == "inventory":
+            result = inventory(read_json(POLICY), read_json(REGISTRY))
+        elif not args.brief:
+            result = {"status": "BLOCKED", "blocking": ["MISSING_BRIEF"], "release_authorized": False}
+        elif args.command == "learning":
+            result = assess_learning_update(read_json(args.brief))
+        else:
+            result = assess(read_json(args.brief))
     except (OSError, ValueError, TypeError, KeyError) as exc:
         result = {"status": "BLOCKED_DATA_ERROR", "reason": str(exc), "release_authorized": False}
     payload = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
