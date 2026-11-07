@@ -29,3 +29,9 @@ Scope: all creator niches. This is NOT Bell & Leaf-only and NOT a replacement fo
 
 ## Acceptance
 A factual research receipt is not approval of art; a structurally valid brief is only a candidate for independent editorial review. Preflight never returns release_authorized=true. Tools/tests prove deterministic checks, not that every Windows EXE agent is wired to run them.
+
+## Owned Analytics → Learning promotion preflight (never automatic)
+- Preserve each niche's own public competitor evidence separate from PRIVATE authenticated YouTube Studio measurements. A public competitor URL cannot establish competitor CTR/RPM/retention.
+- For a proposed update to script/skill rules, collect an owned experiment: same niche_id + baseline_niche_id; OWNED_YOUTUBE_STUDIO evidence, >=5 distinct comparable baseline videos on same owned channel, treatment video, exact metric/date/duration, intervention, confounders, reviewer independent of researcher, rollback reference and original source receipt.
+- Run: python tools/cf_creative_youtube_gate.py learning --brief data/your_niche/learning_event.json --out data/your_niche/learning_review.json
+- BLOCKED = no promotion. INDEPENDENT_LEARNING_REVIEW_REQUIRED = candidate for analyst/owner review only. No CLI output can write/approve a skill change, forge Studio authorization or prove causation. Version and roll back any owner-approved change before using it in the next cycle.
