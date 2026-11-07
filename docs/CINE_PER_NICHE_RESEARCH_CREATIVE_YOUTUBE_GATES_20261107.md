@@ -61,3 +61,9 @@ Always log a cross-niche or owner Canon conflict as BLOCKED instead of guessing.
 - New CLI is a formal preflight plus a skill/workflow contract; it is NOT yet demonstrated to be executed inside every legacy CineFactory Windows EXE/Claude agent. No auto publishing.
 - Existing canonical registry has 10 research niches, while additional local content package folders require separate registration. This is PARTIAL_CONTENT_ROUTING, not all-niches ready.
 - Preflight lexical gates are not a semantic plagiarism detector or a legal YouTube compliance guarantee.
+
+## Owned Analytics → Learning promotion preflight (never automatic)
+- Preserve each niche's own public competitor evidence separate from PRIVATE authenticated YouTube Studio measurements. A public competitor URL cannot establish competitor CTR/RPM/retention.
+- For a proposed update to script/skill rules, collect an owned experiment: same niche_id + baseline_niche_id; OWNED_YOUTUBE_STUDIO evidence, >=5 distinct comparable baseline videos on same owned channel, treatment video, exact metric/date/duration, intervention, confounders, reviewer independent of researcher, rollback reference and original source receipt.
+- Run: python tools/cf_creative_youtube_gate.py learning --brief data/your_niche/learning_event.json --out data/your_niche/learning_review.json
+- BLOCKED = no promotion. INDEPENDENT_LEARNING_REVIEW_REQUIRED = candidate for analyst/owner review only. No CLI output can write/approve a skill change, forge Studio authorization or prove causation. Version and roll back any owner-approved change before using it in the next cycle.
