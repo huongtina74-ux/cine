@@ -203,7 +203,7 @@ def main(argv=None) -> int:
     except (ValueError, OSError, json.JSONDecodeError) as e:
         result = {"status": "BLOCKED_DATA_ERROR", "error": str(e)}
     payload = json.dumps(result, ensure_ascii=False, indent=2)
-    print(payload)
+    print(json.dumps(result, ensure_ascii=True, indent=2))  # Windows cp1252-safe
     if args.out:
         args.out.parent.mkdir(parents=True, exist_ok=True)
         args.out.write_text(payload+"\n", encoding="utf-8")
