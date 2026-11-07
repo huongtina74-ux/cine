@@ -333,6 +333,26 @@ def evaluate(plan: dict, *, ledger_root: Path = LEDGER_ROOT,
     except (ValueError, OSError, json.JSONDecodeError) as e:
         errors.append("APPROVED_EPISODE_LEDGER_CORRUPT_" + str(e))
         entries = []
+    # Verify episode-to-episode factual state: a person, object or gate
+    # cannot silently revert to its earlier state in the next script.
+    latest_state = {}
+    for prior in entries:
+        for state in prior.get("continuity_deltas", []):
+            if isinstance(state, dict) and state.get("entity_id") and isinstance(state.get("after"), str):
+                latest_state[state["entity_id"]] = state["after"]
+    for i, delta in enumerate(changes):
+        if not isinstance(delta, dict):
+            continue
+        entity = delta.get("entity_id")
+        if entity in latest_state and textnorm(str(delta.get("before", ""))) != textnorm(latest_state[entity]):
+            errors.append(f"CONTINUITY_STATE_CONTRADICTS_APPROVED_HISTORY_{i}_{entity}")
+    dependencies = plan.get("depends_on_approved_episodes", [])
+    if not isinstance(dependencies, list):
+        errors.append("EPISODE_DEPENDENCIES_MUST_BE_A_LIST")
+        dependencies = []
+    known_episodes = {item["episode_id"] for item in entries}
+    if any(not isinstance(key, str) or key not in known_episodes for key in dependencies):
+        errors.append("EPISODE_DEPENDS_ON_UNAPPROVED_OR_MISSING_EPISODE")
     matches = compare_episodes(plan, entries) if not any(x.startswith("INVALID_EPISODE") for x in errors) else []
     if any(x["level"] in {"EXISTING_APPROVED_ID", "BLOCK_DUPLICATE"} for x in matches):
         errors.append("DUPLICATES_PRIOR_APPROVED_EPISODE")
