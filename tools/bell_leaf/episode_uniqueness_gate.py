@@ -168,6 +168,7 @@ def compare(candidate: dict, existing: list[dict]) -> dict:
         repeats = sum(normalize(x.get(field, "")) == v for x in existing if x["episode_id"] != candidate["episode_id"])
         if repeats >= 4:
             problems.append(f"NON_DISTINCT_{field.upper()}_{repeats}_PRIOR_USES")
+    matched.sort(key=lambda m: ("TITLE_EXACT" in m["signals"], len(m["signals"])), reverse=True)
     severe = any("TITLE_EXACT" in m["signals"] or
                  sum(any(sig.startswith(f) for sig in m["signals"]) for f in ("HOOK", "CONFLICT", "RESOLUTION")) >= 2
                  for m in matched)
