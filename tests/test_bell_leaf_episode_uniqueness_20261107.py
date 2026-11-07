@@ -20,7 +20,7 @@ def test_1000_cards_registered_no_false_approvals():
     ids = [c["episode_id"] for c in cards]
     assert len(cards) == len(set(ids)) == 1000
     assert ids[0] == "BL-0001" and ids[-1] == "BL-1000"
-    assert "PROPOSAL" in (ROOT / "docs/story/bell_leaf/slates/BELL_LEAF_1000_EPISODE_INDEX_PROPOSAL_20261107.csv").read_text(encoding="utf-8-sig")
+    assert "NOT_SCREENPLAY" in (ROOT / "docs/story/bell_leaf/slates/BELL_LEAF_1000_EPISODE_INDEX_PROPOSAL_20261107.csv").read_text(encoding="utf-8-sig")
     assert "NOT AN APPROVED" in gate.DEFAULT_SLATE.read_text(encoding="utf-8-sig").splitlines()[0]
     assert len({gate.normalize(c["title"]) for c in cards}) == 1000
 
@@ -75,9 +75,10 @@ def test_new_distinct_pitch_gets_review_not_automatic_approval():
     assert r["research_evidence"] == "NOT_VERIFIED_BY_THIS_TOOL"
 
 
-def test_missing_baseline_blocks(tmp_path):
+def test_missing_baseline_blocks():
+    never = ROOT / "__MISSING_BELL_LEAF_NO_SUCH_DIRECTORY_20261107"
     try:
-        gate.load(tmp_path / "missing.csv", tmp_path / "missing.md")
+        gate.load(never / "missing.csv", never / "missing.md")
     except FileNotFoundError:
         pass
     else:
