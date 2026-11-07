@@ -78,10 +78,13 @@ def blocked(b, reason):
 
 def test_registered_niches_protected_and_all_extra_local_packages_block():
     r = gate.inventory(PROFILES, REGISTRY)
-    assert r["ready_for_data_import"]
+    assert r["registered_niche_routes_valid"]
+    assert not r["ready_for_data_import"]
+    assert r["status"] == "PARTIAL_CONTENT_ROUTING"
     assert len(r["registered_research_niches"]) == 10
     assert set(r["registered_research_niches"]) == set(r["creative_profiles"])
-    assert len(r["unregistered_content_packages"]) >= 8
+    assert len(r["unregistered_content_packages"]) >= 7
+    assert len(PROFILES["missing_registry_packages"]) == 8
     assert "minecraft" in r["unregistered_content_packages"]
     assert "audio_storytelling_seniors" in r["unregistered_content_packages"]
 
