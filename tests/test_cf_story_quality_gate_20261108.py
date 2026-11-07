@@ -335,3 +335,33 @@ def test_new_factory_validates_custom_episode_id_binding():
                   "episode_id":"AUDIO-002"}
         with pytest.raises(ValueError,match="EPISODE_ID_MISMATCH"):
             gate.require_factory_stage(base,manifest,"outline",ROOT)
+
+
+def test_previous_approved_world_state_cannot_silently_reset():
+    b=plan()
+    with temp_root() as d:
+        store=Path(d)
+        fp=gate.ledger_file(b["niche_id"],b["series_id"],store)
+        fp.parent.mkdir(parents=True,exist_ok=True)
+        old={
+            "niche_id":b["niche_id"],"series_id":b["series_id"],
+            "episode_id":"BL-0400","status":"EDITORIAL_SIGNOFF_RECORDED",
+            "story_fingerprint":{"hook":"A materially unrelated earlier family encounter"},
+            "continuity_deltas":[{
+                "entity_id":"river_council_tide_ledger",
+                "before":"an empty page of an old log",
+                "after":"the harbour council already has a shared verified public tide ledger",
+            }]
+        }
+        fp.write_text(json.dumps(old,ensure_ascii=False)+"\n",encoding="utf-8")
+        r=gate.evaluate(b,ledger_root=store,check_bell_leaf_proposals=False)
+        assert any(x.startswith("CONTINUITY_STATE_CONTRADICTS_APPROVED_HISTORY") for x in r["blocking"])
+        b["continuity_deltas"][0]["before"]=old["continuity_deltas"][0]["after"]
+        r=gate.evaluate(b,ledger_root=store,check_bell_leaf_proposals=False)
+        assert not any(x.startswith("CONTINUITY_STATE_CONTRADICTS_APPROVED_HISTORY") for x in r["blocking"])
+        b["depends_on_approved_episodes"]=["BL-0500"]
+        r=gate.evaluate(b,ledger_root=store,check_bell_leaf_proposals=False)
+        assert "EPISODE_DEPENDS_ON_UNAPPROVED_OR_MISSING_EPISODE" in r["blocking"]
+        b["depends_on_approved_episodes"]=["BL-0400"]
+        r=gate.evaluate(b,ledger_root=store,check_bell_leaf_proposals=False)
+        assert "EPISODE_DEPENDS_ON_UNAPPROVED_OR_MISSING_EPISODE" not in r["blocking"]
