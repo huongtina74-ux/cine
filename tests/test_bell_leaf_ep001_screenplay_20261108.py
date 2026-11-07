@@ -73,3 +73,23 @@ def test_ep001_keeps_public_secret_and_visual_source_holds():
     memo=(EP/"EP001_STORY_EDITOR_REVIEW_NOTES_v1.md").read_text(encoding="utf-8-sig")
     assert "EP003" in memo and "DO NOT reuse" in memo
     assert "No automatic acceptance" in memo
+
+
+def test_ep001_opens_on_warm_family_life_then_explains_vey_lora():
+    acts=(EP/"EP001_ACT_I_00_09.md").read_text(encoding="utf-8")
+    assert "SC-001 — A Very Strange, Very Normal Morning" in acts
+    assert "SC-002 — One Breakfast, One Little Robot" in acts
+    assert "SC-003 — The Flower Before the Fall" in acts
+    assert "JUNO" in acts and "LIA" in acts and "EVAN" in acts
+    assert "SPARKLING SPIRAL PURPLE" in acts
+    assert "ordinary, not a magic signal" in acts
+    plan=json.loads((EP/"EP001_STORY_QUALITY_PLAN_v1.json").read_text(encoding="utf-8"))
+    assert plan["screenplay_revision"].startswith("v1.1 family-first")
+    assert "Bellfern" in plan["scenes"][0]["location"]
+    assert "Veylora" in plan["scenes"][2]["location"]
+    assert plan["scenes"][0]["start_s"]==0 and plan["scenes"][1]["end_s"]==180
+    assert plan["scenes"][10]["start_s"]==900
+    assert "same morning" in plan["scenes"][10]["location"]
+    full=(EP/"EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md").read_text(encoding="utf-8")
+    assert "FAMILY-FIRST" in full
+    assert "no ancient Earth gate" in full
