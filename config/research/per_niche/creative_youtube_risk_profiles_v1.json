@@ -1,0 +1,236 @@
+{
+  "schema": "cine.per_niche_creative_risk.v1",
+  "created_utc": "2026-11-07T00:00:00Z",
+  "policy_references": [
+    {
+      "id": "YPP_INAUTHENTIC_REUSED",
+      "url": "https://support.google.com/youtube/answer/1311392",
+      "review_type": "per_video_and_channel_originality"
+    },
+    {
+      "id": "MADE_FOR_KIDS",
+      "url": "https://support.google.com/youtube/answer/9528076",
+      "review_type": "audience_factors_not_label_gaming"
+    },
+    {
+      "id": "ALTERED_SYNTHETIC",
+      "url": "https://support.google.com/youtube/answer/14328491",
+      "review_type": "case_by_case_realistic_or_synthetic"
+    },
+    {
+      "id": "FAIR_USE",
+      "url": "https://support.google.com/youtube/answer/9783148",
+      "review_type": "not_automatic_legal_exemption"
+    }
+  ],
+  "required_research_fields": [
+    "source_id",
+    "video_url",
+    "channel_id",
+    "video_id",
+    "observed_utc",
+    "cohort",
+    "inspection_mode",
+    "mechanism",
+    "originality_difference"
+  ],
+  "required_creative_fields": [
+    "premise",
+    "audience_value",
+    "hook",
+    "primary_conflict",
+    "distinctive_payoff",
+    "originality_axes",
+    "rights_inventory"
+  ],
+  "required_policy_decisions": [
+    "made_for_kids",
+    "altered_synthetic",
+    "reused_content",
+    "inauthentic_mass_production",
+    "copyright_rights",
+    "advertiser_suitability"
+  ],
+  "publish_release": "NOT_AUTOMATICALLY_AUTHORIZED",
+  "provenance_rule": "Never pool competitor baselines across niche IDs; adjacent sources may inform hypotheses only, never direct cohort baselines; no unverified views/CTR/RPM/retention claims",
+  "profiles": {
+    "mom_grandma_family_original": {
+      "niche_id": "mom_grandma_family_original",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "ORIGINAL_FICTION",
+      "direct_cohort_key": "mom_grandma_family_original_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "personal family drama, distinct characters and resolutions",
+      "risk_focus": "Do not adapt anonymous online family confessions or Reddit stories without rights",
+      "requires_source_evidence": false,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "cozy_bedtime_fiction": {
+      "niche_id": "cozy_bedtime_fiction",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "ORIGINAL_FICTION",
+      "direct_cohort_key": "cozy_bedtime_fiction_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "new gentle bedtime story arc and own world",
+      "risk_focus": "Avoid generic repeated soothing template with minimal story variance",
+      "requires_source_evidence": false,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "everyday_history_sleep": {
+      "niche_id": "everyday_history_sleep",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "FACTUAL_HISTORY",
+      "direct_cohort_key": "everyday_history_sleep_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "historical everyday lived experience, accurate source-grounded scenes",
+      "risk_focus": "Avoid invented historical facts, quotations and audiobook reading of copyrighted materials",
+      "requires_source_evidence": true,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "historical_mysteries_sleep": {
+      "niche_id": "historical_mysteries_sleep",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "FACTUAL_HISTORY",
+      "direct_cohort_key": "historical_mysteries_sleep_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "evidence-led mystery, uncertainties and alternative explanations",
+      "risk_focus": "Separate evidence from conjecture; avoid unsourced allegations about people",
+      "requires_source_evidence": true,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "science_space_nature_sleep": {
+      "niche_id": "science_space_nature_sleep",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "FACTUAL_SCIENCE",
+      "direct_cohort_key": "science_space_nature_sleep_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "well-sourced science narrative and qualified uncertainty",
+      "risk_focus": "Avoid invented discoveries and unsupported medical/scientific claims",
+      "requires_source_evidence": true,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "slow_english_a2_story": {
+      "niche_id": "slow_english_a2_story",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "A2_GENERAL",
+      "direct_cohort_key": "slow_english_a2_story_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "original listening story, A2 comprehension and genuinely new outcomes",
+      "risk_focus": "No importing the Bell & Leaf cast, locations or world bible into general A2",
+      "requires_source_evidence": false,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "senior_retirement_finance": {
+      "niche_id": "senior_retirement_finance",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "FINANCE_EDUCATION",
+      "direct_cohort_key": "senior_retirement_finance_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "jurisdiction-and-date-specific education with clear factual limits",
+      "risk_focus": "No implied individualized investment/retirement advice or fabricated rates and guarantees",
+      "requires_source_evidence": true,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "ai_software_automation": {
+      "niche_id": "ai_software_automation",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "SOFTWARE_DEMO",
+      "direct_cohort_key": "ai_software_automation_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "demonstrated original screen workflow with version/date and tests",
+      "risk_focus": "No fabricated demonstration, unavailable capabilities or unauthorized license screenshots",
+      "requires_source_evidence": true,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "original_horror_audio": {
+      "niche_id": "original_horror_audio",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "ORIGINAL_FICTION",
+      "direct_cohort_key": "original_horror_audio_DIRECT_VERIFICATION_REQUIRED",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "original plot, atmosphere and ending with genuine scene variation",
+      "risk_focus": "No retold copyrighted horror stories or unlicensed narration",
+      "requires_source_evidence": false,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": false
+    },
+    "magical_witch_family_stories": {
+      "niche_id": "magical_witch_family_stories",
+      "registry_status": "REGISTERED_RESEARCH_NICHE",
+      "niche_mode": "BELL_LEAF",
+      "direct_cohort_key": "magical_witch_family_stories_a2_animation",
+      "source_baseline_rule": "EXACT_NICHE_ONLY",
+      "creative_goal": "Bell & Leaf owner-locked world rules and original family adventure",
+      "risk_focus": "Use four owner source documents and Bell & Leaf 1000-card uniqueness gate; never silently retcon",
+      "requires_source_evidence": false,
+      "youtube_decisions": "HUMAN_REVIEW_REQUIRED",
+      "bell_leaf_locked": true
+    }
+  },
+  "missing_registry_packages": {
+    "animal_long_slide": {
+      "package_id": "animal_long_slide",
+      "niche_mode": "GAME_ANIMATION",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "asmr_sleep_hands_objects": {
+      "package_id": "asmr_sleep_hands_objects",
+      "niche_mode": "ASMR",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "audio_storytelling_seniors": {
+      "package_id": "audio_storytelling_seniors",
+      "niche_mode": "AUDIO_CONTAINER",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "fishing_silent": {
+      "package_id": "fishing_silent",
+      "niche_mode": "SILENT_VIDEO",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "long_slices_game": {
+      "package_id": "long_slices_game",
+      "niche_mode": "GAMEPLAY",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "minecraft": {
+      "package_id": "minecraft",
+      "niche_mode": "GAMEPLAY",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "rain_sleep_white_noise": {
+      "package_id": "rain_sleep_white_noise",
+      "niche_mode": "SLEEP_AMBIENCE",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    },
+    "roblox_animation": {
+      "package_id": "roblox_animation",
+      "niche_mode": "GAME_ANIMATION",
+      "registry_status": "NOT_IN_PER_NICHE_RESEARCH_REGISTRY",
+      "routing_status": "BLOCKED_UNTIL_EXPLICIT_SUBNICHE_AND_DIRECT_COHORT",
+      "do_not_inherit_other_niches": true
+    }
+  }
+}
