@@ -295,3 +295,43 @@ def test_script_trace_and_editorial_review_require_actual_artifact_sha():
         script.write_text(script.read_text(encoding="utf-8")+"Minor changed dialogue",encoding="utf-8")
         with pytest.raises(ValueError,match="STALE"):
             gate.require_factory_stage(p,manifest,"review",ROOT)
+
+
+def test_season_slots_rotate_diverse_ideas_without_changing_canon():
+    with temp_root() as d:
+        left = gate.offer_ideas("magical_witch_family_stories","bell_leaf",12,Path(d),slot="BL-0011")
+        right = gate.offer_ideas("magical_witch_family_stories","bell_leaf",12,Path(d),slot="BL-0315")
+        assert left["status"] == right["status"] == "IDEA_SEEDS_NEED_WRITER_DEVELOPMENT"
+        assert len({r["setting"] for r in left["directions"]}) >= 3
+        assert len({r["setting"] for r in right["directions"]}) >= 3
+        assert [r["seed_signature"] for r in left["directions"]] != [
+            r["seed_signature"] for r in right["directions"]]
+        assert len({r["seed_signature"] for r in left["directions"]}) == 12
+
+
+def test_new_factory_rejects_wrong_niche_script_modes():
+    spec2 = importlib.util.spec_from_file_location("cf_factory_mode_check",ROOT/"tools/cf_script_factory.py")
+    sys.path.insert(0,str(ROOT/"tools"))
+    factory = importlib.util.module_from_spec(spec2)
+    spec2.loader.exec_module(factory)
+    with temp_root() as d:
+        arg=SimpleNamespace(id="bad_cross_mode",mode="A2_ANIMATED_SCREENPLAY",
+            niche="mom_grandma_family_original",minutes=45,writer="synthetic_writer",
+            language="en-US",root=Path(d))
+        with pytest.raises(ValueError,match="Script mode does not match"):
+            factory.initialize(arg)
+
+
+def test_new_factory_validates_custom_episode_id_binding():
+    p=plan(niche="mom_grandma_family_original",series="grandma_saga",episode="AUDIO-001")
+    with temp_root() as d:
+        root=Path(d)
+        base=root/"test_binding"
+        (base/"05_outline").mkdir(parents=True)
+        (base/"05_outline/episode_quality_plan.json").write_text(
+            json.dumps(p,ensure_ascii=False),encoding="utf-8")
+        manifest={"niche_id":"mom_grandma_family_original","mode":"ORIGINAL_FICTION",
+                  "target_minutes":45,"story_quality_contract_version":"1",
+                  "episode_id":"AUDIO-002"}
+        with pytest.raises(ValueError,match="EPISODE_ID_MISMATCH"):
+            gate.require_factory_stage(base,manifest,"outline",ROOT)
