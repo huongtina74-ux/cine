@@ -47,7 +47,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "ORIGINAL_FICTION"
+      ]
     },
     "cozy_bedtime_fiction": {
       "duration_minutes": [
@@ -93,7 +96,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "COZY_FICTION"
+      ]
     },
     "everyday_history_sleep": {
       "duration_minutes": [
@@ -139,7 +145,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "HISTORY_SLEEP"
+      ]
     },
     "historical_mysteries_sleep": {
       "duration_minutes": [
@@ -185,7 +194,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "HISTORY_SLEEP"
+      ]
     },
     "science_space_nature_sleep": {
       "duration_minutes": [
@@ -231,7 +243,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "SCIENCE_SLEEP"
+      ]
     },
     "slow_english_a2_story": {
       "duration_minutes": [
@@ -277,7 +292,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "ORIGINAL_FICTION"
+      ]
     },
     "senior_retirement_finance": {
       "duration_minutes": [
@@ -323,7 +341,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "EDUCATION"
+      ]
     },
     "ai_software_automation": {
       "duration_minutes": [
@@ -369,7 +390,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "SOFTWARE_TUTORIAL"
+      ]
     },
     "original_horror_audio": {
       "duration_minutes": [
@@ -415,7 +439,10 @@
           "evidence-led reinterpretation",
           "measured suspense"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "ORIGINAL_FICTION"
+      ]
     },
     "magical_witch_family_stories": {
       "duration_minutes": [
@@ -466,7 +493,10 @@
           "sincere family reconciliation",
           "hope after a setback"
         ]
-      }
+      },
+      "allowed_factory_modes": [
+        "A2_ANIMATED_SCREENPLAY"
+      ]
     }
   }
 }
