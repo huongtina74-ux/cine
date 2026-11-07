@@ -1,10 +1,11 @@
 # BELL & LEAF — EP001: THE BELL THAT FELL FROM THE SKY
-## Full continuous shooting screenplay — DRAFT v1.0 · 45-minute target
+## Full continuous shooting screenplay — DRAFT v1.1 FAMILY-FIRST OPENING · 45-minute target
 
 **SERIES:** Bell & Leaf / Slow English A2 — magical_witch_family_stories / BL-0001.
 **CREATIVE STATUS:** STORY_REVIEW_REQUIRED — original screenplay and 270 continuous 10.0-second PERFORMANCE/EDIT TARGET SLOTS. This is NOT an approved final sound-timed teleplay or rendered video. Full story original text is authored in English A2. Camera/rendering references must follow the nine locked original character masters, the separate Elara supporting sheet and the four owner-supplied Canon texts. No new assets for Aila are authorized.
 **TIMING:** 30 scenes × 90 seconds each = 45 minutes; each SC has nine 10-second shots; 5 acts × 9 minutes each = 2700s. Every S### is a separate 10-second continuous shot. These are timing ALLOCATIONS, not a voice sample or measured lip-sync, and may need editorial retiming. Do not paste these prose screenplay lines as Flow/Muse prompts; separate image and video prompts must be generated under the production-specific Canon/active-tag rules.
 **PRODUCTION SAFETY:** Evan and Arthur/Rose are ordinary Earth family members initially unaware of magic; no ancient Earth gate; no portable travel bell for each person. Aila is a fictional story role with ASSET_PENDING casting; any unapproved crowd faces must be offscreen or separately cleared. Bix compact turtle-pangolin ROBOT with NO bell. Bubu tiny PURPLE cat with EXACTLY ONE GOLD neck bell, continually sparkling purple spiral tail. Voice models, real actor approvals and image/video QC remain pending.
+**FAMILY-FIRST v1.1 DIRECTOR NOTE:** The first 03:00 stays in Bellfern family life; the ordinary cup clink makes Mara remember Veylora. The historical scenes are a MEMORY; the camera returns to the very same unfinished morning at SC-011, not a new day. All original owner Canon remains frozen.
 **STORY CANON:** Veylora generational regenerative decline PRECEDES deliberate sabotage; forced separation sends Orin/Mara accidentally to UNMAPPED Earth. Earth renewal is gradual and limited. Family's Earth fixed gate is built YEARS AFTER arrival and connects only to verified repaired known-world stations. Bubu's potential unknown-world echo is separate, specific, limited and does not open a portal in EP001. No antagonist real-name spoiler or forbidden secret plan appears here.
 **PUBLIC REVEAL CONTROLS:** This file intentionally does not contain any confidential real villain identity or finale detail. Aila's sister and family remain UNFOUND. The blue-stone unknown-world echo is a PROPOSED episode incident, not a Veylora-world rule change. EP001 remains independent-review and owner-approval pending.
 **REFERENCE:** EP001_STORY_QUALITY_PLAN_v1.json; tools/bell_leaf/verify_ep001_screenplay_20261108.py. Source act files are authoritative for editing; regenerate this combined reading edition when an act changes.
@@ -12,9 +13,9 @@
 ### Story-to-scene mapping
 | Global beat | Scenes | Time | Purpose |
 |---|---|---|---|
-| B01–B03 | SC-001–SC-006 | 00:00–09:00 | Long decline, catastrophe, accidental rift |
-| B04–B05 | SC-007–SC-010 | 09:00–15:00 | Earth, reunion, gradual renewal, time jump |
-| B06–B07 | SC-011–SC-014 | 15:00–21:00 | Family life, repaired fixed gate, Orin's real relay |
+| B01–B03 | SC-001–SC-006 | 00:00–09:00 | Bell family breakfast and comedy; Mara's memory opens the old Veylora decline and safety failure |
+| B04–B05 | SC-007–SC-010 | 09:00–15:00 | Catastrophe, accidental Earth arrival, reunion and gradual renewal over several days |
+| B06–B07 | SC-011–SC-014 | 15:00–21:00 | Return to same breakfast morning, grandparents, repaired station and Orin's real relay |
 | B08–B09 | SC-015–SC-018 | 21:00–27:00 | Aila's choice, faulty suitcase, lost sister |
 | B10–B12 | SC-019–SC-024 | 27:00–36:00 | Physical danger, Aila's consent, corrected repair |
 | B13–B14 | SC-025–SC-028 | 36:00–42:00 | Refuge, honest evidence, ordinary family dinner |
@@ -23,258 +24,245 @@
 ---
 
 # BELL & LEAF — EP001 · THE BELL THAT FELL FROM THE SKY
-## ACT I: THE BROKEN BELLS — 00:00–09:00
-**STATUS:** ORIGINAL SCREENPLAY / 10-SECOND SHOOTING DRAFT; STORY_REVIEW_REQUIRED; no voice/face/new-supporting-character production approvals. Source: four owner-locked files; audience English A2. Each line is one timed continuous 10-second performance shot, no on-image captions. Total Act I: 54 slots × 10s = 9m. The faceless gloved operator reveals **no identity**; no secret showrunner identity appears in this script.
+## ACT I: BELLFERN FIRST: A FAMILY BEFORE THE FALL — 00:00–09:00
+**STATUS:** English A2 10-second-shot SCREENPLAY DRAFT, owner story approval and full voice timing PENDING. Each S### is one continuous 10s target slot. Spend the first three minutes with the real Bell family. A harmless broken two-note breakfast sound recalls Mara's old home; no new supernatural world mechanic is introduced. Then return to Veylora's gradual decline and the catastrophic safety failure.
 
+### SC-001 — A Very Strange, Very Normal Morning | 00:00–01:30
+*Location:* Bell family kitchen, early morning · *CAST:* MARA, EVAN, JUNO, LIA, BIX, BUBU · *Narrative function:* Cheerful family-first cold open and an everyday sound reminding Mara of Veylora. No magical exposure to Evan.
 
-### SC-001 — The Flower Before the Fall | 00:00–01:30
+**S001 [00:00–00:10]** The Bell family kitchen is bright and busy. Bix taps a metal spoon against a cup. Its strange TWO-NOTE CLINK makes Mara stop smiling, while the others laugh. The sound is ordinary, not a magic signal.
+
+**S002 [00:10–00:20]** EVAN checks his normal postman bag beside breakfast. EVAN: 'Good morning, everyone. I have letters for half the town today.'
+
+**S003 [00:20–00:30]** JUNO, a thirteen-year-old BOY, proudly holds a homemade tray. JUNO: 'Dad, Bix can carry the toast now. I tested him yesterday.'
+
+**S004 [00:30–00:40]** EVAN: 'Can he carry it without feeding the floor?' Bix turns his small turtle-pangolin robot head. BIX: 'Working on that.'
+
+**S005 [00:40–00:50]** LIA, an eleven-year-old GIRL, watches a bird on the sill. LIA: 'The bird is back. I think it wants some water.'
+
+**S006 [00:50–01:00]** Behind a low stool, BUBU has exactly ONE GOLD collar bell and a continuously SPARKLING SPIRAL PURPLE tail. Only Lia sees this; Bubu stays silent and Evan sees nothing impossible.
+
+**S007 [01:00–01:10]** MARA joins Evan at the table. MARA: 'We have breakfast, letters, and two children to get to school. What could go wrong?'
+
+**S008 [01:10–01:20]** Juno moves Bix beside the bowls. The spoon makes the SAME uneven clink against a cup. Mara glances at a living Veylora cutting with an old brown SCAR from its earlier damage.
+
+**S009 [01:20–01:30]** EVAN sees her pause. EVAN: 'Mara? Are you all right?' MARA: 'Yes. That little sound reminded me of home.' Her fingers touch the scarred leaf.
+
+### SC-002 — One Breakfast, One Little Robot | 01:30–03:00
+*Location:* Bell family kitchen, same present morning · *CAST:* MARA, EVAN, JUNO, LIA, BIX, BUBU · *Narrative function:* Warm comedy, Juno's first mechanical error and the natural memory transition.
+
+**S010 [01:30–01:40]** BIX, Juno's small turtle-pangolin robot with NO bell, rolls across the clear kitchen floor to deliver one more spoon. BIX: 'Breakfast delivery, take two.'
+
+**S011 [01:40–01:50]** BIX: 'Breakfast delivery ready.' The spoon tips, drops into a bowl, and splashes a small amount of milk. Juno makes a face.
+
+**S012 [01:50–02:00]** JUNO: 'That is not how I planned it.' LIA: 'Bix was trying to help.' BIX: 'I confirm. Helpful intent detected.'
+
+**S013 [02:00–02:10]** BUBU, the tiny purple cat with one gold neck bell and continuously SPARKLING SPIRAL tail, watches from a chair and stifles a giggle. — LIA (whisper): "Your tail is very bright today. Sit quietly, little friend."
+
+**S014 [02:10–02:20]** Evan glances at the small robot. EVAN: 'Your machine needs a better road, Juno.' Juno puts down a towel to absorb the milk.
+
+**S015 [02:20–02:30]** Bubu rubs against Lia's hand and stays silent within Evan's hearing. Lia whispers: 'Not now, Bubu. Dad is right here.'
+
+**S016 [02:30–02:40]** Mara notices Juno hiding a tool under a napkin. MARA: 'If something breaks, tell us first.' JUNO: 'Even a small thing?'
+
+**S017 [02:40–02:50]** MARA: 'Especially a small thing. A small problem can grow.' Juno apologizes and fixes Bix's carrying tray with a proper clip.
+
+**S018 [02:50–03:00]** The family finishes laughing together. Evan tells a gentle joke about the mail route; Mara touches the scar on her healthy Veylora plant. The ordinary clink turns into a MEMORY of the broken bell from long ago.
+
+### SC-003 — The Flower Before the Fall | 03:00–04:30
 *Location:* Veylora / Mara's small garden · *CAST:* MARA, ORIN · *Narrative function:* Veylora's long-term decline.
 
-**S001 [00:00–00:10]** An immense forest is bright above but dim near its roots. A purple blossom slowly folds inward; the surrounding insects stop singing. No exposition yet.
+**S019 [03:00–03:10]** An immense forest is bright above but dim near its roots. A purple blossom slowly folds inward; the surrounding insects stop singing. No exposition yet.
 
-**S002 [00:10–00:20]** MARA, holding a tiny green branch, touches its dry edge. MARA: 'Yesterday, this flower was open. Today, it cannot hold its light.'
+**S020 [03:10–03:20]** MARA, holding a tiny green branch, touches its dry edge. MARA: 'Yesterday, this flower was open. Today, it cannot hold its light.'
 
-**S003 [00:20–00:30]** Her palm produces a weak warm glimmer; it vanishes before reaching the roots. MARA: 'I gave it water. I gave it care. What is missing?'
+**S021 [03:20–03:30]** Her palm produces a weak warm glimmer; it vanishes before reaching the roots. MARA: 'I gave it water. I gave it care. What is missing?'
 
-**S004 [00:30–00:40]** ORIN kneels rather than standing above her. ORIN: 'Not care, Mara. I think the whole land is tired.' His hand rests on the soil.
+**S022 [03:30–03:40]** ORIN kneels rather than standing above her. ORIN: 'Not care, Mara. I think the whole land is tired.' His hand rests on the soil.
 
-**S005 [00:40–00:50]** Mara tests another leaf without magic. It bends but does not break. MARA: 'It is still alive. That means we have time.'
+**S023 [03:40–03:50]** Mara tests another leaf without magic. It bends but does not break. MARA: 'It is still alive. That means we have time.'
 
-**S006 [00:50–01:00]** Orin reveals a simple hand-held tuning instrument, NOT a personal travel bell. Its little needle wavers in silence. ORIN: 'Listen.'
+**S024 [03:50–04:00]** Orin reveals a simple hand-held tuning instrument, NOT a personal travel bell. Its little needle wavers in silence. ORIN: 'Listen.'
 
-**S007 [01:00–01:10]** A distant fixed station bell sounds a weak low note, followed by a rough second note. Mara and Orin look toward the old road. — ORIN: "The bell is trying to answer. But the note is weak."
+**S025 [04:00–04:10]** A distant fixed station bell sounds a weak low note, followed by a rough second note. Mara and Orin look toward the old road. — ORIN: "The bell is trying to answer. But the note is weak."
 
-**S008 [01:10–01:20]** MARA: 'That bell was clear when I was small.' ORIN: 'The bells use the same Living Current as the forest.'
+**S026 [04:10–04:20]** MARA: 'That bell was clear when I was small.' ORIN: 'The bells use the same Living Current as the forest.'
 
-**S009 [01:20–01:30]** Orin carries the dying branch carefully in cloth. ORIN: 'Come with me. I want you to see what we found.'
+**S027 [04:20–04:30]** Orin carries the dying branch carefully in cloth. ORIN: 'Come with me. I want you to see what we found.'
 
-
-### SC-002 — The Measure of a Weak World | 01:30–03:00
+### SC-004 — The Measure of a Weak World | 04:30–06:00
 *Location:* Veylora / research hall and old fixed station · *CAST:* MARA, ORIN · *Narrative function:* Veylora's long-term decline.
 
-**S010 [01:30–01:40]** A hand-drawn chart shows many seasons of falling measurements, not a sudden unexplained event. The living roots beside the chart are thin. — MARA: "These numbers fall every year. I did not notice before."
+**S028 [04:30–04:40]** A hand-drawn chart shows many seasons of falling measurements, not a sudden unexplained event. The living roots beside the chart are thin. — MARA: "These numbers fall every year. I did not notice before."
 
-**S011 [01:40–01:50]** MARA: 'These marks are old. So this did not begin today.' ORIN: 'No. It has been happening for a long time.'
+**S029 [04:40–04:50]** MARA: 'These marks are old. So this did not begin today.' ORIN: 'No. It has been happening for a long time.'
 
-**S012 [01:50–02:00]** Orin demonstrates a small protective charm. He rests after a few seconds. ORIN: 'A stronger spell does not make the power come back.'
+**S030 [04:50–05:00]** Orin demonstrates a small protective charm. He rests after a few seconds. ORIN: 'A stronger spell does not make the power come back.'
 
-**S013 [02:00–02:10]** MARA: 'Then we must stop wasting it.' She gently closes an empty study lamp; the room becomes quieter without becoming dark.
+**S031 [05:00–05:10]** MARA: 'Then we must stop wasting it.' She gently closes an empty study lamp; the room becomes quieter without becoming dark.
 
-**S014 [02:10–02:20]** A fixed travel station rises outside, its bell mounted OVER the doorway. A traveler uses the station controls, not an individual bell. — ORIN: "That is an old road. It needs a working station."
+**S032 [05:10–05:20]** A fixed travel station rises outside, its bell mounted OVER the doorway. A traveler uses the station controls, not an individual bell. — ORIN: "That is an old road. It needs a working station."
 
-**S015 [02:20–02:30]** ORIN: 'We went to places with strong fire, water, and wind. Each place taught us something.' He indicates three ordinary sample stones.
+**S033 [05:20–05:30]** ORIN: 'We went to places with strong fire, water, and wind. Each place taught us something.' He indicates three ordinary sample stones.
 
-**S016 [02:30–02:40]** MARA: 'But our people are still weak.' ORIN: 'Yes. Learning a new skill is not the same as healing the source.'
+**S034 [05:30–05:40]** MARA: 'But our people are still weak.' ORIN: 'Yes. Learning a new skill is not the same as healing the source.'
 
-**S017 [02:40–02:50]** A repair worker checks the fixed station's safety latch. The latch moves stiffly. Orin asks it to remain closed until verified. — ORIN: "Please keep the safety lock shut until we test it."
+**S035 [05:40–05:50]** A repair worker checks the fixed station's safety latch. The latch moves stiffly. Orin asks it to remain closed until verified. — ORIN: "Please keep the safety lock shut until we test it."
 
-**S018 [02:50–03:00]** MARA: 'Can another world help?' ORIN: 'Maybe. But first, we must learn what life needs to grow again.'
+**S036 [05:50–06:00]** MARA: 'Can another world help?' ORIN: 'Maybe. But first, we must learn what life needs to grow again.'
 
-
-### SC-003 — Hope Comes Home | 03:00–04:30
+### SC-005 — Hope Comes Home | 06:00–07:30
 *Location:* Veylora / old-world expedition dock and family archive · *CAST:* MARA, ORIN, ELARA (support asset check) · *Narrative function:* Veylora's long-term decline.
 
-**S019 [03:00–03:10]** An expedition returns through a VERIFIED fixed gate. Its travelers carry sealed water jars and harmless plant samples; no unknown-world passage. — MARA: "You came back safely. Did the new samples help anyone?"
+**S037 [06:00–06:10]** An expedition returns through a VERIFIED fixed gate. Its travelers carry sealed water jars and harmless plant samples; no unknown-world passage. — MARA: "You came back safely. Did the new samples help anyone?"
 
-**S020 [03:10–03:20]** MARA carefully takes one water sample. MARA: 'Did the people there help you?' ORIN: 'They shared what they could. We thanked them.'
+**S038 [06:10–06:20]** MARA carefully takes one water sample. MARA: 'Did the people there help you?' ORIN: 'They shared what they could. We thanked them.'
 
-**S021 [03:20–03:30]** ELARA appears at a family table with a worn map, her supporting reference requiring separate visual approval. ELARA: 'Let us test each sample slowly.'
+**S039 [06:20–06:30]** ELARA appears at a family table with a worn map, her supporting reference requiring separate visual approval. ELARA: 'Let us test each sample slowly.'
 
-**S022 [03:30–03:40]** Mara drops some water into the dry branch's pot. Nothing happens at once. Mara resists casting another strong spell. — MARA: "No change yet. I will not use more magic on it."
+**S040 [06:30–06:40]** Mara drops some water into the dry branch's pot. Nothing happens at once. Mara resists casting another strong spell. — MARA: "No change yet. I will not use more magic on it."
 
-**S023 [03:40–03:50]** ELARA: 'Do not blame the seed. A tired seed needs the right place and the right time.' Mara stores this lesson.
+**S041 [06:40–06:50]** ELARA: 'Do not blame the seed. A tired seed needs the right place and the right time.' Mara stores this lesson.
 
-**S024 [03:50–04:00]** Orin compares two samples. ORIN: 'This water helps a little. That stone helps us carry heat. Neither repairs the whole cycle.'
+**S042 [06:50–07:00]** Orin compares two samples. ORIN: 'This water helps a little. That stone helps us carry heat. Neither repairs the whole cycle.'
 
-**S025 [04:00–04:10]** MARA: 'Then our search is not over.' She marks an untested question on the map without adding a new destination.
+**S043 [07:00–07:10]** MARA: 'Then our search is not over.' She marks an untested question on the map without adding a new destination.
 
-**S026 [04:10–04:20]** Outside, the fixed bell starts ringing without the station being used. The family stops speaking as the sound grows uneven. — ELARA: "Why is it ringing? No traveler is waiting at the gate."
+**S044 [07:10–07:20]** Outside, the fixed bell starts ringing without the station being used. The family stops speaking as the sound grows uneven. — ELARA: "Why is it ringing? No traveler is waiting at the gate."
 
-**S027 [04:20–04:30]** ORIN: 'Nobody should travel now.' He steps toward the safety desk while Mara protects the living samples.
+**S045 [07:20–07:30]** ORIN: 'Nobody should travel now.' He steps toward the safety desk while Mara protects the living samples.
 
-
-### SC-004 — The Wrong Note | 04:30–06:00
+### SC-006 — The Wrong Note | 07:30–09:00
 *Location:* Veylora / central bell network and streets · *CAST:* MARA, ORIN; unidentified operator only as faceless glove · *Narrative function:* the deliberate catastrophic trigger, forced separation and accident.
 
-**S028 [04:30–04:40]** A close shot of a safety limit switch in the central machinery. A GLOVED HAND pushes past the warning mark; no identity or voice is shown.
+**S046 [07:30–07:40]** A close shot of a safety limit switch in the central machinery. A GLOVED HAND pushes past the warning mark; no identity or voice is shown.
 
-**S029 [04:40–04:50]** Resonance travels through copper rings like waves moving against a river. One light goes red; the operators' faces remain outside frame.
+**S047 [07:40–07:50]** Resonance travels through copper rings like waves moving against a river. One light goes red; the operators' faces remain outside frame.
 
-**S030 [04:50–05:00]** An older fixed station bell answers the central signal by itself. Orin hears two notes beating against each other. — ORIN: "The old station is answering a call nobody asked it to make."
+**S048 [07:50–08:00]** An older fixed station bell answers the central signal by itself. Orin hears two notes beating against each other. — ORIN: "The old station is answering a call nobody asked it to make."
 
-**S031 [05:00–05:10]** ORIN: 'That is not a normal call.' MARA: 'Can you stop it?' ORIN: 'I must reach the safety bell first.'
+**S049 [08:00–08:10]** ORIN: 'That is not a normal call.' MARA: 'Can you stop it?' ORIN: 'I must reach the safety bell first.'
 
-**S032 [05:10–05:20]** Mara moves children and neighbors off the crossing road; crowd faces stay unidentifiable and production assets remain on hold. — MARA: "Stay behind me. The stone road is not safe now."
+**S050 [08:10–08:20]** Mara moves children and neighbors off the crossing road; crowd faces stay unidentifiable and production assets remain on hold. — MARA: "Stay behind me. The stone road is not safe now."
 
-**S033 [05:20–05:30]** The first known-world gate opens without a chosen traveler; its path shows a mapped harbor before shaking. Nobody enters this unstable door. — ORIN: "Do not enter. We cannot tell where that door will lead."
+**S051 [08:20–08:30]** The first known-world gate opens without a chosen traveler; its path shows a mapped harbor before shaking. Nobody enters this unstable door. — ORIN: "Do not enter. We cannot tell where that door will lead."
 
-**S034 [05:30–05:40]** ORIN: 'Close the gate! Move away from the stone!' He holds the railing as the station trembles.
+**S052 [08:30–08:40]** ORIN: 'Close the gate! Move away from the stone!' He holds the railing as the station trembles.
 
-**S035 [05:40–05:50]** Mara picks up the wrapped Veylora branch; another leaf tears away in the strong wind. MARA: 'The small ones first. This way!'
+**S053 [08:40–08:50]** Mara picks up the wrapped Veylora branch; another leaf tears away in the strong wind. MARA: 'The small ones first. This way!'
 
-**S036 [05:50–06:00]** The central bell drops one terrible false note. The lights of Veylora dim unevenly, and a long fracture appears in the sky.
-
-
-### SC-005 — The Roads Break | 06:00–07:30
-*Location:* Veylora / evacuation square and gate bridge · *CAST:* MARA, ORIN, ELARA (asset check) · *Narrative function:* the deliberate catastrophic trigger, forced separation and accident.
-
-**S037 [06:00–06:10]** Several VERIFIED old gates briefly show recognizable already-mapped places; the routes shudder and shut before anyone can rely on them.
-
-**S038 [06:10–06:20]** A thin crack opens where no station stands. Its view is dark and unknown, DIFFERENT from a known gate. ORIN: 'That is not on our map.'
-
-**S039 [06:20–06:30]** ELARA helps people reach an ordinary stone shelter, not an untested portal. ELARA: 'Keep together. Hold the rail.'
-
-**S040 [06:30–06:40]** Mara returns for a child who dropped a scarf. She guides the child to ELARA, then turns toward Orin and the failing bell. — ELARA: "I have the child. Mara, keep helping the others."
-
-**S041 [06:40–06:50]** ORIN: 'Do not touch the open gate!' MARA: 'I am going to help you at the safety wheel.' She refuses to abandon him.
-
-**S042 [06:50–07:00]** A street stone breaks into two; adults and belongings are pulled toward a passing rift. The camera follows a dropped lantern, not new faces. — MARA: "Hold on to the rail! Do not follow the light."
-
-**S043 [07:00–07:10]** The last intact fixed bell is struck for a controlled emergency stop, but its tone cannot quiet every damaged line. — ORIN: "The safety bell is not enough. More roads are breaking."
-
-**S044 [07:10–07:20]** ELARA calls from the shelter edge: 'Mara!' Mara reaches for her but a wall of light divides the path. ELARA stays behind helping others.
-
-**S045 [07:20–07:30]** Orin sees the unknown tear rushing toward Mara. ORIN: 'Mara, take my hand!' He throws a protective circle with little strength left.
-
-
-### SC-006 — Two Falling Stars | 07:30–09:00
-*Location:* Veylora / collapse into uncharted rift · *CAST:* MARA, ORIN; ELARA offscreen · *Narrative function:* the deliberate catastrophic trigger, forced separation and accident.
-
-**S046 [07:30–07:40]** Mara takes Orin's hand; a fragment of the broken plant pot spins between them. The shield bends but does not close the world fracture. — MARA: "Father, please do not let go of my hand!"
-
-**S047 [07:40–07:50]** MARA: 'What about Mother?' ORIN: 'I cannot see her now. But I will not stop looking.' He struggles to keep the circle small.
-
-**S048 [07:50–08:00]** The fixed station under them tears free from the ground; its bell remains attached to the ruin, NEVER carried as a travel bell. — ORIN: "The station is falling. This road cannot hold us."
-
-**S049 [08:00–08:10]** From afar, an unseen crowd calls for help; the sound goes thin as unknown rifts pull pieces of the square in different directions. — ELARA (offscreen): "Take the children to the shelter! Stay away from the square!"
-
-**S050 [08:10–08:20]** MARA: 'We cannot save everyone like this.' ORIN: 'Hold on. We can save one another first.' Their hands slip.
-
-**S051 [08:20–08:30]** Orin makes a final protective gesture. The circle divides into two soft lights aimed at the SAME unfamiliar world, not a chosen destination. — ORIN: "This shield can only cover us. I am so sorry."
-
-**S052 [08:30–08:40]** Mara disappears into a rushing dark passage, still clutching the wrapped stem. Her hand reaches back into empty air. — MARA: "Mother! Where are you? I cannot see you anymore!"
-
-**S053 [08:40–08:50]** Orin falls through a separate portion of the same natural breach. There is no control panel and no map of the destination. — ORIN: "I am still here, Mara. Keep breathing. Keep breathing."
-
-**S054 [08:50–09:00]** Cut through black and quiet. One real bird call is heard for the first time, coming from Earth; a single green leaf lands in water.
-
-
+**S054 [08:50–09:00]** The central bell drops one terrible false note. The lights of Veylora dim unevenly, and a long fracture appears in the sky.
 
 ---
 
-# BELL & LEAF — EP001 · ACT II: THE PLACE THAT HEALED US — 09:00–18:00
-**STATUS:** Screenplay/shot draft, pending owner story approval. Earth arrival is accidental; reunion takes physical action; first visible new growth takes days. Evan, Arthur and Rose remain unaware of magic. Six scenes × nine 10-second takes.
+# BELL & LEAF — EP001 · THE BELL THAT FELL FROM THE SKY
+## ACT II: THE ROAD TO A SECOND HOME — 09:00–18:00
+**STATUS:** English A2 10-second-shot SCREENPLAY DRAFT, owner story approval and full voice timing PENDING. Each S### is one continuous 10s target slot. Veylora's failing known stations and uncharted rifts scatter the family. Orin and Mara arrive accidentally on unmapped Earth, reunite through physical evidence, and see gradual natural renewal. The Bell house returns to the same present morning.
 
+### SC-007 — The Last Road Breaks | 09:00–10:30
+*Location:* Veylora evacuation square, old fixed gate bridge, uncontrolled rift · *CAST:* MARA, ORIN, ELARA (support asset hold), anonymous civilian silhouettes · *Narrative function:* Known gates fail; Elara stays to help others; Orin and Mara accidentally fall toward unmapped Earth.
 
-### SC-007 — The Strange River | 09:00–10:30
+**S055 [09:00–09:10]** The fixed KNOWN-world station flickers between mapped destinations. A separate crack opens where NO BELL STATION EXISTS. ORIN: 'That crack is not on our map.'
+
+**S056 [09:10–09:20]** ELARA guides frightened people into an ordinary stone shelter. ELARA: 'Stay close. Take the children inside. Do not run toward the bells.'
+
+**S057 [09:20–09:30]** Mara brings a lost child and scarf safely back to Elara. MARA: 'Please stay with my mother. You will be safer here.'
+
+**S058 [09:30–09:40]** Orin strikes the last safety bell mounted at a FIXED station. Its note fails against the broken network. ORIN: 'The old roads are breaking. I cannot stop them.'
+
+**S059 [09:40–09:50]** The street splits between Elara and Mara. Elara stays to help other evacuees, and her fate remains UNKNOWN. MARA: 'Mother! I cannot reach you!'
+
+**S060 [09:50–10:00]** An uncontrolled rift pulls Mara toward it. Orin catches her hand with a small, weak protective circle. ORIN: 'Mara! Take my hand!'
+
+**S061 [10:00–10:10]** Elara's distant voice reaches them through the wind. ELARA: 'Help each other! I will keep the others safe!' The ground breaks farther apart.
+
+**S062 [10:10–10:20]** Mara and Orin lose their grip as Orin's fading shield divides around TWO falls through the SAME uncharted rupture. Neither chooses a destination or operates a travel bell.
+
+**S063 [10:20–10:30]** All the bell sounds stop. A real bird calls beside moving water. The wrapped Veylora branch falls near an unfamiliar creek; the next scene begins on Earth.
+
+### SC-008 — The Strange River | 10:30–12:00
 *Location:* Unmapped Earth / creek and woodland · *Roles:* MARA · *Production:* cinematic 16:9, 10s shots; no text/subtitle printed on images.
 
-**S055 [09:00–09:10]** Mara wakes on damp grass beside a creek. Her first breath is full of cold ordinary air. There are birds instead of ringing stations. — MARA: "The air is different. The birds sound close to me."
+**S064 [10:30–10:40]** Mara wakes on damp grass beside a creek. Her first breath is full of cold ordinary air. There are birds instead of ringing stations. — MARA: "The air is different. The birds sound close to me."
 
-**S056 [09:10–09:20]** MARA: 'Father?' She waits; only water answers. She reaches for the ruined branch under her arm, still safely wrapped.
+**S065 [10:40–10:50]** MARA: 'Father?' She waits; only water answers. She reaches for the ruined branch under her arm, still safely wrapped.
 
-**S057 [09:20–09:30]** A smooth stone slips under her boot. She steadies herself using her hands, not a powerful spell. MARA: 'Where am I?'
+**S066 [10:50–11:00]** A smooth stone slips under her boot. She steadies herself using her hands, not a powerful spell. MARA: 'Where am I?'
 
-**S058 [09:30–09:40]** She searches for a gate mark in the rocks. Nothing is carved there; the sky and grass look entirely unknown. — MARA: "No mark, no road, not even one small gate sign."
+**S067 [11:00–11:10]** She searches for a gate mark in the rocks. Nothing is carved there; the sky and grass look entirely unknown. — MARA: "No mark, no road, not even one small gate sign."
 
-**S059 [09:40–09:50]** MARA: 'This place has no bell road.' She checks a tiny compass from Veylora; its signal is nearly blank.
+**S068 [11:10–11:20]** MARA: 'This place has no bell road.' She checks a tiny compass from Veylora; its signal is nearly blank.
 
-**S060 [09:50–10:00]** Mara holds the compass to her ear. She hears no reply and does not pretend she can call her father. — MARA: "If Father can hear me, I need to keep moving."
+**S069 [11:20–11:30]** Mara holds the compass to her ear. She hears no reply and does not pretend she can call her father. — MARA: "If Father can hear me, I need to keep moving."
 
-**S061 [10:00–10:10]** She climbs a gentle bank, spots a distant human farm, then hides before walking closer. She knows nothing about its people yet. — MARA: "People live here. I must be careful around them."
+**S070 [11:30–11:40]** She climbs a gentle bank, spots a distant human farm, then hides before walking closer. She knows nothing about its people yet. — MARA: "People live here. I must be careful around them."
 
-**S062 [10:10–10:20]** A light breeze moves normal green leaves. Her drained hand glows once and flickers out. Mara holds her chest, dizzy. — MARA: "My hand feels empty. I cannot use that power again."
+**S071 [11:40–11:50]** A light breeze moves normal green leaves. Her drained hand glows once and flickers out. Mara holds her chest, dizzy. — MARA: "My hand feels empty. I cannot use that power again."
 
-**S063 [10:20–10:30]** MARA: 'First I need water. Then I will find him.' She uses the creek carefully, tests it, and follows its safer path.
+**S072 [11:50–12:00]** MARA: 'First I need water. Then I will find him.' She uses the creek carefully, tests it, and follows its safer path.
 
-
-### SC-008 — The Sound Across the Water | 10:30–12:00
+### SC-009 — The Sound Across the Water | 12:00–13:30
 *Location:* Earth / wooded slope and creek crossing · *Roles:* MARA, ORIN · *Production:* cinematic 16:9, 10s shots; no text/subtitle printed on images.
 
-**S064 [10:30–10:40]** Orin wakes among tall ferns away from Mara. His cloak is torn, and his protective circle has fully faded. — ORIN: "The world is quiet. I hope Mara hears this river too."
+**S073 [12:00–12:10]** Orin wakes among tall ferns away from Mara. His cloak is torn, and his protective circle has fully faded. — ORIN: "The world is quiet. I hope Mara hears this river too."
 
-**S065 [10:40–10:50]** ORIN: 'Mara!' The word returns as a small natural echo. He takes a breath and studies the ground instead of casting blindly.
+**S074 [12:10–12:20]** ORIN: 'Mara!' The word returns as a small natural echo. He takes a breath and studies the ground instead of casting blindly.
 
-**S066 [10:50–11:00]** He finds the mark of a broken pot on the shore. ORIN: 'She carried the little tree. The soil came with her.'
+**S075 [12:20–12:30]** He finds the mark of a broken pot on the shore. ORIN: 'She carried the little tree. The soil came with her.'
 
-**S067 [11:00–11:10]** A pair of wet footprints crosses a patch of mud. Orin compares their size with Mara's boots and follows at ordinary walking speed. — ORIN: "The small pieces of soil lead away from the water."
+**S076 [12:30–12:40]** A pair of wet footprints crosses a patch of mud. Orin compares their size with Mara's boots and follows at ordinary walking speed. — ORIN: "The small pieces of soil lead away from the water."
 
-**S068 [11:10–11:20]** Mara hears a distant call. She freezes, afraid it may be the broken bell. Then the call becomes clear. — MARA: "I know that voice. I need to listen, not run."
+**S077 [12:40–12:50]** Mara hears a distant call. She freezes, afraid it may be the broken bell. Then the call becomes clear. — MARA: "I know that voice. I need to listen, not run."
 
-**S069 [11:20–11:30]** MARA: 'Father? Is that you?' ORIN: 'Stay where you are. The water is deep beside the stones.'
+**S078 [12:50–13:00]** MARA: 'Father? Is that you?' ORIN: 'Stay where you are. The water is deep beside the stones.'
 
-**S070 [11:30–11:40]** They see each other across the creek but do not jump. Orin points out a low crossing, and Mara carefully follows it. — ORIN: "The flat stones are safe. Come one step at a time."
+**S079 [13:00–13:10]** They see each other across the creek but do not jump. Orin points out a low crossing, and Mara carefully follows it. — ORIN: "The flat stones are safe. Come one step at a time."
 
-**S071 [11:40–11:50]** They embrace. Mara wants immediate answers; Orin does not invent them. MARA: 'Where is Mother?' ORIN: 'I do not know yet.'
+**S080 [13:10–13:20]** They embrace. Mara wants immediate answers; Orin does not invent them. MARA: 'Where is Mother?' ORIN: 'I do not know yet.'
 
-**S072 [11:50–12:00]** Mara hides her face against his shoulder, then steps back. MARA: 'We will look for her.' ORIN: 'And for everyone.'
+**S081 [13:20–13:30]** Mara hides her face against his shoulder, then steps back. MARA: 'We will look for her.' ORIN: 'And for everyone.'
 
-
-### SC-009 — The Branch That Took Its Time | 12:00–13:30
+### SC-010 — The Branch That Took Its Time | 13:30–15:00
 *Location:* Earth / temporary safe camp beside living soil · *Roles:* MARA, ORIN · *Production:* cinematic 16:9, 10s shots; no text/subtitle printed on images.
 
-**S073 [12:00–12:10]** Orin and Mara set up a small shelter out of view of the farm, without creating a magical home out of nothing. — MARA: "A small shelter will help until we learn about this place."
+**S082 [13:30–13:40]** Orin and Mara set up a small shelter out of view of the farm, without creating a magical home out of nothing. — MARA: "A small shelter will help until we learn about this place."
 
-**S074 [12:10–12:20]** Mara places the nearly dead branch in Earth soil by the creek. She covers it with loose leaves to keep it from drying. — ORIN: "Put the branch in the shade. The leaves are very dry."
+**S083 [13:40–13:50]** Mara places the nearly dead branch in Earth soil by the creek. She covers it with loose leaves to keep it from drying. — ORIN: "Put the branch in the shade. The leaves are very dry."
 
-**S075 [12:20–12:30]** ORIN: 'It may not live.' MARA: 'I know. But we can give it a chance.' No light flashes from the planting.
+**S084 [13:50–14:00]** ORIN: 'It may not live.' MARA: 'I know. But we can give it a chance.' No light flashes from the planting.
 
-**S076 [12:30–12:40]** They make marks in a small notebook: soil, shade, fresh water, and where the branch sits. This becomes real evidence for later research. — MARA: "I will write down the water and the light each day."
+**S085 [14:00–14:10]** They make marks in a small notebook: soil, shade, fresh water, and where the branch sits. This becomes real evidence for later research. — MARA: "I will write down the water and the light each day."
 
-**S077 [12:40–12:50]** Time passes through a natural montage of morning, evening, and light rain. The branch stays weak for several days, not seconds. — ORIN: "Another morning. Still no new leaf. We must be patient."
+**S086 [14:10–14:20]** Time passes through a natural montage of morning, evening, and light rain. The branch stays weak for several days, not seconds. — ORIN: "Another morning. Still no new leaf. We must be patient."
 
-**S078 [12:50–13:00]** Mara checks her own magic. A small circle of light lasts a little longer than before; she stops before she feels tired. — MARA: "I can make one light now. It is stronger than before."
+**S087 [14:20–14:30]** Mara checks her own magic. A small circle of light lasts a little longer than before; she stops before she feels tired. — MARA: "I can make one light now. It is stronger than before."
 
-**S079 [13:00–13:10]** ORIN: 'It is growing back slowly.' MARA: 'My strength?' ORIN: 'Yes. The same small change, day after day.'
+**S088 [14:30–14:40]** ORIN: 'It is growing back slowly.' MARA: 'My strength?' ORIN: 'Yes. The same small change, day after day.'
 
-**S080 [13:10–13:20]** A tiny new leaf finally opens on the Veylora branch. Mara almost laughs, then cries quietly because the home she lost is still far away. — ORIN: "Look at that green tip. We have a reason to hope."
+**S089 [14:40–14:50]** A tiny new leaf finally opens on the Veylora branch. Mara almost laughs, then cries quietly because the home she lost is still far away. — ORIN: "Look at that green tip. We have a reason to hope."
 
-**S081 [13:20–13:30]** MARA: 'We found hope. But our people are still lost.' ORIN: 'Then we will protect this place while we learn.'
+**S090 [14:50–15:00]** MARA: 'We found hope. But our people are still lost.' ORIN: 'Then we will protect this place while we learn.'
 
+### SC-011 — We Still Have a Morning Together | 15:00–16:30
+*Location:* Bell family kitchen and front garden, SAME present morning after Mara's memory · *CAST:* MARA, EVAN, JUNO, LIA, BIX, BUBU · *Narrative function:* Return to Earth life without another invented time jump or Evan's magic reveal.
 
-### SC-010 — A Door Built Years Later | 13:30–15:00
-*Location:* Bellfern, Earth / family house and garden; visible time passage · *Roles:* MARA, EVAN, JUNO, LIA · *Production:* cinematic 16:9, 10s shots; no text/subtitle printed on images.
+**S091 [15:00–15:10]** MATCH CUT: the little leaf growing in Earth's soil in the past becomes the healthy Veylora plant beside Mara's Bellfern kitchen window. The old brown SCAR remains. Mara draws her hand back; family laughter returns.
 
-**S082 [13:30–13:40]** A match cut takes the small Veylora leaf to a healthy potted plant at a well-kept family home: many years have passed.
+**S092 [15:10–15:20]** EVAN: 'That old home must mean a lot to you.' MARA: 'It did. And this home means a lot too.' Evan smiles gently.
 
-**S083 [13:40–13:50]** Evan, the ordinary father and mail carrier, sorts his route bag at the kitchen door. EVAN: 'There are letters for the whole town today.'
+**S093 [15:20–15:30]** JUNO reaches for his tool box. JUNO: 'Can I finish one more test before school?' MARA: 'After school. Your bag first.'
 
-**S084 [13:50–14:00]** Mara waters a real kitchen plant by hand. MARA: 'Good morning. Did you sleep well?' EVAN: 'I would, if someone fixed the stairs.'
+**S094 [15:30–15:40]** LIA leaves a little clean water beside the garden window. LIA: 'There. The bird can drink while we are gone.' BUBU watches from behind a curtain.
 
-**S085 [14:00–14:10]** Juno, a thirteen-year-old BOY, tests a small wheel on his desk. JUNO: 'I fixed the stairs yesterday.' The step squeaks loudly.
+**S095 [15:40–15:50]** BIX tests the small serving clip again. JUNO: 'I tightened it. It should be much better now.' BIX: 'Please check twice.'
 
-**S086 [14:10–14:20]** Eleven-year-old Lia enters with a school bag. LIA: 'Maybe fix them one more time.' Evan smiles instead of becoming angry.
+**S096 [15:50–16:00]** EVAN closes his ordinary postman bag. EVAN: 'I will be on the road all day. Please save me some dinner.' MARA: 'We will.'
 
-**S087 [14:20–14:30]** Mara checks the clock and school lunches. MARA: 'We all have places to be. Shoes first, inventions second.'
+**S097 [16:00–16:10]** Mara checks Juno's school bag and Lia's notebook. MARA: 'You may make mistakes. But always tell me when something goes wrong.'
 
-**S088 [14:30–14:40]** Evan gently untangles a loose string from Juno's bag. EVAN: 'A good idea still needs a good knot.' Juno nods reluctantly.
+**S098 [16:10–16:20]** Evan briefly touches Mara's hand. EVAN: 'When you want to talk about home, I can listen.' Mara nods but does not tell him about magic.
 
-**S089 [14:40–14:50]** Mara looks briefly at the garden, where the once-dying Veylora plant lives near ordinary Earth flowers. No giant magical growth is shown. — MARA (softly): "We stayed. We learned. And this little tree stayed with us."
-
-**S090 [14:50–15:00]** EVAN: 'I will see you at dinner.' MARA: 'Please take care on the road.' They share an ordinary affectionate goodbye.
-
-
-### SC-011 — A Very Busy Breakfast | 15:00–16:30
-*Location:* Bell family kitchen and adjoining safe workbench · *Roles:* MARA, EVAN, JUNO, LIA, BIX, BUBU · *Production:* cinematic 16:9, 10s shots; no text/subtitle printed on images.
-
-**S091 [15:00–15:10]** BIX, Juno's small turtle-pangolin robot with NO bell, rolls carefully across the kitchen floor carrying a harmless spoon. — JUNO: "Bix, keep the spoon flat. The bowl is right there."
-
-**S092 [15:10–15:20]** BIX: 'Breakfast delivery ready.' The spoon tips, drops into a bowl, and splashes a small amount of milk. Juno makes a face.
-
-**S093 [15:20–15:30]** JUNO: 'That is not how I planned it.' LIA: 'Bix was trying to help.' BIX: 'I confirm. Helpful intent detected.'
-
-**S094 [15:30–15:40]** BUBU, the tiny purple cat with one gold neck bell and continuously SPARKLING SPIRAL tail, watches from a chair and stifles a giggle. — LIA (whisper): "Your tail is very bright today. Sit quietly, little friend."
-
-**S095 [15:40–15:50]** Evan glances at the small robot. EVAN: 'Your machine needs a better road, Juno.' Juno puts down a towel to absorb the milk.
-
-**S096 [15:50–16:00]** Bubu rubs against Lia's hand and stays silent within Evan's hearing. Lia whispers: 'Not now, Bubu. Dad is right here.'
-
-**S097 [16:00–16:10]** Mara notices Juno hiding a tool under a napkin. MARA: 'If something breaks, tell us first.' JUNO: 'Even a small thing?'
-
-**S098 [16:10–16:20]** MARA: 'Especially a small thing. A small problem can grow.' Juno apologizes and fixes Bix's carrying tray with a proper clip.
-
-**S099 [16:20–16:30]** Family breakfast resumes naturally. Evan jokes about the mail route; Mara looks relieved they can share one quiet minute. — EVAN: "I have a long route today. Do you want more toast?"
-
+**S099 [16:20–16:30]** The family steps outside together. MARA: 'Grandpa Arthur and Grandma Rose are waiting.' Evan leads the walk toward their cottage on his postal route.
 
 ### SC-012 — The Bell Family Next Door | 16:30–18:00
 *Location:* Bellfern / Arthur and Rose Bell's nearby cottage · *Roles:* EVAN, MARA, JUNO, LIA, GRANDPA_EARTH, GRANDMA_EARTH · *Production:* cinematic 16:9, 10s shots; no text/subtitle printed on images.
@@ -296,8 +284,6 @@
 **S107 [17:40–17:50]** Juno quietly repairs the hinge with an ordinary screwdriver while Lia watches the bird. Nobody uses visible magic at the grandparents' home. — JUNO: "One screw and one turn. Grandpa, it feels better now."
 
 **S108 [17:50–18:00]** Arthur and Rose wave goodbye, unaware of Veylora. Mara turns toward her home, where a distant soft metallic chime is barely audible. — ROSE: "Come back next week. I will save you some more apples."
-
-
 
 ---
 
@@ -436,8 +422,6 @@
 
 **S162 [26:50–27:00]** Bubu hears a very soft sound but cannot identify its destination. BUBU: 'That stone remembers something. I do not know what yet.'
 
-
-
 ---
 
 # BELL & LEAF — EP001 · ACT IV: THE CHOICE NOT TO BREAK IT — 27:00–36:00
@@ -574,8 +558,6 @@
 **S215 [35:40–35:50]** AILA: 'You listened to me.' MARA: 'It was your choice. You know what this case means.'
 
 **S216 [35:50–36:00]** Mara closes the workshop's temporary safety screen. Outside, the birds return to the apple tree, showing the immediate danger is over. — MARA: "The garden is quiet again. Thank you all for helping."
-
-
 
 ---
 
