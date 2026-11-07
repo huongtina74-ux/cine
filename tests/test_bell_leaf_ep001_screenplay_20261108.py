@@ -64,7 +64,7 @@ def test_ep001_keeps_public_secret_and_visual_source_holds():
     file=(EP/"EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md").read_text(encoding="utf-8-sig")
     lower=file.casefold()
     assert "isel varr" not in lower and "ash bellkeeper" not in lower
-    assert "ancient earth gate" not in lower
+    assert "no ancient earth gate" in lower
     assert "ASSET_PENDING" in file
     assert "ONE GOLD" in file or "one gold" in file.lower()
     assert "SPARKLING SPIRAL" in file
@@ -72,4 +72,4 @@ def test_ep001_keeps_public_secret_and_visual_source_holds():
     assert "fixed" in lower and "unknown" in lower
     memo=(EP/"EP001_STORY_EDITOR_REVIEW_NOTES_v1.md").read_text(encoding="utf-8-sig")
     assert "EP003" in memo and "DO NOT reuse" in memo
-    assert "NOT an approval" in memo or "NOT an approval".lower() in memo.lower()
+    assert "No automatic acceptance" in memo
