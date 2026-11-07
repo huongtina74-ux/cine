@@ -28,3 +28,11 @@ Use Change Request under SOP section G when user explicitly requests an edit; qu
 
 ## Minimum self-test
 Run python -m pytest -q tests/test_bell_leaf_writer_contract_20261107.py before handoff; resolve failed invariant rather than claiming PASS.
+
+## Mandatory pre-draft and pre-lock narrative uniqueness gate (2026-11-07)
+- The 1,000-row index in docs/story/bell_leaf/slates and complete UNAPPROVED development slate are proposal backlogs, not 1,000 approved screenplays.
+- BEFORE drafting, run: python tools/bell_leaf/episode_uniqueness_gate.py audit --out data/story/bell_leaf/episode_novelty_audit.json. The baseline is EXPECTED to say REVIEW_REQUIRED because templates repeat.
+- For each new episode pitch, supply episode_id,title,lead,setting_class,hook,goal,conflict,twist,resolution,continuity_delta in a JSON file. Run: python tools/bell_leaf/episode_uniqueness_gate.py check --candidate PATH_TO_PITCH.json --out data/story/bell_leaf/PITCH_NOVELTY_RECEIPT.json
+- BLOCKED or missing 1000 baseline HALTS the writing and s14 lock. MANUAL_NOVELTY_REVIEW_REQUIRED is not an approval; editor checks motive, scene sequence, payoff, dialogue, last 20 approved episodes, and original source research.
+- NO_AUTOMATIC_APPROVAL: this lexical gate cannot prove semantic originality or rights. Direct-cohort competitor research receipts with URL/date/AV method and independent editorial signoff are required before approval. Missing evidence = RESEARCH_NOT_VERIFIED.
+- AFTER the full screenplay is written, rerun on its extracted premise/payoff and record linked episode IDs and continuity consequences in the editorial ledger. Do not confuse proposed 1000 titles with approved stories.

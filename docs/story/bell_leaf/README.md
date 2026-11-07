@@ -6,6 +6,9 @@
 3. [Writer Workflow SOP](BELL_LEAF_WRITERS_ROOM_SOP_V1_20261107.md) — 12-stage script pipeline, handoffs and per-shot prompts.
 4. [Machine-readable writer contract](../../../../config/niches/slow_english_a2/bell_leaf_writer_contract_v1.json) and [Claude skill](../../../../.claude/skills/cine-bell-leaf-writers-room/SKILL.md).
 
+**1,000 EPISODE DEVELOPMENT REGISTRY — UNAPPROVED:** [full 1,000-card draft](slates/BELL_LEAF_1000_EPISODE_DEVELOPMENT_SLATE_UNAPPROVED_20261107.md) + [CSV 1,000-ID proposal index](slates/BELL_LEAF_1000_EPISODE_INDEX_PROPOSAL_20261107.csv). These are NOT 1,000 screenplays.
+**ANTI-REPEAT / RESEARCH EVIDENCE:** [reality audit + unresolved gaps](BELL_LEAF_DUPLICATE_RESEARCH_COVERAGE_AUDIT_20261107.md); run `python tools/bell_leaf/episode_uniqueness_gate.py audit` and for every episode `python tools/bell_leaf/episode_uniqueness_gate.py check --candidate PATH_TO_PITCH.json` BEFORE draft/lock. Automated result never constitutes final editorial approval.
+
 **OWNER'S FOUR SOURCE TEXTS:** Full originals are retained locally in Git-ignored data/story/bell_leaf/owner_sources_private/20261107. These owner-provided sources are not automatically published to public GitHub. New AI writers cannot substitute unsupported guesses for missing private materials.
 
 **LEGACY CURRENT CANON:** [BELL_LEAF_CANON_CURRENT.md](BELL_LEAF_CANON_CURRENT.md) v4.8 is supporting prior consolidation, but owner-supplied four-source package dated November 7 has precedence where the two conflict (notably trial old/new/Earth/mixed episode distribution). No automatic retcons; disputed new details require owner decision.
