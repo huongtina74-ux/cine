@@ -35,7 +35,7 @@
   },
   "story": {
     "title": "The Bell That Fell from the Sky",
-    "hook": "On beautiful Veylora a flower loses its light, a fixed bell sounds wrong, and a family discovers the entire living world has been weak for generations.",
+    "hook": "At an ordinary cheerful Bell family breakfast, Bix taps a cup in a broken two-note rhythm that makes Mara remember the dying bells of Veylora; the family learns why she protects the home they have now.",
     "goal": "After the catastrophe separates her family, Mara must protect the new home she finds on Earth and help a Veylora refugee named Aila feel safe enough to choose what comes next.",
     "central_conflict": "Aila's old copper suitcase rises when a repaired Earth fixed gate rings; the quick fix could damage the possessions and markings linked to her missing little sister.",
     "stakes": "The moving suitcase could hurt an ordinary Earth bird nest, reveal magic to Evan and Bellfern neighbors, and make Aila lose the only family keepsakes that survived her escape.",
@@ -44,8 +44,8 @@
     "resolution": "Juno admits the copper brace made things worse; Mara offers Aila a reversible choice, and Juno, Bix, Lia, Mara and Aila test wood-and-linen damping through two station pulses before moving her luggage safely.",
     "emotional_change": "Mara moves from trying to protect everybody alone to making one real safe refuge and letting Aila decide. Juno moves from instant clever fixes to tested evidence and apologizing.",
     "lasting_consequence": "Aila voluntarily stays in a small garden guest room with her folded star drawing; her sister remains missing, Orin's next verified relay is pending, and the blue stone echoes a new unknown world.",
-    "why_this_episode": "The first episode sets the cost of losing home, the living ecological difference of Earth, the family's secret ordinary life and an earned first rescue with an ethical choice.",
-    "originality_difference": "A physically resonant floating suitcase, informed refugee consent, ordinary wildlife at risk and a non-magical family postal route replace generic instant portal rescue or villain-of-the-week confrontation."
+    "why_this_episode": "The family lives and laughs before a memory of civilizational loss explains why their second home on Earth matters; the first genuine refugee rescue then uses patient testing and informed choice.",
+    "originality_difference": "An emotionally motivated, warm three-minute present-day family cold open leads to the Veylora flashback; later a non-sentient flying suitcase afterpulse crisis explores refugee consent and practical care for wildlife."
   },
   "beats": [
     {
@@ -54,11 +54,11 @@
       "start_s": 0,
       "end_s": 180,
       "caused_by": [],
-      "visible_action": "Orin and Mara inspect a Veylora flower that no longer holds light, then trace weak notes through a fixed station.",
-      "obstacle": "The forest and station decline before anyone understands the lost living cycle.",
-      "character_choice": "Mara stops trying to heal everything with one strong spell and agrees to observe the wider damage.",
-      "immediate_consequence": "They discover that the crisis is old and structural, not a single strange flower.",
-      "because": "A recurring weak note and the fragile branch link magical ecology to the family loss."
+      "visible_action": "An ordinary cup clink during a sunny Bell family breakfast disturbs Mara while Evan checks the mail, Juno/Bix make a comic mistake and Lia cares for a bird.",
+      "obstacle": "Evan and the ordinary human family must not be exposed to unexplained magic, while Mara still carries grief.",
+      "character_choice": "Mara stays present for her loved ones, checks the scarred Veylora branch and allows herself to remember rather than inventing a new emergency.",
+      "immediate_consequence": "A domestic sound links real love in the present to the family's lost world; the screenplay enters an explicitly remembered past.",
+      "because": "The broken two-note sound resembles the known historic bell failure, though the cup itself is ordinary."
     },
     {
       "beat_id": "B02",
@@ -68,53 +68,53 @@
       "caused_by": [
         "B01"
       ],
-      "visible_action": "A returning OLD-world expedition brings real samples; then an unknown hand overrides the central safety setting.",
-      "obstacle": "The samples help specific skills but do not restore the damaged Living Current.",
-      "character_choice": "Mara chooses carefully recorded tests rather than presenting an incomplete result as the cure.",
-      "immediate_consequence": "The same evening an unnatural central resonance begins to spread.",
-      "because": "A generations-long shortage makes the bypassed limit far more dangerous than anyone expects."
+      "visible_action": "In Mara's memory the small Veylora flower fades and Orin shows many old records of decline near a fixed known-world station.",
+      "obstacle": "The Living Current has been weakening for years, and new energy skills have not healed it.",
+      "character_choice": "Mara asks questions and chooses observation over desperate large magic.",
+      "immediate_consequence": "The audience learns depletion predates any villain intervention and why other worlds were explored.",
+      "because": "Mara's emotional reaction to a simple breakfast sound is grounded in a long-term real loss."
     },
     {
       "beat_id": "B03",
-      "kind": "CRISIS",
+      "kind": "REVERSAL",
       "start_s": 360,
       "end_s": 540,
       "caused_by": [
         "B02"
       ],
-      "visible_action": "Old fixed gateways fail and unknown rifts scatter civilians; Elara remains helping others while Orin holds Mara.",
-      "obstacle": "No gate is reliable and Orin has only a little protective power left.",
-      "character_choice": "Orin protects one person rather than promising an impossible rescue for thousands.",
-      "immediate_consequence": "Mara and Orin fall through uncharted rift paths and lose their family.",
-      "because": "The safety failure transforms a slow social crisis into an immediate disaster."
+      "visible_action": "A returning fixed-gate expedition brings limited hopeful samples, but an anonymous gloved operator passes a central safety restriction.",
+      "obstacle": "Known-world materials cannot restore all magic and the centralized bell network is vulnerable.",
+      "character_choice": "Mara and Elara test carefully while Orin responds to the unexpected false call.",
+      "immediate_consequence": "The bypass ignites a catastrophe after an existing slow ecological collapse.",
+      "because": "The human choice to bypass safety limits transforms a weak current into a full network disaster."
     },
     {
       "beat_id": "B04",
-      "kind": "DISCOVERY",
+      "kind": "CRISIS",
       "start_s": 540,
       "end_s": 720,
       "caused_by": [
         "B03"
       ],
-      "visible_action": "Mara wakes alone on an Earth creek; Orin follows clues to reunite with her across a river.",
-      "obstacle": "Earth is uncharted, local people are unknown and neither carries a free travel bell.",
-      "character_choice": "Mara chooses water and a careful physical search instead of forcing magic.",
-      "immediate_consequence": "Orin and Mara meet and admit they do not know where Elara or other refugees went.",
-      "because": "His broken protective circle carried them to the same unknown world but separated them."
+      "visible_action": "Mapped fixed gates fail while a separate uncharted tear in the sky pulls Mara and Orin away from Elara and other refugees.",
+      "obstacle": "The safety bell fails and Orin can barely protect two falling people.",
+      "character_choice": "Mara helps children; Elara stays with evacuees; Orin spends his final shield to help Mara.",
+      "immediate_consequence": "The pair land separately on an entirely unmapped Earth and many Veylora people are lost.",
+      "because": "A collapse of the known gate network triggers unchosen rifts, never a targeted Earth deportation."
     },
     {
       "beat_id": "B05",
-      "kind": "REVERSAL",
+      "kind": "DISCOVERY",
       "start_s": 720,
       "end_s": 900,
       "caused_by": [
         "B04"
       ],
-      "visible_action": "A near-dead Veylora branch grows only after multiple Earth days; years later its leaf connects to Bellfern.",
-      "obstacle": "Earth offers slow natural renewal, not a portable infinite power bank.",
-      "character_choice": "Mara and Orin protect the Earth site and begin learning without taking more than it can give.",
-      "immediate_consequence": "The old branch survives and the family later builds a home around the Earth discovery.",
-      "because": "The observations show the crucial difference between magical skill and sustainable renewal."
+      "visible_action": "Mara follows Earth water and real landmarks while Orin searches for her; they plant a Veylora cutting and wait for gradual recovery.",
+      "obstacle": "Neither has a mapped Earth bell or an instant limitless power refill.",
+      "character_choice": "Orin follows footprints to Mara and they carefully document days of environmental recovery.",
+      "immediate_consequence": "A small leaf grows after time, turning loss into conditional hope without solving their larger rescue.",
+      "because": "Earth's balanced living cycles gradually support magic renewal, unlike one specific power specialty."
     },
     {
       "beat_id": "B06",
@@ -124,11 +124,11 @@
       "caused_by": [
         "B05"
       ],
-      "visible_action": "At breakfast Juno's small robot misdelivers a spoon; the family meets Arthur and Rose in normal Bellfern life.",
-      "obstacle": "The children and Mara have work to do while Evan and grandparents remain unaware of hidden magic.",
-      "character_choice": "Juno owns his harmless mistake and Mara preserves a warm ordinary morning without exposing the workshop.",
-      "immediate_consequence": "A living family with ordinary obligations replaces the ruined Veylora opening.",
-      "because": "The family has attachments and duties that will shape later choices under pressure."
+      "visible_action": "The memory ends and Mara rejoins the same morning breakfast; Evan takes his postal bag, Juno keeps his school duties, and the family visits Arthur and Rose.",
+      "obstacle": "They have important ordinary Earth attachments and Evan and the grandparents are still unaware of magic.",
+      "character_choice": "Mara treats the family morning as valuable while protecting the secret and ordinary responsibilities.",
+      "immediate_consequence": "Bellfern feels like a real loving home with ordinary school, letters, breakfast, chores and neighbors.",
+      "because": "Surviving Earth gave Mara a second chance to build a family while still carrying the Veylora promise."
     },
     {
       "beat_id": "B07",
@@ -263,110 +263,110 @@
       "beat_id": "B01",
       "start_s": 0,
       "end_s": 90,
-      "location": "Veylora garden with dying flower",
-      "scene_purpose": "An ordinary Veylora blossom loses its light before the bell starts to fail",
-      "observable_character_action": "Mara tests water and small magic while Orin listens to a broken station tone",
-      "new_information_or_change": "Both recognize the weakness predates the catastrophic night"
+      "location": "Bellfern warm family kitchen; Bix delivers breakfast",
+      "scene_purpose": "Introduce the entire family immediately and create curiosity from Mara reacting to an ordinary broken two-note cup clink",
+      "observable_character_action": "Evan sorts letters while Juno and Bix try a serving tray and Lia notices a thirsty bird",
+      "new_information_or_change": "Mara recognizes a painful sound from her Veylora past but stays with her present family"
     },
     {
       "scene_id": "SC-002",
       "beat_id": "B01",
       "start_s": 90,
       "end_s": 180,
-      "location": "Veylora research hall and fixed old gate",
-      "scene_purpose": "Connect old measurements with mapped-world research and underpowered life",
-      "observable_character_action": "Orin demonstrates a limited charm and shows known-world sample records",
-      "new_information_or_change": "The problem is regenerative capacity rather than merely needing stronger skills"
+      "location": "Bell family kitchen as a small robot trial continues",
+      "scene_purpose": "Give domestic comedy real consequences and justify a flashback through Mara's memory rather than a sudden arbitrary prologue",
+      "observable_character_action": "Bix drops a spoon, Juno owns the mistake, Mara touches the living Veylora cutting's old scar",
+      "new_information_or_change": "Warm family laughter triggers a credible memory of the broken bells years earlier"
     },
     {
       "scene_id": "SC-003",
       "beat_id": "B02",
       "start_s": 180,
       "end_s": 270,
-      "location": "Veylora old-world expedition dock and family table",
-      "scene_purpose": "Offer plausible hope while showing unfinished work and mother Elara's family bond",
-      "observable_character_action": "Mara and Elara run cautious sample tests and Orin checks the safety warning",
-      "new_information_or_change": "No old-world sample restores the Living Current; the fixed bell rings by itself"
+      "location": "Veylora old garden and endangered living plant",
+      "scene_purpose": "Show the physical state of Veylora before the catastrophic attack",
+      "observable_character_action": "Mara attempts weak careful magic while Orin observes a failing bell note",
+      "new_information_or_change": "Long-term ecological weakness exists before any actor triggers the disaster"
     },
     {
       "scene_id": "SC-004",
       "beat_id": "B02",
       "start_s": 270,
       "end_s": 360,
-      "location": "Veylora central bell and evacuation streets",
-      "scene_purpose": "Show an unidentifiable operator bypassing limits and the gateway network destabilizing",
-      "observable_character_action": "Orin reaches the safety desk while Mara moves endangered people aside",
-      "new_information_or_change": "The deliberate bypass triggers a failure greater than normal seasonal decline"
+      "location": "Veylora research hall and fixed mapped-world station",
+      "scene_purpose": "Explain evidence that knowledge of strong magic did not heal damaged regeneration",
+      "observable_character_action": "Orin checks old charts and station safety devices with Mara rather than opening unsafe roads",
+      "new_information_or_change": "Maps record declining energy and limited known-world approaches to restoration"
     },
     {
       "scene_id": "SC-005",
       "beat_id": "B03",
       "start_s": 360,
       "end_s": 450,
-      "location": "Veylora gate bridge and shelters",
-      "scene_purpose": "Differentiate mapped fixed gates from uncontrolled unknown rifts and family protection",
-      "observable_character_action": "Mara guides strangers; Elara remains helping the evacuated crowd",
-      "new_information_or_change": "The family cannot remain together while the sky is torn apart"
+      "location": "Veylora known-world expedition dock and family table",
+      "scene_purpose": "Make the family's old bonds matter and show a believable last moment of hope",
+      "observable_character_action": "Elara joins the sample checks as Mara observes ordinary growth and Orin evaluates the old route",
+      "new_information_or_change": "No imported specialty power restores the Living Current; an unrequested bell begins ringing"
     },
     {
       "scene_id": "SC-006",
       "beat_id": "B03",
       "start_s": 450,
       "end_s": 540,
-      "location": "Veylora collapsing city and unknown rift",
-      "scene_purpose": "Force an earned, limited choice instead of all-powerful evacuation",
-      "observable_character_action": "Orin protects Mara using his final strength as their hands slip",
-      "new_information_or_change": "The two are thrown separately toward an unmapped world"
+      "location": "Veylora central gate machinery and nearby streets",
+      "scene_purpose": "Reveal only the deliberate safety bypass without leaking the hidden villain's true identity",
+      "observable_character_action": "An unidentified hand changes a limit while Orin and Mara direct people away from unstable gates",
+      "new_information_or_change": "The old crisis changes into an immediate bell network failure"
     },
     {
       "scene_id": "SC-007",
       "beat_id": "B04",
       "start_s": 540,
       "end_s": 630,
-      "location": "Earth creek bank and woodland",
-      "scene_purpose": "Establish real survival on an uncharted Earth without ancient bell roads",
-      "observable_character_action": "Mara checks water, bearings and the wrapped dying branch",
-      "new_information_or_change": "No map or portable bell can reconnect the lost family"
+      "location": "Veylora evacuation bridge and uncontrollable uncharted rupture",
+      "scene_purpose": "Show ordinary people and Elara matter while the family loses its known roads",
+      "observable_character_action": "Mara escorts a child, Elara protects evacuees and Orin shields Mara with his remaining strength",
+      "new_information_or_change": "Two members fall toward the same unknown Earth through a genuine uncontrolled rift"
     },
     {
       "scene_id": "SC-008",
       "beat_id": "B04",
       "start_s": 630,
       "end_s": 720,
-      "location": "Earth woodland creek crossing",
-      "scene_purpose": "Reunite Orin and Mara through physical evidence rather than a magical call",
-      "observable_character_action": "Orin follows pot soil and tracks and finds a safe crossing",
-      "new_information_or_change": "They admit the family remains missing and commit to a wider rescue"
+      "location": "Earth creek woodland where Mara wakes alone",
+      "scene_purpose": "Prove Earth has no known ancient fixed gate and that survival requires real choices",
+      "observable_character_action": "Mara tests water and watches the unfamiliar humans from a distance",
+      "new_information_or_change": "Mara finds no route map and must follow simple physical landmarks"
     },
     {
       "scene_id": "SC-009",
       "beat_id": "B05",
       "start_s": 720,
       "end_s": 810,
-      "location": "Earth shelter and living soil over several days",
-      "scene_purpose": "Show gradual, verifiable Earth renewal rather than instant unlimited magic",
-      "observable_character_action": "Mara plants the branch, records conditions and uses less power",
-      "new_information_or_change": "A leaf returns after time and observation, giving both hope and caution"
+      "location": "Earth creek crossing where Orin tracks the fallen cutting",
+      "scene_purpose": "Reunite separated family members through physical action rather than convenient remote magic",
+      "observable_character_action": "Orin follows soil fragments and small footprints and helps Mara cross the creek",
+      "new_information_or_change": "Both admit the rest of their family are still lost and choose to keep searching"
     },
     {
       "scene_id": "SC-010",
       "beat_id": "B05",
       "start_s": 810,
       "end_s": 900,
-      "location": "Bellfern house and garden many years later",
-      "scene_purpose": "Move the story to an established ordinary family without asserting an exact elapsed year",
-      "observable_character_action": "Evan prepares his postal route while Juno and Lia begin a normal day",
-      "new_information_or_change": "The Veylora branch lives in Earth soil as a long-term consequence"
+      "location": "Earth sheltered creek planting after multiple days",
+      "scene_purpose": "Show the conditionally regenerative effect of Earth slowly and without inventing instant strength",
+      "observable_character_action": "Mara plants the cutting and logs water and soil as Orin checks recovery day by day",
+      "new_information_or_change": "A new leaf grows after time; this original plant later stays in Bellfern"
     },
     {
       "scene_id": "SC-011",
       "beat_id": "B06",
       "start_s": 900,
       "end_s": 990,
-      "location": "Bell family kitchen and robot workbench",
-      "scene_purpose": "Introduce Bix and Bubu correctly and seed Juno's tendency to fix before checking",
-      "observable_character_action": "Bix spills milk and Juno repairs its tray without blaming the machine",
-      "new_information_or_change": "Family laughter and a modest engineering correction establish a future arc"
+      "location": "Bellfern kitchen and front garden, returning to same morning",
+      "scene_purpose": "Resolve the cold-open emotional question through a comforting family moment and school-day duties",
+      "observable_character_action": "Evan offers to listen about Mara's past, Juno checks Bix and Lia gives a bird water",
+      "new_information_or_change": "The present-day family remains ordinary and safe without forcing a magic disclosure"
     },
     {
       "scene_id": "SC-012",
@@ -374,9 +374,9 @@
       "start_s": 990,
       "end_s": 1080,
       "location": "Arthur and Rose Bell nearby cottage",
-      "scene_purpose": "Secure ordinary Earth relationships, not a generic magic-only setting",
-      "observable_character_action": "Evan brings a letter, Juno fixes a hinge and Lia respects a bird nest",
-      "new_information_or_change": "Grandparents remain human unaware; birds and ordinary care are established"
+      "scene_purpose": "Strengthen intergenerational family life with ordinary visits and real neighborhood ties",
+      "observable_character_action": "Evan brings mail to Arthur while Juno repairs a hinge and Lia respects a bird nest",
+      "new_information_or_change": "Grandparents remain unaware and the local Earth environment becomes emotionally valuable"
     },
     {
       "scene_id": "SC-013",
@@ -561,9 +561,9 @@
   ],
   "setup_payoffs": [
     {
-      "setup_beat": "B01",
+      "setup_beat": "B02",
       "payoff_beat": "B05",
-      "specific_clue": "The weak Veylora branch and Orin's age-old measurements show regeneration failing before any explosion.",
+      "specific_clue": "Mara's old scarred Veylora cutting and Orin's historical research document weak regeneration long before the central safety override.",
       "earned_resolution": "After days in Earth soil the branch gains a genuine new leaf, supporting slow environmental renewal rather than instant spells."
     },
     {
@@ -665,5 +665,6 @@
     "Are the two old-station afterpulses and the independent blue-stone unknown echo clearly separated in audience understanding?",
     "Does the journey from a major civilization catastrophe to one refugee's simple safety need produce a satisfying first-episode payoff?",
     "Are speech density and physical movement per 10s shot sufficient for real 45-minute A2 listening and animated performance?"
-  ]
+  ],
+  "screenplay_revision": "v1.1 family-first opening only"
 }
