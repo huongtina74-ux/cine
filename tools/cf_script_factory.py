@@ -63,16 +63,16 @@ def initialize(args):
         raise ValueError("Unknown subniche: " + args.niche)
     if args.mode not in settings["modes"]:
         raise ValueError("Unknown script mode: " + args.mode)
-    from cf_story_quality_gate import load_profiles
-    quality_profile = load_profiles()["niches"][args.niche]
-    if args.mode not in quality_profile["allowed_factory_modes"]:
-        raise ValueError("Script mode does not match this niche; cannot inherit another niche story template")
     if args.mode == "A2_ANIMATED_SCREENPLAY":
         spec = settings["specializations"]["A2_ANIMATED_SCREENPLAY"]
         if args.niche != spec["niche_id"]:
             raise ValueError("Bell & Leaf research must use the magical_witch_family_stories subniche")
         if not spec["target_minutes"][0] <= args.minutes <= spec["target_minutes"][1]:
             raise ValueError("Bell & Leaf episode target must be 30-50 minutes")
+    from cf_story_quality_gate import load_profiles
+    quality_profile = load_profiles()["niches"][args.niche]
+    if args.mode not in quality_profile["allowed_factory_modes"]:
+        raise ValueError("Script mode does not match this niche; cannot inherit another niche story template")
     if not 8 <= args.minutes <= 360:
         raise ValueError("Target minutes must be 8 to 360")
     if not args.writer or not args.writer.strip():
