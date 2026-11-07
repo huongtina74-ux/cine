@@ -260,9 +260,11 @@ def assess_learning_update(event: dict, policy: dict | None = None,
         problems.append("INVALID_OWNED_VIDEO_MEASUREMENT")
     baseline = event.get("baseline_videos") or []
     treatment = event.get("treatment_video") or {}
-    if not isinstance(baseline, list) or len(baseline) < 5:
-        problems.append("AT_LEAST_FIVE_SAME_FORMAT_BASELINE_VIDEOS_REQUIRED")
+    if not isinstance(baseline, list):
         baseline = []
+        problems.append("BASELINE_MUST_BE_A_LIST")
+    if len(baseline) < 5:
+        problems.append("AT_LEAST_FIVE_SAME_FORMAT_BASELINE_VIDEOS_REQUIRED")
     ids = [x.get("video_id") for x in baseline if isinstance(x, dict)]
     if len(ids) != len(set(ids)) or not all(isinstance(v, str) and len(v) == 11 for v in ids):
         problems.append("BASELINE_VIDEO_ID_DUPLICATE_OR_INVALID")
