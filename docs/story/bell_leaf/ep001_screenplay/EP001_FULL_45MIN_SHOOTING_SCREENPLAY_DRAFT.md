@@ -713,5 +713,3 @@
 **S269 [44:40–44:50]** Bubu moves close. BUBU: 'Mara... I hear another world.' MARA: 'Another world? Where?' BUBU: 'I do not know. But it is calling us.'
 
 **S270 [44:50–45:00]** The family looks through the workshop window at Earth stars. The camera returns to Aila's safely resting suitcase, then the small blue stone. End on a quiet curious note, not an opened portal.
-
-
