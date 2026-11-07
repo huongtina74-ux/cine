@@ -21,6 +21,16 @@
       "id": "FAIR_USE",
       "url": "https://support.google.com/youtube/answer/9783148",
       "review_type": "not_automatic_legal_exemption"
+    },
+    {
+      "id": "ADVERTISER_FRIENDLY",
+      "url": "https://support.google.com/youtube/answer/6162278",
+      "review_type": "video_title_thumbnail_description_and_context"
+    },
+    {
+      "id": "OWNED_VIDEO_RETENTION_ANALYTICS",
+      "url": "https://support.google.com/youtube/answer/9314415",
+      "review_type": "owned_studio_only_video_level"
     }
   ],
   "required_research_fields": [
