@@ -106,3 +106,12 @@ def test_local_owner_source_archive_is_private_when_present():
     public = "\n".join((ROOT / p).read_text(encoding="utf-8-sig") for p in c["public_documents"])
     public += SKILL.read_text(encoding="utf-8-sig") + JSON.read_text(encoding="utf-8-sig")
     assert full_name.casefold() not in public.casefold(), "Private real identity leaked into public writer docs"
+
+
+def test_active_story_canon_respects_owner_sources_without_retcon():
+    current = (ROOT / "docs/story/bell_leaf/BELL_LEAF_CANON_CURRENT.md").read_text(encoding="utf-8-sig")
+    assert "OWNER SOURCE PRECEDENCE" in current
+    assert "MARA + FAMILY EXPLORE BOTH REPAIRED OLD" in current
+    assert "OLD 35%, NEW 30%, EARTH 25%, MIXED 10%" in current
+    assert "65% NEW-world" not in current
+    assert "NO instant universal evacuation" in current
