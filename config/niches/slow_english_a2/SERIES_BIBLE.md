@@ -1,4 +1,5 @@
 # Bell & Leaf — ACTIVE A2 SERIES BIBLE (owner direction 2026-11-07)
+**Vietnamese genre label (compatibility only):** Gia đình phù thủy — Slow English A2 / Bell & Leaf. This label does not alter story Canon.
 **Story authority:** `docs/story/bell_leaf/BELL_LEAF_CANON_CURRENT.md` (read FIRST and in full). Legacy v0/v1/v2/v3 scripts are RETIRED/ARCHIVED, not writing sources. This brief is a compatibility alias for CINE's existing stable script/niche loader and MUST NOT override the current authority file.
 
 **Genre:** original family-friendly 3D CGI fantasy adventures with exciting worlds, warm family comedy/emotion, mystery, original long-term 1000+ episode continuity. 40–50min target with natural A2 General American English dialogue; a full screenplay is REQUIRED before production, not invented by a template.
