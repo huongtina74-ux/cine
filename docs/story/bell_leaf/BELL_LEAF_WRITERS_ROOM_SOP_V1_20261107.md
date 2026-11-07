@@ -60,3 +60,11 @@ A shot without enough approved source assets can be storyboarded as TEXT but mus
 
 ## G. Quy trình đề xuất sửa Canon
 Tạo Change Request có: exact source quote, old rule, new rule, reason, affected EP/characters/assets, potential retcon, 2 independent reviews, explicit owner confirmation, decision ID. Không có owner confirmation = NO_CANON_MUTATION. Sau duyệt mới thay asset/scene/shot hashes và kiểm lại continuity. Gửi bản trước/sau để owner nhìn rõ.
+
+## H. Anti-repeat / anti-copy gate (BẮT BUỘC trước khi viết và khóa kịch bản)
+Kho tham khảo trong docs/story/bell_leaf/slates chứa 1.000 ý tưởng CHƯA DUYỆT. 1.000 mã/tiêu đề riêng không chứng minh có 1.000 câu chuyện khác biệt. Audit thực tế thấy 899 placeholder continuity trùng và nhiều kết thúc/twist mẫu giống nhau.
+1. Run audit: python tools/bell_leaf/episode_uniqueness_gate.py audit --out data/story/bell_leaf/episode_novelty_audit.json. REVIEW_REQUIRED là yêu cầu chỉnh sửa, không được gán PASS.
+2. Với mỗi đề xuất tập, cung cấp JSON đủ episode_id,title,lead,setting_class,hook,goal,conflict,twist,resolution,continuity_delta rồi chạy: python tools/bell_leaf/episode_uniqueness_gate.py check --candidate PATH_TO_PITCH.json --out data/story/bell_leaf/PITCH_NOVELTY_RECEIPT.json. BLOCKED -> STOP script. MANUAL_NOVELTY_REVIEW_REQUIRED -> cần editor phê duyệt riêng.
+3. So sánh hook, mục tiêu, xung đột, giải pháp, twist, kết quả, cảm xúc, quan hệ, world, nhân vật; không đổi tên/POV/địa điểm để che mô típ giống nhau. Với đối thủ: URL/ngày/video timecodes, direct-cohort hoặc adjacent, ghi nhận cảm hứng ở cấp phương pháp chứ không sao chép plot.
+4. Trước khi đánh dấu screenplay APPROVED phải có continuity ledger của từng tập: phiên bản script, các mốc nhân quả, clue/setup/payoff, tình trạng nhân vật và địa điểm, quan hệ với những tập khác, reviewer độc lập, research receipt. Không có nguồn hợp lệ -> RESEARCH_PENDING và NO_AUTOMATIC_APPROVAL.
+5. Sau khi có screenplay đầy đủ 40–50 phút, kiểm lại similarity ở cấp scene và dialogue; CLI mới chỉ phát hiện trùng lexical/template chứ không chứng minh originality ngữ nghĩa.
