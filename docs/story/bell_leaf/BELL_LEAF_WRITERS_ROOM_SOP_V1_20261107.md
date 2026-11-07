@@ -54,7 +54,7 @@ A shot without enough approved source assets can be storyboarded as TEXT but mus
 - Earth fixed station does not predate Orin/Mara; no compulsory personal bell.
 - Environmental magic specialization cannot heal the fundamental living current by itself.
 - Do not confuse original slow English / generic A2 packages with this Bell & Leaf source and analytics baseline.
-- Do not use 36 world candidates or new Aila/Tali/Isel faces as if owner-approved asset refs.
+- Do not use 36 world candidates or new Aila/Tali/unnamed antagonist faces as if owner-approved asset refs.
 - Do not leak private villain identity or final solution into GitHub/public prompts.
 - Do not mass-produce 1,000 episodes from a single repeated template; approve one pilot first.
 
