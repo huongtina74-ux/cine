@@ -461,7 +461,7 @@ def offer_ideas(niche_id: str, series_id: str, count: int = 10,
     shift = salt % len(axes["conflict"])
     for k in range(count * 12 + 300):
         character = axes["perspective"][(k * 3 + k // 7 + salt//11) % len(axes["perspective"])]
-        world = axes["setting"][(k * 5 + k // 11 + salt//17) % len(axes["setting"])]
+        world = axes["setting"][(k * 3 + k // 11 + salt//17) % len(axes["setting"])]
         conflict = axes["conflict"][(k + shift) % len(axes["conflict"])]
         cost = axes["choice_cost"][(k * 7 + k // 13 + salt//19) % len(axes["choice_cost"])]
         genre = axes["emotion"][(k * 11 + k // 5 + salt//23) % len(axes["emotion"])]
