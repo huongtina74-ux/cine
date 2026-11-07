@@ -2,12 +2,12 @@
 
 **Scope:** ORIGINAL 45-minute *timed shooting screenplay DRAFT*, written from the four owner-locked source texts and current Story Canon. **NOT OWNER-APPROVED, NOT PRODUCED, NOT YOUTUBE RELEASE-READY.**
 **Niche:** magical_witch_family_stories · series bell_leaf · Slow English A2 · planned 16:9 3D CGI, 24fps, one 10.0s continuous shot per S###. Do not change Canon to force this script into old magic rules.
-**First draft:** 2026-11-08. **Structure:** 5 acts, 30 scenes, 15 substantial causal beats, 270 shot/performance slots (2,700s = planned 45min), four seeded clues/payoffs, four character arcs and five explicit continuity state deltas. Aila's sister is *not found*; one local refuge promise is fulfilled; the unknown-world echo is a setup for later, not a free portal.
+**Revision:** 2026-11-08, v1.1 FAMILY-FIRST COLD OPEN, with original story Canon unchanged. **Structure:** 5 acts, 30 scenes, 15 substantial causal beats, 270 shot/performance slots (2,700s = planned 45min), four seeded clues/payoffs, four character arcs and five explicit continuity state deltas. Aila's sister is *not found*; one local refuge promise is fulfilled; the unknown-world echo is a setup for later, not a free portal.
 
 ## Read in order
 1. [Combined complete EP001 shooting screenplay](EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md) — uninterrupted reading copy with shot timings and English A2 dialogue.
-2. [Act I (00–09): The Broken Bells](EP001_ACT_I_00_09.md) — age-old Veylora decline → deliberate unknown safety override → disaster and accidental separation.
-3. [Act II (09–18): Earth and the Bell Family](EP001_ACT_II_09_18.md) — Orin/Mara's physically earned reunion → Earth regeneration takes days → family breakfast and grandparents.
+2. [Act I (00–09): The Broken Bells](EP001_ACT_I_00_09.md) — first 3 minutes: family breakfast and humor; then historical Veylora decline and the unsafe central bypass.
+3. [Act II (09–18): Earth and the Bell Family](EP001_ACT_II_09_18.md) — lost Veylora fixed routes, accidental Earth fall, gradual renewal → return to SAME family morning and grandparents.
 4. [Act III (18–27): Aila at the Repaired Gate](EP001_ACT_III_18_27.md) — newly built Earth fixed station, verified old-world route, Orin's limited relay, Aila's copper suitcase and personal stakes.
 5. [Act IV (27–36): The Choice Not to Break It](EP001_ACT_IV_27_36.md) — family chase without Evan seeing real magic, bird-nest jeopardy, informed consent, Juno's two verified insulation tests.
 6. [Act V (36–45): One Safe Night, Another World](EP001_ACT_V_36_45.md) — small voluntary Earth refuge, truthful missing-sister search, Evan's ordinary welcome, Bubu's independent unmapped echo with no opened portal.
@@ -39,3 +39,6 @@ C:\Users\ADMIN\Downloads\cinefactory-os-v1.6\cinefactory-os-v1.6\data\script_fac
 
 ## Changes / next approvals
 Use a new episode draft revision and a Story Doctor diff before overwriting any source. Record real script decisions, author, date, reason and affected shot IDs. Never edit the four owner original story documents without an explicit owner-approved change request.
+
+## Revision 1.1: family-first opening (owner-requested)
+First 00:00–03:00: family lives in an ordinary kitchen, with Evan's postman bag, Juno/Bix breakfast comedy, Lia's bird care and Bubu's hidden sparkling purple tail. A cup makes an ordinary broken two-note sound that reminds Mara of Veylora. 03:00–15:00: controlled flashback of Veylora's decline, sabotage and Earth's gradual recovery. At 15:00 the camera returns to the SAME morning, not a new day, and the family visits Arthur and Rose. SC-013 onward (Aila's gate and rescue) keeps its original timings and story. This is a screenplay draft and not permission to alter any locked Canon source.
