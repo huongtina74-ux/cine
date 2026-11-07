@@ -211,11 +211,65 @@ def evaluate(plan: dict, *, ledger_root: Path = LEDGER_ROOT,
     if len(unique_kinds & {"HOOK", "GOAL", "DISCOVERY", "REVERSAL", "CRISIS", "CLIMAX",
                            "RESOLUTION", "AFTERMATH"}) < 6:
         errors.append("BEAT_ARC_LACKS_SIX_DISTINCT_FUNCTIONS")
+    # A 45-minute episode needs genuinely distinct story progression, not 12
+    # copies of the same character choice with numbered labels.
+    for field in ("obstacle", "character_choice", "immediate_consequence"):
+        distinct = Counter(textnorm(b.get(field, "")) for b in beats if isinstance(b, dict))
+        if distinct and max(distinct.values()) >= 4:
+            errors.append("REPEATED_BEAT_" + field.upper() + "_TEMPLATE")
     target = plan.get("target_minutes")
     lo, hi = profile["duration_minutes"]
     if (not isinstance(target, (int, float)) or isinstance(target, bool) or
             not lo <= target <= hi or last_end != round(target * 60)):
         errors.append("DURATION_OR_BEAT_TOTAL_OUTSIDE_NICHE_FORMAT")
+    # Independent, concrete scene cards and character decision arcs:
+    # a beat list alone is not a full 45-minute screenplay architecture.
+    scenes = plan.get("scenes")
+    min_scenes = min(30, max(6, int(target * .4))) if isinstance(target, (float,int)) and not isinstance(target, bool) else 6
+    if not isinstance(scenes, list) or len(scenes) < min_scenes:
+        errors.append("MIN_" + str(min_scenes) + "_SCENE_CARDS_REQUIRED")
+        scenes = scenes if isinstance(scenes, list) else []
+    scene_last_end, scene_ids = 0, set()
+    for i, scene in enumerate(scenes):
+        if not isinstance(scene, dict):
+            errors.append(f"SCENE_{i}_INVALID")
+            continue
+        scene_id = scene.get("scene_id")
+        if (not isinstance(scene_id,str) or not re.fullmatch(r"SC-\d{3,4}",scene_id)
+                or scene_id in scene_ids):
+            errors.append(f"SCENE_{i}_DUPLICATE_OR_INVALID_ID")
+        else:
+            scene_ids.add(scene_id)
+        start,end = scene.get("start_s"),scene.get("end_s")
+        if (not isinstance(start,(int,float)) or not isinstance(end,(int,float))
+                or start != scene_last_end or end <= start):
+            errors.append(f"SCENE_{i}_TIMING_GAP_OR_OVERLAP")
+        if isinstance(end,(int,float)):
+            scene_last_end = end
+        if scene.get("beat_id") not in ids:
+            errors.append(f"SCENE_{i}_NOT_CONNECTED_TO_BEAT")
+        for field in ("location","scene_purpose","observable_character_action",
+                      "new_information_or_change"):
+            if not _enough(scene.get(field), 16):
+                errors.append(f"SCENE_{i}_MISSING_" + field.upper())
+    if isinstance(target,(float,int)) and not isinstance(target,bool) and scene_last_end != round(target * 60):
+        errors.append("SCENE_TIMELINE_DOES_NOT_COVER_EPISODE")
+    character_arcs = plan.get("character_arcs")
+    if not isinstance(character_arcs,list) or not character_arcs:
+        errors.append("MISSING_CHARACTER_DECISION_ARC")
+        character_arcs = []
+    for i, arc in enumerate(character_arcs):
+        if not isinstance(arc,dict):
+            errors.append(f"CHARACTER_ARC_{i}_INVALID")
+            continue
+        if not arc.get("character") or arc.get("turning_beat") not in ids:
+            errors.append(f"CHARACTER_ARC_{i}_UNSUPPORTED_TURN")
+        for field in ("initial_state","internal_need","costly_decision","final_state"):
+            if not _enough(arc.get(field),18):
+                errors.append(f"CHARACTER_ARC_{i}_MISSING_" + field.upper())
+        if textnorm(str(arc.get("initial_state",""))) == textnorm(str(arc.get("final_state",""))):
+            errors.append(f"CHARACTER_ARC_{i}_NO_CHANGE")
+
     payoffs = plan.get("setup_payoffs")
     if not isinstance(payoffs, list) or len(payoffs) < 3:
         errors.append("MIN_3_SEEDED_SETUP_PAYOFF_PAIRS")
@@ -368,8 +422,16 @@ def require_factory_stage(base: Path, manifest: dict, stage: str,
         referenced = {bid for bid in ids if re.search(r"\b"+re.escape(bid)+r"\b", body)}
         if len(referenced) < min(10, len(ids)):
             raise ValueError("SCRIPT_MISSING_OUTLINE_BEAT_TRACE_IDS")
-        if len(body) < 6000:
-            raise ValueError("FULL_SCRIPT_UNDERDEVELOPED_NOT_45MIN_APPROVED")
+        scene_ids = {s["scene_id"] for s in plan["scenes"]}
+        missing_scenes = [x for x in scene_ids if not re.search(r"\b"+re.escape(x)+r"\b", body)]
+        if missing_scenes:
+            raise ValueError("SCRIPT_SCENE_TRACE_MISSING_" + ",".join(missing_scenes[:5]))
+        minimum_words = max(450, int(manifest["target_minutes"] * 42))
+        if len(body) < 6000 or len(body.split()) < minimum_words:
+            raise ValueError("FULL_SCRIPT_UNDERDEVELOPED_NOT_ENOUGH_WORDS_FOR_TARGET_RUNTIME")
+        lines = [textnorm(x) for x in body.splitlines() if len(textnorm(x)) >= 40]
+        if lines and max(Counter(lines).values()) > 5:
+            raise ValueError("REPEATED_SCREENPLAY_SCENE_OR_DIALOGUE_TEMPLATE")
     if stage in {"review", "final"}:
         _writer_review(base / "07_review/story_quality_review.json", manifest)
 
