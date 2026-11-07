@@ -168,3 +168,72 @@ def test_no_auto_publish_from_procedural_gate():
         r = gate.assess(b, PROFILES, REGISTRY)
         assert not r["release_authorized"]
         assert r["needs_human_review"]
+
+
+def owned_learning():
+    base = [{
+        "video_id": f"TESTvideo{i:02d}", "niche_id": "mom_grandma_family_original",
+        "owned_channel_id": "UC_OWNER_CHANNEL", "duration_seconds": 2700,
+        "captured_utc": "2026-11-06T12:00:00Z", "value": 0.53
+    } for i in range(5)]
+    return {
+        "niche_id": "mom_grandma_family_original",
+        "baseline_niche_id": "mom_grandma_family_original",
+        "evidence_origin": "OWNED_YOUTUBE_STUDIO",
+        "hypothesis": "A new family-driven contradiction before the first minute improves clarity",
+        "experiment_id": "family_experiment_A01",
+        "intervention": "Compare an introductory scene with the family goal placed earlier",
+        "confounders": "Upload date and topic variation are not controlled, so causality is unproven",
+        "analysis_summary": "A small observed difference requires editorial interpretation and follow-up testing",
+        "source_receipt_path": "data/private/youtube_studio_owner_metric_receipt.json",
+        "reproducible_measurement_method": "30-second introduction retention for similar length owned videos",
+        "experiment_started_utc": "2026-10-30T00:00:00Z",
+        "measurement_metric": "INTRO_30S_RETENTION",
+        "baseline_videos": base,
+        "treatment_video": {
+            "video_id": "NEWvideo900", "niche_id": "mom_grandma_family_original",
+            "owned_channel_id": "UC_OWNER_CHANNEL", "duration_seconds": 2700,
+            "captured_utc": "2026-11-06T12:00:00Z", "value": 0.57
+        },
+        "proposed_skill_change": {
+            "file": ".claude/skills/cine-per-niche-creative-risk/SKILL.md",
+            "reason": "Test whether clearer character goals early in the scene improve audience engagement",
+            "rollback_reference": "previous_sha_recorded_before_change"
+        },
+        "researcher_id": "researcher_a", "reviewer_id": "editor_b"
+    }
+
+
+def test_owned_analytics_only_review_not_auto_learning():
+    r = gate.assess_learning_update(owned_learning(), PROFILES, REGISTRY)
+    assert r["status"] == "INDEPENDENT_LEARNING_REVIEW_REQUIRED", r
+    assert r["baseline_count"] == 5
+    assert not r["skill_auto_update_authorized"] and not r["release_authorized"]
+
+
+def test_learning_rejects_cross_niche_baseline_and_competitor_metrics():
+    b = owned_learning()
+    b["baseline_niche_id"] = "slow_english_a2_story"
+    b["evidence_origin"] = "PUBLIC_COMPETITOR_METADATA"
+    r = gate.assess_learning_update(b, PROFILES, REGISTRY)
+    assert r["status"] == "BLOCKED"
+    assert "CROSS_NICHE_ANALYTICS_COMPARISON" in r["blocking"]
+    assert "OWNED_ANALYTICS_SOURCE_REQUIRED" in r["blocking"]
+
+
+def test_learning_rejects_invalid_metrics_small_baseline_and_self_review():
+    b = owned_learning()
+    b["baseline_videos"] = b["baseline_videos"][:2]
+    b["treatment_video"]["value"] = 57.0
+    b["reviewer_id"] = b["researcher_id"]
+    r = gate.assess_learning_update(b, PROFILES, REGISTRY)
+    assert "AT_LEAST_FIVE_SAME_FORMAT_BASELINE_VIDEOS_REQUIRED" in r["blocking"]
+    assert "METRIC_2_PERCENT_MUST_BE_FRACTION_0_TO_1" in r["blocking"]
+    assert "INDEPENDENT_LEARNING_REVIEWER_REQUIRED" in r["blocking"]
+
+
+def test_learning_does_not_promo_a_cross_format_video():
+    b = owned_learning()
+    b["baseline_videos"][2]["duration_seconds"] = 100
+    r = gate.assess_learning_update(b, PROFILES, REGISTRY)
+    assert "METRIC_2_NOT_SIMILAR_FORMAT_LENGTH" in r["blocking"]
