@@ -132,4 +132,3 @@
 **S161 [26:40–26:50]** LIA: 'She drew both of you.' Aila touches the paper. AILA: 'She made the stars too big. I liked them that way.'
 
 **S162 [26:50–27:00]** Bubu hears a very soft sound but cannot identify its destination. BUBU: 'That stone remembers something. I do not know what yet.'
-
