@@ -5,9 +5,9 @@
 ### SC-013 — A Small Gate, Not an Old Earth Gate | 18:00–19:30
 *Location:* Bell family home / locked workshop below ground · *Cast / audio:* MARA, JUNO, LIA, BIX, BUBU; EVAN not present · *Aila voice/face:* proposed, never treat as approved asset.
 
-**S109 [18:00–18:10]** Mara opens a hidden door beneath her workshop; the chamber is recent, built from repaired materials, not an ancient Earth ruin.
+**S109 [18:00–18:10]** Mara opens a hidden door beneath her workshop; the chamber is recent, built from repaired materials, not an ancient Earth ruin. — MARA: "This room was not here when I first came to Earth."
 
-**S110 [18:10–18:20]** A FIXED bell hangs above a stone frame. Small labels in Mara's private notebook list a few verified OLD-world links only.
+**S110 [18:10–18:20]** A FIXED bell hangs above a stone frame. Small labels in Mara's private notebook list a few verified OLD-world links only. — JUNO: "So this is the bell you built after coming here?"
 
 **S111 [18:20–18:30]** Juno checks a real wooden floor brace. JUNO: 'This part is loose.' MARA: 'Then no travelers until we fix it.'
 
@@ -21,13 +21,13 @@
 
 **S116 [19:10–19:20]** Mara closes a heavy safety screen before the door. MARA: 'Your father must not enter this room by accident.'
 
-**S117 [19:20–19:30]** Bubu's sparkling spiral tail curls around Lia's arm as a calm fixed bell pulse comes through the chamber: a VERIFIED linked station is active.
+**S117 [19:20–19:30]** Bubu's sparkling spiral tail curls around Lia's arm as a calm fixed bell pulse comes through the chamber: a VERIFIED linked station is active. — BUBU: "That is an old-road sound. It has a real place to go."
 
 
 ### SC-014 — A Call from the Old Road | 19:30–21:00
 *Location:* Bell workshop / Earth fixed station linked to Orin's known-world station · *Cast / audio:* MARA, JUNO, LIA, BIX, BUBU; ORIN via verified relay · *Aila voice/face:* proposed, never treat as approved asset.
 
-**S118 [19:30–19:40]** The fixed station's outer marker changes from red to soft green. Mara checks that the paired old-world route is actually recognized.
+**S118 [19:30–19:40]** The fixed station's outer marker changes from red to soft green. Mara checks that the paired old-world route is actually recognized. — MARA: "Both lights are green. We can hear the other station."
 
 **S119 [19:40–19:50]** ORIN'S voice arrives through the station, faint but stable. ORIN: 'Mara. Can you hear me?' MARA: 'Yes. The old line is clear.'
 
@@ -51,11 +51,11 @@
 
 **S127 [21:00–21:10]** Mara confirms both station lamps remain green. She calls to the other side: 'One traveler now. Everyone else, wait.'
 
-**S128 [21:10–21:20]** The fixed bell rings ONCE from its mounted station. A controlled doorway shows the repaired old-world receiving station, not empty space.
+**S128 [21:10–21:20]** The fixed bell rings ONCE from its mounted station. A controlled doorway shows the repaired old-world receiving station, not empty space. — AILA (from far side): "Please tell me when to walk. I do not know this door."
 
-**S129 [21:20–21:30]** AILA steps through clutching an old suitcase with dark copper edges. Her final face, costume and voice are ASSET_PENDING for production.
+**S129 [21:20–21:30]** AILA steps through clutching an old suitcase with dark copper edges. Her final face, costume and voice are ASSET_PENDING for production. — AILA: "My feet are here, but my heart is still far away."
 
-**S130 [21:30–21:40]** The doorway closes under a normal safe-cycle procedure. Aila stands still and listens to the unfamiliar Earth birds through a vent.
+**S130 [21:30–21:40]** The doorway closes under a normal safe-cycle procedure. Aila stands still and listens to the unfamiliar Earth birds through a vent. — AILA: "It is so quiet here. I thought all bells were broken."
 
 **S131 [21:40–21:50]** MARA: 'You are safe for now. My name is Mara.' AILA: 'I remember Veylora. I was there before the bells broke.'
 
@@ -71,7 +71,7 @@
 ### SC-016 — The Suitcase That Would Not Stay Down | 22:30–24:00
 *Location:* Bell workshop / safe arrival table · *Cast / audio:* MARA, JUNO, LIA, BIX, BUBU, AILA (asset hold) · *Aila voice/face:* proposed, never treat as approved asset.
 
-**S136 [22:30–22:40]** Aila sets her suitcase down beside the stationary door. Its metal corners buzz softly; then the entire case rises a few inches.
+**S136 [22:30–22:40]** Aila sets her suitcase down beside the stationary door. Its metal corners buzz softly; then the entire case rises a few inches. — AILA: "I want it to stay on the floor. What is happening?"
 
 **S137 [22:40–22:50]** JUNO: 'The suitcase is flying!' BIX: 'This is not in my list of normal luggage behavior.'
 
@@ -79,13 +79,13 @@
 
 **S139 [23:00–23:10]** MARA: 'Everybody stand clear.' She guides Lia away from the gate rather than trying a large spell in an unknown situation.
 
-**S140 [23:10–23:20]** Bubu's gold neck bell stays still; the old station itself makes a second short cooling hum. The suitcase rises ONLY during that hum.
+**S140 [23:10–23:20]** Bubu's gold neck bell stays still; the old station itself makes a second short cooling hum. The suitcase rises ONLY during that hum. — MARA: "The big bell is cooling. Listen to the sound once more."
 
 **S141 [23:20–23:30]** Juno watches instead of touching the case. JUNO: 'When the big bell makes that sound, the suitcase moves.'
 
 **S142 [23:30–23:40]** LIA: 'Maybe the suitcase is scared.' BUBU: 'Or the suitcase cannot hear its own bad song.' Lia smiles at the strange answer.
 
-**S143 [23:40–23:50]** Aila tries pulling it with both hands; a drawer slides open and closes again. She looks afraid the case will break.
+**S143 [23:40–23:50]** Aila tries pulling it with both hands; a drawer slides open and closes again. She looks afraid the case will break. — AILA: "I cannot hold it for long. Please do not let it go."
 
 **S144 [23:50–24:00]** MARA: 'We are not cutting anything yet. Let us find what makes the sound first.' She writes down the time of the next hum.
 
@@ -93,7 +93,7 @@
 ### SC-017 — The Wrong Fix | 24:00–25:30
 *Location:* Bell workshop / measuring bench · *Cast / audio:* MARA, JUNO, LIA, BIX, BUBU, AILA (asset hold) · *Aila voice/face:* proposed, never treat as approved asset.
 
-**S145 [24:00–24:10]** Juno places a wooden stand beneath the floating case. He keeps his hands away from the metal during the station's afterpulse.
+**S145 [24:00–24:10]** Juno places a wooden stand beneath the floating case. He keeps his hands away from the metal during the station's afterpulse. — JUNO: "There is no need to touch it while it is moving."
 
 **S146 [24:10–24:20]** JUNO: 'The corners are old bell metal. They may be carrying a sound from the trip.' MARA: 'That is a good question. Test it.'
 
@@ -101,7 +101,7 @@
 
 **S148 [24:30–24:40]** Lia watches how Bubu's tail sparkles but notices his own collar bell stays silent. LIA: 'Bubu did not open this door.'
 
-**S149 [24:40–24:50]** Juno clips a copper brace to the case. He expects it to stop moving; instead the sound becomes louder.
+**S149 [24:40–24:50]** Juno clips a copper brace to the case. He expects it to stop moving; instead the sound becomes louder. — JUNO: "My copper clip should help. If I am right, it will."
 
 **S150 [24:50–25:00]** The case rises quickly, knocking a harmless empty cup from the table. BIX: 'Result: my first guess was wrong.'
 
@@ -115,7 +115,7 @@
 ### SC-018 — The Name Inside the Case | 25:30–27:00
 *Location:* Bell workshop / table away from the station · *Cast / audio:* MARA, JUNO, LIA, BIX, BUBU, AILA (asset hold) · *Aila voice/face:* proposed, never treat as approved asset.
 
-**S154 [25:30–25:40]** The suitcase rests while the station cools. Mara turns away to give Aila space and offers a chair beside the warm Earth window.
+**S154 [25:30–25:40]** The suitcase rests while the station cools. Mara turns away to give Aila space and offers a chair beside the warm Earth window. — AILA: "I can sit here, but I want my bag close to me."
 
 **S155 [25:40–25:50]** AILA: 'My little sister was with me when the sky opened. I held her hand. Then I lost her.' She grips her sleeves.
 
@@ -127,7 +127,7 @@
 
 **S159 [26:20–26:30]** AILA: 'You can see it. But you must promise not to break it.' MARA: 'We can promise to ask before changing it.'
 
-**S160 [26:30–26:40]** With Aila's permission, Lia opens one small inside pocket; a BLUE GLASS STONE sits beside a folded paper drawing of two sisters.
+**S160 [26:30–26:40]** With Aila's permission, Lia opens one small inside pocket; a BLUE GLASS STONE sits beside a folded paper drawing of two sisters. — LIA: "The stone is blue. This drawing has two happy faces."
 
 **S161 [26:40–26:50]** LIA: 'She drew both of you.' Aila touches the paper. AILA: 'She made the stars too big. I liked them that way.'
 
