@@ -82,7 +82,10 @@ def inventory(policy: dict, registry: dict, packages: Path = PACKAGES) -> dict:
         "registry_profiles_missing": sorted(known - set(profiles)),
         "profile_not_in_registry": sorted(set(profiles) - known),
         "locked_package_routes": mapped,
-        "ready_for_data_import": not (unmatched or known - set(profiles) or set(profiles)-known),
+        "registered_niche_routes_valid": not (unmatched or known - set(profiles) or set(profiles)-known),
+        "all_content_packages_research_registered": not expected_missing,
+        "ready_for_data_import": not (unmatched or known - set(profiles) or set(profiles)-known or expected_missing),
+        "status": "PARTIAL_CONTENT_ROUTING" if expected_missing else "REGISTERED_ROUTES_VALID",
         "note": "Configuration coverage only; no live research or creative quality is proved."
     }
 
