@@ -1,0 +1,1001 @@
+episode,episode_id,chapter,thread_id,thread_step,title,setting_class,location_candidate,lead,status
+1,BL-0001,1,CH01-T01,1,The Bell That Fell from the Sky — Chuông rơi từ bầu trời,EARTH,Veylora → Trái Đất/Bellfern,MARA,OWNER_SOURCE_PILOT_TREATMENT_NOT_SCREENPLAY
+2,BL-0002,1,CH01-T02,1,Bất ngờ giữa đời thường — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+3,BL-0003,1,CH01-T03,1,Bất ngờ giữa đời thường — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+4,BL-0004,1,CH01-T04,1,Bất ngờ giữa đời thường — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+5,BL-0005,1,CH01-T05,1,Bất ngờ giữa đời thường — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+6,BL-0006,1,CH01-T06,1,Bất ngờ giữa đời thường — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+7,BL-0007,1,CH01-T07,1,Bất ngờ giữa đời thường — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+8,BL-0008,1,CH01-T08,1,Bất ngờ giữa đời thường — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+9,BL-0009,1,CH01-T09,1,Bất ngờ giữa đời thường — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+10,BL-0010,1,CH01-T10,1,Bất ngờ giữa đời thường — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+11,BL-0011,1,CH01-T01,2,Hai người cùng một lời hứa — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+12,BL-0012,1,CH01-T02,2,Hai người cùng một lời hứa — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+13,BL-0013,1,CH01-T03,2,Hai người cùng một lời hứa — Chiếc vali không chịu xuống đất,EARTH,Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+14,BL-0014,1,CH01-T04,2,Hai người cùng một lời hứa — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+15,BL-0015,1,CH01-T05,2,Hai người cùng một lời hứa — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+16,BL-0016,1,CH01-T06,2,Hai người cùng một lời hứa — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+17,BL-0017,1,CH01-T07,2,Hai người cùng một lời hứa — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+18,BL-0018,1,CH01-T08,2,Hai người cùng một lời hứa — Ngày hội gió không có gió,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+19,BL-0019,1,CH01-T09,2,Hai người cùng một lời hứa — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+20,BL-0020,1,CH01-T10,2,Hai người cùng một lời hứa — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+21,BL-0021,1,CH01-T01,3,Lời đồn có thể làm đau — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+22,BL-0022,1,CH01-T02,3,Lời đồn có thể làm đau — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+23,BL-0023,1,CH01-T03,3,Lời đồn có thể làm đau — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+24,BL-0024,1,CH01-T04,3,Lời đồn có thể làm đau — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+25,BL-0025,1,CH01-T05,3,Lời đồn có thể làm đau — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+26,BL-0026,1,CH01-T06,3,Lời đồn có thể làm đau — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+27,BL-0027,1,CH01-T07,3,Lời đồn có thể làm đau — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+28,BL-0028,1,CH01-T08,3,Lời đồn có thể làm đau — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+29,BL-0029,1,CH01-T09,3,Lời đồn có thể làm đau — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+30,BL-0030,1,CH01-T10,3,Lời đồn có thể làm đau — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+31,BL-0031,1,CH01-T01,4,Một phép thử không như tính toán — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+32,BL-0032,1,CH01-T02,4,Một phép thử không như tính toán — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+33,BL-0033,1,CH01-T03,4,Một phép thử không như tính toán — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+34,BL-0034,1,CH01-T04,4,Một phép thử không như tính toán — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+35,BL-0035,1,CH01-T05,4,Một phép thử không như tính toán — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+36,BL-0036,1,CH01-T06,4,Một phép thử không như tính toán — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+37,BL-0037,1,CH01-T07,4,Một phép thử không như tính toán — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+38,BL-0038,1,CH01-T08,4,Một phép thử không như tính toán — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+39,BL-0039,1,CH01-T09,4,Một phép thử không như tính toán — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+40,BL-0040,1,CH01-T10,4,Một phép thử không như tính toán — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+41,BL-0041,1,CH01-T01,5,Hài hước khi mọi thứ trục trặc — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+42,BL-0042,1,CH01-T02,5,Hài hước khi mọi thứ trục trặc — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+43,BL-0043,1,CH01-T03,5,Hài hước khi mọi thứ trục trặc — Chiếc vali không chịu xuống đất,EARTH,Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+44,BL-0044,1,CH01-T04,5,Hài hước khi mọi thứ trục trặc — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+45,BL-0045,1,CH01-T05,5,Hài hước khi mọi thứ trục trặc — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+46,BL-0046,1,CH01-T06,5,Hài hước khi mọi thứ trục trặc — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+47,BL-0047,1,CH01-T07,5,Hài hước khi mọi thứ trục trặc — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+48,BL-0048,1,CH01-T08,5,Hài hước khi mọi thứ trục trặc — Ngày hội gió không có gió,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+49,BL-0049,1,CH01-T09,5,Hài hước khi mọi thứ trục trặc — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+50,BL-0050,1,CH01-T10,5,Hài hước khi mọi thứ trục trặc — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+51,BL-0051,1,CH01-T01,6,Cái giá của một lối tắt — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+52,BL-0052,1,CH01-T02,6,Cái giá của một lối tắt — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+53,BL-0053,1,CH01-T03,6,Cái giá của một lối tắt — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+54,BL-0054,1,CH01-T04,6,Cái giá của một lối tắt — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+55,BL-0055,1,CH01-T05,6,Cái giá của một lối tắt — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+56,BL-0056,1,CH01-T06,6,Cái giá của một lối tắt — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+57,BL-0057,1,CH01-T07,6,Cái giá của một lối tắt — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+58,BL-0058,1,CH01-T08,6,Cái giá của một lối tắt — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+59,BL-0059,1,CH01-T09,6,Cái giá của một lối tắt — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+60,BL-0060,1,CH01-T10,6,Cái giá của một lối tắt — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+61,BL-0061,1,CH01-T01,7,Người trong cuộc lên tiếng — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+62,BL-0062,1,CH01-T02,7,Người trong cuộc lên tiếng — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+63,BL-0063,1,CH01-T03,7,Người trong cuộc lên tiếng — Chiếc vali không chịu xuống đất,EARTH,Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+64,BL-0064,1,CH01-T04,7,Người trong cuộc lên tiếng — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+65,BL-0065,1,CH01-T05,7,Người trong cuộc lên tiếng — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+66,BL-0066,1,CH01-T06,7,Người trong cuộc lên tiếng — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+67,BL-0067,1,CH01-T07,7,Người trong cuộc lên tiếng — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+68,BL-0068,1,CH01-T08,7,Người trong cuộc lên tiếng — Ngày hội gió không có gió,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+69,BL-0069,1,CH01-T09,7,Người trong cuộc lên tiếng — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+70,BL-0070,1,CH01-T10,7,Người trong cuộc lên tiếng — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+71,BL-0071,1,CH01-T01,8,Chứng cứ đến muộn — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+72,BL-0072,1,CH01-T02,8,Chứng cứ đến muộn — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+73,BL-0073,1,CH01-T03,8,Chứng cứ đến muộn — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+74,BL-0074,1,CH01-T04,8,Chứng cứ đến muộn — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+75,BL-0075,1,CH01-T05,8,Chứng cứ đến muộn — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+76,BL-0076,1,CH01-T06,8,Chứng cứ đến muộn — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+77,BL-0077,1,CH01-T07,8,Chứng cứ đến muộn — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+78,BL-0078,1,CH01-T08,8,Chứng cứ đến muộn — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+79,BL-0079,1,CH01-T09,8,Chứng cứ đến muộn — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+80,BL-0080,1,CH01-T10,8,Chứng cứ đến muộn — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+81,BL-0081,1,CH01-T01,9,Cộng đồng chọn con đường — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+82,BL-0082,1,CH01-T02,9,Cộng đồng chọn con đường — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+83,BL-0083,1,CH01-T03,9,Cộng đồng chọn con đường — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+84,BL-0084,1,CH01-T04,9,Cộng đồng chọn con đường — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+85,BL-0085,1,CH01-T05,9,Cộng đồng chọn con đường — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+86,BL-0086,1,CH01-T06,9,Cộng đồng chọn con đường — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+87,BL-0087,1,CH01-T07,9,Cộng đồng chọn con đường — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+88,BL-0088,1,CH01-T08,9,Cộng đồng chọn con đường — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+89,BL-0089,1,CH01-T09,9,Cộng đồng chọn con đường — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+90,BL-0090,1,CH01-T10,9,Cộng đồng chọn con đường — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+91,BL-0091,1,CH01-T01,10,Ngày mai đã khác hôm nay — Bưu kiện thiếu người nhận,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+92,BL-0092,1,CH01-T02,10,Ngày mai đã khác hôm nay — Nhành cây vừa sống lại,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+93,BL-0093,1,CH01-T03,10,Ngày mai đã khác hôm nay — Chiếc vali không chịu xuống đất,EARTH,Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+94,BL-0094,1,CH01-T04,10,Ngày mai đã khác hôm nay — Bữa tối có thêm ghế,EARTH,Nhà Arthur và Rose,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+95,BL-0095,1,CH01-T05,10,Ngày mai đã khác hôm nay — Dấu chân của cánh rừng biết đi,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+96,BL-0096,1,CH01-T06,10,Ngày mai đã khác hôm nay — Hạt giống không chịu ngủ,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+97,BL-0097,1,CH01-T07,10,Ngày mai đã khác hôm nay — Chiếc cầu rễ rung chuông,OLD,Underleaf,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+98,BL-0098,1,CH01-T08,10,Ngày mai đã khác hôm nay — Ngày hội gió không có gió,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+99,BL-0099,1,CH01-T09,10,Ngày mai đã khác hôm nay — Tiếng gọi trong hồ im lặng,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+100,BL-0100,1,CH01-T10,10,Ngày mai đã khác hôm nay — Danh sách không khớp giờ,MIXED,Bellfern / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+101,BL-0101,2,CH02-T01,1,Bất ngờ giữa đời thường — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+102,BL-0102,2,CH02-T02,1,Bất ngờ giữa đời thường — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+103,BL-0103,2,CH02-T03,1,Bất ngờ giữa đời thường — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+104,BL-0104,2,CH02-T04,1,Bất ngờ giữa đời thường — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+105,BL-0105,2,CH02-T05,1,Bất ngờ giữa đời thường — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+106,BL-0106,2,CH02-T06,1,Bất ngờ giữa đời thường — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+107,BL-0107,2,CH02-T07,1,Bất ngờ giữa đời thường — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+108,BL-0108,2,CH02-T08,1,Bất ngờ giữa đời thường — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+109,BL-0109,2,CH02-T09,1,Bất ngờ giữa đời thường — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+110,BL-0110,2,CH02-T10,1,Bất ngờ giữa đời thường — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+111,BL-0111,2,CH02-T01,2,Hai người cùng một lời hứa — Chuông chìm không còn vang,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+112,BL-0112,2,CH02-T02,2,Hai người cùng một lời hứa — Lò nung hai màu lửa,OLD,Cinderwood,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+113,BL-0113,2,CH02-T03,2,Hai người cùng một lời hứa — Bức thư đi bằng gió,OLD,Cloud Kingdom,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+114,BL-0114,2,CH02-T04,2,Hai người cùng một lời hứa — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+115,BL-0115,2,CH02-T05,2,Hai người cùng một lời hứa — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+116,BL-0116,2,CH02-T06,2,Hai người cùng một lời hứa — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+117,BL-0117,2,CH02-T07,2,Hai người cùng một lời hứa — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+118,BL-0118,2,CH02-T08,2,Hai người cùng một lời hứa — Mưa pha lê câm lặng,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+119,BL-0119,2,CH02-T09,2,Hai người cùng một lời hứa — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+120,BL-0120,2,CH02-T10,2,Hai người cùng một lời hứa — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+121,BL-0121,2,CH02-T01,3,Lời đồn có thể làm đau — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+122,BL-0122,2,CH02-T02,3,Lời đồn có thể làm đau — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+123,BL-0123,2,CH02-T03,3,Lời đồn có thể làm đau — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+124,BL-0124,2,CH02-T04,3,Lời đồn có thể làm đau — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+125,BL-0125,2,CH02-T05,3,Lời đồn có thể làm đau — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+126,BL-0126,2,CH02-T06,3,Lời đồn có thể làm đau — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+127,BL-0127,2,CH02-T07,3,Lời đồn có thể làm đau — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+128,BL-0128,2,CH02-T08,3,Lời đồn có thể làm đau — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+129,BL-0129,2,CH02-T09,3,Lời đồn có thể làm đau — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+130,BL-0130,2,CH02-T10,3,Lời đồn có thể làm đau — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+131,BL-0131,2,CH02-T01,4,Một phép thử không như tính toán — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+132,BL-0132,2,CH02-T02,4,Một phép thử không như tính toán — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+133,BL-0133,2,CH02-T03,4,Một phép thử không như tính toán — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+134,BL-0134,2,CH02-T04,4,Một phép thử không như tính toán — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+135,BL-0135,2,CH02-T05,4,Một phép thử không như tính toán — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+136,BL-0136,2,CH02-T06,4,Một phép thử không như tính toán — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+137,BL-0137,2,CH02-T07,4,Một phép thử không như tính toán — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+138,BL-0138,2,CH02-T08,4,Một phép thử không như tính toán — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+139,BL-0139,2,CH02-T09,4,Một phép thử không như tính toán — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+140,BL-0140,2,CH02-T10,4,Một phép thử không như tính toán — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+141,BL-0141,2,CH02-T01,5,Hài hước khi mọi thứ trục trặc — Chuông chìm không còn vang,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+142,BL-0142,2,CH02-T02,5,Hài hước khi mọi thứ trục trặc — Lò nung hai màu lửa,OLD,Cinderwood,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+143,BL-0143,2,CH02-T03,5,Hài hước khi mọi thứ trục trặc — Bức thư đi bằng gió,OLD,Cloud Kingdom,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+144,BL-0144,2,CH02-T04,5,Hài hước khi mọi thứ trục trặc — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+145,BL-0145,2,CH02-T05,5,Hài hước khi mọi thứ trục trặc — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+146,BL-0146,2,CH02-T06,5,Hài hước khi mọi thứ trục trặc — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+147,BL-0147,2,CH02-T07,5,Hài hước khi mọi thứ trục trặc — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+148,BL-0148,2,CH02-T08,5,Hài hước khi mọi thứ trục trặc — Mưa pha lê câm lặng,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+149,BL-0149,2,CH02-T09,5,Hài hước khi mọi thứ trục trặc — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+150,BL-0150,2,CH02-T10,5,Hài hước khi mọi thứ trục trặc — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+151,BL-0151,2,CH02-T01,6,Cái giá của một lối tắt — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+152,BL-0152,2,CH02-T02,6,Cái giá của một lối tắt — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+153,BL-0153,2,CH02-T03,6,Cái giá của một lối tắt — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+154,BL-0154,2,CH02-T04,6,Cái giá của một lối tắt — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+155,BL-0155,2,CH02-T05,6,Cái giá của một lối tắt — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+156,BL-0156,2,CH02-T06,6,Cái giá của một lối tắt — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+157,BL-0157,2,CH02-T07,6,Cái giá của một lối tắt — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+158,BL-0158,2,CH02-T08,6,Cái giá của một lối tắt — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+159,BL-0159,2,CH02-T09,6,Cái giá của một lối tắt — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+160,BL-0160,2,CH02-T10,6,Cái giá của một lối tắt — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+161,BL-0161,2,CH02-T01,7,Người trong cuộc lên tiếng — Chuông chìm không còn vang,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+162,BL-0162,2,CH02-T02,7,Người trong cuộc lên tiếng — Lò nung hai màu lửa,OLD,Cinderwood,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+163,BL-0163,2,CH02-T03,7,Người trong cuộc lên tiếng — Bức thư đi bằng gió,OLD,Cloud Kingdom,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+164,BL-0164,2,CH02-T04,7,Người trong cuộc lên tiếng — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+165,BL-0165,2,CH02-T05,7,Người trong cuộc lên tiếng — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+166,BL-0166,2,CH02-T06,7,Người trong cuộc lên tiếng — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+167,BL-0167,2,CH02-T07,7,Người trong cuộc lên tiếng — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+168,BL-0168,2,CH02-T08,7,Người trong cuộc lên tiếng — Mưa pha lê câm lặng,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+169,BL-0169,2,CH02-T09,7,Người trong cuộc lên tiếng — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+170,BL-0170,2,CH02-T10,7,Người trong cuộc lên tiếng — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+171,BL-0171,2,CH02-T01,8,Chứng cứ đến muộn — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+172,BL-0172,2,CH02-T02,8,Chứng cứ đến muộn — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+173,BL-0173,2,CH02-T03,8,Chứng cứ đến muộn — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+174,BL-0174,2,CH02-T04,8,Chứng cứ đến muộn — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+175,BL-0175,2,CH02-T05,8,Chứng cứ đến muộn — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+176,BL-0176,2,CH02-T06,8,Chứng cứ đến muộn — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+177,BL-0177,2,CH02-T07,8,Chứng cứ đến muộn — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+178,BL-0178,2,CH02-T08,8,Chứng cứ đến muộn — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+179,BL-0179,2,CH02-T09,8,Chứng cứ đến muộn — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+180,BL-0180,2,CH02-T10,8,Chứng cứ đến muộn — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+181,BL-0181,2,CH02-T01,9,Cộng đồng chọn con đường — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+182,BL-0182,2,CH02-T02,9,Cộng đồng chọn con đường — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+183,BL-0183,2,CH02-T03,9,Cộng đồng chọn con đường — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+184,BL-0184,2,CH02-T04,9,Cộng đồng chọn con đường — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+185,BL-0185,2,CH02-T05,9,Cộng đồng chọn con đường — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+186,BL-0186,2,CH02-T06,9,Cộng đồng chọn con đường — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+187,BL-0187,2,CH02-T07,9,Cộng đồng chọn con đường — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+188,BL-0188,2,CH02-T08,9,Cộng đồng chọn con đường — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+189,BL-0189,2,CH02-T09,9,Cộng đồng chọn con đường — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+190,BL-0190,2,CH02-T10,9,Cộng đồng chọn con đường — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+191,BL-0191,2,CH02-T01,10,Ngày mai đã khác hôm nay — Chuông chìm không còn vang,OLD,Mareglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+192,BL-0192,2,CH02-T02,10,Ngày mai đã khác hôm nay — Lò nung hai màu lửa,OLD,Cinderwood,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+193,BL-0193,2,CH02-T03,10,Ngày mai đã khác hôm nay — Bức thư đi bằng gió,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+194,BL-0194,2,CH02-T04,10,Ngày mai đã khác hôm nay — Tấm gương trễ một giây,OLD,Mirrora,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+195,BL-0195,2,CH02-T05,10,Ngày mai đã khác hôm nay — Người nghe chuông trong hang,NEW,Các hang âm quanh Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+196,BL-0196,2,CH02-T06,10,Ngày mai đã khác hôm nay — Cỗ máy tự ký giấy,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+197,BL-0197,2,CH02-T07,10,Ngày mai đã khác hôm nay — Kệ sách không có số cuối,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+198,BL-0198,2,CH02-T08,10,Ngày mai đã khác hôm nay — Mưa pha lê câm lặng,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+199,BL-0199,2,CH02-T09,10,Ngày mai đã khác hôm nay — Người đưa thư không thể giao quà,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+200,BL-0200,2,CH02-T10,10,Ngày mai đã khác hôm nay — Dây neo của hai bến,MIXED,Cổng Earth / cổng cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+201,BL-0201,3,CH03-T01,1,Bất ngờ giữa đời thường — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+202,BL-0202,3,CH03-T02,1,Bất ngờ giữa đời thường — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+203,BL-0203,3,CH03-T03,1,Bất ngờ giữa đời thường — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+204,BL-0204,3,CH03-T04,1,Bất ngờ giữa đời thường — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+205,BL-0205,3,CH03-T05,1,Bất ngờ giữa đời thường — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+206,BL-0206,3,CH03-T06,1,Bất ngờ giữa đời thường — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+207,BL-0207,3,CH03-T07,1,Bất ngờ giữa đời thường — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+208,BL-0208,3,CH03-T08,1,Bất ngờ giữa đời thường — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+209,BL-0209,3,CH03-T09,1,Bất ngờ giữa đời thường — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+210,BL-0210,3,CH03-T10,1,Bất ngờ giữa đời thường — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+211,BL-0211,3,CH03-T01,2,Hai người cùng một lời hứa — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+212,BL-0212,3,CH03-T02,2,Hai người cùng một lời hứa — Dấu mực của người mất tích,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+213,BL-0213,3,CH03-T03,2,Hai người cùng một lời hứa — Cây cầu treo ngược,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+214,BL-0214,3,CH03-T04,2,Hai người cùng một lời hứa — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+215,BL-0215,3,CH03-T05,2,Hai người cùng một lời hứa — Người giữ trạm bị hiểu lầm,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+216,BL-0216,3,CH03-T06,2,Hai người cùng một lời hứa — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+217,BL-0217,3,CH03-T07,2,Hai người cùng một lời hứa — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+218,BL-0218,3,CH03-T08,2,Hai người cùng một lời hứa — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+219,BL-0219,3,CH03-T09,2,Hai người cùng một lời hứa — Hạt giống thuộc về ai,NEW,Seedvault,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+220,BL-0220,3,CH03-T10,2,Hai người cùng một lời hứa — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+221,BL-0221,3,CH03-T01,3,Lời đồn có thể làm đau — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+222,BL-0222,3,CH03-T02,3,Lời đồn có thể làm đau — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+223,BL-0223,3,CH03-T03,3,Lời đồn có thể làm đau — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+224,BL-0224,3,CH03-T04,3,Lời đồn có thể làm đau — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+225,BL-0225,3,CH03-T05,3,Lời đồn có thể làm đau — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+226,BL-0226,3,CH03-T06,3,Lời đồn có thể làm đau — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+227,BL-0227,3,CH03-T07,3,Lời đồn có thể làm đau — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+228,BL-0228,3,CH03-T08,3,Lời đồn có thể làm đau — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+229,BL-0229,3,CH03-T09,3,Lời đồn có thể làm đau — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+230,BL-0230,3,CH03-T10,3,Lời đồn có thể làm đau — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+231,BL-0231,3,CH03-T01,4,Một phép thử không như tính toán — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+232,BL-0232,3,CH03-T02,4,Một phép thử không như tính toán — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+233,BL-0233,3,CH03-T03,4,Một phép thử không như tính toán — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+234,BL-0234,3,CH03-T04,4,Một phép thử không như tính toán — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+235,BL-0235,3,CH03-T05,4,Một phép thử không như tính toán — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+236,BL-0236,3,CH03-T06,4,Một phép thử không như tính toán — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+237,BL-0237,3,CH03-T07,4,Một phép thử không như tính toán — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+238,BL-0238,3,CH03-T08,4,Một phép thử không như tính toán — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+239,BL-0239,3,CH03-T09,4,Một phép thử không như tính toán — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+240,BL-0240,3,CH03-T10,4,Một phép thử không như tính toán — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+241,BL-0241,3,CH03-T01,5,Hài hước khi mọi thứ trục trặc — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+242,BL-0242,3,CH03-T02,5,Hài hước khi mọi thứ trục trặc — Dấu mực của người mất tích,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+243,BL-0243,3,CH03-T03,5,Hài hước khi mọi thứ trục trặc — Cây cầu treo ngược,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+244,BL-0244,3,CH03-T04,5,Hài hước khi mọi thứ trục trặc — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+245,BL-0245,3,CH03-T05,5,Hài hước khi mọi thứ trục trặc — Người giữ trạm bị hiểu lầm,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+246,BL-0246,3,CH03-T06,5,Hài hước khi mọi thứ trục trặc — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+247,BL-0247,3,CH03-T07,5,Hài hước khi mọi thứ trục trặc — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+248,BL-0248,3,CH03-T08,5,Hài hước khi mọi thứ trục trặc — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+249,BL-0249,3,CH03-T09,5,Hài hước khi mọi thứ trục trặc — Hạt giống thuộc về ai,NEW,Seedvault,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+250,BL-0250,3,CH03-T10,5,Hài hước khi mọi thứ trục trặc — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+251,BL-0251,3,CH03-T01,6,Cái giá của một lối tắt — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+252,BL-0252,3,CH03-T02,6,Cái giá của một lối tắt — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+253,BL-0253,3,CH03-T03,6,Cái giá của một lối tắt — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+254,BL-0254,3,CH03-T04,6,Cái giá của một lối tắt — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+255,BL-0255,3,CH03-T05,6,Cái giá của một lối tắt — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+256,BL-0256,3,CH03-T06,6,Cái giá của một lối tắt — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+257,BL-0257,3,CH03-T07,6,Cái giá của một lối tắt — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+258,BL-0258,3,CH03-T08,6,Cái giá của một lối tắt — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+259,BL-0259,3,CH03-T09,6,Cái giá của một lối tắt — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+260,BL-0260,3,CH03-T10,6,Cái giá của một lối tắt — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+261,BL-0261,3,CH03-T01,7,Người trong cuộc lên tiếng — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+262,BL-0262,3,CH03-T02,7,Người trong cuộc lên tiếng — Dấu mực của người mất tích,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+263,BL-0263,3,CH03-T03,7,Người trong cuộc lên tiếng — Cây cầu treo ngược,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+264,BL-0264,3,CH03-T04,7,Người trong cuộc lên tiếng — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+265,BL-0265,3,CH03-T05,7,Người trong cuộc lên tiếng — Người giữ trạm bị hiểu lầm,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+266,BL-0266,3,CH03-T06,7,Người trong cuộc lên tiếng — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+267,BL-0267,3,CH03-T07,7,Người trong cuộc lên tiếng — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+268,BL-0268,3,CH03-T08,7,Người trong cuộc lên tiếng — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+269,BL-0269,3,CH03-T09,7,Người trong cuộc lên tiếng — Hạt giống thuộc về ai,NEW,Seedvault,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+270,BL-0270,3,CH03-T10,7,Người trong cuộc lên tiếng — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+271,BL-0271,3,CH03-T01,8,Chứng cứ đến muộn — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+272,BL-0272,3,CH03-T02,8,Chứng cứ đến muộn — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+273,BL-0273,3,CH03-T03,8,Chứng cứ đến muộn — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+274,BL-0274,3,CH03-T04,8,Chứng cứ đến muộn — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+275,BL-0275,3,CH03-T05,8,Chứng cứ đến muộn — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+276,BL-0276,3,CH03-T06,8,Chứng cứ đến muộn — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+277,BL-0277,3,CH03-T07,8,Chứng cứ đến muộn — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+278,BL-0278,3,CH03-T08,8,Chứng cứ đến muộn — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+279,BL-0279,3,CH03-T09,8,Chứng cứ đến muộn — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+280,BL-0280,3,CH03-T10,8,Chứng cứ đến muộn — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+281,BL-0281,3,CH03-T01,9,Cộng đồng chọn con đường — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+282,BL-0282,3,CH03-T02,9,Cộng đồng chọn con đường — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+283,BL-0283,3,CH03-T03,9,Cộng đồng chọn con đường — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+284,BL-0284,3,CH03-T04,9,Cộng đồng chọn con đường — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+285,BL-0285,3,CH03-T05,9,Cộng đồng chọn con đường — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+286,BL-0286,3,CH03-T06,9,Cộng đồng chọn con đường — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+287,BL-0287,3,CH03-T07,9,Cộng đồng chọn con đường — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+288,BL-0288,3,CH03-T08,9,Cộng đồng chọn con đường — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+289,BL-0289,3,CH03-T09,9,Cộng đồng chọn con đường — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+290,BL-0290,3,CH03-T10,9,Cộng đồng chọn con đường — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+291,BL-0291,3,CH03-T01,10,Ngày mai đã khác hôm nay — Ngôi nhà phải có tên,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+292,BL-0292,3,CH03-T02,10,Ngày mai đã khác hôm nay — Dấu mực của người mất tích,OLD,Ravenglass,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+293,BL-0293,3,CH03-T03,10,Ngày mai đã khác hôm nay — Cây cầu treo ngược,NEW,Rootless Heights,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+294,BL-0294,3,CH03-T04,10,Ngày mai đã khác hôm nay — Mái nhà gõ hai lần,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+295,BL-0295,3,CH03-T05,10,Ngày mai đã khác hôm nay — Người giữ trạm bị hiểu lầm,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+296,BL-0296,3,CH03-T06,10,Ngày mai đã khác hôm nay — Chiếc đèn ở hòn đảo xa,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+297,BL-0297,3,CH03-T07,10,Ngày mai đã khác hôm nay — Cuộc họp dưới gốc táo,EARTH,Khu vườn trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+298,BL-0298,3,CH03-T08,10,Ngày mai đã khác hôm nay — Thuyền chở tên người,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+299,BL-0299,3,CH03-T09,10,Ngày mai đã khác hôm nay — Hạt giống thuộc về ai,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+300,BL-0300,3,CH03-T10,10,Ngày mai đã khác hôm nay — Hai địa chỉ của một người,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+301,BL-0301,4,CH04-T01,1,Bất ngờ giữa đời thường — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+302,BL-0302,4,CH04-T02,1,Bất ngờ giữa đời thường — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+303,BL-0303,4,CH04-T03,1,Bất ngờ giữa đời thường — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+304,BL-0304,4,CH04-T04,1,Bất ngờ giữa đời thường — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+305,BL-0305,4,CH04-T05,1,Bất ngờ giữa đời thường — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+306,BL-0306,4,CH04-T06,1,Bất ngờ giữa đời thường — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+307,BL-0307,4,CH04-T07,1,Bất ngờ giữa đời thường — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+308,BL-0308,4,CH04-T08,1,Bất ngờ giữa đời thường — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+309,BL-0309,4,CH04-T09,1,Bất ngờ giữa đời thường — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+310,BL-0310,4,CH04-T10,1,Bất ngờ giữa đời thường — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+311,BL-0311,4,CH04-T01,2,Hai người cùng một lời hứa — Hai chậu cây cùng một phép,EARTH,Xưởng,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+312,BL-0312,4,CH04-T02,2,Hai người cùng một lời hứa — Lửa không sưởi được ai,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+313,BL-0313,4,CH04-T03,2,Hai người cùng một lời hứa — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+314,BL-0314,4,CH04-T04,2,Hai người cùng một lời hứa — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+315,BL-0315,4,CH04-T05,2,Hai người cùng một lời hứa — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+316,BL-0316,4,CH04-T06,2,Hai người cùng một lời hứa — Bóng dài hơn mặt trời,NEW,Candlecliff,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+317,BL-0317,4,CH04-T07,2,Hai người cùng một lời hứa — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+318,BL-0318,4,CH04-T08,2,Hai người cùng một lời hứa — Nhịp máy giữ hơi thở,OLD,Brasswick,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+319,BL-0319,4,CH04-T09,2,Hai người cùng một lời hứa — Mẫu tinh thể biết hát,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+320,BL-0320,4,CH04-T10,2,Hai người cùng một lời hứa — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+321,BL-0321,4,CH04-T01,3,Lời đồn có thể làm đau — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+322,BL-0322,4,CH04-T02,3,Lời đồn có thể làm đau — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+323,BL-0323,4,CH04-T03,3,Lời đồn có thể làm đau — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+324,BL-0324,4,CH04-T04,3,Lời đồn có thể làm đau — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+325,BL-0325,4,CH04-T05,3,Lời đồn có thể làm đau — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+326,BL-0326,4,CH04-T06,3,Lời đồn có thể làm đau — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+327,BL-0327,4,CH04-T07,3,Lời đồn có thể làm đau — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+328,BL-0328,4,CH04-T08,3,Lời đồn có thể làm đau — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+329,BL-0329,4,CH04-T09,3,Lời đồn có thể làm đau — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+330,BL-0330,4,CH04-T10,3,Lời đồn có thể làm đau — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+331,BL-0331,4,CH04-T01,4,Một phép thử không như tính toán — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+332,BL-0332,4,CH04-T02,4,Một phép thử không như tính toán — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+333,BL-0333,4,CH04-T03,4,Một phép thử không như tính toán — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+334,BL-0334,4,CH04-T04,4,Một phép thử không như tính toán — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+335,BL-0335,4,CH04-T05,4,Một phép thử không như tính toán — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+336,BL-0336,4,CH04-T06,4,Một phép thử không như tính toán — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+337,BL-0337,4,CH04-T07,4,Một phép thử không như tính toán — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+338,BL-0338,4,CH04-T08,4,Một phép thử không như tính toán — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+339,BL-0339,4,CH04-T09,4,Một phép thử không như tính toán — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+340,BL-0340,4,CH04-T10,4,Một phép thử không như tính toán — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+341,BL-0341,4,CH04-T01,5,Hài hước khi mọi thứ trục trặc — Hai chậu cây cùng một phép,EARTH,Xưởng,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+342,BL-0342,4,CH04-T02,5,Hài hước khi mọi thứ trục trặc — Lửa không sưởi được ai,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+343,BL-0343,4,CH04-T03,5,Hài hước khi mọi thứ trục trặc — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+344,BL-0344,4,CH04-T04,5,Hài hước khi mọi thứ trục trặc — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+345,BL-0345,4,CH04-T05,5,Hài hước khi mọi thứ trục trặc — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+346,BL-0346,4,CH04-T06,5,Hài hước khi mọi thứ trục trặc — Bóng dài hơn mặt trời,NEW,Candlecliff,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+347,BL-0347,4,CH04-T07,5,Hài hước khi mọi thứ trục trặc — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+348,BL-0348,4,CH04-T08,5,Hài hước khi mọi thứ trục trặc — Nhịp máy giữ hơi thở,OLD,Brasswick,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+349,BL-0349,4,CH04-T09,5,Hài hước khi mọi thứ trục trặc — Mẫu tinh thể biết hát,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+350,BL-0350,4,CH04-T10,5,Hài hước khi mọi thứ trục trặc — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+351,BL-0351,4,CH04-T01,6,Cái giá của một lối tắt — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+352,BL-0352,4,CH04-T02,6,Cái giá của một lối tắt — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+353,BL-0353,4,CH04-T03,6,Cái giá của một lối tắt — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+354,BL-0354,4,CH04-T04,6,Cái giá của một lối tắt — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+355,BL-0355,4,CH04-T05,6,Cái giá của một lối tắt — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+356,BL-0356,4,CH04-T06,6,Cái giá của một lối tắt — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+357,BL-0357,4,CH04-T07,6,Cái giá của một lối tắt — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+358,BL-0358,4,CH04-T08,6,Cái giá của một lối tắt — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+359,BL-0359,4,CH04-T09,6,Cái giá của một lối tắt — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+360,BL-0360,4,CH04-T10,6,Cái giá của một lối tắt — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+361,BL-0361,4,CH04-T01,7,Người trong cuộc lên tiếng — Hai chậu cây cùng một phép,EARTH,Xưởng,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+362,BL-0362,4,CH04-T02,7,Người trong cuộc lên tiếng — Lửa không sưởi được ai,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+363,BL-0363,4,CH04-T03,7,Người trong cuộc lên tiếng — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+364,BL-0364,4,CH04-T04,7,Người trong cuộc lên tiếng — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+365,BL-0365,4,CH04-T05,7,Người trong cuộc lên tiếng — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+366,BL-0366,4,CH04-T06,7,Người trong cuộc lên tiếng — Bóng dài hơn mặt trời,NEW,Candlecliff,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+367,BL-0367,4,CH04-T07,7,Người trong cuộc lên tiếng — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+368,BL-0368,4,CH04-T08,7,Người trong cuộc lên tiếng — Nhịp máy giữ hơi thở,OLD,Brasswick,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+369,BL-0369,4,CH04-T09,7,Người trong cuộc lên tiếng — Mẫu tinh thể biết hát,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+370,BL-0370,4,CH04-T10,7,Người trong cuộc lên tiếng — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+371,BL-0371,4,CH04-T01,8,Chứng cứ đến muộn — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+372,BL-0372,4,CH04-T02,8,Chứng cứ đến muộn — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+373,BL-0373,4,CH04-T03,8,Chứng cứ đến muộn — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+374,BL-0374,4,CH04-T04,8,Chứng cứ đến muộn — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+375,BL-0375,4,CH04-T05,8,Chứng cứ đến muộn — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+376,BL-0376,4,CH04-T06,8,Chứng cứ đến muộn — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+377,BL-0377,4,CH04-T07,8,Chứng cứ đến muộn — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+378,BL-0378,4,CH04-T08,8,Chứng cứ đến muộn — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+379,BL-0379,4,CH04-T09,8,Chứng cứ đến muộn — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+380,BL-0380,4,CH04-T10,8,Chứng cứ đến muộn — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+381,BL-0381,4,CH04-T01,9,Cộng đồng chọn con đường — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+382,BL-0382,4,CH04-T02,9,Cộng đồng chọn con đường — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+383,BL-0383,4,CH04-T03,9,Cộng đồng chọn con đường — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+384,BL-0384,4,CH04-T04,9,Cộng đồng chọn con đường — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+385,BL-0385,4,CH04-T05,9,Cộng đồng chọn con đường — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+386,BL-0386,4,CH04-T06,9,Cộng đồng chọn con đường — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+387,BL-0387,4,CH04-T07,9,Cộng đồng chọn con đường — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+388,BL-0388,4,CH04-T08,9,Cộng đồng chọn con đường — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+389,BL-0389,4,CH04-T09,9,Cộng đồng chọn con đường — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+390,BL-0390,4,CH04-T10,9,Cộng đồng chọn con đường — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+391,BL-0391,4,CH04-T01,10,Ngày mai đã khác hôm nay — Hai chậu cây cùng một phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+392,BL-0392,4,CH04-T02,10,Ngày mai đã khác hôm nay — Lửa không sưởi được ai,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+393,BL-0393,4,CH04-T03,10,Ngày mai đã khác hôm nay — Kèn gọi mưa sai nhịp,NEW,Quần đảo mây Emberwake,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+394,BL-0394,4,CH04-T04,10,Ngày mai đã khác hôm nay — Bài hát thuộc về hồ,NEW,Echobasin,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+395,BL-0395,4,CH04-T05,10,Ngày mai đã khác hôm nay — Bản đồ bằng tiếng vang,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+396,BL-0396,4,CH04-T06,10,Ngày mai đã khác hôm nay — Bóng dài hơn mặt trời,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+397,BL-0397,4,CH04-T07,10,Ngày mai đã khác hôm nay — Bài tập đo nước,NEW,Trường cộng đồng đảo Namaris,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+398,BL-0398,4,CH04-T08,10,Ngày mai đã khác hôm nay — Nhịp máy giữ hơi thở,OLD,Brasswick,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+399,BL-0399,4,CH04-T09,10,Ngày mai đã khác hôm nay — Mẫu tinh thể biết hát,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+400,BL-0400,4,CH04-T10,10,Ngày mai đã khác hôm nay — Hai lọ nước cùng màu,MIXED,Mareglass / Earth,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+401,BL-0401,5,CH05-T01,1,Bất ngờ giữa đời thường — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+402,BL-0402,5,CH05-T02,1,Bất ngờ giữa đời thường — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+403,BL-0403,5,CH05-T03,1,Bất ngờ giữa đời thường — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+404,BL-0404,5,CH05-T04,1,Bất ngờ giữa đời thường — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+405,BL-0405,5,CH05-T05,1,Bất ngờ giữa đời thường — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+406,BL-0406,5,CH05-T06,1,Bất ngờ giữa đời thường — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+407,BL-0407,5,CH05-T07,1,Bất ngờ giữa đời thường — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+408,BL-0408,5,CH05-T08,1,Bất ngờ giữa đời thường — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+409,BL-0409,5,CH05-T09,1,Bất ngờ giữa đời thường — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+410,BL-0410,5,CH05-T10,1,Bất ngờ giữa đời thường — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+411,BL-0411,5,CH05-T01,2,Hai người cùng một lời hứa — Mẩu khăn trong sương,NEW,Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+412,BL-0412,5,CH05-T02,2,Hai người cùng một lời hứa — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+413,BL-0413,5,CH05-T03,2,Hai người cùng một lời hứa — Người canh cây không còn ngủ,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+414,BL-0414,5,CH05-T04,2,Hai người cùng một lời hứa — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+415,BL-0415,5,CH05-T05,2,Hai người cùng một lời hứa — Giấc mơ của người mẹ,EARTH,Bellfern,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+416,BL-0416,5,CH05-T06,2,Hai người cùng một lời hứa — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+417,BL-0417,5,CH05-T07,2,Hai người cùng một lời hứa — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+418,BL-0418,5,CH05-T08,2,Hai người cùng một lời hứa — Căn phòng để trống,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+419,BL-0419,5,CH05-T09,2,Hai người cùng một lời hứa — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+420,BL-0420,5,CH05-T10,2,Hai người cùng một lời hứa — Một người xin được ở lại,MIXED,Earth / Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+421,BL-0421,5,CH05-T01,3,Lời đồn có thể làm đau — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+422,BL-0422,5,CH05-T02,3,Lời đồn có thể làm đau — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+423,BL-0423,5,CH05-T03,3,Lời đồn có thể làm đau — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+424,BL-0424,5,CH05-T04,3,Lời đồn có thể làm đau — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+425,BL-0425,5,CH05-T05,3,Lời đồn có thể làm đau — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+426,BL-0426,5,CH05-T06,3,Lời đồn có thể làm đau — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+427,BL-0427,5,CH05-T07,3,Lời đồn có thể làm đau — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+428,BL-0428,5,CH05-T08,3,Lời đồn có thể làm đau — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+429,BL-0429,5,CH05-T09,3,Lời đồn có thể làm đau — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+430,BL-0430,5,CH05-T10,3,Lời đồn có thể làm đau — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+431,BL-0431,5,CH05-T01,4,Một phép thử không như tính toán — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+432,BL-0432,5,CH05-T02,4,Một phép thử không như tính toán — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+433,BL-0433,5,CH05-T03,4,Một phép thử không như tính toán — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+434,BL-0434,5,CH05-T04,4,Một phép thử không như tính toán — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+435,BL-0435,5,CH05-T05,4,Một phép thử không như tính toán — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+436,BL-0436,5,CH05-T06,4,Một phép thử không như tính toán — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+437,BL-0437,5,CH05-T07,4,Một phép thử không như tính toán — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+438,BL-0438,5,CH05-T08,4,Một phép thử không như tính toán — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+439,BL-0439,5,CH05-T09,4,Một phép thử không như tính toán — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+440,BL-0440,5,CH05-T10,4,Một phép thử không như tính toán — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+441,BL-0441,5,CH05-T01,5,Hài hước khi mọi thứ trục trặc — Mẩu khăn trong sương,NEW,Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+442,BL-0442,5,CH05-T02,5,Hài hước khi mọi thứ trục trặc — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+443,BL-0443,5,CH05-T03,5,Hài hước khi mọi thứ trục trặc — Người canh cây không còn ngủ,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+444,BL-0444,5,CH05-T04,5,Hài hước khi mọi thứ trục trặc — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+445,BL-0445,5,CH05-T05,5,Hài hước khi mọi thứ trục trặc — Giấc mơ của người mẹ,EARTH,Bellfern,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+446,BL-0446,5,CH05-T06,5,Hài hước khi mọi thứ trục trặc — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+447,BL-0447,5,CH05-T07,5,Hài hước khi mọi thứ trục trặc — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+448,BL-0448,5,CH05-T08,5,Hài hước khi mọi thứ trục trặc — Căn phòng để trống,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+449,BL-0449,5,CH05-T09,5,Hài hước khi mọi thứ trục trặc — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+450,BL-0450,5,CH05-T10,5,Hài hước khi mọi thứ trục trặc — Một người xin được ở lại,MIXED,Earth / Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+451,BL-0451,5,CH05-T01,6,Cái giá của một lối tắt — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+452,BL-0452,5,CH05-T02,6,Cái giá của một lối tắt — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+453,BL-0453,5,CH05-T03,6,Cái giá của một lối tắt — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+454,BL-0454,5,CH05-T04,6,Cái giá của một lối tắt — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+455,BL-0455,5,CH05-T05,6,Cái giá của một lối tắt — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+456,BL-0456,5,CH05-T06,6,Cái giá của một lối tắt — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+457,BL-0457,5,CH05-T07,6,Cái giá của một lối tắt — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+458,BL-0458,5,CH05-T08,6,Cái giá của một lối tắt — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+459,BL-0459,5,CH05-T09,6,Cái giá của một lối tắt — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+460,BL-0460,5,CH05-T10,6,Cái giá của một lối tắt — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+461,BL-0461,5,CH05-T01,7,Người trong cuộc lên tiếng — Mẩu khăn trong sương,NEW,Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+462,BL-0462,5,CH05-T02,7,Người trong cuộc lên tiếng — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+463,BL-0463,5,CH05-T03,7,Người trong cuộc lên tiếng — Người canh cây không còn ngủ,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+464,BL-0464,5,CH05-T04,7,Người trong cuộc lên tiếng — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+465,BL-0465,5,CH05-T05,7,Người trong cuộc lên tiếng — Giấc mơ của người mẹ,EARTH,Bellfern,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+466,BL-0466,5,CH05-T06,7,Người trong cuộc lên tiếng — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+467,BL-0467,5,CH05-T07,7,Người trong cuộc lên tiếng — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+468,BL-0468,5,CH05-T08,7,Người trong cuộc lên tiếng — Căn phòng để trống,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+469,BL-0469,5,CH05-T09,7,Người trong cuộc lên tiếng — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+470,BL-0470,5,CH05-T10,7,Người trong cuộc lên tiếng — Một người xin được ở lại,MIXED,Earth / Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+471,BL-0471,5,CH05-T01,8,Chứng cứ đến muộn — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+472,BL-0472,5,CH05-T02,8,Chứng cứ đến muộn — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+473,BL-0473,5,CH05-T03,8,Chứng cứ đến muộn — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+474,BL-0474,5,CH05-T04,8,Chứng cứ đến muộn — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+475,BL-0475,5,CH05-T05,8,Chứng cứ đến muộn — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+476,BL-0476,5,CH05-T06,8,Chứng cứ đến muộn — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+477,BL-0477,5,CH05-T07,8,Chứng cứ đến muộn — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+478,BL-0478,5,CH05-T08,8,Chứng cứ đến muộn — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+479,BL-0479,5,CH05-T09,8,Chứng cứ đến muộn — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+480,BL-0480,5,CH05-T10,8,Chứng cứ đến muộn — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+481,BL-0481,5,CH05-T01,9,Cộng đồng chọn con đường — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+482,BL-0482,5,CH05-T02,9,Cộng đồng chọn con đường — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+483,BL-0483,5,CH05-T03,9,Cộng đồng chọn con đường — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+484,BL-0484,5,CH05-T04,9,Cộng đồng chọn con đường — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+485,BL-0485,5,CH05-T05,9,Cộng đồng chọn con đường — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+486,BL-0486,5,CH05-T06,9,Cộng đồng chọn con đường — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+487,BL-0487,5,CH05-T07,9,Cộng đồng chọn con đường — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+488,BL-0488,5,CH05-T08,9,Cộng đồng chọn con đường — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+489,BL-0489,5,CH05-T09,9,Cộng đồng chọn con đường — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+490,BL-0490,5,CH05-T10,9,Cộng đồng chọn con đường — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+491,BL-0491,5,CH05-T01,10,Ngày mai đã khác hôm nay — Mẩu khăn trong sương,NEW,Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+492,BL-0492,5,CH05-T02,10,Ngày mai đã khác hôm nay — Trang nhật ký không có tên,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+493,BL-0493,5,CH05-T03,10,Ngày mai đã khác hôm nay — Người canh cây không còn ngủ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+494,BL-0494,5,CH05-T04,10,Ngày mai đã khác hôm nay — Chuyến thuyền đi không về,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+495,BL-0495,5,CH05-T05,10,Ngày mai đã khác hôm nay — Giấc mơ của người mẹ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+496,BL-0496,5,CH05-T06,10,Ngày mai đã khác hôm nay — Căn phòng của hai thời điểm,NEW,Nhà gương tinh thể Glassrain,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+497,BL-0497,5,CH05-T07,10,Ngày mai đã khác hôm nay — Con diều đi trước lời nhắn,NEW,Rootless Heights,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+498,BL-0498,5,CH05-T08,10,Ngày mai đã khác hôm nay — Căn phòng để trống,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+499,BL-0499,5,CH05-T09,10,Ngày mai đã khác hôm nay — Tiếng còi của người xa quê,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+500,BL-0500,5,CH05-T10,10,Ngày mai đã khác hôm nay — Một người xin được ở lại,MIXED,Earth / Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+501,BL-0501,6,CH06-T01,1,Bất ngờ giữa đời thường — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+502,BL-0502,6,CH06-T02,1,Bất ngờ giữa đời thường — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+503,BL-0503,6,CH06-T03,1,Bất ngờ giữa đời thường — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+504,BL-0504,6,CH06-T04,1,Bất ngờ giữa đời thường — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+505,BL-0505,6,CH06-T05,1,Bất ngờ giữa đời thường — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+506,BL-0506,6,CH06-T06,1,Bất ngờ giữa đời thường — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+507,BL-0507,6,CH06-T07,1,Bất ngờ giữa đời thường — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+508,BL-0508,6,CH06-T08,1,Bất ngờ giữa đời thường — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+509,BL-0509,6,CH06-T09,1,Bất ngờ giữa đời thường — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+510,BL-0510,6,CH06-T10,1,Bất ngờ giữa đời thường — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+511,BL-0511,6,CH06-T01,2,Hai người cùng một lời hứa — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+512,BL-0512,6,CH06-T02,2,Hai người cùng một lời hứa — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+513,BL-0513,6,CH06-T03,2,Hai người cùng một lời hứa — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+514,BL-0514,6,CH06-T04,2,Hai người cùng một lời hứa — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+515,BL-0515,6,CH06-T05,2,Hai người cùng một lời hứa — Con dấu cứu trợ bằng đồng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+516,BL-0516,6,CH06-T06,2,Hai người cùng một lời hứa — Mầm cây kéo chuông,NEW,Seedvault,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+517,BL-0517,6,CH06-T07,2,Hai người cùng một lời hứa — Bản đồ có một lối sai,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+518,BL-0518,6,CH06-T08,2,Hai người cùng một lời hứa — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+519,BL-0519,6,CH06-T09,2,Hai người cùng một lời hứa — Lời rủ dưới bóng đá,NEW,Candlecliff,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+520,BL-0520,6,CH06-T10,2,Hai người cùng một lời hứa — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+521,BL-0521,6,CH06-T01,3,Lời đồn có thể làm đau — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+522,BL-0522,6,CH06-T02,3,Lời đồn có thể làm đau — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+523,BL-0523,6,CH06-T03,3,Lời đồn có thể làm đau — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+524,BL-0524,6,CH06-T04,3,Lời đồn có thể làm đau — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+525,BL-0525,6,CH06-T05,3,Lời đồn có thể làm đau — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+526,BL-0526,6,CH06-T06,3,Lời đồn có thể làm đau — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+527,BL-0527,6,CH06-T07,3,Lời đồn có thể làm đau — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+528,BL-0528,6,CH06-T08,3,Lời đồn có thể làm đau — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+529,BL-0529,6,CH06-T09,3,Lời đồn có thể làm đau — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+530,BL-0530,6,CH06-T10,3,Lời đồn có thể làm đau — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+531,BL-0531,6,CH06-T01,4,Một phép thử không như tính toán — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+532,BL-0532,6,CH06-T02,4,Một phép thử không như tính toán — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+533,BL-0533,6,CH06-T03,4,Một phép thử không như tính toán — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+534,BL-0534,6,CH06-T04,4,Một phép thử không như tính toán — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+535,BL-0535,6,CH06-T05,4,Một phép thử không như tính toán — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+536,BL-0536,6,CH06-T06,4,Một phép thử không như tính toán — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+537,BL-0537,6,CH06-T07,4,Một phép thử không như tính toán — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+538,BL-0538,6,CH06-T08,4,Một phép thử không như tính toán — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+539,BL-0539,6,CH06-T09,4,Một phép thử không như tính toán — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+540,BL-0540,6,CH06-T10,4,Một phép thử không như tính toán — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+541,BL-0541,6,CH06-T01,5,Hài hước khi mọi thứ trục trặc — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+542,BL-0542,6,CH06-T02,5,Hài hước khi mọi thứ trục trặc — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+543,BL-0543,6,CH06-T03,5,Hài hước khi mọi thứ trục trặc — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+544,BL-0544,6,CH06-T04,5,Hài hước khi mọi thứ trục trặc — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+545,BL-0545,6,CH06-T05,5,Hài hước khi mọi thứ trục trặc — Con dấu cứu trợ bằng đồng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+546,BL-0546,6,CH06-T06,5,Hài hước khi mọi thứ trục trặc — Mầm cây kéo chuông,NEW,Seedvault,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+547,BL-0547,6,CH06-T07,5,Hài hước khi mọi thứ trục trặc — Bản đồ có một lối sai,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+548,BL-0548,6,CH06-T08,5,Hài hước khi mọi thứ trục trặc — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+549,BL-0549,6,CH06-T09,5,Hài hước khi mọi thứ trục trặc — Lời rủ dưới bóng đá,NEW,Candlecliff,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+550,BL-0550,6,CH06-T10,5,Hài hước khi mọi thứ trục trặc — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+551,BL-0551,6,CH06-T01,6,Cái giá của một lối tắt — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+552,BL-0552,6,CH06-T02,6,Cái giá của một lối tắt — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+553,BL-0553,6,CH06-T03,6,Cái giá của một lối tắt — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+554,BL-0554,6,CH06-T04,6,Cái giá của một lối tắt — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+555,BL-0555,6,CH06-T05,6,Cái giá của một lối tắt — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+556,BL-0556,6,CH06-T06,6,Cái giá của một lối tắt — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+557,BL-0557,6,CH06-T07,6,Cái giá của một lối tắt — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+558,BL-0558,6,CH06-T08,6,Cái giá của một lối tắt — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+559,BL-0559,6,CH06-T09,6,Cái giá của một lối tắt — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+560,BL-0560,6,CH06-T10,6,Cái giá của một lối tắt — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+561,BL-0561,6,CH06-T01,7,Người trong cuộc lên tiếng — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+562,BL-0562,6,CH06-T02,7,Người trong cuộc lên tiếng — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+563,BL-0563,6,CH06-T03,7,Người trong cuộc lên tiếng — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+564,BL-0564,6,CH06-T04,7,Người trong cuộc lên tiếng — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+565,BL-0565,6,CH06-T05,7,Người trong cuộc lên tiếng — Con dấu cứu trợ bằng đồng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+566,BL-0566,6,CH06-T06,7,Người trong cuộc lên tiếng — Mầm cây kéo chuông,NEW,Seedvault,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+567,BL-0567,6,CH06-T07,7,Người trong cuộc lên tiếng — Bản đồ có một lối sai,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+568,BL-0568,6,CH06-T08,7,Người trong cuộc lên tiếng — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+569,BL-0569,6,CH06-T09,7,Người trong cuộc lên tiếng — Lời rủ dưới bóng đá,NEW,Candlecliff,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+570,BL-0570,6,CH06-T10,7,Người trong cuộc lên tiếng — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+571,BL-0571,6,CH06-T01,8,Chứng cứ đến muộn — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+572,BL-0572,6,CH06-T02,8,Chứng cứ đến muộn — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+573,BL-0573,6,CH06-T03,8,Chứng cứ đến muộn — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+574,BL-0574,6,CH06-T04,8,Chứng cứ đến muộn — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+575,BL-0575,6,CH06-T05,8,Chứng cứ đến muộn — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+576,BL-0576,6,CH06-T06,8,Chứng cứ đến muộn — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+577,BL-0577,6,CH06-T07,8,Chứng cứ đến muộn — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+578,BL-0578,6,CH06-T08,8,Chứng cứ đến muộn — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+579,BL-0579,6,CH06-T09,8,Chứng cứ đến muộn — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+580,BL-0580,6,CH06-T10,8,Chứng cứ đến muộn — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+581,BL-0581,6,CH06-T01,9,Cộng đồng chọn con đường — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+582,BL-0582,6,CH06-T02,9,Cộng đồng chọn con đường — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+583,BL-0583,6,CH06-T03,9,Cộng đồng chọn con đường — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+584,BL-0584,6,CH06-T04,9,Cộng đồng chọn con đường — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+585,BL-0585,6,CH06-T05,9,Cộng đồng chọn con đường — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+586,BL-0586,6,CH06-T06,9,Cộng đồng chọn con đường — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+587,BL-0587,6,CH06-T07,9,Cộng đồng chọn con đường — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+588,BL-0588,6,CH06-T08,9,Cộng đồng chọn con đường — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+589,BL-0589,6,CH06-T09,9,Cộng đồng chọn con đường — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+590,BL-0590,6,CH06-T10,9,Cộng đồng chọn con đường — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+591,BL-0591,6,CH06-T01,10,Ngày mai đã khác hôm nay — Đêm chuông nhà reo,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+592,BL-0592,6,CH06-T02,10,Ngày mai đã khác hôm nay — Bản tin đến từ tương lai,OLD,Deepbell,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+593,BL-0593,6,CH06-T03,10,Ngày mai đã khác hôm nay — Vệt sáng không dẫn về nhà,NEW,Glassrain,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+594,BL-0594,6,CH06-T04,10,Ngày mai đã khác hôm nay — Ai giữ chìa khóa vườn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+595,BL-0595,6,CH06-T05,10,Ngày mai đã khác hôm nay — Con dấu cứu trợ bằng đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+596,BL-0596,6,CH06-T06,10,Ngày mai đã khác hôm nay — Mầm cây kéo chuông,NEW,Seedvault,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+597,BL-0597,6,CH06-T07,10,Ngày mai đã khác hôm nay — Bản đồ có một lối sai,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+598,BL-0598,6,CH06-T08,10,Ngày mai đã khác hôm nay — Lời khai trong chiếc gương,OLD,Mirrora,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+599,BL-0599,6,CH06-T09,10,Ngày mai đã khác hôm nay — Lời rủ dưới bóng đá,NEW,Candlecliff,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+600,BL-0600,6,CH06-T10,10,Ngày mai đã khác hôm nay — Nút khóa khẩn cấp,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+601,BL-0601,7,CH07-T01,1,Bất ngờ giữa đời thường — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+602,BL-0602,7,CH07-T02,1,Bất ngờ giữa đời thường — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+603,BL-0603,7,CH07-T03,1,Bất ngờ giữa đời thường — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+604,BL-0604,7,CH07-T04,1,Bất ngờ giữa đời thường — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+605,BL-0605,7,CH07-T05,1,Bất ngờ giữa đời thường — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+606,BL-0606,7,CH07-T06,1,Bất ngờ giữa đời thường — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+607,BL-0607,7,CH07-T07,1,Bất ngờ giữa đời thường — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+608,BL-0608,7,CH07-T08,1,Bất ngờ giữa đời thường — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+609,BL-0609,7,CH07-T09,1,Bất ngờ giữa đời thường — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+610,BL-0610,7,CH07-T10,1,Bất ngờ giữa đời thường — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+611,BL-0611,7,CH07-T01,2,Hai người cùng một lời hứa — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+612,BL-0612,7,CH07-T02,2,Hai người cùng một lời hứa — Chiếc bánh răng hai loại đồng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+613,BL-0613,7,CH07-T03,2,Hai người cùng một lời hứa — Nhân chứng là tiếng vọng,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+614,BL-0614,7,CH07-T04,2,Hai người cùng một lời hứa — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+615,BL-0615,7,CH07-T05,2,Hai người cùng một lời hứa — Con thuyền không có nhật ký,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+616,BL-0616,7,CH07-T06,2,Hai người cùng một lời hứa — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+617,BL-0617,7,CH07-T07,2,Hai người cùng một lời hứa — Vết cắt trên rễ cổ,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+618,BL-0618,7,CH07-T08,2,Hai người cùng một lời hứa — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+619,BL-0619,7,CH07-T09,2,Hai người cùng một lời hứa — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+620,BL-0620,7,CH07-T10,2,Hai người cùng một lời hứa — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+621,BL-0621,7,CH07-T01,3,Lời đồn có thể làm đau — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+622,BL-0622,7,CH07-T02,3,Lời đồn có thể làm đau — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+623,BL-0623,7,CH07-T03,3,Lời đồn có thể làm đau — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+624,BL-0624,7,CH07-T04,3,Lời đồn có thể làm đau — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+625,BL-0625,7,CH07-T05,3,Lời đồn có thể làm đau — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+626,BL-0626,7,CH07-T06,3,Lời đồn có thể làm đau — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+627,BL-0627,7,CH07-T07,3,Lời đồn có thể làm đau — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+628,BL-0628,7,CH07-T08,3,Lời đồn có thể làm đau — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+629,BL-0629,7,CH07-T09,3,Lời đồn có thể làm đau — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+630,BL-0630,7,CH07-T10,3,Lời đồn có thể làm đau — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+631,BL-0631,7,CH07-T01,4,Một phép thử không như tính toán — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+632,BL-0632,7,CH07-T02,4,Một phép thử không như tính toán — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+633,BL-0633,7,CH07-T03,4,Một phép thử không như tính toán — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+634,BL-0634,7,CH07-T04,4,Một phép thử không như tính toán — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+635,BL-0635,7,CH07-T05,4,Một phép thử không như tính toán — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+636,BL-0636,7,CH07-T06,4,Một phép thử không như tính toán — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+637,BL-0637,7,CH07-T07,4,Một phép thử không như tính toán — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+638,BL-0638,7,CH07-T08,4,Một phép thử không như tính toán — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+639,BL-0639,7,CH07-T09,4,Một phép thử không như tính toán — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+640,BL-0640,7,CH07-T10,4,Một phép thử không như tính toán — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+641,BL-0641,7,CH07-T01,5,Hài hước khi mọi thứ trục trặc — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+642,BL-0642,7,CH07-T02,5,Hài hước khi mọi thứ trục trặc — Chiếc bánh răng hai loại đồng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+643,BL-0643,7,CH07-T03,5,Hài hước khi mọi thứ trục trặc — Nhân chứng là tiếng vọng,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+644,BL-0644,7,CH07-T04,5,Hài hước khi mọi thứ trục trặc — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+645,BL-0645,7,CH07-T05,5,Hài hước khi mọi thứ trục trặc — Con thuyền không có nhật ký,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+646,BL-0646,7,CH07-T06,5,Hài hước khi mọi thứ trục trặc — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+647,BL-0647,7,CH07-T07,5,Hài hước khi mọi thứ trục trặc — Vết cắt trên rễ cổ,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+648,BL-0648,7,CH07-T08,5,Hài hước khi mọi thứ trục trặc — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+649,BL-0649,7,CH07-T09,5,Hài hước khi mọi thứ trục trặc — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+650,BL-0650,7,CH07-T10,5,Hài hước khi mọi thứ trục trặc — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+651,BL-0651,7,CH07-T01,6,Cái giá của một lối tắt — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+652,BL-0652,7,CH07-T02,6,Cái giá của một lối tắt — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+653,BL-0653,7,CH07-T03,6,Cái giá của một lối tắt — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+654,BL-0654,7,CH07-T04,6,Cái giá của một lối tắt — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+655,BL-0655,7,CH07-T05,6,Cái giá của một lối tắt — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+656,BL-0656,7,CH07-T06,6,Cái giá của một lối tắt — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+657,BL-0657,7,CH07-T07,6,Cái giá của một lối tắt — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+658,BL-0658,7,CH07-T08,6,Cái giá của một lối tắt — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+659,BL-0659,7,CH07-T09,6,Cái giá của một lối tắt — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+660,BL-0660,7,CH07-T10,6,Cái giá của một lối tắt — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+661,BL-0661,7,CH07-T01,7,Người trong cuộc lên tiếng — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+662,BL-0662,7,CH07-T02,7,Người trong cuộc lên tiếng — Chiếc bánh răng hai loại đồng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+663,BL-0663,7,CH07-T03,7,Người trong cuộc lên tiếng — Nhân chứng là tiếng vọng,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+664,BL-0664,7,CH07-T04,7,Người trong cuộc lên tiếng — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+665,BL-0665,7,CH07-T05,7,Người trong cuộc lên tiếng — Con thuyền không có nhật ký,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+666,BL-0666,7,CH07-T06,7,Người trong cuộc lên tiếng — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+667,BL-0667,7,CH07-T07,7,Người trong cuộc lên tiếng — Vết cắt trên rễ cổ,NEW,Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+668,BL-0668,7,CH07-T08,7,Người trong cuộc lên tiếng — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+669,BL-0669,7,CH07-T09,7,Người trong cuộc lên tiếng — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+670,BL-0670,7,CH07-T10,7,Người trong cuộc lên tiếng — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+671,BL-0671,7,CH07-T01,8,Chứng cứ đến muộn — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+672,BL-0672,7,CH07-T02,8,Chứng cứ đến muộn — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+673,BL-0673,7,CH07-T03,8,Chứng cứ đến muộn — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+674,BL-0674,7,CH07-T04,8,Chứng cứ đến muộn — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+675,BL-0675,7,CH07-T05,8,Chứng cứ đến muộn — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+676,BL-0676,7,CH07-T06,8,Chứng cứ đến muộn — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+677,BL-0677,7,CH07-T07,8,Chứng cứ đến muộn — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+678,BL-0678,7,CH07-T08,8,Chứng cứ đến muộn — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+679,BL-0679,7,CH07-T09,8,Chứng cứ đến muộn — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+680,BL-0680,7,CH07-T10,8,Chứng cứ đến muộn — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+681,BL-0681,7,CH07-T01,9,Cộng đồng chọn con đường — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+682,BL-0682,7,CH07-T02,9,Cộng đồng chọn con đường — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+683,BL-0683,7,CH07-T03,9,Cộng đồng chọn con đường — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+684,BL-0684,7,CH07-T04,9,Cộng đồng chọn con đường — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+685,BL-0685,7,CH07-T05,9,Cộng đồng chọn con đường — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+686,BL-0686,7,CH07-T06,9,Cộng đồng chọn con đường — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+687,BL-0687,7,CH07-T07,9,Cộng đồng chọn con đường — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+688,BL-0688,7,CH07-T08,9,Cộng đồng chọn con đường — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+689,BL-0689,7,CH07-T09,9,Cộng đồng chọn con đường — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+690,BL-0690,7,CH07-T10,9,Cộng đồng chọn con đường — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+691,BL-0691,7,CH07-T01,10,Ngày mai đã khác hôm nay — Biên bản có ba đồng hồ,OLD,Ravenglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+692,BL-0692,7,CH07-T02,10,Ngày mai đã khác hôm nay — Chiếc bánh răng hai loại đồng,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+693,BL-0693,7,CH07-T03,10,Ngày mai đã khác hôm nay — Nhân chứng là tiếng vọng,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+694,BL-0694,7,CH07-T04,10,Ngày mai đã khác hôm nay — Bảng tin có hàng bị xóa,EARTH,Khu trú ẩn,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+695,BL-0695,7,CH07-T05,10,Ngày mai đã khác hôm nay — Con thuyền không có nhật ký,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+696,BL-0696,7,CH07-T06,10,Ngày mai đã khác hôm nay — Lệnh tới từ giọng quen,OLD,Cloud Kingdom,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+697,BL-0697,7,CH07-T07,10,Ngày mai đã khác hôm nay — Vết cắt trên rễ cổ,NEW,Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+698,BL-0698,7,CH07-T08,10,Ngày mai đã khác hôm nay — Tờ giấy đến muộn,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+699,BL-0699,7,CH07-T09,10,Ngày mai đã khác hôm nay — Nhân chứng đứng sau màn,NEW,Thung lũng gương Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+700,BL-0700,7,CH07-T10,10,Ngày mai đã khác hôm nay — Tập hồ sơ có một trang khác mực,MIXED,Old routes / Earth,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+701,BL-0701,8,CH08-T01,1,Bất ngờ giữa đời thường — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+702,BL-0702,8,CH08-T02,1,Bất ngờ giữa đời thường — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+703,BL-0703,8,CH08-T03,1,Bất ngờ giữa đời thường — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+704,BL-0704,8,CH08-T04,1,Bất ngờ giữa đời thường — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+705,BL-0705,8,CH08-T05,1,Bất ngờ giữa đời thường — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+706,BL-0706,8,CH08-T06,1,Bất ngờ giữa đời thường — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+707,BL-0707,8,CH08-T07,1,Bất ngờ giữa đời thường — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+708,BL-0708,8,CH08-T08,1,Bất ngờ giữa đời thường — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+709,BL-0709,8,CH08-T09,1,Bất ngờ giữa đời thường — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+710,BL-0710,8,CH08-T10,1,Bất ngờ giữa đời thường — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+711,BL-0711,8,CH08-T01,2,Hai người cùng một lời hứa — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+712,BL-0712,8,CH08-T02,2,Hai người cùng một lời hứa — Cuộc họp bên cây cầu,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+713,BL-0713,8,CH08-T03,2,Hai người cùng một lời hứa — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+714,BL-0714,8,CH08-T04,2,Hai người cùng một lời hứa — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+715,BL-0715,8,CH08-T05,2,Hai người cùng một lời hứa — Bản vẽ không bán,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+716,BL-0716,8,CH08-T06,2,Hai người cùng một lời hứa — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+717,BL-0717,8,CH08-T07,2,Hai người cùng một lời hứa — Lễ hội tắt chuông,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+718,BL-0718,8,CH08-T08,2,Hai người cùng một lời hứa — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+719,BL-0719,8,CH08-T09,2,Hai người cùng một lời hứa — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+720,BL-0720,8,CH08-T10,2,Hai người cùng một lời hứa — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+721,BL-0721,8,CH08-T01,3,Lời đồn có thể làm đau — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+722,BL-0722,8,CH08-T02,3,Lời đồn có thể làm đau — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+723,BL-0723,8,CH08-T03,3,Lời đồn có thể làm đau — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+724,BL-0724,8,CH08-T04,3,Lời đồn có thể làm đau — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+725,BL-0725,8,CH08-T05,3,Lời đồn có thể làm đau — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+726,BL-0726,8,CH08-T06,3,Lời đồn có thể làm đau — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+727,BL-0727,8,CH08-T07,3,Lời đồn có thể làm đau — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+728,BL-0728,8,CH08-T08,3,Lời đồn có thể làm đau — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+729,BL-0729,8,CH08-T09,3,Lời đồn có thể làm đau — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+730,BL-0730,8,CH08-T10,3,Lời đồn có thể làm đau — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+731,BL-0731,8,CH08-T01,4,Một phép thử không như tính toán — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+732,BL-0732,8,CH08-T02,4,Một phép thử không như tính toán — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+733,BL-0733,8,CH08-T03,4,Một phép thử không như tính toán — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+734,BL-0734,8,CH08-T04,4,Một phép thử không như tính toán — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+735,BL-0735,8,CH08-T05,4,Một phép thử không như tính toán — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+736,BL-0736,8,CH08-T06,4,Một phép thử không như tính toán — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+737,BL-0737,8,CH08-T07,4,Một phép thử không như tính toán — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+738,BL-0738,8,CH08-T08,4,Một phép thử không như tính toán — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+739,BL-0739,8,CH08-T09,4,Một phép thử không như tính toán — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+740,BL-0740,8,CH08-T10,4,Một phép thử không như tính toán — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+741,BL-0741,8,CH08-T01,5,Hài hước khi mọi thứ trục trặc — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+742,BL-0742,8,CH08-T02,5,Hài hước khi mọi thứ trục trặc — Cuộc họp bên cây cầu,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+743,BL-0743,8,CH08-T03,5,Hài hước khi mọi thứ trục trặc — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+744,BL-0744,8,CH08-T04,5,Hài hước khi mọi thứ trục trặc — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+745,BL-0745,8,CH08-T05,5,Hài hước khi mọi thứ trục trặc — Bản vẽ không bán,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+746,BL-0746,8,CH08-T06,5,Hài hước khi mọi thứ trục trặc — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+747,BL-0747,8,CH08-T07,5,Hài hước khi mọi thứ trục trặc — Lễ hội tắt chuông,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+748,BL-0748,8,CH08-T08,5,Hài hước khi mọi thứ trục trặc — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+749,BL-0749,8,CH08-T09,5,Hài hước khi mọi thứ trục trặc — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+750,BL-0750,8,CH08-T10,5,Hài hước khi mọi thứ trục trặc — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+751,BL-0751,8,CH08-T01,6,Cái giá của một lối tắt — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+752,BL-0752,8,CH08-T02,6,Cái giá của một lối tắt — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+753,BL-0753,8,CH08-T03,6,Cái giá của một lối tắt — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+754,BL-0754,8,CH08-T04,6,Cái giá của một lối tắt — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+755,BL-0755,8,CH08-T05,6,Cái giá của một lối tắt — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+756,BL-0756,8,CH08-T06,6,Cái giá của một lối tắt — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+757,BL-0757,8,CH08-T07,6,Cái giá của một lối tắt — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+758,BL-0758,8,CH08-T08,6,Cái giá của một lối tắt — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+759,BL-0759,8,CH08-T09,6,Cái giá của một lối tắt — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+760,BL-0760,8,CH08-T10,6,Cái giá của một lối tắt — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+761,BL-0761,8,CH08-T01,7,Người trong cuộc lên tiếng — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+762,BL-0762,8,CH08-T02,7,Người trong cuộc lên tiếng — Cuộc họp bên cây cầu,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+763,BL-0763,8,CH08-T03,7,Người trong cuộc lên tiếng — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+764,BL-0764,8,CH08-T04,7,Người trong cuộc lên tiếng — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+765,BL-0765,8,CH08-T05,7,Người trong cuộc lên tiếng — Bản vẽ không bán,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+766,BL-0766,8,CH08-T06,7,Người trong cuộc lên tiếng — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+767,BL-0767,8,CH08-T07,7,Người trong cuộc lên tiếng — Lễ hội tắt chuông,NEW,Glassrain,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+768,BL-0768,8,CH08-T08,7,Người trong cuộc lên tiếng — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+769,BL-0769,8,CH08-T09,7,Người trong cuộc lên tiếng — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+770,BL-0770,8,CH08-T10,7,Người trong cuộc lên tiếng — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+771,BL-0771,8,CH08-T01,8,Chứng cứ đến muộn — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+772,BL-0772,8,CH08-T02,8,Chứng cứ đến muộn — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+773,BL-0773,8,CH08-T03,8,Chứng cứ đến muộn — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+774,BL-0774,8,CH08-T04,8,Chứng cứ đến muộn — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+775,BL-0775,8,CH08-T05,8,Chứng cứ đến muộn — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+776,BL-0776,8,CH08-T06,8,Chứng cứ đến muộn — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+777,BL-0777,8,CH08-T07,8,Chứng cứ đến muộn — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+778,BL-0778,8,CH08-T08,8,Chứng cứ đến muộn — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+779,BL-0779,8,CH08-T09,8,Chứng cứ đến muộn — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+780,BL-0780,8,CH08-T10,8,Chứng cứ đến muộn — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+781,BL-0781,8,CH08-T01,9,Cộng đồng chọn con đường — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+782,BL-0782,8,CH08-T02,9,Cộng đồng chọn con đường — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+783,BL-0783,8,CH08-T03,9,Cộng đồng chọn con đường — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+784,BL-0784,8,CH08-T04,9,Cộng đồng chọn con đường — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+785,BL-0785,8,CH08-T05,9,Cộng đồng chọn con đường — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+786,BL-0786,8,CH08-T06,9,Cộng đồng chọn con đường — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+787,BL-0787,8,CH08-T07,9,Cộng đồng chọn con đường — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+788,BL-0788,8,CH08-T08,9,Cộng đồng chọn con đường — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+789,BL-0789,8,CH08-T09,9,Cộng đồng chọn con đường — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+790,BL-0790,8,CH08-T10,9,Cộng đồng chọn con đường — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+791,BL-0791,8,CH08-T01,10,Ngày mai đã khác hôm nay — Ngày hội có hai ngôn ngữ,EARTH,Bellfern,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+792,BL-0792,8,CH08-T02,10,Ngày mai đã khác hôm nay — Cuộc họp bên cây cầu,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+793,BL-0793,8,CH08-T03,10,Ngày mai đã khác hôm nay — Chiếc phao của hai bến,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+794,BL-0794,8,CH08-T04,10,Ngày mai đã khác hôm nay — Đảo sương muốn yên,NEW,Namaris,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+795,BL-0795,8,CH08-T05,10,Ngày mai đã khác hôm nay — Bản vẽ không bán,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+796,BL-0796,8,CH08-T06,10,Ngày mai đã khác hôm nay — Trạm cứu hộ cần hội đồng,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+797,BL-0797,8,CH08-T07,10,Ngày mai đã khác hôm nay — Lễ hội tắt chuông,NEW,Glassrain,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+798,BL-0798,8,CH08-T08,10,Ngày mai đã khác hôm nay — Quy trình lỗi nhưng người đúng,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+799,BL-0799,8,CH08-T09,10,Ngày mai đã khác hôm nay — Bạn mới không có ảnh lớp,EARTH,Trường Bellfern,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+800,BL-0800,8,CH08-T10,10,Ngày mai đã khác hôm nay — Lời hứa ở hai bến,MIXED,Earth / cửa trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+801,BL-0801,9,CH09-T01,1,Bất ngờ giữa đời thường — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+802,BL-0802,9,CH09-T02,1,Bất ngờ giữa đời thường — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+803,BL-0803,9,CH09-T03,1,Bất ngờ giữa đời thường — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+804,BL-0804,9,CH09-T04,1,Bất ngờ giữa đời thường — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+805,BL-0805,9,CH09-T05,1,Bất ngờ giữa đời thường — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+806,BL-0806,9,CH09-T06,1,Bất ngờ giữa đời thường — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+807,BL-0807,9,CH09-T07,1,Bất ngờ giữa đời thường — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+808,BL-0808,9,CH09-T08,1,Bất ngờ giữa đời thường — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+809,BL-0809,9,CH09-T09,1,Bất ngờ giữa đời thường — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+810,BL-0810,9,CH09-T10,1,Bất ngờ giữa đời thường — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+811,BL-0811,9,CH09-T01,2,Hai người cùng một lời hứa — Chiếc bình không thể tạo phép,EARTH,Xưởng,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+812,BL-0812,9,CH09-T02,2,Hai người cùng một lời hứa — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+813,BL-0813,9,CH09-T03,2,Hai người cùng một lời hứa — Rễ già cần đất mới,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+814,BL-0814,9,CH09-T04,2,Hai người cùng một lời hứa — Dòng thủy triều quay lại,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+815,BL-0815,9,CH09-T05,2,Hai người cùng một lời hứa — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+816,BL-0816,9,CH09-T06,2,Hai người cùng một lời hứa — Đá không chịu ngân,NEW,Khoáng động Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+817,BL-0817,9,CH09-T07,2,Hai người cùng một lời hứa — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+818,BL-0818,9,CH09-T08,2,Hai người cùng một lời hứa — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+819,BL-0819,9,CH09-T09,2,Hai người cùng một lời hứa — Chiếc chuông nhẹ hơn,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+820,BL-0820,9,CH09-T10,2,Hai người cùng một lời hứa — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+821,BL-0821,9,CH09-T01,3,Lời đồn có thể làm đau — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+822,BL-0822,9,CH09-T02,3,Lời đồn có thể làm đau — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+823,BL-0823,9,CH09-T03,3,Lời đồn có thể làm đau — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+824,BL-0824,9,CH09-T04,3,Lời đồn có thể làm đau — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+825,BL-0825,9,CH09-T05,3,Lời đồn có thể làm đau — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+826,BL-0826,9,CH09-T06,3,Lời đồn có thể làm đau — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+827,BL-0827,9,CH09-T07,3,Lời đồn có thể làm đau — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+828,BL-0828,9,CH09-T08,3,Lời đồn có thể làm đau — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+829,BL-0829,9,CH09-T09,3,Lời đồn có thể làm đau — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+830,BL-0830,9,CH09-T10,3,Lời đồn có thể làm đau — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+831,BL-0831,9,CH09-T01,4,Một phép thử không như tính toán — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+832,BL-0832,9,CH09-T02,4,Một phép thử không như tính toán — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+833,BL-0833,9,CH09-T03,4,Một phép thử không như tính toán — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+834,BL-0834,9,CH09-T04,4,Một phép thử không như tính toán — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+835,BL-0835,9,CH09-T05,4,Một phép thử không như tính toán — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+836,BL-0836,9,CH09-T06,4,Một phép thử không như tính toán — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+837,BL-0837,9,CH09-T07,4,Một phép thử không như tính toán — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+838,BL-0838,9,CH09-T08,4,Một phép thử không như tính toán — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+839,BL-0839,9,CH09-T09,4,Một phép thử không như tính toán — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+840,BL-0840,9,CH09-T10,4,Một phép thử không như tính toán — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+841,BL-0841,9,CH09-T01,5,Hài hước khi mọi thứ trục trặc — Chiếc bình không thể tạo phép,EARTH,Xưởng,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+842,BL-0842,9,CH09-T02,5,Hài hước khi mọi thứ trục trặc — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+843,BL-0843,9,CH09-T03,5,Hài hước khi mọi thứ trục trặc — Rễ già cần đất mới,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+844,BL-0844,9,CH09-T04,5,Hài hước khi mọi thứ trục trặc — Dòng thủy triều quay lại,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+845,BL-0845,9,CH09-T05,5,Hài hước khi mọi thứ trục trặc — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+846,BL-0846,9,CH09-T06,5,Hài hước khi mọi thứ trục trặc — Đá không chịu ngân,NEW,Khoáng động Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+847,BL-0847,9,CH09-T07,5,Hài hước khi mọi thứ trục trặc — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+848,BL-0848,9,CH09-T08,5,Hài hước khi mọi thứ trục trặc — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+849,BL-0849,9,CH09-T09,5,Hài hước khi mọi thứ trục trặc — Chiếc chuông nhẹ hơn,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+850,BL-0850,9,CH09-T10,5,Hài hước khi mọi thứ trục trặc — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+851,BL-0851,9,CH09-T01,6,Cái giá của một lối tắt — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+852,BL-0852,9,CH09-T02,6,Cái giá của một lối tắt — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+853,BL-0853,9,CH09-T03,6,Cái giá của một lối tắt — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+854,BL-0854,9,CH09-T04,6,Cái giá của một lối tắt — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+855,BL-0855,9,CH09-T05,6,Cái giá của một lối tắt — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+856,BL-0856,9,CH09-T06,6,Cái giá của một lối tắt — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+857,BL-0857,9,CH09-T07,6,Cái giá của một lối tắt — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+858,BL-0858,9,CH09-T08,6,Cái giá của một lối tắt — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+859,BL-0859,9,CH09-T09,6,Cái giá của một lối tắt — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+860,BL-0860,9,CH09-T10,6,Cái giá của một lối tắt — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+861,BL-0861,9,CH09-T01,7,Người trong cuộc lên tiếng — Chiếc bình không thể tạo phép,EARTH,Xưởng,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+862,BL-0862,9,CH09-T02,7,Người trong cuộc lên tiếng — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+863,BL-0863,9,CH09-T03,7,Người trong cuộc lên tiếng — Rễ già cần đất mới,OLD,Underleaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+864,BL-0864,9,CH09-T04,7,Người trong cuộc lên tiếng — Dòng thủy triều quay lại,OLD,Mareglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+865,BL-0865,9,CH09-T05,7,Người trong cuộc lên tiếng — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+866,BL-0866,9,CH09-T06,7,Người trong cuộc lên tiếng — Đá không chịu ngân,NEW,Khoáng động Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+867,BL-0867,9,CH09-T07,7,Người trong cuộc lên tiếng — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+868,BL-0868,9,CH09-T08,7,Người trong cuộc lên tiếng — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+869,BL-0869,9,CH09-T09,7,Người trong cuộc lên tiếng — Chiếc chuông nhẹ hơn,OLD,Cinderwood,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+870,BL-0870,9,CH09-T10,7,Người trong cuộc lên tiếng — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+871,BL-0871,9,CH09-T01,8,Chứng cứ đến muộn — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+872,BL-0872,9,CH09-T02,8,Chứng cứ đến muộn — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+873,BL-0873,9,CH09-T03,8,Chứng cứ đến muộn — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+874,BL-0874,9,CH09-T04,8,Chứng cứ đến muộn — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+875,BL-0875,9,CH09-T05,8,Chứng cứ đến muộn — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+876,BL-0876,9,CH09-T06,8,Chứng cứ đến muộn — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+877,BL-0877,9,CH09-T07,8,Chứng cứ đến muộn — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+878,BL-0878,9,CH09-T08,8,Chứng cứ đến muộn — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+879,BL-0879,9,CH09-T09,8,Chứng cứ đến muộn — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+880,BL-0880,9,CH09-T10,8,Chứng cứ đến muộn — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+881,BL-0881,9,CH09-T01,9,Cộng đồng chọn con đường — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+882,BL-0882,9,CH09-T02,9,Cộng đồng chọn con đường — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+883,BL-0883,9,CH09-T03,9,Cộng đồng chọn con đường — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+884,BL-0884,9,CH09-T04,9,Cộng đồng chọn con đường — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+885,BL-0885,9,CH09-T05,9,Cộng đồng chọn con đường — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+886,BL-0886,9,CH09-T06,9,Cộng đồng chọn con đường — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+887,BL-0887,9,CH09-T07,9,Cộng đồng chọn con đường — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+888,BL-0888,9,CH09-T08,9,Cộng đồng chọn con đường — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+889,BL-0889,9,CH09-T09,9,Cộng đồng chọn con đường — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+890,BL-0890,9,CH09-T10,9,Cộng đồng chọn con đường — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+891,BL-0891,9,CH09-T01,10,Ngày mai đã khác hôm nay — Chiếc bình không thể tạo phép,EARTH,Xưởng,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+892,BL-0892,9,CH09-T02,10,Ngày mai đã khác hôm nay — Dòng khí mang hơi ẩm,OLD,Cloud Kingdom,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+893,BL-0893,9,CH09-T03,10,Ngày mai đã khác hôm nay — Rễ già cần đất mới,OLD,Underleaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+894,BL-0894,9,CH09-T04,10,Ngày mai đã khác hôm nay — Dòng thủy triều quay lại,OLD,Mareglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+895,BL-0895,9,CH09-T05,10,Ngày mai đã khác hôm nay — Giống cây ngủ đủ mùa,NEW,Seedvault,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+896,BL-0896,9,CH09-T06,10,Ngày mai đã khác hôm nay — Đá không chịu ngân,NEW,Khoáng động Seedvault,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+897,BL-0897,9,CH09-T07,10,Ngày mai đã khác hôm nay — Đàn chim chọn đường vòng,NEW,Wilderlight,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+898,BL-0898,9,CH09-T08,10,Ngày mai đã khác hôm nay — Giờ nghỉ của phù thủy,NEW,Khu nghỉ tạm Namaris,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+899,BL-0899,9,CH09-T09,10,Ngày mai đã khác hôm nay — Chiếc chuông nhẹ hơn,OLD,Cinderwood,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+900,BL-0900,9,CH09-T10,10,Ngày mai đã khác hôm nay — Bản đồ không chỉ có điểm mạnh,MIXED,Earth / các trạm,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+901,BL-0901,10,CH10-T01,1,Bất ngờ giữa đời thường — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+902,BL-0902,10,CH10-T02,1,Bất ngờ giữa đời thường — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+903,BL-0903,10,CH10-T03,1,Bất ngờ giữa đời thường — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+904,BL-0904,10,CH10-T04,1,Bất ngờ giữa đời thường — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+905,BL-0905,10,CH10-T05,1,Bất ngờ giữa đời thường — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+906,BL-0906,10,CH10-T06,1,Bất ngờ giữa đời thường — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+907,BL-0907,10,CH10-T07,1,Bất ngờ giữa đời thường — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+908,BL-0908,10,CH10-T08,1,Bất ngờ giữa đời thường — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+909,BL-0909,10,CH10-T09,1,Bất ngờ giữa đời thường — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+910,BL-0910,10,CH10-T10,1,Bất ngờ giữa đời thường — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+911,BL-0911,10,CH10-T01,2,Hai người cùng một lời hứa — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+912,BL-0912,10,CH10-T02,2,Hai người cùng một lời hứa — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+913,BL-0913,10,CH10-T03,2,Hai người cùng một lời hứa — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+914,BL-0914,10,CH10-T04,2,Hai người cùng một lời hứa — Trạm chuông thử không tải,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+915,BL-0915,10,CH10-T05,2,Hai người cùng một lời hứa — Lời hứa của hồ,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+916,BL-0916,10,CH10-T06,2,Hai người cùng một lời hứa — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+917,BL-0917,10,CH10-T07,2,Hai người cùng một lời hứa — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+918,BL-0918,10,CH10-T08,2,Hai người cùng một lời hứa — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+919,BL-0919,10,CH10-T09,2,Hai người cùng một lời hứa — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+920,BL-0920,10,CH10-T10,2,Hai người cùng một lời hứa — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+921,BL-0921,10,CH10-T01,3,Lời đồn có thể làm đau — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+922,BL-0922,10,CH10-T02,3,Lời đồn có thể làm đau — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+923,BL-0923,10,CH10-T03,3,Lời đồn có thể làm đau — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+924,BL-0924,10,CH10-T04,3,Lời đồn có thể làm đau — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+925,BL-0925,10,CH10-T05,3,Lời đồn có thể làm đau — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+926,BL-0926,10,CH10-T06,3,Lời đồn có thể làm đau — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+927,BL-0927,10,CH10-T07,3,Lời đồn có thể làm đau — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+928,BL-0928,10,CH10-T08,3,Lời đồn có thể làm đau — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+929,BL-0929,10,CH10-T09,3,Lời đồn có thể làm đau — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+930,BL-0930,10,CH10-T10,3,Lời đồn có thể làm đau — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+931,BL-0931,10,CH10-T01,4,Một phép thử không như tính toán — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+932,BL-0932,10,CH10-T02,4,Một phép thử không như tính toán — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+933,BL-0933,10,CH10-T03,4,Một phép thử không như tính toán — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+934,BL-0934,10,CH10-T04,4,Một phép thử không như tính toán — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+935,BL-0935,10,CH10-T05,4,Một phép thử không như tính toán — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+936,BL-0936,10,CH10-T06,4,Một phép thử không như tính toán — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+937,BL-0937,10,CH10-T07,4,Một phép thử không như tính toán — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+938,BL-0938,10,CH10-T08,4,Một phép thử không như tính toán — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+939,BL-0939,10,CH10-T09,4,Một phép thử không như tính toán — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+940,BL-0940,10,CH10-T10,4,Một phép thử không như tính toán — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+941,BL-0941,10,CH10-T01,5,Hài hước khi mọi thứ trục trặc — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+942,BL-0942,10,CH10-T02,5,Hài hước khi mọi thứ trục trặc — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+943,BL-0943,10,CH10-T03,5,Hài hước khi mọi thứ trục trặc — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+944,BL-0944,10,CH10-T04,5,Hài hước khi mọi thứ trục trặc — Trạm chuông thử không tải,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+945,BL-0945,10,CH10-T05,5,Hài hước khi mọi thứ trục trặc — Lời hứa của hồ,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+946,BL-0946,10,CH10-T06,5,Hài hước khi mọi thứ trục trặc — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+947,BL-0947,10,CH10-T07,5,Hài hước khi mọi thứ trục trặc — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+948,BL-0948,10,CH10-T08,5,Hài hước khi mọi thứ trục trặc — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+949,BL-0949,10,CH10-T09,5,Hài hước khi mọi thứ trục trặc — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+950,BL-0950,10,CH10-T10,5,Hài hước khi mọi thứ trục trặc — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+951,BL-0951,10,CH10-T01,6,Cái giá của một lối tắt — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+952,BL-0952,10,CH10-T02,6,Cái giá của một lối tắt — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+953,BL-0953,10,CH10-T03,6,Cái giá của một lối tắt — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+954,BL-0954,10,CH10-T04,6,Cái giá của một lối tắt — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+955,BL-0955,10,CH10-T05,6,Cái giá của một lối tắt — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+956,BL-0956,10,CH10-T06,6,Cái giá của một lối tắt — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+957,BL-0957,10,CH10-T07,6,Cái giá của một lối tắt — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+958,BL-0958,10,CH10-T08,6,Cái giá của một lối tắt — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+959,BL-0959,10,CH10-T09,6,Cái giá của một lối tắt — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+960,BL-0960,10,CH10-T10,6,Cái giá của một lối tắt — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+961,BL-0961,10,CH10-T01,7,Người trong cuộc lên tiếng — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+962,BL-0962,10,CH10-T02,7,Người trong cuộc lên tiếng — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+963,BL-0963,10,CH10-T03,7,Người trong cuộc lên tiếng — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+964,BL-0964,10,CH10-T04,7,Người trong cuộc lên tiếng — Trạm chuông thử không tải,OLD,Brasswick,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+965,BL-0965,10,CH10-T05,7,Người trong cuộc lên tiếng — Lời hứa của hồ,NEW,Echobasin,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+966,BL-0966,10,CH10-T06,7,Người trong cuộc lên tiếng — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+967,BL-0967,10,CH10-T07,7,Người trong cuộc lên tiếng — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+968,BL-0968,10,CH10-T08,7,Người trong cuộc lên tiếng — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+969,BL-0969,10,CH10-T09,7,Người trong cuộc lên tiếng — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+970,BL-0970,10,CH10-T10,7,Người trong cuộc lên tiếng — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+971,BL-0971,10,CH10-T01,8,Chứng cứ đến muộn — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+972,BL-0972,10,CH10-T02,8,Chứng cứ đến muộn — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+973,BL-0973,10,CH10-T03,8,Chứng cứ đến muộn — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+974,BL-0974,10,CH10-T04,8,Chứng cứ đến muộn — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+975,BL-0975,10,CH10-T05,8,Chứng cứ đến muộn — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+976,BL-0976,10,CH10-T06,8,Chứng cứ đến muộn — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+977,BL-0977,10,CH10-T07,8,Chứng cứ đến muộn — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+978,BL-0978,10,CH10-T08,8,Chứng cứ đến muộn — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+979,BL-0979,10,CH10-T09,8,Chứng cứ đến muộn — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+980,BL-0980,10,CH10-T10,8,Chứng cứ đến muộn — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+981,BL-0981,10,CH10-T01,9,Cộng đồng chọn con đường — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+982,BL-0982,10,CH10-T02,9,Cộng đồng chọn con đường — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+983,BL-0983,10,CH10-T03,9,Cộng đồng chọn con đường — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+984,BL-0984,10,CH10-T04,9,Cộng đồng chọn con đường — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+985,BL-0985,10,CH10-T05,9,Cộng đồng chọn con đường — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+986,BL-0986,10,CH10-T06,9,Cộng đồng chọn con đường — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+987,BL-0987,10,CH10-T07,9,Cộng đồng chọn con đường — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+988,BL-0988,10,CH10-T08,9,Cộng đồng chọn con đường — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+989,BL-0989,10,CH10-T09,9,Cộng đồng chọn con đường — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+990,BL-0990,10,CH10-T10,9,Cộng đồng chọn con đường — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+991,BL-0991,10,CH10-T01,10,Ngày mai đã khác hôm nay — Chiếc chìa khóa phòng vắng,OLD,Ravenglass,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+992,BL-0992,10,CH10-T02,10,Ngày mai đã khác hôm nay — Hướng chuông đi về,OLD,Deepbell,BUBU,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+993,BL-0993,10,CH10-T03,10,Ngày mai đã khác hôm nay — Lá thư hai quê hương,EARTH,Bellfern,EVAN,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+994,BL-0994,10,CH10-T04,10,Ngày mai đã khác hôm nay — Trạm chuông thử không tải,OLD,Brasswick,JUNO,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+995,BL-0995,10,CH10-T05,10,Ngày mai đã khác hôm nay — Lời hứa của hồ,NEW,Echobasin,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+996,BL-0996,10,CH10-T06,10,Ngày mai đã khác hôm nay — Cây cầu nối hai thời kỳ,NEW,Cầu rễ Wilderlight,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+997,BL-0997,10,CH10-T07,10,Ngày mai đã khác hôm nay — Những căn nhà sáng đèn,EARTH,Khu trú ẩn,LIA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+998,BL-0998,10,CH10-T08,10,Ngày mai đã khác hôm nay — Hội đồng không cần ngai vàng,MIXED,Earth / tuyến cũ,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+999,BL-0999,10,CH10-T09,10,Ngày mai đã khác hôm nay — Con thuyền cuối buổi chiều,OLD,Mareglass,BIX,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
+1000,BL-1000,10,CH10-T10,10,Ngày mai đã khác hôm nay — Bài ca không phải lời kết,EARTH,Xưởng Bell & Leaf,MARA,DEVELOPMENT_EPISODE_CARD_NOT_SCREENPLAY
