@@ -37,10 +37,25 @@ def plan(niche="magical_witch_family_stories", series="bell_leaf", episode="BL-0
             "caused_by": [f"B{i:02d}"] if i else [],
             "because": "A prior choice creates a measurable new challenge the family must face",
             "visible_action": f"The family uses evidence from the previous scene to inspect the water clock {i+1} carefully",
-            "obstacle": "An old safety protocol restricts access until the community verifies the environmental readings",
-            "character_choice": "Mara chooses to ask permission and test a safer alternative instead of using stronger magic",
-            "immediate_consequence": "The witnesses change the rescue schedule and the family must reconsider their route",
+            "obstacle": f"A distinct gate keeper {i+1} disputes the reading and asks for verifiable environmental proof",
+            "character_choice": f"Mara chooses an independently checked approach to the river problem at step {i+1} rather than forcing entry",
+            "immediate_consequence": f"The witness responsible for step {i+1} revises the rescue plan and changes the route for the next team",
         })
+    scenes = [{
+        "scene_id": f"SC-{i+1:03d}", "beat_id": f"B{(i//2)+1:02d}",
+        "start_s": i*112.5, "end_s": (i+1)*112.5,
+        "location": "River keeper observatory beside the old safe harbour",
+        "scene_purpose": f"Verify the water evidence from a different point in the rescue plan {i+1}",
+        "observable_character_action": f"The team observes a specific measurement while witness {i+1} checks the clock",
+        "new_information_or_change": f"Measurement {i+1} changes what the next team can safely assume about the route",
+    } for i in range(24)]
+    arcs = [{
+        "character": "MARA", "turning_beat": "B10",
+        "initial_state": "Mara trusts her own magical intuition more than the river council's measurements",
+        "internal_need": "She needs to respect local authority and shared evidence while leading a rescue",
+        "costly_decision": "She must delay the crossing and risk missing a deadline to verify the data openly",
+        "final_state": "Mara trusts the combined measurements and consent of local keepers more than her first guess",
+    }]
     return {
         "schema": "cine.story_quality.episode.v1",
         "episode_id": episode, "niche_id": niche, "series_id": series,
@@ -65,6 +80,7 @@ def plan(niche="magical_witch_family_stories", series="bell_leaf", episode="BL-0
             "originality_difference": "A water-measurement and community-consent conflict replaces a magical battle or arbitrary portal",
         },
         "beats": beats,
+        "scenes": scenes, "character_arcs": arcs,
         "setup_payoffs": [
             {"setup_beat":"B01","payoff_beat":"B05",
              "specific_clue":"The river bell makes an echo only after the clock's glass tube trembles",
@@ -258,8 +274,10 @@ def test_script_trace_and_editorial_review_require_actual_artifact_sha():
         script.write_text("A very long script with no beat provenance " * 200, encoding="utf-8")
         with pytest.raises(ValueError,match="TRACE_IDS"):
             gate.require_factory_stage(p,manifest,"script",ROOT)
-        script.write_text((" ".join(f"B{i:02d}" for i in range(1,13))+"\n"+
-                          "MARA: I need everyone to see why this choice matters.\n")*130,encoding="utf-8")
+        header=" ".join([f"B{i:02d}" for i in range(1,13)]+[f"SC-{i:03d}" for i in range(1,25)])
+        script.write_text(header+"\n"+"".join(
+            f"SC-{(i%24)+1:03d} MARA: During test {i+1}, I see an observation that changes the rescue plan, so we should ask the local keeper for clear evidence before using any dangerous passage.\n"
+            for i in range(230)),encoding="utf-8")
         gate.require_factory_stage(p,manifest,"script",ROOT)
         review={
             "reviewer_id":"writer_not_editor","reviewed_script_sha256":gate.digest(script),
