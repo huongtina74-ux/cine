@@ -63,6 +63,10 @@ def initialize(args):
         raise ValueError("Unknown subniche: " + args.niche)
     if args.mode not in settings["modes"]:
         raise ValueError("Unknown script mode: " + args.mode)
+    from cf_story_quality_gate import load_profiles
+    quality_profile = load_profiles()["niches"][args.niche]
+    if args.mode not in quality_profile["allowed_factory_modes"]:
+        raise ValueError("Script mode does not match this niche; cannot inherit another niche story template")
     if args.mode == "A2_ANIMATED_SCREENPLAY":
         spec = settings["specializations"]["A2_ANIMATED_SCREENPLAY"]
         if args.niche != spec["niche_id"]:
@@ -82,6 +86,7 @@ def initialize(args):
         "created_utc": iso_now(), "workflow_version": settings["version"],
         "approved_stages": {},
         "story_quality_contract_version": "1",
+        "episode_id": getattr(args, "episode_id", None),
         "notice": "Internal file attestation only, not AI execution or external approval"
     }
     write_json(path / "manifest.json", manifest)
@@ -278,6 +283,7 @@ def main():
     init.add_argument("--mode",required=True)
     init.add_argument("--minutes",required=True,type=int)
     init.add_argument("--writer",required=True)
+    init.add_argument("--episode-id",help="Explicit episode continuity ID; if set, blueprint must match")
     init.add_argument("--language",default="en-US")
     stat=sub.add_parser("status")
     stat.add_argument("--id",required=True)
