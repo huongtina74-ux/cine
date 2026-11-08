@@ -32,3 +32,7 @@
 **Production:** Story approval alone never establishes voice/art/Muse 10-second I2V/lip-sync QC approval or YouTube upload permission.
 
 **Required test:** python -m pytest -q tests/test_bell_leaf_writer_contract_20261107.py
+
+## Bell & Leaf Memory Hub — mandatory source bootstrap (2026-11-08)
+
+For the exact \`bell_leaf / magical_witch_family_stories\` series, load \`.claude/skills/cine-bell-leaf-memory-hub/SKILL.md\` and **run** \`python tools/bell_leaf/story_memory_resolver.py --episode BL-0001 --stage story --out data/story_quality/<unique>.json\` before writing, reviewing or changing any new scene. For artwork/shot prompts run the same tool with \`--stage image --shot S001\` (or \`video\`) and load ONLY that shot's active face/body and location references. For EP002+ use \`--stage next --episode BL-0002\` first, then story-uniqueness gates. This integrates existing source-of-truth owner Canon, prior episode states, used plot events, Skills, character and location imagery by source/hash; do **not** duplicate their rules or treat historical v1.1 270-shot draft as v2 production script. Story, character face, location reverse angle and video QC approvals remain separate and not automatic. Missing source or conflicting state is BLOCKED.
