@@ -111,3 +111,7 @@ Official existing CINE location registry .claude/skills/cine-a2-muse-reference-a
 EP001 reference file docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json has 270 S001–S270 rows; each row gives location anchor path/SHA if supplied, candidate visible character refs and explicit active tags. Shot cast tags are inferred from the screenplay and MUST be human director-verified. Offscreen actors must not receive face refs. AILA has NO owner-approved face: do not invent it. No media upload IDs or video QC PASS have been fabricated. Provider upload and independent image/video validation remain required for each generated shot.
 
 Run python tools/bell_leaf/inspect_visual_reference_20261108.py --require-assets --shot S001 before an EP001 production test; if owner binary assets are absent or SHA mismatches, BLOCK. Native 16:9 one frame, neutral D55 daylight, no subtitles or 9-grid, 10s take with acting/lip-sync, Bix without bell, Bubu with one gold neck bell and permanently sparkling purple spiral tail.
+
+## Owner-art public-repository safeguard (2026-11-08)
+
+Repository huongtina74-ux/cine is PUBLIC. GitHub main contains owner visual registry paths, hashes and code only, NOT the 44 source PNGs. The real owner images are in local CINE and isolated Git commit bc5972e. Do not publish those PNGs or base64/ZIP equivalents to the public repository without explicit owner consent to public release. Remote asset backup requires private authenticated storage; missing binaries on GitHub clone remain a hard production blocker.
