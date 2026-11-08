@@ -1,0 +1,41 @@
+{
+  "series_id": "bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "episode_id": "BL-0001",
+  "notes": "S001 first scene of family-first EP001; S005 is a separate Lia bird-related shot. Both are draft prompts only, subject to director reviewing which characters are visible.",
+  "shots": [
+    {
+      "shot_id": "S001",
+      "visible_cast": [
+        "BIX",
+        "MARA"
+      ],
+      "image": {
+        "framing": "Medium view of the breakfast table from the approved Bell kitchen reference angle, with Mara in the background and Bix near the front edge",
+        "pose": "Bix is ready to touch a spoon to a cup; Mara pauses with a gentle smile, both faces correctly oriented to the camera"
+      },
+      "video": {
+        "setup_0_2": "Bix moves one small mechanical arm toward the spoon and carefully taps the cup",
+        "action_2_7": "The spoon clinks twice and Bix tilts his little robot head while Mara's smile slowly fades",
+        "reaction_7_10": "Mara lowers her gaze toward the scarred leaf and Bix settles his arm on the table",
+        "camera": "Locked medium camera maintains both original CGI faces in view"
+      }
+    },
+    {
+      "shot_id": "S005",
+      "visible_cast": [
+        "LIA"
+      ],
+      "image": {
+        "framing": "Medium CGI animated view of Lia near the original Bell kitchen window from a source-consistent angle",
+        "pose": "Lia gently watches a small ordinary bird outside the window with her hand resting near a clean water cup"
+      },
+      "video": {
+        "setup_0_2": "Lia looks toward the garden window and notices the small bird",
+        "action_2_7": "She raises the water cup carefully and reaches toward the safe ledge",
+        "reaction_7_10": "Lia smiles and lowers her hand as the bird settles outside",
+        "camera": "Locked medium camera follows Lia's gentle eyeline without zooming"
+      }
+    }
+  ]
+}
