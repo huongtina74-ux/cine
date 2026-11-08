@@ -1,0 +1,86 @@
+{
+  "display_name": "Everyday History for Sleep",
+  "format_grammar": {
+    "avg_shot_seconds": 24,
+    "beats": [
+      "gentle curiosity and contextual promise",
+      "geographic and temporal setting",
+      "documented routines and lived objects",
+      "quiet insight and source-aware closure"
+    ],
+    "character_policy": "Each episode has its own cast; no shared canon cast across unrelated episodes.",
+    "hook": "No fabricated source facts; establish character need or quiet curiosity immediately",
+    "narration_wpm": 125,
+    "no_characters": true,
+    "pattern_interrupt_seconds": null,
+    "thumbnail_pattern": "One original focal subject; readable mobile typography",
+    "title_pattern": "Specific question / narrative tension, truthful non-sensational"
+  },
+  "identity": {
+    "audience": "English-speaking adults 30-70+ in US/UK who enjoy calm social history at bedtime",
+    "format": {
+      "aspect": "16:9",
+      "cadence_per_week": 1,
+      "length_seconds": [
+        4950,
+        8250
+      ]
+    },
+    "language": "en-US",
+    "made_for_kids": null,
+    "promise": "Well-sourced ordinary lives, work, homes, and objects from history, narrated calmly without unsupported certainty."
+  },
+  "kpi": {
+    "baseline": {
+      "avg_view_pct": null,
+      "ctr_pct": null,
+      "views_per_day_median": null
+    },
+    "target": {
+      "avg_view_pct": null,
+      "ctr_pct": null,
+      "views_per_day_median": null
+    }
+  },
+  "label": "Everyday History for Sleep",
+  "niche": "everyday_history_sleep",
+  "niche_id": "everyday_history_sleep",
+  "owner_greenlight": {
+    "at": null,
+    "by": null
+  },
+  "parent_niche_id": "audio",
+  "policy": {
+    "ai_disclosure": null,
+    "ai_disclosure_reason": "Decide for each real production under current policy",
+    "forbidden": [
+      "copyrighted read-aloud source text",
+      "unlicensed music/images",
+      "mass-produced identical templates",
+      "unsupported fact claims"
+    ],
+    "inauthentic_risk_notes": "Each episode needs separately reviewed original contribution; no auto-publish.",
+    "originality_axes": [
+      "source question",
+      "time and place",
+      "evidence path",
+      "structure of explanation"
+    ]
+  },
+  "research": {
+    "audience_evidence": [],
+    "competitors": [],
+    "gaps": [],
+    "outliers_studied": [],
+    "saturated": [],
+    "sources": [],
+    "updated": null
+  },
+  "risks": [
+    "Unverified audio-only competitor research",
+    "Actual audience RPM unknown",
+    "Channel not created",
+    "Human rights and policy review required"
+  ],
+  "status": "pilot"
+}

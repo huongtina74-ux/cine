@@ -1,0 +1,168 @@
+{
+  "anti_cross_contamination": "No shared competitor cohorts, trend baselines, voice identity, retention data or creative canons across branches.",
+  "authority": {
+    "Afanta": "local writing/TTS/mastering/16:9 render/QC/release approval/analytics",
+    "CINE": "market research, niche strategy, original script and editorial governance",
+    "YouTube": "owner OAuth actions only, never by installation"
+  },
+  "branches": [
+    {
+      "afanta_niche": "history_for_sleep_en",
+      "afanta_slug": "afanta_history_sleep_pilot",
+      "angle": "Documented daily-life details over sensational history; uncertainty is explained, never filled with fabricated scenes as facts.",
+      "audience": "English-speaking adults 30-70+ in US/UK who enjoy calm social history at bedtime",
+      "graphics": "Licensed archival materials, historically labeled reconstructions, original maps; no false period footage.",
+      "id": "everyday_history_sleep",
+      "key": "history_sleep",
+      "kpi": [
+        "D7/D14/D30 views measured at equal video ages",
+        "impressions CTR by traffic source",
+        "first-30s retention and absolute watch minutes",
+        "own audience return rate"
+      ],
+      "mode": "factual_sleep",
+      "name": "Everyday History for Sleep",
+      "promise": "Well-sourced ordinary lives, work, homes, and objects from history, narrated calmly without unsupported certainty.",
+      "sound": "Low-arousal human-sounding narration; no abrupt transient, graphic war detail, heavy music or clickbait promise.",
+      "source_rules": [
+        "2 independent authoritative sources for key claims wherever possible",
+        "separate primary records, scholarship and speculation",
+        "no invented quotes, diary entries or intimate thoughts presented as fact"
+      ],
+      "structure": [
+        "gentle curiosity and contextual promise",
+        "geographic and temporal setting",
+        "documented routines and lived objects",
+        "quiet insight and source-aware closure"
+      ],
+      "subtopics": [
+        "ordinary homes and domestic life",
+        "forgotten jobs and working routines",
+        "food, tools and transport",
+        "historical claims under scholarly dispute"
+      ],
+      "target_minutes": 110,
+      "wpm": [
+        115,
+        135
+      ]
+    },
+    {
+      "afanta_niche": "senior_daytime_audio_en",
+      "afanta_slug": "afanta_quiet_justice_pilot",
+      "angle": "Real agency for senior characters; emotionally honest, not interchangeable revenge templates.",
+      "audience": "English-speaking adults 45-75+ interested in relatable family conflict and resilient older protagonists",
+      "graphics": "Original 16:9 cinematic illustrations with continuity and licensed textures only; do not imply true stories.",
+      "id": "mom_grandma_family_original",
+      "key": "quiet_justice",
+      "kpi": [
+        "D7/D14/D30 views measured at equal ages",
+        "first-30s hold / later drop-off",
+        "completion relative to runtime",
+        "repeat viewers and title-to-story promise match"
+      ],
+      "mode": "original_fiction",
+      "name": "Original Senior Family Drama & Quiet Justice",
+      "promise": "Original mature-family emotional stories: dignity, choices, credible consequences and earned justice.",
+      "sound": "Readable US/UK English, differentiated voices for actual speakers, empathetic pace and legally-cleared score.",
+      "source_rules": [
+        "Reddit/Goodreads only as abstract unmet-needs research, never retell posts",
+        "independent original plot DNA, characters, dialogue and causal structure",
+        "no competitor premises, names, twists, dialogue or expression adapted"
+      ],
+      "structure": [
+        "emotionally precise hook",
+        "everyday stakes and character need",
+        "escalating choices and nontrivial cost",
+        "earned reveal and fair payoff",
+        "non-formulaic emotional aftermath"
+      ],
+      "subtopics": [
+        "Mom Cried / mother boundary stories",
+        "Dad Justice and father dignity",
+        "Grandma and elder independence",
+        "inheritance misunderstandings, reconciliation, late-life friendship"
+      ],
+      "target_minutes": 55,
+      "wpm": [
+        145,
+        160
+      ]
+    },
+    {
+      "afanta_niche": "science_for_sleep_en",
+      "afanta_slug": "afanta_cosmos_sleep_pilot",
+      "angle": "Visualizing scale and uncertainty with quiet scientific curiosity; no fabricated discoveries.",
+      "audience": "English-speaking curious adults 25-65+ in US/UK seeking calm astronomical explanations",
+      "graphics": "Rights-cleared NASA/ESA/media with individual license checks; original illustrative animations, not fake telescope data.",
+      "id": "science_space_nature_sleep",
+      "key": "cosmos_sleep",
+      "kpi": [
+        "D7/D14/D30 views at equal ages",
+        "returning overnight listeners",
+        "long-form absolute watch time",
+        "topic-specific search and suggested traffic"
+      ],
+      "mode": "factual_sleep",
+      "name": "Space Science & Nature for Sleep",
+      "promise": "Wonder-filled but accurate, source-checked space and science journeys that support restful listening.",
+      "sound": "Gentle steady loudness, coherent low-stimulation voice, no abrupt effects or unsupported sleep therapy claims.",
+      "source_rules": [
+        "NASA/ESA/observatory or original research sources for central claims",
+        "units, numerical values and dates checked against sources",
+        "separate observational facts from hypotheses; no health/sleep medical claims"
+      ],
+      "structure": [
+        "calm wonder hook",
+        "start from familiar human scale",
+        "gradual, checked cosmic journey",
+        "questions and uncertainty",
+        "soft closure without startling outro"
+      ],
+      "subtopics": [
+        "the quiet life of stars",
+        "space scales and distances",
+        "planetary weather and geology",
+        "what observations reveal versus models"
+      ],
+      "target_minutes": 95,
+      "wpm": [
+        120,
+        140
+      ]
+    }
+  ],
+  "channels_created": false,
+  "common_stage_ids": [
+    "research_competitors",
+    "research_audience",
+    "topic_approval",
+    "evidence_or_originality",
+    "story_outline",
+    "script_draft_and_editorial_qc",
+    "voice_cast_and_tts",
+    "audio_master_and_listening_qc",
+    "visual_rights_and_video_edit",
+    "technical_policy_release_qc",
+    "private_upload_explicit_owner",
+    "public_release_explicit_owner",
+    "own_analytics_learning"
+  ],
+  "language": "en-US",
+  "parent_niche_id": "audio",
+  "publish_authorized": false,
+  "reference_survey": "Afanta docs/AFANTA_REAL_WORLD_NICHE_SURVEY_20261108.json; nonrandom keyword sample; NOT a qualifying VPH cohort.",
+  "research_standard": {
+    "actual_snapshot_baseline_min": 5,
+    "all_claims_label": [
+      "OBSERVED",
+      "INFERRED",
+      "OWNER"
+    ],
+    "new_channel_age_max_days": 30,
+    "not_verified_note": "Never state any channel is a qualifying new breakout unless channel join date, upload dates, view snapshots and exact format are independently verified.",
+    "recent_video_days_max": 14,
+    "two_distinct_long_videos_min_views": 1000000
+  },
+  "schema": "cine-audio-portfolio-v1"
+}

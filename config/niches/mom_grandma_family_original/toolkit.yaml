@@ -1,0 +1,170 @@
+{
+  "afanta_niche": "senior_daytime_audio_en",
+  "afanta_slug": "afanta_quiet_justice_pilot",
+  "commands": {
+    "audio_qc": "python tools/afanta_studio.py audio-qc --slug afanta_quiet_justice_pilot --file mastered_audio.wav",
+    "draft": "python tools/afanta_studio.py draft-local --slug afanta_quiet_justice_pilot --model qwen3:8b",
+    "release": "python tools/afanta_studio.py release --slug afanta_quiet_justice_pilot",
+    "render": "python tools/afanta_studio.py render --slug afanta_quiet_justice_pilot --cover cover.png --audio mastered_audio.wav",
+    "research": "python tools/afanta_studio.py scan --niche senior_daytime_audio_en --max 8 --out research_candidates.json",
+    "research_verified": "python tools/afanta_studio.py ingest --slug afanta_quiet_justice_pilot --file vetted_audio_research.json",
+    "tts": "python tools/afanta_studio.py tts --slug afanta_quiet_justice_pilot --voice REVIEWED_VOICE --rights-evidence LICENSE_EVIDENCE",
+    "video_qc": "python tools/afanta_studio.py video-qc --slug afanta_quiet_justice_pilot --file release_video.mp4",
+    "writer_brief": "python tools/afanta_studio.py brief --slug afanta_quiet_justice_pilot"
+  },
+  "execution_owner": "Afanta Studio sidecar",
+  "hold": [],
+  "niche": "mom_grandma_family_original",
+  "note": "Commands are a planned interface, not an execution or media acceptance report.",
+  "parent_niche_id": "audio",
+  "stages": {
+    "audio_master_and_listening_qc": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_audio_master_and_listening_qc",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "evidence_or_originality": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_evidence_or_originality",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "own_analytics_learning": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_own_analytics_learning",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "private_upload_explicit_owner": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_private_upload_explicit_owner",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "public_release_explicit_owner": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_public_release_explicit_owner",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "research_audience": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_research_audience",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "research_competitors": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_research_competitors",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "script_draft_and_editorial_qc": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_script_draft_and_editorial_qc",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "story_outline": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_story_outline",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "technical_policy_release_qc": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_technical_policy_release_qc",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "topic_approval": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_topic_approval",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "visual_rights_and_video_edit": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_visual_rights_and_video_edit",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ],
+    "voice_cast_and_tts": [
+      {
+        "commercial": false,
+        "id": "afanta_manual_gate_voice_cast_and_tts",
+        "kind": "manual",
+        "license": "Requires episode-specific commercial-use and rights review",
+        "notes": "External Afanta execution. Do NOT mark production-qualified until real reviewed media and evidence exist.",
+        "production": false,
+        "requires": []
+      }
+    ]
+  },
+  "targets": {
+    "audio_first": true,
+    "content_scope": "mom_grandma_family_original",
+    "resolution": "1920x1080"
+  }
+}

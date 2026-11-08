@@ -1,0 +1,60 @@
+{
+  "camera": {
+    "rules": [
+      "Establish each genuinely new context before relevant historical/scientific detail or emotional object closeup.",
+      "Change an image only when narrative information changes; no random zoom or duplicate reframe."
+    ],
+    "shot_sizes": [
+      "WS",
+      "MS",
+      "CU",
+      "INSERT"
+    ]
+  },
+  "characters": [],
+  "color_palette": [
+    "#17263C",
+    "#6584A1",
+    "#B6C6D4",
+    "#F1F4F6"
+  ],
+  "direction": {
+    "pipeline": "pictures",
+    "playbook": "audio_led_story",
+    "rules": [
+      "Every shot supports verifiable factual context or a distinct story beat.",
+      "Keep transitions slow and readable, matching the narration rather than forcing novelty."
+    ],
+    "shot_cards_required": true
+  },
+  "lighting": "Low-stimulation clean balanced neutral light. No sudden exposure shifts, flashing titles or misleading simulated archival/telescope images.",
+  "niche": "science_space_nature_sleep",
+  "palette": {
+    "deep_navy": "#17263C",
+    "mist": "#B6C6D4",
+    "slate": "#6584A1",
+    "white": "#F1F4F6"
+  },
+  "parent_niche_id": "audio",
+  "presentation": "audio_first_16_9",
+  "sound_rules": "Gentle steady loudness, coherent low-stimulation voice, no abrupt effects or unsupported sleep therapy claims.",
+  "story_structure": [
+    "calm wonder hook",
+    "start from familiar human scale",
+    "gradual, checked cosmic journey",
+    "questions and uncertainty",
+    "soft closure without startling outro"
+  ],
+  "style": "Audio-led cinematic 16:9 visual context with independently licensed imagery, restrained movement, coherent originals and no repetitive low-effort slideshow.",
+  "visual_claims": "All footage/photos/illustrations must have documented provenance.",
+  "visuals": "Rights-cleared NASA/ESA/media with individual license checks; original illustrative animations, not fake telescope data.",
+  "voice_bible": {
+    "mastered_audio": "PENDING_REAL_WAV",
+    "script_mode": "source_checked_nonfiction",
+    "voice_lock": "PENDING_HUMAN_AUDITION",
+    "wpm_range": [
+      120,
+      140
+    ]
+  }
+}

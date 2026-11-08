@@ -1,0 +1,33 @@
+{
+  "schema": "cine-audio-research-discovery-v1",
+  "strategy_owner": "CINE",
+  "method": "Candidate discovery queries only, do NOT imply video audio format verified",
+  "branches": [
+    {
+      "branch_id": "everyday_history_sleep",
+      "afanta_niche": "history_for_sleep_en",
+      "search_queries": [
+        "history for sleep boring everyday life narrated documentary",
+        "historian history to fall asleep narration"
+      ]
+    },
+    {
+      "branch_id": "mom_grandma_family_original",
+      "afanta_niche": "senior_daytime_audio_en",
+      "search_queries": [
+        "elderly mother original narrated story long",
+        "grandma quiet justice narrated story 1 hour",
+        "older woman family story audiobook"
+      ]
+    },
+    {
+      "branch_id": "science_space_nature_sleep",
+      "afanta_niche": "science_for_sleep_en",
+      "search_queries": [
+        "space science for sleep narrated documentary 90 minutes",
+        "astronomy bedtime science calm long documentary",
+        "physics of the universe for sleep narration"
+      ]
+    }
+  ]
+}

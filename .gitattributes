@@ -1,3 +1,15 @@
 # Preserve byte-for-byte SHA-bound CineFactory v243 research/preproduction receipts on Windows.
 # Git's CRLF conversion would otherwise invalidate the manifest checksums.
 data/verification/v243_maizen_original_preproduction/*.json -text
+# CINE Audio source-of-truth: preserve physical source bytes on Windows.
+config/audio/*.json text eol=lf
+config/niches/everyday_history_sleep/** text eol=lf
+config/niches/mom_grandma_family_original/** text eol=lf
+config/niches/science_space_nature_sleep/** text eol=lf
+tools/cf_audio_*.py text eol=lf
+tests/test_cf_audio_*v1.py text eol=lf
+.claude/skills/cine-audio-post/** text eol=lf
+.claude/skills/cine-audio-three-branch-orchestrator/** text eol=lf
+.claude/skills/cine-research-evidence/** text eol=lf
+.claude/skills/cine-story-development/** text eol=lf
+docs/CINE_AUDIO_3_BRANCHES_END_TO_END_20261108.md text eol=lf

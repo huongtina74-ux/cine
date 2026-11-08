@@ -1,0 +1,59 @@
+{
+  "camera": {
+    "rules": [
+      "Establish each genuinely new context before relevant historical/scientific detail or emotional object closeup.",
+      "Change an image only when narrative information changes; no random zoom or duplicate reframe."
+    ],
+    "shot_sizes": [
+      "WS",
+      "MS",
+      "CU",
+      "INSERT"
+    ]
+  },
+  "characters": [],
+  "color_palette": [
+    "#17263C",
+    "#6584A1",
+    "#B6C6D4",
+    "#F1F4F6"
+  ],
+  "direction": {
+    "pipeline": "pictures",
+    "playbook": "audio_led_story",
+    "rules": [
+      "Every shot supports verifiable factual context or a distinct story beat.",
+      "Keep transitions slow and readable, matching the narration rather than forcing novelty."
+    ],
+    "shot_cards_required": true
+  },
+  "lighting": "Low-stimulation clean balanced neutral light. No sudden exposure shifts, flashing titles or misleading simulated archival/telescope images.",
+  "niche": "everyday_history_sleep",
+  "palette": {
+    "deep_navy": "#17263C",
+    "mist": "#B6C6D4",
+    "slate": "#6584A1",
+    "white": "#F1F4F6"
+  },
+  "parent_niche_id": "audio",
+  "presentation": "audio_first_16_9",
+  "sound_rules": "Low-arousal human-sounding narration; no abrupt transient, graphic war detail, heavy music or clickbait promise.",
+  "story_structure": [
+    "gentle curiosity and contextual promise",
+    "geographic and temporal setting",
+    "documented routines and lived objects",
+    "quiet insight and source-aware closure"
+  ],
+  "style": "Audio-led cinematic 16:9 visual context with independently licensed imagery, restrained movement, coherent originals and no repetitive low-effort slideshow.",
+  "visual_claims": "All footage/photos/illustrations must have documented provenance.",
+  "visuals": "Licensed archival materials, historically labeled reconstructions, original maps; no false period footage.",
+  "voice_bible": {
+    "mastered_audio": "PENDING_REAL_WAV",
+    "script_mode": "source_checked_nonfiction",
+    "voice_lock": "PENDING_HUMAN_AUDITION",
+    "wpm_range": [
+      115,
+      135
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "cine-afanta-audio-rule-authority-v1",
+  "policy_version": 1,
+  "parent_niche": "audio",
+  "scope": "three CINE-mapped English audio-first production branches",
+  "strategy_root": "CINE",
+  "production_qc_root": "AFANTA",
+  "copy_rule_text_to_other_repository": false,
+  "allow_unapproved_auto_publication": false,
+  "canonical_rules": [
+    {"rule_id": "CINE.AUDIO.NICHE_STRATEGY", "scope_id": "niche_strategy_audience_format_monetization_research_thresholds", "owner": "CINE", "relative_path": "config/audio/branch_registry_v1.json"},
+    {"rule_id": "CINE.AUDIO.RESEARCH_COHORTS", "scope_id": "competitor_discovery_verified_research_input", "owner": "CINE", "relative_path": "config/research/per_niche/niches.json"},
+    {"rule_id": "CINE.AUDIO.DISCOVERY_QUERIES", "scope_id": "source_of_truth_for_audio_search_queries", "owner": "CINE", "relative_path": "config/audio/research_queries_v1.json"},
+    {"rule_id": "CINE.AUDIO.RESEARCH_SKILL", "scope_id": "research_evidence_methodology", "owner": "CINE", "relative_path": ".claude/skills/cine-research-evidence/SKILL.md"},
+    {"rule_id": "CINE.AUDIO.HANDOFF_TEMPLATE", "scope_id": "research_creative_evidence_handoff_authoring", "owner": "CINE", "relative_path": "tools/cf_audio_handoff.py"},
+    {"rule_id": "CINE.AUDIO.CREATIVE", "scope_id": "creative_strategy_original_premise_architecture", "owner": "CINE", "relative_path": ".claude/skills/cine-story-development/SKILL.md"},
+    {"rule_id": "AFANTA.AUDIO.PRODUCTION_QC", "scope_id": "production_lifecycle_handoff_and_quality_policy", "owner": "AFANTA", "relative_path": "studio_os/docs/AUDIO_QC_CANON_V1.md"},
+    {"rule_id": "AFANTA.AUDIO.AUTHORITY_CHECK", "scope_id": "cross_system_rule_ownership_integrity_enforcement", "owner": "AFANTA", "relative_path": "studio_os/authority_bridge.py"},
+    {"rule_id": "AFANTA.AUDIO.RESEARCH_EXECUTOR", "scope_id": "cine_owned_discovery_queries_execution_adapter", "owner": "AFANTA", "relative_path": "studio_os/research.py"},
+    {"rule_id": "AFANTA.AUDIO.BRIEF_EXECUTOR", "scope_id": "cine_evidence_to_brief_execution_adapter", "owner": "AFANTA", "relative_path": "studio_os/writing.py"},
+    {"rule_id": "AFANTA.AUDIO.HANDOFF_VALIDATOR", "scope_id": "production_input_provenance_and_research_handoff_validation", "owner": "AFANTA", "relative_path": "studio_os/research_handoff.py"},
+    {"rule_id": "AFANTA.AUDIO.STORY_QC", "scope_id": "script_editorial_quality_and_human_screenwriting_acceptance", "owner": "AFANTA", "relative_path": ".claude/skills/afanta-senior-audio-screenwriter/SKILL.md"},
+    {"rule_id": "AFANTA.AUDIO.FACT_QC", "scope_id": "historical_scientific_and_business_factual_verification", "owner": "AFANTA", "relative_path": "story_quality/documentary.py"},
+    {"rule_id": "AFANTA.AUDIO.BUSINESS_SKILL", "scope_id": "specialized_business_money_mystery_fact_editorial_contract", "owner": "AFANTA", "relative_path": ".claude/skills/afanta-business-money-mysteries/SKILL.md"},
+    {"rule_id": "AFANTA.AUDIO.ORIGINALITY", "scope_id": "reused_and_inauthentic_corpus_detection", "owner": "AFANTA", "relative_path": "studio_os/originality_corpus.py"},
+    {"rule_id": "AFANTA.AUDIO.RISK_CATALOG", "scope_id": "canonical_risk_ids_and_severity_catalog", "owner": "AFANTA", "relative_path": "studio_os/risk_catalog.json"},
+    {"rule_id": "AFANTA.AUDIO.RISK_GATE", "scope_id": "risk_enforcement_and_manual_evidence", "owner": "AFANTA", "relative_path": "studio_os/risk_registry.py"},
+    {"rule_id": "AFANTA.AUDIO.TTS_QC", "scope_id": "speech_generation_validation", "owner": "AFANTA", "relative_path": "studio_os/tts.py"},
+    {"rule_id": "AFANTA.AUDIO.MEDIA_QC", "scope_id": "audio_visual_technical_acceptance", "owner": "AFANTA", "relative_path": "studio_os/production.py"},
+    {"rule_id": "AFANTA.AUDIO.RELEASE", "scope_id": "release_decision_and_owner_authorization", "owner": "AFANTA", "relative_path": "studio_os/core.py"}
+  ],
+  "derived_non_authoritative_artifacts": [
+    {"owner": "AFANTA", "relative_path": "studio_os/audio_portfolio_contract_v1.json", "derived_from_rule_id": "CINE.AUDIO.NICHE_STRATEGY"}
+  ],
+  "reference_only_documents": [
+    {"owner": "CINE", "relative_path": "docs/CINE_AUDIO_3_BRANCHES_END_TO_END_20261108.md"},
+    {"owner": "AFANTA", "relative_path": "docs/AFANTA_AUDIO_3_BRANCHES_OPERATIONS_20261108.md"},
+    {"owner": "AFANTA", "relative_path": "studio_os/docs/SOP_V2.md"},
+    {"owner": "AFANTA", "relative_path": "docs/AFANTA_AUDIO_DUAL_SHIELD_V4_ACCEPTANCE_20261108.md"},
+    {"owner": "AFANTA", "relative_path": "docs/AFANTA_ORIGINALITY_INAUTHENTIC_CONTENT_V5_ACCEPTANCE_20261108.md"}
+  ],
+  "skill_entrypoints_must_reference_this_index": [
+    {"owner": "CINE", "relative_path": ".claude/skills/cine-audio-three-branch-orchestrator/SKILL.md"},
+    {"owner": "AFANTA", "relative_path": ".claude/skills/afanta-senior-audio-screenwriter/SKILL.md"},
+    {"owner": "AFANTA", "relative_path": ".claude/skills/afanta-business-money-mysteries/SKILL.md"},
+    {"owner": "AFANTA", "relative_path": ".agents/skills/afanta-senior-audio-screenwriter/SKILL.md"},
+    {"owner": "AFANTA", "relative_path": ".agents/skills/afanta-business-money-mysteries/SKILL.md"}
+  ],
+  "integration": {
+    "strategy_to_qc": "CINE writes strategy and a research/creative handoff; Afanta consumes validated, hash-bound evidence and alone decides all production and release gates",
+    "release_authority": "AFANTA studio_os/core.py, never CINE registry or an AI skill",
+    "native_exe_integration": "UNVERIFIED_UNCHANGED_PROTECTED_EXE",
+    "youtube_publication": "SEPARATE_EXPLICIT_OWNER_PERMISSION_REQUIRED"
+  }
+}
