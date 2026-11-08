@@ -1,0 +1,805 @@
+{
+  "schema": "cine.story_quality.episode.v1",
+  "source_authority": "OWNER_FOUR_LOCKED_SOURCES_20261107",
+  "episode_id": "BL-0001",
+  "niche_id": "magical_witch_family_stories",
+  "series_id": "bell_leaf",
+  "target_minutes": 45,
+  "setting_class": "MIXED",
+  "story_status": "V2_STORY_REFERENCE_LOCKED_FOR_WRITERS_ROOM_EDITOR_SIGNOFF_PENDING",
+  "creative_format": "30 v2 SCENES / 15 INFERRED CAUSAL BEATS / 270 x 10s SHOT ALLOCATIONS (NOT V2 SHOOTING SCRIPT)",
+  "approved_character_tags": [
+    "MARA",
+    "ORIN",
+    "EVAN",
+    "JUNO",
+    "LIA",
+    "BIX",
+    "BUBU",
+    "GRANDPA_EARTH",
+    "GRANDMA_EARTH"
+  ],
+  "supporting_roles_asset_hold": [
+    "AILA_VISUAL_AND_VOICE_NOT_YET_APPROVED",
+    "ELARA_SUPPORTING_VOICE_APPROVAL_PENDING",
+    "UNKNOWN_CROWD_FACES_OFFSCREEN_OR_ASSET_REVIEW"
+  ],
+  "canon": {
+    "owner_source_lock": "FOUR_OWNER_TEXTS_20261107",
+    "visual_canon_reference": "config/niches/slow_english_a2/CHARACTER_VISUAL_CANON_LOCK_CURRENT.json",
+    "canon_mutations": [],
+    "prohibited_leaks": [
+      "MASKED_VILLAIN_REAL_IDENTITY",
+      "V4_6_SECRET_SHOWRUNNER_EXACT_PLAN"
+    ]
+  },
+  "story": {
+    "title": "The Bell That Fell from the Sky",
+    "hook": "An ordinary spoon produces two uneven notes during the Bell family breakfast; Mara's pause reveals a scarred Veylora tree and begins a memory of how her first world was lost.",
+    "goal": "After the catastrophe separates her family, Mara must protect the new home she finds on Earth and help a Veylora refugee named Aila feel safe enough to choose what comes next.",
+    "central_conflict": "Aila's old copper suitcase rises when a repaired Earth fixed gate rings; the quick fix could damage the possessions and markings linked to her missing little sister.",
+    "stakes": "The moving suitcase could hurt an ordinary Earth bird nest, reveal magic to Evan and Bellfern neighbors, and make Aila lose the only family keepsakes that survived her escape.",
+    "theme": "A home is built when people listen, protect one another, tell the truth and allow each person to choose their own path.",
+    "twist": "The flying suitcase does not have its own mind and Bubu is not opening it; damaged copper resonates with cooling pulses of the repaired fixed station, while a separate blue glass stone holds an unexplained faint note.",
+    "resolution": "Juno admits the copper brace made things worse; Mara offers Aila a reversible choice, and Juno, Bix, Lia, Mara and Aila test wood-and-linen damping through two station pulses before moving her luggage safely.",
+    "emotional_change": "Mara moves from trying to protect everybody alone to making one real safe refuge and letting Aila decide. Juno moves from instant clever fixes to tested evidence and apologizing.",
+    "lasting_consequence": "Aila voluntarily stays in a small garden guest room with her folded star drawing; her sister remains missing, Orin's next verified relay is pending, and the blue stone echoes a new unknown world.",
+    "why_this_episode": "Family-first origin opens with tangible ordinary life, then explains generational Veylora loss, accidental Earth settlement, limited magic, and Aila's earned first refuge with ethical choices.",
+    "originality_difference": "A harmless cup clink links domestic comedy to a twelve-minute grief flashback; a voluntary refugee's copper suitcase afterpulse crisis is solved by consent and two physical damping tests, without new free portals."
+  },
+  "beats": [
+    {
+      "beat_id": "B01",
+      "kind": "HOOK",
+      "start_s": 0,
+      "end_s": 180,
+      "caused_by": [],
+      "visible_action": "Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại. Juno bảo Bix mang bánh mì bằng khay mới. Bix chạy được nhưng cú quay đầu làm chiếc kẹp lỏng, sữa bắn ra khăn. Juno giấu dụng cụ vì xấu hổ. Mara nhẹ nhàng buộc cậu chỉ ra chỗ hỏng, tự lắp lại kẹp và thử. Bubu giấu sau ghế Lia, đuôi tím xoắn vẫn tỏa sáng, một chuông vàng duy nhất; Evan không nhìn thấy điều không thể giải thích. Lần thử cuối, khay đi qua bàn an toàn. Mara chạm vết sẹo cây và flashback bắt đầu ở đúng phút 03:00.",
+      "obstacle": "Vì sao Mara sợ hai tiếng chạm cốc, và vết sẹo trên cây là gì? Chiếc cây ấy có ý nghĩa gì đối với mẹ?",
+      "character_choice": "Mara chọn che nỗi đau bằng một câu trả lời thật nhưng chưa đầy đủ, thay vì tiết lộ phép thuật với Evan. Juno chọn thú nhận kẹp bị lỏng, thay cho đổ lỗi robot. Mara dạy kiểm tra lỗi nhỏ không bằng bài giảng dài.",
+      "immediate_consequence": "Khán giả được gắn bó với gia đình trước khi biết thảm họa. Âm thanh thường nhật trở thành cánh cửa ký ức, hoàn toàn KHÔNG là tín hiệu phép. Gieo vòng cung kỹ thuật và đạo đức của Juno: nói thật, kiểm tra rồi mới kết luận. Đặt âm thanh làm match cut về quá khứ.",
+      "because": "Vì Khán giả được gắn bó với gia đình trước khi biết thảm họa. Âm thanh thường nhật trở thành cánh cửa ký ức, hoàn toàn KHÔNG là tín hiệu phép.; do đó Juno bảo Bix mang bánh mì bằng khay mới. Bix chạy được nhưng cú quay đầu làm chiếc kẹp lỏng, sữa bắn ra khăn. Juno giấu dụng cụ vì xấu hổ. Mara nhẹ nhàng buộc cậu chỉ ra chỗ hỏng, tự lắp lại kẹp và thử. Bubu giấu sau ghế Lia, đuôi tím xoắn vẫn tỏa sáng, một chuông vàng duy nhất; Evan không nhìn thấy điều không thể giải thích. Lần thử cuối, khay đi qua bàn an toàn. Mara chạm vết sẹo cây và flashback bắt đầu ở đúng phút 03:00.",
+      "source_scene_ids": [
+        "SC-001",
+        "SC-002"
+      ]
+    },
+    {
+      "beat_id": "B02",
+      "kind": "DISCOVERY",
+      "start_s": 180,
+      "end_s": 360,
+      "caused_by": [
+        "B01"
+      ],
+      "visible_action": "Mara thấy hoa tím khép lại giữa ban ngày và rễ mất ánh sáng. Cô tưới nước rồi thử phép rất yếu, không cứu nổi hoa. Orin quỳ cạnh con và cho xem thiết bị đo: cả mạch sống suy yếu, tiếng chuông trạm xa có hai nốt thiếu hòa âm. Cành cây vẫn còn một lá mềm, nên Mara không bỏ cuộc. Cô quyết định đem mẫu đi kiểm tra. Orin mở các cuốn sổ nhiều thế hệ: số đo Living Current giảm qua năm tháng dù thám hiểm những nơi có đất, nước, lửa khác nhau. Thế giới mới có sở trường riêng không đồng nghĩa hồi phục mạch sống. Ông dùng phép bảo vệ nhỏ cũng nhanh mệt. Ở trạm cố định, người thợ kiểm chốt khóa cũ; Orin nghiêm túc yêu cầu khóa đường cho tới khi được kiểm định.",
+      "obstacle": "Vì sao trạm chuông và rừng cùng bị bệnh? Nếu trạm có kiểm soát thì ai có thể vượt khóa?",
+      "character_choice": "Mara từ bỏ ý định dùng một câu thần chú mạnh chữa mọi thứ; Orin thừa nhận đã có vấn đề lớn. Mara tắt các phép tốn sức; Orin chọn ưu tiên an toàn của các trạm thay vì cố mở đường ngay.",
+      "immediate_consequence": "Sự suy yếu có trước đêm phá hoại và kéo dài qua nhiều thế hệ, không được quy tất cả cho phản diện. Khán giả học luật qua một phép thử thất bại: giỏi phép không có nghĩa đủ năng lượng tái sinh. Chốt an toàn được gieo trước khi bị phá.",
+      "because": "Vì Sự suy yếu có trước đêm phá hoại và kéo dài qua nhiều thế hệ, không được quy tất cả cho phản diện.; do đó Orin mở các cuốn sổ nhiều thế hệ: số đo Living Current giảm qua năm tháng dù thám hiểm những nơi có đất, nước, lửa khác nhau. Thế giới mới có sở trường riêng không đồng nghĩa hồi phục mạch sống. Ông dùng phép bảo vệ nhỏ cũng nhanh mệt. Ở trạm cố định, người thợ kiểm chốt khóa cũ; Orin nghiêm túc yêu cầu khóa đường cho tới khi được kiểm định.",
+      "source_scene_ids": [
+        "SC-003",
+        "SC-004"
+      ]
+    },
+    {
+      "beat_id": "B03",
+      "kind": "CRISIS",
+      "start_s": 360,
+      "end_s": 540,
+      "caused_by": [
+        "B02"
+      ],
+      "visible_action": "Một đoàn từ các thế giới cũ đã khảo sát trở lại qua trạm được xác minh với nước, cây và đất. Elara giúp Mara thử giọt nước lên cành héo; chưa có biến chuyển tức thì. Khi Mara muốn dùng phép tiếp, Elara giữ tay con và khuyên chăm sóc, quan sát, chờ đúng điều kiện. Bà đưa Mara tấm vải để bọc cành cây. Bên ngoài, chuông trạm bỗng tự rung khi không ai yêu cầu đi; Orin nghe và quay đầu. Chỉ thấy một bàn tay đeo găng biết rõ hệ thống, cố tình đẩy cần vượt vạch cảnh báo. Dao động chạy ngược trên vòng đồng, một trạm cũ tự mở mà không có yêu cầu, đường đã định tới bến cảng méo mó. Orin chạy tới bàn an toàn, Mara sơ tán người qua đường đá đang nứt, vẫn ôm cành cây bọc vải. Một tiếng chuông sai lớn làm bầu trời hiện vết nứt.",
+      "obstacle": "Vì sao chuông tự kêu khi không có người sử dụng? Ai là người đeo găng, và vì sao biết khóa ở đâu?",
+      "character_choice": "Elara chọn giúp con giữ bình tĩnh và cứu cây bằng chăm sóc thay cho hứa hẹn thần kỳ. Orin lao đến chốt an toàn; Mara ưu tiên cứu người ngoài đường thay vì chạy cùng cha ngay.",
+      "immediate_consequence": "Tấm vải là vật Mara thực sự mang qua thảm họa; Elara được định hình bằng lòng kiên nhẫn và sự quan tâm. Khóa rõ hai nguyên nhân riêng: suy yếu lâu dài của Living Current và sự can thiệp CỐ Ý biến khủng hoảng thành thảm họa.",
+      "because": "Vì Tấm vải là vật Mara thực sự mang qua thảm họa; Elara được định hình bằng lòng kiên nhẫn và sự quan tâm.; do đó Chỉ thấy một bàn tay đeo găng biết rõ hệ thống, cố tình đẩy cần vượt vạch cảnh báo. Dao động chạy ngược trên vòng đồng, một trạm cũ tự mở mà không có yêu cầu, đường đã định tới bến cảng méo mó. Orin chạy tới bàn an toàn, Mara sơ tán người qua đường đá đang nứt, vẫn ôm cành cây bọc vải. Một tiếng chuông sai lớn làm bầu trời hiện vết nứt.",
+      "source_scene_ids": [
+        "SC-005",
+        "SC-006"
+      ]
+    },
+    {
+      "beat_id": "B04",
+      "kind": "REVERSAL",
+      "start_s": 540,
+      "end_s": 720,
+      "caused_by": [
+        "B03"
+      ],
+      "visible_action": "Trạm tới một bến cảng đã biết nhấp nháy, đồng thời một vết nứt vô trạm mở giữa trời. Elara dẫn trẻ em vào nhà đá. Mara kêu mẹ bỏ đi nhưng Elara ở lại giúp người. Một chiếc khăn rơi gần trẻ nhỏ khiến Mara quay lại nhặt đúng lúc mặt đường sụp. Orin sử dụng năng lượng bảo vệ còn lại cứu Mara qua cú rơi, nhưng không thể giữ họ chung một vị trí. Elara nói lời cuối qua bụi và ánh sáng rồi mất liên lạc, không xác nhận chết. Mara tỉnh một mình trên đất ẩm, nghe chim kêu mà ngỡ tiếng chuông. Không có bản đồ đường chuông, không có trạm, la bàn phép báo lỗi; một phép dò yếu khiến cô choáng. Cô kiểm tra nước và phương hướng như người bình thường, nhìn trang trại xa nhưng chưa tiếp cận. Chậu cây vỡ, đất Veylora rơi trên bãi. Mara không bỏ cành cây Elara bọc cho mình.",
+      "obstacle": "Elara còn sống không? Orin có rơi cùng thế giới không?",
+      "character_choice": "Elara tự nguyện ở lại bảo vệ người yếu thế; Orin chọn che chắn Mara bằng khả năng hữu hạn. Mara chọn quan sát và đi tìm cha bằng dấu vết, không ép mở cổng phép.",
+      "immediate_consequence": "Mẹ con bị chia cắt vì lựa chọn có đạo đức và tai nạn, không phải phản diện cố ý gửi họ tới Earth. Earth hoàn toàn chưa có trên bản đồ và không có trạm cổ bí mật ở thời điểm này.",
+      "because": "Vì Mẹ con bị chia cắt vì lựa chọn có đạo đức và tai nạn, không phải phản diện cố ý gửi họ tới Earth.; do đó Mara tỉnh một mình trên đất ẩm, nghe chim kêu mà ngỡ tiếng chuông. Không có bản đồ đường chuông, không có trạm, la bàn phép báo lỗi; một phép dò yếu khiến cô choáng. Cô kiểm tra nước và phương hướng như người bình thường, nhìn trang trại xa nhưng chưa tiếp cận. Chậu cây vỡ, đất Veylora rơi trên bãi. Mara không bỏ cành cây Elara bọc cho mình.",
+      "source_scene_ids": [
+        "SC-007",
+        "SC-008"
+      ]
+    },
+    {
+      "beat_id": "B05",
+      "kind": "DISCOVERY",
+      "start_s": 720,
+      "end_s": 900,
+      "caused_by": [
+        "B04"
+      ],
+      "visible_action": "Orin tỉnh cách một đoạn rừng; ông theo dấu chân, đất chậu cây vỡ và tiếng gọi. Mara nghe tên mình qua suối nhưng cần nghe lần nữa trước khi tin. Orin chỉ đường qua những tảng đá đủ an toàn; họ ôm nhau trên bờ. Mara hỏi mẹ ở đâu. Ông không biết, không hứa đã cứu hết gia đình. Họ cam kết sau này tiếp tục tìm những người mất tích. Mara trồng cành Veylora gần chết bằng đất Earth, che mưa và tưới vừa đủ. Ngày đầu không đổi; thêm ngày, đêm mưa và nắng, cành mới hé lá. Mara và Orin đo môi trường và phép còn lại, hiểu đây là sự hồi phục chậm với giới hạn, không phải phép vô hạn hay chứng minh có thể cứu cả quê hương. Mara vừa mừng vừa tiếc Elara không nhìn thấy. Vết sẹo trên cành vẫn còn.",
+      "obstacle": "Làm sao tìm người mất tích khi Earth không có đường về? Cần bao lâu mới có thể hiểu chu trình hồi phục của Earth?",
+      "character_choice": "Mara đi qua suối bằng đường thật, Orin nói sự thật về Elara dù đau lòng. Mara kiên trì chăm sóc thủ công, Orin cảnh báo không phóng đại từ một quan sát.",
+      "immediate_consequence": "Tái hợp cha–con có trả giá và vật chứng; không giải quyết mất mát Elara. Payoff cây sẹo ở nhà Bellfern: nơi trú mới có cơ hội, không xóa được quá khứ.",
+      "because": "Vì Tái hợp cha–con có trả giá và vật chứng; không giải quyết mất mát Elara.; do đó Mara trồng cành Veylora gần chết bằng đất Earth, che mưa và tưới vừa đủ. Ngày đầu không đổi; thêm ngày, đêm mưa và nắng, cành mới hé lá. Mara và Orin đo môi trường và phép còn lại, hiểu đây là sự hồi phục chậm với giới hạn, không phải phép vô hạn hay chứng minh có thể cứu cả quê hương. Mara vừa mừng vừa tiếc Elara không nhìn thấy. Vết sẹo trên cành vẫn còn.",
+      "source_scene_ids": [
+        "SC-009",
+        "SC-010"
+      ]
+    },
+    {
+      "beat_id": "B06",
+      "kind": "GOAL",
+      "start_s": 900,
+      "end_s": 1080,
+      "caused_by": [
+        "B05"
+      ],
+      "visible_action": "Match cut vết sẹo cành cây ngày trước sang cây lớn ở nhà hiện tại. Mara trở lại ngay buổi sáng đang dang dở, Evan vẫn bên cạnh. Juno thu thiết bị, Lia chuẩn bị sách, Bix đã giữ được khay. Evan nói cô có thể kể về quê hương khi sẵn sàng. Mara chưa thể kể sự thật, nhưng cảm nhận được tình yêu của anh. Cô nhắc Juno đi học đúng giờ. Gia đình ghé nhà ông bà nội Arthur và Rose; ông Arthur loay hoay với bản lề cổng gỗ hỏng. Juno nhận ra ốc lỏng và sửa bằng tuốc-nơ-vít bình thường, học làm đúng từng bước; Lia để nước cho chim và được Rose nhắc giữ khoảng cách với tổ. Rose thấy Mara mệt và đề nghị giúp đỡ. Ông bà vẫn không biết phép. Mara nghe âm kim loại từ phía nhà mình — khác tiếng cốc sáng nay, là tín hiệu của trạm Earth đã được xây nhiều năm sau khi đến.",
+      "obstacle": "Có thể bảo vệ gia đình mà mãi giấu bí mật không? Ai đang liên lạc qua trạm chuông?",
+      "character_choice": "Mara chấp nhận được an ủi mà không bịa chuyện; Evan tôn trọng khoảng lặng của vợ. Juno sửa bản lề cổng bằng công cụ thường, Lia tôn trọng chim, Mara nhận ra có kết nối cũ cần kiểm tra.",
+      "immediate_consequence": "Khóa chuyển thời gian: flashback kết thúc ở phút 15, TRỞ LẠI CÙNG BUỔI SÁNG, không nhảy sang ngày khác. Bản lề và tổ chim gieo để phục vụ cao trào, không phải cảnh đời thường trang trí.",
+      "because": "Vì Khóa chuyển thời gian: flashback kết thúc ở phút 15, TRỞ LẠI CÙNG BUỔI SÁNG, không nhảy sang ngày khác.; do đó Gia đình ghé nhà ông bà nội Arthur và Rose; ông Arthur loay hoay với bản lề cổng gỗ hỏng. Juno nhận ra ốc lỏng và sửa bằng tuốc-nơ-vít bình thường, học làm đúng từng bước; Lia để nước cho chim và được Rose nhắc giữ khoảng cách với tổ. Rose thấy Mara mệt và đề nghị giúp đỡ. Ông bà vẫn không biết phép. Mara nghe âm kim loại từ phía nhà mình — khác tiếng cốc sáng nay, là tín hiệu của trạm Earth đã được xây nhiều năm sau khi đến.",
+      "source_scene_ids": [
+        "SC-011",
+        "SC-012"
+      ]
+    },
+    {
+      "beat_id": "B07",
+      "kind": "DISCOVERY",
+      "start_s": 1080,
+      "end_s": 1260,
+      "caused_by": [
+        "B06"
+      ],
+      "visible_action": "Mara dẫn con và hai bạn nhỏ xuống trạm cố định trong xưởng, được xây sau khi Earth trở thành nơi trú. Kết cấu gỗ, đồng và máy đo được bảo trì bằng tay; Juno phát hiện giá đỡ chưa chắc, Bix kiểm ốc. Mara không cho ai đi trước khi ổn định. Bubu phân biệt trạm nối THẾ GIỚI CŨ ĐÃ BIẾT với tiếng vọng thế giới lạ của chính mình; không được dùng một cái thay cái kia. Hai đèn kiểm định báo tuyến cũ đã sửa nối với trạm Orin. Ông giới thiệu Aila, người tị nạn Veylora phải rời chỗ trú và đang tìm em gái bị lạc. Mara cân nhắc nguy cơ lộ phép với Evan, khả năng gia đình có giúp đủ an toàn không. Cô hỏi Aila có muốn tới không; cô đồng ý. Orin xác minh điều kiện tuyến và số người được phép đi trước khi mở.",
+      "obstacle": "Kết nối có đáng tin cậy không? Aila mang theo điều gì từ đêm thảm họa?",
+      "character_choice": "Mara chọn ngừng hoạt động đến khi an toàn và chỉ tiếp nhận tín hiệu có đường truyền xác thực. Mara đồng ý giúp nhưng không hứa tìm được người thân; Aila tự nguyện chọn di chuyển.",
+      "immediate_consequence": "Kẻ xem hiểu hai cơ chế chuông không hoán đổi; Evan không biết phòng này. Mục tiêu tập hiện hình: bảo vệ một người cụ thể, không cứu hàng nghìn người bằng một cổng tự do.",
+      "because": "Vì Kẻ xem hiểu hai cơ chế chuông không hoán đổi; Evan không biết phòng này.; do đó Hai đèn kiểm định báo tuyến cũ đã sửa nối với trạm Orin. Ông giới thiệu Aila, người tị nạn Veylora phải rời chỗ trú và đang tìm em gái bị lạc. Mara cân nhắc nguy cơ lộ phép với Evan, khả năng gia đình có giúp đủ an toàn không. Cô hỏi Aila có muốn tới không; cô đồng ý. Orin xác minh điều kiện tuyến và số người được phép đi trước khi mở.",
+      "source_scene_ids": [
+        "SC-013",
+        "SC-014"
+      ]
+    },
+    {
+      "beat_id": "B08",
+      "kind": "REVERSAL",
+      "start_s": 1260,
+      "end_s": 1440,
+      "caused_by": [
+        "B07"
+      ],
+      "visible_action": "Aila bước ra khỏi trạm cũ an toàn, vừa thoát hiểm nhưng co rúm khi đường sau lưng đóng. Cô ôm vali viền đồng, giật lại khi Bix định xách; Mara nhắc mọi người tôn trọng đồ riêng. Lia mang nước. Aila nói tất cả những gì cô có nằm trong chiếc vali và không biết còn có thể gọi nơi nào là nhà. Bix phát hiện vali có khối lượng bất thường nhưng chỉ ghi nhận, chưa kết luận phép. Trạm bắt đầu chu kỳ nguội sau khi Aila đến. Tiếng rền phát ra, viền đồng vali rung rồi nhấc khỏi sàn; lúc im thì hạ. Bix đo chu kỳ, Juno quan sát. Bubu không kích hoạt chuông riêng: đồng cũ cộng hưởng với xung dư TRẠM CỐ ĐỊNH, hoàn toàn khác tín hiệu đá xanh. Mara ngăn mọi người kéo mạnh hoặc dùng phép ngay.",
+      "obstacle": "Vì sao vali có dấu hiệu mất trọng lượng? Xung dư tiếp theo sẽ đưa vali lên bao cao?",
+      "character_choice": "Mara chủ động xin phép trước khi chạm đồ; Aila đặt ranh giới rõ. Juno chọn quan sát trước khi sửa; Mara giữ khoảng cách và không phá vali.",
+      "immediate_consequence": "Aila là người có quyền lựa chọn, không phải món hàng cứu hộ; vali mang ý nghĩa ký ức. Thiết lập quy tắc vật lý lặp lại được để cao trào giải quyết có lý do.",
+      "because": "Vì Aila là người có quyền lựa chọn, không phải món hàng cứu hộ; vali mang ý nghĩa ký ức.; do đó Trạm bắt đầu chu kỳ nguội sau khi Aila đến. Tiếng rền phát ra, viền đồng vali rung rồi nhấc khỏi sàn; lúc im thì hạ. Bix đo chu kỳ, Juno quan sát. Bubu không kích hoạt chuông riêng: đồng cũ cộng hưởng với xung dư TRẠM CỐ ĐỊNH, hoàn toàn khác tín hiệu đá xanh. Mara ngăn mọi người kéo mạnh hoặc dùng phép ngay.",
+      "source_scene_ids": [
+        "SC-015",
+        "SC-016"
+      ]
+    },
+    {
+      "beat_id": "B09",
+      "kind": "CRISIS",
+      "start_s": 1440,
+      "end_s": 1620,
+      "caused_by": [
+        "B08"
+      ],
+      "visible_action": "Juno sốt ruột chứng minh sáng chế, thử gắn thanh đồng vào vali để 'cân bằng'; ban đầu không khác gì, rồi xung tiếp theo làm rung mạnh, va vào bàn. Aila sợ mất kỷ vật, Mara dừng test và giữ mọi người tránh xa. Juno phải thừa nhận thêm đồng làm cộng hưởng mạnh hơn, trái giả thuyết ban đầu. Mara không mắng, yêu cầu nói điều đã học. Khi trạm tạm lắng, Aila kể cô từng nắm tay em gái lúc đường chuông vỡ. Với sự cho phép của cô, Lia mở một ngăn nhỏ: có tranh vẽ hai chị em dưới những ngôi sao lớn và viên đá thủy tinh xanh. Aila cười một chút khi nhớ em gái vẽ sao quá to. Mara liên tưởng đến Elara thất lạc. Bubu nghe một nốt rất nhỏ trong đá, nhưng chưa biết từ đâu và không thể định vị.",
+      "obstacle": "Liệu lần tiếp theo vali sẽ lao ra khỏi phòng? Viên đá xanh nhớ điều gì?",
+      "character_choice": "Juno nhận lỗi và dừng thử, ưu tiên an toàn của người khác hơn tiếng khen. Aila đồng ý chia sẻ có giới hạn; nhóm không tự lấy đá hay khẳng định đã thấy em gái.",
+      "immediate_consequence": "Thất bại là nguyên nhân trực tiếp khiến nhóm phải dùng vật liệu cách ly; không thể giải quyết bằng phép thần. Biến vật thể hài hước thành chứng tích mất mát; gieo mystery viên đá xanh tách khỏi hiệu ứng đồng.",
+      "because": "Vì Thất bại là nguyên nhân trực tiếp khiến nhóm phải dùng vật liệu cách ly; không thể giải quyết bằng phép thần.; do đó Khi trạm tạm lắng, Aila kể cô từng nắm tay em gái lúc đường chuông vỡ. Với sự cho phép của cô, Lia mở một ngăn nhỏ: có tranh vẽ hai chị em dưới những ngôi sao lớn và viên đá thủy tinh xanh. Aila cười một chút khi nhớ em gái vẽ sao quá to. Mara liên tưởng đến Elara thất lạc. Bubu nghe một nốt rất nhỏ trong đá, nhưng chưa biết từ đâu và không thể định vị.",
+      "source_scene_ids": [
+        "SC-017",
+        "SC-018"
+      ]
+    },
+    {
+      "beat_id": "B10",
+      "kind": "CRISIS",
+      "start_s": 1620,
+      "end_s": 1800,
+      "caused_by": [
+        "B09"
+      ],
+      "visible_action": "Cả nhóm tưởng vali đã yên trên giá gỗ, nhưng Bix phát hiện chu kỳ xung dư tiếp tục. Dây cố định và bánh xe giá đỡ chưa đủ an toàn; khay trượt về cửa vườn khi vali nhấc. Juno nhớ không dùng thêm đồng, lấy vải và dây mềm. Bix đuổi theo nhưng cơ thể robot nhỏ không thể thắng lực nâng. Vali ra gần ánh sáng ngày, ngoài phạm vi phòng giấu phép. Vali bay vào sân. Mara đặt bình phong che tầm nhìn, Lia đóng cổng phụ. Evan đang đi phát thư ghé ngang, nghe động và hỏi. Juno nói đang chuyển hộp lớn, trong khi ông bố chỉ thấy một thùng thường, không thấy vali đang bay. Evan đi tiếp. Juno thở phào rồi thú nhận ghét phải giấu bố; Mara cũng vậy. Ngay sau đó, xung kế tiếp cuốn vali vào cành cây.",
+      "obstacle": "Evan có thấy cảnh không thể giải thích không? Liệu vali đè lên tổ chim mà Lia quan sát từ buổi sáng?",
+      "character_choice": "Nhóm chọn hành động thủ công an toàn, không triệu hồi cổng mới hay bùa vô hạn. Mara bảo vệ bí mật nhưng không khinh thường Evan; Juno bộc lộ căng thẳng đạo đức.",
+      "immediate_consequence": "Lỗi chuẩn bị trong scene này gây ra nguy cơ Evan nhìn thấy, không phải một trò ngẫu nhiên. Tăng cái giá của việc giấu phép, trong khi Evan chưa được tiết lộ trong EP001.",
+      "because": "Vì Lỗi chuẩn bị trong scene này gây ra nguy cơ Evan nhìn thấy, không phải một trò ngẫu nhiên.; do đó Vali bay vào sân. Mara đặt bình phong che tầm nhìn, Lia đóng cổng phụ. Evan đang đi phát thư ghé ngang, nghe động và hỏi. Juno nói đang chuyển hộp lớn, trong khi ông bố chỉ thấy một thùng thường, không thấy vali đang bay. Evan đi tiếp. Juno thở phào rồi thú nhận ghét phải giấu bố; Mara cũng vậy. Ngay sau đó, xung kế tiếp cuốn vali vào cành cây.",
+      "source_scene_ids": [
+        "SC-019",
+        "SC-020"
+      ]
+    },
+    {
+      "beat_id": "B11",
+      "kind": "CLIMAX",
+      "start_s": 1800,
+      "end_s": 1980,
+      "caused_by": [
+        "B10"
+      ],
+      "visible_action": "Chiếc vali mắc dây trên cành ngay trên tổ chim. Nếu kéo mạnh, cành gãy và chim non gặp nguy hiểm. Lia ngăn nhóm lao vào, quan sát chim bố mẹ, chọn thời điểm an toàn. Juno buộc dây vào điểm đỡ vững, Bix thử nút, Aila muốn hỗ trợ đồ của mình. Bubu giữ một dây bằng chân và không mở cổng. Cả nhóm đưa vali xuống nhưng xung dư chưa hết. Mara trình Aila hai phương án: cắt viền kim loại nhanh nhưng có thể xóa dấu kỷ niệm, hoặc dùng gỗ/vải để giảm cộng hưởng và được phép dừng. Juno gọi phần đồng 'chỉ là kim loại'; Aila giải thích em gái từng chạm vào tay cầm, vài vết xước chính là dấu của cô bé. Juno xin lỗi. Mara ghi chép và xin phép thử phương án có thể đảo ngược, Aila đồng ý với điều kiện dừng nếu thất bại.",
+      "obstacle": "Làm sao giữ vali nằm yên khi đợt xung sau đến? Gỗ và vải có thực sự làm xung dư yếu đi không?",
+      "character_choice": "Lia chọn cứu sinh vật nhỏ ngay cả khi chậm phương án nhanh; Aila tham gia khi đã có quy trình. Aila giữ quyền phủ quyết, Juno tôn trọng ý nghĩa của vật liệu, Mara chọn giải pháp chậm nhưng đúng.",
+      "immediate_consequence": "Trả gieo tổ chim và năng lực quan sát của Lia, đồng thời chứng minh nhóm chủ động giải quyết. Cao trào đạo đức: giải pháp đúng không được phá điều người được cứu coi quý nhất.",
+      "because": "Vì Trả gieo tổ chim và năng lực quan sát của Lia, đồng thời chứng minh nhóm chủ động giải quyết.; do đó Mara trình Aila hai phương án: cắt viền kim loại nhanh nhưng có thể xóa dấu kỷ niệm, hoặc dùng gỗ/vải để giảm cộng hưởng và được phép dừng. Juno gọi phần đồng 'chỉ là kim loại'; Aila giải thích em gái từng chạm vào tay cầm, vài vết xước chính là dấu của cô bé. Juno xin lỗi. Mara ghi chép và xin phép thử phương án có thể đảo ngược, Aila đồng ý với điều kiện dừng nếu thất bại.",
+      "source_scene_ids": [
+        "SC-021",
+        "SC-022"
+      ]
+    },
+    {
+      "beat_id": "B12",
+      "kind": "RESOLUTION",
+      "start_s": 1980,
+      "end_s": 2160,
+      "caused_by": [
+        "B11"
+      ],
+      "visible_action": "Juno vẽ sơ đồ: giá gỗ, bọc vải lanh ở các góc đồng, vùng đứng an toàn. Bix đọc cảm biến, Lia quan sát chim, Aila cầm vật kỷ niệm. Xung đầu tới, một góc vali vẫn nhấc nên nhóm dừng và gia cố. Xung tiếp theo vali nằm yên, nhưng Juno từ chối kết luận vội: một lần thành công chưa đủ. Họ định kiểm lặp lại theo chu kỳ với các điều kiện giữ nguyên. Chu kỳ xung thứ hai được quan sát đầy đủ; vali rung nhẹ nhưng không bay. Bix ghi số, Juno kiểm giá đỡ và giữ bản chép dấu đồng mà Aila cho phép. Aila nhẹ nhõm khi chính tay mình chạm tay cầm còn nguyên. Bix mang nước bằng khay sáng nay đã sửa, lần này không làm đổ; lời đùa của robot giúp Aila bật cười lần đầu kể từ khi đến Earth. Chim trở về tổ.",
+      "obstacle": "Lần thử kế tiếp có giữ được vali không? Aila có dám ở lại Earth một đêm không?",
+      "character_choice": "Juno trì hoãn ăn mừng, dùng hai lần đo để xác nhận, công nhận sai lầm trước đó. Nhóm xác nhận qua hai phép thử, Aila chấp nhận phần sửa có thể tháo, Juno không tự nhận 'đã giải quyết mọi thứ'.",
+      "immediate_consequence": "Payoff arc Juno và cảnh sửa cổng Arthur: kiểm nghiệm có giá trị hơn khoe khoang. Local mechanical conflict RESOLVED, động cơ nhân vật được trả, nhưng em gái Aila vẫn mất tích.",
+      "because": "Vì Payoff arc Juno và cảnh sửa cổng Arthur: kiểm nghiệm có giá trị hơn khoe khoang.; do đó Chu kỳ xung thứ hai được quan sát đầy đủ; vali rung nhẹ nhưng không bay. Bix ghi số, Juno kiểm giá đỡ và giữ bản chép dấu đồng mà Aila cho phép. Aila nhẹ nhõm khi chính tay mình chạm tay cầm còn nguyên. Bix mang nước bằng khay sáng nay đã sửa, lần này không làm đổ; lời đùa của robot giúp Aila bật cười lần đầu kể từ khi đến Earth. Chim trở về tổ.",
+      "source_scene_ids": [
+        "SC-023",
+        "SC-024"
+      ]
+    },
+    {
+      "beat_id": "B13",
+      "kind": "AFTERMATH",
+      "start_s": 2160,
+      "end_s": 2340,
+      "caused_by": [
+        "B12"
+      ],
+      "visible_action": "Mara đưa Aila vào phòng nhỏ ngoài vườn có nước, chỗ ngủ và khóa cửa từ bên trong. Cô nói Aila tự chọn ở hoặc đi khi tuyến an toàn mở; đây không phải giữ người tị nạn như hàng hóa. Lia mang táo, Aila nghe chim và nói đã lâu cô không nghe tiếng như thế. Mara cho cô thấy cây Veylora từng chết gần hết rồi mọc lại chậm trên Earth. Aila chỉ xin một đêm bình yên. Juno cho Aila bản chép các vết trên viền đồng, hứa chỉ gửi khi cô đồng ý. Aila hỏi liệu có thể tìm em gái. Mara thừa nhận chưa biết, đề nghị chờ tuyến Orin xác minh để hỏi thông tin; cô không bảo đã tìm được dấu chân. Aila chọn nghỉ trước. Lia mang chậu cây, Aila tự trồng một hạt giống. Hành động lặp hình ảnh Mara trồng cây nhiều năm trước nhưng phục vụ cảm xúc mới, không lặp cả xung đột.",
+      "obstacle": "Liệu Aila có thể bắt đầu lại mà không quên em gái? Thông tin trên viền đồng có ích khi nối lại được tuyến cũ không?",
+      "character_choice": "Aila tự chọn nghỉ lại một đêm, Mara không áp đặt nó là quê hương mới. Mara nói thật về độ bất định, Aila chấp nhận kế hoạch tìm kiếm có quyền lựa chọn.",
+      "immediate_consequence": "Trả chủ đề nhà không chỉ là nơi xuất thân; hy vọng có điều kiện và quyền lựa chọn. Gắn hành trình Aila với Mara mà không dùng chiến thắng giả; hạt giống tượng trưng cho một quyết định nhỏ.",
+      "because": "Vì Trả chủ đề nhà không chỉ là nơi xuất thân; hy vọng có điều kiện và quyền lựa chọn.; do đó Juno cho Aila bản chép các vết trên viền đồng, hứa chỉ gửi khi cô đồng ý. Aila hỏi liệu có thể tìm em gái. Mara thừa nhận chưa biết, đề nghị chờ tuyến Orin xác minh để hỏi thông tin; cô không bảo đã tìm được dấu chân. Aila chọn nghỉ trước. Lia mang chậu cây, Aila tự trồng một hạt giống. Hành động lặp hình ảnh Mara trồng cây nhiều năm trước nhưng phục vụ cảm xúc mới, không lặp cả xung đột.",
+      "source_scene_ids": [
+        "SC-025",
+        "SC-026"
+      ]
+    },
+    {
+      "beat_id": "B14",
+      "kind": "DISCOVERY",
+      "start_s": 2340,
+      "end_s": 2520,
+      "caused_by": [
+        "B13"
+      ],
+      "visible_action": "Juno định gửi dữ liệu về Orin ngay nhưng đèn trạm đều tắt, Bix xác nhận không có đường truyền. Cậu chấp nhận cất bản ghi để chờ kết nối thật. Khi Bubu đi gần viên đá xanh được Aila cho phép xem, chú nghe tín hiệu mỏng rất khác cộng hưởng đồng; không định danh được nơi. Mara không dùng nó để tạo cổng hay lén giữ đồ của Aila; trả theo thỏa thuận. Evan về sau tuyến thư, thấy một chiếc đĩa thêm ở bàn bếp. Mara giới thiệu Aila như khách vừa trải qua chuyến đi khó khăn, không tiết lộ phép; Evan không hỏi dồn, mời cô ăn súp trước. Bix không ăn bánh mì nhưng thích hình dáng nó khiến cả nhà cười. Aila nói chiếc vali 'nhẹ hơn' cả nghĩa thật và nghĩa cảm xúc. Evan nói bàn ăn còn chỗ; Mara thấy sự dịu dàng của gia đình mới.",
+      "obstacle": "Viên đá còn có thể phát tiếng khi mọi trạm đã tắt không? Aila có thể ngủ yên, nhưng tiếng đá xanh có thực là gì?",
+      "character_choice": "Juno lựa chọn chờ dữ liệu có đường truyền; Mara trả vật kỷ niệm và cho Aila nghỉ. Evan tiếp đón bằng sự tử tế thường nhật, Aila dám ngồi vào bàn chứ không bị buộc kể quá khứ.",
+      "immediate_consequence": "Người xem thấy phân biệt route cũ/tín hiệu lạ, hai hệ thống giữ giới hạn. Hoàn thành địa phương, mirror bữa sáng S001 nhưng khác ý nghĩa và trạng thái; Evan vẫn không biết phép.",
+      "because": "Vì Người xem thấy phân biệt route cũ/tín hiệu lạ, hai hệ thống giữ giới hạn.; do đó Evan về sau tuyến thư, thấy một chiếc đĩa thêm ở bàn bếp. Mara giới thiệu Aila như khách vừa trải qua chuyến đi khó khăn, không tiết lộ phép; Evan không hỏi dồn, mời cô ăn súp trước. Bix không ăn bánh mì nhưng thích hình dáng nó khiến cả nhà cười. Aila nói chiếc vali 'nhẹ hơn' cả nghĩa thật và nghĩa cảm xúc. Evan nói bàn ăn còn chỗ; Mara thấy sự dịu dàng của gia đình mới.",
+      "source_scene_ids": [
+        "SC-027",
+        "SC-028"
+      ]
+    },
+    {
+      "beat_id": "B15",
+      "kind": "AFTERMATH",
+      "start_s": 2520,
+      "end_s": 2700,
+      "caused_by": [
+        "B14"
+      ],
+      "visible_action": "Aila đang ngủ, tranh hai chị em và viên đá xanh ở trong phòng riêng; Bubu tỉnh giấc ngoài hành lang vì nghe nốt khác, chuông cổ vàng duy nhất rung rất nhẹ nhưng không giống trạm đã tắt. Bubu không tự ý vào phòng. Lia đến, kiểm tra trạm cũ không hoạt động. Bubu nói âm thanh từ rất xa, chưa chỉ được đích và đang mệt. Lia đi tìm Mara. Mara kiểm sổ tuyến cũ, không thấy âm thanh khớp. Trong chuông vàng Bubu thoáng phản chiếu mặt nước rộng và mây lạ, không có tên điểm đến, không có hình ảnh em gái Aila. Lia muốn đi ngay nhưng Bubu nói chưa biết đường và rất mệt. Mara nhớ thảm họa ở Veylora và từ chối mở cổng đêm nay. Cô hứa tiếp tục nghiên cứu với sự thật, không hứa đoàn tụ ngay. Phim kết bằng vali nằm yên và viên đá xanh cạnh bức tranh hai chị em; Bubu nói nghe thấy một thế giới khác.",
+      "obstacle": "Tín hiệu là một thế giới mới, một ký ức hay một cái bẫy? Thế giới nào đang gọi, và điều gì nối nó với viên đá xanh?",
+      "character_choice": "Lia và Bubu tôn trọng phòng riêng, không thử mở cổng hoặc dùng đồ Aila để tìm em ngay. Mara chọn kiên nhẫn và an toàn thay vì một cuộc giải cứu hấp tấp; local story đã khép, đại bí ẩn còn mở.",
+      "immediate_consequence": "Gieo–trả viên đá xanh như unknown-world echo, không phải GPS hay liên quan cơ chế đồng của vali. Final hook thành công nhưng CHƯA mở cổng unknown-world, CHƯA biết thế giới, CHƯA tìm thấy em gái hay Elara.",
+      "because": "Vì Gieo–trả viên đá xanh như unknown-world echo, không phải GPS hay liên quan cơ chế đồng của vali.; do đó Mara kiểm sổ tuyến cũ, không thấy âm thanh khớp. Trong chuông vàng Bubu thoáng phản chiếu mặt nước rộng và mây lạ, không có tên điểm đến, không có hình ảnh em gái Aila. Lia muốn đi ngay nhưng Bubu nói chưa biết đường và rất mệt. Mara nhớ thảm họa ở Veylora và từ chối mở cổng đêm nay. Cô hứa tiếp tục nghiên cứu với sự thật, không hứa đoàn tụ ngay. Phim kết bằng vali nằm yên và viên đá xanh cạnh bức tranh hai chị em; Bubu nói nghe thấy một thế giới khác.",
+      "source_scene_ids": [
+        "SC-029",
+        "SC-030"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "SC-001",
+      "beat_id": "B01",
+      "start_s": 0,
+      "end_s": 90,
+      "location": "Bell & Leaf kitchen, Earth, morning",
+      "scene_purpose": "Vì sao Mara sợ hai tiếng chạm cốc, và vết sẹo trên cây là gì? — Mara chọn che nỗi đau bằng một câu trả lời thật nhưng chưa đầy đủ, thay vì tiết lộ phép thuật với Evan.",
+      "observable_character_action": "Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại.",
+      "new_information_or_change": "Khán giả được gắn bó với gia đình trước khi biết thảm họa. Âm thanh thường nhật trở thành cánh cửa ký ức, hoàn toàn KHÔNG là tín hiệu phép.",
+      "source_event_id": "breakfast_two_note_clink_triggers_mara_memory"
+    },
+    {
+      "scene_id": "SC-002",
+      "beat_id": "B01",
+      "start_s": 90,
+      "end_s": 180,
+      "location": "Bell & Leaf kitchen, same morning",
+      "scene_purpose": "Chiếc cây ấy có ý nghĩa gì đối với mẹ? — Juno chọn thú nhận kẹp bị lỏng, thay cho đổ lỗi robot. Mara dạy kiểm tra lỗi nhỏ không bằng bài giảng dài.",
+      "observable_character_action": "Juno bảo Bix mang bánh mì bằng khay mới. Bix chạy được nhưng cú quay đầu làm chiếc kẹp lỏng, sữa bắn ra khăn. Juno giấu dụng cụ vì xấu hổ. Mara nhẹ nhàng buộc cậu chỉ ra chỗ hỏng, tự lắp lại kẹp và thử. Bubu giấu sau ghế Lia, đuôi tím xoắn vẫn tỏa sáng, một chuông vàng duy nhất; Evan không nhìn thấy điều không thể giải thích. Lần thử cuối, khay đi qua bàn an toàn. Mara chạm vết sẹo cây và flashback bắt đầu ở đúng phút 03:00.",
+      "new_information_or_change": "Gieo vòng cung kỹ thuật và đạo đức của Juno: nói thật, kiểm tra rồi mới kết luận. Đặt âm thanh làm match cut về quá khứ.",
+      "source_event_id": "bix_breakfast_tray_milk_clip_repair"
+    },
+    {
+      "scene_id": "SC-003",
+      "beat_id": "B02",
+      "start_s": 180,
+      "end_s": 270,
+      "location": "Veylora garden, years in the past",
+      "scene_purpose": "Vì sao trạm chuông và rừng cùng bị bệnh? — Mara từ bỏ ý định dùng một câu thần chú mạnh chữa mọi thứ; Orin thừa nhận đã có vấn đề lớn.",
+      "observable_character_action": "Mara thấy hoa tím khép lại giữa ban ngày và rễ mất ánh sáng. Cô tưới nước rồi thử phép rất yếu, không cứu nổi hoa. Orin quỳ cạnh con và cho xem thiết bị đo: cả mạch sống suy yếu, tiếng chuông trạm xa có hai nốt thiếu hòa âm. Cành cây vẫn còn một lá mềm, nên Mara không bỏ cuộc. Cô quyết định đem mẫu đi kiểm tra.",
+      "new_information_or_change": "Sự suy yếu có trước đêm phá hoại và kéo dài qua nhiều thế hệ, không được quy tất cả cho phản diện.",
+      "source_event_id": "veylora_fading_flower_and_weak_fixed_bell"
+    },
+    {
+      "scene_id": "SC-004",
+      "beat_id": "B02",
+      "start_s": 270,
+      "end_s": 360,
+      "location": "Veylora research hall and mapped fixed bell station",
+      "scene_purpose": "Nếu trạm có kiểm soát thì ai có thể vượt khóa? — Mara tắt các phép tốn sức; Orin chọn ưu tiên an toàn của các trạm thay vì cố mở đường ngay.",
+      "observable_character_action": "Orin mở các cuốn sổ nhiều thế hệ: số đo Living Current giảm qua năm tháng dù thám hiểm những nơi có đất, nước, lửa khác nhau. Thế giới mới có sở trường riêng không đồng nghĩa hồi phục mạch sống. Ông dùng phép bảo vệ nhỏ cũng nhanh mệt. Ở trạm cố định, người thợ kiểm chốt khóa cũ; Orin nghiêm túc yêu cầu khóa đường cho tới khi được kiểm định.",
+      "new_information_or_change": "Khán giả học luật qua một phép thử thất bại: giỏi phép không có nghĩa đủ năng lượng tái sinh. Chốt an toàn được gieo trước khi bị phá.",
+      "source_event_id": "veylora_generational_decline_vs_station_safety_lock"
+    },
+    {
+      "scene_id": "SC-005",
+      "beat_id": "B03",
+      "start_s": 360,
+      "end_s": 450,
+      "location": "Veylora expedition dock / family research table",
+      "scene_purpose": "Vì sao chuông tự kêu khi không có người sử dụng? — Elara chọn giúp con giữ bình tĩnh và cứu cây bằng chăm sóc thay cho hứa hẹn thần kỳ.",
+      "observable_character_action": "Một đoàn từ các thế giới cũ đã khảo sát trở lại qua trạm được xác minh với nước, cây và đất. Elara giúp Mara thử giọt nước lên cành héo; chưa có biến chuyển tức thì. Khi Mara muốn dùng phép tiếp, Elara giữ tay con và khuyên chăm sóc, quan sát, chờ đúng điều kiện. Bà đưa Mara tấm vải để bọc cành cây. Bên ngoài, chuông trạm bỗng tự rung khi không ai yêu cầu đi; Orin nghe và quay đầu.",
+      "new_information_or_change": "Tấm vải là vật Mara thực sự mang qua thảm họa; Elara được định hình bằng lòng kiên nhẫn và sự quan tâm.",
+      "source_event_id": "elara_saves_wrapped_branch_before_bell_failure"
+    },
+    {
+      "scene_id": "SC-006",
+      "beat_id": "B03",
+      "start_s": 450,
+      "end_s": 540,
+      "location": "Veylora central bell safety system and streets",
+      "scene_purpose": "Ai là người đeo găng, và vì sao biết khóa ở đâu? — Orin lao đến chốt an toàn; Mara ưu tiên cứu người ngoài đường thay vì chạy cùng cha ngay.",
+      "observable_character_action": "Chỉ thấy một bàn tay đeo găng biết rõ hệ thống, cố tình đẩy cần vượt vạch cảnh báo. Dao động chạy ngược trên vòng đồng, một trạm cũ tự mở mà không có yêu cầu, đường đã định tới bến cảng méo mó. Orin chạy tới bàn an toàn, Mara sơ tán người qua đường đá đang nứt, vẫn ôm cành cây bọc vải. Một tiếng chuông sai lớn làm bầu trời hiện vết nứt.",
+      "new_information_or_change": "Khóa rõ hai nguyên nhân riêng: suy yếu lâu dài của Living Current và sự can thiệp CỐ Ý biến khủng hoảng thành thảm họa.",
+      "source_event_id": "unknown_operator_bypasses_safety_limit_causes_rift"
+    },
+    {
+      "scene_id": "SC-007",
+      "beat_id": "B04",
+      "start_s": 540,
+      "end_s": 630,
+      "location": "Veylora evacuation square and unstable gate",
+      "scene_purpose": "Elara còn sống không? — Elara tự nguyện ở lại bảo vệ người yếu thế; Orin chọn che chắn Mara bằng khả năng hữu hạn.",
+      "observable_character_action": "Trạm tới một bến cảng đã biết nhấp nháy, đồng thời một vết nứt vô trạm mở giữa trời. Elara dẫn trẻ em vào nhà đá. Mara kêu mẹ bỏ đi nhưng Elara ở lại giúp người. Một chiếc khăn rơi gần trẻ nhỏ khiến Mara quay lại nhặt đúng lúc mặt đường sụp. Orin sử dụng năng lượng bảo vệ còn lại cứu Mara qua cú rơi, nhưng không thể giữ họ chung một vị trí. Elara nói lời cuối qua bụi và ánh sáng rồi mất liên lạc, không xác nhận chết.",
+      "new_information_or_change": "Mẹ con bị chia cắt vì lựa chọn có đạo đức và tai nạn, không phải phản diện cố ý gửi họ tới Earth.",
+      "source_event_id": "elara_stays_to_rescue_civilians_orin_protection_separates"
+    },
+    {
+      "scene_id": "SC-008",
+      "beat_id": "B04",
+      "start_s": 630,
+      "end_s": 720,
+      "location": "Unmapped Earth creek bank, first arrival",
+      "scene_purpose": "Orin có rơi cùng thế giới không? — Mara chọn quan sát và đi tìm cha bằng dấu vết, không ép mở cổng phép.",
+      "observable_character_action": "Mara tỉnh một mình trên đất ẩm, nghe chim kêu mà ngỡ tiếng chuông. Không có bản đồ đường chuông, không có trạm, la bàn phép báo lỗi; một phép dò yếu khiến cô choáng. Cô kiểm tra nước và phương hướng như người bình thường, nhìn trang trại xa nhưng chưa tiếp cận. Chậu cây vỡ, đất Veylora rơi trên bãi. Mara không bỏ cành cây Elara bọc cho mình.",
+      "new_information_or_change": "Earth hoàn toàn chưa có trên bản đồ và không có trạm cổ bí mật ở thời điểm này.",
+      "source_event_id": "mara_wakes_unmapped_earth_without_gate"
+    },
+    {
+      "scene_id": "SC-009",
+      "beat_id": "B05",
+      "start_s": 720,
+      "end_s": 810,
+      "location": "Earth woodland creek crossing",
+      "scene_purpose": "Làm sao tìm người mất tích khi Earth không có đường về? — Mara đi qua suối bằng đường thật, Orin nói sự thật về Elara dù đau lòng.",
+      "observable_character_action": "Orin tỉnh cách một đoạn rừng; ông theo dấu chân, đất chậu cây vỡ và tiếng gọi. Mara nghe tên mình qua suối nhưng cần nghe lần nữa trước khi tin. Orin chỉ đường qua những tảng đá đủ an toàn; họ ôm nhau trên bờ. Mara hỏi mẹ ở đâu. Ông không biết, không hứa đã cứu hết gia đình. Họ cam kết sau này tiếp tục tìm những người mất tích.",
+      "new_information_or_change": "Tái hợp cha–con có trả giá và vật chứng; không giải quyết mất mát Elara.",
+      "source_event_id": "mara_orin_reunite_by_tracks_and_safe_creek_crossing"
+    },
+    {
+      "scene_id": "SC-010",
+      "beat_id": "B05",
+      "start_s": 810,
+      "end_s": 900,
+      "location": "Earth temporary camp over multiple days",
+      "scene_purpose": "Cần bao lâu mới có thể hiểu chu trình hồi phục của Earth? — Mara kiên trì chăm sóc thủ công, Orin cảnh báo không phóng đại từ một quan sát.",
+      "observable_character_action": "Mara trồng cành Veylora gần chết bằng đất Earth, che mưa và tưới vừa đủ. Ngày đầu không đổi; thêm ngày, đêm mưa và nắng, cành mới hé lá. Mara và Orin đo môi trường và phép còn lại, hiểu đây là sự hồi phục chậm với giới hạn, không phải phép vô hạn hay chứng minh có thể cứu cả quê hương. Mara vừa mừng vừa tiếc Elara không nhìn thấy. Vết sẹo trên cành vẫn còn.",
+      "new_information_or_change": "Payoff cây sẹo ở nhà Bellfern: nơi trú mới có cơ hội, không xóa được quá khứ.",
+      "source_event_id": "veylora_branch_regenerates_slowly_in_earth_soil"
+    },
+    {
+      "scene_id": "SC-011",
+      "beat_id": "B06",
+      "start_s": 900,
+      "end_s": 990,
+      "location": "Bell & Leaf kitchen, return SAME present morning",
+      "scene_purpose": "Có thể bảo vệ gia đình mà mãi giấu bí mật không? — Mara chấp nhận được an ủi mà không bịa chuyện; Evan tôn trọng khoảng lặng của vợ.",
+      "observable_character_action": "Match cut vết sẹo cành cây ngày trước sang cây lớn ở nhà hiện tại. Mara trở lại ngay buổi sáng đang dang dở, Evan vẫn bên cạnh. Juno thu thiết bị, Lia chuẩn bị sách, Bix đã giữ được khay. Evan nói cô có thể kể về quê hương khi sẵn sàng. Mara chưa thể kể sự thật, nhưng cảm nhận được tình yêu của anh. Cô nhắc Juno đi học đúng giờ.",
+      "new_information_or_change": "Khóa chuyển thời gian: flashback kết thúc ở phút 15, TRỞ LẠI CÙNG BUỔI SÁNG, không nhảy sang ngày khác.",
+      "source_event_id": "flashback_returns_to_exact_same_bellfern_breakfast"
+    },
+    {
+      "scene_id": "SC-012",
+      "beat_id": "B06",
+      "start_s": 990,
+      "end_s": 1080,
+      "location": "Rose Cottage, grandparents' ordinary garden",
+      "scene_purpose": "Ai đang liên lạc qua trạm chuông? — Juno sửa bản lề cổng bằng công cụ thường, Lia tôn trọng chim, Mara nhận ra có kết nối cũ cần kiểm tra.",
+      "observable_character_action": "Gia đình ghé nhà ông bà nội Arthur và Rose; ông Arthur loay hoay với bản lề cổng gỗ hỏng. Juno nhận ra ốc lỏng và sửa bằng tuốc-nơ-vít bình thường, học làm đúng từng bước; Lia để nước cho chim và được Rose nhắc giữ khoảng cách với tổ. Rose thấy Mara mệt và đề nghị giúp đỡ. Ông bà vẫn không biết phép. Mara nghe âm kim loại từ phía nhà mình — khác tiếng cốc sáng nay, là tín hiệu của trạm Earth đã được xây nhiều năm sau khi đến.",
+      "new_information_or_change": "Bản lề và tổ chim gieo để phục vụ cao trào, không phải cảnh đời thường trang trí.",
+      "source_event_id": "juno_repairs_grandfather_gate_hinge_and_lia_protects_birds"
+    },
+    {
+      "scene_id": "SC-013",
+      "beat_id": "B07",
+      "start_s": 1080,
+      "end_s": 1170,
+      "location": "Mara workshop secret fixed Earth station",
+      "scene_purpose": "Kết nối có đáng tin cậy không? — Mara chọn ngừng hoạt động đến khi an toàn và chỉ tiếp nhận tín hiệu có đường truyền xác thực.",
+      "observable_character_action": "Mara dẫn con và hai bạn nhỏ xuống trạm cố định trong xưởng, được xây sau khi Earth trở thành nơi trú. Kết cấu gỗ, đồng và máy đo được bảo trì bằng tay; Juno phát hiện giá đỡ chưa chắc, Bix kiểm ốc. Mara không cho ai đi trước khi ổn định. Bubu phân biệt trạm nối THẾ GIỚI CŨ ĐÃ BIẾT với tiếng vọng thế giới lạ của chính mình; không được dùng một cái thay cái kia.",
+      "new_information_or_change": "Kẻ xem hiểu hai cơ chế chuông không hoán đổi; Evan không biết phòng này.",
+      "source_event_id": "earth_fixed_station_built_years_after_arrival"
+    },
+    {
+      "scene_id": "SC-014",
+      "beat_id": "B07",
+      "start_s": 1170,
+      "end_s": 1260,
+      "location": "Earth station with verified old-world relay",
+      "scene_purpose": "Aila mang theo điều gì từ đêm thảm họa? — Mara đồng ý giúp nhưng không hứa tìm được người thân; Aila tự nguyện chọn di chuyển.",
+      "observable_character_action": "Hai đèn kiểm định báo tuyến cũ đã sửa nối với trạm Orin. Ông giới thiệu Aila, người tị nạn Veylora phải rời chỗ trú và đang tìm em gái bị lạc. Mara cân nhắc nguy cơ lộ phép với Evan, khả năng gia đình có giúp đủ an toàn không. Cô hỏi Aila có muốn tới không; cô đồng ý. Orin xác minh điều kiện tuyến và số người được phép đi trước khi mở.",
+      "new_information_or_change": "Mục tiêu tập hiện hình: bảo vệ một người cụ thể, không cứu hàng nghìn người bằng một cổng tự do.",
+      "source_event_id": "orin_verified_known_world_relay_brings_aila_with_consent"
+    },
+    {
+      "scene_id": "SC-015",
+      "beat_id": "B08",
+      "start_s": 1260,
+      "end_s": 1350,
+      "location": "Earth fixed arrival room",
+      "scene_purpose": "Vì sao vali có dấu hiệu mất trọng lượng? — Mara chủ động xin phép trước khi chạm đồ; Aila đặt ranh giới rõ.",
+      "observable_character_action": "Aila bước ra khỏi trạm cũ an toàn, vừa thoát hiểm nhưng co rúm khi đường sau lưng đóng. Cô ôm vali viền đồng, giật lại khi Bix định xách; Mara nhắc mọi người tôn trọng đồ riêng. Lia mang nước. Aila nói tất cả những gì cô có nằm trong chiếc vali và không biết còn có thể gọi nơi nào là nhà. Bix phát hiện vali có khối lượng bất thường nhưng chỉ ghi nhận, chưa kết luận phép.",
+      "new_information_or_change": "Aila là người có quyền lựa chọn, không phải món hàng cứu hộ; vali mang ý nghĩa ký ức.",
+      "source_event_id": "aila_arrives_old_station_with_copper_suitcase"
+    },
+    {
+      "scene_id": "SC-016",
+      "beat_id": "B08",
+      "start_s": 1350,
+      "end_s": 1440,
+      "location": "Earth station bench during cooldown",
+      "scene_purpose": "Xung dư tiếp theo sẽ đưa vali lên bao cao? — Juno chọn quan sát trước khi sửa; Mara giữ khoảng cách và không phá vali.",
+      "observable_character_action": "Trạm bắt đầu chu kỳ nguội sau khi Aila đến. Tiếng rền phát ra, viền đồng vali rung rồi nhấc khỏi sàn; lúc im thì hạ. Bix đo chu kỳ, Juno quan sát. Bubu không kích hoạt chuông riêng: đồng cũ cộng hưởng với xung dư TRẠM CỐ ĐỊNH, hoàn toàn khác tín hiệu đá xanh. Mara ngăn mọi người kéo mạnh hoặc dùng phép ngay.",
+      "new_information_or_change": "Thiết lập quy tắc vật lý lặp lại được để cao trào giải quyết có lý do.",
+      "source_event_id": "copper_suitcase_levitates_only_during_station_afterpulse"
+    },
+    {
+      "scene_id": "SC-017",
+      "beat_id": "B09",
+      "start_s": 1440,
+      "end_s": 1530,
+      "location": "Earth station testing table",
+      "scene_purpose": "Liệu lần tiếp theo vali sẽ lao ra khỏi phòng? — Juno nhận lỗi và dừng thử, ưu tiên an toàn của người khác hơn tiếng khen.",
+      "observable_character_action": "Juno sốt ruột chứng minh sáng chế, thử gắn thanh đồng vào vali để 'cân bằng'; ban đầu không khác gì, rồi xung tiếp theo làm rung mạnh, va vào bàn. Aila sợ mất kỷ vật, Mara dừng test và giữ mọi người tránh xa. Juno phải thừa nhận thêm đồng làm cộng hưởng mạnh hơn, trái giả thuyết ban đầu. Mara không mắng, yêu cầu nói điều đã học.",
+      "new_information_or_change": "Thất bại là nguyên nhân trực tiếp khiến nhóm phải dùng vật liệu cách ly; không thể giải quyết bằng phép thần.",
+      "source_event_id": "juno_copper_brace_amplifies_suitcase_afterpulse"
+    },
+    {
+      "scene_id": "SC-018",
+      "beat_id": "B09",
+      "start_s": 1530,
+      "end_s": 1620,
+      "location": "Earth workshop safe table",
+      "scene_purpose": "Viên đá xanh nhớ điều gì? — Aila đồng ý chia sẻ có giới hạn; nhóm không tự lấy đá hay khẳng định đã thấy em gái.",
+      "observable_character_action": "Khi trạm tạm lắng, Aila kể cô từng nắm tay em gái lúc đường chuông vỡ. Với sự cho phép của cô, Lia mở một ngăn nhỏ: có tranh vẽ hai chị em dưới những ngôi sao lớn và viên đá thủy tinh xanh. Aila cười một chút khi nhớ em gái vẽ sao quá to. Mara liên tưởng đến Elara thất lạc. Bubu nghe một nốt rất nhỏ trong đá, nhưng chưa biết từ đâu và không thể định vị.",
+      "new_information_or_change": "Biến vật thể hài hước thành chứng tích mất mát; gieo mystery viên đá xanh tách khỏi hiệu ứng đồng.",
+      "source_event_id": "aila_star_drawing_and_blue_glass_stone_unresolved_echo"
+    },
+    {
+      "scene_id": "SC-019",
+      "beat_id": "B10",
+      "start_s": 1620,
+      "end_s": 1710,
+      "location": "Earth station garden hatch / stairs",
+      "scene_purpose": "Evan có thấy cảnh không thể giải thích không? — Nhóm chọn hành động thủ công an toàn, không triệu hồi cổng mới hay bùa vô hạn.",
+      "observable_character_action": "Cả nhóm tưởng vali đã yên trên giá gỗ, nhưng Bix phát hiện chu kỳ xung dư tiếp tục. Dây cố định và bánh xe giá đỡ chưa đủ an toàn; khay trượt về cửa vườn khi vali nhấc. Juno nhớ không dùng thêm đồng, lấy vải và dây mềm. Bix đuổi theo nhưng cơ thể robot nhỏ không thể thắng lực nâng. Vali ra gần ánh sáng ngày, ngoài phạm vi phòng giấu phép.",
+      "new_information_or_change": "Lỗi chuẩn bị trong scene này gây ra nguy cơ Evan nhìn thấy, không phải một trò ngẫu nhiên.",
+      "source_event_id": "suitcase_slides_through_garden_hatch_from_afterpulse"
+    },
+    {
+      "scene_id": "SC-020",
+      "beat_id": "B10",
+      "start_s": 1710,
+      "end_s": 1800,
+      "location": "Bell & Leaf rear garden near public lane",
+      "scene_purpose": "Liệu vali đè lên tổ chim mà Lia quan sát từ buổi sáng? — Mara bảo vệ bí mật nhưng không khinh thường Evan; Juno bộc lộ căng thẳng đạo đức.",
+      "observable_character_action": "Vali bay vào sân. Mara đặt bình phong che tầm nhìn, Lia đóng cổng phụ. Evan đang đi phát thư ghé ngang, nghe động và hỏi. Juno nói đang chuyển hộp lớn, trong khi ông bố chỉ thấy một thùng thường, không thấy vali đang bay. Evan đi tiếp. Juno thở phào rồi thú nhận ghét phải giấu bố; Mara cũng vậy. Ngay sau đó, xung kế tiếp cuốn vali vào cành cây.",
+      "new_information_or_change": "Tăng cái giá của việc giấu phép, trong khi Evan chưa được tiết lộ trong EP001.",
+      "source_event_id": "evan_nearly_sees_flying_suitcase_but_remains_unaware"
+    },
+    {
+      "scene_id": "SC-021",
+      "beat_id": "B11",
+      "start_s": 1800,
+      "end_s": 1890,
+      "location": "Bell & Leaf garden apple tree",
+      "scene_purpose": "Làm sao giữ vali nằm yên khi đợt xung sau đến? — Lia chọn cứu sinh vật nhỏ ngay cả khi chậm phương án nhanh; Aila tham gia khi đã có quy trình.",
+      "observable_character_action": "Chiếc vali mắc dây trên cành ngay trên tổ chim. Nếu kéo mạnh, cành gãy và chim non gặp nguy hiểm. Lia ngăn nhóm lao vào, quan sát chim bố mẹ, chọn thời điểm an toàn. Juno buộc dây vào điểm đỡ vững, Bix thử nút, Aila muốn hỗ trợ đồ của mình. Bubu giữ một dây bằng chân và không mở cổng. Cả nhóm đưa vali xuống nhưng xung dư chưa hết.",
+      "new_information_or_change": "Trả gieo tổ chim và năng lực quan sát của Lia, đồng thời chứng minh nhóm chủ động giải quyết.",
+      "source_event_id": "family_lowers_suitcase_without_harming_bird_nest"
+    },
+    {
+      "scene_id": "SC-022",
+      "beat_id": "B11",
+      "start_s": 1890,
+      "end_s": 1980,
+      "location": "Covered garden workbench",
+      "scene_purpose": "Gỗ và vải có thực sự làm xung dư yếu đi không? — Aila giữ quyền phủ quyết, Juno tôn trọng ý nghĩa của vật liệu, Mara chọn giải pháp chậm nhưng đúng.",
+      "observable_character_action": "Mara trình Aila hai phương án: cắt viền kim loại nhanh nhưng có thể xóa dấu kỷ niệm, hoặc dùng gỗ/vải để giảm cộng hưởng và được phép dừng. Juno gọi phần đồng 'chỉ là kim loại'; Aila giải thích em gái từng chạm vào tay cầm, vài vết xước chính là dấu của cô bé. Juno xin lỗi. Mara ghi chép và xin phép thử phương án có thể đảo ngược, Aila đồng ý với điều kiện dừng nếu thất bại.",
+      "new_information_or_change": "Cao trào đạo đức: giải pháp đúng không được phá điều người được cứu coi quý nhất.",
+      "source_event_id": "aila_refuses_destroying_keepsake_selects_reversible_repair"
+    },
+    {
+      "scene_id": "SC-023",
+      "beat_id": "B12",
+      "start_s": 1980,
+      "end_s": 2070,
+      "location": "Covered safe testing bench",
+      "scene_purpose": "Lần thử kế tiếp có giữ được vali không? — Juno trì hoãn ăn mừng, dùng hai lần đo để xác nhận, công nhận sai lầm trước đó.",
+      "observable_character_action": "Juno vẽ sơ đồ: giá gỗ, bọc vải lanh ở các góc đồng, vùng đứng an toàn. Bix đọc cảm biến, Lia quan sát chim, Aila cầm vật kỷ niệm. Xung đầu tới, một góc vali vẫn nhấc nên nhóm dừng và gia cố. Xung tiếp theo vali nằm yên, nhưng Juno từ chối kết luận vội: một lần thành công chưa đủ. Họ định kiểm lặp lại theo chu kỳ với các điều kiện giữ nguyên.",
+      "new_information_or_change": "Payoff arc Juno và cảnh sửa cổng Arthur: kiểm nghiệm có giá trị hơn khoe khoang.",
+      "source_event_id": "juno_wood_linen_damping_first_safe_test"
+    },
+    {
+      "scene_id": "SC-024",
+      "beat_id": "B12",
+      "start_s": 2070,
+      "end_s": 2160,
+      "location": "Safe garden/workshop bench",
+      "scene_purpose": "Aila có dám ở lại Earth một đêm không? — Nhóm xác nhận qua hai phép thử, Aila chấp nhận phần sửa có thể tháo, Juno không tự nhận 'đã giải quyết mọi thứ'.",
+      "observable_character_action": "Chu kỳ xung thứ hai được quan sát đầy đủ; vali rung nhẹ nhưng không bay. Bix ghi số, Juno kiểm giá đỡ và giữ bản chép dấu đồng mà Aila cho phép. Aila nhẹ nhõm khi chính tay mình chạm tay cầm còn nguyên. Bix mang nước bằng khay sáng nay đã sửa, lần này không làm đổ; lời đùa của robot giúp Aila bật cười lần đầu kể từ khi đến Earth. Chim trở về tổ.",
+      "new_information_or_change": "Local mechanical conflict RESOLVED, động cơ nhân vật được trả, nhưng em gái Aila vẫn mất tích.",
+      "source_event_id": "suitcase_solved_two_tests_keepsake_saved_bix_returns_with_tray"
+    },
+    {
+      "scene_id": "SC-025",
+      "beat_id": "B13",
+      "start_s": 2160,
+      "end_s": 2250,
+      "location": "Small private garden guest room",
+      "scene_purpose": "Liệu Aila có thể bắt đầu lại mà không quên em gái? — Aila tự chọn nghỉ lại một đêm, Mara không áp đặt nó là quê hương mới.",
+      "observable_character_action": "Mara đưa Aila vào phòng nhỏ ngoài vườn có nước, chỗ ngủ và khóa cửa từ bên trong. Cô nói Aila tự chọn ở hoặc đi khi tuyến an toàn mở; đây không phải giữ người tị nạn như hàng hóa. Lia mang táo, Aila nghe chim và nói đã lâu cô không nghe tiếng như thế. Mara cho cô thấy cây Veylora từng chết gần hết rồi mọc lại chậm trên Earth. Aila chỉ xin một đêm bình yên.",
+      "new_information_or_change": "Trả chủ đề nhà không chỉ là nơi xuất thân; hy vọng có điều kiện và quyền lựa chọn.",
+      "source_event_id": "aila_voluntarily_chooses_garden_guest_room_one_night"
+    },
+    {
+      "scene_id": "SC-026",
+      "beat_id": "B13",
+      "start_s": 2250,
+      "end_s": 2340,
+      "location": "Bell garden guest-room path and research ledger",
+      "scene_purpose": "Thông tin trên viền đồng có ích khi nối lại được tuyến cũ không? — Mara nói thật về độ bất định, Aila chấp nhận kế hoạch tìm kiếm có quyền lựa chọn.",
+      "observable_character_action": "Juno cho Aila bản chép các vết trên viền đồng, hứa chỉ gửi khi cô đồng ý. Aila hỏi liệu có thể tìm em gái. Mara thừa nhận chưa biết, đề nghị chờ tuyến Orin xác minh để hỏi thông tin; cô không bảo đã tìm được dấu chân. Aila chọn nghỉ trước. Lia mang chậu cây, Aila tự trồng một hạt giống. Hành động lặp hình ảnh Mara trồng cây nhiều năm trước nhưng phục vụ cảm xúc mới, không lặp cả xung đột.",
+      "new_information_or_change": "Gắn hành trình Aila với Mara mà không dùng chiến thắng giả; hạt giống tượng trưng cho một quyết định nhỏ.",
+      "source_event_id": "aila_chooses_truthful_waiting_search_plan_and_plants_seed"
+    },
+    {
+      "scene_id": "SC-027",
+      "beat_id": "B14",
+      "start_s": 2340,
+      "end_s": 2430,
+      "location": "Bell fixed station, now disconnected",
+      "scene_purpose": "Viên đá còn có thể phát tiếng khi mọi trạm đã tắt không? — Juno lựa chọn chờ dữ liệu có đường truyền; Mara trả vật kỷ niệm và cho Aila nghỉ.",
+      "observable_character_action": "Juno định gửi dữ liệu về Orin ngay nhưng đèn trạm đều tắt, Bix xác nhận không có đường truyền. Cậu chấp nhận cất bản ghi để chờ kết nối thật. Khi Bubu đi gần viên đá xanh được Aila cho phép xem, chú nghe tín hiệu mỏng rất khác cộng hưởng đồng; không định danh được nơi. Mara không dùng nó để tạo cổng hay lén giữ đồ của Aila; trả theo thỏa thuận.",
+      "new_information_or_change": "Người xem thấy phân biệt route cũ/tín hiệu lạ, hai hệ thống giữ giới hạn.",
+      "source_event_id": "juno_waits_for_verified_orin_relay_blue_stone_separate"
+    },
+    {
+      "scene_id": "SC-028",
+      "beat_id": "B14",
+      "start_s": 2430,
+      "end_s": 2520,
+      "location": "Bell family kitchen, same evening",
+      "scene_purpose": "Aila có thể ngủ yên, nhưng tiếng đá xanh có thực là gì? — Evan tiếp đón bằng sự tử tế thường nhật, Aila dám ngồi vào bàn chứ không bị buộc kể quá khứ.",
+      "observable_character_action": "Evan về sau tuyến thư, thấy một chiếc đĩa thêm ở bàn bếp. Mara giới thiệu Aila như khách vừa trải qua chuyến đi khó khăn, không tiết lộ phép; Evan không hỏi dồn, mời cô ăn súp trước. Bix không ăn bánh mì nhưng thích hình dáng nó khiến cả nhà cười. Aila nói chiếc vali 'nhẹ hơn' cả nghĩa thật và nghĩa cảm xúc. Evan nói bàn ăn còn chỗ; Mara thấy sự dịu dàng của gia đình mới.",
+      "new_information_or_change": "Hoàn thành địa phương, mirror bữa sáng S001 nhưng khác ý nghĩa và trạng thái; Evan vẫn không biết phép.",
+      "source_event_id": "evan_welcomes_aila_at_dinner_without_knowing_magic"
+    },
+    {
+      "scene_id": "SC-029",
+      "beat_id": "B15",
+      "start_s": 2520,
+      "end_s": 2610,
+      "location": "Bell garden guest-room hallway at night",
+      "scene_purpose": "Tín hiệu là một thế giới mới, một ký ức hay một cái bẫy? — Lia và Bubu tôn trọng phòng riêng, không thử mở cổng hoặc dùng đồ Aila để tìm em ngay.",
+      "observable_character_action": "Aila đang ngủ, tranh hai chị em và viên đá xanh ở trong phòng riêng; Bubu tỉnh giấc ngoài hành lang vì nghe nốt khác, chuông cổ vàng duy nhất rung rất nhẹ nhưng không giống trạm đã tắt. Bubu không tự ý vào phòng. Lia đến, kiểm tra trạm cũ không hoạt động. Bubu nói âm thanh từ rất xa, chưa chỉ được đích và đang mệt. Lia đi tìm Mara.",
+      "new_information_or_change": "Gieo–trả viên đá xanh như unknown-world echo, không phải GPS hay liên quan cơ chế đồng của vali.",
+      "source_event_id": "blue_stone_echo_heard_while_fixed_station_silent"
+    },
+    {
+      "scene_id": "SC-030",
+      "beat_id": "B15",
+      "start_s": 2610,
+      "end_s": 2700,
+      "location": "Bell workshop at night, fixed station OFF",
+      "scene_purpose": "Thế giới nào đang gọi, và điều gì nối nó với viên đá xanh? — Mara chọn kiên nhẫn và an toàn thay vì một cuộc giải cứu hấp tấp; local story đã khép, đại bí ẩn còn mở.",
+      "observable_character_action": "Mara kiểm sổ tuyến cũ, không thấy âm thanh khớp. Trong chuông vàng Bubu thoáng phản chiếu mặt nước rộng và mây lạ, không có tên điểm đến, không có hình ảnh em gái Aila. Lia muốn đi ngay nhưng Bubu nói chưa biết đường và rất mệt. Mara nhớ thảm họa ở Veylora và từ chối mở cổng đêm nay. Cô hứa tiếp tục nghiên cứu với sự thật, không hứa đoàn tụ ngay. Phim kết bằng vali nằm yên và viên đá xanh cạnh bức tranh hai chị em; Bubu nói nghe thấy một thế giới khác.",
+      "new_information_or_change": "Final hook thành công nhưng CHƯA mở cổng unknown-world, CHƯA biết thế giới, CHƯA tìm thấy em gái hay Elara.",
+      "source_event_id": "unmapped_blue_stone_echo_no_open_gate_cliffhanger"
+    }
+  ],
+  "setup_payoffs": [
+    {
+      "setup_beat": "B01",
+      "payoff_beat": "B03",
+      "specific_clue": "Ordinary spoon clink — SC-001/SC-002; Memory trigger only, NOT proof of magical alarm",
+      "earned_resolution": "Ordinary spoon clink — SC-003/SC-006; Memory trigger only, NOT proof of magical alarm"
+    },
+    {
+      "setup_beat": "B01",
+      "payoff_beat": "B13",
+      "specific_clue": "Veylora branch with scar — SC-001; Gradual ecological renewal, scar persists",
+      "earned_resolution": "Veylora branch with scar — SC-010/SC-011/SC-025; Gradual ecological renewal, scar persists"
+    },
+    {
+      "setup_beat": "B02",
+      "payoff_beat": "B04",
+      "specific_clue": "Station safety latch — SC-004; Deliberate override not genesis of all decline",
+      "earned_resolution": "Station safety latch — SC-006/SC-007; Deliberate override not genesis of all decline"
+    },
+    {
+      "setup_beat": "B03",
+      "payoff_beat": "B05",
+      "specific_clue": "Elara's cloth wrapping — SC-005; Physical keepsake carried through unchosen rift",
+      "earned_resolution": "Elara's cloth wrapping — SC-007/SC-008/SC-010; Physical keepsake carried through unchosen rift"
+    },
+    {
+      "setup_beat": "B01",
+      "payoff_beat": "B12",
+      "specific_clue": "Juno/Bix tray mistake — SC-002; Test responsibly; tray returns without spilling",
+      "earned_resolution": "Juno/Bix tray mistake — SC-017/SC-023/SC-024; Test responsibly; tray returns without spilling"
+    },
+    {
+      "setup_beat": "B06",
+      "payoff_beat": "B11",
+      "specific_clue": "Arthur gate hinge/bird nest — SC-012; Ordinary repair and bird care become high stakes",
+      "earned_resolution": "Arthur gate hinge/bird nest — SC-020/SC-021; Ordinary repair and bird care become high stakes"
+    },
+    {
+      "setup_beat": "B08",
+      "payoff_beat": "B12",
+      "specific_clue": "Copper station afterpulses — SC-016; Copper intensifies; wood/linen damps; two tests",
+      "earned_resolution": "Copper station afterpulses — SC-017/SC-023/SC-024; Copper intensifies; wood/linen damps; two tests"
+    },
+    {
+      "setup_beat": "B08",
+      "payoff_beat": "B13",
+      "specific_clue": "Aila handle scratch marks — SC-015/SC-022; Consent and preservation matter",
+      "earned_resolution": "Aila handle scratch marks — SC-024/SC-026; Consent and preservation matter"
+    },
+    {
+      "setup_beat": "B09",
+      "payoff_beat": "B15",
+      "specific_clue": "Aila star drawing — SC-018; Aila keeps it; sister is still missing",
+      "earned_resolution": "Aila star drawing — SC-025/SC-029/SC-030; Aila keeps it; sister is still missing"
+    },
+    {
+      "setup_beat": "B09",
+      "payoff_beat": "B15",
+      "specific_clue": "Blue glass stone distinct echo — SC-018/SC-027; Unknown origin, not GPS or instant gate",
+      "earned_resolution": "Blue glass stone distinct echo — SC-029/SC-030; Unknown origin, not GPS or instant gate"
+    },
+    {
+      "setup_beat": "B01",
+      "payoff_beat": "B14",
+      "specific_clue": "Evan's ordinary kindness — SC-001/SC-011; Evan's ignorance intact; one more chair at table",
+      "earned_resolution": "Evan's ordinary kindness — SC-020/SC-028; Evan's ignorance intact; one more chair at table"
+    }
+  ],
+  "character_arcs": [
+    {
+      "character": "MARA",
+      "turning_beat": "B11",
+      "initial_state": "Mara thinks the safest response is to solve refugee emergencies quickly before ordinary people see the magic.",
+      "internal_need": "She needs to give the person being helped real control rather than protecting them by taking away their choices.",
+      "costly_decision": "Mara risks a longer and harder test rather than cutting a damaged keepsake without Aila's informed agreement.",
+      "final_state": "Mara listens before acting and offers one real safe night with a truthful but limited promise to keep searching."
+    },
+    {
+      "character": "JUNO",
+      "turning_beat": "B12",
+      "initial_state": "Juno believes a quick clever device can fix problems before he needs to check every part of the system.",
+      "internal_need": "He must accept responsibility for errors and learn to verify a hypothesis without putting someone else's memories at risk.",
+      "costly_decision": "He admits his copper brace made the case rise and delays the repair until two separate safe tests confirm the solution.",
+      "final_state": "Juno checks his solution and records evidence instead of treating his first successful test as proof of perfection."
+    },
+    {
+      "character": "AILA",
+      "turning_beat": "B11",
+      "initial_state": "Aila expects help to mean surrendering the only suitcase and final keepsakes from her missing younger sister.",
+      "internal_need": "She needs safety with dignity, choice and a plan grounded in facts rather than a promise that cannot yet be kept.",
+      "costly_decision": "She permits a careful reversible repair and accepts rest on Earth even though she cannot immediately search for her sister.",
+      "final_state": "Aila keeps her belongings and chooses a safe garden room while agreeing to verify future routes before traveling again."
+    },
+    {
+      "character": "LIA",
+      "turning_beat": "B11",
+      "initial_state": "Lia wants to help at once and worries that the moving case may hurt the bird nest in the family garden.",
+      "internal_need": "She must use patient observation and ask for consent instead of assuming she can understand every animal or stranger.",
+      "costly_decision": "She delays the fast retrieval until birds are clear and waits for Aila's permission before opening the keepsake pocket.",
+      "final_state": "Lia becomes a trusted helper whose care includes wildlife and the guest's private possessions."
+    }
+  ],
+  "continuity_deltas": [
+    {
+      "entity_id": "mara_earth_renewal_evidence",
+      "before": "Veylora living branch barely alive after catastrophe and Earth unknown on maps",
+      "after": "A Veylora branch regenerates over several Earth days and later lives in the Bellfern family garden, with limits noted",
+      "caused_by": "B05"
+    },
+    {
+      "entity_id": "earth_fixed_bell_station",
+      "before": "No gate existed on Earth when Orin and Mara arrived accidentally",
+      "after": "Many years later a verified fixed Earth station connects to only a few safely repaired OLD-world stations and requires cooldown",
+      "caused_by": "B07"
+    },
+    {
+      "entity_id": "aila_refuge_status",
+      "before": "Displaced Veylora refugee found by Orin with no safe room and belongings at risk",
+      "after": "Aila chooses a small Bellfern garden guest room, retains the star drawing and blue stone, and has no confirmed route to her sister",
+      "caused_by": "B13"
+    },
+    {
+      "entity_id": "juno_suitcase_repair_record",
+      "before": "Old copper fitting makes Aila's case lift during station cooling pulses and Juno's first copper brace worsens the effect",
+      "after": "Wood and linen isolate the fitting through two afterpulses while Juno keeps Aila-approved copies of the copper marks",
+      "caused_by": "B12"
+    },
+    {
+      "entity_id": "bubu_unmapped_echo_001",
+      "before": "Aila's blue glass stone emits a faint unexplained note and is distinct from the fixed-station copper afterpulse",
+      "after": "Bubu hears one new uncharted-world echo from the stone, but no destination is mapped and no portal has been opened",
+      "caused_by": "B15"
+    }
+  ],
+  "depends_on_approved_episodes": [],
+  "creative_axes": [
+    "00:00–03:00 family-first breakfast comedy with ordinary two-note clink; flashback stays 03:00–15:00 and returns to exact same morning.",
+    "Two independent limited bell systems, old Veylora ecology loss before sabotage, and physically earned gradual Earth renewal.",
+    "An autonomous refugee's copper suitcase afterpulse and preservation consent create unique conflict and a two-test wood/linen solution.",
+    "A genuinely ordinary postman family welcomes an extra guest and still does not expose the magical Earth station.",
+    "A separate blue-glass unknown echo ends the episode without a destination, portal, missing-sister rescue or public villain reveal."
+  ],
+  "editorial_questions": [
+    "Does the dramatic family-first timeline continue on the SAME present Earth morning after SC-003..SC-010 memory, not jump ahead?",
+    "Are all 270 v1.1 shot lines reconciled with the new v2 30-scene story and actions before claim of new v2 shooting script?",
+    "Is Aila voluntarily choosing route, repair, private garden room and data-sharing while her sister remains MISSING?",
+    "Are copper suitcase afterpulses separate from blue-glass unknown echo, and are two wood/linen tests real and time-coded?",
+    "Do Evan, Arthur and Rose remain genuinely unaware of magic even at the garden near-exposure?",
+    "Are original four owner texts and confidential villain source prioritized, with zero private reveal in public story exports?",
+    "Are all dialogue durations actual real A2 table reads rather than assumed 10s just because 270 shot rows exist?"
+  ],
+  "source_reference": "EP001_STORY_V2_CONTINUITY_LOCK.json",
+  "story_revision": "v2.0_family_first"
+}

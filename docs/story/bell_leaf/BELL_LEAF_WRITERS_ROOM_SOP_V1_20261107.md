@@ -1,6 +1,10 @@
 # CINE BELL & LEAF — QUY TRÌNH PHÒNG BIÊN KỊCH / EPISODE WRITER SOP V1
 Version: 2026-11-07. Thuộc niche slow_english_a2, series Bell & Leaf ONLY. Áp dụng cho AI writer, story editor, showrunner, director, dialogue/A2 reviewer, script supervisor, research, asset & production QC. Không nhập rule từ ngách audio/senior hay A2 generic.
 
+
+**CẬP NHẬT BẮT BUỘC 2026-11-08 — EP001 STORY MEMORY V2**: Trước bước 01 đối với mọi BL-0002+, phải đọc \`docs/story/bell_leaf/ep001_screenplay/EP001_STORY_V2_MASTER_30_SCENES.md\`, \`EP001_STORY_V2_CONTINUITY_LOCK.json\`, \`docs/story/bell_leaf/EPISODE_STORY_MEMORY_INDEX_V1.json\` và \`EP001_STORY_QUALITY_PLAN_v2.json\`. Chạy \`python tools/bell_leaf/ep001_story_memory_gate.py verify\` và \`python tools/bell_leaf/ep001_story_memory_gate.py check-candidate --candidate YOUR_EPISODE.json\`. Kiểm \`claimed_new_event_ids\` không tái diễn 30 sự kiện EP001, trạng thái đầu tập kế thừa từ cuối EP001 (\`inherits_state\`); callback cũ phải ghi \`callbacks_to_prior_episode\` và hậu quả mới. Trùng cơ chế vali đồng+xung dư+giải pháp vải/gỗ=BLOCKED. Không lấy \`EP001_STORY_QUALITY_PLAN_v1.json\` làm căn cứ thứ tự vì đó là sơ đồ Veylora-first cũ. V2 là **story treatment/reference** chứ chưa là 270 shot v2 được duyệt; người viết cần kiểm lại từng shot v1.1. Không đánh dấu owner/editor/prod PASS từ bộ nhớ tự động.
+
+
 ## A. Điểm vào DUY NHẤT
 1. Đọc docs/story/bell_leaf/BELL_LEAF_WRITERS_ROOM_CANON_CONTRACT_V1_20261107.md.
 2. Đọc config/niches/slow_english_a2/bell_leaf_writer_contract_v1.json và docs/story/bell_leaf/BELL_LEAF_OWNER_SOURCE_CONFLICT_REGISTER_20261107.md.

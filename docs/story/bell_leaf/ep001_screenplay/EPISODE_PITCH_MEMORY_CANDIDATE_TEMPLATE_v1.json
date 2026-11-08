@@ -1,0 +1,23 @@
+{
+  "about": "Template for a future Bell & Leaf episode. Replace empty fields and BL-XXXX. Before writing, run cf_story_quality_gate.py and episode_uniqueness_gate.py too. Never mark human review PASS automatically.",
+  "series_id": "bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "episode_id": "BL-XXXX",
+  "title": "",
+  "hook": "",
+  "goal": "",
+  "central_conflict": "",
+  "resolution": "",
+  "unique_difference": "",
+  "claimed_new_event_ids": [],
+  "central_mechanism_id": "",
+  "solution_mechanism_id": "",
+  "callbacks_to_prior_episode": [],
+  "inherits_state": {
+    "evan_aware_of_magic": false,
+    "elara_status": "MISSING_UNCONFIRMED",
+    "aila_sister_status": "MISSING_NOT_LOCATED",
+    "bubu_unmapped_world_target": "ECHO_HEARD_SOURCE_UNCONFIRMED_NO_GATE_OPENED"
+  },
+  "editor_note": "Callbacks cite EP001 events with a new consequence, never register them as claimed_new_event_ids. Current inherited_state is EP001 ending; future episodes must inherit the most recent APPROVED episode too."
+}

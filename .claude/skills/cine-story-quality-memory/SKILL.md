@@ -6,6 +6,11 @@ description: Mandatory causal plot, originality, scene detail, character agency,
 
 Before every new story, screenplay or script-lock, read docs/CINE_STORY_QUALITY_CONTINUITY_MEMORY_20261108.md and config/story_factory/story_quality_profiles_v1.json. Select exact niche and project/series_id. This is an extension of the existing CINE Script Factory, not a new pipeline or a second registry.
 
+
+### Bell & Leaf EP001 v2: mandatory episode-specific continuity layer
+Before **any BL-0002+** pitch, read \`docs/story/bell_leaf/ep001_screenplay/EP001_STORY_V2_MASTER_30_SCENES.md\`, \`EP001_STORY_V2_CONTINUITY_LOCK.json\`, \`EP001_STORY_QUALITY_PLAN_v2.json\` and \`docs/story/bell_leaf/EPISODE_STORY_MEMORY_INDEX_V1.json\`. Run \`python tools/bell_leaf/ep001_story_memory_gate.py verify\` and \`check-candidate --candidate PATH\` with inherited states and claimed-new events. The first three minutes MUST be Bellfern family morning; flashback 03–15; same morning resumes at 15. **V1 quality plan has obsolete Veylora-first ordering.** V1.1 has 270 old shooting slots, NOT a newly reviewed v2 270-shot finished teleplay. Never recycle Aila's copper suitcase afterpulse + Juno copper error + wood/linen two-test repair as a new episode, including old BL-0003 slate. A callback is allowed if it advances evidence, character agency and consequences and is not staged as the same first-time incident. Never forge editor signoff, audio, supporting face or production approvals.
+
+
 ## Script author responsibilities
 1. Read research briefs with provenance for THIS niche and available history of approved episodes. Competitor analysis informs abstract techniques only, not plots or dialogue.
 2. Use tools/cf_story_quality_gate.py ideas --niche NICHE --series SERIES --slot EPISODE_ID --count 12. These are SEEDS, NOT finished scripts or approved episodes. Expand at least three different premises and check the 1000 Bell & Leaf proposals when applicable.

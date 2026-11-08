@@ -1,5 +1,14 @@
 # Bell & Leaf — Production Story Hub
 
+## EP001 family-first story memory — MANDATORY FOR EVERY LATER EPISODE (2026-11-08)
+- [Full 30-scene v2 dramatic story reference](ep001_screenplay/EP001_STORY_V2_MASTER_30_SCENES.md) — exact 00:00–45:00 order, story detail, character decisions, dramatic turns and candidate A2 dialogue. **Authoritative for episode plot development**, subordinate to four original owner source texts.
+- [Machine-readable EP001 v2 continuity lock](ep001_screenplay/EP001_STORY_V2_CONTINUITY_LOCK.json) — 30 unique incidents, 11 seeded/payoff motifs, unclosed mysteries, cast/world/prop state at EP001 end, do-not-repeat combinations, visual/audio holds.
+- [Current story-quality plan v2](ep001_screenplay/EP001_STORY_QUALITY_PLAN_v2.json) — 15 causal beats, 30 chronologically aligned scene cards; v1 quality plan was Veylora-first and is **legacy only**.
+- [Episode story memory registry](EPISODE_STORY_MEMORY_INDEX_V1.json) — BL-0001 reserved incident fingerprints; prevents future episodes replaying the same incident as new.
+- **Before EVERY future Bell & Leaf pitch:** run \`python tools/bell_leaf/ep001_story_memory_gate.py verify\` and \`python tools/bell_leaf/ep001_story_memory_gate.py check-candidate --candidate YOUR_EPISODE.json\` (requires the declared inherited state, unique event IDs and source novelty claims). BLOCKED means stop; MANUAL_NOVELTY_REVIEW_REQUIRED still requires human editor and comparison to full previous scripts/1000 proposal slate. Do not declare artistic uniqueness solely from code.
+- **EP001 v1.1 shooting draft** remains 270 allocated 10s shots but the **v2 scene-level dramatic treatment is not a freshly shot-timed 270-slot v2 teleplay**. Do not blindly launch batches before one-to-one shot/story reconciliation and asset/voice QC. This is a story-reference lock, NOT media production approval.
+
+
 **WRITERS' ROOM: OWNER SOURCE-BOUND ENTRYPOINT (2026-11-07).** Read these in order BEFORE writing any Bell & Leaf episode:
 1. [Writer Canon Contract](BELL_LEAF_WRITERS_ROOM_CANON_CONTRACT_V1_20261107.md) — authoritative owner-source interpretation and invariant rules.
 2. [Owner-source Conflict Register](BELL_LEAF_OWNER_SOURCE_CONFLICT_REGISTER_20261107.md) — explicit resolution / pending-owner decisions.
