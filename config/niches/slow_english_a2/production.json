@@ -156,6 +156,11 @@
       "Grandpa Walter",
       "Biscuit"
     ],
-    "production_authorized": false
+    "production_authorized": false,
+    "stylized_3d_prompt_skill": ".claude/skills/cine-bell-leaf-stylized-3d-prompt-director/SKILL.md",
+    "stylized_3d_prompt_contract": "config/niches/slow_english_a2/stylized_3d_prompt_contract_v1.json",
+    "stylized_3d_prompt_compiler": "tools/bell_leaf/compile_3d_animation_prompts.py",
+    "prompt_pair_requires_matching_active_tags": true,
+    "prompt_output_status": "DRAFT_QC_PENDING_NO_MODEL_OR_HUMAN_APPROVAL"
   }
 }
