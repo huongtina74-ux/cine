@@ -686,5 +686,16 @@
     "existing_location_registry": ".claude/skills/cine-a2-muse-reference-anchoring/integration/config/LOCATION_CURRENT.json",
     "location_multiview_gate": ".claude/skills/cine-bellfern-location-multiview-lock/SKILL.md",
     "no_false_owner_approval_for_missing_angles": true
+  },
+  "storage_policy": {
+    "github_repository_visibility": "PUBLIC_CHECKED_20261108",
+    "public_github_binary_images_state": "NOT_UPLOADED",
+    "original_artwork_public_release_authorized": false,
+    "private_asset_storage_required_for_remote_sync": true,
+    "local_owner_asset_commit": "bc5972e",
+    "local_owner_asset_branch": "feat/bell-leaf-owner-visual-canon-20261108",
+    "local_git_push_authenticated": false,
+    "github_main_text_manifest_is_not_binary_backup": true,
+    "media_generation_must_require_local_or_private_verified_assets": true
   }
 }

@@ -61,3 +61,12 @@ def test_missing_reference_is_hard_block_when_require_assets():
         assert result["status"]=="FAIL"
     else:
         assert result["status"]=="OWNER_ASSET_SOURCE_INTEGRITY_PASS_NOT_PRODUCTION_APPROVED"
+
+def test_original_owner_artwork_is_not_silently_published_to_public_github():
+    data=json.loads(A.read_text(encoding="utf-8"))
+    policy=data["storage_policy"]
+    assert policy["github_repository_visibility"].startswith("PUBLIC")
+    assert policy["original_artwork_public_release_authorized"] is False
+    assert policy["public_github_binary_images_state"]=="NOT_UPLOADED"
+    assert policy["private_asset_storage_required_for_remote_sync"] is True
+    assert policy["github_main_text_manifest_is_not_binary_backup"] is True
