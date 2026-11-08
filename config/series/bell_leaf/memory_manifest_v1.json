@@ -1,0 +1,70 @@
+{
+  "schema": "cine.bell_leaf.memory_hub.v1",
+  "series_id": "bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "status": "EP001_V2_STORY_REFERENCE_NOT_OWNER_SHOOTING_OR_MEDIA_APPROVAL",
+  "priority": "FOUR_OWNER_PRIVATE_ORIGINALS > PUBLIC_OWNER_CONTRACT > CURRENT_CANON > EPISODE_V2_TREATMENT > LEGACY_V1_1_SHOTS; separate visual and voice authorities.",
+  "owner_private_local_only": "data/story/bell_leaf/owner_sources_private/20261107",
+  "source_files": {
+    "owner_contract": "docs/story/bell_leaf/BELL_LEAF_WRITERS_ROOM_CANON_CONTRACT_V1_20261107.md",
+    "series_story": "docs/story/bell_leaf/BELL_LEAF_CANON_CURRENT.md",
+    "writers_sop": "docs/story/bell_leaf/BELL_LEAF_WRITERS_ROOM_SOP_V1_20261107.md",
+    "conflict_register": "docs/story/bell_leaf/BELL_LEAF_OWNER_SOURCE_CONFLICT_REGISTER_20261107.md",
+    "world_rules": "docs/story/bell_leaf/WORLD_BELL_GATE_MECHANICS_AND_MARA_LOST_FAMILY_v1_3.md",
+    "visual_canon": "config/niches/slow_english_a2/CHARACTER_VISUAL_CANON_LOCK_CURRENT.json",
+    "visual_bible": "config/niches/slow_english_a2/OWNER_VISUAL_REFERENCE_BIBLE_20261108.json",
+    "voice_bible": "config/niches/slow_english_a2/VOICE_BIBLE_CURRENT.md",
+    "episode_memory_index": "docs/story/bell_leaf/EPISODE_STORY_MEMORY_INDEX_V1.json",
+    "unapproved_slate": "docs/story/bell_leaf/CORE_STORY_ARCHITECTURE_1000EP_DRAFT_20261104.md",
+    "memory_gate_policy": "docs/CINE_STORY_QUALITY_CONTINUITY_MEMORY_20261108.md"
+  },
+  "episode_registry": {
+    "BL-0001": {
+      "revision": "v2.0_family_first_dramatic_development",
+      "story_treatment": "docs/story/bell_leaf/ep001_screenplay/EP001_STORY_V2_MASTER_30_SCENES.md",
+      "continuity": "docs/story/bell_leaf/ep001_screenplay/EP001_STORY_V2_CONTINUITY_LOCK.json",
+      "quality_plan": "docs/story/bell_leaf/ep001_screenplay/EP001_STORY_QUALITY_PLAN_v2.json",
+      "shot_bindings": "docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json",
+      "legacy_shooting_script": "docs/story/bell_leaf/ep001_screenplay/EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md",
+      "legacy_warning": "Legacy V1.1 270-shot staging is NOT final V2 shot screenplay; must rewrite shots against V2 scene cards and review."
+    }
+  },
+  "stage_skill_contracts": {
+    "research": [
+      "cine-per-niche-radar",
+      "cine-story-insight-transfer"
+    ],
+    "story": [
+      "cine-bell-leaf-writers-room",
+      "cine-story-quality-memory",
+      "cine-story-development"
+    ],
+    "script": [
+      "cine-script-factory",
+      "cine-script-doctor",
+      "cine-independent-review"
+    ],
+    "image": [
+      "cine-bell-leaf-stylized-3d-prompt-director",
+      "cine-bellfern-location-multiview-lock"
+    ],
+    "video": [
+      "cine-bell-leaf-stylized-3d-prompt-director",
+      "cine-a2-muse-reference-anchoring"
+    ],
+    "next": [
+      "cine-bell-leaf-writers-room",
+      "cine-story-quality-memory"
+    ]
+  },
+  "gates": {
+    "story_reference_is_not_a_signed_off_270_shot_screenplay": true,
+    "exact_active_shot_tags": true,
+    "media_sha_and_owner_approval_before_production": true,
+    "no_fake_character_or_location_approval": true,
+    "future_episode_must_read_prior_end_state_and_locked_events": true,
+    "human_semantic_antirepeat_review_required": true,
+    "never_export_private_showrunner_material": true,
+    "no_production_authorized_without_separate_qc_receipt": true
+  }
+}
