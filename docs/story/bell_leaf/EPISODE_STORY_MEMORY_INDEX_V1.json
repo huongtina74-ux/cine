@@ -1,0 +1,48 @@
+{
+  "schema": "cine.bell_leaf.episode_story_memory_index.v1",
+  "series_id": "bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "status": "WRITER_ROOM_REFERENCE_ONLY_NOT_EDITORIAL_SIGNOFF",
+  "plot_registry": [
+    {
+      "episode_id": "BL-0001",
+      "reference_file": "docs/story/bell_leaf/ep001_screenplay/EP001_STORY_V2_CONTINUITY_LOCK.json",
+      "revision": "v2.0_family_first_dramatic_development",
+      "status": "OWNER_REQUESTED_STORY_REFERENCE_NOT_SCRIPT_APPROVAL",
+      "collision_warning_with_unapproved_1000_slate": "BL-0003 / Aila's Flying Suitcase MUST NOT replay BL-0001 suitcase problem",
+      "locked_event_ids": [
+        "breakfast_two_note_clink_triggers_mara_memory",
+        "bix_breakfast_tray_milk_clip_repair",
+        "veylora_fading_flower_and_weak_fixed_bell",
+        "veylora_generational_decline_vs_station_safety_lock",
+        "elara_saves_wrapped_branch_before_bell_failure",
+        "unknown_operator_bypasses_safety_limit_causes_rift",
+        "elara_stays_to_rescue_civilians_orin_protection_separates",
+        "mara_wakes_unmapped_earth_without_gate",
+        "mara_orin_reunite_by_tracks_and_safe_creek_crossing",
+        "veylora_branch_regenerates_slowly_in_earth_soil",
+        "flashback_returns_to_exact_same_bellfern_breakfast",
+        "juno_repairs_grandfather_gate_hinge_and_lia_protects_birds",
+        "earth_fixed_station_built_years_after_arrival",
+        "orin_verified_known_world_relay_brings_aila_with_consent",
+        "aila_arrives_old_station_with_copper_suitcase",
+        "copper_suitcase_levitates_only_during_station_afterpulse",
+        "juno_copper_brace_amplifies_suitcase_afterpulse",
+        "aila_star_drawing_and_blue_glass_stone_unresolved_echo",
+        "suitcase_slides_through_garden_hatch_from_afterpulse",
+        "evan_nearly_sees_flying_suitcase_but_remains_unaware",
+        "family_lowers_suitcase_without_harming_bird_nest",
+        "aila_refuses_destroying_keepsake_selects_reversible_repair",
+        "juno_wood_linen_damping_first_safe_test",
+        "suitcase_solved_two_tests_keepsake_saved_bix_returns_with_tray",
+        "aila_voluntarily_chooses_garden_guest_room_one_night",
+        "aila_chooses_truthful_waiting_search_plan_and_plants_seed",
+        "juno_waits_for_verified_orin_relay_blue_stone_separate",
+        "evan_welcomes_aila_at_dinner_without_knowing_magic",
+        "blue_stone_echo_heard_while_fixed_station_silent",
+        "unmapped_blue_stone_echo_no_open_gate_cliffhanger"
+      ]
+    }
+  ],
+  "next_episode_policy": "READ EP001 story lock and continuity deltas before every pitch; match proposed central mechanism against event IDs and protected set; compare niche-specific archive and draft 1000 cards; separate independent human semantic originality review mandatory."
+}
