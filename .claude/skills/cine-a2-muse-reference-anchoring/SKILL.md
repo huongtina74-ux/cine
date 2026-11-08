@@ -100,3 +100,14 @@ The full source PNG asset kit is stored persistently in user's CINE Library at `
 - Every shot still requires location-lock refs, real Flow/Muse upload IDs and frame-by-frame visual QC. **CINE local device was offline at this check, so runtime E2E installation and production readiness remain UNVERIFIED.**
 
 `APPROVED_FOR_REFERENCE` is not a synonym for `SOURCE_PIXEL_EXACT`. The source files are user-selected identity truth; they remain 100%-faithful as pixels where cropped, but 10 newly AI-generated sheets and unseen angles remain unapproved.
+
+
+## Owner visual source package 2026-11-08: mandatory for Bell & Leaf (EP001–EP1000+)
+
+Owner provided 23 reference PNGs in Windows folder SLOW NGLISH PHÙ THUỶ. Consult docs/story/bell_leaf/OWNER_VISUAL_REFERENCE_HANDOFF_20261108.md, config/niches/slow_english_a2/OWNER_VISUAL_REFERENCE_BIBLE_20261108.json and the existing character source lock at config/niches/slow_english_a2/CHARACTER_VISUAL_CANON_LOCK_CURRENT.json before every shot. Do NOT change names, faces, clothing identity, prop shape or locked house appearance.
+
+Official existing CINE location registry .claude/skills/cine-a2-muse-reference-anchoring/integration/config/LOCATION_CURRENT.json now includes owner_source_anchors_20261108 on nine existing BELL rooms, but the multi-view approval_state is still PENDING_NOT_GENERATED. All original one-angle plates and 3 concept boards are inspectable at assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108. The 3 collages have alternative façades; never use as production geometry or single independent 16:9 shot images. A huge central bell hall is NOT yet verified as Earth's private newly built fixed station. True camera reverses, night angles, room adjacencies and props still require independent approval.
+
+EP001 reference file docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json has 270 S001–S270 rows; each row gives location anchor path/SHA if supplied, candidate visible character refs and explicit active tags. Shot cast tags are inferred from the screenplay and MUST be human director-verified. Offscreen actors must not receive face refs. AILA has NO owner-approved face: do not invent it. No media upload IDs or video QC PASS have been fabricated. Provider upload and independent image/video validation remain required for each generated shot.
+
+Run python tools/bell_leaf/inspect_visual_reference_20261108.py --require-assets --shot S001 before an EP001 production test; if owner binary assets are absent or SHA mismatches, BLOCK. Native 16:9 one frame, neutral D55 daylight, no subtitles or 9-grid, 10s take with acting/lip-sync, Bix without bell, Bubu with one gold neck bell and permanently sparkling purple spiral tail.
