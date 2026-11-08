@@ -1,0 +1,690 @@
+{
+  "schema": "cine.bell_leaf.owner_visual_bible.v20261108",
+  "source_folder_label": "SLOW NGLISH PHÙ THUỶ",
+  "source_image_count": 23,
+  "owner_original_image_changes": 0,
+  "niche_id": "magical_witch_family_stories",
+  "series_id": "bell_leaf",
+  "character_source": "config/niches/slow_english_a2/CHARACTER_VISUAL_CANON_LOCK_CURRENT.json",
+  "characters": {
+    "ELARA": {
+      "owner_source_name": "bangoai.png",
+      "owner_original_bytes_sha256": "d77780c167de208c5128e3ed7d48c3bf64c8cf77aebca35c32b55da2fce8a037",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ELARA_source_sheet.png",
+      "canon_file_sha256": "e3841a9b6f9a3257ff2e726e77910c1db3e4282db8a5a3bbd04d0383fc9c5602",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            70,
+            70,
+            315,
+            365
+          ],
+          "dimensions": [
+            245,
+            295
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ELARA/face_exact_pixel_crop.png",
+          "sha256": "b424606ccf4c65eb20e36ea8512528858a1265a59ad126990377a784abada0ea"
+        },
+        "hero": {
+          "crop_xyxy": [
+            18,
+            25,
+            316,
+            805
+          ],
+          "dimensions": [
+            298,
+            780
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ELARA/hero_exact_pixel_crop.png",
+          "sha256": "572e55fc31c89d8b2b519ff65f5a6c2a3f46792e2494e93196444baa2cc28dbd"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "GRANDMA_EARTH": {
+      "owner_source_name": "banoi.png",
+      "owner_original_bytes_sha256": "900df301196996e2c9a2520b472874374ddb4bac596176920eb47e04a132a4ba",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ROSE_BELL_source_sheet.png",
+      "canon_file_sha256": "ba6b40f0c67a1dcf64411179eed659e9dfd510795f4d10e881f20f834b4dbe30",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            110,
+            90,
+            414,
+            375
+          ],
+          "dimensions": [
+            304,
+            285
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDMA_EARTH/face_exact_pixel_crop.png",
+          "sha256": "7a881dc4ab6ac0c26f9ca78143c0dfda0189c3642a61770177fdf9f73b95c833"
+        },
+        "hero": {
+          "crop_xyxy": [
+            50,
+            65,
+            415,
+            767
+          ],
+          "dimensions": [
+            365,
+            702
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDMA_EARTH/hero_exact_pixel_crop.png",
+          "sha256": "850377271e8550fc790843519f855a73539146f34e04ba3741c17ba5f812c39e"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "BIX": {
+      "owner_source_name": "bix.png",
+      "owner_original_bytes_sha256": "dd6f8f833ee7a35471562b6d7c6cb7ac4706f830129c6cf5e494f0ed75e5e0f6",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/BIX_source_sheet.png",
+      "canon_file_sha256": "378c0812da87817fd3d2f3c5bec878d4020fd4cae569d0bb0fb4641180df5055",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            670,
+            90,
+            1080,
+            395
+          ],
+          "dimensions": [
+            410,
+            305
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/face_exact_pixel_crop.png",
+          "sha256": "ddbc32232ee723fb4f5c5ea211b6847b0d18ae37e90f92c85b06d4efef26e355"
+        },
+        "hero": {
+          "crop_xyxy": [
+            355,
+            45,
+            1105,
+            515
+          ],
+          "dimensions": [
+            750,
+            470
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/hero_exact_pixel_crop.png",
+          "sha256": "c556c12544c951653e830822aa5b231a140db6cc40cc399971eb57620804ab93"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "EVAN": {
+      "owner_source_name": "bo.png",
+      "owner_original_bytes_sha256": "579a91dccb5d2d57f67441064c13b54e05efc96ea6cacbae17173359258f8de8",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/EVAN_source_sheet.png",
+      "canon_file_sha256": "0635e06d425b656098c4eb200557c939b35d86c1bb3213f8385935478ff1f590",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            75,
+            160,
+            350,
+            430
+          ],
+          "dimensions": [
+            275,
+            270
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/EVAN/face_exact_pixel_crop.png",
+          "sha256": "80c9f8f454ccb94473e751d150a616f2ea5b6c3c12ef15a2744707c5a708f62f"
+        },
+        "hero": {
+          "crop_xyxy": [
+            12,
+            125,
+            337,
+            1055
+          ],
+          "dimensions": [
+            325,
+            930
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/EVAN/hero_exact_pixel_crop.png",
+          "sha256": "505f151fef8f054287559f6aabdcf71859ca490242823e1d4b2c6cf74fe3cec4"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "BUBU": {
+      "owner_source_name": "bubu.png",
+      "owner_original_bytes_sha256": "9f70e43d616ef306163fe9db8c52d0f876883298b913f9cf796536b9479166be",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/BUBU_source_sheet.png",
+      "canon_file_sha256": "d27cc64c583edfc0b5fdee0011f0ef6b1f904be9cb4ee879c7ee967affe34b34",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            434,
+            200,
+            732,
+            492
+          ],
+          "dimensions": [
+            298,
+            292
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BUBU/face_exact_pixel_crop.png",
+          "sha256": "6fc72dcc624ef92eec834ef86374b6990d11256504e7ba84e77de0849324ddf9"
+        },
+        "hero": {
+          "crop_xyxy": [
+            284,
+            120,
+            762,
+            675
+          ],
+          "dimensions": [
+            478,
+            555
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BUBU/hero_exact_pixel_crop.png",
+          "sha256": "7b63d6d9440a8cea303bba678aa9109aeeeb5bb0048aa65f470e83e6ac054321"
+        },
+        "tail_sparkle": {
+          "crop_xyxy": [
+            30,
+            260,
+            425,
+            630
+          ],
+          "dimensions": [
+            395,
+            370
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BUBU/tail_sparkle_exact_pixel_crop.png",
+          "sha256": "9553f17225377e413c578fce5b7b60e90d1caa77b7806520481d4062b6167d84"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "GROUP": {
+      "owner_source_name": "cagiadinh.png",
+      "owner_original_bytes_sha256": "00ddab677d35109bf66f2c3c2d41c648bc8f76633fc687088679d7172cb1244f",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/GROUP_source_sheet.png",
+      "canon_file_sha256": "4daae9dd2ff325e45fbd5bd24463a76b29470c51b934e2732d54397e62e6afbd",
+      "refs": {},
+      "authority": "OWNER_GROUP_REFERENCE_ONLY_NO_CHARACTER_REDESIGN",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "JUNO": {
+      "owner_source_name": "juno.png",
+      "owner_original_bytes_sha256": "bbe3ad41294cae1be00386151962da95778215eaf86a2eead0052a57ed303c22",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/JUNO_source_sheet.png",
+      "canon_file_sha256": "6dd5ae8799384526deffda45d12257118383f8c6424d5ff20cf6d2d0a1164aed",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            80,
+            153,
+            355,
+            423
+          ],
+          "dimensions": [
+            275,
+            270
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/JUNO/face_exact_pixel_crop.png",
+          "sha256": "9cd12346cb96d0c528fee3b158ef86132c8dfe6a30fd93446437e24a28efcb7e"
+        },
+        "hero": {
+          "crop_xyxy": [
+            7,
+            125,
+            348,
+            978
+          ],
+          "dimensions": [
+            341,
+            853
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/JUNO/hero_exact_pixel_crop.png",
+          "sha256": "bcfd3774af92a140c28e25d6471f2520910a2d35357fdc195da46325386b4f9e"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "LIA": {
+      "owner_source_name": "Lia.png",
+      "owner_original_bytes_sha256": "25e39d66445f6c7611aa0035f9b9678efaf56f3e301e601642a192b7add83275",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/LIA_source_sheet.png",
+      "canon_file_sha256": "3f29c9ba2efa554d677bed50f1d65825df4c6e44d449dfacc87967628b2f61d0",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            320,
+            100,
+            580,
+            350
+          ],
+          "dimensions": [
+            260,
+            250
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/LIA/face_exact_pixel_crop.png",
+          "sha256": "891263ce91686f501655239275755babff5b3e2f1a79aea65ed807d2717896cd"
+        },
+        "hero": {
+          "crop_xyxy": [
+            303,
+            110,
+            580,
+            615
+          ],
+          "dimensions": [
+            277,
+            505
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/LIA/hero_exact_pixel_crop.png",
+          "sha256": "80d4214ff8c58f952c24807d9208fd5cc48cffa4adbc62673e84b04084824ed2"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "MARA": {
+      "owner_source_name": "me.png",
+      "owner_original_bytes_sha256": "e03c3ea61f968be9364b805a702275d2a0a41708aa3aed349b1378ed0194e13c",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/MARA_source_sheet.png",
+      "canon_file_sha256": "02f15c86cae4caba26da5fb9660958f1df71c5a29d8ae6c51d78f347dadfed97",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            105,
+            110,
+            363,
+            410
+          ],
+          "dimensions": [
+            258,
+            300
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/face_exact_pixel_crop.png",
+          "sha256": "75bce5541206cd7c7552a68d29ae426f869ed473e67838115839bac9d51453d7"
+        },
+        "hero": {
+          "crop_xyxy": [
+            15,
+            80,
+            354,
+            1230
+          ],
+          "dimensions": [
+            339,
+            1150
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/hero_exact_pixel_crop.png",
+          "sha256": "6064f026f8311bd11624d83bea816788bcaa870cf6277df0ce6f4a8a7feb689e"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "ORIN": {
+      "owner_source_name": "ongngoai.png",
+      "owner_original_bytes_sha256": "993077632488816b7cea9033133360b1e6fa08844d14b06c997265b59567fe4f",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ORIN_source_sheet.png",
+      "canon_file_sha256": "360bf5f96b6b666ed13e0460e019d2a38832286b0a38b526dcc28f121ac77e31",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            115,
+            65,
+            403,
+            345
+          ],
+          "dimensions": [
+            288,
+            280
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ORIN/face_exact_pixel_crop.png",
+          "sha256": "2b23186c85bdd2c44ce0f1cbf09f45a0a113f0f0dc1102f2cd95ce94d1b5b49b"
+        },
+        "hero": {
+          "crop_xyxy": [
+            60,
+            54,
+            420,
+            758
+          ],
+          "dimensions": [
+            360,
+            704
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ORIN/hero_exact_pixel_crop.png",
+          "sha256": "24687a0c3c77df061a1bff918dcfb39e8dce38f4ead15e79479753a060ff9523"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    },
+    "GRANDPA_EARTH": {
+      "owner_source_name": "ongnoi.png",
+      "owner_original_bytes_sha256": "32c4b53a34787f21427bc596602b23ce0f836c4e7ae14f8b07c51780ad61246b",
+      "canon_pixel_exact_to_owner": true,
+      "canon_git_path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ARTHUR_BELL_source_sheet.png",
+      "canon_file_sha256": "badd18ba2b5ace1d45682a84ffd14911d19ee417a4f7da7c333ae9a3ea1c8bae",
+      "refs": {
+        "face": {
+          "crop_xyxy": [
+            112,
+            116,
+            375,
+            362
+          ],
+          "dimensions": [
+            263,
+            246
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDPA_EARTH/face_exact_pixel_crop.png",
+          "sha256": "48790b659c2cd5b8bbbf259819845d9b106535f7e89dab1b2a5eb2e36839e833"
+        },
+        "hero": {
+          "crop_xyxy": [
+            45,
+            100,
+            400,
+            1060
+          ],
+          "dimensions": [
+            355,
+            960
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDPA_EARTH/hero_exact_pixel_crop.png",
+          "sha256": "44e49252afa4e86431f2ebb5bf3fe6b522b9442b7b4a68b37d9eaed88b4997e0"
+        }
+      },
+      "authority": "OWNER_PROVIDED_ORIGINAL_SHEET",
+      "original_file_preserved_in_owner_download_folder": true
+    }
+  },
+  "locations": {
+    "BELL_KITCHEN_DAY": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 01_04_25 PM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_KITCHEN_DAY.png",
+      "sha256": "be427e55a5b36ab962db04637df41c7483c7807e56c5e7699f70ab0288f0fe80",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-KITCHEN",
+      "owner_visible_fixed_anchors": "Long oak dining table; dark slate-blue lower kitchen cabinets; rustic stone arch/fireplace at rear; tall leaded windows; brass hanging bell; flower vases",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "SOURCE_ANGLE_LOCKED",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_PARENTS_BEDROOM_DAY": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 01_04_35 PM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_PARENTS_BEDROOM_DAY.png",
+      "sha256": "f6278fddb567638224a6c78ecb2d20b63497a7c2c1fbe1bc5892de94bcc66daa",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-PARENTS",
+      "owner_visible_fixed_anchors": "Dark-blue bedspread and large wooden bed; broad multi-pane windows on far wall; bookcase beside bed; timber ceiling; small side lamps",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "SOURCE_ANGLE_LOCKED",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_JUNO_BEDROOM_CANDIDATE": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 01_04_42 PM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_JUNO_BEDROOM_CANDIDATE.png",
+      "sha256": "3bbd8f77959f9e14e18e4640135872c93ac81dfb0046769f7a80e6afa23e911a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-JUNO",
+      "owner_visible_fixed_anchors": "Small blue bed at left; astronomy and mechanical objects on desk to right; diamond-leaded large window; tall wooden shelving",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "OWNER_IMAGE_ROOM_ASSIGNMENT_REVIEW",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_LIA_BEDROOM_CANDIDATE": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 01_04_55 PM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_LIA_BEDROOM_CANDIDATE.png",
+      "sha256": "b80f97653f2e2448c1de0664a15608bb0c734fc9259e4750fa53f84ba328a9aa",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-LIA",
+      "owner_visible_fixed_anchors": "Pale cream-pink canopy bed on right; floral fabrics; large divided window on left; cat resting in bed by floor; golden hanging ornaments",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "OWNER_IMAGE_ROOM_ASSIGNMENT_REVIEW",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_MARA_ATELIER_DAY": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 01_05_05 PM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_MARA_ATELIER_DAY.png",
+      "sha256": "26d901a4c1cf3f57ee4abc41a8fffa45b8a4fa9a15d67d7923ae0b4732ef25b9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-ATELIER",
+      "owner_visible_fixed_anchors": "Thick timber central workbench; low stool; books, scales and vessels; arched window to left; carved stone walls and wood beams",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "SOURCE_ANGLE_LOCKED",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_CENTRAL_BELL_HALL_CANDIDATE": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 11_53_34 AM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_CENTRAL_BELL_HALL_CANDIDATE.png",
+      "sha256": "eb8b4e70b22e2822eb03ee6bd3002d5482b384516f72128e357adaee0d8e9bf6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-BELLCHAMBER",
+      "owner_visible_fixed_anchors": "Grand vaulted hall, huge hanging bronze bell above central altar, blue glowing circular opening deep in distance, curved stairs left",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "BLOCKED_SPATIAL_CONFLICT_WITH_SECRET_SMALL_EARTH_STATION",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_REAR_GARDEN_DAY": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 11_55_05 AM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_REAR_GARDEN_DAY.png",
+      "sha256": "1247cd663a52079c92c4fad9bbde99cc279f8c4302ae38c36c3f9fa7ae8caad7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-REAR-GARDEN",
+      "owner_visible_fixed_anchors": "Large shade tree by curving stone path, lush flower borders, stone birdbath front-right, lake and green mountains beyond garden",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "SOURCE_ANGLE_LOCKED",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_HOUSE_EXTERIOR_DAY": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 11_56_52 AM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_HOUSE_EXTERIOR_DAY.png",
+      "sha256": "fe729be9364a1162d8d224e128f0452f8d9bd9c2c183e6c742d6efa76d05d7ec",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-EXT",
+      "owner_visible_fixed_anchors": "Stone manor with steep roof and attached glass conservatory on camera right, garden paths and stone fountain, lake/wooded hills in distance",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "SOURCE_ANGLE_LOCKED_MULTIBOARD_EXTERIOR_CONFLICT",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    },
+    "BELL_FOYER_DAY": {
+      "source_filename": "ChatGPT Image Oct 29, 2026, 11_57_13 AM.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_FOYER_DAY.png",
+      "sha256": "c7655bcfd6c5615a820dcea584a27421a6210a31004012bd7fbb7fa4056d67b6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "site_id": "BELL",
+      "space_id": "BH-FOYER",
+      "owner_visible_fixed_anchors": "Stone arch entrance left opens to greenery, broad carved wooden stair rises up toward camera-right; leaded windows, blue wall hanging",
+      "single_angle_authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+      "spatial_status": "SOURCE_ANGLE_LOCKED",
+      "multiangle_production_approved": false,
+      "reverse_view_production_approved": false,
+      "day_to_night_geometry_reuse_needs_approval": true,
+      "camera_view": "ORIGINAL_FORWARD_OBSERVED_ONLY",
+      "do_not_mirror_as_reverse": true
+    }
+  },
+  "multi_location_concept_boards": {
+    "BELLFERN_MAP_CONCEPT_A": {
+      "source_filename": "Bellfern Fantasy Village Storybook Map.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/moodboards/BELLFERN_MAP_CONCEPT_A.png",
+      "sha256": "d5e0baae62e0cef5c35b0b3310f3ddde98edb460e8f63f41aa1a6f2c3f59321a",
+      "authority": "MULTI_LOCATION_CONCEPT_AND_LABEL_REFERENCE_ONLY",
+      "geometry_lock": false,
+      "multiple_exterior_looks_present": true,
+      "do_not_override_primary_owner_day_plates": true,
+      "needs_owner_spatial_reconciliation": true
+    },
+    "BELLFERN_MAP_CONCEPT_B": {
+      "source_filename": "Bellfern Magical Village Storybook Map.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/moodboards/BELLFERN_MAP_CONCEPT_B.png",
+      "sha256": "77ff388ff83a9f4a5abe0e9a13e875d4633c878c9e52ed40317ccb8b6c1e4dbc",
+      "authority": "MULTI_LOCATION_CONCEPT_AND_LABEL_REFERENCE_ONLY",
+      "geometry_lock": false,
+      "multiple_exterior_looks_present": true,
+      "do_not_override_primary_owner_day_plates": true,
+      "needs_owner_spatial_reconciliation": true
+    },
+    "BELLFERN_MULTILOCATION_CONCEPT_C": {
+      "source_filename": "Bellfern’s Enchanted Storybook World.png",
+      "git_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/moodboards/BELLFERN_MULTILOCATION_CONCEPT_C.png",
+      "sha256": "be9ef3868f3689477662ba4918d1b59464034c59087cb37fc46de52ba4a0fda7",
+      "authority": "MULTI_LOCATION_CONCEPT_AND_LABEL_REFERENCE_ONLY",
+      "geometry_lock": false,
+      "multiple_exterior_looks_present": true,
+      "do_not_override_primary_owner_day_plates": true,
+      "needs_owner_spatial_reconciliation": true
+    }
+  },
+  "conflict_register": [
+    {
+      "id": "EXT_A",
+      "severity": "PRODUCTION_BLOCKER",
+      "fact": "3 multi-location boards show alternate nighttime/streetside manor silhouettes that do not establish the same exact building as standalone lakeside daytime exterior.",
+      "rule": "Use BELL_HOUSE_EXTERIOR_DAY as the single daytime appearance anchor; use boards for ideas/labels only until spatial reconciliation. Do not interchange façades within an episode."
+    },
+    {
+      "id": "BELLCHAMBER_A",
+      "severity": "PRODUCTION_BLOCKER",
+      "fact": "Owner's grand vaulted bell hall has large old architectural scale; CINE Canon says Earth's repaired private fixed station was built after arrival, hidden beneath/near home.",
+      "rule": "Do not designate BELL_CENTRAL_BELL_HALL_CANDIDATE as Earth private fixed station or a Veylora historical hall until topology and canon placement is approved."
+    },
+    {
+      "id": "MULTIANGLE_A",
+      "severity": "PRODUCTION_BLOCKER",
+      "fact": "Each standalone owner scene plate covers only one camera; true reverse, overhead, floor/ceiling, shot-to-shot geography and night views are unverified.",
+      "rule": "Production I2V block on a reverse/unknown shot until its exact independent verified angle exists. Never mirror an image into a fake reverse."
+    },
+    {
+      "id": "ROOM_ASSIGN_A",
+      "severity": "REVIEW_REQUIRED",
+      "fact": "Bedroom plates from timestamp filenames lack explicit Juno/Lia name in the filename.",
+      "rule": "Treat BH-JUNO and BH-LIA mapping as plausible working assignments pending owner confirmation; don't claim canonical owner endorsement."
+    }
+  ],
+  "global_rules": {
+    "native_16_9_scene_output": true,
+    "owner_sheet_collage_is_reference_only": true,
+    "do_not_generate_9_grid": true,
+    "daylight_neutral_d55_approx_kelvin": 5500,
+    "character_identity_must_match_source_face": true,
+    "no_unapproved_extra_people": true,
+    "BIX": "small turtle-pangolin robot, NO BELL",
+    "BUBU": "purple spirit cat with exactly ONE GOLD collar bell, always-visible SPARKLING SPIRAL PURPLE tail",
+    "existing_location_registry": ".claude/skills/cine-a2-muse-reference-anchoring/integration/config/LOCATION_CURRENT.json",
+    "location_multiview_gate": ".claude/skills/cine-bellfern-location-multiview-lock/SKILL.md",
+    "no_false_owner_approval_for_missing_angles": true
+  }
+}

@@ -9,12 +9,32 @@
         "BH-EXT": {
           "display_name": "Mặt tiền và cổng",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_HOUSE_EXTERIOR_DAY",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_HOUSE_EXTERIOR_DAY.png",
+              "sha256": "fe729be9364a1162d8d224e128f0452f8d9bd9c2c183e6c742d6efa76d05d7ec",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "SOURCE_ANGLE_LOCKED_MULTIBOARD_EXTERIOR_CONFLICT"
+            }
+          ]
         },
         "BH-FOYER": {
           "display_name": "Sảnh và cầu thang",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_FOYER_DAY",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_FOYER_DAY.png",
+              "sha256": "c7655bcfd6c5615a820dcea584a27421a6210a31004012bd7fbb7fa4056d67b6",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "SOURCE_ANGLE_LOCKED"
+            }
+          ]
         },
         "BH-LIVING": {
           "display_name": "Phòng khách",
@@ -24,7 +44,17 @@
         "BH-KITCHEN": {
           "display_name": "Bếp hiện đại cổ điển",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_KITCHEN_DAY",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_KITCHEN_DAY.png",
+              "sha256": "be427e55a5b36ab962db04637df41c7483c7807e56c5e7699f70ab0288f0fe80",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "SOURCE_ANGLE_LOCKED"
+            }
+          ]
         },
         "BH-DINING": {
           "display_name": "Phòng ăn gia đình",
@@ -44,17 +74,47 @@
         "BH-PARENTS": {
           "display_name": "Phòng Evan và Mara",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_PARENTS_BEDROOM_DAY",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_PARENTS_BEDROOM_DAY.png",
+              "sha256": "f6278fddb567638224a6c78ecb2d20b63497a7c2c1fbe1bc5892de94bcc66daa",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "SOURCE_ANGLE_LOCKED"
+            }
+          ]
         },
         "BH-JUNO": {
           "display_name": "Phòng Juno",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_JUNO_BEDROOM_CANDIDATE",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_JUNO_BEDROOM_CANDIDATE.png",
+              "sha256": "3bbd8f77959f9e14e18e4640135872c93ac81dfb0046769f7a80e6afa23e911a",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "OWNER_IMAGE_ROOM_ASSIGNMENT_REVIEW"
+            }
+          ]
         },
         "BH-LIA": {
           "display_name": "Phòng Lia",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_LIA_BEDROOM_CANDIDATE",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_LIA_BEDROOM_CANDIDATE.png",
+              "sha256": "b80f97653f2e2448c1de0664a15608bb0c734fc9259e4750fa53f84ba328a9aa",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "OWNER_IMAGE_ROOM_ASSIGNMENT_REVIEW"
+            }
+          ]
         },
         "BH-BATH": {
           "display_name": "Phòng tắm gia đình",
@@ -69,7 +129,17 @@
         "BH-ATELIER": {
           "display_name": "Xưởng thủ công công khai",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_MARA_ATELIER_DAY",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_MARA_ATELIER_DAY.png",
+              "sha256": "26d901a4c1cf3f57ee4abc41a8fffa45b8a4fa9a15d67d7923ae0b4732ef25b9",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "SOURCE_ANGLE_LOCKED"
+            }
+          ]
         },
         "BH-STORAGE": {
           "display_name": "Kho dụng cụ khóa",
@@ -84,12 +154,32 @@
         "BH-BELLCHAMBER": {
           "display_name": "Phòng chuông Veylora bí mật",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_CENTRAL_BELL_HALL_CANDIDATE",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_CENTRAL_BELL_HALL_CANDIDATE.png",
+              "sha256": "eb8b4e70b22e2822eb03ee6bd3002d5482b384516f72128e357adaee0d8e9bf6",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "BLOCKED_SPATIAL_CONFLICT_WITH_SECRET_SMALL_EARTH_STATION"
+            }
+          ]
         },
         "BH-REAR-GARDEN": {
           "display_name": "Sân và vườn sau",
           "views": {},
-          "approval_state": "PENDING_NOT_GENERATED"
+          "approval_state": "PENDING_NOT_GENERATED",
+          "owner_source_anchors_20261108": [
+            {
+              "anchor_id": "BELL_REAR_GARDEN_DAY",
+              "reference_file": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_REAR_GARDEN_DAY.png",
+              "sha256": "1247cd663a52079c92c4fad9bbde99cc279f8c4302ae38c36c3f9fa7ae8caad7",
+              "authority": "OWNER_PROVIDED_PRIMARY_PLATE",
+              "approval_state": "SOURCE_VIEW_ONLY_PENDING_MULTIVIEW",
+              "notes": "SOURCE_ANGLE_LOCKED"
+            }
+          ]
         },
         "BH-PATH": {
           "display_name": "Lối đi phố và bưu tá",

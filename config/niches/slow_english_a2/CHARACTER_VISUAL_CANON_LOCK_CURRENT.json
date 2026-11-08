@@ -1,0 +1,543 @@
+{
+  "approved_by": "OWNER_VIA_CHAT",
+  "authority": "User supplied 11 original sheets in latest turn; these supersede prior v1_2 user-source sheets and assistant images for visual identity; originals immutable.",
+  "characters": {
+    "BIX": {
+      "display_name": "Bix",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            670,
+            90,
+            1080,
+            395
+          ],
+          "dimensions": [
+            410,
+            305
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/face_exact_pixel_crop.png",
+          "sha256": "ddbc32232ee723fb4f5c5ea211b6847b0d18ae37e90f92c85b06d4efef26e355"
+        },
+        "hero": {
+          "crop_xyxy": [
+            355,
+            45,
+            1105,
+            515
+          ],
+          "dimensions": [
+            750,
+            470
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/hero_exact_pixel_crop.png",
+          "sha256": "c556c12544c951653e830822aa5b231a140db6cc40cc399971eb57620804ab93"
+        }
+      },
+      "legacy_tag": "bix",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/BIX_source_sheet.png",
+        "sha256": "378c0812da87817fd3d2f3c5bec878d4020fd4cae569d0bb0fb4641180df5055"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "BUBU": {
+      "display_name": "Bubu",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            434,
+            200,
+            732,
+            492
+          ],
+          "dimensions": [
+            298,
+            292
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BUBU/face_exact_pixel_crop.png",
+          "sha256": "6fc72dcc624ef92eec834ef86374b6990d11256504e7ba84e77de0849324ddf9"
+        },
+        "hero": {
+          "crop_xyxy": [
+            284,
+            120,
+            762,
+            675
+          ],
+          "dimensions": [
+            478,
+            555
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BUBU/hero_exact_pixel_crop.png",
+          "sha256": "7b63d6d9440a8cea303bba678aa9109aeeeb5bb0048aa65f470e83e6ac054321"
+        },
+        "tail_sparkle": {
+          "crop_xyxy": [
+            30,
+            260,
+            425,
+            630
+          ],
+          "dimensions": [
+            395,
+            370
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BUBU/tail_sparkle_exact_pixel_crop.png",
+          "sha256": "9553f17225377e413c578fce5b7b60e90d1caa77b7806520481d4062b6167d84"
+        }
+      },
+      "legacy_tag": "bubu",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/BUBU_source_sheet.png",
+        "sha256": "d27cc64c583edfc0b5fdee0011f0ef6b1f904be9cb4ee879c7ee967affe34b34"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "ELARA": {
+      "display_name": "Elara",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            70,
+            70,
+            315,
+            365
+          ],
+          "dimensions": [
+            245,
+            295
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ELARA/face_exact_pixel_crop.png",
+          "sha256": "b424606ccf4c65eb20e36ea8512528858a1265a59ad126990377a784abada0ea"
+        },
+        "hero": {
+          "crop_xyxy": [
+            18,
+            25,
+            316,
+            805
+          ],
+          "dimensions": [
+            298,
+            780
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ELARA/hero_exact_pixel_crop.png",
+          "sha256": "572e55fc31c89d8b2b519ff65f5a6c2a3f46792e2494e93196444baa2cc28dbd"
+        }
+      },
+      "legacy_tag": "bangoai",
+      "source_sheet": {
+        "dimensions": [
+          1055,
+          1491
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ELARA_source_sheet.png",
+        "sha256": "e3841a9b6f9a3257ff2e726e77910c1db3e4282db8a5a3bbd04d0383fc9c5602"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "EVAN": {
+      "display_name": "Evan Bell",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            75,
+            160,
+            350,
+            430
+          ],
+          "dimensions": [
+            275,
+            270
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/EVAN/face_exact_pixel_crop.png",
+          "sha256": "80c9f8f454ccb94473e751d150a616f2ea5b6c3c12ef15a2744707c5a708f62f"
+        },
+        "hero": {
+          "crop_xyxy": [
+            12,
+            125,
+            337,
+            1055
+          ],
+          "dimensions": [
+            325,
+            930
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/EVAN/hero_exact_pixel_crop.png",
+          "sha256": "505f151fef8f054287559f6aabdcf71859ca490242823e1d4b2c6cf74fe3cec4"
+        }
+      },
+      "legacy_tag": "bo",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/EVAN_source_sheet.png",
+        "sha256": "0635e06d425b656098c4eb200557c939b35d86c1bb3213f8385935478ff1f590"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "GRANDMA_EARTH": {
+      "display_name": "Rose Bell",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            110,
+            90,
+            414,
+            375
+          ],
+          "dimensions": [
+            304,
+            285
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDMA_EARTH/face_exact_pixel_crop.png",
+          "sha256": "7a881dc4ab6ac0c26f9ca78143c0dfda0189c3642a61770177fdf9f73b95c833"
+        },
+        "hero": {
+          "crop_xyxy": [
+            50,
+            65,
+            415,
+            767
+          ],
+          "dimensions": [
+            365,
+            702
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDMA_EARTH/hero_exact_pixel_crop.png",
+          "sha256": "850377271e8550fc790843519f855a73539146f34e04ba3741c17ba5f812c39e"
+        }
+      },
+      "legacy_tag": "banoi",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ROSE_BELL_source_sheet.png",
+        "sha256": "ba6b40f0c67a1dcf64411179eed659e9dfd510795f4d10e881f20f834b4dbe30"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "GRANDPA_EARTH": {
+      "display_name": "Arthur Bell",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            112,
+            116,
+            375,
+            362
+          ],
+          "dimensions": [
+            263,
+            246
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDPA_EARTH/face_exact_pixel_crop.png",
+          "sha256": "48790b659c2cd5b8bbbf259819845d9b106535f7e89dab1b2a5eb2e36839e833"
+        },
+        "hero": {
+          "crop_xyxy": [
+            45,
+            100,
+            400,
+            1060
+          ],
+          "dimensions": [
+            355,
+            960
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/GRANDPA_EARTH/hero_exact_pixel_crop.png",
+          "sha256": "44e49252afa4e86431f2ebb5bf3fe6b522b9442b7b4a68b37d9eaed88b4997e0"
+        }
+      },
+      "legacy_tag": "ongnoi",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ARTHUR_BELL_source_sheet.png",
+        "sha256": "badd18ba2b5ace1d45682a84ffd14911d19ee417a4f7da7c333ae9a3ea1c8bae"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "JUNO": {
+      "display_name": "Juno",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            80,
+            153,
+            355,
+            423
+          ],
+          "dimensions": [
+            275,
+            270
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/JUNO/face_exact_pixel_crop.png",
+          "sha256": "9cd12346cb96d0c528fee3b158ef86132c8dfe6a30fd93446437e24a28efcb7e"
+        },
+        "hero": {
+          "crop_xyxy": [
+            7,
+            125,
+            348,
+            978
+          ],
+          "dimensions": [
+            341,
+            853
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/JUNO/hero_exact_pixel_crop.png",
+          "sha256": "bcfd3774af92a140c28e25d6471f2520910a2d35357fdc195da46325386b4f9e"
+        }
+      },
+      "legacy_tag": "juno",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/JUNO_source_sheet.png",
+        "sha256": "6dd5ae8799384526deffda45d12257118383f8c6424d5ff20cf6d2d0a1164aed"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "LIA": {
+      "display_name": "Lia",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            320,
+            100,
+            580,
+            350
+          ],
+          "dimensions": [
+            260,
+            250
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/LIA/face_exact_pixel_crop.png",
+          "sha256": "891263ce91686f501655239275755babff5b3e2f1a79aea65ed807d2717896cd"
+        },
+        "hero": {
+          "crop_xyxy": [
+            303,
+            110,
+            580,
+            615
+          ],
+          "dimensions": [
+            277,
+            505
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/LIA/hero_exact_pixel_crop.png",
+          "sha256": "80d4214ff8c58f952c24807d9208fd5cc48cffa4adbc62673e84b04084824ed2"
+        }
+      },
+      "legacy_tag": "Lia",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/LIA_source_sheet.png",
+        "sha256": "3f29c9ba2efa554d677bed50f1d65825df4c6e44d449dfacc87967628b2f61d0"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "MARA": {
+      "display_name": "Mara",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            105,
+            110,
+            363,
+            410
+          ],
+          "dimensions": [
+            258,
+            300
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/face_exact_pixel_crop.png",
+          "sha256": "75bce5541206cd7c7552a68d29ae426f869ed473e67838115839bac9d51453d7"
+        },
+        "hero": {
+          "crop_xyxy": [
+            15,
+            80,
+            354,
+            1230
+          ],
+          "dimensions": [
+            339,
+            1150
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/hero_exact_pixel_crop.png",
+          "sha256": "6064f026f8311bd11624d83bea816788bcaa870cf6277df0ce6f4a8a7feb689e"
+        }
+      },
+      "legacy_tag": "me",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/MARA_source_sheet.png",
+        "sha256": "02f15c86cae4caba26da5fb9660958f1df71c5a29d8ae6c51d78f347dadfed97"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    },
+    "ORIN": {
+      "display_name": "Orin",
+      "extracted_refs": {
+        "face": {
+          "crop_xyxy": [
+            115,
+            65,
+            403,
+            345
+          ],
+          "dimensions": [
+            288,
+            280
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ORIN/face_exact_pixel_crop.png",
+          "sha256": "2b23186c85bdd2c44ce0f1cbf09f45a0a113f0f0dc1102f2cd95ce94d1b5b49b"
+        },
+        "hero": {
+          "crop_xyxy": [
+            60,
+            54,
+            420,
+            758
+          ],
+          "dimensions": [
+            360,
+            704
+          ],
+          "method": "PIXEL_CROP_ONLY_NO_GENERATIVE_EDIT",
+          "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ORIN/hero_exact_pixel_crop.png",
+          "sha256": "24687a0c3c77df061a1bff918dcfb39e8dce38f4ead15e79479753a060ff9523"
+        }
+      },
+      "legacy_tag": "ongngoai",
+      "source_sheet": {
+        "dimensions": [
+          1122,
+          1402
+        ],
+        "kind": "EXACT_OWNER_UPLOADED_PNG",
+        "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ORIN_source_sheet.png",
+        "sha256": "360bf5f96b6b666ed13e0460e019d2a38832286b0a38b526dcc28f121ac77e31"
+      },
+      "status": "OWNER_APPROVED_SHEET_LOCKED_NOT_MODEL_TRAINED"
+    }
+  },
+  "effective_date": "2026-11-07",
+  "group_sheet": {
+    "path": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/GROUP_source_sheet.png",
+    "purpose": "GROUP LOOK COMPARISON ONLY — NEVER USE AS A SINGLE SHOT REFERENCE",
+    "sha256": "4daae9dd2ff325e45fbd5bd24463a76b29470c51b934e2732d54397e62e6afbd"
+  },
+  "identity_constraints": {
+    "BIX": "compact turtle-pangolin robot; NO bell, irrespective of an inconsistent printed detail panel",
+    "BUBU": "small purple cat; EXACTLY ONE gold collar bell; purple spiral tail sparkling in every frame",
+    "ELARA": "maternal grandmother and Orin's wife, visually distinct from Rose and Mara",
+    "GRANDMA_EARTH": "Rose Bell, ordinary human paternal grandmother",
+    "GRANDPA_EARTH": "Arthur Bell, ordinary human paternal grandfather",
+    "JUNO": "13-year-old boy, no adult face",
+    "LIA": "11-year-old girl, no adult face",
+    "ORIN": "white hair/beard, navy and gold ornate coat; his wearable decorative bell is NOT a mandatory travel key"
+  },
+  "primary_tags": [
+    "EVAN",
+    "MARA",
+    "JUNO",
+    "LIA",
+    "BIX",
+    "BUBU",
+    "ORIN",
+    "GRANDPA_EARTH",
+    "GRANDMA_EARTH"
+  ],
+  "prompt_reference_rule": "Only use ACTIVE TAGS FOR THIS SHOT; attach corresponding face+hero reference crops for exactly those visible characters. Group sheet is comparison only. Never attach a 3x3 character sheet to I2V as first frame; animate a SINGLE previously QC-approved 16:9 scene image.",
+  "qa": "Hash and source pixel crop PASS does NOT guarantee Muse identity lock, E2E lip-sync or final shot Canon approval; manually check keyframes 0/2/5/8/10 seconds.",
+  "reject": [
+    "face changed",
+    "age changed",
+    "costume drift",
+    "real human live-action conversion",
+    "unapproved extra character",
+    "Bubu without spiral sparkle",
+    "Bubu with two bells",
+    "Bix with a bell",
+    "grid or subtitles",
+    "no real acting movement"
+  ],
+  "schema": "cine.bell_leaf.visual_identity_canon.v2",
+  "style": "STYLIZED 3D ANIMATION CGI, not photographic real humans; neutral D55 ~5500K; original eyes, sculpted facial features, hair, age, body proportion, outfits and materials locked.",
+  "supporting_tags": [
+    "ELARA"
+  ],
+  "tag_aliases": {
+    "ARTHUR": "GRANDPA_EARTH",
+    "GRANDMA_VEYLORA": "ELARA",
+    "Lia": "LIA",
+    "ROSE": "GRANDMA_EARTH",
+    "bangoai": "ELARA",
+    "banoi": "GRANDMA_EARTH",
+    "bix": "BIX",
+    "bo": "EVAN",
+    "bubu": "BUBU",
+    "juno": "JUNO",
+    "me": "MARA",
+    "ongngoai": "ORIN",
+    "ongnoi": "GRANDPA_EARTH"
+  },
+  "version": "v2_owner_locked_20261107"
+}
