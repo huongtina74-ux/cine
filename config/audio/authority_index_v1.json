@@ -18,6 +18,8 @@
     {"rule_id": "AFANTA.AUDIO.AUTHORITY_CHECK", "scope_id": "cross_system_rule_ownership_integrity_enforcement", "owner": "AFANTA", "relative_path": "studio_os/authority_bridge.py"},
     {"rule_id": "AFANTA.AUDIO.RESEARCH_EXECUTOR", "scope_id": "cine_owned_discovery_queries_execution_adapter", "owner": "AFANTA", "relative_path": "studio_os/research.py"},
     {"rule_id": "AFANTA.AUDIO.BRIEF_EXECUTOR", "scope_id": "cine_evidence_to_brief_execution_adapter", "owner": "AFANTA", "relative_path": "studio_os/writing.py"},
+    {"rule_id": "AFANTA.AUDIO.ORIGINAL_INTENT", "scope_id": "first_party_original_episode_intent_validation", "owner": "AFANTA", "relative_path": "studio_os/original_intent.py"},
+    {"rule_id": "AFANTA.AUDIO.SCRIPT_RUNTIME", "scope_id": "source_script_runtime_and_internal_repetition_screen", "owner": "AFANTA", "relative_path": "studio_os/script_runtime_qc.py"},
     {"rule_id": "AFANTA.AUDIO.HANDOFF_VALIDATOR", "scope_id": "production_input_provenance_and_research_handoff_validation", "owner": "AFANTA", "relative_path": "studio_os/research_handoff.py"},
     {"rule_id": "AFANTA.AUDIO.STORY_QC", "scope_id": "script_editorial_quality_and_human_screenwriting_acceptance", "owner": "AFANTA", "relative_path": ".claude/skills/afanta-senior-audio-screenwriter/SKILL.md"},
     {"rule_id": "AFANTA.AUDIO.FACT_QC", "scope_id": "historical_scientific_and_business_factual_verification", "owner": "AFANTA", "relative_path": "story_quality/documentary.py"},
