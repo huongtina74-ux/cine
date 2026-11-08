@@ -1,0 +1,70 @@
+{
+  "schema": "cine.bell_leaf.stylized_3d_prompt_contract.v1",
+  "series_id": "bell_leaf",
+  "niche_id": "magical_witch_family_stories",
+  "parent_niche": "slow_english_a2_story",
+  "episode_id_format": "BL-XXXX",
+  "locked_media_format": {
+    "style": "owner-source-faithful stylized 3D CGI feature-film animation",
+    "first_frame": "single full-bleed 16:9 canonical scene",
+    "single_shot_seconds": 10,
+    "frames_per_second_final_target": 24,
+    "daylight_approx_kelvin": 5500,
+    "baseline_focal_length_mm": 50,
+    "subtitles_in_source": false,
+    "collage_in_source": false,
+    "real_human_recast_allowed": false
+  },
+  "prompt_stage_contract": {
+    "image": "Use only immutable original owner source character and location plate references; compose one first frame; avoid new identity traits and fake camera reverse",
+    "video": "One approved first frame; three purposeful physical beats; motion-focused language; do not re-describe faces or rooms; no fake speech or unverified voice clone"
+  },
+  "canonical_inputs": [
+    "config/niches/slow_english_a2/CHARACTER_VISUAL_CANON_LOCK_CURRENT.json",
+    "config/niches/slow_english_a2/OWNER_VISUAL_REFERENCE_BIBLE_20261108.json",
+    "docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json",
+    ".claude/skills/cine-a2-muse-reference-anchoring/integration/config/LOCATION_CURRENT.json",
+    "config/niches/slow_english_a2/i2v_provider_contracts_20261108.json"
+  ],
+  "hard_blockers": [
+    "unapproved new or unknown cast",
+    "mismatch from EP001 reference binding",
+    "unapproved Aila face",
+    "missing location owner source image",
+    "room geometry conflicts or missing reverse plates",
+    "unreviewed visible cast",
+    "photorealistic or live-action positive prompt",
+    "multiscene montage/collage",
+    "image face/body SHA missing",
+    "first-frame missing or no human identity approval",
+    "Muse provider account/model unverified",
+    "real MP4 CGI QC not independently reviewed"
+  ],
+  "known_risks": [
+    "exact cropped source pixels do not certify novel expression or angle",
+    "single room source view does not certify reverse or nighttime",
+    "phrase 'no live-action' alone is not a technical style lock",
+    "prompt checks cannot diagnose generated image pixels",
+    "audio voice names do not lock waveform identity",
+    "full episode 45min target does not prove final lip sync"
+  ],
+  "source_basis": [
+    {
+      "title": "Google Cloud video prompting best practices",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice",
+      "lesson": "source image defines subject/style; focus text on motion"
+    },
+    {
+      "title": "Runway Gen-4 image to video prompting",
+      "url": "https://help.runwayml.com/hc/en-us/articles/39789879462419-Gen-4-Video-Prompting-Guide",
+      "lesson": "simple positive motion descriptions, one scene, iterate one variable"
+    },
+    {
+      "title": "Meta Muse Image consistent series cookbook",
+      "url": "https://dev.meta.ai/docs/cookbook/anchored-image-series",
+      "lesson": "reuse character/location reference anchors, compare all outputs"
+    }
+  ],
+  "approval_status": "ENGINE_AND_HUMAN_VIDEO_QC_NOT_VERIFIED",
+  "production_authorized": false
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "cine.bell_leaf.i2v.provider_contracts.v1",
+  "revised_utc": "2026-11-08",
+  "policy": "NO_ASSUME_MUSE_IS_SINGLE_ENGINE; AUTHENTICATED_ACCOUNT_MODEL_UI_REQUIRED; NO_UNAUTHORIZED_GENERATION",
+  "notes": "Documented features do not establish account entitlement, native video quality, style fidelity or reproducibility. Start with full scene first frame; do not push a 3x3 grid into the only source frame.",
+  "providers": {
+    "unknown_muse": {
+      "engine": null,
+      "developer": "unidentified",
+      "supports_i2v": false,
+      "supports_10s_16_9": false,
+      "known_first_frame_style_anchoring": false,
+      "first_frame_slot_used_for_character_grid": false,
+      "provider_verified_for_account": false,
+      "documentation_url": null,
+      "remarks": "BLOCK. Name Muse is ambiguous; no model-level or API-level verification."
+    },
+    "meta_muse_video": {
+      "engine": "Meta Muse Video — preview",
+      "developer": "Meta Superintelligence Labs",
+      "supports_i2v": false,
+      "supports_10s_16_9": false,
+      "known_first_frame_style_anchoring": false,
+      "first_frame_slot_used_for_character_grid": false,
+      "provider_verified_for_account": false,
+      "documentation_url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+      "remarks": "July 7 2026 Meta preview does NOT prove usable generation endpoint, account authorization, precise duration or reference upload contract. Do not conflate with Meta Muse Image."
+    },
+    "fawna_muse": {
+      "engine": "Fawna Muse / WAN 2.7",
+      "developer": "Fawna (third party)",
+      "supports_i2v": true,
+      "supports_10s_16_9": true,
+      "known_first_frame_style_anchoring": true,
+      "first_frame_slot_used_for_character_grid": true,
+      "provider_verified_for_account": false,
+      "documentation_url": "https://www.fawna.ai/docs/models/muse/",
+      "remarks": "Uses required first frame and no separate style reference slot. Fawna documentation suggests using a 9-grid composite IN first-frame slot for identity. This conflicts with Bell & Leaf requirement for ONE approved scene as frame 0. Reject 9-grid in output/first-frame; do not assume Fawna is actual user engine."
+    },
+    "google_flow_omni_1_2": {
+      "engine": "Gemini Omni 1.2 Flash via Google Flow or Gemini API",
+      "developer": "Google",
+      "supports_i2v": true,
+      "supports_10s_16_9": true,
+      "known_first_frame_style_anchoring": true,
+      "first_frame_slot_used_for_character_grid": false,
+      "provider_verified_for_account": false,
+      "documentation_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "remarks": "Alternative to an unspecified Muse. Official Nov 5 2026 release reports up to 15s, multiple reference images, stronger animated-scene/face/voice continuity; availability, credits and actual account feature combinations unverified. No price/credit authorization granted."
+    },
+    "google_flow_veo_3_1": {
+      "engine": "Veo 3.1 via Google Flow",
+      "developer": "Google",
+      "supports_i2v": true,
+      "supports_10s_16_9": true,
+      "known_first_frame_style_anchoring": true,
+      "first_frame_slot_used_for_character_grid": false,
+      "provider_verified_for_account": false,
+      "documentation_url": "https://deepmind.google/models/veo/",
+      "remarks": "Official reference-image guidance supports 3D styles, ingredients and first/last frame. Exact UI mode/length needs account verification. Keep first frame single CGI composition; use first/last only when same locked scene and identity."
+    }
+  }
+}

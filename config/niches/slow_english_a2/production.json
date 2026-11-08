@@ -121,5 +121,46 @@
     "core_hook": "new magical world adventure or supernatural home event with genuine surprises and Veylora clue progression",
     "continuity": "one recurring family/series canon across 1000+ proposed episodes",
     "magic_disclosure": "Evan and paternal grandparents are ordinary Earth relatives and unaware of family magic; do not imply every family member is a witch"
+  },
+  "bell_leaf_3d_i2v_provider_gate": {
+    "version": "2026-11-08",
+    "policy": "FAIL_CLOSED_UNTIL_PROVIDER_MODEL_AND_CGI_VISUAL_QC",
+    "provider_id": "unknown_muse",
+    "provider_account_verified": false,
+    "muse_real_video_test_verified": false,
+    "live_action_recast_permitted": false,
+    "model_3d_fidelity_guaranteed": false,
+    "owner_character_refs": "config/niches/slow_english_a2/OWNER_VISUAL_REFERENCE_BIBLE_20261108.json",
+    "per_shot_refs": "docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json",
+    "provider_contracts": "config/niches/slow_english_a2/i2v_provider_contracts_20261108.json",
+    "preflight_command": "tools/bell_leaf/muse_i2v_preflight.py",
+    "real_frame_qc_command": "tools/bell_leaf/muse_i2v_frame_qc.py",
+    "target_seconds": 10,
+    "target_aspect_ratio": "16:9",
+    "frame_review_seconds": [
+      0,
+      2,
+      5,
+      8,
+      9.7
+    ],
+    "require_exact_first_frame_sha": true,
+    "require_one_frame_not_9_grid": true,
+    "motion_only_prompt": true,
+    "require_visible_cast_signoff": true,
+    "require_location_angle_signoff": true,
+    "require_real_provider_receipt": true,
+    "independent_voice_lipsync_qc": true,
+    "disallowed_legacy_characters": [
+      "Mia",
+      "Grandpa Walter",
+      "Biscuit"
+    ],
+    "production_authorized": false,
+    "stylized_3d_prompt_skill": ".claude/skills/cine-bell-leaf-stylized-3d-prompt-director/SKILL.md",
+    "stylized_3d_prompt_contract": "config/niches/slow_english_a2/stylized_3d_prompt_contract_v1.json",
+    "stylized_3d_prompt_compiler": "tools/bell_leaf/compile_3d_animation_prompts.py",
+    "prompt_pair_requires_matching_active_tags": true,
+    "prompt_output_status": "DRAFT_QC_PENDING_NO_MODEL_OR_HUMAN_APPROVAL"
   }
 }
