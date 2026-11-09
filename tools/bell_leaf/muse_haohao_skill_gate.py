@@ -89,6 +89,8 @@ def audit(video_txt: Path, image_txt: Path, manifest_path: Path,
     hold = 0
     pilot_only = 0
     safety_flags: list[str] = []
+    subtitle_plan_missing_shots: list[str] = []
+    subtitle_plan_documented_shots: list[str] = []
     if not isinstance(manifest, list) or not manifest:
         errors.append("MANIFEST_MUST_BE_NONEMPTY_LIST")
         manifest = []
@@ -129,6 +131,17 @@ def audit(video_txt: Path, image_txt: Path, manifest_path: Path,
         if index > len(video) or row.get("one_line_video_prompt") != video[index - 1]:
             errors.append(f"{sid}:MANIFEST_VIDEO_PROMPT_MISMATCH")
         if index <= len(video):
+            location = row.get("location")
+            if not isinstance(location, str) or not location.strip():
+                errors.append(f"{sid}:MISSING_REGISTERED_LOCATION_NAME")
+            else:
+                location_pattern = re.compile(r"@" + re.escape(location) + r"(?![A-Za-z0-9_])")
+                if not location_pattern.search(video[index - 1]):
+                    errors.append(f"{sid}:VIDEO_LOCATION_TAG_MISSING_OR_MISMATCH")
+                if index <= len(image) and not location_pattern.search(image[index - 1]):
+                    errors.append(f"{sid}:FIRST_FRAME_LOCATION_TAG_MISSING_OR_MISMATCH")
+            if row.get("location_matched") is False and not status.startswith("HOLD"):
+                errors.append(f"{sid}:UNAPPROVED_LOCATION_NOT_HELD")
             tag_match = ACTIVE_RE.search(video[index - 1])
             observed_tags = {
                 part.strip().upper()
@@ -142,6 +155,17 @@ def audit(video_txt: Path, image_txt: Path, manifest_path: Path,
         for line in voice_lines:
             if not SPEAKER_RE.fullmatch(str(line)):
                 errors.append(f"{sid}:INVALID_HAOHAO_INTERNAL_VOICE_LINE")
+        if speakers:
+            subtitle_plan = row.get("subtitle_plan")
+            if (
+                isinstance(subtitle_plan, dict)
+                and subtitle_plan.get("required") is True
+                and subtitle_plan.get("source") == "FINAL_ACCEPTED_AUDIO"
+                and subtitle_plan.get("mode") in ("POST_PRODUCTION", "SRT_AND_BURNED_FINAL_MP4")
+            ):
+                subtitle_plan_documented_shots.append(sid)
+            else:
+                subtitle_plan_missing_shots.append(sid)
         if len(speakers) > 1 and not status.startswith("HOLD"):
             errors.append(f"{sid}:MULTISPEAKER_MUST_HOLD_CURRENT_HAOHAO")
         if status.startswith("HOLD"):
@@ -156,6 +180,8 @@ def audit(video_txt: Path, image_txt: Path, manifest_path: Path,
         if blockers:
             safety_flags.append(f"{sid}:UNRESOLVED_BLOCKERS:{len(blockers)}")
 
+    if require_queueable and subtitle_plan_missing_shots:
+        errors.append(f"QUEUE_REFUSED_MISSING_SUBTITLE_PLANS:{len(subtitle_plan_missing_shots)}")
     if require_queueable and (hold or errors):
         errors.append(f"PRODUCTION_QUEUE_REFUSED_HOLD_ROWS:{hold}")
 
@@ -169,6 +195,8 @@ def audit(video_txt: Path, image_txt: Path, manifest_path: Path,
         "manifest_count": len(manifest),
         "hold_count": hold,
         "pilot_only_count": pilot_only,
+        "spoken_shots_missing_subtitle_plan": len(subtitle_plan_missing_shots),
+        "spoken_shots_with_documented_subtitle_plan": len(subtitle_plan_documented_shots),
         "static_structure_pass": not bool(errors),
         "errors": errors,
         "nonfatal_review_findings": safety_flags[:20],
@@ -178,7 +206,7 @@ def audit(video_txt: Path, image_txt: Path, manifest_path: Path,
         "voice_lipsync_review_pass": None,
         "native_4k_proven": False,
         "production_authorized": False,
-        "reason": "Static structure validation does not certify legal content, visual/audio QC or authorized production.",
+        "reason": "Static structure validation does not certify legal content, visual/audio QC, subtitled final delivery or authorized production.",
     }
 
 

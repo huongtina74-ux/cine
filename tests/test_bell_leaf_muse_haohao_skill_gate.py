@@ -29,8 +29,8 @@ class TestBellLeafMuseHaoHaoSkillGate(unittest.TestCase):
         v1 = _prompt("S001", "Juno")
         v2 = _prompt("S002", "Juno")
         images = [
-            "EP001 S001 [FIRST FRAME] standalone full-bleed 16:9 CGI Juno source frame.",
-            "EP001 S002 [FIRST FRAME] standalone full-bleed 16:9 CGI Juno source frame."
+            "EP001 S001 [FIRST FRAME] standalone full-bleed 16:9 CGI Juno source frame @BellKitchen_Day.",
+            "EP001 S002 [FIRST FRAME] standalone full-bleed 16:9 CGI Juno source frame @BellKitchen_Day."
         ]
         rows = []
         for sid, v, status, blockers in (
@@ -41,6 +41,8 @@ class TestBellLeafMuseHaoHaoSkillGate(unittest.TestCase):
                 "one_line_video_prompt": v,
                 "video_prompt_sha256": hashlib.sha256(v.encode("utf8")).hexdigest(),
                 "character_tags": ["JUNO"],
+                "location": "BellKitchen_Day",
+                "location_matched": True,
                 "voice_speakers": ["JUNO"],
                 "voice_runtime_lines": ['@Juno [happy]: "Dad, I found it."'],
                 "blockers": blockers,
