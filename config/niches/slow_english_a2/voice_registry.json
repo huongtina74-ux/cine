@@ -33,13 +33,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Evan",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:1179",
-        "speaker_label": "Alan Chant",
+        "local_catalog_voice_id": "tts:emotive:7553",
+        "speaker_label": "BDSEmpire",
         "emotion_default": "neutral",
-        "speed_factor": 0.94,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.84,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Adult",
+        "perceived_gender": "Male",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "",
+          "texture": "Smooth",
+          "cute": "",
+          "warm": "Warm",
+          "authority": ""
+        },
+        "audition_wpm": 132,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 4.08,
+        "reference_script": "Good morning, everyone! I have a letter for you.",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "me": {
@@ -73,13 +89,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Mara",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:102",
-        "speaker_label": "Linda Leu",
+        "local_catalog_voice_id": "tts:emotive:7525",
+        "speaker_label": "Jeannie Tirado",
         "emotion_default": "neutral",
-        "speed_factor": 0.91,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.7,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Adult",
+        "perceived_gender": "Female",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Bright",
+          "texture": "Smooth",
+          "cute": "",
+          "warm": "Warm",
+          "authority": ""
+        },
+        "audition_wpm": 128,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 5.15,
+        "reference_script": "Come close, my dear. We can find a safe way home.",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "juno": {
@@ -113,13 +145,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Juno",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:1336",
-        "speaker_label": "Charlie Blakemore",
+        "local_catalog_voice_id": "tts:emotive:1182",
+        "speaker_label": "Brett Condron",
         "emotion_default": "neutral",
-        "speed_factor": 0.92,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.7,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Teenager",
+        "perceived_gender": "Male",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Bright",
+          "texture": "Smooth",
+          "cute": "Cute",
+          "warm": "",
+          "authority": ""
+        },
+        "audition_wpm": 140,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 5.57,
+        "reference_script": "Juno says, I see a little light. Can you help me find it?",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "Lia": {
@@ -153,13 +201,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Lia",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:92",
-        "speaker_label": "Cori Samuel",
+        "local_catalog_voice_id": "tts:emotive:1851",
+        "speaker_label": "Kehinde",
         "emotion_default": "neutral",
-        "speed_factor": 0.93,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.86,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Teenager",
+        "perceived_gender": "Female",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Bright",
+          "texture": "Smooth",
+          "cute": "Cute",
+          "warm": "Warm",
+          "authority": ""
+        },
+        "audition_wpm": 125,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 4.78,
+        "reference_script": "Hello! Look at this little bird. It is so beautiful!",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "bubu": {
@@ -193,13 +257,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "BUBU",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:7337",
-        "speaker_label": "Adina Owen",
+        "local_catalog_voice_id": "tts:emotive:5029",
+        "speaker_label": "Courtney Sandhu",
         "emotion_default": "neutral",
-        "speed_factor": 0.97,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.88,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Teenager",
+        "perceived_gender": "Female",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Bright",
+          "texture": "Smooth",
+          "cute": "Cute",
+          "warm": "",
+          "authority": ""
+        },
+        "audition_wpm": 133,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 4.05,
+        "reference_script": "Wow! That tiny golden bell is full of magic!",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "bix": {
@@ -233,13 +313,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "BIX",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:3433",
-        "speaker_label": "Bob Sherman",
+        "local_catalog_voice_id": "tts:emotive:1335",
+        "speaker_label": "Clarica",
         "emotion_default": "neutral",
-        "speed_factor": 0.96,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.82,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Adult",
+        "perceived_gender": "Ambiguous",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Bright",
+          "texture": "Smooth",
+          "cute": "",
+          "warm": "",
+          "authority": ""
+        },
+        "audition_wpm": 134,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 4.48,
+        "reference_script": "Attention. I have found a small problem with the door.",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "ongngoai": {
@@ -273,13 +369,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Orin",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:2238",
-        "speaker_label": "Will Larson",
+        "local_catalog_voice_id": "tts:emotive:594",
+        "speaker_label": "KentF",
         "emotion_default": "neutral",
-        "speed_factor": 0.9,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.7,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Senior",
+        "perceived_gender": "Male",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Dark",
+          "texture": "",
+          "cute": "",
+          "warm": "Warm",
+          "authority": "Authoritative"
+        },
+        "audition_wpm": 130,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 5.09,
+        "reference_script": "There is still hope. Follow the sound of the old bell.",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "bangoai": {
@@ -313,13 +425,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Elara",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:11614",
-        "speaker_label": "Sylviamb",
+        "local_catalog_voice_id": "tts:emotive:1066",
+        "speaker_label": "Laurie Anne Walden",
         "emotion_default": "neutral",
-        "speed_factor": 0.9,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.72,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Senior",
+        "perceived_gender": "Female",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "Dark",
+          "texture": "",
+          "cute": "",
+          "warm": "Warm",
+          "authority": "Authoritative"
+        },
+        "audition_wpm": 127,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 4.24,
+        "reference_script": "Remember our promise. The bells will guide us home.",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "ongnoi": {
@@ -353,13 +481,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Arthur",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:6097",
-        "speaker_label": "Phil Benson",
+        "local_catalog_voice_id": "tts:emotive:6499",
+        "speaker_label": "dave7",
         "emotion_default": "neutral",
-        "speed_factor": 0.92,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.7,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Senior",
+        "perceived_gender": "Male",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "",
+          "texture": "Smooth",
+          "cute": "",
+          "warm": "Warm",
+          "authority": ""
+        },
+        "audition_wpm": 130,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 5.52,
+        "reference_script": "Come and sit with me. I have a funny story to tell.",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     },
     "banoi": {
@@ -393,13 +537,29 @@
         "app_project": "BellLeaf_EP001_3D",
         "app_character_name": "Rose",
         "local_provider": "HaoHao EmoVoice",
-        "local_catalog_voice_id": "tts:emotive:5837",
-        "speaker_label": "Debbie Pieterse",
+        "local_catalog_voice_id": "tts:emotive:8300",
+        "speaker_label": "Judith Parker",
         "emotion_default": "neutral",
-        "speed_factor": 0.92,
-        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
-        "speaker_age_classification": "unclassified",
-        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+        "speed_factor": 0.72,
+        "status": "INSTALLED_LOCAL_AGE_AUDITION_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "subjective perceived age label, not real age",
+        "perceived_age": "Senior",
+        "perceived_gender": "Female",
+        "perceptual_source": "DreamVoiceDB, Interspeech 2024",
+        "perceptual_source_url": "https://huggingface.co/datasets/carankt/DreamVoiceDB",
+        "acoustic_tags": {
+          "brightness": "",
+          "texture": "Smooth",
+          "cute": "",
+          "warm": "Warm",
+          "authority": ""
+        },
+        "audition_wpm": 128,
+        "audition_asr_similarity": 1.0,
+        "audition_clip_duration_seconds": 5.63,
+        "reference_script": "I made some warm bread for you. Would you like a piece?",
+        "human_voice_approval": false,
+        "next_gate": "Listen to local matched-text old-versus-new clips; verify age impression, accent, pronunciation, emotion, voice rights and video lipsync"
       }
     }
   },
@@ -429,12 +589,14 @@
   "series_id": "bell_leaf",
   "taxonomy_scope": "These ten voice profiles belong to Bell & Leaf within Magical Witch Family Stories, not to all Slow English A2.",
   "haohao_audition_sync": {
-    "revision": "2026-11-09",
+    "revision": "2026-11-09-age-perception-v2",
     "current_project": "BellLeaf_EP001_3D",
-    "scope": "All ten audition candidates; voice IDs are NOT approved voice_id",
+    "scope": "Ten local EmoVoice candidates screened using DreamVoiceDB perceived-age annotations and short English A2 ASR tests",
     "approved_voice_count": 0,
-    "critical_findings": "Juno old EmoVoice #9017 shifted the sampled clip F0 239Hz Muse to 117Hz converted; trial #1336 gave 174Hz. These values do not certify voice age or timbre.",
-    "voice_conversion": "Current HaoHao OpenVoice V2 keeps the picture stream unchanged, but speech wording, speaker consistency, lipsync not verified",
-    "no_silent_recast_ever": true
+    "no_silent_recast_ever": true,
+    "age_metadata_caveat": "No actual speaker ages verified; Teenager is nearest age band for Lia aged 11; cannot certify child-sounding voice",
+    "engine_speed_fix": "EmotiVoice inference models/prompt_tts_modified/model_open_source.py branch now passes alpha into length_regulator; local installed runtime patched with backup; slower speed verified on real WAV",
+    "muse_speed_caveat": "HaoHao fixed voice conversion preserves original Muse video packets and native timing; these TTS preview speed factors do NOT independently guarantee Muse-generated speech pace or lip sync",
+    "rights_caveat": "Model code license is not permission to impersonate or commercially use a particular person's voice; review applicable rights and voice licensing before monetization"
   }
 }
