@@ -50,6 +50,22 @@ CAMERA_PRESETS = {
     "silent": ("clear medium shot", "50mm-equivalent", "locked or minimal drift", "one clear visual cause and reaction"),
 }
 
+def haohao_detected_character_names(prompt: str, registered_names: list[str]) -> list[str]:
+    """Mirror HaoHao Compose.findCharacters: a plain name OR an @name auto-attaches art.
+
+    References mentioned only in negative constraints, set descriptions, spoken
+    references or offscreen action ALSO trigger attached images. Reject such shots.
+    """
+    matched=[]
+    for name in registered_names:
+        token=re.escape(name)
+        plain=rf"(^|[^A-Za-z0-9@]){token}(?=$|[^A-Za-z0-9])"
+        tagged=rf"@{token}(?=$|[^A-Za-z0-9])"
+        if re.search(plain,prompt) or re.search(tagged,prompt,re.IGNORECASE):
+            matched.append(name)
+    return matched
+
+
 def flatten(x: object, limit: int = 520) -> str:
     text = re.sub(r"\s+", " ", str(x or "")).strip()
     # A single physical prompt line is the user's fixed import invariant.
@@ -154,6 +170,12 @@ def location_detail(row: dict, studio: dict) -> str:
     if not row["location_matched"] or rec is None:
         return "LOCATION OWNER PLATE UNAPPROVED; keep story geography as a DRAFT only and DO NOT submit to Muse"
     desc=flatten(rec.get("description",""),240)
+    # A named setting description ("Mara's workshop") must not make
+    # HaoHao auto-attach an OFFSCREEN character portrait to a Juno-only shot.
+    if "Mara" not in row.get("haohao_names",[]):
+        desc=re.sub(r"\bMara's\b", "The family's", desc)
+    if "Juno" not in row.get("haohao_names",[]):
+        desc=re.sub(r"\bJuno's\b", "The child's", desc)
     if "REVIEW:" in desc or "CONCEPT ONLY" in desc:
         return "LOCATION OWNER ASSIGNMENT UNAPPROVED; do not render before owner approval"
     return desc
@@ -195,7 +217,7 @@ def direct_video(row:dict,src:dict,studio:dict,timeline:str,cam:tuple,castlocks:
         f"VOICE PERFORMANCE: emotional direction {emotion}, recognizable age-appropriate original character delivery, plain expressive English A2, clear pronunciation, unhurried natural pause, lip motions corresponding to ACTUAL speaker; fixed voice plan delivered separately to HaoHao; never invent another speaker" if speech else "no speaking or artificial mouth movement",
         "SOUND: "+sound_for(src,row),
         "English subtitles REQUIRED in final delivered MP4 for exact accepted audio, synchronized via post-QC SRT with bottom-safe max 2 lines; DO NOT bake unreliable text into native Muse video",
-        "preserve exact source faces/hair/outfit/body scale, BUBU spiral sparkle and BIX no-bell rule, stable scene architecture and prop contact; visible true 3D motion, no photo-zoom, no montage, no cut, no new room or person, no photoreal people, no watermark",
+        "preserve exact owner-canon face/hair/outfit/body scale for ONLY the on-screen actors; "+("keep BUBU's original sparkling purple spiral tail and one gold collar bell; " if "BUBU" in row["character_tags"] else "")+("keep BIX's compact mechanical turtle-pangolin shell with no bell; " if "BIX" in row["character_tags"] else "")+"stable scene architecture and prop contact; visible true 3D motion, no still photo zoom, no montage or cut, no unapproved person, no photoreal people, no watermark",
     ]
     return "; ".join(flatten(s,700) for s in parts if s)
 
@@ -219,6 +241,7 @@ def make(out:Path) -> dict:
     else:
         studio={};installed=set();n_accounts=0
     scenes={c["scene_id"]:c for c in canon["scene_cards"]}
+    registered_names=sorted(installed or {n for row in previous for n in row.get("haohao_names",[])})
     video=[];image=[];manifest=[];subtitle=[];voiceplan=[];held=[];pilot=[]
     seen_id=set()
     for index,(s,p) in enumerate(zip(src["shots"],previous),1):
@@ -245,6 +268,12 @@ def make(out:Path) -> dict:
         if p["location_matched"] and p["location"] not in studio:blockers.append("REGISTERED_HAOHAO_LOCATION_NOT_FOUND")
         missing=[n for n in p["haohao_names"] if n not in installed]
         if missing:blockers.append("HAOHAO_CAST_REFERENCE_MISSING")
+        actual_mentions=set()
+        for text in (v,im,*p.get("voice_runtime_lines",[])):
+            actual_mentions.update(haohao_detected_character_names(text, registered_names))
+        unexpected_mentions=sorted(actual_mentions-set(p["haohao_names"]))
+        if unexpected_mentions:
+            blockers.append("EXTRA_HAOHAO_CHARACTER_REFERENCE_MENTION")
         status="HOLD_DO_NOT_QUEUE" if blockers else p["status"]
         record={
             "shot_id":s["shot_id"],
@@ -258,7 +287,8 @@ def make(out:Path) -> dict:
             "haohao_names":p["haohao_names"],
             "location":p["location"],
             "location_matched":p["location_matched"] and p["location"] in studio,
-            "visible_cast_only":True,
+            "visible_cast_only":not bool(unexpected_mentions),
+            "unexpected_autoattached_character_names":unexpected_mentions,
             "reference_approval":"NOT_FINAL",
             "voice_speakers":p["voice_speakers"],
             "dialogue_plan":dialogue,
@@ -323,6 +353,7 @@ def make(out:Path) -> dict:
         "pilot_review_count":len(pilot),
         "held_count":len(held),
         "held_ids":held,
+        "unexpected_autoattached_character_shots":sum(bool(r["unexpected_autoattached_character_names"]) for r in manifest),
         "timeline_conflict_count":sum(r["original_source_timeline_conflict"] for r in manifest),
         "multi_speaker_count":sum(len(r["voice_speakers"])>1 for r in manifest),
         "missing_subtitle_plan_count":0,
@@ -350,6 +381,7 @@ def make(out:Path) -> dict:
         f"- {len(pilot)} shot candidates for **pilot review only**; {len(held)} HOLD including editorial timeline conflicts.",
         f"- {summary['timeline_conflict_count']} source timeline contradictions (S003-S018 breakfast past vs present) corrected in generated TEXT but still editorial HOLD.",
         f"- {summary['multi_speaker_count']} shots with multiple speakers must be reblocked/split or use validated multi-speaker production.",
+        f"- {summary['unexpected_autoattached_character_shots']} shots have extra character names that HaoHao would mistake for image-reference requests; these are HOLD pending rewrite or asset-aware filtering.",
         f"- {summary['subtitle_plans_requiring_actual_audio_qc']} spoken slots have mandatory subtitle plans but no final audio timing.",
         "- No real video rendering, Muse account activity, source-image approval, actual voice lip-sync QC or SRT burn-in performed.",
         "",

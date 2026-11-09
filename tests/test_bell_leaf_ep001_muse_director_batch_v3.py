@@ -102,6 +102,36 @@ class TestBellLeafDirectorV3(unittest.TestCase):
         self.assertGreater(len(set(cameras)),5)
         self.assertGreater(len(set(r["director_intent"]["sound"] for r in self.rows)),4)
 
+    def test_pilot_refs_only_explicit_visible_cast(self):
+        import os
+        studio_path=Path(os.environ.get("APPDATA",""))/"HaoHao/studio.json"
+        if studio_path.is_file():
+            known={a["name"] for a in json.loads(studio_path.read_text(encoding="utf8")).get("characters",[])}
+        else:
+            known={n for row in self.rows for n in row["haohao_names"]}
+        for row in self.rows:
+            if row["status"].startswith("PILOT"):
+                names=set()
+                for content in (row["one_line_video_prompt"],row["one_line_image_prompt"],*row["voice_runtime_lines"]):
+                    names.update(builder.haohao_detected_character_names(content,sorted(known)))
+                self.assertFalse(names-set(row["haohao_names"]),row["shot_id"])
+                self.assertFalse(row["unexpected_autoattached_character_names"])
+        # These scenes mention offscreen characters in directions and remain held.
+        for sid in ("S178","S201","S229"):
+            shot=self.rows[int(sid[1:])-1]
+            self.assertTrue(shot["status"].startswith("HOLD"))
+            self.assertTrue(shot["unexpected_autoattached_character_names"])
+
+    def test_reference_parser_catches_plain_unseen_name_and_tagged_name(self):
+        known=["Mara","Juno","BIX","BUBU"]
+        self.assertEqual(
+            builder.haohao_detected_character_names(
+                "@Juno @MaraWorkshop_Day, keep BUBU invisible and BIX offscreen",known),
+            ["Juno","BIX","BUBU"])
+        self.assertEqual(
+            builder.haohao_detected_character_names("@Juno @MaraWorkshop_Day",known),
+            ["Juno"])
+
     def test_no_account_or_proxy_credentials_exported(self):
         content="\n".join(p.read_text(encoding="utf8") for p in self.path.rglob("*.json"))
         for needle in ("proxyPassword","proxy_password","cookie","session_token","2fa_secret"):
