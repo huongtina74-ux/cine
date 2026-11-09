@@ -36,9 +36,13 @@ def test_two_canon_locked_reference_shots_generate_paired_draft_prompts():
         assert "0–2s" in rec["video_prompt"] and "2–7s" in rec["video_prompt"] and "7–10s" in rec["video_prompt"]
         assert "one 10.0-second" not in rec["video_prompt"].lower() or "10.0" in rec["video_prompt"]
         assert "\n" not in rec["image_prompt"] and "\n" not in rec["video_prompt"]
-        assert rec["location_reference_sha256"] and len(rec["location_reference_sha256"])==64
+        if rec["shot_id"]=="S001":
+            assert rec["location_reference_sha256"] is None
+            assert "NO_OWNER_LOCATION_PLATE" in rec["blockers"]
+        else:
+            assert rec["location_reference_sha256"] and len(rec["location_reference_sha256"])==64
         assert len(rec["character_references"])==len(rec["active_tags"])
-    assert result["receipts"][0]["active_tags"]==["BIX","MARA"]
+    assert result["receipts"][0]["active_tags"]==["MARA","ORIN"]
     assert result["receipts"][1]["active_tags"]==["LIA"]
     assert result["images_txt"].count("\n\n")==1
     assert result["videos_txt"].count("\n\n")==1

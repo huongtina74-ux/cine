@@ -54,3 +54,6 @@ First 00:00–03:00: family lives in an ordinary kitchen, with Evan's postman ba
 
 ## EP001 first-15s opening revision (2026-11-09; STILL DRAFT)
 S001 now previews the real historical Veylora bell catastrophe with Mara and Orin only. At S002, an ordinary two-note cup clink in the current Earth kitchen links to Mara's memory by second 15. No change to 270 slots, 10s/shot, total 45min or protected original owner Canon. S001 station geometry does not yet have an approved plate. Editorial, actor voice, camera and actual Muse art approval are PENDING.
+
+## Reconciled 270-shot draft v2.2 — 2026-11-09
+All 270 S001–S270 are now updated in 5 Act files and the combined reading screenplay, with explicit time-varying scene causality, visual blocking, 10s acting/camera beats, per-shot Canon refs and unreleased asset/voice status. Read the V2 30-scene Story Reference first; **do not mistake timing/structural PASS for owner and human-editor signoff.** S001 previews SC006 and S002 confirms its mystery by 15 seconds. Exact 10.0s per shot, 24fps 16:9. No final Muse frames have been generated.

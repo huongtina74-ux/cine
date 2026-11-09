@@ -9,12 +9,12 @@
   "source_basis": [
     "OWNER_FOUR_LOCKED_SOURCES_20261107",
     "BELL_LEAF_WRITERS_ROOM_CANON_CONTRACT_V1_20261107",
-    "EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md (v1.1 shot timing reference)",
+    "EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md (v2.2 reconciled shot direction draft)",
     "Current conversation: owner requested remember entire detailed 30-scene dramatic treatment"
   ],
   "authority": "OWNER_REQUESTED_EP001_STORY_ROOM_REFERENCE_NOT_PRODUCTION_APPROVAL",
-  "status": "STORY_REFERENCE_LOCK_FOR_WRITERS_ROOM; FULL_270_SHOT_V2_SCREENPLAY_REWRITE_AND_OWNER_ARTISTIC_SIGNOFF_PENDING",
-  "story_first_rule": "Family kitchen scenes SC-001/SC-002 at 00:00-03:00, flashback SC-003..SC-010 at 03:00-15:00, resume SAME morning SC-011 at 15:00 (do not switch to a new day).",
+  "status": "STORY_REFERENCE_LOCK_FOR_WRITERS_ROOM; ALL_270_SHOT_V2_2_DRAFT_RECONCILED_INDEPENDENT_EDITOR_AND_OWNER_APPROVAL_PENDING",
+  "story_first_rule": "S001 0-10s truthful historical Veylora teaser (MARA/ORIN only); S002 10-20s returns to Bellfern kitchen and reinforces hook by 15s; S003-S018 same breakfast; SC003-SC010 the real flashback (03-15min); SC011 resumes SAME unfinished Earth morning at 15min.",
   "timing": {
     "target_seconds": 2700,
     "target_minutes": 45,
@@ -1235,5 +1235,25 @@
     "no_villain_identity_reveal": true,
     "owner_canon_mutations": [],
     "story_status": "DRAFT_NEEDS_INDEPENDENT_EDITOR_REVIEW"
+  },
+  "shot_reconciliation_20261109": {
+    "revision": "v2.2_270_shot_one_to_one",
+    "shot_count": 270,
+    "duration_seconds": 2700,
+    "story_reference_revision": "v2.0_30_scenes_with_20261109_first15_hook",
+    "shot_binding_file": "docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json",
+    "script_file": "docs/story/bell_leaf/ep001_screenplay/EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md",
+    "status": "FULL_SHOT_TEXT_AND_DIRECTOR_BRIEFS_REWRITTEN_EDITORIAL_REVIEW_REQUIRED",
+    "approved_voice_samples": 0,
+    "owner_story_signoff": false,
+    "production_authorized": false,
+    "known_blockers": [
+      "AILA_APPROVED_IMAGE_MISSING",
+      "HISTORICAL_VEYLORA_STATION_PLATE_MISSING",
+      "SMALL_EARTH_SECRET_BELLCHAMBER_PLATE_UNAPPROVED",
+      "GUEST_ROOM_NIGHT_VIEW_UNAPPROVED",
+      "TTS_TABLE_READ_NOT_DONE",
+      "REAL_MUSE_I2V_QC_NOT_DONE"
+    ]
   }
 }

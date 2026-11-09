@@ -38,14 +38,14 @@ def test_scene_timing_events_and_end_state():
 def test_early_shot_binds_only_actual_cast_not_entire_scene():
     c=H.load(root=ROOT,episode_id="BL-0001",stage="image",shot_id="S001")
     s=c["shot_binding"]
-    assert s["active_character_tags"]==["BIX","MARA"]
+    assert s["active_character_tags"]==["MARA","ORIN"]
     assert s["scene_id"]=="SC-001"
     assert len(c["scene_card"]["character_tags"])==6
-    assert [x["tag"] for x in c["character_media"]]==["BIX","MARA"]
-    assert c["location_media"]["anchor_id"]=="BELL_KITCHEN_DAY"
+    assert [x["tag"] for x in c["character_media"]]==["MARA","ORIN"]
+    assert c["location_media"]["anchor_id"] is None  # historical Veylora station unapproved
     assert c["location_media"]["multiview_approved"] is False
     assert c["production_authorized"] is False
-    assert "MULTIVIEW_NOT_APPROVED" in c["warnings"]
+    assert "LOCATION_REFERENCE_NOT_REGISTERED" in c["warnings"]
     assert "human" not in c["shot_status"].lower()
 
 def test_next_episode_inherits_exact_final_state_and_anti_repeat():

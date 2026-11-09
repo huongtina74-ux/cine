@@ -43,7 +43,11 @@ def analyze():
         all_lines.append(action.strip().casefold())
         # Speech in these prose directions uses single or double quotes; count
         # without claiming exact TTS seconds or that all text is voice.
-        quoted=re.findall(r"""(?<!\w)['"‘“](.+?)['"’”]""",action)
+        # Count ONLY explicitly attributed screenplay dialogue. Apostrophes
+        # in Aila's, Mara's or "character's" are not speech delimiters.
+        quoted=re.findall(
+            r"""\b(?:EVAN|MARA|JUNO|LIA|BIX|BUBU|ORIN|ELARA|AILA|ARTHUR|ROSE)\s*(?:\([^)]*\))?\s*(?:whispers\s*)?:\s*['"‘“](.+?)['"’”]""",
+            action,re.I)
         spoken=sum(len(re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?",q)) for q in quoted)
         words.append(spoken)
         spoken_by_scene[1+(i-1)//9]+=spoken
