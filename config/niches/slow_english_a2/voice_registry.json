@@ -28,7 +28,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Evan Bell, loving adult human postman and father. Use one consistent speaking voice: adult American male, warm medium-low relaxed baritone with gentle chest resonance and lightly husky but clear timbre; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: everyday practical, approachable, dry warm humor, patient and loving. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Orin's deep authority, not Rowan's rugged confidence."
+      "voice_casting_prompt": "Evan Bell, loving adult human postman and father. Use one consistent speaking voice: adult American male, warm medium-low relaxed baritone with gentle chest resonance and lightly husky but clear timbre; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: everyday practical, approachable, dry warm humor, patient and loving. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Orin's deep authority, not Rowan's rugged confidence.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Evan",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:1179",
+        "speaker_label": "Alan Chant",
+        "emotion_default": "neutral",
+        "speed_factor": 0.94,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "me": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -56,7 +68,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Mara, caring adult mother, witch and magical researcher. Use one consistent speaking voice: adult American female, warm smooth softly velvety medium-register voice with clear natural resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: maternal tenderness, calm intelligence, quiet authority, determined under danger. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Rose's brightly teasing senior timbre or Elara's deep measured dignity."
+      "voice_casting_prompt": "Mara, caring adult mother, witch and magical researcher. Use one consistent speaking voice: adult American female, warm smooth softly velvety medium-register voice with clear natural resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: maternal tenderness, calm intelligence, quiet authority, determined under danger. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Rose's brightly teasing senior timbre or Elara's deep measured dignity.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Mara",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:102",
+        "speaker_label": "Linda Leu",
+        "emotion_default": "neutral",
+        "speed_factor": 0.91,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "juno": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -84,7 +108,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Juno, thirteen-year-old BOY inventor who built Bix. Use one consistent speaking voice: youthful early-teen MALE voice, clear lively bright medium-high register with natural adolescent resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: precise, curious, rapid thoughts but unhurried clear words; excitement controlled. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Lia's female childlike brightness, not Bix's electronic rhythm, not adult."
+      "voice_casting_prompt": "Juno, thirteen-year-old BOY inventor who built Bix. Use one consistent speaking voice: youthful early-teen MALE voice, clear lively bright medium-high register with natural adolescent resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: precise, curious, rapid thoughts but unhurried clear words; excitement controlled. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not Lia's female childlike brightness, not Bix's electronic rhythm, not adult.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Juno",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:1336",
+        "speaker_label": "Charlie Blakemore",
+        "emotion_default": "neutral",
+        "speed_factor": 0.92,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "Lia": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -112,7 +148,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Lia, eleven-year-old girl with animal-empathy magic. Use one consistent speaking voice: light clear gently bright YOUTHFUL FEMALE voice, medium-high pitch and natural childlike resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: kind, curious, gently courageous, emotionally sensitive, unhurried conversational delivery. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no adult woman, baby voice or squeaky forced cuteness."
+      "voice_casting_prompt": "Lia, eleven-year-old girl with animal-empathy magic. Use one consistent speaking voice: light clear gently bright YOUTHFUL FEMALE voice, medium-high pitch and natural childlike resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: kind, curious, gently courageous, emotionally sensitive, unhurried conversational delivery. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no adult woman, baby voice or squeaky forced cuteness.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Lia",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:92",
+        "speaker_label": "Cori Samuel",
+        "emotion_default": "neutral",
+        "speed_factor": 0.93,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "bubu": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -140,7 +188,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Bubu, little purple bell-spirit cat with one gold collar bell and sparkly spiral purple tail. Use one consistent speaking voice: distinctive soft lightly bright animated-character voice, medium-high register, subtle musical warmth WITHOUT singing; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: playful, mischievous, deeply affectionate; thoughtful when serious, short clear lines. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no meowing in place of words, baby squeak or adult narrator."
+      "voice_casting_prompt": "Bubu, little purple bell-spirit cat with one gold collar bell and sparkly spiral purple tail. Use one consistent speaking voice: distinctive soft lightly bright animated-character voice, medium-high register, subtle musical warmth WITHOUT singing; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: playful, mischievous, deeply affectionate; thoughtful when serious, short clear lines. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no meowing in place of words, baby squeak or adult narrator.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "BUBU",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:7337",
+        "speaker_label": "Adina Owen",
+        "emotion_default": "neutral",
+        "speed_factor": 0.97,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "bix": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -168,7 +228,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Bix, compact turtle-pangolin robot built by Juno, no bell. Use one consistent speaking voice: youthful friendly gender-neutral clean synthetic voice, medium pitch, a SUBTLE digital resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: precise pronunciation, literal humor, restrained surprise and curiosity. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no metallic harshness, random glitches or dehumanized monotone."
+      "voice_casting_prompt": "Bix, compact turtle-pangolin robot built by Juno, no bell. Use one consistent speaking voice: youthful friendly gender-neutral clean synthetic voice, medium pitch, a SUBTLE digital resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: precise pronunciation, literal humor, restrained surprise and curiosity. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: no metallic harshness, random glitches or dehumanized monotone.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "BIX",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:3433",
+        "speaker_label": "Bob Sherman",
+        "emotion_default": "neutral",
+        "speed_factor": 0.96,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "ongngoai": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -196,7 +268,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Orin, elderly master wizard, Mara's father and search leader. Use one consistent speaking voice: deep warm mature American male baritone, low-to-medium-low pitch, softly weathered resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: patient and scholarly, wise, dignified, deliberate rhythm, loving grandfather. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not trailer-announcer boom; distinct from relaxed jokey Arthur and controlled Isel."
+      "voice_casting_prompt": "Orin, elderly master wizard, Mara's father and search leader. Use one consistent speaking voice: deep warm mature American male baritone, low-to-medium-low pitch, softly weathered resonance; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: patient and scholarly, wise, dignified, deliberate rhythm, loving grandfather. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not trailer-announcer boom; distinct from relaxed jokey Arthur and controlled Isel.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Orin",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:2238",
+        "speaker_label": "Will Larson",
+        "emotion_default": "neutral",
+        "speed_factor": 0.9,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "bangoai": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -224,7 +308,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "REQUIRE_VEYLORA_ARC_APPROVAL",
-      "voice_casting_prompt": "Elara, maternal grandma, Orin's wife, experienced Veylora witch. Use one consistent speaking voice: mature American female medium-low voice, smooth graceful gently resonant and elegantly clear; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: wise, calm, enduring love, quiet strength, measured affectionate cadence and restrained grief. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not frail, not theatrical sorceress, distinct from Rose and Mara."
+      "voice_casting_prompt": "Elara, maternal grandma, Orin's wife, experienced Veylora witch. Use one consistent speaking voice: mature American female medium-low voice, smooth graceful gently resonant and elegantly clear; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: wise, calm, enduring love, quiet strength, measured affectionate cadence and restrained grief. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not frail, not theatrical sorceress, distinct from Rose and Mara.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Elara",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:11614",
+        "speaker_label": "Sylviamb",
+        "emotion_default": "neutral",
+        "speed_factor": 0.9,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "ongnoi": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -252,7 +348,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Arthur Bell, paternal grandpa, ordinary Earth human. Use one consistent speaking voice: healthy elderly American male mellow warm medium-low baritone, gentle natural husk, slightly smiling texture; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: cheerful, homely, patient jokes, grandfatherly practical reassurance. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not a frail whisper or Orin's commanding wizard voice."
+      "voice_casting_prompt": "Arthur Bell, paternal grandpa, ordinary Earth human. Use one consistent speaking voice: healthy elderly American male mellow warm medium-low baritone, gentle natural husk, slightly smiling texture; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: cheerful, homely, patient jokes, grandfatherly practical reassurance. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not a frail whisper or Orin's commanding wizard voice.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Arthur",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:6097",
+        "speaker_label": "Phil Benson",
+        "emotion_default": "neutral",
+        "speed_factor": 0.92,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     },
     "banoi": {
       "approval_status": "PENDING_WAV_AND_RIGHTS_APPROVAL",
@@ -280,7 +388,19 @@
       "target_wpm_status": "PENDING_A2_LISTENING_QC",
       "emotion_guidance": "Variation may change delivery, not speaker timbre or reference identity.",
       "conditional_story_permission": "NORMAL_STORY_GATES",
-      "voice_casting_prompt": "Rose Bell, paternal grandma, ordinary Earth human. Use one consistent speaking voice: healthy elderly American female, warm soft gently bright medium pitch, slight natural maturity texture; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: nurturing, observant, playfully teasing, firm but affectionate. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not young Mara, not lower elegant Elara, not shrill."
+      "voice_casting_prompt": "Rose Bell, paternal grandma, ordinary Earth human. Use one consistent speaking voice: healthy elderly American female, warm soft gently bright medium pitch, slight natural maturity texture; natural General American English accent, understandable A2 vocabulary, clear pronunciation, unhurried natural conversational rhythm. Voice character and performance: nurturing, observant, playfully teasing, firm but affectionate. Keep the SAME speaker identity, accent, natural age, pitch range and core timbre across every scene; express happiness, fear, doubt, sadness, urgency and hope through intonation without recasting. No singing. Avoid: not young Mara, not lower elegant Elara, not shrill.",
+      "haohao_audition_20261109": {
+        "app_project": "BellLeaf_EP001_3D",
+        "app_character_name": "Rose",
+        "local_provider": "HaoHao EmoVoice",
+        "local_catalog_voice_id": "tts:emotive:5837",
+        "speaker_label": "Debbie Pieterse",
+        "emotion_default": "neutral",
+        "speed_factor": 0.92,
+        "status": "INSTALLED_AUDITION_CANDIDATE_NOT_HUMAN_APPROVED",
+        "speaker_age_classification": "unclassified",
+        "next_gate": "Listen to 10 WAVs and check consistency, English A2 pronunciation, age and license before Canon approval"
+      }
     }
   },
   "casting_design_version": "BellLeafVoiceCasting.v1.0",
@@ -307,5 +427,14 @@
   "learning_level": "A2",
   "subniche_id": "magical_witch_family_stories",
   "series_id": "bell_leaf",
-  "taxonomy_scope": "These ten voice profiles belong to Bell & Leaf within Magical Witch Family Stories, not to all Slow English A2."
+  "taxonomy_scope": "These ten voice profiles belong to Bell & Leaf within Magical Witch Family Stories, not to all Slow English A2.",
+  "haohao_audition_sync": {
+    "revision": "2026-11-09",
+    "current_project": "BellLeaf_EP001_3D",
+    "scope": "All ten audition candidates; voice IDs are NOT approved voice_id",
+    "approved_voice_count": 0,
+    "critical_findings": "Juno old EmoVoice #9017 shifted the sampled clip F0 239Hz Muse to 117Hz converted; trial #1336 gave 174Hz. These values do not certify voice age or timbre.",
+    "voice_conversion": "Current HaoHao OpenVoice V2 keeps the picture stream unchanged, but speech wording, speaker consistency, lipsync not verified",
+    "no_silent_recast_ever": true
+  }
 }
