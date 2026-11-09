@@ -17,3 +17,6 @@ Frames inspected: <list of timestamps/files>   Technical: PASS/FAIL (<LUFS>, <is
 | 2 | 1:12 | S009 | VO ends after the cut | director-cut | shorten line to 9 words |
 ```
 Never claim you "watched the whole video": list the frames you saw. The reviewer never fixes; it only writes notes.
+
+## Bell & Leaf Muse/HaoHao specialization (2026-11-09)
+For `bell_leaf` 10.0-second 24fps Muse clips, additionally read `../cine-bell-leaf-stylized-3d-prompt-director/references/MUSE_HAOHAO_OPERATING_STANDARD_20261109.md` before issuing a voice/face/scene PASS. Check actual `ffprobe` duration/frame count/native resolution, reference-frame continuity at 0/2/5/8/9.7s, uninterrupted character motion, English A2 spoken-text ASR, proper names, age/voice continuity and **human-assessed lip-sync**. Do not equate an OpenVoice-converted audio file or HaoHao "Xong" to approved media. Add subtitle overlays only after speech/audio QC.
