@@ -2,23 +2,23 @@
   "series_id": "bell_leaf",
   "niche_id": "magical_witch_family_stories",
   "episode_id": "BL-0001",
-  "notes": "S001 first scene of family-first EP001; S005 is a separate Lia bird-related shot. Both are draft prompts only, subject to director reviewing which characters are visible.",
+  "notes": "v2.2 examples follow rewritten EP001 shot bindings; S001 is historical Mara+Orin teaser and S005 Earth Lia. ALL provider/media and historical-location approvals are pending; compile prompts as drafts only.",
   "shots": [
     {
       "shot_id": "S001",
       "visible_cast": [
-        "BIX",
-        "MARA"
+        "MARA",
+        "ORIN"
       ],
       "image": {
-        "framing": "Medium view of the breakfast table from the approved Bell kitchen reference angle, with Mara in the background and Bix near the front edge",
-        "pose": "Bix is ready to touch a spoon to a cup; Mara pauses with a gentle smile, both faces correctly oriented to the camera"
+        "framing": "Source-consistent medium two-shot of @MARA and @ORIN with bell clear; any third visible performer stays within the actual scene blocking.",
+        "pose": "At @VEYLORA_HISTORICAL_PENDING, frame the bell at the starting pose; preserve owner face and physical site topology."
       },
       "video": {
-        "setup_0_2": "Bix moves one small mechanical arm toward the spoon and carefully taps the cup",
-        "action_2_7": "The spoon clinks twice and Bix tilts his little robot head while Mara's smile slowly fades",
-        "reaction_7_10": "Mara lowers her gaze toward the scarred leaf and Bix settles his arm on the table",
-        "camera": "Locked medium camera maintains both original CGI faces in view"
+        "setup_0_2": "Frame the initial bell state as @MARA prepares one readable action.",
+        "action_2_7": "COLD-OPEN / VEYLORA YEARS AGO. The historic fixed bell station shakes; a WRONG TWO-NOTE BELL sounds. @ORIN braces its failing safety control as @MARA guides evacuees away from",
+        "reaction_7_10": "@MARA holds a clear urgent mystery, then intimate family concern reaction while bell settles.",
+        "camera": "One steady continuous 10.0s shot at a restrained cinematic 50mm-like angle; preserve the owner-locked stylized CGI geometry, one physical action and stable faces."
       }
     },
     {
@@ -27,14 +27,14 @@
         "LIA"
       ],
       "image": {
-        "framing": "Medium CGI animated view of Lia near the original Bell kitchen window from a source-consistent angle",
-        "pose": "Lia gently watches a small ordinary bird outside the window with her hand resting near a clean water cup"
+        "framing": "Medium-to-close stylized CGI one-character framing of @LIA and bird, matched to the verified owner reference.",
+        "pose": "At @BELL_KITCHEN_DAY, frame the bird at the starting pose; preserve owner face and physical site topology."
       },
       "video": {
-        "setup_0_2": "Lia looks toward the garden window and notices the small bird",
-        "action_2_7": "She raises the water cup carefully and reaches toward the safe ledge",
-        "reaction_7_10": "Lia smiles and lowers her hand as the bird settles outside",
-        "camera": "Locked medium camera follows Lia's gentle eyeline without zooming"
+        "setup_0_2": "Frame the initial bird state as @LIA prepares one readable action.",
+        "action_2_7": "LIA, an eleven-year-old GIRL, watches a bird on the sill",
+        "reaction_7_10": "@LIA holds a clear urgent mystery, then intimate family concern reaction while bird settles.",
+        "camera": "One steady continuous 10.0s shot at a restrained cinematic 50mm-like angle; preserve the owner-locked stylized CGI geometry, one physical action and stable faces."
       }
     }
   ]

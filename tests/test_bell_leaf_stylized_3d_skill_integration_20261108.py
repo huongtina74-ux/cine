@@ -32,5 +32,5 @@ def test_canon_artwork_remains_unmodified_by_new_prompt_skill():
     assert a["storage_policy"]["original_artwork_public_release_authorized"] is False
     refs=json.loads((ROOT/"docs/story/bell_leaf/ep001_screenplay/EP001_SHOT_VISUAL_REFERENCE_BINDINGS_v1.json").read_text(encoding="utf-8"))
     assert len(refs["shots"])==270
-    assert refs["shots"][0]["active_character_tags_candidate"]==["BIX","MARA"]
+    assert refs["shots"][0]["active_character_tags_candidate"]==["MARA","ORIN"]
     assert all(x["image_video_final_canon_gate"]!="PASS" for x in refs["shots"])

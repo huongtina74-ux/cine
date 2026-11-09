@@ -27,8 +27,10 @@ def test_270_shots_are_referenced_by_exact_source_asset_not_invented_upload_id()
     assert len(p["shots"])==270
     assert p["shots"][0]["shot_id"]=="S001"
     assert p["shots"][-1]["shot_id"]=="S270"
-    assert p["shots"][0]["space_id"]=="BH-KITCHEN"
-    assert p["shots"][0]["owner_location_plate_path"].endswith("BELL_KITCHEN_DAY.png")
+    assert p["shots"][0]["space_id"] is None
+    assert p["shots"][0]["owner_location_plate_path"] is None
+    assert p["shots"][0]["active_character_tags_candidate"]==["MARA","ORIN"]
+    assert p["shots"][1]["owner_location_plate_path"].endswith("BELL_KITCHEN_DAY.png")
     assert p["shots"][17]["space_id"]=="BH-KITCHEN"
     assert p["shots"][18]["site_id"]=="VEYLORA"
     assert p["shots"][18]["owner_location_plate_path"] is None

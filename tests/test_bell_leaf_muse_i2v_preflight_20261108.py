@@ -18,7 +18,7 @@ def load(path,name):
 
 i2v=load("tools/bell_leaf/muse_i2v_preflight.py","i2v")
 review=load("tools/bell_leaf/muse_i2v_frame_qc.py","review")
-MOTION="The original small robot turns its head toward the mother, tilts the tray slowly, then stops."
+MOTION="Orin grips the fixed bell safety rail while Mara guides the evacuees away from the cracking stone road."
 PROVIDERS=["unknown_muse","meta_muse_video","fawna_muse","google_flow_omni_1_2","google_flow_veo_3_1"]
 
 
@@ -51,7 +51,7 @@ def test_no_face_image_or_approved_location_means_no_production():
     assert "APPROVED_16_9_CGI_FIRST_FRAME_MISSING" in x["blockers"]
     assert "SHOT_CAST_VISIBLE_VOICE_ONLY_UNVERIFIED" in x["blockers"]
     assert "SHOT_CAMERA_ANGLE_NOT_APPROVED" in x["blockers"]
-    assert "LOCATION_ANGLE_OR_VIEW_NOT_APPROVED" in x["blockers"]
+    assert "LOCATION_OWNER_PLATE_MISSING" in x["blockers"]
     assert all(r["tag"] in i2v.ONLY_TAGS for r in x["reference_characters"])
 
 

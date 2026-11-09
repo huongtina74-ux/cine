@@ -115,6 +115,8 @@ def load(root: Path=ROOT, episode_id: str="BL-0001", stage: str="story", shot_id
             elif key==stage:
                 missing_skill_paths.append(p)
         skills[key]=skill_files
+    reconciled=(lock.get("shot_reconciliation_20261109",{}).get("revision")=="v2.2_270_shot_one_to_one"
+                and mapping.get("director_revision","").startswith("2026-11-09_V2_2"))
     out={
         "schema":"cine.bell_leaf.resolved_context.v1",
         "series_id":"bell_leaf","niche_id":"magical_witch_family_stories",
@@ -143,7 +145,9 @@ def load(root: Path=ROOT, episode_id: str="BL-0001", stage: str="story", shot_id
         "private_owner_sources_present_on_this_checkout":bool(private_present),
         "production_authorized":False,
         "human_story_approval":False,
-        "warnings":["EP001_V2_TREATMENT_NOT_270_SHOT_V2_SCREENPLAY","EP001_V1_1_SHOTS_HISTORICAL_ONLY","MEDIA_AND_VOICE_QC_NOT_IMPLIED"] + (["PRIVATE_OWNER_SOURCE_NOT_MOUNTED_PUBLIC_ONLY"] if not private_present else []) + ["SKILL_FILE_MISSING:"+s for s in missing_skill_paths],
+        "warnings":(["EP001_V2_2_270_SHOTS_RECONCILED_EDITORIAL_QC_PENDING"] if reconciled else
+                    ["EP001_V2_TREATMENT_NOT_270_SHOT_V2_SCREENPLAY","EP001_V1_1_SHOTS_HISTORICAL_ONLY"])
+                    + ["MEDIA_AND_VOICE_QC_NOT_IMPLIED"] + (["PRIVATE_OWNER_SOURCE_NOT_MOUNTED_PUBLIC_ONLY"] if not private_present else []) + ["SKILL_FILE_MISSING:"+s for s in missing_skill_paths],
     }
     if stage=="next":
         out["proposed_episode_state"]="NEW_PITCH_ONLY_NOT_WRITTEN_OR_APPROVED"
@@ -162,7 +166,8 @@ def load(root: Path=ROOT, episode_id: str="BL-0001", stage: str="story", shot_id
         out["all_30_scene_cards"]=scenes
         if include_story_text:
             out["complete_30_scene_treatment"]=get_path(root,ep_cfg["story_treatment"]).read_text(encoding="utf-8-sig")
-        out["editorial_status"]="WRITERS_REFERENCE_NOT_APPROVED_SCREENPLAY"
+        out["editorial_status"]=("RECONCILED_270_SHOT_DRAFT_INDEPENDENT_EDITOR_REVIEW_REQUIRED" if reconciled else
+                                  "WRITERS_REFERENCE_NOT_APPROVED_SCREENPLAY")
         return out
     shot=next((x for x in mapping["shots"] if x["shot_id"]==shot_id),None)
     if not shot:fail("SHOT_NOT_FOUND_IN_REGISTERED_EPISODE")
@@ -210,7 +215,9 @@ def load(root: Path=ROOT, episode_id: str="BL-0001", stage: str="story", shot_id
         "director_cast_status":shot.get("shot_cast_director_verification"),
         "camera_status":shot.get("camera_angle_multiview_QC"),
         "image_video_status":shot.get("image_video_final_canon_gate"),
-        "no_external_media_ids_authorized":True
+        "no_external_media_ids_authorized":True,
+        "script_reconciled_v2_2":reconciled,
+        "director_brief":shot.get("shot_director_v2_2") if reconciled else None
     }
     out["character_media"]=selected
     out["location_media"]={
@@ -219,7 +226,8 @@ def load(root: Path=ROOT, episode_id: str="BL-0001", stage: str="story", shot_id
         "verified_local":bool(plate and observed==plate["sha256"]),
         "multiview_approved":bool(plate and plate.get("multiangle_production_approved")),
     }
-    out["shot_status"]="UNVERIFIED_V1_1_VISUAL_BINDING_NOT_APPROVED_V2_PRODUCTION"
+    out["shot_status"]=("RECONCILED_V2_2_SHOT_SCRIPT_ART_VOICE_MUSE_QC_PENDING" if reconciled else
+                        "UNVERIFIED_V1_1_VISUAL_BINDING_NOT_APPROVED_V2_PRODUCTION")
     out["warnings"]=list(dict.fromkeys(warnings))
     return out
 
