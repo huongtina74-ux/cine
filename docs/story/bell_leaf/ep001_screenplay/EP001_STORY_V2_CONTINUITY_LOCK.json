@@ -1225,5 +1225,15 @@
       "payoff_at": "SC-020/SC-028",
       "restriction": "Evan's ignorance intact; one more chair at table"
     }
-  ]
+  ],
+  "opening_hook_revision_20261109": {
+    "shot_1": "S001 historical Veylora disaster with MARA ORIN only",
+    "shot_2": "S002 ordinary cup noise and MARA reaction by second 15 at Earth kitchen",
+    "same_event_as": "SC-006",
+    "not_new_disaster": true,
+    "no_ancestral_family_at_disaster": true,
+    "no_villain_identity_reveal": true,
+    "owner_canon_mutations": [],
+    "story_status": "DRAFT_NEEDS_INDEPENDENT_EDITOR_REVIEW"
+  }
 }

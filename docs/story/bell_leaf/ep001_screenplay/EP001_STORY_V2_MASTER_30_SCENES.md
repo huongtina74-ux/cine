@@ -13,7 +13,7 @@
 5. Never send spoiler Showrunner source, private identities or invented reference faces to external services.
 
 ## Pitch and emotional engine
-A fun imperfect breakfast is interrupted by a harmless two-note spoon sound that opens Mara's painful memory of Veylora. A once-thriving world had been losing Living Current across generations before an unidentified operator overrode the bell station's safety limit; Elara was left behind saving others. Orin and Mara accidentally fell to unmapped Earth and, after slow plant regrowth, built a second life. Years later Aila arrives voluntarily on a safe verified old-world relay. Her copper suitcase unexpectedly floats from afterpulses, putting an ordinary bird's nest, the family's secret and her sister's keepsakes at risk. Juno's copper fix makes it worse; a consent-based wood/linen solution is verified twice. Aila chooses a safe garden room. The blue stone sounds a different unknown-world echo to Bubu, but no gate opens and Aila's sister remains lost.
+A truthful ten-second historical Veylora disaster with Mara and Orin saving others opens the story; an ordinary two-note spoon sound in the Earth family kitchen then freezes Mara by second fifteen, before the warm breakfast. A once-thriving world had been losing Living Current across generations before an unidentified operator overrode the bell station's safety limit; Elara was left behind saving others. Orin and Mara accidentally fell to unmapped Earth and, after slow plant regrowth, built a second life. Years later Aila arrives voluntarily on a safe verified old-world relay. Her copper suitcase unexpectedly floats from afterpulses, putting an ordinary bird's nest, the family's secret and her sister's keepsakes at risk. Juno's copper fix makes it worse; a consent-based wood/linen solution is verified twice. Aila chooses a safe garden room. The blue stone sounds a different unknown-world echo to Bubu, but no gate opens and Aila's sister remains lost.
 
 **Series promise:** every episode solves its honest local problem with character action, ecology and ethical choices, while advancing only an earned and bounded long-term mystery. Do not replay identical props, mechanism, high stakes and payoff as if a new episode.
 
@@ -22,6 +22,9 @@ A fun imperfect breakfast is interrupted by a harmless two-note spoon sound that
 ### ACT 1 — THE HOUSE WITH TWO NOTES (00:00–09:00)
 
 #### SC-001 — A Very Strange, Very Normal Morning | 00:00–01:30 | S001–S009
+**Owner-directed opening revision (2026-11-09; editorial approval pending):** S001 [00:00–00:10] is a REAL past Veylora disaster preview, with MARA and ORIN only; S002 [00:10–00:20] returns to the ordinary Earth kitchen with BIX/MARA and repeats the cup sound by 15 seconds. This is the same historical catastrophe later explained in SC-006, not a second catastrophe. The past station plate is not approved, so production art/video is BLOCKED. The remaining 270 ten-second slots and 45-minute target do not change.
+
+
 **Bối cảnh:** Bell & Leaf kitchen, Earth, morning. **Nhân vật:** MARA, EVAN, JUNO, LIA, BIX, BUBU.
 
 Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại.

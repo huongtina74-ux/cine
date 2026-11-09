@@ -51,3 +51,6 @@ Use a new episode draft revision and a Story Doctor diff before overwriting any 
 
 ## Revision 1.1: family-first opening (owner-requested)
 First 00:00–03:00: family lives in an ordinary kitchen, with Evan's postman bag, Juno/Bix breakfast comedy, Lia's bird care and Bubu's hidden sparkling purple tail. A cup makes an ordinary broken two-note sound that reminds Mara of Veylora. 03:00–15:00: controlled flashback of Veylora's decline, sabotage and Earth's gradual recovery. At 15:00 the camera returns to the SAME morning, not a new day, and the family visits Arthur and Rose. SC-013 onward (Aila's gate and rescue) keeps its original timings and story. This is a screenplay draft and not permission to alter any locked Canon source.
+
+## EP001 first-15s opening revision (2026-11-09; STILL DRAFT)
+S001 now previews the real historical Veylora bell catastrophe with Mara and Orin only. At S002, an ordinary two-note cup clink in the current Earth kitchen links to Mara's memory by second 15. No change to 270 slots, 10s/shot, total 45min or protected original owner Canon. S001 station geometry does not yet have an approved plate. Editorial, actor voice, camera and actual Muse art approval are PENDING.
