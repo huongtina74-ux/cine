@@ -496,7 +496,28 @@
       },
       "allowed_factory_modes": [
         "A2_ANIMATED_SCREENPLAY"
-      ]
+      ],
+      "opening_hook_policy": {
+        "schema": "cine.bell_leaf.opening_hook.v1",
+        "required_from": "2026-11-09",
+        "mandatory_for_every_episode": true,
+        "first_audience_question_by_seconds": 15,
+        "fixed_shot_duration_seconds": 10,
+        "allowed_types": [
+          "DISASTER_TEASER",
+          "MYSTERY",
+          "EMOTIONAL_CHOICE",
+          "VISUAL_SURPRISE",
+          "COMEDIC_PROBLEM",
+          "URGENT_PROMISE",
+          "UNEXPECTED_WORLD_RULE"
+        ],
+        "variation": "Veylora disaster teaser for EP001 ONLY. Each later episode needs a DISTINCT story-specific truthful hook.",
+        "cast_chronology": "Evan, Juno, Lia, Bix, Bubu and Earth grandparents NEVER appear in historical Veylora.",
+        "no_fabrication": "No misleading threat, fake spoiler, generic montage, intro logo, subtitle or lengthy A2 exposition before hook.",
+        "check": "tools/bell_leaf/opening_hook_gate.py and tools/cf_story_quality_gate.py",
+        "editor_review": "Structural checks do not prove retention or art approval."
+      }
     }
   }
 }

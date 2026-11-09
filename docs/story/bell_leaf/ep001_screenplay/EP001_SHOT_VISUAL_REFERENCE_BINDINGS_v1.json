@@ -6,7 +6,7 @@
   "character_registry": "config/niches/slow_english_a2/OWNER_VISUAL_REFERENCE_BIBLE_20261108.json",
   "location_registry": ".claude/skills/cine-a2-muse-reference-anchoring/integration/config/LOCATION_CURRENT.json",
   "source_screenplay": "docs/story/bell_leaf/ep001_screenplay/EP001_FULL_45MIN_SHOOTING_SCREENPLAY_DRAFT.md",
-  "inference_warning": "Shot cast tags inferred from screenplay mentions and speaking cues; director must correct framing/voice-only before any prompt generation. All shot final media gates remain blocked.",
+  "inference_warning": "Shot cast tags inferred from screenplay mentions and speaking cues; director must correct framing/voice-only before any prompt generation. All shot final media gates remain blocked. 2026-11-09 S001 is historical MARA+ORIN with missing station plate; S002 Earth MARA+BIX. Art and editorial still pending.",
   "no_unapproved_character_media_ids": true,
   "never_append_all_scene_characters": true,
   "shots": [
@@ -15,36 +15,37 @@
       "shot_id": "S001",
       "scene_id": "SC-001",
       "timecode": "00:00–00:10",
-      "site_id": "BELL",
-      "space_id": "BH-KITCHEN",
-      "location_anchor_id": "BELL_KITCHEN_DAY",
-      "owner_location_plate_path": "assets/canon/location_refs/slow_english_a2/bell_leaf/owner_provided_20261108/plates/BELL_KITCHEN_DAY.png",
-      "owner_location_plate_sha256": "be427e55a5b36ab962db04637df41c7483c7807e56c5e7699f70ab0288f0fe80",
-      "location_evidence_status": "OWNER_SINGLE_VIEW_ONLY_MULTIVIEW_NOT_APPROVED",
+      "site_id": null,
+      "space_id": null,
+      "location_anchor_id": null,
+      "owner_location_plate_path": null,
+      "owner_location_plate_sha256": null,
+      "location_evidence_status": "MISSING_VEYLORA_HISTORICAL_STATION_OWNER_PLATE",
       "active_character_tags_candidate": [
-        "BIX",
-        "MARA"
+        "MARA",
+        "ORIN"
       ],
-      "active_tags_line": "ACTIVE TAGS FOR THIS SHOT: [BIX, MARA]",
+      "active_tags_line": "ACTIVE TAGS FOR THIS SHOT: [MARA, ORIN]",
       "character_reference_paths": {
-        "BIX": {
-          "face": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/face_exact_pixel_crop.png",
-          "hero": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/hero_exact_pixel_crop.png",
-          "sheet": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/BIX_source_sheet.png"
-        },
         "MARA": {
           "face": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/face_exact_pixel_crop.png",
           "hero": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/hero_exact_pixel_crop.png",
           "sheet": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/MARA_source_sheet.png"
+        },
+        "ORIN": {
+          "face": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ORIN/face_exact_pixel_crop.png",
+          "hero": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/ORIN/hero_exact_pixel_crop.png",
+          "sheet": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/ORIN_source_sheet.png"
         }
       },
       "audio_only_character_tags_candidate": [],
       "characters_without_approved_visuals": [],
       "referenceImageMediaIds": [],
       "reference_image_upload_state": "NOT_UPLOADED_NO_PROVIDER_IDS",
-      "shot_cast_director_verification": "PENDING",
+      "shot_cast_director_verification": "PENDING_PAST_STATION_AND_COSTUME_APPROVAL",
       "camera_angle_multiview_QC": "PENDING",
-      "image_video_final_canon_gate": "BLOCKED_PENDING_HUMAN_MULTIVIEW_SHOT_REVIEW"
+      "image_video_final_canon_gate": "BLOCKED_PENDING_HUMAN_MULTIVIEW_SHOT_REVIEW",
+      "timeline": "VEYLORA_PAST_HISTORICAL_COLD_OPEN"
     },
     {
       "episode_id": "BL-0001",
@@ -58,14 +59,20 @@
       "owner_location_plate_sha256": "be427e55a5b36ab962db04637df41c7483c7807e56c5e7699f70ab0288f0fe80",
       "location_evidence_status": "OWNER_SINGLE_VIEW_ONLY_MULTIVIEW_NOT_APPROVED",
       "active_character_tags_candidate": [
-        "EVAN"
+        "MARA",
+        "BIX"
       ],
-      "active_tags_line": "ACTIVE TAGS FOR THIS SHOT: [EVAN]",
+      "active_tags_line": "ACTIVE TAGS FOR THIS SHOT: [MARA, BIX]",
       "character_reference_paths": {
-        "EVAN": {
-          "face": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/EVAN/face_exact_pixel_crop.png",
-          "hero": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/EVAN/hero_exact_pixel_crop.png",
-          "sheet": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/EVAN_source_sheet.png"
+        "MARA": {
+          "face": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/face_exact_pixel_crop.png",
+          "hero": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/MARA/hero_exact_pixel_crop.png",
+          "sheet": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/MARA_source_sheet.png"
+        },
+        "BIX": {
+          "face": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/face_exact_pixel_crop.png",
+          "hero": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/extracted_refs/BIX/hero_exact_pixel_crop.png",
+          "sheet": "assets/canon/character_refs/slow_english_a2/bell_leaf/v2_owner_locked_20261107/original_sheets/BIX_source_sheet.png"
         }
       },
       "audio_only_character_tags_candidate": [],
@@ -74,7 +81,8 @@
       "reference_image_upload_state": "NOT_UPLOADED_NO_PROVIDER_IDS",
       "shot_cast_director_verification": "PENDING",
       "camera_angle_multiview_QC": "PENDING",
-      "image_video_final_canon_gate": "BLOCKED_PENDING_HUMAN_MULTIVIEW_SHOT_REVIEW"
+      "image_video_final_canon_gate": "BLOCKED_PENDING_HUMAN_MULTIVIEW_SHOT_REVIEW",
+      "timeline": "EARTH_PRESENT_KITCHEN"
     },
     {
       "episode_id": "BL-0001",

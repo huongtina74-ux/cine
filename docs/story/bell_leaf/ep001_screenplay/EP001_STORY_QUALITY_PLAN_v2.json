@@ -35,7 +35,7 @@
   },
   "story": {
     "title": "The Bell That Fell from the Sky",
-    "hook": "An ordinary spoon produces two uneven notes during the Bell family breakfast; Mara's pause reveals a scarred Veylora tree and begins a memory of how her first world was lost.",
+    "hook": "The first ten seconds reveal an authentic historic Veylora bell disaster with Mara and Orin saving people. By the fifteenth second, a harmless cup clink in the future Earth kitchen freezes Mara and frames her family's mystery.",
     "goal": "After the catastrophe separates her family, Mara must protect the new home she finds on Earth and help a Veylora refugee named Aila feel safe enough to choose what comes next.",
     "central_conflict": "Aila's old copper suitcase rises when a repaired Earth fixed gate rings; the quick fix could damage the possessions and markings linked to her missing little sister.",
     "stakes": "The moving suitcase could hurt an ordinary Earth bird nest, reveal magic to Evan and Bellfern neighbors, and make Aila lose the only family keepsakes that survived her escape.",
@@ -44,7 +44,7 @@
     "resolution": "Juno admits the copper brace made things worse; Mara offers Aila a reversible choice, and Juno, Bix, Lia, Mara and Aila test wood-and-linen damping through two station pulses before moving her luggage safely.",
     "emotional_change": "Mara moves from trying to protect everybody alone to making one real safe refuge and letting Aila decide. Juno moves from instant clever fixes to tested evidence and apologizing.",
     "lasting_consequence": "Aila voluntarily stays in a small garden guest room with her folded star drawing; her sister remains missing, Orin's next verified relay is pending, and the blue stone echoes a new unknown world.",
-    "why_this_episode": "Family-first origin opens with tangible ordinary life, then explains generational Veylora loss, accidental Earth settlement, limited magic, and Aila's earned first refuge with ethical choices.",
+    "why_this_episode": "An honest ten-second historical disaster tease, then family breakfast, establishes Mara's lost world and the emotional reason she later offers Aila a choice and safe refuge.",
     "originality_difference": "A harmless cup clink links domestic comedy to a twelve-minute grief flashback; a voluntary refugee's copper suitcase afterpulse crisis is solved by consent and two physical damping tests, without new free portals."
   },
   "beats": [
@@ -54,7 +54,7 @@
       "start_s": 0,
       "end_s": 180,
       "caused_by": [],
-      "visible_action": "Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại. Juno bảo Bix mang bánh mì bằng khay mới. Bix chạy được nhưng cú quay đầu làm chiếc kẹp lỏng, sữa bắn ra khăn. Juno giấu dụng cụ vì xấu hổ. Mara nhẹ nhàng buộc cậu chỉ ra chỗ hỏng, tự lắp lại kẹp và thử. Bubu giấu sau ghế Lia, đuôi tím xoắn vẫn tỏa sáng, một chuông vàng duy nhất; Evan không nhìn thấy điều không thể giải thích. Lần thử cuối, khay đi qua bàn an toàn. Mara chạm vết sẹo cây và flashback bắt đầu ở đúng phút 03:00.",
+      "visible_action": "S001 Veylora past disaster teaser with Mara and Orin ONLY; S002 real Earth spoon-cup sound triggers Mara by second 15. Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại. Juno bảo Bix mang bánh mì bằng khay mới. Bix chạy được nhưng cú quay đầu làm chiếc kẹp lỏng, sữa bắn ra khăn. Juno giấu dụng cụ vì xấu hổ. Mara nhẹ nhàng buộc cậu chỉ ra chỗ hỏng, tự lắp lại kẹp và thử. Bubu giấu sau ghế Lia, đuôi tím xoắn vẫn tỏa sáng, một chuông vàng duy nhất; Evan không nhìn thấy điều không thể giải thích. Lần thử cuối, khay đi qua bàn an toàn. Mara chạm vết sẹo cây và flashback bắt đầu ở đúng phút 03:00.",
       "obstacle": "Vì sao Mara sợ hai tiếng chạm cốc, và vết sẹo trên cây là gì? Chiếc cây ấy có ý nghĩa gì đối với mẹ?",
       "character_choice": "Mara chọn che nỗi đau bằng một câu trả lời thật nhưng chưa đầy đủ, thay vì tiết lộ phép thuật với Evan. Juno chọn thú nhận kẹp bị lỏng, thay cho đổ lỗi robot. Mara dạy kiểm tra lỗi nhỏ không bằng bài giảng dài.",
       "immediate_consequence": "Khán giả được gắn bó với gia đình trước khi biết thảm họa. Âm thanh thường nhật trở thành cánh cửa ký ức, hoàn toàn KHÔNG là tín hiệu phép. Gieo vòng cung kỹ thuật và đạo đức của Juno: nói thật, kiểm tra rồi mới kết luận. Đặt âm thanh làm match cut về quá khứ.",
@@ -323,9 +323,9 @@
       "beat_id": "B01",
       "start_s": 0,
       "end_s": 90,
-      "location": "Bell & Leaf kitchen, Earth, morning",
-      "scene_purpose": "Vì sao Mara sợ hai tiếng chạm cốc, và vết sẹo trên cây là gì? — Mara chọn che nỗi đau bằng một câu trả lời thật nhưng chưa đầy đủ, thay vì tiết lộ phép thuật với Evan.",
-      "observable_character_action": "Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại.",
+      "location": "S001 historical Veylora fixed station, plate UNAPPROVED; S002-S009 Bell & Leaf Earth kitchen.",
+      "scene_purpose": "Create a truthful mystery by second fifteen, then establish loving present-day family life without exposing the saboteur.",
+      "observable_character_action": "Orin braces the damaged Veylora bell control; Mara helps evacuees. Cut to Bix tapping a cup and Mara reacting by 15 seconds. Bix gõ chiếc thìa kim loại vào cốc thành hai nốt chênh nhau. Juno tự hào về khay chở bánh mì; Evan sắp thư trong túi phát thư; Lia nhìn chim bên cửa sổ. Mara đang vui thì bất chợt sững người trước âm thanh tưởng như vô hại. Evan nhận ra vợ buồn nhưng không ép cô kể. Cây Veylora xanh tốt cạnh cửa sổ có một vết sẹo nâu vẫn tồn tại.",
       "new_information_or_change": "Khán giả được gắn bó với gia đình trước khi biết thảm họa. Âm thanh thường nhật trở thành cánh cửa ký ức, hoàn toàn KHÔNG là tín hiệu phép.",
       "source_event_id": "breakfast_two_note_clink_triggers_mara_memory"
     },
@@ -801,5 +801,53 @@
     "Are all dialogue durations actual real A2 table reads rather than assumed 10s just because 270 shot rows exist?"
   ],
   "source_reference": "EP001_STORY_V2_CONTINUITY_LOCK.json",
-  "story_revision": "v2.0_family_first"
+  "story_revision": "v2.0_family_first",
+  "opening_hook": {
+    "schema": "cine.bell_leaf.opening_hook.v1",
+    "revision": "2026-11-09_OWNER_DIRECTED_DRAFT",
+    "hook_type": "DISASTER_TEASER",
+    "target_window_seconds": 15,
+    "fixed_shot_seconds": 10,
+    "only_reuses_existing_slots": true,
+    "viewer_question": "Why did the Veylora bell break, and why does that same uneven sound frighten Mara years later?",
+    "episode_relevance": "This exact historical disaster is recounted in SC-006; the family breakfast frames Mara's past losses and the new rescue story.",
+    "truthful_payoff": "In SC-006 the historic safety system is deliberately overridden, but the true operator identity stays hidden in this episode.",
+    "payoff_scene_id": "SC-006",
+    "editorial_status": "PENDING_INDEPENDENT_REVIEW",
+    "visual_provider_state": "VEYLORA_HISTORICAL_STATION_PLATE_NOT_APPROVED",
+    "shots": [
+      {
+        "shot_id": "S001",
+        "scene_id": "SC-001",
+        "start_s": 0,
+        "end_s": 10,
+        "timeline": "VEYLORA_PAST",
+        "location_tag": "@VEYLORA_HISTORICAL_STATION_PENDING",
+        "visible_tags": [
+          "MARA",
+          "ORIN"
+        ],
+        "trigger_at_s": 2,
+        "physical_action": "A warning chime shakes a historic fixed bell station; Orin braces a failing control while Mara guides people away from cracking stone, and the sky tears open.",
+        "dialogue_en_a2": "Mara, help them get out!",
+        "audio_design": "wrong_two_note_bell"
+      },
+      {
+        "shot_id": "S002",
+        "scene_id": "SC-001",
+        "start_s": 10,
+        "end_s": 20,
+        "timeline": "EARTH_PRESENT",
+        "location_tag": "@BELL_KITCHEN_DAY",
+        "visible_tags": [
+          "MARA",
+          "BIX"
+        ],
+        "reinforce_at_s": 12,
+        "physical_action": "Bix taps a spoon against a cup; the same uneven two notes now sound ordinary and harmless, but Mara freezes and touches a healed scar on her Veylora branch.",
+        "dialogue_en_a2": "",
+        "audio_design": "ordinary_spoon_cup_not_magic_signal"
+      }
+    ]
+  }
 }

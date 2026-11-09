@@ -318,6 +318,11 @@ def evaluate(plan: dict, *, ledger_root: Path = LEDGER_ROOT,
     }) < 3:
         errors.append("THREE_ORIGINALITY_AXES_REQUIRED")
     if niche == "magical_witch_family_stories":
+        try:
+            from tools.bell_leaf.opening_hook_gate import inspect_hook
+        except ModuleNotFoundError:
+            from bell_leaf.opening_hook_gate import inspect_hook
+        errors.extend(inspect_hook(plan)["blocking"])
         legal = {"EVAN", "MARA", "JUNO", "LIA", "BIX", "BUBU", "ORIN",
                  "GRANDPA_EARTH", "GRANDMA_EARTH", "ELARA"}
         cast = plan.get("approved_character_tags") or []
