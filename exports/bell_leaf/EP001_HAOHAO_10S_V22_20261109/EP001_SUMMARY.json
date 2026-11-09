@@ -1,0 +1,20 @@
+{
+  "source": "CINE EP001 v2.2",
+  "total": 270,
+  "eligible": 55,
+  "hold": 215,
+  "multispeaker_hold": 58,
+  "missing_location": 164,
+  "missing_aila": 53,
+  "phantom_cast": 0,
+  "pilot_ids": [
+    "S002",
+    "S003",
+    "S005",
+    "S010",
+    "S011"
+  ],
+  "production_authorized": false,
+  "native_4k_proven": false,
+  "voice_lipsync_proven": false
+}
