@@ -1,0 +1,371 @@
+[
+ {
+  "age": 21,
+  "channel": "Headlamp Guy",
+  "subs": 9120,
+  "videos": 47,
+  "best": 874673,
+  "long_uploads": 8,
+  "median_long": 60886.0
+ },
+ {
+  "age": 23,
+  "channel": "ZSurvive",
+  "subs": 390,
+  "videos": 21,
+  "best": 19480,
+  "long_uploads": 21,
+  "median_long": 2530
+ },
+ {
+  "age": 23,
+  "channel": "Thirty Nights In",
+  "subs": 12,
+  "videos": 6,
+  "best": 846,
+  "long_uploads": 3,
+  "median_long": 673
+ },
+ {
+  "age": 25,
+  "channel": "StickCalypse",
+  "subs": 100,
+  "videos": 23,
+  "best": 13517,
+  "long_uploads": 18,
+  "median_long": 442.0
+ },
+ {
+  "age": 27,
+  "channel": "Wanderer Survives",
+  "subs": 2170,
+  "videos": 7,
+  "best": 155432,
+  "long_uploads": 7,
+  "median_long": 22137
+ },
+ {
+  "age": 27,
+  "channel": "Day by Day Stick",
+  "subs": 3750,
+  "videos": 28,
+  "best": 304113,
+  "long_uploads": 4,
+  "median_long": 10889.0
+ },
+ {
+  "age": 28,
+  "channel": "Melvin Wont Die",
+  "subs": 6460,
+  "videos": 8,
+  "best": 516525,
+  "long_uploads": 6,
+  "median_long": 44411.5
+ },
+ {
+  "age": 29,
+  "channel": "Outlast365",
+  "subs": 3610,
+  "videos": 22,
+  "best": 286810,
+  "long_uploads": 10,
+  "median_long": 21563.5
+ },
+ {
+  "age": 29,
+  "channel": "Stick Survival Log",
+  "subs": 2030,
+  "videos": 17,
+  "best": 126963,
+  "long_uploads": 16,
+  "median_long": 7942.0
+ },
+ {
+  "age": 31,
+  "channel": "Stick It Out",
+  "subs": 1210,
+  "videos": 7,
+  "best": 118820,
+  "long_uploads": 5,
+  "median_long": 37096
+ },
+ {
+  "age": 31,
+  "channel": "Zombie Outbreak",
+  "subs": 171,
+  "videos": 31,
+  "best": 22838,
+  "long_uploads": 26,
+  "median_long": 98.5
+ },
+ {
+  "age": 32,
+  "channel": "Stick Through Collapse",
+  "subs": 8180,
+  "videos": 8,
+  "best": 467807,
+  "long_uploads": 8,
+  "median_long": 43937.5
+ },
+ {
+  "age": 32,
+  "channel": "Bunker Days",
+  "subs": 8240,
+  "videos": 9,
+  "best": 478127,
+  "long_uploads": 9,
+  "median_long": 13482
+ },
+ {
+  "age": 34,
+  "channel": "Survival Simplified",
+  "subs": 1490,
+  "videos": 11,
+  "best": 72358,
+  "long_uploads": 11,
+  "median_long": 30992
+ },
+ {
+  "age": 34,
+  "channel": "One More Day",
+  "subs": 7640,
+  "videos": 36,
+  "best": 237902,
+  "long_uploads": 30,
+  "median_long": 8427.0
+ },
+ {
+  "age": 37,
+  "channel": "Beanie Survives",
+  "subs": 9740,
+  "videos": 11,
+  "best": 533086,
+  "long_uploads": 11,
+  "median_long": 8596
+ },
+ {
+  "age": 40,
+  "channel": "Nobody Gets In",
+  "subs": 66300,
+  "videos": 30,
+  "best": 3887369,
+  "long_uploads": 24,
+  "median_long": 174343.0
+ },
+ {
+  "age": 43,
+  "channel": "Mr. Doomsday",
+  "subs": 15600,
+  "videos": 24,
+  "best": 705287,
+  "long_uploads": 22,
+  "median_long": 37332.5
+ },
+ {
+  "age": 45,
+  "channel": "Kit vs The End",
+  "subs": 13900,
+  "videos": 25,
+  "best": 1015066,
+  "long_uploads": 16,
+  "median_long": 17985.0
+ },
+ {
+  "age": 47,
+  "channel": "Twisted Battles",
+  "subs": 579,
+  "videos": 27,
+  "best": 44646,
+  "long_uploads": 3,
+  "median_long": 27252
+ },
+ {
+  "age": 53,
+  "channel": "Your Other Life",
+  "subs": 1150,
+  "videos": 5,
+  "best": 450815,
+  "long_uploads": 5,
+  "median_long": 4610
+ },
+ {
+  "age": 69,
+  "channel": "Mr. DoomStick",
+  "subs": 6550,
+  "videos": 8,
+  "best": 570196,
+  "long_uploads": 8,
+  "median_long": 25004.5
+ },
+ {
+  "age": 71,
+  "channel": "Wild Instinct",
+  "subs": 6460,
+  "videos": 118,
+  "best": 1134763,
+  "long_uploads": 26,
+  "median_long": 4942.0
+ },
+ {
+  "age": 92,
+  "channel": "StickBunker",
+  "subs": 452,
+  "videos": 14,
+  "best": 18765,
+  "long_uploads": 14,
+  "median_long": 1573.0
+ },
+ {
+  "age": 106,
+  "channel": "WhyThat",
+  "subs": 8020,
+  "videos": 6,
+  "best": 218711,
+  "long_uploads": 6,
+  "median_long": 169735.5
+ },
+ {
+  "age": 145,
+  "channel": "Galactic Highway",
+  "subs": 96600,
+  "videos": 35,
+  "best": 2256188,
+  "long_uploads": 15,
+  "median_long": 53853
+ },
+ {
+  "age": 158,
+  "channel": "Ash Holdout",
+  "subs": 1760,
+  "videos": 18,
+  "best": 51976,
+  "long_uploads": 18,
+  "median_long": 6964.0
+ },
+ {
+  "age": 241,
+  "channel": "Archival Survival Stories",
+  "subs": 2770,
+  "videos": 16,
+  "best": 288553,
+  "long_uploads": 16,
+  "median_long": 7548.0
+ },
+ {
+  "age": 267,
+  "channel": "Beanie Survives",
+  "subs": 110000,
+  "videos": 27,
+  "best": 2925466,
+  "long_uploads": 18,
+  "median_long": 149441.5
+ },
+ {
+  "age": 317,
+  "channel": "StickZerOO",
+  "subs": 102,
+  "videos": 12,
+  "best": 10562,
+  "long_uploads": 12,
+  "median_long": 444.5
+ },
+ {
+  "age": 343,
+  "channel": "StickFallout",
+  "subs": 19000,
+  "videos": 23,
+  "best": 898426,
+  "long_uploads": 18,
+  "median_long": 30888.5
+ },
+ {
+  "age": 494,
+  "channel": "Zombie Days Diaries",
+  "subs": 3160,
+  "videos": 50,
+  "best": 207326,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 506,
+  "channel": "Beany Survival",
+  "subs": 51,
+  "videos": 11,
+  "best": 1507,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 598,
+  "channel": "Stick Mind",
+  "subs": 2750,
+  "videos": 18,
+  "best": 241966,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 757,
+  "channel": "Stick survival ",
+  "subs": 512,
+  "videos": 32,
+  "best": 29624,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 778,
+  "channel": "Marrow  ",
+  "subs": 3210,
+  "videos": 20,
+  "best": 380544,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 1185,
+  "channel": "Undead Survived",
+  "subs": 147000,
+  "videos": 10,
+  "best": 62066,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 1969,
+  "channel": "Stick Survives",
+  "subs": 2620,
+  "videos": 18,
+  "best": 354390,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 2564,
+  "channel": "One Year Inside",
+  "subs": 28400,
+  "videos": 67,
+  "best": 2588978,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 3035,
+  "channel": "Stickvival",
+  "subs": 1290,
+  "videos": 15,
+  "best": 110444,
+  "long_uploads": 0,
+  "median_long": null
+ },
+ {
+  "age": 3218,
+  "channel": "Nevermund",
+  "subs": 14400,
+  "videos": 12,
+  "best": 44,
+  "long_uploads": 0,
+  "median_long": null
+ }
+]

@@ -1,0 +1,145 @@
+"""Audit 2026-11-11 steps 3-4: cleaned per-format metrics, sensitivity runs, strict new-channel breakouts.
+Reads classified_videos.json (this folder) + uploads.json/channels.json (read-only dataset copy). Writes metrics.md + breakouts.json.
+Percentiles: linear interpolation (numpy 'linear' method). Report date 2026-11-11 15:31Z (API fetch time).
+"""
+import json
+import os
+import re
+import sys
+from datetime import datetime, timezone
+
+DATA = sys.argv[1] if len(sys.argv) > 1 else '/mnt/user-data/uploads/Downloads/cine_niche_survey/out/2026-11-11_niche_compare/'
+HERE = os.path.dirname(os.path.abspath(__file__))
+V = json.load(open(os.path.join(HERE, 'classified_videos.json')))
+U = json.load(open(os.path.join(DATA, 'uploads.json')))
+C = json.load(open(os.path.join(DATA, 'channels.json')))
+NOW = datetime(2026, 11, 11, 15, 31, tzinfo=timezone.utc)
+NAMES = {'A1': 'Minecraft real gameplay', 'A1s': '  of which apocalypse/survival-tagged', 'A2': 'Minecraft cinematic / machinima',
+         'A3': 'Independent 2D zombie survival animation', 'A4': 'Independent 3D survival animation', 'A5': 'Minecraft horror mod gameplay',
+         'A6': 'Minecraft mystery / ARG', 'A7': 'Minecraft engineering / redstone', 'A8': 'Minecraft lore / history', 'A9': 'Other / unverified'}
+
+
+def pct(xs, q):
+    xs = sorted(xs)
+    if not xs:
+        return 0
+    k = (len(xs) - 1) * q
+    f = int(k)
+    return xs[f] + (xs[min(f + 1, len(xs) - 1)] - xs[f]) * (k - f)
+
+
+def dur(d):
+    m = re.match(r'P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?', d or '')
+    a = [int(x or 0) for x in m.groups()]
+    return a[0] * 86400 + a[1] * 3600 + a[2] * 60 + a[3]
+
+
+def ts(s):
+    return datetime.fromisoformat(re.sub(r'\.\d+', '', s.replace('Z', '+00:00')))
+
+
+def created(cid):
+    return ts(C[cid]['snippet']['publishedAt'])
+
+
+def chan_long(cid, min_s):
+    """All known long videos of a channel: sampled + uploads (uploads exist only for channels <= 365 d)."""
+    vids = {v['video_id']: (v['views'], ts(v['published']), v['duration_s'], v['title']) for v in V if v['channel_id'] == cid}
+    for u in U.get(cid, []):
+        vids[u['id']] = (u['views'], ts(u['pub']), dur(u['dur']), u['t'])
+    return {k: x for k, x in vids.items() if x[2] >= min_s}
+
+
+SPINOFF = re.compile(r"plus$|\+$|2$|v2$|movies?$|archive|clips|live$|raw$|but more|games$|squad|family$| - |creepypasta", re.I)
+
+
+def block(min_s, max_subs=None, lines=None):
+    sel = [v for v in V if v['english'] and v['duration_s'] >= min_s and (max_subs is None or v['channel_subs'] <= max_subs)]
+    groups = {k: [v for v in sel if v['primary_format'] == k] for k in ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9']}
+    groups['A1s'] = [v for v in groups['A1'] if 'apocalypse_survival' in v['secondary_tags']]
+    hdr = ('| Format | Videos | Channels | Median | P75 | P90 | P95 | >=100K | >=500K | >=1M | Median length | Ch <=30 d | Ch <=90 d | Ch <=365 d | '
+           'New ch with >=100K long | with >=1M | with 2x >=1M | repeat (>=3 long >=100K) | spin-off name | low-conf share |')
+    lines += [hdr, '|' + '---|' * 20]
+    res = {}
+    for k in ['A1', 'A1s', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9']:
+        g = groups[k]
+        if not g:
+            lines.append(f'| {k} {NAMES[k]} | 0 |' + ' |' * 19)
+            continue
+        vs = [v['views'] for v in g]
+        chs = {v['channel_id'] for v in g}
+        age = {c: (NOW - created(c)).days for c in chs}
+        new = [c for c in chs if age[c] <= 365]
+        hit, m1, m2, rep, spin = [], [], [], [], []
+        for c in new:
+            lv = chan_long(c, min_s)
+            big = [x for x in lv.values() if x[0] >= 100_000]
+            if big:
+                hit.append(c)
+            if sum(1 for x in lv.values() if x[0] >= 1_000_000) >= 1:
+                m1.append(c)
+            if sum(1 for x in lv.values() if x[0] >= 1_000_000) >= 2:
+                m2.append(c)
+            if len(big) >= 3:
+                rep.append(c)
+            if big and SPINOFF.search(C[c]['snippet']['title'].strip()):
+                spin.append(c)
+        n = len(g)
+        res[k] = dict(n=n, med=pct(vs, .5), new_hit=len(hit), m1=len(m1), m2=len(m2), rep=len(rep))
+        lines.append(
+            f"| {k} {NAMES[k]} | {n} | {len(chs)} | {pct(vs, .5) / 1e3:,.0f}K | {pct(vs, .75) / 1e3:,.0f}K | {pct(vs, .9) / 1e3:,.0f}K | "
+            f"{pct(vs, .95) / 1e3:,.0f}K | {100 * sum(x >= 1e5 for x in vs) / n:.0f}% | {100 * sum(x >= 5e5 for x in vs) / n:.0f}% | "
+            f"{100 * sum(x >= 1e6 for x in vs) / n:.0f}% | {pct([v['duration_s'] for v in g], .5) / 60:.0f} m | "
+            f"{sum(a <= 30 for a in age.values())} | {sum(a <= 90 for a in age.values())} | {len(new)} | {len(hit)} | {len(m1)} | {len(m2)} | "
+            f"{len(rep)} | {len(spin)} | {100 * sum(v['classification_confidence'] == 'low' for v in g) / n:.0f}% |")
+    return res
+
+
+lines = ['# Cleaned metrics (generated by metrics.py)', '',
+         'Sample: English (ESTIMATED), primary_format mutually exclusive, published 2026-10-11..2026-11-11 (search filter "this month").',
+         'New-channel columns use channel created date from channels.list (VERIFIED) and long videos from sample + uploads (uploads only for',
+         'channels <= 365 d). "spin-off name" = channel name pattern suggests an established creator (INFERRED, not verified).', '']
+allres = {}
+for min_s, lab in ((240, '>= 4 min'), (480, '>= 8 min (PRIMARY)'), (900, '>= 15 min')):
+    lines += [f'## {lab}', '']
+    allres[lab] = block(min_s, None, lines)
+    lines.append('')
+for cap, lab in ((1_000_000, 'excluding channels > 1M subs'), (100_000, 'excluding channels > 100K subs')):
+    lines += [f'## Sensitivity, >= 8 min, {lab}', '']
+    allres[lab] = block(480, cap, lines)
+    lines.append('')
+
+# ---- strict Tier-A and historical early breakouts (>= 8 min) ----
+bk = []
+for cid in {v['channel_id'] for v in V}:
+    cr = created(cid)
+    age_now = (NOW - cr).days
+    lv = chan_long(cid, 480)
+    m = [(k, x) for k, x in lv.items() if x[0] >= 1_000_000]
+    early = [(k, x) for k, x in m if (x[1] - cr).days <= 30]
+    recent = [(k, x) for k, x in m if (NOW - x[1]).days <= 14]
+    tierA = age_now <= 30 and len(recent) >= 2
+    pair14 = any(abs((a[1][1] - b[1][1]).days) <= 14 for i, a in enumerate(early) for b in early[i + 1:])
+    if early or tierA:
+        fmt = next(v['primary_format'] for v in V if v['channel_id'] == cid)
+        bk.append(dict(channel=C[cid]['snippet']['title'].strip(), channel_id=cid, url='https://www.youtube.com/channel/' + cid,
+                       created=cr.date().isoformat(), age_days=age_now, subs=int(C[cid]['statistics'].get('subscriberCount', 0)),
+                       public_videos=int(C[cid]['statistics'].get('videoCount', 0)), format=fmt, tierA=tierA,
+                       early_1M=len(early), early_2x1M=len(early) >= 2, early_pair_within_14d=pair14,
+                       videos=[dict(id=k, url='https://youtu.be/' + k, title=x[3], published=x[1].date().isoformat(), minutes=round(x[2] / 60),
+                                    views=x[0], channel_age_at_publish=(x[1] - cr).days, crossed_1M_date='UNKNOWN') for k, x in early]))
+bk.sort(key=lambda b: (-b['early_1M'], b['age_days']))
+json.dump(bk, open(os.path.join(HERE, 'breakouts.json'), 'w'), indent=1, ensure_ascii=False)
+lines += ['## Strict Tier-A (age <= 30 d, >= 2 long >= 8 min with >= 1M, both published in last 14 d)', '',
+          f"Qualifying channels: {sum(b['tierA'] for b in bk)}", '',
+          '## Historical early breakout (a >= 8 min video with >= 1M views TODAY that was published <= 30 d after channel creation)', '',
+          'Coverage: sampled videos for all channels; full recent uploads only for channels <= 365 d old. Older channels may be missed.', '',
+          '| Channel | Format | Created | Age | Subs | 1M+ early videos | 2x | pair <=14 d | Video (published, age at publish, minutes, views) |',
+          '|---|---|---|---|---|---|---|---|---|']
+for b in bk:
+    vids = '; '.join(f"{x['title'][:48]} ({x['published']}, d{x['channel_age_at_publish']}, {x['minutes']} m, {x['views'] / 1e6:.2f}M)" for x in b['videos'])
+    lines.append(f"| {b['channel']} | {b['format']} | {b['created']} | {b['age_days']} d | {b['subs'] / 1e3:.1f}K | {b['early_1M']} | "
+                 f"{'yes' if b['early_2x1M'] else 'no'} | {'yes' if b['early_pair_within_14d'] else 'no'} | {vids} |")
+open(os.path.join(HERE, 'metrics.md'), 'w').write('\n'.join(lines) + '\n')
+json.dump(allres, open(os.path.join(HERE, 'metrics_summary.json'), 'w'), indent=1)
+print('\n'.join(lines))
