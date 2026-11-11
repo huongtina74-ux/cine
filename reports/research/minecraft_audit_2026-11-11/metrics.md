@@ -10,14 +10,14 @@ channels <= 365 d). "spin-off name" = channel name pattern suggests an establish
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | A1 Minecraft real gameplay | 195 | 148 | 84K | 441K | 1,476K | 2,060K | 46% | 24% | 14% | 40 m | 5 | 14 | 35 | 14 | 6 | 3 | 7 | 2 | 93% |
 | A1s   of which apocalypse/survival-tagged | 105 | 75 | 85K | 325K | 923K | 1,243K | 45% | 19% | 9% | 74 m | 1 | 2 | 13 | 8 | 4 | 2 | 4 | 0 | 90% |
-| A2 Minecraft cinematic / machinima | 100 | 62 | 380K | 1,428K | 3,673K | 4,465K | 69% | 46% | 39% | 22 m | 1 | 3 | 8 | 8 | 2 | 1 | 5 | 3 | 33% |
+| A2 Minecraft cinematic / machinima | 99 | 61 | 400K | 1,431K | 3,687K | 4,466K | 70% | 46% | 39% | 22 m | 1 | 3 | 7 | 7 | 1 | 1 | 4 | 2 | 32% |
 | A3 Independent 2D zombie survival animation | 17 | 13 | 533K | 1,135K | 2,445K | 3,118K | 94% | 53% | 35% | 25 m | 1 | 7 | 10 | 10 | 5 | 2 | 5 | 0 | 0% |
 | A4 Independent 3D survival animation | 0 | | | | | | | | | | | | | | | | | | | |
 | A5 Minecraft horror mod gameplay | 136 | 79 | 345K | 939K | 1,639K | 2,114K | 67% | 38% | 25% | 29 m | 0 | 3 | 14 | 11 | 4 | 2 | 10 | 2 | 33% |
 | A6 Minecraft mystery / ARG | 49 | 47 | 16K | 127K | 654K | 1,095K | 29% | 12% | 6% | 32 m | 7 | 7 | 11 | 3 | 1 | 1 | 2 | 0 | 78% |
 | A7 Minecraft engineering / redstone | 53 | 50 | 108K | 414K | 1,714K | 2,862K | 51% | 23% | 15% | 18 m | 3 | 5 | 10 | 3 | 1 | 1 | 3 | 1 | 58% |
 | A8 Minecraft lore / history | 64 | 55 | 4K | 104K | 573K | 989K | 25% | 11% | 6% | 17 m | 5 | 10 | 15 | 1 | 0 | 0 | 0 | 0 | 77% |
-| A9 Other / unverified | 64 | 60 | 560K | 991K | 2,735K | 6,911K | 86% | 52% | 25% | 20 m | 0 | 0 | 7 | 7 | 2 | 0 | 2 | 0 | 19% |
+| A9 Other / unverified | 65 | 61 | 535K | 985K | 2,732K | 6,723K | 85% | 51% | 25% | 20 m | 0 | 0 | 8 | 8 | 3 | 0 | 3 | 1 | 18% |
 
 ## >= 8 min (PRIMARY)
 
@@ -25,14 +25,14 @@ channels <= 365 d). "spin-off name" = channel name pattern suggests an establish
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | A1 Minecraft real gameplay | 179 | 132 | 90K | 519K | 1,520K | 2,085K | 47% | 26% | 16% | 46 m | 2 | 11 | 29 | 14 | 6 | 3 | 7 | 2 | 93% |
 | A1s   of which apocalypse/survival-tagged | 103 | 73 | 88K | 326K | 934K | 1,244K | 46% | 19% | 9% | 75 m | 1 | 2 | 13 | 8 | 4 | 2 | 4 | 0 | 90% |
-| A2 Minecraft cinematic / machinima | 93 | 56 | 442K | 1,630K | 3,766K | 4,470K | 72% | 49% | 42% | 23 m | 1 | 3 | 8 | 6 | 2 | 1 | 5 | 3 | 29% |
+| A2 Minecraft cinematic / machinima | 92 | 55 | 482K | 1,638K | 3,779K | 4,470K | 73% | 50% | 42% | 23 m | 1 | 3 | 7 | 5 | 1 | 1 | 4 | 2 | 28% |
 | A3 Independent 2D zombie survival animation | 17 | 13 | 533K | 1,135K | 2,445K | 3,118K | 94% | 53% | 35% | 25 m | 1 | 7 | 10 | 10 | 5 | 1 | 5 | 0 | 0% |
 | A4 Independent 3D survival animation | 0 | | | | | | | | | | | | | | | | | | | |
 | A5 Minecraft horror mod gameplay | 131 | 76 | 371K | 1,056K | 1,642K | 2,120K | 69% | 40% | 26% | 30 m | 0 | 2 | 13 | 11 | 4 | 2 | 10 | 2 | 31% |
 | A6 Minecraft mystery / ARG | 44 | 42 | 17K | 128K | 684K | 1,144K | 30% | 14% | 7% | 33 m | 4 | 4 | 7 | 2 | 1 | 1 | 2 | 0 | 77% |
 | A7 Minecraft engineering / redstone | 46 | 43 | 157K | 477K | 1,949K | 3,474K | 57% | 24% | 17% | 21 m | 2 | 3 | 6 | 3 | 1 | 1 | 3 | 1 | 52% |
 | A8 Minecraft lore / history | 58 | 50 | 3K | 127K | 671K | 1,051K | 26% | 12% | 7% | 18 m | 4 | 9 | 12 | 0 | 0 | 0 | 0 | 0 | 78% |
-| A9 Other / unverified | 63 | 60 | 585K | 998K | 2,738K | 7,100K | 86% | 52% | 25% | 20 m | 0 | 0 | 7 | 6 | 2 | 0 | 2 | 0 | 19% |
+| A9 Other / unverified | 64 | 61 | 560K | 991K | 2,735K | 6,911K | 84% | 52% | 25% | 21 m | 0 | 0 | 8 | 7 | 3 | 0 | 3 | 1 | 19% |
 
 ## >= 15 min
 
@@ -40,14 +40,14 @@ channels <= 365 d). "spin-off name" = channel name pattern suggests an establish
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | A1 Minecraft real gameplay | 148 | 106 | 109K | 574K | 1,522K | 2,182K | 51% | 29% | 16% | 62 m | 1 | 5 | 17 | 12 | 6 | 3 | 7 | 2 | 91% |
 | A1s   of which apocalypse/survival-tagged | 97 | 67 | 90K | 328K | 913K | 1,237K | 47% | 20% | 8% | 79 m | 1 | 2 | 11 | 8 | 4 | 2 | 4 | 0 | 90% |
-| A2 Minecraft cinematic / machinima | 65 | 43 | 358K | 1,383K | 3,468K | 4,350K | 71% | 46% | 35% | 27 m | 1 | 2 | 6 | 5 | 1 | 0 | 3 | 3 | 32% |
+| A2 Minecraft cinematic / machinima | 64 | 42 | 360K | 1,384K | 3,516K | 4,378K | 72% | 47% | 36% | 27 m | 1 | 2 | 5 | 4 | 0 | 0 | 2 | 2 | 31% |
 | A3 Independent 2D zombie survival animation | 10 | 9 | 457K | 903K | 1,149K | 1,213K | 90% | 50% | 30% | 45 m | 1 | 5 | 7 | 7 | 3 | 0 | 2 | 0 | 0% |
 | A4 Independent 3D survival animation | 0 | | | | | | | | | | | | | | | | | | | |
 | A5 Minecraft horror mod gameplay | 114 | 69 | 393K | 1,020K | 1,634K | 2,012K | 72% | 40% | 25% | 33 m | 0 | 1 | 11 | 10 | 4 | 2 | 9 | 2 | 25% |
 | A6 Minecraft mystery / ARG | 34 | 32 | 37K | 222K | 895K | 1,304K | 38% | 18% | 9% | 39 m | 2 | 2 | 4 | 2 | 1 | 1 | 2 | 0 | 71% |
 | A7 Minecraft engineering / redstone | 29 | 27 | 274K | 497K | 2,512K | 6,042K | 62% | 24% | 21% | 37 m | 1 | 1 | 4 | 3 | 1 | 1 | 2 | 1 | 48% |
 | A8 Minecraft lore / history | 37 | 31 | 3K | 92K | 371K | 1,099K | 24% | 8% | 8% | 24 m | 4 | 8 | 10 | 0 | 0 | 0 | 0 | 0 | 81% |
-| A9 Other / unverified | 41 | 41 | 649K | 1,010K | 2,744K | 3,705K | 88% | 61% | 27% | 30 m | 0 | 0 | 2 | 2 | 1 | 0 | 0 | 0 | 20% |
+| A9 Other / unverified | 42 | 42 | 638K | 1,004K | 2,663K | 3,679K | 86% | 60% | 26% | 30 m | 0 | 0 | 3 | 3 | 2 | 0 | 1 | 1 | 19% |
 
 ## Sensitivity, >= 8 min, excluding channels > 1M subs
 
@@ -55,14 +55,14 @@ channels <= 365 d). "spin-off name" = channel name pattern suggests an establish
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | A1 Minecraft real gameplay | 147 | 110 | 60K | 221K | 637K | 974K | 37% | 14% | 5% | 54 m | 2 | 11 | 29 | 14 | 6 | 3 | 7 | 2 | 91% |
 | A1s   of which apocalypse/survival-tagged | 89 | 61 | 52K | 212K | 569K | 849K | 38% | 12% | 2% | 75 m | 1 | 2 | 13 | 8 | 4 | 2 | 4 | 0 | 89% |
-| A2 Minecraft cinematic / machinima | 59 | 43 | 161K | 482K | 1,257K | 1,467K | 58% | 25% | 17% | 23 m | 1 | 3 | 8 | 6 | 2 | 1 | 5 | 3 | 44% |
+| A2 Minecraft cinematic / machinima | 58 | 42 | 164K | 502K | 1,273K | 1,482K | 59% | 26% | 17% | 23 m | 1 | 3 | 7 | 5 | 1 | 1 | 4 | 2 | 43% |
 | A3 Independent 2D zombie survival animation | 16 | 12 | 551K | 1,170K | 2,525K | 3,166K | 94% | 56% | 38% | 29 m | 1 | 7 | 10 | 10 | 5 | 1 | 5 | 0 | 0% |
 | A4 Independent 3D survival animation | 0 | | | | | | | | | | | | | | | | | | | |
 | A5 Minecraft horror mod gameplay | 67 | 50 | 121K | 411K | 1,073K | 1,223K | 57% | 19% | 12% | 27 m | 0 | 2 | 13 | 11 | 4 | 2 | 10 | 2 | 33% |
 | A6 Minecraft mystery / ARG | 40 | 38 | 15K | 88K | 364K | 687K | 25% | 8% | 5% | 33 m | 4 | 4 | 7 | 2 | 1 | 1 | 2 | 0 | 80% |
 | A7 Minecraft engineering / redstone | 34 | 32 | 98K | 338K | 576K | 778K | 47% | 15% | 6% | 19 m | 2 | 3 | 6 | 3 | 1 | 1 | 3 | 1 | 59% |
 | A8 Minecraft lore / history | 54 | 46 | 2K | 45K | 305K | 561K | 20% | 6% | 4% | 19 m | 4 | 9 | 12 | 0 | 0 | 0 | 0 | 0 | 83% |
-| A9 Other / unverified | 40 | 38 | 310K | 700K | 987K | 1,356K | 78% | 38% | 10% | 20 m | 0 | 0 | 7 | 6 | 2 | 0 | 2 | 0 | 30% |
+| A9 Other / unverified | 41 | 39 | 309K | 696K | 985K | 1,340K | 76% | 37% | 10% | 20 m | 0 | 0 | 8 | 7 | 3 | 0 | 3 | 1 | 29% |
 
 ## Sensitivity, >= 8 min, excluding channels > 100K subs
 
@@ -70,14 +70,14 @@ channels <= 365 d). "spin-off name" = channel name pattern suggests an establish
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | A1 Minecraft real gameplay | 99 | 71 | 14K | 77K | 189K | 413K | 16% | 4% | 0% | 45 m | 2 | 10 | 24 | 9 | 3 | 1 | 4 | 1 | 92% |
 | A1s   of which apocalypse/survival-tagged | 62 | 40 | 18K | 84K | 170K | 211K | 18% | 2% | 0% | 74 m | 1 | 2 | 11 | 6 | 2 | 1 | 2 | 0 | 89% |
-| A2 Minecraft cinematic / machinima | 35 | 27 | 80K | 535K | 1,386K | 1,596K | 46% | 26% | 17% | 23 m | 1 | 3 | 8 | 6 | 2 | 1 | 5 | 3 | 54% |
+| A2 Minecraft cinematic / machinima | 34 | 26 | 87K | 582K | 1,386K | 1,622K | 47% | 26% | 18% | 22 m | 1 | 3 | 7 | 5 | 1 | 1 | 4 | 2 | 53% |
 | A3 Independent 2D zombie survival animation | 14 | 11 | 500K | 1,105K | 1,871K | 2,742K | 93% | 50% | 36% | 36 m | 1 | 7 | 9 | 9 | 4 | 1 | 4 | 0 | 0% |
 | A4 Independent 3D survival animation | 0 | | | | | | | | | | | | | | | | | | | |
 | A5 Minecraft horror mod gameplay | 40 | 31 | 67K | 192K | 408K | 457K | 45% | 5% | 2% | 23 m | 0 | 2 | 10 | 8 | 2 | 0 | 7 | 2 | 45% |
 | A6 Minecraft mystery / ARG | 32 | 30 | 8K | 22K | 131K | 483K | 16% | 6% | 3% | 23 m | 4 | 4 | 6 | 1 | 0 | 0 | 1 | 0 | 84% |
 | A7 Minecraft engineering / redstone | 20 | 19 | 34K | 177K | 610K | 669K | 30% | 15% | 5% | 16 m | 2 | 3 | 5 | 2 | 1 | 1 | 2 | 0 | 80% |
 | A8 Minecraft lore / history | 49 | 41 | 1K | 44K | 224K | 659K | 16% | 6% | 4% | 19 m | 4 | 9 | 12 | 0 | 0 | 0 | 0 | 0 | 88% |
-| A9 Other / unverified | 24 | 22 | 242K | 661K | 792K | 810K | 67% | 29% | 4% | 19 m | 0 | 0 | 6 | 5 | 1 | 0 | 2 | 0 | 38% |
+| A9 Other / unverified | 25 | 23 | 240K | 649K | 792K | 809K | 64% | 28% | 4% | 20 m | 0 | 0 | 7 | 6 | 2 | 0 | 3 | 1 | 36% |
 
 ## Strict Tier-A (age <= 30 d, >= 2 long >= 8 min with >= 1M, both published in last 14 d)
 

@@ -63,6 +63,7 @@ o(['ohnepixel raw', 'CaseOh', 'steak', 'Vrumpo', 'Doni Bobes', 'Toxin', 'YokaSir
    'kihec', 'Swayle', 'Vivilly', 'Karl', 'Ayu Playz', 'Pepper', 'ProVZzz', 'Vex Plays2', 'Krax plays', 'MinePush', 'S3ISMIC', 'Daiazal',
    'Kratzy', 'CheapPickle', 'al1'], 'A5', 'horror_mod', 'medium', 'horror/mod gameplay title pattern (metadata)')
 
+o(['Syn Knows Games'], 'A9', 'fnaf_lore_not_minecraft', 'high', 'storyboard shows FNAF 2D/3D documentary, no Minecraft', 'STORYBOARD_SAMPLED')
 o(['Stick It Out'], 'A3', 'zombie_survival|day_counter', 'medium', 'Day-N "Zombie Outbreak ... (Full Movie)" stick format (metadata; channel name)')
 o(['Bionic', 'Flush', 'ScardJester', 'PixelNaut', 'TrainerDario', 'OwlOFC'], 'A5', 'horror_mod', 'medium', 'horror mod/entity title (metadata)')
 o(['SSundeePlus'], 'A1', 'minigame|established_creator_spinoff', 'medium', 'SSundee spin-off channel name (metadata)')
