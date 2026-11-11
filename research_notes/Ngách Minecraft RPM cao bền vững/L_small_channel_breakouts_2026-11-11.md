@@ -46,3 +46,15 @@ Minecraft 26.4 snapshots (since 2026-10-06) add the Frostbite zombie, Ice Caves,
 2. Long-form original story from a 0-sub channel is the hardest entry. The proven entry is Shorts mini-stories
    (60-120 s, wordless or near-wordless, one twist), then long-form "Full Movie" and 100-days episodes once a feed audience exists.
 3. Our baby zombie Zu is the strongest asset: a Mojang mob silhouette with an original personality = the Logetor/villager model.
+
+## 5. Long-form only (OWNER 2026-11-11: "long form") - new channels (<= 365 d, >= 60% long uploads, median long >= 20K)
+| Channel | Age | Subs | Median long | Length | Format | Best |
+|---|---|---|---|---|---|---|
+| imKaiL00L | 212 d | 249K | 576K | ~25 m | "Horror/Dinosaur Minecraft, but Drops are Guns" | 3.0M |
+| Clooless Gaming | 355 d | 328K | 496K | ~49 m | modded challenge (Phobia mod, zombie apocalypse) | 1.5M |
+| **Tomatikk** | 280 d | 88K | **383K** | ~60 m | **100 days in an epic themed set + disaster** | Armored Train in a Nuclear Winter 1.64M; Fire Watchtower 1.3M |
+| KnightMC | 224 d | 4K | 25K | ~2.5 h | 100/500 days lost at sea | 277K |
+| CashMovies | 92 d | 69K | 58K | ~3 h | compilation movies (NOOB vs PRO TREEHOUSE 337K) | |
+| IfDatTrue | 26 d | 3K | 21K | ~18 m | "What If... in a Zombie Apocalypse" numbered series | 82K |
+No new channel in the sample grew on original scripted family-story long-form; the original long-form winners are
+high-concept survival/"Minecraft but" with one premise in the title and a big set.
