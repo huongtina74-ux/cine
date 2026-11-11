@@ -81,3 +81,16 @@ Run order in game (each is one `/function binbo:<name>`): `palace` → `cv2_0` (
   - the keep windows are lit from inside.
   - Close-ups are in `Downloads\Bin_Bo\java_test\detail_*.png`.
 - **Bridge gotcha:** re-committing the same staged path to the PC can deliver a stale earlier copy. Use a fresh staged path and check the md5 on the PC before copying it into the datapack.
+
+## Pilot set: giant treehouse fortress (2026-11-11)
+`gen_treehouse.py` (tests: `tests/test_mc_java_treehouse.py`), centred at (1100, 60).
+- **Layout:**
+  - a colossal tree, 78 blocks tall, with flared roots, 8 branches carrying hanging lanterns, leaf crowns and glow berries;
+  - three ring decks with huts, spiral stairs, rope bridges to two branch lookouts, and a crow's nest flying an orange flag;
+  - a log palisade with 6 watchtowers, a spike ring and a gate road;
+  - a ruined town ring (half-roofed stone houses, soul lanterns, a toppled church spire);
+  - a 650-zombie horde (NoAI, persistent; half of it masses at the gate), with Bin, Bo and Zu on the first deck.
+- **Run order:** `tree_ground` → `tree_clear` (only when rebuilding) → `tree_build_0` → `tree_cast`.
+  - Shoot at 13000 (dusk), because NoAI zombies still burn in daylight.
+- **PC access:** the datapack `function` folder and `.minecraft\screenshots` are connected folders now. Files go straight in with `device_commit_files`; check the md5 with `device_bash`.
+- **Input quirk (2026-11-11):** mouse clicks in the menus were ignored while keyboard input worked. Use Tab/Enter to pick the world.
