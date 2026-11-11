@@ -1,0 +1,774 @@
+{
+ "meta": {
+  "channels_in_sample": 803,
+  "channels_with_api": 803,
+  "english_minecraft": 575,
+  "hidden_subs": 0
+ },
+ "niches": {
+  "HORROR": {
+   "all long-form": {
+    "n": 72,
+    ">=1K": 60,
+    ">=10K": 51,
+    ">=100K": 34,
+    ">=1M": 14,
+    "lt1k": 12,
+    "med_subs": 90200.0,
+    "med_avg_views": 87785.49554863095,
+    "med_vpd": 13718.986188312538
+   },
+   "channel <=365 d": {
+    "n": 13,
+    ">=1K": 6,
+    ">=10K": 3,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 7,
+    "med_subs": 215.0,
+    "med_avg_views": 1896.7777777777778,
+    "med_vpd": 251.0774193548387
+   },
+   "1-3 y": {
+    "n": 12,
+    ">=1K": 10,
+    ">=10K": 7,
+    ">=100K": 2,
+    ">=1M": 0,
+    "lt1k": 2,
+    "med_subs": 18550.0,
+    "med_avg_views": 37394.07335271318,
+    "med_vpd": 3989.0549614395886
+   },
+   ">3 y": {
+    "n": 47,
+    ">=1K": 44,
+    ">=10K": 41,
+    ">=100K": 32,
+    ">=1M": 14,
+    "lt1k": 3,
+    "med_subs": 380000.0,
+    "med_avg_views": 192628.20357004268,
+    "med_vpd": 36028.10536277603
+   },
+   "winners_<=3y": {
+    "n": 10,
+    "med_videos": 95.5,
+    "med_uploads_week": 1.281111111111111,
+    "med_len_min": 19.083333333333332,
+    "med_age_d": 542.0,
+    "med_sample_views": 38996.0
+   },
+   "losers_<=3y": {
+    "n": 9,
+    "med_videos": 29.0,
+    "med_uploads_week": 1.0161290322580645,
+    "med_len_min": 11.4,
+    "med_age_d": 226.0,
+    "med_sample_views": 15.0
+   },
+   "money": {
+    "rpm_range": [
+     1.5,
+     3.5
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 9,
+      "p": 0.36,
+      "median_monthly_views": 1996
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 6,
+      "p": 0.24,
+      "median_monthly_views": 49938
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 8,
+      "p": 0.32,
+      "median_monthly_views": 291346
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 2,
+      "p": 0.08,
+      "median_monthly_views": 2809620
+     }
+    ],
+    "expected_monthly_usd": [
+     495,
+     1155
+    ],
+    "base_n": 25
+   },
+   "fresh": {
+    "n": 29,
+    "medViews": 2984,
+    "p75": 18076,
+    "p90": 39247,
+    "medVph": 175.5,
+    "ge1k": 16,
+    "lt100": 9,
+    "medLenMin": 25
+   }
+  },
+  "SURVIVAL_100DAYS": {
+   "all long-form": {
+    "n": 82,
+    ">=1K": 61,
+    ">=10K": 45,
+    ">=100K": 21,
+    ">=1M": 9,
+    "lt1k": 21,
+    "med_subs": 15250.0,
+    "med_avg_views": 42772.295454545456,
+    "med_vpd": 3423.5363321144873
+   },
+   "channel <=365 d": {
+    "n": 16,
+    ">=1K": 8,
+    ">=10K": 3,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 8,
+    "med_subs": 1003.5,
+    "med_avg_views": 10424.138888888889,
+    "med_vpd": 2229.385714285714
+   },
+   "1-3 y": {
+    "n": 16,
+    ">=1K": 11,
+    ">=10K": 8,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 5,
+    "med_subs": 8845.0,
+    "med_avg_views": 14929.05909512184,
+    "med_vpd": 3654.0473000683523
+   },
+   ">3 y": {
+    "n": 50,
+    ">=1K": 42,
+    ">=10K": 34,
+    ">=100K": 21,
+    ">=1M": 9,
+    "lt1k": 8,
+    "med_subs": 71150.0,
+    "med_avg_views": 77270.6403040705,
+    "med_vpd": 3559.216191483926
+   },
+   "winners_<=3y": {
+    "n": 11,
+    "med_videos": 59.0,
+    "med_uploads_week": 0.6037296037296037,
+    "med_len_min": 87.65,
+    "med_age_d": 760.0,
+    "med_sample_views": 35600.0
+   },
+   "losers_<=3y": {
+    "n": 13,
+    "med_videos": 29.0,
+    "med_uploads_week": 1.09375,
+    "med_len_min": 15.533333333333333,
+    "med_age_d": 212.0,
+    "med_sample_views": 192.0
+   },
+   "money": {
+    "rpm_range": [
+     2.0,
+     4.0
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 13,
+      "p": 0.406,
+      "median_monthly_views": 3778
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 8,
+      "p": 0.25,
+      "median_monthly_views": 114834
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 11,
+      "p": 0.344,
+      "median_monthly_views": 259581
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 0,
+      "p": 0.0,
+      "median_monthly_views": 0
+     }
+    ],
+    "expected_monthly_usd": [
+     236,
+     472
+    ],
+    "base_n": 32
+   },
+   "fresh": {
+    "n": 41,
+    "medViews": 904,
+    "p75": 14412,
+    "p90": 68734,
+    "medVph": 69.5,
+    "ge1k": 20,
+    "lt100": 14,
+    "medLenMin": 29
+   }
+  },
+  "MACHINIMA": {
+   "all long-form": {
+    "n": 46,
+    ">=1K": 40,
+    ">=10K": 34,
+    ">=100K": 22,
+    ">=1M": 13,
+    "lt1k": 6,
+    "med_subs": 92150.0,
+    "med_avg_views": 118868.84495192308,
+    "med_vpd": 14253.322689737668
+   },
+   "channel <=365 d": {
+    "n": 5,
+    ">=1K": 4,
+    ">=10K": 2,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 1,
+    "med_subs": 5780.0,
+    "med_avg_views": 53569.5625,
+    "med_vpd": 11177.954954954956
+   },
+   "1-3 y": {
+    "n": 6,
+    ">=1K": 6,
+    ">=10K": 6,
+    ">=100K": 3,
+    ">=1M": 1,
+    "lt1k": 0,
+    "med_subs": 146650.0,
+    "med_avg_views": 947937.1855224257,
+    "med_vpd": 44374.39952371632
+   },
+   ">3 y": {
+    "n": 35,
+    ">=1K": 30,
+    ">=10K": 26,
+    ">=100K": 19,
+    ">=1M": 12,
+    "lt1k": 5,
+    "med_subs": 168000.0,
+    "med_avg_views": 164320.41048034935,
+    "med_vpd": 14599.841414717626
+   },
+   "winners_<=3y": {
+    "n": 8,
+    "med_videos": 55.5,
+    "med_uploads_week": 0.7754310344827586,
+    "med_len_min": 16.09166666666667,
+    "med_age_d": 568.0,
+    "med_sample_views": 92731.0
+   },
+   "losers_<=3y": {
+    "n": 1,
+    "med_videos": 31.0,
+    "med_uploads_week": 8.68,
+    "med_len_min": 34.13333333333333,
+    "med_age_d": 25.0,
+    "med_sample_views": 43500.0
+   },
+   "money": {
+    "rpm_range": [
+     0.5,
+     2.0
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 1,
+      "p": 0.091,
+      "median_monthly_views": 188724
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 2,
+      "p": 0.182,
+      "median_monthly_views": 247913
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 5,
+      "p": 0.455,
+      "median_monthly_views": 417204
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 3,
+      "p": 0.273,
+      "median_monthly_views": 6164016
+     }
+    ],
+    "expected_monthly_usd": [
+     958,
+     3832
+    ],
+    "base_n": 11
+   },
+   "fresh": {
+    "n": 27,
+    "medViews": 6611,
+    "p75": 37042,
+    "p90": 145771,
+    "medVph": 287.4,
+    "ge1k": 17,
+    "lt100": 3,
+    "medLenMin": 19
+   }
+  },
+  "CHALLENGE": {
+   "all long-form": {
+    "n": 72,
+    ">=1K": 64,
+    ">=10K": 56,
+    ">=100K": 43,
+    ">=1M": 24,
+    "lt1k": 8,
+    "med_subs": 315500.0,
+    "med_avg_views": 175963.22201492538,
+    "med_vpd": 39342.55156999844
+   },
+   "channel <=365 d": {
+    "n": 7,
+    ">=1K": 3,
+    ">=10K": 2,
+    ">=100K": 1,
+    ">=1M": 0,
+    "lt1k": 4,
+    "med_subs": 44.0,
+    "med_avg_views": 567.2727272727273,
+    "med_vpd": 367.05882352941177
+   },
+   "1-3 y": {
+    "n": 10,
+    ">=1K": 8,
+    ">=10K": 6,
+    ">=100K": 3,
+    ">=1M": 0,
+    "lt1k": 2,
+    "med_subs": 13200.0,
+    "med_avg_views": 42442.90652173913,
+    "med_vpd": 2395.464394771764
+   },
+   ">3 y": {
+    "n": 55,
+    ">=1K": 53,
+    ">=10K": 48,
+    ">=100K": 39,
+    ">=1M": 24,
+    "lt1k": 2,
+    "med_subs": 520000.0,
+    "med_avg_views": 247173.61861074704,
+    "med_vpd": 96518.31356560416
+   },
+   "winners_<=3y": {
+    "n": 8,
+    "med_videos": 147.5,
+    "med_uploads_week": 2.7910987250517323,
+    "med_len_min": 25.05,
+    "med_age_d": 594.0,
+    "med_sample_views": 58965.5
+   },
+   "losers_<=3y": {
+    "n": 6,
+    "med_videos": 26.5,
+    "med_uploads_week": 4.659442724458204,
+    "med_len_min": 19.008333333333333,
+    "med_age_d": 97.0,
+    "med_sample_views": 11.5
+   },
+   "money": {
+    "rpm_range": [
+     2.0,
+     4.0
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 6,
+      "p": 0.353,
+      "median_monthly_views": 3050
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 3,
+      "p": 0.176,
+      "median_monthly_views": 36629
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 4,
+      "p": 0.235,
+      "median_monthly_views": 213753
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 4,
+      "p": 0.235,
+      "median_monthly_views": 4196507
+     }
+    ],
+    "expected_monthly_usd": [
+     2088,
+     4177
+    ],
+    "base_n": 17
+   },
+   "fresh": {
+    "n": 46,
+    "medViews": 10910,
+    "p75": 81324,
+    "p90": 177576,
+    "medVph": 848.8,
+    "ge1k": 32,
+    "lt100": 9,
+    "medLenMin": 27
+   }
+  },
+  "MYSTERY": {
+   "all long-form": {
+    "n": 69,
+    ">=1K": 47,
+    ">=10K": 35,
+    ">=100K": 21,
+    ">=1M": 12,
+    "lt1k": 22,
+    "med_subs": 10100.0,
+    "med_avg_views": 11452.635883905014,
+    "med_vpd": 782.9765990639626
+   },
+   "channel <=365 d": {
+    "n": 10,
+    ">=1K": 1,
+    ">=10K": 1,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 9,
+    "med_subs": 96.5,
+    "med_avg_views": 1142.1614285714286,
+    "med_vpd": 443.8966559756034
+   },
+   "1-3 y": {
+    "n": 10,
+    ">=1K": 8,
+    ">=10K": 4,
+    ">=100K": 2,
+    ">=1M": 0,
+    "lt1k": 2,
+    "med_subs": 4275.0,
+    "med_avg_views": 4447.358294930876,
+    "med_vpd": 677.6054492904354
+   },
+   ">3 y": {
+    "n": 49,
+    ">=1K": 38,
+    ">=10K": 30,
+    ">=100K": 19,
+    ">=1M": 12,
+    "lt1k": 11,
+    "med_subs": 27300.0,
+    "med_avg_views": 36668.229946524065,
+    "med_vpd": 1753.172957746479
+   },
+   "winners_<=3y": {
+    "n": 5,
+    "med_videos": 78.0,
+    "med_uploads_week": 1.3066666666666666,
+    "med_len_min": 21.5,
+    "med_age_d": 656.0,
+    "med_sample_views": 363.0
+   },
+   "losers_<=3y": {
+    "n": 11,
+    "med_videos": 42.0,
+    "med_uploads_week": 1.6153846153846154,
+    "med_len_min": 21.283333333333335,
+    "med_age_d": 182.0,
+    "med_sample_views": 150.0
+   },
+   "money": {
+    "rpm_range": [
+     0.7,
+     3.6
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 11,
+      "p": 0.55,
+      "median_monthly_views": 5823
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 4,
+      "p": 0.2,
+      "median_monthly_views": 13378
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 3,
+      "p": 0.15,
+      "median_monthly_views": 183404
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 2,
+      "p": 0.1,
+      "median_monthly_views": 10864270
+     }
+    ],
+    "expected_monthly_usd": [
+     782,
+     4020
+    ],
+    "base_n": 20
+   },
+   "fresh": {
+    "n": 54,
+    "medViews": 339,
+    "p75": 3972,
+    "p90": 31637,
+    "medVph": 28.3,
+    "ge1k": 23,
+    "lt100": 24,
+    "medLenMin": 26
+   }
+  },
+  "ENGINEERING": {
+   "all long-form": {
+    "n": 27,
+    ">=1K": 22,
+    ">=10K": 17,
+    ">=100K": 10,
+    ">=1M": 3,
+    "lt1k": 5,
+    "med_subs": 57400.0,
+    "med_avg_views": 59417.13659135058,
+    "med_vpd": 6946.685714285714
+   },
+   "channel <=365 d": {
+    "n": 2,
+    ">=1K": 0,
+    ">=10K": 0,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 2,
+    "med_subs": 125.5,
+    "med_avg_views": 623.5352870813397,
+    "med_vpd": 3482.3160714285714
+   },
+   "1-3 y": {
+    "n": 2,
+    ">=1K": 1,
+    ">=10K": 0,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 1,
+    "med_subs": 1068.5,
+    "med_avg_views": 5822.571428571428,
+    "med_vpd": 978.2330211196297
+   },
+   ">3 y": {
+    "n": 23,
+    ">=1K": 21,
+    ">=10K": 17,
+    ">=100K": 10,
+    ">=1M": 3,
+    "lt1k": 2,
+    "med_subs": 91200.0,
+    "med_avg_views": 72351.6838095238,
+    "med_vpd": 10186.590152063722
+   },
+   "winners_<=3y": {
+    "n": 0
+   },
+   "losers_<=3y": {
+    "n": 3,
+    "med_videos": 14.0,
+    "med_uploads_week": 1.5,
+    "med_len_min": 9.016666666666667,
+    "med_age_d": 56.0,
+    "med_sample_views": 253.0
+   },
+   "money": {
+    "rpm_range": [
+     2.0,
+     5.0
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 3,
+      "p": 0.75,
+      "median_monthly_views": 538
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 1,
+      "p": 0.25,
+      "median_monthly_views": 58646
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 0,
+      "p": 0.0,
+      "median_monthly_views": 0
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 0,
+      "p": 0.0,
+      "median_monthly_views": 0
+     }
+    ],
+    "expected_monthly_usd": [
+     29,
+     73
+    ],
+    "base_n": 4
+   },
+   "fresh": {
+    "n": 22,
+    "medViews": 554,
+    "p75": 5050,
+    "p90": 8107,
+    "medVph": 61,
+    "ge1k": 9,
+    "lt100": 5,
+    "medLenMin": 15
+   }
+  },
+  "LORE": {
+   "all long-form": {
+    "n": 26,
+    ">=1K": 13,
+    ">=10K": 9,
+    ">=100K": 4,
+    ">=1M": 3,
+    "lt1k": 13,
+    "med_subs": 1294.0,
+    "med_avg_views": 2463.4776314560568,
+    "med_vpd": 769.7315724815726
+   },
+   "channel <=365 d": {
+    "n": 9,
+    ">=1K": 2,
+    ">=10K": 0,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 7,
+    "med_subs": 85.0,
+    "med_avg_views": 663.5,
+    "med_vpd": 327.55405405405406
+   },
+   "1-3 y": {
+    "n": 5,
+    ">=1K": 3,
+    ">=10K": 3,
+    ">=100K": 0,
+    ">=1M": 0,
+    "lt1k": 2,
+    "med_subs": 10000.0,
+    "med_avg_views": 75274.27777777778,
+    "med_vpd": 3788.2674743709226
+   },
+   ">3 y": {
+    "n": 12,
+    ">=1K": 8,
+    ">=10K": 6,
+    ">=100K": 4,
+    ">=1M": 3,
+    "lt1k": 4,
+    "med_subs": 23065.0,
+    "med_avg_views": 3074.2120376109206,
+    "med_vpd": 2526.2749798775844
+   },
+   "winners_<=3y": {
+    "n": 3,
+    "med_videos": 54.0,
+    "med_uploads_week": 0.3522833178005592,
+    "med_len_min": 16.15,
+    "med_age_d": 1010.0,
+    "med_sample_views": 54549.0
+   },
+   "losers_<=3y": {
+    "n": 9,
+    "med_videos": 16.0,
+    "med_uploads_week": 1.5555555555555554,
+    "med_len_min": 11.733333333333333,
+    "med_age_d": 52.0,
+    "med_sample_views": 113.0
+   },
+   "money": {
+    "rpm_range": [
+     3.0,
+     6.0
+    ],
+    "bands": [
+     {
+      "band": "0-1,000",
+      "n": 9,
+      "p": 0.643,
+      "median_monthly_views": 2405
+     },
+     {
+      "band": "1,000-10,000",
+      "n": 2,
+      "p": 0.143,
+      "median_monthly_views": 355752
+     },
+     {
+      "band": "10,000-100,000",
+      "n": 3,
+      "p": 0.214,
+      "median_monthly_views": 153067
+     },
+     {
+      "band": "100,000-1,000,000,000,000",
+      "n": 0,
+      "p": 0.0,
+      "median_monthly_views": 0
+     }
+    ],
+    "expected_monthly_usd": [
+     251,
+     502
+    ],
+    "base_n": 14
+   },
+   "fresh": {
+    "n": 21,
+    "medViews": 453,
+    "p75": 1761,
+    "p90": 21167,
+    "medVph": 19.2,
+    "ge1k": 7,
+    "lt100": 7,
+    "medLenMin": 19
+   }
+  }
+ },
+ "cross": {
+  "winners": 39,
+  "middle": 25,
+  "losers": 52,
+  "young": 60
+ }
+}
