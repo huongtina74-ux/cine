@@ -203,3 +203,17 @@ Uploads only by the owner as private drafts.
 - Limits: keyword classification for ~640 videos (low confidence); single view reading; search-ranking bias; <= 90-day cells too small;
   Mystery/ARG may be under-sampled (only BionicTV found); RPM, retention, CTR unknown; creator histories unknown.
 - Control (not part of the decision): independent 2D survival animation, subs < 100K, >= 8 min: 5/14 >= 1M, median 500K.
+
+## Addendum 2026-11-12 - money view (owner: "most money + new channel can enter + sustainable", Minecraft only)
+- RPM: gaming median **$2.05** (P25-P75 $0.70-$3.62) and Kids & Teens **$0.33** are MEASURED (AIR Media-Tech, 300 channels,
+  May 2025-May 2026). Minecraft sub-niche RPMs are AGG-EST/ANECDOTE only (`research_notes/.../rpm_economics.md`): lore $3-6,
+  technical/builds $2-5, challenge/100 days/survival $2-4 ($4-8 anecdote for 20-30 min videos), let's play $1.5-3.5,
+  story animation for young viewers $0.5-2, MFK $0.3-1.
+- Typical (median) long-video views of emerging (<= 365 d) Minecraft channels with >= 3 long uploads (uploads.json, >= 7 d old):
+  HORROR 13 channels, median of channel medians **32.9K** (SirCloaked 473K, imKaiL00L 582K, ScardJester 338K, Smellzzy+ 76K);
+  SURVIVAL 12 channels, **17.6K** (Clooless 496K, Tomatikk 384K, UnspeakableTV 152K, KnightMC 23K); MYSTERY 3 channels (BionicTV
+  364K, ItzHydra 108K); ENGINEERING 2 (Mumbo spin-off 189K, Ivan 53K); LORE 9 channels, **0.4K**; CHALLENGE 10, 4.3K.
+- Money = views x RPM (INFERRED): lore has the best RPM but ~0 views for new channels; Maizen-style has the most views but the
+  lowest RPM (kids $0.33 measured) and third-party IP. Horror and 100-day survival are the only two with both repeatable emerging
+  creators and teen/adult (non-MFK) audiences. Survival earns more per video (40-180 min, more mid-rolls, older viewers) but needs
+  10-33 h play per video; horror ships faster and has twice as many repeat emerging creators. Ranking unchanged: #1 horror, #2 survival.
