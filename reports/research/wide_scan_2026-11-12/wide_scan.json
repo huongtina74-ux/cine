@@ -1,0 +1,1773 @@
+{
+ "meta": {
+  "fetched_at": "2026-11-12T08:18:24.786179+00:00",
+  "units": 8955,
+  "niches": 22,
+  "video_ids": 4206,
+  "videos": 4206,
+  "channels": 3475,
+  "errors": []
+ },
+ "niches": {
+  "history_doc": {
+   "month_n": 69,
+   "month_median": 474293.0,
+   "month_p75": 768998.0,
+   "month_1m": 12,
+   "month_sum": 35866728,
+   "small_median": 646.0,
+   "new_ch_100k": 5,
+   "new_ch_1m": 0,
+   "median_len_min": 23.45,
+   "mfk_share": 0.0,
+   "fresh_videos": 75,
+   "fresh_channels": 75,
+   "fresh_lt1k": 59,
+   "young": 49,
+   "young_1k": 5,
+   "young_10k": 4,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.032202296241712225,
+    0.19189387041486136
+   ],
+   "young_median_vmo": 2138.4,
+   "paid_p75_vmo": 2437619.230769231,
+   "rpm": [
+    4,
+    10,
+    19.5
+   ],
+   "rpm_note": "MEASURED class Education $10.22 (P25-P75 2.31-19.50)",
+   "exp_month_usd_base": 2787.438475137785,
+   "exp_month_usd_range": [
+    1114.975390055114,
+    5435.505026518681
+   ],
+   "fresh_median_views": 4.0,
+   "fresh_median_age_h": 9.303829494166667,
+   "examples_new": [
+    {
+     "ch": "Arthur Revives the Past",
+     "created": "2026-01-19",
+     "subs": 62600,
+     "views": 879659,
+     "min": 57,
+     "title": "THE KRAKATOA TRAGEDY: The Island That Exploded, but the Sea Was Worse "
+    },
+    {
+     "ch": "Unbaffled with Jim Al-Khalili",
+     "created": "2026-04-28",
+     "subs": 58600,
+     "views": 768998,
+     "min": 40,
+     "title": "The Unknown Story Behind One of the Most Important Discoveries in Phys"
+    },
+    {
+     "ch": "Shelby Stanga",
+     "created": "2025-12-10",
+     "subs": 58100,
+     "views": 644961,
+     "min": 72,
+     "title": "SHELBY | Full Documentary"
+    },
+    {
+     "ch": "Landfall",
+     "created": "2026-10-13",
+     "subs": 11600,
+     "views": 600525,
+     "min": 58,
+     "title": "6 Boys Vanished at Sea, 15 Months Later They Were Found Alive"
+    },
+    {
+     "ch": "Nino",
+     "created": "2026-09-26",
+     "subs": 13800,
+     "views": 557955,
+     "min": 26,
+     "title": "The Making of GTA 6 | Full Documentary"
+    }
+   ]
+  },
+  "history_sleep": {
+   "month_n": 82,
+   "month_median": 37038.0,
+   "month_p75": 87099.75,
+   "month_1m": 0,
+   "month_sum": 5995658,
+   "small_median": 21680.0,
+   "new_ch_100k": 6,
+   "new_ch_1m": 0,
+   "median_len_min": 45.016666666666666,
+   "mfk_share": 0.0,
+   "fresh_videos": 83,
+   "fresh_channels": 81,
+   "fresh_lt1k": 79,
+   "young": 64,
+   "young_1k": 1,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.056626022971156334
+   ],
+   "young_median_vmo": 844.5833333333333,
+   "paid_p75_vmo": 12.8125,
+   "rpm": [
+    8,
+    15,
+    35
+   ],
+   "rpm_note": "Education class + practitioner multi-hour sleep $30-40",
+   "exp_month_usd_base": 0.0030029296874999997,
+   "exp_month_usd_range": [
+    0.0016015625,
+    0.0070068359375
+   ],
+   "fresh_median_views": 1.0,
+   "fresh_median_age_h": 7.302996160833333,
+   "examples_new": [
+    {
+     "ch": "Sleepy UK History",
+     "created": "2026-02-21",
+     "subs": 24500,
+     "views": 422583,
+     "min": 225,
+     "title": "Before the Vikings There Was a Civilization in Scotland So Advanced It"
+    },
+    {
+     "ch": "Draz",
+     "created": "2026-07-15",
+     "subs": 1650,
+     "views": 362145,
+     "min": 24,
+     "title": "How Did Ancient Humans Sleep Without Freezing in Winter?"
+    },
+    {
+     "ch": "Sleepy Mystery Channel",
+     "created": "2026-03-03",
+     "subs": 25600,
+     "views": 271479,
+     "min": 340,
+     "title": "5 Hours of Mind-Bending Mysteries | Will Make You Sleep"
+    },
+    {
+     "ch": "Tablet Zero",
+     "created": "2026-10-05",
+     "subs": 1870,
+     "views": 219627,
+     "min": 95,
+     "title": "What The Sumerians Wrote 1,000 Years before Noah"
+    },
+    {
+     "ch": "Sleepy Quiet Historian",
+     "created": "2026-09-22",
+     "subs": 4270,
+     "views": 111477,
+     "min": 130,
+     "title": "What Life Was Like Inside a Thatched House in England, 750 AD | Histor"
+    }
+   ]
+  },
+  "senior_family_drama": {
+   "month_n": 60,
+   "month_median": 616.0,
+   "month_p75": 902490.75,
+   "month_1m": 12,
+   "month_sum": 46899213,
+   "small_median": 204.0,
+   "new_ch_100k": 8,
+   "new_ch_1m": 4,
+   "median_len_min": 18.933333333333334,
+   "mfk_share": 0.0,
+   "fresh_videos": 30,
+   "fresh_channels": 28,
+   "fresh_lt1k": 13,
+   "young": 19,
+   "young_1k": 9,
+   "young_10k": 3,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.055203710399278266,
+    0.3756592764317668
+   ],
+   "young_median_vmo": 31855.36082474227,
+   "paid_p75_vmo": 1308073.8461538462,
+   "rpm": [
+    3,
+    8,
+    13
+   ],
+   "rpm_note": "Entertainment $2.43 MEASURED class; revenge narration $8-13 AGG-EST",
+   "exp_month_usd_base": 2863.9171770953026,
+   "exp_month_usd_range": [
+    1073.9689414107384,
+    4653.865412779866
+   ],
+   "fresh_median_views": 47.0,
+   "fresh_median_age_h": 13.182579494166667,
+   "examples_new": [
+    {
+     "ch": "DramaRush",
+     "created": "2026-10-15",
+     "subs": 27500,
+     "views": 2801243,
+     "min": 92,
+     "title": "She Called Him “Daddy”—Then His Luck Changed | Full Drama"
+    },
+    {
+     "ch": "Heart Of India",
+     "created": "2026-10-02",
+     "subs": 9740,
+     "views": 2013069,
+     "min": 23,
+     "title": "His Rich Family Threw His Indian Wife Out in a Storm… Then She Came Ba"
+    },
+    {
+     "ch": "EverHeart Studios",
+     "created": "2026-06-30",
+     "subs": 5880,
+     "views": 1854413,
+     "min": 61,
+     "title": "The Stranger I Called My Husband | Full Nollywood Movie | Romance Dram"
+    },
+    {
+     "ch": "HappyShortTvNO1",
+     "created": "2026-06-03",
+     "subs": 146000,
+     "views": 1038615,
+     "min": 173,
+     "title": "Reborn Heiress Lays the Groundwork Early—Eight Older Brothers Join For"
+    },
+    {
+     "ch": "WerpaDramaStories",
+     "created": "2026-09-25",
+     "subs": 12600,
+     "views": 992328,
+     "min": 113,
+     "title": "“ANG PROBINSYANA GIRL AT ANG GWAPONG CEO” | PINOY DRAMA STORY"
+    }
+   ]
+  },
+  "senior_western_heartwarming": {
+   "month_n": 65,
+   "month_median": 15059.0,
+   "month_p75": 27222.0,
+   "month_1m": 0,
+   "month_sum": 1658406,
+   "small_median": 14928.5,
+   "new_ch_100k": 2,
+   "new_ch_1m": 0,
+   "median_len_min": 34.916666666666664,
+   "mfk_share": 0.0,
+   "fresh_videos": 77,
+   "fresh_channels": 68,
+   "fresh_lt1k": 54,
+   "young": 48,
+   "young_1k": 7,
+   "young_10k": 2,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.011501652078965613,
+    0.13975911147771472
+   ],
+   "young_median_vmo": 2452.105263157895,
+   "paid_p75_vmo": 250754.5514285714,
+   "rpm": [
+    8,
+    16,
+    28
+   ],
+   "rpm_note": "practitioner: romance older women $16-28, western $16-22",
+   "exp_month_usd_base": 416.1263307125924,
+   "exp_month_usd_range": [
+    208.0631653562962,
+    728.2210787470367
+   ],
+   "fresh_median_views": 5.0,
+   "fresh_median_age_h": 12.303273938611111,
+   "examples_new": [
+    {
+     "ch": "Western Faith Tales",
+     "created": "2026-09-02",
+     "subs": 10300,
+     "views": 118580,
+     "min": 34,
+     "title": "She Said, “I Have No Family for Christmas”... He Said, “I Prayed for S"
+    },
+    {
+     "ch": "Brave Wild West",
+     "created": "2026-07-14",
+     "subs": 15000,
+     "views": 115729,
+     "min": 40,
+     "title": "\"Play This Piano and I'll Marry You!\" Rich Cowboy's Son Mocked—Widow's"
+    },
+    {
+     "ch": "Tales of Western Faith",
+     "created": "2026-10-05",
+     "subs": 4340,
+     "views": 94740,
+     "min": 35,
+     "title": "My Daughter Asked Every Cowboy at the Fair to Be Her Papa... Only One "
+    },
+    {
+     "ch": "Western Faith Tales",
+     "created": "2026-09-02",
+     "subs": 10300,
+     "views": 84346,
+     "min": 33,
+     "title": "She Begged Him to Take Her Boys Before the Blizzard... He Said, “Not W"
+    },
+    {
+     "ch": "Faithful Western Stories",
+     "created": "2026-09-07",
+     "subs": 2620,
+     "views": 72165,
+     "min": 35,
+     "title": "She Tried to Sell Her Unworn Wedding Dress... He Said, “My Bride Never"
+    }
+   ]
+  },
+  "sleep_fiction": {
+   "month_n": 70,
+   "month_median": 31852.0,
+   "month_p75": 50266.25,
+   "month_1m": 0,
+   "month_sum": 2621639,
+   "small_median": 15268.0,
+   "new_ch_100k": 1,
+   "new_ch_1m": 0,
+   "median_len_min": 62.68333333333334,
+   "mfk_share": 0.20422535211267606,
+   "fresh_videos": 72,
+   "fresh_channels": 65,
+   "fresh_lt1k": 61,
+   "young": 48,
+   "young_1k": 1,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.0741026511527422
+   ],
+   "young_median_vmo": 257.7513368983957,
+   "paid_p75_vmo": 2533.125,
+   "rpm": [
+    8,
+    20,
+    40
+   ],
+   "rpm_note": "practitioner: sleep stories ~$20, multi-hour $30-40",
+   "exp_month_usd_base": 1.05546875,
+   "exp_month_usd_range": [
+    0.4221875,
+    2.1109375
+   ],
+   "fresh_median_views": 1.0,
+   "fresh_median_age_h": 6.264246160833332,
+   "examples_new": [
+    {
+     "ch": "Candlebury Tales · Sleep Stories",
+     "created": "2026-07-12",
+     "subs": 3150,
+     "views": 119623,
+     "min": 103,
+     "title": "Miss Wren's Bookshop Stays Up Late | A Rainy Night Sleep Story"
+    },
+    {
+     "ch": "Sleepy Lost World",
+     "created": "2026-09-08",
+     "subs": 5710,
+     "views": 75420,
+     "min": 198,
+     "title": "Weird Things Rich Victorian Women Did Every Day | History for Sleep"
+    },
+    {
+     "ch": "Stephen Dalton's Humorously Dull History for Sleep",
+     "created": "2025-11-27",
+     "subs": 10200,
+     "views": 56097,
+     "min": 179,
+     "title": "CAUTION May Cause Laughter & Sleep | Boring History of Manners"
+    },
+    {
+     "ch": "Nick at Midnight",
+     "created": "2026-04-22",
+     "subs": 29300,
+     "views": 48029,
+     "min": 434,
+     "title": "7 HOURS of INSANELY CREEPY Stories for Sleep ► NO ADS"
+    },
+    {
+     "ch": "Rainy Fairytales for Sleep",
+     "created": "2026-07-03",
+     "subs": 2750,
+     "views": 41859,
+     "min": 240,
+     "title": "Healing Sleep Story: ''The Fairy in the Fog'' - HUMAN VOICED Rainy Sto"
+    }
+   ]
+  },
+  "bible_stories": {
+   "month_n": 66,
+   "month_median": 114091.5,
+   "month_p75": 298169.0,
+   "month_1m": 6,
+   "month_sum": 22711945,
+   "small_median": 401.0,
+   "new_ch_100k": 5,
+   "new_ch_1m": 0,
+   "median_len_min": 26.675,
+   "mfk_share": 0.16129032258064516,
+   "fresh_videos": 58,
+   "fresh_channels": 53,
+   "fresh_lt1k": 39,
+   "young": 34,
+   "young_1k": 4,
+   "young_10k": 1,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.00521077192559663,
+    0.1491590221634482
+   ],
+   "young_median_vmo": 1202.268907563025,
+   "paid_p75_vmo": 214847.45356312185,
+   "rpm": [
+    4,
+    8,
+    18
+   ],
+   "rpm_note": "AGG-EST $8-18 (Fluxnote), seasonal +50-100%",
+   "exp_month_usd_base": 135.85420726586713,
+   "exp_month_usd_range": [
+    67.92710363293357,
+    305.67196634820107
+   ],
+   "fresh_median_views": 2.0,
+   "fresh_median_age_h": 7.8063294941666665,
+   "examples_new": [
+    {
+     "ch": "Ciphora",
+     "created": "2026-08-14",
+     "subs": 4100,
+     "views": 270942,
+     "min": 49,
+     "title": "Iceberg of Bible Horrors"
+    },
+    {
+     "ch": "The Bible: A Cinematic Series",
+     "created": "2026-04-11",
+     "subs": 8180,
+     "views": 178401,
+     "min": 112,
+     "title": "The Book of Judges | Full Movie 4K"
+    },
+    {
+     "ch": "True Faith Animation",
+     "created": "2026-02-24",
+     "subs": 12700,
+     "views": 149129,
+     "min": 45,
+     "title": "Noah – The Fall of the Nephilim | Full Biblical Movie 4K"
+    },
+    {
+     "ch": "EyeBible",
+     "created": "2026-02-22",
+     "subs": 45300,
+     "views": 131073,
+     "min": 20,
+     "title": "The Most EVIL Angels... REMOVED from the Bible | Animated story of The"
+    },
+    {
+     "ch": "biblical chronicles ",
+     "created": "2026-10-10",
+     "subs": 963,
+     "views": 110712,
+     "min": 22,
+     "title": "What Happened After Jesus Died? | The Untold Story of the World After "
+    }
+   ]
+  },
+  "slow_english": {
+   "month_n": 67,
+   "month_median": 20903.0,
+   "month_p75": 219980.0,
+   "month_1m": 2,
+   "month_sum": 9878335,
+   "small_median": 36170.0,
+   "new_ch_100k": 10,
+   "new_ch_1m": 2,
+   "median_len_min": 31.333333333333336,
+   "mfk_share": 0.07246376811594203,
+   "fresh_videos": 71,
+   "fresh_channels": 54,
+   "fresh_lt1k": 39,
+   "young": 41,
+   "young_1k": 7,
+   "young_10k": 3,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.025197373252564145,
+    0.19427740017211292
+   ],
+   "young_median_vmo": 705.9922178988327,
+   "paid_p75_vmo": 227533.33792117256,
+   "rpm": [
+    0.5,
+    1.5,
+    3
+   ],
+   "rpm_note": "INFERRED from learner geography (Tier-3 countries $0.3-1.5)",
+   "exp_month_usd_base": 35.30778855544281,
+   "exp_month_usd_range": [
+    11.76926285181427,
+    70.61557711088562
+   ],
+   "fresh_median_views": 11.0,
+   "fresh_median_age_h": 8.154107271944444,
+   "examples_new": [
+    {
+     "ch": "cremizoo ",
+     "created": "2026-07-02",
+     "subs": 4820,
+     "views": 1353903,
+     "min": 8,
+     "title": "Will Lily Lose Her Best Friend? 💔😢 | Emotional Friendship Story for Ki"
+    },
+    {
+     "ch": "English with Mr. E",
+     "created": "2025-12-20",
+     "subs": 17700,
+     "views": 1353850,
+     "min": 14,
+     "title": "He Married Her Only for His Mother… Then He Fell in Love With His Own "
+    },
+    {
+     "ch": "Ana Daily English   ",
+     "created": "2026-04-14",
+     "subs": 20900,
+     "views": 815131,
+     "min": 8,
+     "title": "SLOW ENGLISH | GOOD VS BAD NIGHT ROUTINE | What Happened Next Morning "
+    },
+    {
+     "ch": "CA Daily English",
+     "created": "2026-10-08",
+     "subs": 8810,
+     "views": 507747,
+     "min": 36,
+     "title": "Leo Don't Play With Ants... Then They Crawl INSIDE His Shirt! | Englis"
+    },
+    {
+     "ch": "CA Daily English",
+     "created": "2026-10-08",
+     "subs": 8810,
+     "views": 497997,
+     "min": 37,
+     "title": "Leo's Big Brother Must Be Careful on the Bus...Then Dad Teaches Him Bu"
+    }
+   ]
+  },
+  "disaster_doc": {
+   "month_n": 75,
+   "month_median": 301975.0,
+   "month_p75": 614520.0,
+   "month_1m": 10,
+   "month_sum": 50932015,
+   "small_median": 369033.0,
+   "new_ch_100k": 19,
+   "new_ch_1m": 7,
+   "median_len_min": 22.808333333333334,
+   "mfk_share": 0.007042253521126761,
+   "fresh_videos": 67,
+   "fresh_channels": 66,
+   "fresh_lt1k": 50,
+   "young": 42,
+   "young_1k": 7,
+   "young_10k": 3,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.024589963551172864,
+    0.19009713288525165
+   ],
+   "young_median_vmo": 2769.176470588235,
+   "paid_p75_vmo": 2397416.7647058824,
+   "rpm": [
+    2,
+    4,
+    10
+   ],
+   "rpm_note": "News $2.60 / Education class (INFERRED mapping)",
+   "exp_month_usd_base": 1293.1696757942564,
+   "exp_month_usd_range": [
+    646.5848378971282,
+    3232.924189485641
+   ],
+   "fresh_median_views": 7.0,
+   "fresh_median_age_h": 11.256051716388889,
+   "examples_new": [
+    {
+     "ch": "TALEYE",
+     "created": "2026-10-13",
+     "subs": 3890,
+     "views": 4448533,
+     "min": 9,
+     "title": "The Last 77 Seconds of the Florida Learjet 60 Before The Crash"
+    },
+    {
+     "ch": "Disasters Explained",
+     "created": "2025-11-15",
+     "subs": 29400,
+     "views": 3188194,
+     "min": 24,
+     "title": "Every Tornado Type Explained"
+    },
+    {
+     "ch": "reci",
+     "created": "2026-10-08",
+     "subs": 8620,
+     "views": 2757329,
+     "min": 11,
+     "title": "Learjet Crash Update:  It Wasn’t What We Thought"
+    },
+    {
+     "ch": "Fault Lines Official",
+     "created": "2026-10-25",
+     "subs": 10500,
+     "views": 1934509,
+     "min": 10,
+     "title": "The Florida Learjet Crash Reconstructed in 3D: The Last 60 Seconds (Ne"
+    },
+    {
+     "ch": "ZOVEN STUDIOS",
+     "created": "2026-08-24",
+     "subs": 7900,
+     "views": 1368623,
+     "min": 73,
+     "title": "ICARUS I | The Sun Is Dying — Can He Save Earth in Time | Full Movie 4"
+    }
+   ]
+  },
+  "true_crime": {
+   "month_n": 66,
+   "month_median": 718371.0,
+   "month_p75": 1402682.75,
+   "month_1m": 25,
+   "month_sum": 80643080,
+   "small_median": 11155.0,
+   "new_ch_100k": 4,
+   "new_ch_1m": 3,
+   "median_len_min": 34.38333333333333,
+   "mfk_share": 0.0,
+   "fresh_videos": 57,
+   "fresh_channels": 55,
+   "fresh_lt1k": 30,
+   "young": 26,
+   "young_1k": 2,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.12873304380462175
+   ],
+   "young_median_vmo": 874.456985967053,
+   "paid_p75_vmo": 187367.50971797202,
+   "rpm": [
+    2,
+    4,
+    8
+   ],
+   "rpm_note": "Entertainment class (INFERRED)",
+   "exp_month_usd_base": 49.54420439869451,
+   "exp_month_usd_range": [
+    24.772102199347255,
+    99.08840879738902
+   ],
+   "fresh_median_views": 44.0,
+   "fresh_median_age_h": 10.350496160833334,
+   "examples_new": [
+    {
+     "ch": "Hidden Dossier",
+     "created": "2026-06-29",
+     "subs": 12100,
+     "views": 2052180,
+     "min": 47,
+     "title": "95% Of People Couldn't Finish Watching This Video | True Crime Documen"
+    },
+    {
+     "ch": "Red File",
+     "created": "2026-02-25",
+     "subs": 119000,
+     "views": 1865038,
+     "min": 41,
+     "title": "“Friendly” Cop Has No Clue She's About To Be Arrested for Murder"
+    },
+    {
+     "ch": "Bodycam C4",
+     "created": "2026-09-09",
+     "subs": 24700,
+     "views": 1268131,
+     "min": 26,
+     "title": "Husband Realizes His Wife is the Sickest Predator in the State of Wash"
+    },
+    {
+     "ch": "REMEMORY.",
+     "created": "2026-10-20",
+     "subs": 3770,
+     "views": 993952,
+     "min": 34,
+     "title": "Remember Natalee Holloway? This Is What Actually Happened To Her"
+    },
+    {
+     "ch": "Red File",
+     "created": "2026-02-25",
+     "subs": 119000,
+     "views": 674574,
+     "min": 55,
+     "title": "“Friendly” Beauty Queen Has No Clue Police Are About To Arrest Her For"
+    }
+   ]
+  },
+  "space_science": {
+   "month_n": 62,
+   "month_median": 162974.5,
+   "month_p75": 323680.25,
+   "month_1m": 7,
+   "month_sum": 34869583,
+   "small_median": 116545.0,
+   "new_ch_100k": 6,
+   "new_ch_1m": 1,
+   "median_len_min": 29.05,
+   "mfk_share": 0.0,
+   "fresh_videos": 73,
+   "fresh_channels": 72,
+   "fresh_lt1k": 54,
+   "young": 53,
+   "young_1k": 10,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.06758430445307662
+   ],
+   "young_median_vmo": 1530.0,
+   "paid_p75_vmo": 138613.51857732612,
+   "rpm": [
+    4,
+    10,
+    19.5
+   ],
+   "rpm_note": "Education class MEASURED",
+   "exp_month_usd_base": 231.11624843254776,
+   "exp_month_usd_range": [
+    92.44649937301911,
+    450.67668444346816
+   ],
+   "fresh_median_views": 3.0,
+   "fresh_median_age_h": 10.301885049722223,
+   "examples_new": [
+    {
+     "ch": "ZOVEN STUDIOS",
+     "created": "2026-08-24",
+     "subs": 7900,
+     "views": 1368623,
+     "min": 73,
+     "title": "ICARUS I | The Sun Is Dying — Can He Save Earth in Time | Full Movie 4"
+    },
+    {
+     "ch": "SanoLore",
+     "created": "2026-06-30",
+     "subs": 4690,
+     "views": 437629,
+     "min": 34,
+     "title": "Office Space (1999): The Movie That Got the Memo Late"
+    },
+    {
+     "ch": "Calm Space",
+     "created": "2025-12-19",
+     "subs": 115000,
+     "views": 282710,
+     "min": 126,
+     "title": "Why the Universe May Be Full of Dead Alien Civilizations"
+    },
+    {
+     "ch": "Deep Space News",
+     "created": "2026-07-21",
+     "subs": 52500,
+     "views": 265546,
+     "min": 34,
+     "title": "James Webb Just Found Something Strange — And the Universe Might Be Br"
+    },
+    {
+     "ch": "The Cosmic Silence",
+     "created": "2025-11-30",
+     "subs": 3200,
+     "views": 136464,
+     "min": 74,
+     "title": "Why a Generation Ship Would Freeze Before Reaching The Stars"
+    }
+   ]
+  },
+  "geopolitics": {
+   "month_n": 47,
+   "month_median": 25963.0,
+   "month_p75": 141448.5,
+   "month_1m": 2,
+   "month_sum": 8310774,
+   "small_median": 3494.5,
+   "new_ch_100k": 1,
+   "new_ch_1m": 0,
+   "median_len_min": 21.216666666666665,
+   "mfk_share": 0.0,
+   "fresh_videos": 32,
+   "fresh_channels": 29,
+   "fresh_lt1k": 12,
+   "young": 5,
+   "young_1k": 0,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.43449149475208104
+   ],
+   "young_median_vmo": 18.979591836734695,
+   "paid_p75_vmo": 0,
+   "rpm": [
+    2.5,
+    6,
+    12
+   ],
+   "rpm_note": "News/Education (INFERRED)",
+   "exp_month_usd_base": 0.0,
+   "exp_month_usd_range": [
+    0.0,
+    0.0
+   ],
+   "fresh_median_views": 180.5,
+   "fresh_median_age_h": 13.037301716388889,
+   "examples_new": [
+    {
+     "ch": "Atlas Unfolded",
+     "created": "2026-10-13",
+     "subs": 1600,
+     "views": 181357,
+     "min": 25,
+     "title": "The Entire Ukraine War in 25 Minutes (Animated With Maps)"
+    },
+    {
+     "ch": "The Indian Origin",
+     "created": "2026-09-09",
+     "subs": 22900,
+     "views": 61899,
+     "min": 9,
+     "title": "Maharashtra’s Water Masterplan Explained | River Links, Irrigation & D"
+    },
+    {
+     "ch": "The Indian Origin",
+     "created": "2026-09-09",
+     "subs": 22900,
+     "views": 53551,
+     "min": 11,
+     "title": "Why India Needs a Mumbai–Patna Expressway? | The Missing Link Explaine"
+    },
+    {
+     "ch": "The Indian Origin",
+     "created": "2026-09-09",
+     "subs": 22900,
+     "views": 41418,
+     "min": 9,
+     "title": "Mumbai’s Two Mega Tunnels Explained | Thane–Borivali & Goregaon–Mulund"
+    },
+    {
+     "ch": "Global FaultX",
+     "created": "2026-06-18",
+     "subs": 5130,
+     "views": 34035,
+     "min": 22,
+     "title": "India's UNSC Power Play: Can Modi Challenge US & China’s Veto? | Expla"
+    }
+   ]
+  },
+  "business_doc": {
+   "month_n": 67,
+   "month_median": 151699.0,
+   "month_p75": 444955.0,
+   "month_1m": 5,
+   "month_sum": 31611633,
+   "small_median": 57293.0,
+   "new_ch_100k": 7,
+   "new_ch_1m": 2,
+   "median_len_min": 22.458333333333336,
+   "mfk_share": 0.0,
+   "fresh_videos": 61,
+   "fresh_channels": 60,
+   "fresh_lt1k": 51,
+   "young": 45,
+   "young_1k": 3,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.07865426194064076
+   ],
+   "young_median_vmo": 302.6470588235294,
+   "paid_p75_vmo": 640598.5733452594,
+   "rpm": [
+    2,
+    5,
+    10
+   ],
+   "rpm_note": "Business $2.01 MEASURED n=3; AGG-EST higher",
+   "exp_month_usd_base": 143.13179869156278,
+   "exp_month_usd_range": [
+    57.25271947662511,
+    286.26359738312556
+   ],
+   "fresh_median_views": 2.0,
+   "fresh_median_age_h": 13.077996160833335,
+   "examples_new": [
+    {
+     "ch": "Fortune & Fall",
+     "created": "2026-10-11",
+     "subs": 5990,
+     "views": 2220467,
+     "min": 16,
+     "title": "WTF Happened to Labubu?"
+    },
+    {
+     "ch": "Cruise Ship Uncovered",
+     "created": "2026-10-03",
+     "subs": 11000,
+     "views": 1701684,
+     "min": 37,
+     "title": "Villa Vie Odyssey: The Truth About The Never-Ending Cruise That Ended"
+    },
+    {
+     "ch": "The Backstory",
+     "created": "2026-10-16",
+     "subs": 6820,
+     "views": 505707,
+     "min": 29,
+     "title": "What Really Happened to Every Product Trump Put His Name On"
+    },
+    {
+     "ch": "X-Legio",
+     "created": "2026-06-08",
+     "subs": 1340,
+     "views": 361040,
+     "min": 9,
+     "title": "The Rise & Fall of India's AI Dream🔻 | Sarvam AI Case Study "
+    },
+    {
+     "ch": "Aussie Fortunes",
+     "created": "2026-08-21",
+     "subs": 3650,
+     "views": 239671,
+     "min": 22,
+     "title": "This Is The RICHEST Family That OWNS NEW ZEALAND..."
+    }
+   ]
+  },
+  "personal_finance": {
+   "month_n": 48,
+   "month_median": 212221.5,
+   "month_p75": 491063.75,
+   "month_1m": 10,
+   "month_sum": 26462262,
+   "small_median": 192902.0,
+   "new_ch_100k": 7,
+   "new_ch_1m": 0,
+   "median_len_min": 24.733333333333334,
+   "mfk_share": 0.0,
+   "fresh_videos": 81,
+   "fresh_channels": 79,
+   "fresh_lt1k": 54,
+   "young": 38,
+   "young_1k": 5,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.09181293258383999
+   ],
+   "young_median_vmo": 274.945652173913,
+   "paid_p75_vmo": 92065.53633217992,
+   "rpm": [
+    2,
+    8,
+    20
+   ],
+   "rpm_note": "Business $2.01 MEASURED n=3; AGG-EST $8-22",
+   "exp_month_usd_base": 47.78372565505769,
+   "exp_month_usd_range": [
+    11.945931413764422,
+    119.45931413764421
+   ],
+   "fresh_median_views": 3.0,
+   "fresh_median_age_h": 10.78244060527778,
+   "examples_new": [
+    {
+     "ch": "The Important Part",
+     "created": "2026-05-05",
+     "subs": 370000,
+     "views": 302347,
+     "min": 42,
+     "title": "How to Think About Risk When You Invest | The Important Part"
+    },
+    {
+     "ch": "Mutual Funds by PhonePe",
+     "created": "2026-07-20",
+     "subs": 2510,
+     "views": 229324,
+     "min": 85,
+     "title": "Worst time to do SIP? In 2027| Gajendra Kothari"
+    },
+    {
+     "ch": "Unspoken Ledger ",
+     "created": "2026-10-03",
+     "subs": 1800,
+     "views": 221255,
+     "min": 22,
+     "title": "Your Parents Paid for Your Sister's College. You Became a Mechanic— 20"
+    },
+    {
+     "ch": "Caleb Hammer Top Videos",
+     "created": "2026-06-24",
+     "subs": 20800,
+     "views": 199147,
+     "min": 185,
+     "title": "The Worst Financial Audit Guests of All Time | Caleb Hammer"
+    },
+    {
+     "ch": "Money Matters",
+     "created": "2026-09-18",
+     "subs": 1770,
+     "views": 192902,
+     "min": 34,
+     "title": "What Would Happen to the World Economy If World War III Began?"
+    }
+   ]
+  },
+  "psychology_stoic": {
+   "month_n": 60,
+   "month_median": 69471.5,
+   "month_p75": 120686.5,
+   "month_1m": 2,
+   "month_sum": 10821875,
+   "small_median": 46330.0,
+   "new_ch_100k": 5,
+   "new_ch_1m": 0,
+   "median_len_min": 21.666666666666664,
+   "mfk_share": 0.0,
+   "fresh_videos": 50,
+   "fresh_channels": 45,
+   "fresh_lt1k": 28,
+   "young": 26,
+   "young_1k": 6,
+   "young_10k": 1,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.0068218089769898765,
+    0.18893176991958405
+   ],
+   "young_median_vmo": 3659.9735356386736,
+   "paid_p75_vmo": 396092.53246753244,
+   "rpm": [
+    2,
+    4,
+    8
+   ],
+   "rpm_note": "Education/Lifestyle (INFERRED)",
+   "exp_month_usd_base": 264.36870795173945,
+   "exp_month_usd_range": [
+    132.18435397586973,
+    528.7374159034789
+   ],
+   "fresh_median_views": 2.0,
+   "fresh_median_age_h": 11.287996160833334,
+   "examples_new": [
+    {
+     "ch": "The Relationship Blueprint",
+     "created": "2026-10-20",
+     "subs": 3490,
+     "views": 374011,
+     "min": 17,
+     "title": "You Think She’s Not Interested? Watch This First | Female Psychology |"
+    },
+    {
+     "ch": "Mind Over Matter",
+     "created": "2025-12-21",
+     "subs": 14900,
+     "views": 219222,
+     "min": 13,
+     "title": "The Psychological Disorder Behind EVERY Hannibal Lecter"
+    },
+    {
+     "ch": "The Drama Spot",
+     "created": "2026-08-25",
+     "subs": 35300,
+     "views": 218172,
+     "min": 68,
+     "title": "he Stoic Professor Trapped His Student Assistant: \"Call Me Professor a"
+    },
+    {
+     "ch": "Stoic Mindset Code",
+     "created": "2026-10-20",
+     "subs": 2660,
+     "views": 131686,
+     "min": 50,
+     "title": "10 Hidden Truths About Female Psychology Every Man Should Understand"
+    },
+    {
+     "ch": "The Stoic Method",
+     "created": "2026-08-29",
+     "subs": 4700,
+     "views": 116038,
+     "min": 273,
+     "title": "JUST ONE NIGHT AND YOU'LL NEVER BE THE SAME AGAIN! | Stoicism to REPRO"
+    }
+   ]
+  },
+  "tech_ai": {
+   "month_n": 55,
+   "month_median": 381667.0,
+   "month_p75": 1056088.0,
+   "month_1m": 14,
+   "month_sum": 63022992,
+   "small_median": 259687.5,
+   "new_ch_100k": 9,
+   "new_ch_1m": 2,
+   "median_len_min": 21.741666666666667,
+   "mfk_share": 0.0,
+   "fresh_videos": 49,
+   "fresh_channels": 47,
+   "fresh_lt1k": 34,
+   "young": 29,
+   "young_1k": 5,
+   "young_10k": 2,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.019120864097994433,
+    0.21964947595851925
+   ],
+   "young_median_vmo": 1005.75,
+   "paid_p75_vmo": 252183.13588850174,
+   "rpm": [
+    2.3,
+    4,
+    8
+   ],
+   "rpm_note": "Tech $2.33 MEASURED class",
+   "exp_month_usd_base": 137.74318775783098,
+   "exp_month_usd_range": [
+    79.20233296075281,
+    275.48637551566196
+   ],
+   "fresh_median_views": 11.0,
+   "fresh_median_age_h": 15.299385049722224,
+   "examples_new": [
+    {
+     "ch": "The Builders with Walter Isaacson",
+     "created": "2026-09-28",
+     "subs": 28700,
+     "views": 1938975,
+     "min": 37,
+     "title": "Elon Musk: The End of Work, the Death of Money, and a World Run by AI"
+    },
+    {
+     "ch": "The Hijazi",
+     "created": "2026-01-08",
+     "subs": 26800,
+     "views": 1365494,
+     "min": 64,
+     "title": "YUNUS (Jonah)– The Movie (2026) | The Prophet Swallowed by the Great F"
+    },
+    {
+     "ch": "VOIDNEW",
+     "created": "2026-05-21",
+     "subs": 31200,
+     "views": 869055,
+     "min": 24,
+     "title": "CONSTANTINE 2 — PART 1 FULL CINEMATIC 4K AI MOVIE ✝️"
+    },
+    {
+     "ch": "Not My Business",
+     "created": "2026-06-18",
+     "subs": 10500,
+     "views": 544052,
+     "min": 20,
+     "title": "24 Hours Inside Stripe: How They Build So Fast"
+    },
+    {
+     "ch": "The Ultimate Finding",
+     "created": "2026-02-07",
+     "subs": 53400,
+     "views": 361363,
+     "min": 29,
+     "title": "Elon Musk’s Grok AI Was Asked Who Built the Pyramids — Its Answer Wasn"
+    }
+   ]
+  },
+  "ww2_military": {
+   "month_n": 83,
+   "month_median": 210841.0,
+   "month_p75": 372430.5,
+   "month_1m": 8,
+   "month_sum": 27971950,
+   "small_median": 161403.0,
+   "new_ch_100k": 15,
+   "new_ch_1m": 1,
+   "median_len_min": 22.016666666666666,
+   "mfk_share": 0.0,
+   "fresh_videos": 89,
+   "fresh_channels": 89,
+   "fresh_lt1k": 68,
+   "young": 64,
+   "young_1k": 7,
+   "young_10k": 3,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.016068725432185196,
+    0.12899860788542522
+   ],
+   "young_median_vmo": 812.9166666666666,
+   "paid_p75_vmo": 320070.12940528634,
+   "rpm": [
+    4,
+    8,
+    15
+   ],
+   "rpm_note": "Education/history, older male audience (INFERRED)",
+   "exp_month_usd_base": 429.7777791522814,
+   "exp_month_usd_range": [
+    214.8888895761407,
+    805.8333359105277
+   ],
+   "fresh_median_views": 3.0,
+   "fresh_median_age_h": 10.305496160833334,
+   "examples_new": [
+    {
+     "ch": "Markets of the Past",
+     "created": "2026-04-10",
+     "subs": 114000,
+     "views": 1832546,
+     "min": 31,
+     "title": "The Real Reason Hitler Never Invaded Switzerland"
+    },
+    {
+     "ch": "The War They Filmed",
+     "created": "2026-10-22",
+     "subs": 3670,
+     "views": 806605,
+     "min": 27,
+     "title": "The Battle of Tarawa 1943 in Real Color: 76 Hours That Shocked America"
+    },
+    {
+     "ch": "Casual Tactics",
+     "created": "2026-06-28",
+     "subs": 5030,
+     "views": 716377,
+     "min": 9,
+     "title": "How Military Berets Actually Work"
+    },
+    {
+     "ch": "After the Crown",
+     "created": "2026-05-12",
+     "subs": 50300,
+     "views": 556536,
+     "min": 28,
+     "title": "What Happened to Hitler’s Sister After the War?"
+    },
+    {
+     "ch": "The War They Filmed",
+     "created": "2026-10-22",
+     "subs": 3670,
+     "views": 355365,
+     "min": 32,
+     "title": "D-Day: The Real Footage They Almost Lost | WW2 Documentary"
+    }
+   ]
+  },
+  "nature_wildlife": {
+   "month_n": 89,
+   "month_median": 362786.0,
+   "month_p75": 766202.0,
+   "month_1m": 12,
+   "month_sum": 69291408,
+   "small_median": 430891.0,
+   "new_ch_100k": 22,
+   "new_ch_1m": 3,
+   "median_len_min": 29.4,
+   "mfk_share": 0.025806451612903226,
+   "fresh_videos": 66,
+   "fresh_channels": 62,
+   "fresh_lt1k": 41,
+   "young": 37,
+   "young_1k": 6,
+   "young_10k": 2,
+   "young_100k": 2,
+   "young_10k_ci": [
+    0.01495066277053994,
+    0.1770496506353991
+   ],
+   "young_median_vmo": 1977.4007220216606,
+   "paid_p75_vmo": 363141.3925163235,
+   "rpm": [
+    3,
+    6,
+    10
+   ],
+   "rpm_note": "Education-like, global audience (INFERRED)",
+   "exp_month_usd_base": 795.3187616507782,
+   "exp_month_usd_range": [
+    397.6593808253891,
+    1325.5312694179636
+   ],
+   "fresh_median_views": 9.0,
+   "fresh_median_age_h": 11.7021628275,
+   "examples_new": [
+    {
+     "ch": "Ali Wildlife Hunt",
+     "created": "2026-09-17",
+     "subs": 6620,
+     "views": 7839776,
+     "min": 11,
+     "title": "Great Horned Owl Life Cycle: Egg to First Flight | Wildlife Documentar"
+    },
+    {
+     "ch": "Fossil",
+     "created": "2026-03-01",
+     "subs": 56000,
+     "views": 2811686,
+     "min": 19,
+     "title": "Could a Polar Bear Beat Every Ice Age Predator?"
+    },
+    {
+     "ch": "CTTV Video",
+     "created": "2026-03-30",
+     "subs": 9140,
+     "views": 2001590,
+     "min": 17,
+     "title": "The Father Eagle Left to Hunt. That Was All the Mountain Lion Needed |"
+    },
+    {
+     "ch": "CTTV Video",
+     "created": "2026-03-30",
+     "subs": 9140,
+     "views": 955765,
+     "min": 15,
+     "title": "Golden Eagle Finally Catches a Marmot… Then a Wolverine Raids Her Nest"
+    },
+    {
+     "ch": "Nature's Tether",
+     "created": "2026-05-29",
+     "subs": 17500,
+     "views": 874528,
+     "min": 30,
+     "title": "WILD SERENGETI | Why the Gentlest Mother Is Also the Cruelest | Wildli"
+    }
+   ]
+  },
+  "transport_doc": {
+   "month_n": 59,
+   "month_median": 196838.0,
+   "month_p75": 399354.0,
+   "month_1m": 5,
+   "month_sum": 26626833,
+   "small_median": 52694.0,
+   "new_ch_100k": 8,
+   "new_ch_1m": 0,
+   "median_len_min": 25.483333333333334,
+   "mfk_share": 0.0,
+   "fresh_videos": 42,
+   "fresh_channels": 42,
+   "fresh_lt1k": 24,
+   "young": 19,
+   "young_1k": 5,
+   "young_10k": 2,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.029357941395096593,
+    0.313945504948417
+   ],
+   "young_median_vmo": 7904.5714285714275,
+   "paid_p75_vmo": 664838.5714285714,
+   "rpm": [
+    3,
+    5.69,
+    10
+   ],
+   "rpm_note": "Transport $5.69 MEASURED (small n)",
+   "exp_month_usd_base": 792.1055791200872,
+   "exp_month_usd_range": [
+    417.6303580597999,
+    1392.1011935326665
+   ],
+   "fresh_median_views": 228.0,
+   "fresh_median_age_h": 34.320218383055554,
+   "examples_new": [
+    {
+     "ch": "Lost Warbirds",
+     "created": "2026-09-14",
+     "subs": 697,
+     "views": 442803,
+     "min": 25,
+     "title": "What Happened to the Enola Gay After Hiroshima"
+    },
+    {
+     "ch": "BigMood Films",
+     "created": "2026-01-19",
+     "subs": 36300,
+     "views": 391675,
+     "min": 92,
+     "title": "⬆️ This Movie Will Give You Chills! A Plane Crashes in the Snow | Surv"
+    },
+    {
+     "ch": "Rewynd3D",
+     "created": "2026-10-18",
+     "subs": 10300,
+     "views": 384412,
+     "min": 22,
+     "title": "9/11 Through the Eyes of the Survivor | Rebuilt in 3D"
+    },
+    {
+     "ch": "WW2 Escape Stories",
+     "created": "2026-10-23",
+     "subs": 5100,
+     "views": 307030,
+     "min": 46,
+     "title": "The True Story of Chuck Yeager, the Downed Pilot Who Carried a Wounded"
+    },
+    {
+     "ch": "WW2 Escape Stories",
+     "created": "2026-10-23",
+     "subs": 5100,
+     "views": 227504,
+     "min": 41,
+     "title": "The American POW Who Stole a German Fighter and Flew to Freedom: The B"
+    }
+   ]
+  },
+  "reddit_stories": {
+   "month_n": 58,
+   "month_median": 320812.5,
+   "month_p75": 915426.75,
+   "month_1m": 11,
+   "month_sum": 37679297,
+   "small_median": 286.0,
+   "new_ch_100k": 4,
+   "new_ch_1m": 0,
+   "median_len_min": 33.36666666666667,
+   "mfk_share": 0.0,
+   "fresh_videos": 81,
+   "fresh_channels": 75,
+   "fresh_lt1k": 48,
+   "young": 31,
+   "young_1k": 5,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.11025900073475385
+   ],
+   "young_median_vmo": 1990.4950495049507,
+   "paid_p75_vmo": 227684.4,
+   "rpm": [
+    1.5,
+    3,
+    6
+   ],
+   "rpm_note": "Entertainment (INFERRED); reused-content risk",
+   "exp_month_usd_base": 113.58730656359275,
+   "exp_month_usd_range": [
+    56.793653281796374,
+    227.1746131271855
+   ],
+   "fresh_median_views": 6.0,
+   "fresh_median_age_h": 9.30605171638889,
+   "examples_new": [
+    {
+     "ch": "Deep Reddit Drama",
+     "created": "2026-10-20",
+     "subs": 2050,
+     "views": 209168,
+     "min": 34,
+     "title": "2 Weeks Later, The Neighbor Wanted His $10,000 Back"
+    },
+    {
+     "ch": "Crimes Of Reddit",
+     "created": "2026-06-10",
+     "subs": 35700,
+     "views": 181219,
+     "min": 64,
+     "title": "Catfishing, Gaslighting, & Reddit's Darkest True Crime Secrets"
+    },
+    {
+     "ch": "Crimes Of Reddit",
+     "created": "2026-06-10",
+     "subs": 35700,
+     "views": 148959,
+     "min": 60,
+     "title": "Reddit's Most Terrifying Halloween True Crime Stories"
+    },
+    {
+     "ch": "Crimes Of Reddit",
+     "created": "2026-06-10",
+     "subs": 35700,
+     "views": 126218,
+     "min": 57,
+     "title": "Scary Serial Killer Encounters From Reddit | Let's Not Meet"
+    },
+    {
+     "ch": "Crimes Of Reddit",
+     "created": "2026-06-10",
+     "subs": 35700,
+     "views": 125940,
+     "min": 53,
+     "title": "Reddit’s Scariest True Crime Ghost Stories"
+    }
+   ]
+  },
+  "minecraft_horror": {
+   "month_n": 73,
+   "month_median": 1607242.0,
+   "month_p75": 2191174.0,
+   "month_1m": 64,
+   "month_sum": 162351671,
+   "small_median": 750539.0,
+   "new_ch_100k": 5,
+   "new_ch_1m": 2,
+   "median_len_min": 24.299999999999997,
+   "mfk_share": 0.014492753623188406,
+   "fresh_videos": 65,
+   "fresh_channels": 65,
+   "fresh_lt1k": 45,
+   "young": 14,
+   "young_1k": 2,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.21531701192718142
+   ],
+   "young_median_vmo": 3527.1274851403978,
+   "paid_p75_vmo": 649829.5552560646,
+   "rpm": [
+    1,
+    2.05,
+    3.5
+   ],
+   "rpm_note": "Gaming $2.05 MEASURED",
+   "exp_month_usd_base": 140.084362148633,
+   "exp_month_usd_range": [
+    68.33383519445513,
+    239.16842318059298
+   ],
+   "fresh_median_views": 14.0,
+   "fresh_median_age_h": 8.115496160833333,
+   "examples_new": [
+    {
+     "ch": "Clooless Gaming",
+     "created": "2025-11-21",
+     "subs": 328000,
+     "views": 1533538,
+     "min": 60,
+     "title": "Beating Minecraft With The Phobia Mod"
+    },
+    {
+     "ch": "SirCloaked",
+     "created": "2025-11-22",
+     "subs": 143000,
+     "views": 1111635,
+     "min": 19,
+     "title": "Something On My Farm Wants Me Dead..."
+    },
+    {
+     "ch": "THE HAUNTED REALMS",
+     "created": "2026-01-27",
+     "subs": 10700,
+     "views": 763432,
+     "min": 8,
+     "title": "Scary Lady VS Serbian Dancing Lady Part 1 | Horror PoV | Horror Story "
+    },
+    {
+     "ch": "Techys",
+     "created": "2025-12-06",
+     "subs": 1100000,
+     "views": 754836,
+     "min": 16,
+     "title": "ROBLOX MONOCHROME..."
+    },
+    {
+     "ch": "Cody Toon",
+     "created": "2026-09-01",
+     "subs": 52700,
+     "views": 726252,
+     "min": 11,
+     "title": "JJ and Mikey inside MAZE WITH ALL NEW SAKADUNG APPLE & RED SAKADUNG AP"
+    }
+   ]
+  },
+  "kids_animation": {
+   "month_n": 64,
+   "month_median": 2766886.5,
+   "month_p75": 4069061.25,
+   "month_1m": 58,
+   "month_sum": 224404432,
+   "small_median": 1903591.0,
+   "new_ch_100k": 8,
+   "new_ch_1m": 6,
+   "median_len_min": 32.583333333333336,
+   "mfk_share": 0.8910891089108911,
+   "fresh_videos": 37,
+   "fresh_channels": 35,
+   "fresh_lt1k": 16,
+   "young": 17,
+   "young_1k": 4,
+   "young_10k": 3,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0.0619101371254899,
+    0.41029929017375777
+   ],
+   "young_median_vmo": 180.0,
+   "paid_p75_vmo": 1240037.2402977138,
+   "rpm": [
+    0.2,
+    0.33,
+    1
+   ],
+   "rpm_note": "Kids & Teens $0.33 MEASURED",
+   "exp_month_usd_base": 68.5071122048324,
+   "exp_month_usd_range": [
+    41.519461942322664,
+    207.59730971161332
+   ],
+   "fresh_median_views": 132.0,
+   "fresh_median_age_h": 10.442718383055556,
+   "examples_new": [
+    {
+     "ch": "Friends of Adventure Bay - PAW Patrol Official",
+     "created": "2026-06-01",
+     "subs": 8970,
+     "views": 2876294,
+     "min": 40,
+     "title": "Chickenletta and the Big Truck Pups | Friends of Adventure Bay | Carto"
+    },
+    {
+     "ch": "Braids Reacts",
+     "created": "2026-07-30",
+     "subs": 18300,
+     "views": 2444533,
+     "min": 19,
+     "title": "In This Town / In This World Roblox Story Animation Compilation"
+    },
+    {
+     "ch": "ZappyToons English - Nursery Rhymes & Stories",
+     "created": "2026-04-06",
+     "subs": 107000,
+     "views": 2338746,
+     "min": 30,
+     "title": "Baby Cars Song + Many More Nursery Rhymes & Kids Songs - ZappyToons En"
+    },
+    {
+     "ch": "ZappyToons English - Nursery Rhymes & Stories",
+     "created": "2026-04-06",
+     "subs": 107000,
+     "views": 2225107,
+     "min": 33,
+     "title": "Scary Ghost In Our Room + Many More Nursery Rhymes & Kids Songs - Zapp"
+    },
+    {
+     "ch": "Robo - Toddler Learning Songs & Cartoons",
+     "created": "2026-09-03",
+     "subs": 8520,
+     "views": 1903591,
+     "min": 24,
+     "title": "School Bus Adventure! 😥🚌 Wheels on the Bus 🚍 School Bus Rules | Robo T"
+    }
+   ]
+  },
+  "ambient_music": {
+   "month_n": 55,
+   "month_median": 311355.0,
+   "month_p75": 527728.0,
+   "month_1m": 7,
+   "month_sum": 26033832,
+   "small_median": 292866.0,
+   "new_ch_100k": 20,
+   "new_ch_1m": 4,
+   "median_len_min": 87.56666666666666,
+   "mfk_share": 0.184,
+   "fresh_videos": 70,
+   "fresh_channels": 65,
+   "fresh_lt1k": 33,
+   "young": 34,
+   "young_1k": 6,
+   "young_10k": 0,
+   "young_100k": 0,
+   "young_10k_ci": [
+    0,
+    0.10151790621961015
+   ],
+   "young_median_vmo": 877.5,
+   "paid_p75_vmo": 362699.9162531017,
+   "rpm": [
+    1,
+    2.28,
+    4
+   ],
+   "rpm_note": "Music $2.28 MEASURED",
+   "exp_month_usd_base": 134.4502552895614,
+   "exp_month_usd_range": [
+    58.969410214719915,
+    235.87764085887966
+   ],
+   "fresh_median_views": 278.0,
+   "fresh_median_age_h": 7.952996160833333,
+   "examples_new": [
+    {
+     "ch": "Afno Beats Official ",
+     "created": "2026-08-10",
+     "subs": 9460,
+     "views": 2240816,
+     "min": 31,
+     "title": "🎶 2026 Ultimate Mind Relaxing Lofi Beats | Study,Sleep & Chill 🎧🎵"
+    },
+    {
+     "ch": "Click Bollywood55",
+     "created": "2025-11-27",
+     "subs": 30000,
+     "views": 2093285,
+     "min": 25,
+     "title": "🎶2026Ultimate Mind Relaxing Lofi Beats | Study,  Sleep & Chill🎧"
+    },
+    {
+     "ch": "comfort space ♡",
+     "created": "2026-04-12",
+     "subs": 91500,
+     "views": 1166682,
+     "min": 160,
+     "title": "it's okay, go to sleep"
+    },
+    {
+     "ch": "Vintage Love Songs",
+     "created": "2026-08-26",
+     "subs": 20000,
+     "views": 1081677,
+     "min": 106,
+     "title": "100 GREATEST LOVE SONGS ❤️70s 80s 90s GREATEST HITS | Best Romantic Ol"
+    },
+    {
+     "ch": "Dough & Melody",
+     "created": "2026-04-17",
+     "subs": 14100,
+     "views": 582946,
+     "min": 110,
+     "title": "LIVE Dough Shaping & Relaxing Music 🌸 Traditional White Floral Buns"
+    }
+   ]
+  }
+ }
+}
