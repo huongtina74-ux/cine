@@ -1,0 +1,333 @@
+{
+ "true_scale_3d": {
+  "m_n": 22,
+  "m_median": 76222.5,
+  "m_100k": 9,
+  "m_1m": 0,
+  "new_ch_100k": 0,
+  "t_ch": 10,
+  "t_lt1k": 5,
+  "young": 6,
+  "young_1k": 1,
+  "young_10k": 0,
+  "median_len": 11.0,
+  "new_examples": [
+   {
+    "ch": "The Figuen-5V2",
+    "age": 308,
+    "subs": 301,
+    "views": 70962,
+    "mins": 14
+   }
+  ]
+ },
+ "how_it_works_3d": {
+  "m_n": 20,
+  "m_median": 135564.5,
+  "m_100k": 12,
+  "m_1m": 0,
+  "new_ch_100k": 4,
+  "t_ch": 2,
+  "t_lt1k": 1,
+  "young": 1,
+  "young_1k": 0,
+  "young_10k": 0,
+  "median_len": 12.0,
+  "new_examples": [
+   {
+    "ch": "kaye.creatives",
+    "age": 200,
+    "subs": 95200,
+    "views": 681291,
+    "mins": 12
+   },
+   {
+    "ch": "Exploded Works",
+    "age": 44,
+    "subs": 4380,
+    "views": 482300,
+    "mins": 10
+   },
+   {
+    "ch": "Sleek Learning",
+    "age": 193,
+    "subs": 799,
+    "views": 140445,
+    "mins": 9
+   },
+   {
+    "ch": "Keelprint",
+    "age": 31,
+    "subs": 1550,
+    "views": 108571,
+    "mins": 9
+   }
+  ]
+ },
+ "ancient_engineering_3d": {
+  "m_n": 36,
+  "m_median": 44676.0,
+  "m_100k": 10,
+  "m_1m": 3,
+  "new_ch_100k": 2,
+  "t_ch": 26,
+  "t_lt1k": 19,
+  "young": 21,
+  "young_1k": 3,
+  "young_10k": 0,
+  "median_len": 28.0,
+  "new_examples": [
+   {
+    "ch": "The Farm Blueprint",
+    "age": 50,
+    "subs": 2970,
+    "views": 1413304,
+    "mins": 16
+   },
+   {
+    "ch": "Stone & Physics",
+    "age": 50,
+    "subs": 391,
+    "views": 394955,
+    "mins": 21
+   },
+   {
+    "ch": "Hidden Travel Files",
+    "age": 99,
+    "subs": 1580,
+    "views": 63768,
+    "mins": 41
+   }
+  ]
+ },
+ "blender_tutorial": {
+  "m_n": 25,
+  "m_median": 50052.0,
+  "m_100k": 10,
+  "m_1m": 0,
+  "new_ch_100k": 0,
+  "t_ch": 15,
+  "t_lt1k": 2,
+  "young": 0,
+  "young_1k": 0,
+  "young_10k": 0,
+  "median_len": 16.5,
+  "new_examples": []
+ },
+ "coding_ai_tools_tutorial": {
+  "m_n": 28,
+  "m_median": 555442.5,
+  "m_100k": 21,
+  "m_1m": 3,
+  "new_ch_100k": 2,
+  "t_ch": 24,
+  "t_lt1k": 5,
+  "young": 3,
+  "young_1k": 0,
+  "young_10k": 0,
+  "median_len": 17.5,
+  "new_examples": [
+   {
+    "ch": "kaye.creatives",
+    "age": 200,
+    "subs": 95200,
+    "views": 681291,
+    "mins": 12
+   },
+   {
+    "ch": "Tristen O'Brien",
+    "age": 227,
+    "subs": 93900,
+    "views": 593711,
+    "mins": 11
+   }
+  ]
+ },
+ "cad_cnc_cabinet": {
+  "m_n": 19,
+  "m_median": 1974.0,
+  "m_100k": 0,
+  "m_1m": 0,
+  "new_ch_100k": 0,
+  "t_ch": 26,
+  "t_lt1k": 11,
+  "young": 7,
+  "young_1k": 2,
+  "young_10k": 0,
+  "median_len": 26.0,
+  "new_examples": []
+ },
+ "data_viz_maps": {
+  "m_n": 19,
+  "m_median": 267956.0,
+  "m_100k": 14,
+  "m_1m": 6,
+  "new_ch_100k": 3,
+  "t_ch": 5,
+  "t_lt1k": 3,
+  "young": 3,
+  "young_1k": 1,
+  "young_10k": 1,
+  "median_len": 15.5,
+  "new_examples": [
+   {
+    "ch": "Mapnificent",
+    "age": 211,
+    "subs": 4570,
+    "views": 398528,
+    "mins": 8
+   },
+   {
+    "ch": "RoZoom Maps",
+    "age": 34,
+    "subs": 561,
+    "views": 267956,
+    "mins": 41
+   },
+   {
+    "ch": "Atlas Unfolded",
+    "age": 29,
+    "subs": 1600,
+    "views": 181348,
+    "mins": 25
+   },
+   {
+    "ch": "Data Vision",
+    "age": 191,
+    "subs": 2370,
+    "views": 81355,
+    "mins": 10
+   }
+  ]
+ },
+ "math_physics_explainer": {
+  "m_n": 29,
+  "m_median": 13002.0,
+  "m_100k": 2,
+  "m_1m": 0,
+  "new_ch_100k": 1,
+  "t_ch": 14,
+  "t_lt1k": 7,
+  "young": 6,
+  "young_1k": 2,
+  "young_10k": 1,
+  "median_len": 19.0,
+  "new_examples": [
+   {
+    "ch": "Mr Space Explainer",
+    "age": 251,
+    "subs": 14800,
+    "views": 213272,
+    "mins": 37
+   },
+   {
+    "ch": "Mathspark8",
+    "age": 154,
+    "subs": 10500,
+    "views": 77582,
+    "mins": 29
+   }
+  ]
+ },
+ "minecraft_build_mod": {
+  "m_n": 31,
+  "m_median": 557433.0,
+  "m_100k": 31,
+  "m_1m": 8,
+  "new_ch_100k": 1,
+  "t_ch": 9,
+  "t_lt1k": 0,
+  "young": 1,
+  "young_1k": 1,
+  "young_10k": 0,
+  "median_len": 24.5,
+  "new_examples": [
+   {
+    "ch": "Niz unseen",
+    "age": 263,
+    "subs": 123000,
+    "views": 557433,
+    "mins": 20
+   }
+  ]
+ },
+ "excel_cad_software_tutorial": {
+  "m_n": 24,
+  "m_median": 19622.0,
+  "m_100k": 4,
+  "m_1m": 0,
+  "new_ch_100k": 0,
+  "t_ch": 10,
+  "t_lt1k": 1,
+  "young": 1,
+  "young_1k": 1,
+  "young_10k": 0,
+  "median_len": 20.5,
+  "new_examples": []
+ },
+ "game_devlog": {
+  "m_n": 22,
+  "m_median": 151779.0,
+  "m_100k": 16,
+  "m_1m": 0,
+  "new_ch_100k": 0,
+  "t_ch": 10,
+  "t_lt1k": 3,
+  "young": 2,
+  "young_1k": 1,
+  "young_10k": 0,
+  "median_len": 15.5,
+  "new_examples": [
+   {
+    "ch": "mjgdev",
+    "age": 232,
+    "subs": 6970,
+    "views": 87915,
+    "mins": 20
+   }
+  ]
+ },
+ "woodworking_build": {
+  "m_n": 33,
+  "m_median": 219535.0,
+  "m_100k": 31,
+  "m_1m": 2,
+  "new_ch_100k": 2,
+  "t_ch": 7,
+  "t_lt1k": 0,
+  "young": 1,
+  "young_1k": 1,
+  "young_10k": 0,
+  "median_len": 21.5,
+  "new_examples": [
+   {
+    "ch": "TaLiLu",
+    "age": 129,
+    "subs": 13700,
+    "views": 323047,
+    "mins": 41
+   },
+   {
+    "ch": "TaLiLu",
+    "age": 129,
+    "subs": 13700,
+    "views": 244594,
+    "mins": 41
+   },
+   {
+    "ch": "MONIE DOLLY",
+    "age": 85,
+    "subs": 2240,
+    "views": 192299,
+    "mins": 27
+   },
+   {
+    "ch": "TaLiLu",
+    "age": 129,
+    "subs": 13700,
+    "views": 83854,
+    "mins": 41
+   }
+  ]
+ }
+}
