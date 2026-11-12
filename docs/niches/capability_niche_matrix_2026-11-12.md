@@ -2,6 +2,8 @@
 
 Owner hỏi: "nghiên cứu kỹ xem các ngách bạn làm được, đâu chỉ AI thôi". Trạng thái: **PROPOSED**, chờ owner duyệt.
 
+> **OWNER 16:33:** CineFactory chỉ làm YouTube. Bỏ hết các mục ngoài YouTube: WoodFab, B2B, quay xưởng thật, dịch vụ, khóa học. Phương án còn hiệu lực xem mục "Đề xuất sau khi owner sửa" ở cuối tài liệu.
+
 ## Dữ liệu
 - **Quét API toàn YouTube, 22 ngách:** `reports/research/wide_scan_2026-11-12/`.
 - **Quét theo năng lực, thêm 12 ngách:** `reports/research/capability_scan_2026-11-12/`. Tìm kiếm trên trình duyệt (top tháng và đăng hôm nay), cộng `channels.list` tốn 9 unit. Mẫu nhỏ, chỉ cho biết xu hướng.
@@ -56,3 +58,9 @@ Owner hỏi: "nghiên cứu kỹ xem các ngách bạn làm được, đâu ch�
 3. **Cổng thử nghiệm:**
    - G0: làm thử 1 video và đo giờ làm thật.
    - G2: sau 6 video, cần ít nhất 1 video ≥10K view trong 28 ngày và trung vị ≥1K.
+
+## Đề xuất sau khi owner sửa (16:33): chỉ YouTube
+1. **Kênh 1:** 3D history & engineering explained.
+2. **Kênh 2:** bản đồ lịch sử động / data-viz.
+
+Cả hai kênh làm hoàn toàn trên máy bằng CineFactory (Blender, Python, code, Afanta). Nguồn thu là quảng cáo YouTube.
