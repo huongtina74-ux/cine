@@ -43,7 +43,7 @@ Cột "View/ngày" và "TB/video" là trung vị trong ngách (INFERRED từ s�
 | Thử thách / đấu | 3 | 1 | 0,4M | 1,9K | 1K | 1,5× | Zakpg Blox 0,4M |
 | Khác (SMP clip, meme…) | 4 | 2 | 0,6M | — | — | — | sniffer 0,2M |
 
-- **Không có kênh Shorts mới thật nào đạt 1M tổng view.** Lớn nhất: RugeRyse 830K (29 ngày).
+- **Trong danh sách Algrow này**, không có kênh Shorts mới thật nào đạt 1M tổng view. Lớn nhất: RugeRyse 830K (29 ngày). Danh sách Algrow lại **bỏ sót** các kênh mới đã có Short triệu view mà API tìm được; xem mục "Đính chính" cuối file.
 - Tổng cả 179 kênh mới thật ≈ 23M view. 40/179 (22%) dựa vào IP người khác.
 
 ## Bảng 2: top kênh mới thật theo view/ngày (OBSERVED, view/ngày INFERRED)
@@ -115,6 +115,32 @@ Cột "View/ngày" và "TB/video" là trung vị trong ngách (INFERRED từ s�
 ## Việc tiếp theo
 - Chụp lại cùng danh sách sau 3–7 ngày để có view/ngày thật (Algrow không trả về view 24h cho Shorts).
 - Nếu chủ kênh chọn hạng 1 hoặc 2: showrunner làm 5 Shorts pilot nhân vật gốc, mỗi Short một luật thế giới khác nhau, đo view 48 giờ và sub/1K view.
+
+## Đính chính 13/11 (OBSERVED): kênh Minecraft mới có Short triệu view, Algrow bỏ sót
+
+Kiểm lại dữ liệu API cùng ngày (`new_channel_hunt_2026-11-13/channels_merged.json`, 2.360 kênh có ngày tạo thật; các báo cáo `2026-11-1x_minecraft_api_daily.md`). Không kênh nào dưới đây có trong 398 kênh Shorts của Algrow (đã tra trong phiên trình duyệt).
+
+**Kênh tạo ≤30 ngày, có Short ≥1M hoặc tổng view ≥1M:**
+
+| Kênh | Ngày tạo (tuổi) | Sub | Tổng view kênh | Video | Short lớn nhất | IP |
+|---|---|---|---|---|---|---|
+| **Mochi & Pals** | 15/10 (29 ngày) | 4,5K | 9,79M | 17 | "Who can dig down the fastest?" 2,92M; "Who can build the best house?" 2,76M | ✓ Dàn nhân vật gốc |
+| **Endform TV** | 22/10 (22 ngày) | 7,4K | 6,33M | 41 | "Which Block Reaches Final Form? ⛏️👑" 1,16M | ✓ Khối Mojang, kênh đa chủ đề |
+| DiaxGold Crafts | 31/10 (13 ngày) | 6,3K | 3,65M | 6 | JJ & JJ Sister… 2,15M | ✗ IP JJ/Maizen |
+| Brawl Lab | ~12/10 (23 ngày khi đo 04/11) | — | — | — | "6 Overworld Mobs vs 6 Nether Mobs — Who Wins?" 1,85M | ✓ Mob Mojang |
+| **Cube Clash** | 05/11 (8 ngày) | 15,4K → 15,8K | 1,36M | 10 | "NOOB vs PRO: Who Survives the FLOOD?" 341K (chưa có Short 1M) | ✓ Gốc |
+| BlockKahani | 24/10 (20 ngày) | 4,3K | 0,94M | 16 | "Never Stay Awake After 9 PM… 😨" 552K | ✓ Kinh dị luật đêm |
+
+**31–60 ngày:** Gargamel Land (56 ngày, 28M, "Dropping Minecraft Cake on Alex" Blender 3,28M); Mrjunaid Short (51 ngày, 26,4M, 4,62M); Erzxck (32 ngày, 38,7M, 2,44M, nhân vật "Verity", cần kiểm IP); Mr MushMoo và Bench Animation (IP JJ/Maizen).
+
+**Bị tưởng là kênh mới nhưng tài khoản cũ:** JohnnyXD (tạo 2021, Short 3,48M); VOXCRASH (224 ngày, 7,86M); UnVoidMC (572 ngày); ArtikAnimates (1.092 ngày); Blendverse 3D (88 ngày, 8,68M).
+
+**Sửa lại kết luận (INFERRED):**
+- Kênh Minecraft mới **có thể** có Short triệu view trong 2–4 tuần. Mochi & Pals có 2 Short gần 3M sau 29 ngày.
+- Điểm chung của các kênh thắng: **dàn nhân vật gốc + câu hỏi thi đấu / tiến hoá** ("Who can…?", "Which X reaches Final Form?", "Mobs vs Mobs — Who Wins?", "NOOB vs PRO: Who Survives…?"), làm bằng 3D.
+- Câu "Shorts Minecraft lên nhanh nhưng nhỏ" chỉ đúng với **trung vị** kênh mới. Phần đuôi trên thì lớn hơn nhiều.
+- Tiền vẫn nhỏ: chưa kênh mới nào đạt mức YPP 2027 (20M/90 ngày). Mochi & Pals 9,79M sau 29 ngày là gần nhất, ≈ nửa đường.
+- **Bài học về công cụ:** chỉ dùng Algrow Channel Trends để quét ngách là thiếu. Cần quét `search.list` theo view, rồi kiểm tuổi bằng `channels.list`.
 
 ## File
 - `algrow_shorts_trends_channel_ages.json`: tuổi thật (ngày) của 383 kênh, khóa là channel ID.
