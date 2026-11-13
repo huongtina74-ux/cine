@@ -18,7 +18,7 @@ Trạng thái: **PROPOSED**, chờ owner duyệt.
 - **Hiện tại (2026):** điều kiện vào YPP là 1K sub, cộng 4.000 giờ xem trong 12 tháng **hoặc** 10M view Shorts trong 90 ngày.
 - **Từ 2027-02-01, áp cho kênh mới xin vào YPP:** 8.000 giờ xem trong 365 ngày **hoặc** 20M view Shorts trong 90 ngày. Kênh đã vào YPP không bị ảnh hưởng.
 - **Từ 2027-02-01, áp cho mọi kênh, kể cả kênh đã vào YPP:** muốn nhận tiền quảng cáo Shorts phải đạt **10M view Shorts trong 90 ngày gần nhất**.
-- Creator nhận 45% Creator Pool của Shorts. Shorts có nhạc thì phần chia giảm.
+- Creator nhận 45% Creator Pool của Shorts. Nhạc chỉ làm nhỏ quỹ chung, không giảm phần view được tính cho kênh mình (sửa lại theo YouTube Help 12504220, ngày 2026-11-13).
 - **RPM Shorts:** AIR đo trên 274 kênh được $0,02–1,48 tùy ngách, bằng khoảng 3–14% RPM long-form. Cần khoảng 7.000–33.000 view Shorts mới bằng 1.000 view long-form. Với kênh gaming, có thêm Shorts không làm giảm RPM long-form một cách đáng kể (chênh 4%, nằm trong sai số đo).
 
 ## Shorts Minecraft: kết quả đo (OBSERVED, một lần đo)
