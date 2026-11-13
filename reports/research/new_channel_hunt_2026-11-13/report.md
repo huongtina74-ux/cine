@@ -59,3 +59,30 @@
 
 ## Next steps
 - Re-run the same pool in 3–7 days. That gives real velocity and shows which new channels keep growing.
+
+## Addendum: mega hunt, any niche and any country (OBSERVED, 18:30 VN)
+- **Method.** `cf_mega_new_channel_hunt.py` ran `search.list` with `order=viewCount`, `publishedAfter=2026-10-29` and Shorts only.
+  - Region feeds with no query: US, IN, BR, ID, MX, PH, GB, DE, JP, KR, VN, TH, EG, PK.
+  - 20 generic queries: baby, cat, ai, story, car, and others.
+  - About 3,845 units. Merged with the earlier pool, that gives **2,360 channels**.
+- **Channels created ≤15 days ago: 51.** 18 have ≥10M channel views, 2 have ≥100M, and **none is near 1 billion**.
+
+| Channel | Age | Channel views | Videos | Subs | Format | Note |
+|---|---|---|---|---|---|---|
+| Rô Tới Chơi (VN) | 14 d | 117.7M | 33 | 152K | Vietnamese 2–3 min story Shorts ("Thị trấn mỗi ngày chỉ được nói mười từ") | Vietnamese audience, so low RPM |
+| CuddlePop (IN) | 10 d | 116.9M | 6 | 39K | Realistic AI baby clips; one Short has 120M views | Policy risk |
+| Copycat Cuties | 12 d | 76.0M | 80 | 22K | AI baby "copies" | Policy risk |
+| Baby Bo | 15 d | 52.9M | 20 | 51K | AI baby | Policy risk |
+| WonderSnapp, Old Guy Energy, Rycroft Willians, Baby Bloom | 7–14 d | 24–40M each | 5–25 | 7–17K | AI baby/family | Policy risk |
+| Ghibli Tales | 9 d | 21.6M | 8 | 37K | "Ghibli"-style AI garden stories | Uses another studio's style and name |
+| Casper Cat, Pawspike, tooniverse, Pov Of Animal | 6–12 d | 10–22M each | 4–22 | 3–57K | AI cats | Policy risk |
+| **Tekto Explains** | 13 d | 16.7M | 13 | 30.5K | **3D explainer "How To Build a Nuclear Bunker"** | Like rate 2.16% and 2,630 comments: real engagement, CINE-compatible |
+| VEXOMORPH | 11 d | 15.3M | 19 | 11.9K | "Luxury car that turns into a flower cabinet" | AI/3D transform |
+| Pizza Hub (VN) | 10 d | 12.6M | 5 | 31.6K | Vietnamese story Shorts | |
+
+- **Excluded as paid ads.** GOPLUS (24 d) has 254M views with 0.00% likes and 7 comments on an 87M-view ad.
+- **For context, ≤30 days:** Baby Elecyent 48.6M, lulu fah stories 46M, Crazyfunnybloxx 43M (Roblox IP), Memeland 31.6M ("Football Club Merge … Final Form").
+- **Reading (INFERRED).**
+  - Channels that reached hundreds of millions of views within 15 days exist, but they are AI realistic baby/animal clips or Vietnamese story Shorts.
+  - **AI realistic babies are high-risk.** They carry YouTube's realistic-AI disclosure duty and the July 2026 inauthentic-content rule ("same situation, same outcome"). Depicting minors realistically is also sensitive. Low like rates (0.4–0.6%) show passive views, and the money is small: Shorts RPM is about $0.03–0.10 per 1K.
+  - **The CINE-compatible breakout is Tekto Explains,** a 3D "how to build X" explainer: 16.7M views in 13 days with genuine engagement. It fits the studio's 3D history/engineering explainer direction (`docs/niches/capability_niche_matrix_2026-11-12.md`).
