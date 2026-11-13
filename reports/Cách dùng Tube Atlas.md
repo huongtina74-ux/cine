@@ -39,7 +39,7 @@ Bảng mức tin cậy dưới đây là cách nên đọc từng loại số (I
 | View, like, số bình luận, ngày đăng, tiêu đề, tag, mô tả | Khá, nhưng phải kiểm tra mẫu | Chép từ trang công khai. Changelog có nhiều lần cột "không trích được" sau khi YouTube đổi giao diện: like, subs, ngày tham gia hỏng tháng 1/2024 (v1.0.5.0); tổng view kênh hỏng tháng 8/2024 (v1.0.5.5); mô tả sai lệch (v1.0.5.7) ([version history](https://appbreed.com/apps/api/app-download.php?aid=26)). Mỗi lần xuất, so 5 dòng với youtube.com. |
 | Average Views per Day | Khá | Có lẽ là view ÷ tuổi video (INFERRED). Đây là số dẫn xuất xác định, nhưng là trung bình nên che mất đỉnh tăng ban đầu. |
 | Subscribers | Gần đúng | YouTube làm tròn số sub công khai, nên tỉ lệ dựa trên sub của kênh nhỏ chỉ là xấp xỉ (INFERRED). |
-| Estimated Video Earnings / per Day | **Không tin** | Công thức không công bố. Video hướng dẫn số 27 có thể giải thích nhưng chưa ai chép lại ([help videos](https://appbreed.com/help-videos-tube-atlas)). SaaSPic: "estimates, not real data" ([SaaSPic](https://saaspic.com/tools/tube-atlas/)). Để so sánh: Social Blade dùng view × RPM $0,25–4 và thừa nhận có thể "NO views are monetized" ([Social Blade](https://socialblade.com/help/how-are-estimated-earnings-calculated)). Chỉ dùng để xếp hạng tương đối trong cùng ngách, không bao giờ dùng làm dự báo doanh thu. |
+| Estimated Video Earnings / per Day | **Không tin** | Đo trên ảnh owner 13/11/2026: = Views × $1,85/1.000 cố định cho mọi danh mục (xem Phần 4b). Nhà sản xuất không công bố công thức. Video hướng dẫn số 27 có thể giải thích nhưng chưa ai chép lại ([help videos](https://appbreed.com/help-videos-tube-atlas)). SaaSPic: "estimates, not real data" ([SaaSPic](https://saaspic.com/tools/tube-atlas/)). Để so sánh: Social Blade dùng view × RPM $0,25–4 và thừa nhận có thể "NO views are monetized" ([Social Blade](https://socialblade.com/help/how-are-estimated-earnings-calculated)). Chỉ dùng để xếp hạng tương đối trong cùng ngách, không bao giờ dùng làm dự báo doanh thu. |
 | Search volume, CPC, competition | Ước tính bên thứ ba | Lấy từ "free resources" (file Google Keyword Planner) hoặc tài khoản Keywords Everywhere trả phí ([SaaSPic](https://saaspic.com/tools/tube-atlas/)). |
 | Trends (search volume index) | Hạn chế | Changelog v1.0.6.0 (24/1/2025): "still restricted due to Google getting more and more strict" ([version history](https://appbreed.com/apps/api/app-download.php?aid=26)). Rất có thể là chỉ số tương đối 0–100 kiểu Google Trends (INFERRED). |
 
@@ -314,6 +314,55 @@ python tools/cf_research_stats.py data/research/raw/2026-11-14_tubeatlas_mc_horr
 Ngày hôm sau, chạy lại với bộ dữ liệu mới và thêm `--compare reports/research/snapshots/2026-11-14_tubeatlas_mc_horror.csv` để có view tăng mỗi ngày thật. Các tham số khác: `--outlier-x` (mặc định 3,0), `--short-seconds` (mặc định 180), `--as-of`. Hai lưu ý từ cách tool tính (OBSERVED trong mã). Thứ nhất, outlier chỉ được tính cho kênh có **ít nhất 3 video** trong mẫu. Một mẫu Browse & Extract thường chỉ có 1 video mỗi kênh nên gần như không ra outlier. Muốn có trung vị kênh thật, hãy dùng **Channels → analyze all videos in channel** cho các kênh ứng viên rồi gộp vào file. Thứ hai, nếu Videos không có CSV, phương án dự phòng là báo cáo HTML (video 22) chuyển sang bảng tính, hoặc chép từ lưới. **Đề xuất cho `pipeline-engineer`** (INFERRED, cần owner đồng ý): thêm alias tiêu đề cột Tube Atlas vào `ALIASES` của `cf_research_stats.py`, kèm parse định dạng ngày và một pytest. Làm vậy đúng luật "extend existing modules", và owner khỏi phải đổi tên cột tay.
 
 **Biên bản cho mỗi lần xuất** (INFERRED, theo quy tắc "measure, don't guess"): ghi phiên bản app, ngày giờ trích xuất, từ khoá và bộ lọc YouTube đã dùng, số dòng, số dòng trống hoặc lỗi, và kết quả so 5 dòng với youtube.com. Sau đó ghi quyết định bằng `python tools/cf_decision.py add --kind topic --decision "..." --why "..." --evidence "reports/research/..." --label OBSERVED --by owner` (đọc `list` trước).
+
+## Phần 4b: Bài học từ lần chạy thật đầu tiên của owner (13/11/2026, v1.0.6.7)
+
+Owner chạy tab Videos → Search với từ khoá `story`, `Sort Youtube results by: Upload date`, bật `Youtube (first page results only)` + Google + Bing, Pages = 1. Kết quả: 28 dòng đã trích xuất cộng 1 dòng `not-extracted` (OBSERVED, ảnh chụp owner gửi).
+
+**Năm điều đọc được từ lưới (OBSERVED, tính lại từ chính ảnh chụp)**
+1. **Estimated Video Earnings = Views × $1,85 / 1.000, cố định cho mọi video.** Ví dụ: 103.128 view → $191; 2.799.815 → $5.180; 21.011.497 → $38.871. Ba video thuộc ba danh mục khác nhau (People & Blogs, Film & Animation, Education) nhưng cùng một RPM. Est. Earnings per Day = Avg. Views per Day × $1,85/1.000. Kết luận: **cột tiền không nói gì về RPM của ngách**, chỉ là cột Views nhân với một hằng số. Bỏ cột này khỏi mọi quyết định. RPM thật xem trong `reports/Tiền Shorts Minecraft 1 triệu view.md`.
+2. **Avg. Views per Day = Views ÷ Published Age (Days).** Ví dụ 2.799.815 ÷ 12 = 233.318. Video đăng hôm qua có tuổi = 1, nên Avg = toàn bộ số view. Video mới đăng vài giờ sẽ bị tính là "1 ngày", tức tốc độ thật còn cao hơn số hiển thị.
+3. **Comments = `not-given` thường là video đã tắt bình luận.** Video đánh dấu Made for Kids bị YouTube tắt bình luận tự động, nên đây là **tín hiệu nhận ra nội dung trẻ em** (INFERRED, cần mở video kiểm tra). Phần lớn dòng `not-given` trong mẫu là truyện thiếu nhi. Dùng cột này để loại ngách nghiêng về kids (RPM khoảng $0,33).
+4. **Google + Bing kéo video cũ vào** (ngày đăng trải từ 09/2019 đến 12/11/2026, nhiều video 2021–2023). Muốn tìm video mới thì **tắt Google và Bing**, chỉ để nguồn YouTube.
+5. **Từ khoá quá rộng làm nhiễu mẫu.** `story` trộn truyện tiếng Hindi, truyện thiếu nhi và cả video khắc laser. Ngoài ra nhiều tiêu đề dùng IP của người khác (Room on the Broom, The Very Hungry Caterpillar, The Jungle Book), tức mẫu nhiễu IP. Phải dùng từ khoá ngách cụ thể và chỉ một ngôn ngữ.
+
+**Tube Atlas giúp được tới đâu (đánh giá sau lần chạy)**
+
+| Câu hỏi | Mức giúp được | Vì sao |
+|---|---|---|
+| Video mới (≤7 ngày) đang bùng nổ trong một ngách đã chọn | **Tốt** | Có Published Age, Avg. Views per Day, Views, Category và Is Shorts. Lần chạy thử bắt được "Trapped In Walmart After Closing…" 2,8M view trong 12 ngày, video 49 phút (OBSERVED) |
+| Kênh mới lập (≤30–90 ngày) | **Trung bình**, phải qua hai bước | Lưới Videos không có ngày tạo kênh. Phải đưa Channel Link sang tab Channels để đọc **Date Joined**, mà cột này từng hỏng năm 2024 |
+| Kênh tạo 1 ngày, video bùng nổ trong 1 ngày | **Yếu** | Chỉ thấy những gì trang tìm kiếm hiển thị. Kênh mới ăn view nhờ feed và đề xuất. Nên dùng công cụ có kho dữ liệu riêng (Algrow, TubeLab, 1of10) hoặc API của studio |
+| Phát hiện ngách mới trên toàn YouTube | **Không** | Không có kho dữ liệu, không có điểm outlier |
+| RPM / thu nhập | **Không** | Hằng số $1,85/1.000 view |
+
+**Công thức chuyên nghiệp: "Video mới bùng nổ + kênh trẻ" (INFERRED, owner kiểm chứng ở bài tập 12)**
+1. **Keywords:** tạo 10–20 từ khoá hạt giống của ngách (vd `minecraft horror`, `minecraft scary`, `minecraft physics`, `minecraft build hack`).
+2. **Videos → Search,** chạy lần lượt từng từ khoá:
+   - **Tắt Google và Bing,** bật `Youtube (first page results only)`, Sort = Upload date.
+   - Mỗi từ khoá thêm khoảng 20–30 dòng vào cùng một lưới.
+   - Muốn nhiều hơn, dùng tab **Browse or Import:** mở YouTube, Filters → Upload date: Today hoặc This week, Type: Shorts hoặc Video, auto-scroll rồi Import. Một lượt được hàng trăm dòng.
+3. **Extract Missing** cho tới khi không còn dòng `not-extracted`.
+4. **Columns:** chỉ để Video Link, Title, Views, Comments, Length, Published Age, Avg. Views per Day, Category, Is Shorts, Channel Name, Channel Link, Total Channel Subscribers. Ẩn 10 cột thống kê mô tả, Email/Phone và Earnings.
+5. **Bộ lọc** (lưu thành file `breakout_7d`):
+   - Published Age ≤ 7.
+   - Avg. Views per Day ≥ 10.000 cho Shorts, ≥ 3.000 cho long-form.
+   - Total Channel Subscribers ≤ 50.000.
+   - Comments ≠ `not-given` (loại nội dung kids).
+   - Category đúng ngách (Gaming với Minecraft).
+   
+   Các ngưỡng này do mình đề xuất, owner chốt. Sau đó tự tính **Views ÷ Subscribers**: ≥ 3 là dấu hiệu video vượt xa quy mô kênh.
+6. Với nhóm thắng: bấm **Get Related Videos** để kéo thêm video và kênh làm cùng format, lặp lại bước 3–5.
+7. **Channels:** dán Channel Link của các dòng còn lại → đọc **Date Joined** → giữ kênh ≤ 90 ngày → **analyze all videos in channel** để xem kênh thắng một lần hay thắng đều.
+8. **Kiểm chứng và lưu:**
+   - Xuất hoặc chép bảng, rồi chạy `tools/cf_research_stats.py` để tính trung vị và outlier.
+   - Mình xác nhận ngày tạo kênh và view qua YouTube API (`channels.list`, `videos.list`).
+   - Ghi vào `reports/research/<ngày>_tubeatlas_<ngách>/`.
+9. **Chạy lại mỗi ngày cùng bộ từ khoá.** Video nào giữ Avg. Views per Day cao sau 3 ngày mới là bùng nổ thật. Video chỉ có một ngày đầu đẹp thì chưa tính.
+
+**Bài tập 12 (bài làm tiếp ngay sau lần chạy `story`):** chạy lại bước 2–5 với `minecraft horror` và `minecraft shorts`. Tắt Google/Bing.
+- Ghi lại 4 con số: số dòng; số dòng Published Age ≤ 7; số dòng qua bộ lọc `breakout_7d`; số kênh có Date Joined ≤ 90 ngày.
+- *Tự kiểm tra:* trong các dòng qua bộ lọc, có bao nhiêu dòng `not-given` ở Comments mà bạn đã lọc bỏ, và chúng có phải nội dung kids không?
 
 ## Phần 5: Ba quy trình thực chiến cho studio
 
