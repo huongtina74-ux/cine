@@ -12,7 +12,7 @@ TRANSITIONS = {"linear", "instant", "bezier"} | {
     for c in ("quad", "cubic", "quart", "quint", "sine", "expo", "circ", "elastic", "back", "bounce")}
 
 
-@pytest.fixture(scope="module", params=["binbo_thu01", "binbo_thu02", "binbo_thu03"])
+@pytest.fixture(scope="module", params=["binbo_thu01", "binbo_thu02", "binbo_thu03", "s01_bounce"])
 def project(request, tmp_path_factory):
     D = ROOT / request.param
     work = tmp_path_factory.mktemp(request.param)

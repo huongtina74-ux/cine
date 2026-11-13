@@ -13,7 +13,12 @@ const srv=http.createServer((q,r)=>{const f=path.join(ROOT,decodeURIComponent(q.
   await pg.goto(`http://127.0.0.1:${port}/index.html`);
   const total=await pg.evaluate(()=>window.init());
   const [mode,out,...rest]=process.argv.slice(2);
-  if(mode=='stills'){fs.mkdirSync(out,{recursive:true});for(const t of rest){await pg.evaluate(t=>renderAt(+t),t);await pg.screenshot({path:`${out}/f_${(+t).toFixed(2)}.jpg`,type:'jpeg',quality:85});console.log('still',t)}}
+  if(mode=='overlay'){ // overlay canvas only (no 3D), transparent PNG frames -> .mov (png codec, alpha) for compositing over a Mine-imator render
+    const t0=+rest[0],t1=Math.min(+rest[1],total);const n=Math.round((t1-t0)*30);
+    const ff=spawn('ffmpeg',['-y','-loglevel','error','-f','image2pipe','-framerate','30','-c:v','png','-i','-','-c:v','png','-pix_fmt','rgba',out],{stdio:['pipe','inherit','inherit']});
+    for(let i=0;i<n;i++){const url=await pg.evaluate(t=>{drawOverlay(t);return ov.canvas.toDataURL('image/png')},t0+i/30);const buf=Buffer.from(url.split(',')[1],'base64');if(!ff.stdin.write(buf))await new Promise(r=>ff.stdin.once('drain',r));if(i%90==0)console.log('overlay',i,'/',n)}
+    ff.stdin.end();const code=await new Promise(r=>ff.on('close',r));console.log('done',out,code)}
+  else if(mode=='stills'){fs.mkdirSync(out,{recursive:true});for(const t of rest){await pg.evaluate(t=>renderAt(+t),t);await pg.screenshot({path:`${out}/f_${(+t).toFixed(2)}.jpg`,type:'jpeg',quality:85});console.log('still',t)}}
   else{const t0=+rest[0],t1=Math.min(+rest[1],total);const tmp=out.replace(/\.mp4$/,'.part.mp4');
     const ff=spawn('ffmpeg',['-y','-loglevel','error','-f','image2pipe','-framerate','30','-c:v','mjpeg','-i','-','-c:v','libx264','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-r','30',tmp],{stdio:['pipe','inherit','inherit']});
     const n=Math.round((t1-t0)*30);const st=Date.now();
