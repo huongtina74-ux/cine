@@ -1,5 +1,7 @@
 # Competitor research loop for the Minecraft animation story niche (OWNER rules, 2026-11-03)
 
+> **2026-11-14 (OWNER):** the same A–D loop now covers the five locked lanes listed in `config/research/locked_lanes.json`, using the general rules in `config/research/lane_research_rules.md`. This file and `minecraft_story_watchlist.txt` remain the history of the earlier Bin/Bo/Zu animation-story lane.
+
 Applies to the Bin & Bo & Zu channel (US market, long-form). Run it every day and append the new rows to `data/research/raw/<date>_minecraft_story.json`. The watchlist is `config/research/minecraft_story_watchlist.txt`.
 
 **Aesthetic standard.** Judge pictures, lighting, camera work, thumbnails and pacing against outlier videos from competitors, not against personal taste.

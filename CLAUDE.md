@@ -56,6 +56,24 @@ The main session coordinates, delegates and writes HANDOFF.md.
 - Original IP only: no competitor characters, skins, worlds, scripts, music or footage; no downloading third-party videos.
 - Don't automate third-party apps against their terms (no scripted Google Flow runs, no account "farming").
 
+## OWNER-locked lanes (2026-11-14) and the never-ending competitor loop
+- **Locked lanes:**
+  - **MC-L1** Minecraft "100 Days"/FULL MOVIE scripted survival (main long-form).
+  - **MC-L2** original-entity Minecraft horror (second long-form, same universe).
+  - **MC-S1** "Who can…?" original-cast Minecraft Shorts.
+  - **MC-S2** Blender Minecraft physics/satisfying Shorts with an original mascot.
+  - **X-S1** non-Minecraft 3D "How it works / How to build X" explainer Shorts.
+- **Config:** `config/research/locked_lanes.json`.
+- **Rules A–D, applied every day to every lane:** `config/research/lane_research_rules.md`.
+  - A: leaders' popular, new and outlier videos.
+  - B: new channels 0–30 d with the creation date verified and ≥2 videos ≥1M.
+  - C: exploding 0–15 d videos ≥1M, views ≫ subs.
+  - D: long-term vs short-term principles.
+- **Per-lane files:** watchlists in `config/research/watchlists/`, principles in `reports/research/principles/`.
+- **Promotion:** a channel added as `new` becomes `leader` the next day.
+- **Daily output:** `reports/research/<date>_lanes_daily.md`.
+- **Check:** `python -m pytest tests/test_locked_lanes.py -q`.
+
 ## Research policy
 Time-boxed (`nightly-research` ~45 min, `fast-niche-study` ~2 h). The benchmark is the niche MEDIAN, not the best video.
 Original-IP production never waits on competitor full-viewing gates; those gates (Maizen v227/v228, see `docs/` and

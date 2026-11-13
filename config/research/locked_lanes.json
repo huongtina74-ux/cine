@@ -1,0 +1,179 @@
+{
+ "schema_version": 1,
+ "updated": "2026-11-14",
+ "owner_rules": "config/research/lane_research_rules.md",
+ "owner_decision": "see data/decisions.jsonl (OWNER, 2026-11-14)",
+ "thresholds": {
+  "new_channel_days_max": 30,
+  "new_channel_min_videos_1m": 2,
+  "million": 1000000,
+  "leader_recent_video_days_max": 30,
+  "old_competitor_recent_days_max": 15,
+  "own_median_outlier_multiplier": 3,
+  "views_subs_review_multipliers": [
+   5,
+   10,
+   30,
+   100
+  ],
+  "explosive_window_days": 5,
+  "explosive_min_views_vs_same_format_median": 2,
+  "exploding_video_days_max": 15,
+  "short_max_seconds": 180,
+  "long_min_minutes": 8,
+  "short_term_principle_expire_rounds_unseen": 3,
+  "long_term_principle_min_weeks": 4,
+  "search_calls_per_day_max": 90
+ },
+ "lanes": [
+  {
+   "id": "mc_survival_movie",
+   "code": "MC-L1",
+   "name": "Minecraft long-form: phim sinh tồn kịch bản \"100 Days\" / FULL MOVIE",
+   "format": "long",
+   "duration_target_minutes": [
+    40,
+    90
+   ],
+   "status": "OWNER_LOCKED",
+   "locked": "2026-11-14",
+   "watchlist": "config/research/watchlists/mc_survival_movie.txt",
+   "principles": "reports/research/principles/mc_survival_movie.md",
+   "keywords": [
+    "minecraft 100 days full movie",
+    "survived 100 days minecraft zombie apocalypse",
+    "minecraft 1000 days hardcore full movie",
+    "minecraft zombie outbreak survival",
+    "minecraft apocalypse survival movie",
+    "minecraft 100 days lost at sea",
+    "minecraft 100 days frozen world",
+    "minecraft survival story full movie",
+    "minecraft day 1 to day 100",
+    "minecraft realistic apocalypse",
+    "minecraft nuclear winter survival",
+    "100 days hardcore modded minecraft",
+    "minecraft 100 days as a",
+    "minecraft zombie apocalypse full movie",
+    "minecraft survival movie",
+    "minecraft 500 days"
+   ],
+   "new_channel_rule": "created 0-30 d AND >=2 long (>=8 min) videos >=1M"
+  },
+  {
+   "id": "mc_original_horror",
+   "code": "MC-L2",
+   "name": "Minecraft long-form: kinh dị sinh tồn với thực thể gốc 20–30 phút + FULL MOVIE",
+   "format": "long",
+   "duration_target_minutes": [
+    20,
+    90
+   ],
+   "status": "OWNER_LOCKED",
+   "locked": "2026-11-14",
+   "watchlist": "config/research/watchlists/mc_original_horror.txt",
+   "principles": "reports/research/principles/mc_original_horror.md",
+   "keywords": [
+    "minecraft horror",
+    "minecraft horror mod",
+    "something is watching me minecraft",
+    "minecraft horror full movie",
+    "minecraft scary mod survival",
+    "minecraft stalker mod",
+    "minecraft horror survival",
+    "minecraft creepy seed",
+    "minecraft analog horror",
+    "minecraft found footage",
+    "minecraft horror story",
+    "minecraft this mod got worse",
+    "minecraft entity hunting me",
+    "minecraft scariest mod"
+   ],
+   "new_channel_rule": "created 0-30 d AND >=2 long (>=8 min) videos >=1M"
+  },
+  {
+   "id": "mc_shorts_whocan",
+   "code": "MC-S1",
+   "name": "Minecraft Shorts: dàn nhân vật gốc thi đấu \"Who can…?\" 3D Blender",
+   "format": "short",
+   "duration_target_minutes": [
+    0.25,
+    0.75
+   ],
+   "status": "OWNER_LOCKED",
+   "locked": "2026-11-14",
+   "watchlist": "config/research/watchlists/mc_shorts_whocan.txt",
+   "principles": "reports/research/principles/mc_shorts_whocan.md",
+   "keywords": [
+    "who can build the best house minecraft",
+    "who can minecraft",
+    "noob vs pro who survives",
+    "minecraft race shorts",
+    "minecraft build battle shorts",
+    "minecraft who wins shorts",
+    "minecraft challenge animation shorts",
+    "minecraft mobs vs mobs who wins",
+    "minecraft last one standing",
+    "minecraft dig race"
+   ],
+   "new_channel_rule": "created 0-30 d AND >=2 Shorts (<=180 s) videos >=1M"
+  },
+  {
+   "id": "mc_shorts_physics",
+   "code": "MC-S2",
+   "name": "Minecraft Shorts: mô phỏng vật lý/satisfying Blender với mascot gốc",
+   "format": "short",
+   "duration_target_minutes": [
+    0.1,
+    0.75
+   ],
+   "status": "OWNER_LOCKED",
+   "locked": "2026-11-14",
+   "watchlist": "config/research/watchlists/mc_shorts_physics.txt",
+   "principles": "reports/research/principles/mc_shorts_physics.md",
+   "keywords": [
+    "minecraft satisfying",
+    "minecraft blender animation",
+    "minecraft soft body",
+    "minecraft fluid simulation",
+    "steve filled with balls",
+    "minecraft physics simulation",
+    "which steve breaks",
+    "minecraft satisfying loop",
+    "minecraft vs real life",
+    "minecraft tnt physics"
+   ],
+   "new_channel_rule": "created 0-30 d AND >=2 Shorts (<=180 s) videos >=1M"
+  },
+  {
+   "id": "explainer3d_shorts",
+   "code": "X-S1",
+   "name": "Shorts ngoài Minecraft: giải thích 3D \"How it works / How to build X\"",
+   "format": "short",
+   "duration_target_minutes": [
+    0.5,
+    3
+   ],
+   "status": "OWNER_LOCKED",
+   "locked": "2026-11-14",
+   "watchlist": "config/research/watchlists/explainer3d_shorts.txt",
+   "principles": "reports/research/principles/explainer3d_shorts.md",
+   "keywords": [
+    "how to build 3d animation",
+    "how it works 3d animation shorts",
+    "3d explained shorts",
+    "how does it work shorts",
+    "invention series shorts",
+    "engineering explained 3d",
+    "how was it built 3d",
+    "what happens inside 3d",
+    "how a tank works 3d",
+    "3d reconstruction crash",
+    "how they built it 3d",
+    "ancient engineering 3d",
+    "how to build a bunker",
+    "cross section animation"
+   ],
+   "new_channel_rule": "created 0-30 d AND >=2 Shorts (<=180 s) videos >=1M"
+  }
+ ]
+}

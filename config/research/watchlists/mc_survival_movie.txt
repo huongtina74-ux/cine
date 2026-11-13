@@ -1,0 +1,17 @@
+# MC-L1 Minecraft long-form: phim sinh tồn kịch bản "100 Days" / FULL MOVIE — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
+# Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value from 2026-11-11..13 runs; n/a = not yet measured (next daily run fills it).
+# role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
+UCU9XwWmgsDdGRHXjrE0ewmQ | Day Zero | @DayZeroMinecraft | 15.1K | 2026-10-05 | leader | added 2026-11-14 | 100 Days in a REALISTIC APOCALYPSE 52 min 2M with 2 videos (OBSERVED 11-13)
+UCrbIvpkfQpxbBoKkI7__Ocg | McDoubleAA | @McDoubleAAron | 76.5K | 2026-05-05 | leader | added 2026-11-14 | 1,000 Days Hardcore FULL MOVIE 4h39 814K
+UCt85dLiFJws8eyjpcIoNLfQ | BlakeCraft | @BlakeCraft | 4.8K | 2026-04-28 | leader | added 2026-11-14 | 100 Days GHILLIE Sniper Zombie Apocalypse 3h57 325K
+UCmW9HjfnMHCH4xkBK9bnUaA | KnightMC | @KnightMC4 | 4K | 2026-04-01 | leader | added 2026-11-14 | 500 Days LOST AT SEA 3h37 197K
+UCND-rtZrbxwcyz4qA5Bppkg | Kit vs The End | @KitVsTheEnd | 14.4K | 2026-09-27 | leader | added 2026-11-14 | 100 Days On A Zombie Cruise Ship 1.06M at 19.7 d
+UCgzVBte0O0Iju1ACoNbdINQ | Marrow | @RealMarrow | 3.36K | 2024-09-24 | leader | added 2026-11-14 | Zombie Outbreak Last Soldier on the Bridge Day 1-100 402K = 120x subs
+UCktAim4t-NivVXjETAQxvaA | Zombie Days Diaries | @zombiedaysdiaries | 3.27K | 2025-07-05 | leader | added 2026-11-14 | original zombie-outbreak diary lane
+UC3lRFFYXVKavY9cqUd_A3Qg | Tomatikk | @Tomatikk01 | n/a | 2026-02-05 | leader | added 2026-11-14 | 100 Days in epic set during disaster model (D-6923b7d4)
+UCZDmrAO-bnBxU4_LiH40CjA | Nobody Gets In | @NobodyGetsIn | 60.5K | 2026-10-02 | leader | added 2026-11-14 | young survival-base channel, views >> subs
+UCGj5HppBXUUFZ7CoyNUNu2Q | Beanie Survives | @BeanieSurvives | 108K | 2026-02-17 | leader | added 2026-11-14 | survival story leader
+UCXSpp9uFO-tlOj47fo5DLYw | Stickvival | @Stickvival-YT | n/a | 2018-07-21 | leader | added 2026-11-14 | Treehouse Zombie Apocalypse 53 min 105K = 83x subs
+UC6KHf_WmgxTGKBAGckDUHHw | SirCloaked | @SirCloaked | 142K | 2025-11-23 | leader | added 2026-11-14 | survival leader
+UCiSVf-UpLC9rRjAT1qRTW0g | Forge Labs | @ForgeLabs | n/a | 2007-06-03 | leader | added 2026-11-14 | big leader of modded 100 days (Parasite)

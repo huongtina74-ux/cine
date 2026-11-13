@@ -1,0 +1,8 @@
+# MC-S1 Minecraft Shorts: dàn nhân vật gốc thi đấu "Who can…?" 3D Blender — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
+# Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value from 2026-11-11..13 runs; n/a = not yet measured (next daily run fills it).
+# role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
+UC8BAM9FulzAucO3ENpk-yqA | Mochi & Pals | @Mochiandpalstv | 4.50K | 2026-10-15 | leader | added 2026-11-14 | 14/14 Shorts 'Who can...?', 2.92M + 2.76M, 9.79M channel views at 29 d
+UCRaGNwQG_rNsODhuKRZ4dlw | Cube Clash | @CubeClash_09 | 15.8K | 2026-11-05 | leader | added 2026-11-14 | NOOB vs PRO: Who Survives the <disaster>?, best 362K
+UCzrNmcdtcHJTq5uXdLe-f0w | HamsterWorker - Minecraft | @HamsterWorker | 72K | 2025-11-30 | leader | added 2026-11-14 | PIZZA BUILD BATTLE Noob vs Pro vs Hacker vs God 871K
+UC2gxGHtOkZgcYlFvsyfe_Eg | Mega Cascade | @megacascade | 4.98K | 2026-09-26 | leader | added 2026-11-14 | Does the Giant Villager Keep His Emerald? 2.67M

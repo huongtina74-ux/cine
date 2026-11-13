@@ -1,0 +1,12 @@
+# MC-L2 Minecraft long-form: kinh dị sinh tồn với thực thể gốc 20–30 phút + FULL MOVIE — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
+# Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value from 2026-11-11..13 runs; n/a = not yet measured (next daily run fills it).
+# role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
+UC5ZhnwA2UYuLjX_u6CtCMgw | Syllo | @xSyllo | 107K | 2025-02-19 | leader | added 2026-11-14 | Something In The Desert Is Trying To Kill Me..., FULL MOVIE 1.58M
+UCW7y6aRAEz-aBmk8lOZrJjA | Nefloq | @Nefloq | 60.9K | 2025-08-14 | leader | added 2026-11-14 | Something Is WATCHING You 48 min; FULL MOVIE 2h13
+UC6IB3n_cM1vmdUjOGFf8ZjQ | ENFINITY | @ENF1NITY | 18.8K | 2026-03-27 | leader | added 2026-11-14 | makes own entities/mods (I Made a Wendigo, werewolf mod 146K)
+UCofcbGMzFMzKqWrDGFpn1PQ | Jemario | @Jemariooo | 45K | 2026-08-29 | leader | added 2026-11-14 | horror mod review, personality voice
+UCxWDbxRvuuMWl7EpzanZ0KA | Dooy | @DooyMC | n/a | 2026-06-11 | leader | added 2026-11-14 | new horror winner >=10K subs
+UCmIKd-GrGzXCeHIBg-wnz3Q | eskrr | @eskrrjack | 349 | 2026-10-20 | leader | added 2026-11-14 | this minecraft horror mod got worse every minute 37K, outlier 9.1x
+UCZmCgQw1uxnrVlDDLP_OD_w | Novorions | @Novorions | 282 | 2026-11-04 | leader | added 2026-11-14 | horror mod update video outlier 12x at 9 d
+UC8b-bA_uLbZHRretA5FK_JQ | Zachobuilds | @zachobuilds | n/a | 2018-03-05 | leader | added 2026-11-14 | mystery/horror story 4-8M per video, teen reference

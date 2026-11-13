@@ -1,0 +1,17 @@
+# X-S1 Shorts ngoài Minecraft: giải thích 3D "How it works / How to build X" — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
+# Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value from 2026-11-11..13 runs; n/a = not yet measured (next daily run fills it).
+# role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
+UCvz84_Q0BbvZThy75mbd-Dg | Zack D. Films | @zackdfilms | n/a | 2021-06-08 | leader | added 2026-11-14 | format leader of 3D explainer Shorts
+UCD49gDDOY9saEX-R0TtQQYg | Tekto Explains | @tektoexplains | 30.5K | 2026-10-31 | leader | added 2026-11-14 | How To Build a Nuclear Bunker 16.2M at 13 d, like 2.16%, 2,630 comments
+UCF08Qyvmn3R_0a7pMxTeonw | Robots Taught Me | @RobotsTaughtMe | 1.5K | 2026-10-29 | leader | added 2026-11-14 | Learjet crash debris 3D 4.75M
+UCDtw3GuUK-vnQMWHdSAi3sg | Stumblework Studios | @StumbleworkStudios | 18.6K | 2026-10-25 | leader | added 2026-11-14 | Invention Series Ep #007 1.24M; 3.09M channel
+UCfxkpHuEBXX9MoEarlrvK_Q | Bureau of Odd Things | @BureauofOddThings | n/a | 2026-10-25 | leader | added 2026-11-14 | How a Tractor Becomes a Tank 1.59M
+UCB389sx-L4Jiy79-K0kGUiA | Fault Lines Official | @FaultLinesOficial | n/a | 2026-10-25 | leader | added 2026-11-14 | Learjet crash reconstructed in 3D 1.93M
+UCfDPwaVu8uF1_C4_uy6ntVw | Rewynd3D | @Rewynd3D | n/a | 2026-10-19 | leader | added 2026-11-14 | 3D recreation of recent jet crash 2.58M
+UC_9A1c12YJXjADklUU2MVug | TALEYE | @TALEYE | n/a | 2026-10-14 | leader | added 2026-11-14 | 3D plane key art 4.45M
+UCMBLiOwxcBvInT0sP2bL9xQ | The Cross Section | @TheCrosssSection | n/a | 2026-10-29 | leader | added 2026-11-14 | Electric car broke 500 km/h 2.31M
+UCbtcMFuRIpCfgLI9rHwRCXw | Exploded Works | @explodedworks | n/a | 2026-09-28 | leader | added 2026-11-14 | how-it-works 3D 482K
+UC_VQr0hj17aL4OTpNyGIIEQ | Keelprint | @Keelprint | n/a | 2026-10-12 | leader | added 2026-11-14 | how-it-works 3D 109K
+UCcOAlu4XQNLAi9MtHG5qjAA | The Farm Blueprint | @TheFarmBlueprint-h4q | n/a | 2026-09-23 | leader | added 2026-11-14 | ancient engineering 3D 1.41M
+UCje6-Yak9u1msy5l7sE9pBA | Deconstructed | @Deconstructed_Animations | 439K | 2023-08-05 | leader | added 2026-11-14 | established 3D how-it-works leader

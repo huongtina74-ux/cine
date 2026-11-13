@@ -1,0 +1,11 @@
+# MC-S2 Minecraft Shorts: mô phỏng vật lý/satisfying Blender với mascot gốc — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
+# Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value from 2026-11-11..13 runs; n/a = not yet measured (next daily run fills it).
+# role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
+UCFI9eQQAGUuaGcyCv3j4b8w | Gargamel Land | @GargamelLand | 16K | 2026-09-18 | leader | added 2026-11-14 | Steve Filled With 100,000 Balls 2.3M; 28M at 56 d
+UCKqDfasaa1PRajQjvO2DPoA | VOXCRASH | @VOXCRASH | 30.7K | 2026-04-03 | leader | added 2026-11-14 | Creeper -> Steve Minecraft Factory loop 7.86M
+UCi4UsajPtKE4NHmnKX1OFTQ | Blendverse 3D | @Blendverse3d | 29.2K | 2026-08-17 | leader | added 2026-11-14 | soft body 0% vs 99% 8.68M; 76.6M channel views
+UC90TDBTMzL11QagM5lYnHKw | Windie 3D | @windiej | 176K | 2022-11-08 | leader | added 2026-11-14 | Minecraft Realistic Armour Physics 31.5M
+UCWsjwYKHcbYwyScefgpmVeQ | Craft Lab3D | @craftlab3d | 199K | 2023-12-19 | leader | added 2026-11-14 | Steve vs Death Factory 11.4M
+UCNOvIrwFKI7LSjkuL1FNvGQ | ArtikAnimates | @ArtikAnimates | 11.6K | 2023-11-17 | leader | added 2026-11-14 | soft body 9.46M (Verity skin = third-party IP, formula only)
+UCC4PcwmwWxrctrX_p_H5DbA | Squishy 3D | @Squishy3D | 545 | 2026-10-31 | leader | added 2026-11-14 | Minecraft vs Real Life Blender sims
