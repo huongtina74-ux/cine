@@ -135,9 +135,25 @@ Kiểm lại dữ liệu API cùng ngày (`new_channel_hunt_2026-11-13/channels_
 
 **Bị tưởng là kênh mới nhưng tài khoản cũ:** JohnnyXD (tạo 2021, Short 3,48M); VOXCRASH (224 ngày, 7,86M); UnVoidMC (572 ngày); ArtikAnimates (1.092 ngày); Blendverse 3D (88 ngày, 8,68M).
 
+**Kiểm lại từng kênh (14/11, OBSERVED: ảnh thumbnail + 14 Shorts mới nhất trên tab Shorts của từng kênh):**
+
+| Kênh | Có thật là kênh Minecraft không? |
+|---|---|
+| Mochi & Pals | **Có.** Thế giới Minecraft, nhân vật gốc (Bubbles, Boom Bug…). Tiêu đề thường không ghi chữ "Minecraft" (chỉ vài video có #minecraft). 14/14 Shorts cùng format "Who can…?". |
+| Gargamel Land | **Có.** Steve/Alex làm bằng Blender. Kênh 56 ngày, không phải ≤30 ngày. |
+| Cube Clash | **Nửa vời.** "One blocky world", nhân vật khối kiểu Minecraft, nhưng không gọi là Minecraft. Chưa có Short 1M (cao nhất 362K). |
+| Endform TV | **Không.** Kênh "Final Form" đa chủ đề (xe, cầu thủ, số, mèo, GTA…). Chỉ 1 video dùng khối Minecraft. |
+| Brawl Lab | **Không hẳn.** Đấu crossover nhiều game: Undertale, PvZ, Deltarune, Terraria vs mob Minecraft. Phần lớn là IP game khác. |
+| BlockKahani | Minecraft-style, nhưng là **kênh tiếng Hindi (Ấn Độ)**. Ngoài 2 video 350–553K, các Short khác chỉ 0,2–3,6K. |
+| DiaxGold, Mrjunaid | Minecraft, nhưng **IP JJ/Maizen**. |
+| Erzxck | Minecraft trộn IP khác (Verity/Falsity, Fortnite, FNAF, Chica). |
+
+→ **Chỉ còn 1 kênh vừa đúng Minecraft, vừa nhân vật gốc, vừa ≤30 ngày, vừa có Short ≥1M: Mochi & Pals.** Gần tiêu chí nhưng hơi già: Gargamel Land (56 ngày).
+
 **Sửa lại kết luận (INFERRED):**
-- Kênh Minecraft mới **có thể** có Short triệu view trong 2–4 tuần. Mochi & Pals có 2 Short gần 3M sau 29 ngày.
-- Điểm chung của các kênh thắng: **dàn nhân vật gốc + câu hỏi thi đấu / tiến hoá** ("Who can…?", "Which X reaches Final Form?", "Mobs vs Mobs — Who Wins?", "NOOB vs PRO: Who Survives…?"), làm bằng 3D.
+- Kênh Minecraft mới có Short triệu view trong ≤30 ngày là **rất hiếm**: trong 2 nguồn quét chỉ thấy 1 kênh gốc thật (Mochi & Pals, 2 Short 2,7–2,9M). Đó là ngoại lệ, không phải quy luật.
+- Các kênh khác đạt triệu view phần lớn nhờ IP (JJ/Maizen, Verity, Undertale/PvZ) hoặc không phải ngách Minecraft (Endform TV).
+- Format đáng học từ kênh gốc thật: **dàn nhân vật cố định + câu hỏi thi đấu "Who can…?"** (Mochi & Pals) và **Steve/Alex vật lý Blender** (Gargamel Land, 2,3M; 56 ngày).
 - Câu "Shorts Minecraft lên nhanh nhưng nhỏ" chỉ đúng với **trung vị** kênh mới. Phần đuôi trên thì lớn hơn nhiều.
 - Tiền vẫn nhỏ: chưa kênh mới nào đạt mức YPP 2027 (20M/90 ngày). Mochi & Pals 9,79M sau 29 ngày là gần nhất, ≈ nửa đường.
 - **Bài học về công cụ:** chỉ dùng Algrow Channel Trends để quét ngách là thiếu. Cần quét `search.list` theo view, rồi kiểm tuổi bằng `channels.list`.
