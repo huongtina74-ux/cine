@@ -134,7 +134,7 @@ def shot(t):
     if t < ZOFF:
         ty = min(1.5 + zuH(t), 26.5)
         s = shake(t, .25 * (1 - (t - ZL) / .35)) if t < ZL + .35 else (0, 0, 0)
-        return (1.7 + s[0], max(ty - 1.6, 2.1) + s[1], 10.5 + s[2]), (2.1, max(ty + 1.2, 2.6), 0), 58
+        return (1.7 + s[0], max(ty - 1.2, 2.1) + s[1], 7.5 + s[2]), (2.1, max(ty + .9, 2.6), 0), 58  # tighter than the cloud preview: Zu reads bigger in the chase
     u = (t - ZOFF) / (ZBACK - ZOFF)
     return (-1.05, 2.6, 7.6 - u * .9), (-1.05, 3.75, 0), 56
 
