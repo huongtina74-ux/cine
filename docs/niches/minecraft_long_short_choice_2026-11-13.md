@@ -61,7 +61,7 @@ Trạng thái: **PROPOSED**, chờ owner duyệt.
 - Facts / myths: kênh mới không bứt lên.
 
 ## Vì sao ra tiền nhanh (INFERRED)
-- **Shorts kéo sub và view nhanh nhất.** Cửa vào YPP theo luật cũ (1K sub + 10M view Shorts trong 90 ngày) còn mở đến hết 31/01/2027, tức khoảng 79 ngày tính từ hôm nay. Kênh vào được trước mốc này **không phải chịu ngưỡng gấp đôi** (8.000 giờ hoặc 20M view Shorts).
+- **Shorts kéo sub và view nhanh nhất.** Cửa vào YPP theo luật cũ (1K sub + 10M view Shorts trong 90 ngày) còn mở đến hết 31/01/2027, tức khoảng 79 ngày tính từ hôm nay. Kênh vào được trước mốc này **không phải chịu ngưỡng gấp đôi** (8.000 giờ hoặc 20M view Shorts). **Nhưng vào sớm không giữ được tiền Shorts:** từ 2027-02-01 kênh nào cũng phải có ≥10M view Shorts đủ điều kiện trong 90 ngày mới được trả tiền Shorts (sửa ngày 2026-11-13, xem `reports/Tiền Shorts Minecraft 1 triệu view.md`).
 - **Tiền chính vẫn đến từ long-form.**
   - 10M view Shorts/tháng × $0,03–0,08 ≈ **$300–800/tháng** (ESTIMATED; chưa có RPM Shorts đo riêng cho Minecraft).
   - Một video horror 200K view × $2 ≈ **$400** (ESTIMATED).
