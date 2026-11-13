@@ -1,0 +1,25 @@
+# Minecraft Shorts sub-niches (mc_shorts.py, 2026-11-13)
+
+Shorts found by YouTube search (Shorts filter, relevance), exact numbers from videos.list/channels.list. English titles, <= 180 s. Relevance search over-samples winners: read as "what wins and who wins", not as failure rates.
+
+| Sub-niche | Shorts | Median views | >=1M | Posted <= 30 d: n / median | Channels | Channel age <= 365 d (share) | New ch (<=365 d) with a Short >=1M | Made for Kids | Third-party IP in title | Median channel subs |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Horror / scary | 81 | 164K | 30 | 21 / 1K | 76 | 13 (17%) | 2 | 0% | 4% | 9K |
+| Build hacks / tips | 96 | 363K | 42 | 27 / 4K | 79 | 13 (16%) | 1 | 0% | 2% | 89K |
+| Redstone / farms | 73 | 74K | 26 | 33 / 6K | 67 | 15 (22%) | 2 | 0% | 0% | 21K |
+| Mob battle / experiment | 74 | 18K | 13 | 58 / 8K | 67 | 32 (48%) | 0 | 0% | 15% | 2K |
+| Noob vs Pro / troll / "Minecraft but" | 109 | 42K | 34 | 66 / 26K | 90 | 24 (27%) | 1 | 0% | 12% | 42K |
+| Animation story | 32 | 182K | 13 | 20 / 20K | 31 | 6 (19%) | 1 | 0% | 38% | 301K |
+| Facts / myths / secrets | 92 | 237K | 37 | 27 / 9K | 78 | 18 (23%) | 0 | 0% | 1% | 20K |
+| Parkour / satisfying / ASMR | 105 | 321K | 39 | 45 / 23K | 94 | 21 (22%) | 2 | 0% | 2% | 56K |
+
+## Young channels (created <= 365 d) in each sub-niche (best Short in sample)
+
+- **Horror / scary**: Rank it Laughs (262 d, 281K subs, 149 videos, 262.9M channel views, best 12.60M); ZONE13 (316 d, 18K subs, 34 videos, 34.8M channel views, best 10.11M); Bludex-92 (253 d, 8K subs, 76 videos, 3.1M channel views, best 0.26M); IanisMC (147 d, 8K subs, 123 videos, 6.6M channel views, best 0.15M); PickaxeRants (71 d, 3K subs, 56 videos, 3.7M channel views, best 0.10M); lou6 - EN (71 d, 0K subs, 1 videos, 0.0M channel views, best 0.03M)
+- **Build hacks / tips**: EvanavE (165 d, 50K subs, 174 videos, 56.6M channel views, best 3.72M); Lord Faffington (112 d, 5K subs, 79 videos, 2.7M channel views, best 0.07M); W Builds (354 d, 16K subs, 270 videos, 8.3M channel views, best 0.05M); Raj Extra (226 d, 3K subs, 235 videos, 2.7M channel views, best 0.04M); GamingEliteHub (123 d, 0K subs, 146 videos, 0.2M channel views, best 0.01M); Craftora build  (173 d, 1K subs, 160 videos, 0.7M channel views, best 0.00M)
+- **Redstone / farms**: Finn Creates (347 d, 22K subs, 18 videos, 11.0M channel views, best 2.32M); WhoCow (312 d, 296K subs, 185 videos, 320.5M channel views, best 2.20M); Zevix (118 d, 14K subs, 85 videos, 21.2M channel views, best 0.25M); BLAZING  (307 d, 1K subs, 158 videos, 0.5M channel views, best 0.04M); Crafty kinetics (185 d, 2K subs, 128 videos, 1.5M channel views, best 0.03M); GETTO LAN (55 d, 2K subs, 68 videos, 1.0M channel views, best 0.03M)
+- **Mob battle / experiment**: MiniSchool89 (91 d, 78K subs, 83 videos, 34.6M channel views, best 0.08M); Onix (74 d, 9K subs, 71 videos, 6.8M channel views, best 0.04M); FunMix-Fera (91 d, 1K subs, 107 videos, 2.0M channel views, best 0.04M); Cubix Gaming (140 d, 2K subs, 96 videos, 1.6M channel views, best 0.04M); Shadow X Gamer  (19 d, 0K subs, 9 videos, 0.1M channel views, best 0.04M); GETTO LAN (55 d, 2K subs, 68 videos, 1.0M channel views, best 0.03M)
+- **Noob vs Pro / troll / "Minecraft but"**: 𝕁𝕦𝕟𝕜𝕚𝕏 ℙ𝕝𝕒𝕪𝕫 (262 d, 56K subs, 33 videos, 22.7M channel views, best 2.22M); HamsterWorker - Minecraft (347 d, 72K subs, 73 videos, 13.2M channel views, best 0.84M); Cube Clash (7 d, 15K subs, 10 videos, 1.2M channel views, best 0.16M); Cuby Chunk (37 d, 2K subs, 18 videos, 1.0M channel views, best 0.07M); SWIDSK  (109 d, 12K subs, 97 videos, 5.8M channel views, best 0.05M); Nexil MC (240 d, 3K subs, 31 videos, 1.5M channel views, best 0.03M)
+- **Animation story**: Minecraft Mango (111 d, 48K subs, 38 videos, 49.1M channel views, best 5.88M); Hamo Toon (144 d, 32K subs, 125 videos, 80.3M channel views, best 0.42M); 匚尺ㄖ乙 (23 d, 4K subs, 19 videos, 1.5M channel views, best 0.29M); Brick Vibes (124 d, 35K subs, 338 videos, 20.1M channel views, best 0.02M); ZomCraft Animation (65 d, 9K subs, 122 videos, 10.5M channel views, best 0.01M); SennaMcraft (280 d, 1K subs, 19 videos, 1.1M channel views, best 0.01M)
+- **Facts / myths / secrets**: PickaxeRants (71 d, 3K subs, 56 videos, 3.7M channel views, best 0.04M); Craftium (54 d, 1K subs, 47 videos, 0.5M channel views, best 0.03M); Thedasman (95 d, 4K subs, 155 videos, 9.9M channel views, best 0.03M); MineFlash (280 d, 14K subs, 197 videos, 13.8M channel views, best 0.03M); MCbyHarry (117 d, 14K subs, 70 videos, 4.8M channel views, best 0.03M); LetsKnow (301 d, 1K subs, 94 videos, 1.4M channel views, best 0.03M)
+- **Parkour / satisfying / ASMR**: VOXCRASH (223 d, 31K subs, 86 videos, 52.1M channel views, best 7.85M); DrDonut Clip Central (183 d, 41K subs, 110 videos, 81.8M channel views, best 1.10M); Gargamel Land (55 d, 16K subs, 91 videos, 27.6M channel views, best 0.63M); mrfeast (355 d, 36K subs, 781 videos, 154.7M channel views, best 0.54M); ASMR Ritik (360 d, 25K subs, 278 videos, 10.1M channel views, best 0.08M); ProBoyMc_11 (81 d, 3K subs, 49 videos, 0.7M channel views, best 0.05M)

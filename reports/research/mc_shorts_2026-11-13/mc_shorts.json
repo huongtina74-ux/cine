@@ -1,0 +1,506 @@
+{
+ "Horror / scary": {
+  "n": 81,
+  "median": 163970.0,
+  "m1": 30,
+  "recent_n": 21,
+  "recent_median": 1161.0,
+  "channels": 76,
+  "young": 13,
+  "new1m": 2,
+  "mfk": 0.0,
+  "ip": 0.037037037037037035,
+  "med_subs": 9010.0,
+  "young_examples": [
+   {
+    "ch": "Rank it Laughs",
+    "age": 262,
+    "subs": 281000,
+    "videos": 149,
+    "ch_views": 262916511,
+    "best": 12596442
+   },
+   {
+    "ch": "ZONE13",
+    "age": 316,
+    "subs": 18400,
+    "videos": 34,
+    "ch_views": 34782169,
+    "best": 10111105
+   },
+   {
+    "ch": "Bludex-92",
+    "age": 253,
+    "subs": 8410,
+    "videos": 76,
+    "ch_views": 3063709,
+    "best": 259274
+   },
+   {
+    "ch": "IanisMC",
+    "age": 147,
+    "subs": 8340,
+    "videos": 123,
+    "ch_views": 6613677,
+    "best": 153425
+   },
+   {
+    "ch": "PickaxeRants",
+    "age": 71,
+    "subs": 3310,
+    "videos": 56,
+    "ch_views": 3654004,
+    "best": 101284
+   },
+   {
+    "ch": "lou6 - EN",
+    "age": 71,
+    "subs": 74,
+    "videos": 1,
+    "ch_views": 25599,
+    "best": 25605
+   }
+  ]
+ },
+ "Build hacks / tips": {
+  "n": 96,
+  "median": 363224.0,
+  "m1": 42,
+  "recent_n": 27,
+  "recent_median": 3880.0,
+  "channels": 79,
+  "young": 13,
+  "new1m": 1,
+  "mfk": 0.0,
+  "ip": 0.020833333333333332,
+  "med_subs": 89200.0,
+  "young_examples": [
+   {
+    "ch": "EvanavE",
+    "age": 165,
+    "subs": 50400,
+    "videos": 174,
+    "ch_views": 56633637,
+    "best": 3721471
+   },
+   {
+    "ch": "Lord Faffington",
+    "age": 112,
+    "subs": 5240,
+    "videos": 79,
+    "ch_views": 2659863,
+    "best": 68912
+   },
+   {
+    "ch": "W Builds",
+    "age": 354,
+    "subs": 16100,
+    "videos": 270,
+    "ch_views": 8338956,
+    "best": 49177
+   },
+   {
+    "ch": "Raj Extra",
+    "age": 226,
+    "subs": 2650,
+    "videos": 235,
+    "ch_views": 2676376,
+    "best": 36521
+   },
+   {
+    "ch": "GamingEliteHub",
+    "age": 123,
+    "subs": 162,
+    "videos": 146,
+    "ch_views": 193444,
+    "best": 7592
+   },
+   {
+    "ch": "Craftora build ",
+    "age": 173,
+    "subs": 783,
+    "videos": 160,
+    "ch_views": 653582,
+    "best": 1511
+   }
+  ]
+ },
+ "Redstone / farms": {
+  "n": 73,
+  "median": 74173.0,
+  "m1": 26,
+  "recent_n": 33,
+  "recent_median": 5999.0,
+  "channels": 67,
+  "young": 15,
+  "new1m": 2,
+  "mfk": 0.0,
+  "ip": 0.0,
+  "med_subs": 20800.0,
+  "young_examples": [
+   {
+    "ch": "Finn Creates",
+    "age": 347,
+    "subs": 21700,
+    "videos": 18,
+    "ch_views": 10953285,
+    "best": 2318794
+   },
+   {
+    "ch": "WhoCow",
+    "age": 312,
+    "subs": 296000,
+    "videos": 185,
+    "ch_views": 320467690,
+    "best": 2203062
+   },
+   {
+    "ch": "Zevix",
+    "age": 118,
+    "subs": 13700,
+    "videos": 85,
+    "ch_views": 21185408,
+    "best": 250695
+   },
+   {
+    "ch": "BLAZING ",
+    "age": 307,
+    "subs": 803,
+    "videos": 158,
+    "ch_views": 455920,
+    "best": 36755
+   },
+   {
+    "ch": "Crafty kinetics",
+    "age": 185,
+    "subs": 1920,
+    "videos": 128,
+    "ch_views": 1537331,
+    "best": 33092
+   },
+   {
+    "ch": "GETTO LAN",
+    "age": 55,
+    "subs": 2230,
+    "videos": 68,
+    "ch_views": 1017825,
+    "best": 27758
+   }
+  ]
+ },
+ "Mob battle / experiment": {
+  "n": 74,
+  "median": 17631.5,
+  "m1": 13,
+  "recent_n": 58,
+  "recent_median": 7657.0,
+  "channels": 67,
+  "young": 32,
+  "new1m": 0,
+  "mfk": 0.0,
+  "ip": 0.14864864864864866,
+  "med_subs": 2180.0,
+  "young_examples": [
+   {
+    "ch": "MiniSchool89",
+    "age": 91,
+    "subs": 77500,
+    "videos": 83,
+    "ch_views": 34632649,
+    "best": 78986
+   },
+   {
+    "ch": "Onix",
+    "age": 74,
+    "subs": 9480,
+    "videos": 71,
+    "ch_views": 6773272,
+    "best": 40997
+   },
+   {
+    "ch": "FunMix-Fera",
+    "age": 91,
+    "subs": 1110,
+    "videos": 107,
+    "ch_views": 2011389,
+    "best": 36667
+   },
+   {
+    "ch": "Cubix Gaming",
+    "age": 140,
+    "subs": 2180,
+    "videos": 96,
+    "ch_views": 1574849,
+    "best": 35801
+   },
+   {
+    "ch": "Shadow X Gamer ",
+    "age": 19,
+    "subs": 155,
+    "videos": 9,
+    "ch_views": 148466,
+    "best": 35095
+   },
+   {
+    "ch": "GETTO LAN",
+    "age": 55,
+    "subs": 2230,
+    "videos": 68,
+    "ch_views": 1017825,
+    "best": 33668
+   }
+  ]
+ },
+ "Noob vs Pro / troll / \"Minecraft but\"": {
+  "n": 109,
+  "median": 42349.0,
+  "m1": 34,
+  "recent_n": 66,
+  "recent_median": 26243.0,
+  "channels": 90,
+  "young": 24,
+  "new1m": 1,
+  "mfk": 0.0,
+  "ip": 0.11926605504587157,
+  "med_subs": 42300.0,
+  "young_examples": [
+   {
+    "ch": "𝕁𝕦𝕟𝕜𝕚𝕏 ℙ𝕝𝕒𝕪𝕫",
+    "age": 262,
+    "subs": 55700,
+    "videos": 33,
+    "ch_views": 22742076,
+    "best": 2224423
+   },
+   {
+    "ch": "HamsterWorker - Minecraft",
+    "age": 347,
+    "subs": 71900,
+    "videos": 73,
+    "ch_views": 13189695,
+    "best": 842613
+   },
+   {
+    "ch": "Cube Clash",
+    "age": 7,
+    "subs": 14700,
+    "videos": 10,
+    "ch_views": 1218371,
+    "best": 157350
+   },
+   {
+    "ch": "Cuby Chunk",
+    "age": 37,
+    "subs": 1540,
+    "videos": 18,
+    "ch_views": 972581,
+    "best": 70989
+   },
+   {
+    "ch": "SWIDSK ",
+    "age": 109,
+    "subs": 11500,
+    "videos": 97,
+    "ch_views": 5826575,
+    "best": 46758
+   },
+   {
+    "ch": "Nexil MC",
+    "age": 240,
+    "subs": 2850,
+    "videos": 31,
+    "ch_views": 1549371,
+    "best": 31512
+   }
+  ]
+ },
+ "Animation story": {
+  "n": 32,
+  "median": 182051.5,
+  "m1": 13,
+  "recent_n": 20,
+  "recent_median": 20475.0,
+  "channels": 31,
+  "young": 6,
+  "new1m": 1,
+  "mfk": 0.0,
+  "ip": 0.375,
+  "med_subs": 301000.0,
+  "young_examples": [
+   {
+    "ch": "Minecraft Mango",
+    "age": 111,
+    "subs": 48100,
+    "videos": 38,
+    "ch_views": 49093494,
+    "best": 5880727
+   },
+   {
+    "ch": "Hamo Toon",
+    "age": 144,
+    "subs": 31900,
+    "videos": 125,
+    "ch_views": 80285949,
+    "best": 417893
+   },
+   {
+    "ch": "匚尺ㄖ乙",
+    "age": 23,
+    "subs": 4020,
+    "videos": 19,
+    "ch_views": 1543204,
+    "best": 287871
+   },
+   {
+    "ch": "Brick Vibes",
+    "age": 124,
+    "subs": 35300,
+    "videos": 338,
+    "ch_views": 20100643,
+    "best": 16888
+   },
+   {
+    "ch": "ZomCraft Animation",
+    "age": 65,
+    "subs": 9250,
+    "videos": 122,
+    "ch_views": 10517431,
+    "best": 9004
+   },
+   {
+    "ch": "SennaMcraft",
+    "age": 280,
+    "subs": 615,
+    "videos": 19,
+    "ch_views": 1145918,
+    "best": 7815
+   }
+  ]
+ },
+ "Facts / myths / secrets": {
+  "n": 92,
+  "median": 236992.0,
+  "m1": 37,
+  "recent_n": 27,
+  "recent_median": 9272.0,
+  "channels": 78,
+  "young": 18,
+  "new1m": 0,
+  "mfk": 0.0,
+  "ip": 0.010869565217391304,
+  "med_subs": 20400.0,
+  "young_examples": [
+   {
+    "ch": "PickaxeRants",
+    "age": 71,
+    "subs": 3310,
+    "videos": 56,
+    "ch_views": 3654004,
+    "best": 38209
+   },
+   {
+    "ch": "Craftium",
+    "age": 54,
+    "subs": 517,
+    "videos": 47,
+    "ch_views": 506864,
+    "best": 32492
+   },
+   {
+    "ch": "Thedasman",
+    "age": 95,
+    "subs": 4060,
+    "videos": 155,
+    "ch_views": 9879380,
+    "best": 30919
+   },
+   {
+    "ch": "MineFlash",
+    "age": 280,
+    "subs": 13600,
+    "videos": 197,
+    "ch_views": 13763983,
+    "best": 29681
+   },
+   {
+    "ch": "MCbyHarry",
+    "age": 117,
+    "subs": 14000,
+    "videos": 70,
+    "ch_views": 4793296,
+    "best": 29455
+   },
+   {
+    "ch": "LetsKnow",
+    "age": 301,
+    "subs": 842,
+    "videos": 94,
+    "ch_views": 1360124,
+    "best": 27914
+   }
+  ]
+ },
+ "Parkour / satisfying / ASMR": {
+  "n": 105,
+  "median": 321184.0,
+  "m1": 39,
+  "recent_n": 45,
+  "recent_median": 22912.0,
+  "channels": 94,
+  "young": 21,
+  "new1m": 2,
+  "mfk": 0.0,
+  "ip": 0.01904761904761905,
+  "med_subs": 56150.0,
+  "young_examples": [
+   {
+    "ch": "VOXCRASH",
+    "age": 223,
+    "subs": 30700,
+    "videos": 86,
+    "ch_views": 52120135,
+    "best": 7850324
+   },
+   {
+    "ch": "DrDonut Clip Central",
+    "age": 183,
+    "subs": 41400,
+    "videos": 110,
+    "ch_views": 81820238,
+    "best": 1103176
+   },
+   {
+    "ch": "Gargamel Land",
+    "age": 55,
+    "subs": 15800,
+    "videos": 91,
+    "ch_views": 27600056,
+    "best": 626243
+   },
+   {
+    "ch": "mrfeast",
+    "age": 355,
+    "subs": 36100,
+    "videos": 781,
+    "ch_views": 154749654,
+    "best": 539902
+   },
+   {
+    "ch": "ASMR Ritik",
+    "age": 360,
+    "subs": 25100,
+    "videos": 278,
+    "ch_views": 10116618,
+    "best": 75458
+   },
+   {
+    "ch": "ProBoyMc_11",
+    "age": 81,
+    "subs": 2660,
+    "videos": 49,
+    "ch_views": 668089,
+    "best": 45997
+   }
+  ]
+ }
+}
