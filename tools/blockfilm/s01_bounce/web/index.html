@@ -366,7 +366,7 @@ function act(n,t){const ch=CH[n];const h=heightOf(n,t),air=h>.02,sq=squash(n,t);
   pose(ch,s);
   // cheer: keep the torso on the legs (the shared rig bobs only the body) and hop the whole character instead
   if(s.anim=='cheer'){ch.body.position.y=0;ch.legL.rotation.x=air?-.25:0;ch.legR.rotation.x=air?.25:0;if(!air)ch.root.position.y+=Math.abs(Math.sin(t*7))*.22}
-  if(ch.glowEyes){const on=s.eyes=='glow';ch.glowEyes.forEach(m=>{m.scale.setScalar(on?1.9:1);m.material.color.setHex(0x39FF14)})}
+  if(ch.glowEyes){const on=s.eyes=='glow';ch.glowEyes.forEach(m=>{m.scale.setScalar(on?1.9:1);m.material.color.setHex(0xFFF35C)})}
   // squash & stretch on top of the pose
   const st=air?Math.min(.18,Math.abs(heightOf(n,t+.02)-h)*.6):0;
   ch.root.scale.set(sc*(1+sq*.35-st*.4),sc*(1-sq*.45+st),sc*(1+sq*.35-st*.4));
