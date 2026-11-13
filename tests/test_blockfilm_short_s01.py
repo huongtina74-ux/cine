@@ -17,9 +17,9 @@ def test_build_makes_vertical_page(tmp_path):
 
 def test_audio_cues_match_story_constants():
     js = (ROOT / "web" / "s01_story.js").read_text(encoding="utf-8")
-    consts = dict(re.findall(r"(ZL|ZOFF|ZBACK|ZLAND)=([\d.]+)", js))
-    assert consts == {"ZL": "12.40", "ZOFF": "15.0", "ZBACK": "17.0", "ZLAND": "17.45"}
+    consts = dict(re.findall(r"(ZL|ZOFF|ZBACK|ZLAND|ZWIN)=([\d.]+)", js))
+    assert consts == {"ZL": "12.40", "ZOFF": "14.0", "ZBACK": "15.2", "ZLAND": "15.65", "ZWIN": "16.9"}
     audio = (ROOT / "audio.py").read_text(encoding="utf-8")
-    for t in ("12.40", "17.45", "0.30" if "0.30" in audio else ".30", "4.40", "5.20", "9.00"):
+    for t in ("12.40", "15.65", "15.20", "0.30" if "0.30" in audio else ".30", "4.40", "5.20", "9.00"):
         assert t in audio, t
     assert "TOTAL = 18.0" in audio and "const TOTAL=18;" in js

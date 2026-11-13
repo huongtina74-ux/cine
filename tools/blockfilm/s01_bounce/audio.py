@@ -2,7 +2,7 @@
 
     python audio.py        # -> out/mix.wav (48 kHz stereo, -14 LUFS, true peak -1 dB)
 18 s = 9 bars at 120 bpm, so the music loops seamlessly with the picture.
-Cue times match web/s01_story.js (JUMPS, ZL=12.4, ZOFF=15.0, ZBACK=17.0, ZLAND=17.45).
+Cue times match web/s01_story.js (JUMPS, ZL=12.4, ZOFF=14.0, ZBACK=15.2, ZLAND=15.65, ZWIN=16.9).
 """
 import os
 import subprocess
@@ -56,7 +56,7 @@ CHORDS = [48, 45, 41, 43]  # C  Am  F  G (bass roots), one per bar
 
 def music_on(t):
     """Arrangement mask: full groove, cut for Zu's charge, suspense drop while waiting, back for the landing."""
-    if 11.0 <= t < 12.4 or 15.0 <= t < 17.45:
+    if 11.0 <= t < 12.4 or 14.0 <= t < 15.65:
         return 0.0
     return 1.0
 
@@ -73,21 +73,21 @@ for bar in range(9):
             put(mus, bass(mid(CHORDS[bar % 4])), tb, .55)
         for h in range(2):
             th = tb + h * BEAT / 2
-            if music_on(th) or 15.0 <= th < 17.0:  # the hats keep ticking through the wait
+            if music_on(th) or 14.0 <= th < 15.2:  # the hats keep ticking through the wait
                 put(mus, hat(), th, 1.0 if h else .6)
     for k in range(8):
         tk = t0 + k * BEAT / 2
         if music_on(tk):
             put(mus, pluck(mid(MEL[(bar % 2) * 8 + k])), tk, .32)
 # after the launch the riff jumps an octave for extra energy
-for k in range(int((15.0 - 12.4) / (BEAT / 2))):
+for k in range(int((14.0 - 12.5) / (BEAT / 2))):
     tk = 12.5 + k * BEAT / 2
     put(mus, pluck(mid(MEL[k % 16] + 12)), tk, .18)
 
 # ---------- SFX (times match the picture) ----------
 put(sfx, fx.boing(), .30, .8); put(sfx, fx.whoosh(.6), .35, .45)
 put(sfx, fx.block_place('dirt'), 2.50, .9); put(sfx, pitch(fx.boing(), 1.6)[:int(.3 * SR)], 2.50, .35)
-put(sfx, fx.pop(), 3.85, .6); put(sfx, fx.pop(), 4.05, .6)
+put(sfx, fx.idea_ding(), 3.70, .45)
 put(sfx, pitch(fx.boing(), 1.15), 4.40, .7); put(sfx, pitch(fx.boing(), 1.35), 5.20, .9); put(sfx, fx.whoosh(.8), 5.25, .5)
 put(sfx, fx.block_place('dirt'), 7.40, .9)
 put(sfx, fx.slide_whistle(up=False, d=.6), 7.85, .55)
@@ -98,11 +98,11 @@ put(sfx, fx.record_scratch(), 11.00, .8)
 put(sfx, fx.heartbeat(1), 11.15, .7)
 put(sfx, fx.riser(.85), 11.55, .7)
 put(sfx, pitch(fx.boing(), .7), 12.40, 1.0); put(sfx, fx.explosion()[:int(.9 * SR)] * np.linspace(1, 0, int(.9 * SR)), 12.40, .45)
-put(sfx, fx.whoosh(1.4), 12.50, .6); put(sfx, fx.sparkle(), 13.6, .35)
-for i in range(4):
-    put(sfx, fx.blink(), 15.1 + i * .5, .4)
-put(sfx, fx.slide_whistle(up=False, d=.45), 17.00, .6)
-put(sfx, fx.bonk(), 17.45, .7); put(sfx, fx.boing(), 17.45, .6); put(sfx, fx.sparkle(), 17.52, .5)
+put(sfx, fx.whoosh(1.2), 12.50, .6); put(sfx, fx.sparkle(), 13.45, .35)
+for i in range(3):
+    put(sfx, fx.blink(), 14.10 + i * .35, .4)
+put(sfx, fx.slide_whistle(up=False, d=.45), 15.20, .6)
+put(sfx, fx.bonk(), 15.65, .7); put(sfx, fx.boing(), 15.65, .6); put(sfx, fx.cha_ching(), 15.72, .5)
 
 # ---------- mix: stereo, music under SFX, -14 LUFS ----------
 mix = mus * .55 + sfx * .9

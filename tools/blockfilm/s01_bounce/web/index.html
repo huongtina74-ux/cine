@@ -282,7 +282,7 @@ const PADX={bin:-2.1,bo:0,zu:2.1};
 const PAD={};for(const k in PADX){const m=new THREE.Mesh(box1,MAT.pad);m.castShadow=true;m.receiveShadow=true;scene.add(m);PAD[k]=m}
 // tower numbers (front face of the pole every 4 blocks)
 for(let y=4;y<=28;y+=4){const c=document.createElement('canvas');c.width=c.height=128;const g=c.getContext('2d');g.font='800 92px Kid';g.textAlign='center';g.textBaseline='middle';
-  const t=new THREE.CanvasTexture(c);t.encoding=THREE.sRGBEncoding;const pl=new THREE.Mesh(new THREE.PlaneGeometry(.9,.9),new THREE.MeshBasicMaterial({map:t,transparent:true}));pl.position.set(5,y,-1.48);scene.add(pl);
+  const t=new THREE.CanvasTexture(c);t.encoding=THREE.sRGBEncoding;const pl=new THREE.Mesh(new THREE.PlaneGeometry(.9,.9),new THREE.MeshBasicMaterial({map:t,transparent:true}));pl.position.set(5,1.5+y,-1.48);scene.add(pl);
   pl.userData.draw=()=>{g.clearRect(0,0,128,128);g.lineWidth=14;g.strokeStyle='#000';g.strokeText(String(y),64,70);g.fillStyle='#FFE14D';g.fillText(String(y),64,70);t.needsUpdate=true};(window.NUMS=window.NUMS||[]).push(pl)}
 // clouds
 const cloudM=new THREE.MeshLambertMaterial({color:0xFFFFFF,emissive:0xBFD9F0,emissiveIntensity:.35});
@@ -297,11 +297,12 @@ crown.position.y=.62;crown.visible=false;ZU.head.add(crown);
 // landing dust
 const DUST=pool(48,new THREE.MeshLambertMaterial({color:0xE8E2D0}),.14,false);
 const SPARK=pool(40,new THREE.MeshBasicMaterial({color:0xFFF59D}),.12,false);
+const GLOW=pool(36,new THREE.MeshBasicMaterial({color:0x39FF14}),.12,false);
 
 /* ---------- motion ---------- */
 // jumps: [t0, dur, peak] above the pad top. Zu's big launch is handled separately.
 const JUMPS={bin:[[.30,2.2,8]],bo:[[4.40,.8,3],[5.20,2.2,16]],zu:[[9.00,.5,1]]};
-const ZL=12.40,ZOFF=15.0,ZBACK=17.0,ZLAND=17.45;
+const ZL=12.40,ZOFF=14.0,ZBACK=15.2,ZLAND=15.65,ZWIN=16.9;
 function jumpH(name,t){for(const [t0,d,pk] of JUMPS[name]){if(t>=t0&&t<=t0+d){const u=(t-t0)/d;return 4*pk*u*(1-u)}}return 0}
 function zuH(t){if(t>=ZL&&t<ZBACK)return 34*Math.pow(t-ZL,1.55)+jumpH('zu',t);if(t>=ZBACK&&t<ZLAND){const u=(t-ZBACK)/(ZLAND-ZBACK);return 46*(1-u*u)}return jumpH('zu',t)}
 const heightOf=(n,t)=>n=='zu'?zuH(t):jumpH(n,t);
@@ -317,20 +318,21 @@ const LAND=landings();
 
 /* ---------- shots ---------- */
 function shot(t){
-  if(t<.4||t>=ZBACK){const u=t<.4?t/.4:(t-ZBACK);return {p:V3(0,3.7,12.2-u*.3),l:V3(0,2.6,0),f:52,id:'wide'}}
+  if(t<.4||(t>=ZBACK&&t<ZLAND)||t>=ZWIN){const u=t<.4?t/.4:t<ZLAND?0:(t-ZWIN);return {p:V3(0,3.7,12.2-u*.3),l:V3(0,2.6,0),f:52,id:'wide'}}
+  if(t>=ZLAND&&t<ZWIN){const u=eout((t-ZLAND)/.5);return {p:V3(1.95,3.0,5.6-u*.6),l:V3(2.1,3.05,0),f:46,id:'zu_win'}}
   if(t<3.6){const y=jumpH('bin',t);const ty=2.4+y;return {p:V3(-.9,ty+.6,10.4),l:V3(-2.0,ty,0),f:55,id:'bin'}}
   if(t<4.4){const u=(t-3.6)/.8;return {p:V3(.6,2.7,5.6-u*.6),l:V3(0,2.65,0),f:44,id:'bo_sly'}}
   if(t<7.8){const y=jumpH('bo',t);const ty=2.4+y;return {p:V3(1.3,ty+.6,11.4),l:V3(.2,ty,0),f:56,id:'bo'}}
   if(t<8.6){const u=eout((t-7.8)/.25);return {p:V3(-2.0,3.15,3.9),l:V3(-2.1,3.05,0),f:46-u*10,id:'bin_shock'}}
-  if(t<10){const y=jumpH('zu',t);return {p:V3(1.85,2.3+y*.5,6.4),l:V3(2.1,1.95+y*.6,0),f:46,id:'zu_hop'}}
+  if(t<10){const y=jumpH('zu',t);return {p:V3(1.85,2.5+y*.5,6.8),l:V3(2.1,2.6+y*.6,0),f:46,id:'zu_hop'}}
   if(t<11){return {p:V3(-1.05,3.0,8.6),l:V3(-1.05,2.75,0),f:50,id:'laugh'}}
   if(t<ZL){const u=ease((t-11)/1.4);return {p:V3(2.1,2.35,4.4-u*1.4),l:V3(2.1,2.2-u*.15,0),f:42-u*4,id:'zu_charge'}}
-  if(t<ZOFF){const y=zuH(t);const ty=Math.min(1.5+y,26.5);const sh=t<ZL+.35?shake(t,.25*(1-(t-ZL)/.35)):V3(0,0,0);return {p:V3(1.7,ty-1.6,10.5).add(sh),l:V3(2.1,ty+1.2,0),f:58,id:'zu_rocket'}}
-  return {p:V3(-1.05,1.05,5.8),l:V3(-1.05,5.2,0),f:62,id:'look_up'}}
+  if(t<ZOFF){const y=zuH(t);const ty=Math.min(1.5+y,26.5);const sh=t<ZL+.35?shake(t,.25*(1-(t-ZL)/.35)):V3(0,0,0);return {p:V3(1.7,Math.max(ty-1.6,2.1),10.5).add(sh),l:V3(2.1,Math.max(ty+1.2,2.6),0),f:58,id:'zu_rocket'}}
+  const u=(t-ZOFF)/(ZBACK-ZOFF);return {p:V3(-1.05,2.6,7.6-u*.9),l:V3(-1.05,3.75,0),f:56,id:'look_up'}}
 
 /* ---------- per-character acting ---------- */
 function act(n,t){const ch=CH[n];const h=heightOf(n,t),air=h>.02,sq=squash(n,t);const sc=ch.o.scale||1;
-  let s={pos:[PADX[n],1.5-sq*1+h,0],rot:0,anim:'idle',p:t,eyes:'normal',mouth:'closed',look:[0,0]};
+  let s={pos:[PADX[n],1.5-sq*.55+h,0],rot:0,anim:'idle',p:t,eyes:'normal',mouth:'closed',look:[0,0]};
   const lookAt=m=>[clamp((PADX[m]-PADX[n])*.22,-.7,.7),0];
   if(air){const up=(heightOf(n,t+.02)-h)>0;s.anim=up?'cheer':'fall';s.eyes=up?'happy':'wide';s.mouth=up?'grin':'O'}
   if(n=='bin'){
@@ -341,27 +343,30 @@ function act(n,t){const ch=CH[n];const h=heightOf(n,t),air=h>.02,sq=squash(n,t);
     else if(t<10){s.look=lookAt('zu')}
     else if(t<11){s.anim='cheer';s.eyes='happy';s.mouth='grin'}
     else if(t<ZL){s.look=lookAt('zu');s.eyes='wide';s.mouth='O'}
-    else if(t<ZBACK){s.anim='lookup';s.look=[.15,-.5];s.eyes=t<ZOFF?'wide':'normal';s.mouth=t<ZOFF?'O':'closed'}
-    else{s.look=lookAt('zu');s.eyes='wide';s.mouth='O';if(t>17.72){s.anim='hold';s.eyes='sly';s.mouth='smile';s.look=[0,0]}}}
+    else if(t<ZBACK){const gl=t>14.4&&t<14.9;s.anim='lookup';s.look=gl?[.55,-.1]:[.15,-.5];s.eyes=t<ZOFF?'wide':gl?'sly':'normal';s.mouth=t<ZOFF?'O':gl?'frown':'closed'}
+    else{s.look=lookAt('zu');s.eyes=t<ZWIN?'wide':'happy';s.mouth=t<ZWIN?'O':'smile';if(t>17.72){s.anim='hold';s.eyes='sly';s.mouth='smile';s.look=[0,0]}}}
   if(n=='bo'){
     if(t<3.6&&!air){s.look=lookAt('bin');s.eyes=t>.6&&t<3?'wide':'normal';s.mouth=t>.6&&t<3?'O':'closed'}
-    else if(t<4.4){s.anim='present';s.eyes='sly';s.mouth='smile'}
+    else if(t<4.4){s.anim='point';s.eyes='sly';s.mouth='smile'}
     else if(t<7.8&&!air){s.anim='cheer';s.eyes='happy';s.mouth='grin'}
     else if(t<10){s.look=lookAt('zu')}
     else if(t<11){s.anim='cheer';s.eyes='happy';s.mouth='grin'}
     else if(t<ZL){s.look=lookAt('zu');s.eyes='wide';s.mouth='O'}
-    else if(t<ZBACK){s.anim='lookup';s.look=[-.1,-.5];s.eyes=t<ZOFF?'wide':'normal';s.mouth=t<ZOFF?'O':'closed'}
-    else{s.look=lookAt('zu');s.eyes='wide';s.mouth='O'}}
+    else if(t<ZBACK){const gl=t>14.4&&t<14.9;s.anim='lookup';s.look=gl?[-.55,-.1]:[-.1,-.5];s.eyes=t<ZOFF?'wide':gl?'sly':'normal';s.mouth=t<ZOFF?'O':gl?'frown':'closed'}
+    else{s.look=lookAt('zu');s.eyes=t<ZWIN?'wide':'happy';s.mouth=t<ZWIN?'O':'smile'}}
   if(n=='zu'){
     if(t<8.6){s.look=lookAt(t<4.4?'bin':'bo');if(t>.6&&t<3||t>5.2&&t<7.6){s.eyes='star';s.mouth='O'}}
     else if(!air&&t<9.5){s.anim='hold';s.eyes='happy';s.mouth='smile'}
     else if(!air&&t<10){s.anim='cheer';s.eyes='happy';s.mouth='grin'}
     else if(t<11){s.look=lookAt('bin');s.eyes='normal';s.mouth='frown'}
     else if(t<11.6){s.anim='sad';s.eyes='sad';s.mouth='frown'}
-    else if(t<ZL){s.anim='hold';s.eyes='glow';s.mouth='grin';s.glow=1.6}
+    else if(t<ZL){s.anim='hold';s.eyes='glow';s.mouth='grin';s.glow=1.8}
     else if(t>=ZLAND){s.anim='cheer';s.eyes='star';s.mouth='grin'}
     if(air&&t>=ZL){s.eyes='glow';s.glow=1.4}}
   pose(ch,s);
+  // cheer: keep the torso on the legs (the shared rig bobs only the body) and hop the whole character instead
+  if(s.anim=='cheer'){ch.body.position.y=0;ch.legL.rotation.x=air?-.25:0;ch.legR.rotation.x=air?.25:0;if(!air)ch.root.position.y+=Math.abs(Math.sin(t*7))*.22}
+  if(ch.glowEyes){const on=s.eyes=='glow';ch.glowEyes.forEach(m=>{m.scale.setScalar(on?1.9:1);m.material.color.setHex(0x39FF14)})}
   // squash & stretch on top of the pose
   const st=air?Math.min(.18,Math.abs(heightOf(n,t+.02)-h)*.6):0;
   ch.root.scale.set(sc*(1+sq*.35-st*.4),sc*(1-sq*.45+st),sc*(1+sq*.35-st*.4));
@@ -373,35 +378,36 @@ function particles(t){let di=0;
     for(let i=0;i<12&&di<48;i++){const a=r()*Math.PI*2,sp=1.2+r()*1.6;setI(DUST,di++,PADX[n]+Math.cos(a)*(.55+sp*u),1.52+u*(1.4-u*2.2)*r(),Math.sin(a)*(.55+sp*u),(1-u/.6)*(.8+r()*.6),a,a,0)}}
   DUST.count=di;DUST.instanceMatrix.needsUpdate=true;
   let si=0;if(t>=ZLAND&&t<TOTAL){const u=t-ZLAND;const r=rng(77);for(let i=0;i<40;i++){const a=r()*Math.PI*2,b=r()*1.2;setI(SPARK,si++,PADX.zu+Math.cos(a)*b*(.4+u*2),2.6+u*2.2-u*u*3+r()*.6,Math.sin(a)*b*(.4+u*2)+.3,(1-u/.6)*(r()*.8+.4),a,0,a)}}
-  if(t>=11.6&&t<ZL+.5){const u=t-11.6;const r=rng(78);for(let i=0;i<24&&si<40;i++){const a=r()*Math.PI*2,rad=.6+((u*1.8+r())%1)*.9;setI(SPARK,si++,PADX.zu+Math.cos(a)*rad,1.6+((u*2+r()*2)%2),Math.sin(a)*rad,.7,a,0,0)}}
-  SPARK.count=si;SPARK.instanceMatrix.needsUpdate=true}
+  SPARK.count=si;SPARK.instanceMatrix.needsUpdate=true;
+  let gi=0;if(t>=11.6&&t<ZL+.5){const u=t-11.6;const r=rng(78);for(let i=0;i<36;i++){const a=r()*Math.PI*2,rad=.5+((u*1.8+r())%1)*.9;setI(GLOW,gi++,PADX.zu+Math.cos(a)*rad,1.6+((u*2.4+r()*2)%2.2),Math.sin(a)*rad,.9*Math.min(1,u*3),a,0,0)}}
+  GLOW.count=gi;GLOW.instanceMatrix.needsUpdate=true}
 
 /* ---------- overlay ---------- */
 const BEST={bin:0,bo:0,zu:0};
 function best(n,t){let b=0;for(const [t0,d,pk] of JUMPS[n]){if(t>=t0+d/2)b=Math.max(b,pk);else if(t>=t0)b=Math.max(b,jumpH(n,t))}return b}
-function zuLabel(t){if(t<ZL)return String(Math.round(best('zu',t)));const h=zuH(Math.min(t,ZOFF));if(h<26)return String(Math.round(h));if(t<13.6)return '99';if(t<14.2)return '999';return '∞'}
-function chip(g,x,y,n,val,big){const [nm,col]=CHIP[n];const s=big?1.25:1;g.save();g.translate(x,y);g.scale(s,s);rr(g,-130,-46,260,92,26);g.fillStyle='rgba(0,0,0,.55)';g.fill();g.lineWidth=6;g.strokeStyle=col;g.stroke();
+function zuLabel(t){if(t<ZL)return String(Math.round(best('zu',t)));const h=zuH(Math.min(t,ZOFF));if(h<26)return String(Math.max(1,Math.round(h)));if(t<13.45)return '99';if(t<13.7)return '999';return '∞'}
+function chip(g,x,y,n,val,big){const [nm,col]=CHIP[n];const s=big?1.12:.95;g.save();g.translate(x,y);g.scale(s,s);rr(g,-130,-46,260,92,26);g.fillStyle='#17181D';g.fill();g.lineWidth=6;g.strokeStyle=col;g.stroke();
   g.textBaseline='middle';g.textAlign='left';outlined(g,nm,-112,4,50,col,'#000',10);g.textAlign='right';outlined(g,val,112,4,56,'#FFFFFF','#000',10);g.restore()}
 function drawOverlay(t){const g=ov;g.clearRect(0,0,W,H);g.textAlign='center';g.textBaseline='middle';
   // question banner (kept clear of the top UI and the bottom title area)
-  const pop=t<.25?.88+.12*eout(t/.25):1;g.save();g.translate(W/2,250);g.scale(pop,pop);g.rotate(-.025);rr(g,-470,-118,940,236,46);g.fillStyle='#FFE14D';g.fill();g.lineWidth=12;g.strokeStyle='#000';g.stroke();
+  const pop=t<.25?.88+.12*eout(t/.25):1;g.save();g.translate(W/2,270);g.scale(pop,pop);g.rotate(-.025);rr(g,-470,-118,940,236,46);g.fillStyle='#FFE14D';g.fill();g.lineWidth=12;g.strokeStyle='#000';g.stroke();
   outlined(g,'WHO CAN BOUNCE',0,-46,86,'#FFFFFF','#000',20);outlined(g,'THE HIGHEST?',0,54,98,'#FF5A1F','#000',22);g.restore();
   // scoreboard
   const sb={bin:t<.3?'?':String(Math.round(best('bin',t))),bo:t<4.4?'?':String(Math.round(best('bo',t))),zu:t<9?'?':zuLabel(t)};
   const act_=t<3.6?'bin':t<7.8?'bo':t>=8.6&&t<ZOFF?'zu':null;
-  ['bin','bo','zu'].forEach((n,i)=>chip(g,190+i*350,470,n,sb[n],n===act_));
+  ['bin','bo','zu'].forEach((n,i)=>chip(g,215+i*325,480,n,sb[n],n===act_));
   // big live counter during flights
   const live=t>=.3&&t<3.6?['bin',best('bin',t)]:t>=4.4&&t<7.8?['bo',best('bo',t)]:t>=9&&t<10?['zu',best('zu',t)]:t>=ZL&&t<ZOFF?['zu',null]:null;
   if(live){const [n,v]=live;const txt=v===null?zuLabel(t):String(Math.round(v));const col=CHIP[n][1];const k=1+.08*Math.sin(t*18);g.save();g.translate(W/2,1180);g.scale(k,k);outlined(g,txt,0,0,txt=='∞'?260:210,col,'#000',34);g.restore()}
   if(t>=10&&t<11){g.save();g.translate(W/2,1420);outlined(g,'HA HA HA',0,0,120,'#FFFFFF','#000',24);g.restore()}
-  if(t>=ZOFF&&t<ZBACK){const n=1+Math.floor((t-ZOFF)/.5)%4;g.save();g.translate(W/2,820);outlined(g,'.'.repeat(Math.min(n,3)),0,0,200,'#FFFFFF','#000',30);g.restore()}
-  if(t>=17.5){const u=eout((t-17.5)/.2);g.save();g.translate(W/2,820);g.scale(u,u);g.rotate(.03);outlined(g,'ZU WINS?!',0,0,150,'#3FDC6A','#000',30);g.restore()}}
+  if(t>=ZOFF&&t<ZBACK){const n=1+Math.floor((t-ZOFF)/.35)%4;g.save();g.translate(W/2,760);outlined(g,'.'.repeat(Math.min(n,3)),0,0,200,'#FFFFFF','#000',30);g.restore()}
+  if(t>=ZLAND+.1&&t<17.5){const u=eout((t-ZLAND-.1)/.2);g.save();g.translate(W/2,660);g.scale(u,u);g.rotate(.03);outlined(g,'ZU WINS?!',0,0,150,'#3FDC6A','#000',30);g.restore()}}
 
 /* ---------- render ---------- */
 let tNow=0;
 function renderAt(t){tNow=t;
   ['bin','bo','zu'].forEach(n=>act(n,t));
-  crown.visible=t>=ZLAND+.05;if(crown.visible){const u=eout((t-ZLAND-.05)/.25);crown.scale.setScalar(u);crown.position.y=.62+(1-u)*.6}
+  crown.visible=t>=ZLAND+.05;if(crown.visible){const u=eout((t-ZLAND-.05)/.25);crown.scale.setScalar(1.35*u);crown.position.y=.56+(1-u)*.8}
   particles(t);
   const s=shot(t);cam(s.p,s.l,s.f);
   renderer.render(scene,camera);drawOverlay(t)}
