@@ -2,6 +2,7 @@
 
 - **Lane:** MC-S1 (OWNER-locked 2026-11-14). Format: original cast + a "Who can…?" question, 18 s, 9:16, 1080×1920 @30 fps, no dialogue (works in every language).
 - **Engine:** `tools/blockfilm` (three.js, headless). All textures, characters and sounds are made in code. Original IP only: no Mojang assets, no third-party characters.
+- **Mine-imator version (14/11, `tools/mineimator/s01_bounce`, QC: APPROVE WITH NOTES):** characters, faces, overlay and audio are still ours, but the set (slime pads, wool tower and clouds, grass, oak, gold crown) uses Mine-imator's built-in Minecraft block textures (Mojang). This is licensed game content, not "no Mojang assets": open OWNER item D-8c718c6f (option A now that the owner owns Minecraft Java, or option B own block pack).
 
 ## Expert script rules applied (sources: research of 2026-11-14)
 | Rule | Source | Where it shows up in this Short |
