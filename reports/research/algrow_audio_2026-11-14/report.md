@@ -219,3 +219,113 @@ Các video trending lớn khác (Smosh Pit, Kallmekris đọc Reddit, 2,5–3,3M
 4. **Thử thêm:** sách nói phạm vi công cộng (mẫu Serotina). Chi phí kịch bản gần bằng 0, nhưng cần kiểm bản dịch đã hết bản quyền.
 
 Dữ liệu tuổi kênh: `verified_channel_ages.json`. Số liệu kênh và video lấy trực tiếp từ API Algrow lúc 12:00–12:40 ICT, 14/11/2026.
+
+---
+
+## Bổ sung 13:10: tab "Trending now" (`/viral/trending`), lượt quét ban đầu chưa có
+
+**Cách làm (OBSERVED):**
+- API `/api/viral-videos/trending` với `kind` = `formats` (công thức tiêu đề) và `subjects` (chủ đề).
+- Sắp xếp `rising`, cửa sổ 7 ngày, tối đa 20 mục mỗi lần gọi.
+- Chạy 26 tổ hợp ngách và ngách con:
+  - relaxation_ambient: chung; sleep stories; history sleep; sleep facts; sleep compilations; bible sleep stories; audiobooks; bedtime stories.
+  - stories_drama: chung; family drama; revenge stories; family betrayal; family revenge; life stories; emotional stories; family stories.
+  - history: chung; world war ii; american history; ancient history; historical mysteries.
+  - education_science: space science; space exploration; space discoveries; astronomy; cosmology.
+- Mỗi tổ hợp có đủ 2 kiểu, tổng 52 lần gọi.
+- "Tăng %" là `change_pct` của Algrow, so tuần này với tuần trước.
+- "View 7 ngày" là tổng view theo ngày của các video thuộc công thức hoặc chủ đề đó.
+
+**Quy mô ngách con theo Algrow** (view/ngày, tuần này):
+
+| Ngách | Ngách con và view mỗi ngày |
+|---|---|
+| stories_drama | family drama 6,15M · revenge stories 4,08M · family betrayal 2,31M · reddit stories 1,71M · life stories 1,65M · family revenge 0,67M |
+| relaxation_ambient | sleep stories 363K · **history sleep 122K** · sleep facts 102K · bible sleep stories 39K · audiobooks 31K · bedtime stories 28K |
+| education_science | space exploration 855K · space science 720K · space discoveries 621K · astronomy 480K · cosmology 375K |
+| history | world war ii 3,46M · military history 1,03M · historical mysteries 724K · american history 575K · ancient history 512K |
+
+### Công thức tiêu đề đang lên (formats)
+
+| Ngách | Công thức | Tăng % | Số kênh | View 7 ngày | Video mẫu (kênh, view, ngày) |
+|---|---|---|---|---|---|
+| Sleep | "[DURATION] of [TOPIC] to Help You Sleep" | +135% | 11 | 57K | "7 Hours Of MCU Lore To Help You Sleep" (Midnight Marvel, 280K, 04/10) |
+| Sleep | "Fall Asleep To The Entire Story Of [STORY]" | +159% | 10 | 37K | "Fall Asleep To The Entire History Of Middle Earth" (Mordoze, 337K) |
+| Sleep | "The Entire [FRANCHISE] Timeline to Fall Asleep to" | +680% | 5 | 27K | Midnight Marvel, 1,05M (tháng 4) |
+| Sleep | "[N] Hours of [CONTENT] You Won't Forget — No Ads \| for Sleep" | +897% | 2 | 19K | "7 HOURS of Horror Stories…" (Stories – Midnight Dread, 41K) |
+| Sleep facts | "The Most Relaxing [FACTS] About [TOPIC] to Fall Asleep to" | — | 2 | 9K | Sleepy Science, "…Facts About Cats…" 382K |
+| Family betrayal | "[DURATION] Later My [RELATION] Asked to Retire in My [PROPERTY]…" | **+1.083%** | 2 | 123K | Heartland Payback (kênh tạo 12 ngày) 97K |
+| Family drama | "They Said 'He Can't Hear You' While I Talked to My Comatose [FAMILY]…" | **+1.082%** | 2 | 74K | Dad's Revenge Stories, 493K |
+| Family betrayal | "My [FAMILY] Kicked Me Out at [AGE] Then the [AUTHORITY] Locked the Door" | +68% | 3 | 92K | QUIET POWER, 170K |
+| Family revenge | "'Pack Your Bags and Get Out' My [RELATIVE] Yelled at [OCCASION]…" | mới | 2 | 37K | Dad's Revenge Tales, 35K |
+| Stories (chung) | "The [PERSON] Disguised His [RELATIVE] to Test His [PARTNER]…" | +676% | 3 | **1,40M** | Silent Vengeance 2026, 1,46M (06/11) |
+| History | "The Real Reason [LEADER] Never Invaded [COUNTRY]" | +85% | 10 | **1,74M** | State Dossiers, "…Hitler Never Invaded Turkey" 453K |
+| History | "How Every [SUBJECT] Died" | +306% | 33 | 1,37M | Mr. Discovery, "How Every Greek Villain Died" 1,17M |
+| History | "The Entire Story of [SUBJECT] in [DURATION]" | +186% | 45 | 966K | Archive in Minutes, "…SS in 16 Minutes" 678K |
+| Ancient history | "How [PEOPLE] Built [SHELTER] to Survive [THREAT]" | +618% | 2 | 35K | ZENO, 103K |
+| Space | "Why It's Impossible to [ACTION]" | +505% | 4 | 690K | What If, "…go above and below the Solar System" 579K |
+| Space | "What [PEOPLE] Experienced While Sleeping on the [PLACE]…" | +1.127% | 2 | 45K | Deep Space News, 101K |
+| Space | "What Would Happen During a Journey to [PLACE]" | mới | 2 | 74K | **Sleep On Science**, "…Journey to Alpha Centauri?" 74K (11/11) |
+
+### Chủ đề đang lên (subjects) liên quan audio
+
+**Lịch sử:**
+
+| Chủ đề | Tăng % | Số kênh | View 7 ngày | Video mẫu |
+|---|---|---|---|---|
+| Abraham Lincoln | +532% | 30 | 1,24M | Civil War Fine Print 1,06M; "Why Lincoln's Coffin Was Opened 36 Years After His Death" 109K |
+| Vietnam War | +307% | 56 | 1,57M | — |
+| Stonehenge | +274% | 37 | 2,90M | — |
+| Battle of Midway | +288% | 15 | 474K | The War They Filmed 450K |
+| Douglas MacArthur | +398% | 9 | 340K | — |
+| Dyatlov Pass | +130% | — | 625K | — |
+| Bronze Age | +121% | — | — | "ASMR Historian – A Short Introduction to the Bronze Age \| Human Voiced, No Ads" 42K |
+
+**Vũ trụ:**
+
+| Chủ đề | Tăng % | Số kênh | View 7 ngày |
+|---|---|---|---|
+| Jupiter | +4.324% | 5 | 489K |
+| Solar System | +1.019% | 9 | 592K |
+| Io | +230% | — | — |
+| NASA | +342% | — | — |
+| Alpha Centauri | +279% | — | — |
+| James Webb (astronomy) | +1.023% | — | — |
+| TON 618 | — | — | — |
+
+Video mẫu cho TON 618: **Sleep On Astrophysics**, "The True Scale of TON 618…" 62K.
+
+**Gia đình:**
+- Thanksgiving xuất hiện ở 36 kênh family drama (+230%) và 18 kênh family revenge (+108%). Ví dụ: "My Son-in-Law Kicked My Chair Away At Thanksgiving Dinner…" 86K.
+- Reddit trong family betrayal: +1.541%, 542K.
+- Christmas: +76%.
+
+**Ru ngủ:**
+- Ireland +139%: "Crossing Ireland by Train | Sleep Story **Narrated by Cillian Murphy**" (kênh Boring History For Sleep, 193K).
+  - Tiêu đề dùng tên một diễn viên thật. Rất có thể là giọng AI giả người thật (INFERRED) → **không bắt chước**.
+- Reddit +sleep: "3 Hours Of Reddit Relationship Drama To Sleep To At 1AM" 523K.
+- MrBallen sleep edition, Carl Jung: đang giảm (–43%, –49%).
+
+### Thêm vào kết luận (INFERRED)
+
+1. **Mùa lễ là chủ đề ngắn hạn mạnh nhất cho Senior Family Drama** (S5):
+   - Thanksgiving (26/11) đang lên ở cả family drama lẫn family revenge, Christmas đang bắt đầu lên.
+   - Afanta nên ra tập Thanksgiving trước 26/11 và tập Christmas trước 15/12.
+2. **Công thức tiêu đề gia đình đang +1.000%:**
+   - "[N] Years Later, My [Relation] Asked to Retire in My [Property]";
+   - "They Said 'He Can't Hear You'… Comatose…";
+   - "Pack Your Bags and Get Out…".
+
+   Chỉ mượn **khung câu**, cốt truyện phải gốc.
+3. **Space Science for Sleep:**
+   - Đối thủ cùng dạng mới xuất hiện: Sleep On Science, Sleep On Astrophysics, Dozeology.
+   - Chủ đề đang nóng: Jupiter/Io, Hệ Mặt Trời "nhìn từ trên", hành trình tới Alpha Centauri, TON 618.
+   - Cửa vẫn mở nhưng cần vào sớm.
+4. **History for Sleep:**
+   - Ngách con "history sleep" có 122K view/ngày, nhỏ nhưng đang có. Ngách cha history rất lớn (WW2 3,46M view/ngày).
+   - Công thức an toàn để kéo view:
+     - "The Real Reason [X] Never [Y]" (10 kênh, 1,74M view/7 ngày);
+     - "The Entire Story of [X] in [N] Minutes" (45 kênh);
+     - "How Every [X] Died" (33 kênh).
+   - Sau đó ghép thành bản 2–3 giờ "to fall asleep to".
+5. **Không làm:** lore phim hoặc thương hiệu của người khác (MCU, Middle Earth, Cyberpunk), giọng giả người nổi tiếng, clip tổng hợp của streamer.
