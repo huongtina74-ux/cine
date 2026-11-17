@@ -60,6 +60,8 @@ function addAttempt(a,o={}){const n=a.who;
     MOVES[n].push({k:'build',t0,per,from:towerAt(n,t0),to:a.score});for(let i=0;i<a.score-towerAt(n,t0-1e-3);i++)cue(t0+i*per,'place',a.style=='slow'?.9:.55);
     const t=t0+per*(a.score-towerAt(n,t0-1e-3));SCORE[n].push([t0,a.score,'build',t0,per]);cue(t,'top',.6);st.land=t;st.t1=t+(o.react??.6);T0=st.t1}}
 function towerAt(n,t){let h=0;for(const m of MOVES[n]){if(m.k=='build'){if(t>=m.t0)h=Math.min(m.to,m.from+Math.floor((t-m.t0)/m.per)+1);}if(m.k=='collapse'&&t>=m.t0)h=0}return h}
+// continuous tower height for the camera only, so the frame glides up instead of snapping one block per placement (QC s02 N2)
+function towerSmooth(n,t){let h=0;for(const m of MOVES[n]){if(m.k=='build'&&t>=m.t0)h=Math.min(m.to,m.from+(t-m.t0)/m.per);if(m.k=='collapse'&&t>=m.t0)h=0}return h} // lags the real tower by < 1 block
 // --- the story ---
 seg('hook',.35);
 const [AT1,AT2,AT3]=att;
@@ -74,8 +76,8 @@ if(twist.type=='glow'){
   const n=AT3.who;const ch=seg('charge',1.4,{who:n});cue(ch.t0,'scratch',.8);cue(ch.t0+.15,'heartbeat',.7);cue(ch.t0+.55,'riser',.7);cue(ch.t0,'music_off');
   const r=seg('rocket',1.6,{who:n});MOVES[n].push({k:'rocket',t0:r.t0});cue(r.t0,'boing_big',1);cue(r.t0,'blast',.45);cue(r.t0+.1,'whoosh_long',.6);cue(r.t0+1.05,'sparkle',.35);cue(r.t0,'music_on');cue(r.t0,'octave');
   SCORE[n].push([r.t0,Infinity,'rocket',r.t0]);
-  const w=seg('wait',1.2,{who:[AT1.who,AT2.who],up:n});cue(w.t0,'music_off');for(let i=0;i<3;i++)cue(w.t0+.1+i*.35,'blink',.4);
-  const b=seg('return',.45,{who:n});MOVES[n].push({k:'fall',t0:b.t0,d:.45,from:46});cue(b.t0,'slide_down',.6);
+  const w=seg('wait',1.2,{who:[AT1.who,AT2.who],up:n});cue(w.t0,'music_off');cue(w.t0+.05,'heartbeat',.6);for(let i=0;i<3;i++)cue(w.t0+.1+i*.35,'blink',.4);
+  const b=seg('return',.55,{who:n});MOVES[n].push({k:'fall',t0:b.t0,d:.55,from:8.5});cue(b.t0,'slide_down',.6);
   const v=seg('win',1.25,{who:n,land:b.t1});cue(v.t0,'bonk',.7);cue(v.t0,'boing',.6);cue(v.t0+.07,'chaching',.5);cue(v.t0,'music_on');
   WIN=WIN||n}
 else{ // backfire: the leader gets greedy
@@ -115,7 +117,8 @@ function wobble(n,t){for(const m of MOVES[n])if(m.wobble&&t>=m.t0){const u=t-m.t
 function best(n,t){let b=0;for(const [t0,v,k,s,d] of SCORE[n]){if(t<t0)continue;if(k=='live'){b=Math.max(b,t>=t0+d/2?v:4*v*((t-t0)/d)*(1-(t-t0)/d))}else if(k=='build')b=Math.max(b,towerAt(n,t));else if(k=='rocket')b=Infinity;else if(k=='x')b='X'}return b}
 
 /* ---------- shots ---------- */
-function shot(t){const s=segAt(t);const u=(t-s.t0)/Math.max(.01,s.t1-s.t0);const mid=(n,dy=.9)=>feetY(n,t)+dy;
+const camFeet=(n,t)=>BASE+(CHALL=='pillar'?towerSmooth(n,t):0)+airH(n,t);
+function shot(t){const s=segAt(t);const u=(t-s.t0)/Math.max(.01,s.t1-s.t0);const mid=(n,dy=.9)=>camFeet(n,t)+dy;
   const maxH=Math.max(...LANES.map(n=>heightOf(n,Math.min(t,TOTAL))));
   const wide=()=>{const H=CHALL=='pillar'?Math.max(0,Math.min(maxH,RULER)):0;return {p:V3(0,BASE+2.2+H*.55,12.2+H*.62-u*.3),l:V3(0,BASE+1.1+H*.5,0),f:52,id:'wide'}};
   switch(s.type){
@@ -149,7 +152,7 @@ function safeShot(t){const s=segAt(t);const sh=shot(t);if(s.type=='rocket')retur
   const win=SEG.find(x=>x.type=='win');const extra=n=>win&&n==WIN&&t>=win.t0?.6:0;
   const ndc=(x,y)=>{_v.set(x,y,0).project(camera);return _v.y};
   for(let it=0;it<14;it++){cam(p,l,sh.f);camera.updateMatrixWorld();
-    const top=Math.max(...ns.map(n=>ndc(xOf(n),feetY(n,t)+2.05+extra(n)))),bot=Math.min(...ns.map(n=>ndc(xOf(n),feetY(n,t)-.1)));
+    const top=Math.max(...ns.map(n=>ndc(xOf(n),camFeet(n,t)+2.05+(CHALL=='pillar'?1:0)+extra(n)))),bot=Math.min(...ns.map(n=>ndc(xOf(n),camFeet(n,t)-.1)));
     const lim=s.type=='win'?1-2*790/H:HUD_NDC; // the win banner sits under the chips, keep the crown below it
     if(top<=lim&&bot>=LOW_NDC)break;
     const d=p.distanceTo(l),visH=2*d*Math.tan(sh.f*Math.PI/360);
@@ -215,7 +218,7 @@ function particles(t){let di=0;
 /* ---------- overlay ---------- */
 function chip(g,x,y,n,val,big,bad){const [nm,col]=CHIP[n];const s=big?1.12:.95;g.save();g.translate(x,y);g.scale(s,s);rr(g,-130,-46,260,92,26);g.fillStyle='#17181D';g.fill();g.lineWidth=6;g.strokeStyle=bad?'#E53935':col;g.stroke();
   g.textBaseline='middle';g.textAlign='left';outlined(g,nm,-112,4,50,col,'#000',10);g.textAlign='right';outlined(g,val,112,4,56,bad?'#FF5252':'#FFFFFF','#000',10);g.restore()}
-function label(n,t){const b=best(n,t);if(b==='X')return 'X';if(b===Infinity){const r=SEG.find(x=>x.type=='rocket');const h=airH(n,Math.min(t,r.t1));if(h<RULER-2)return String(Math.max(1,Math.round(h)));const u=t-r.t0;return u<1.05?'99':u<1.3?'999':'∞'}return String(Math.round(b))}
+function label(n,t){const b=best(n,t);if(b==='X')return 'X';if(b===Infinity){const r=SEG.find(x=>x.type=='rocket');const h=airH(n,Math.min(t,r.t1));if(h<RULER-2){const prev=(SPEC.attempts.find(a=>a.who==n)||{}).score||1;return String(Math.max(prev,Math.round(h)))}const u=t-r.t0;return u<1.05?'99':u<1.3?'999':'∞'}return String(Math.round(b))}
 function drawOverlay(t){const g=ov;g.clearRect(0,0,W,H);g.textAlign='center';g.textBaseline='middle';const s0=segAt(t);
   const pop=t<.25?.88+.12*eout(t/.25):1;g.save();g.translate(W/2,270);g.scale(pop,pop);g.rotate(-.025);rr(g,-470,-118,940,236,46);g.fillStyle=SPEC.banner_color||'#FFE14D';g.fill();g.lineWidth=12;g.strokeStyle='#000';g.stroke();
   outlined(g,SPEC.title[0],0,-46,86,'#FFFFFF','#000',20);outlined(g,SPEC.title[1],0,54,SPEC.title[1].length>13?82:98,'#FF5A1F','#000',22);g.restore();
@@ -225,14 +228,15 @@ function drawOverlay(t){const g=ov;g.clearRect(0,0,W,H);g.textAlign='center';g.t
   if(act_&&t>=firstT[act_.who]){const n=act_.who;const txt=label(n,t);const col=CHIP[n][1];const k=1+.08*Math.sin(t*18);g.save();g.translate(W/2,1180);g.scale(k,k);outlined(g,txt,0,0,txt=='∞'?260:210,col,'#000',34);g.restore()}
   if(s0.type=='laugh'){g.save();g.translate(W/2,1700);outlined(g,'HA HA HA',0,0,120,'#FFFFFF','#000',24);g.restore()}
   if(s0.type=='boast'){g.save();g.translate(W/2,1420);outlined(g,SPEC.boast||'WATCH THIS!',0,0,110,'#FFFFFF','#000',24);g.restore()}
-  const w=SEG.find(x=>x.type=='win');if(w&&t>=w.t0+.1&&t<Math.min(TOTAL,w.t1+.6)){const u=eout((t-w.t0-.1)/.2);g.save();g.translate(W/2,660);g.scale(u,u);g.rotate(.03);outlined(g,SPEC.win_text||(NAME[WIN]+' WINS?!'),0,0,150,'#3FDC6A','#000',30);g.restore()}}
+  const w=SEG.find(x=>x.type=='win');if(w&&t>=w.t0+.1&&t<w.t1){const u=eout((t-w.t0-.1)/.2);g.save();g.translate(W/2,660);g.scale(u,u);g.rotate(.03);outlined(g,SPEC.win_text||(NAME[WIN]+' WINS?!'),0,0,150,'#3FDC6A','#000',30);g.restore()}}
 
 /* ---------- render ---------- */
 function renderAt(t){
   LANES.forEach(n=>act(n,t));towers(t);
   const w=SEG.find(x=>x.type=='win');crown.visible=!!w&&t>=w.t0+.05;if(crown.visible){if(crown.parent!==CH[WIN].head)CH[WIN].head.add(crown);const u=eout((t-w.t0-.05)/.25);crown.scale.setScalar(1.35*u);crown.position.y=.56+(1-u)*.8}
   particles(t);
-  const s=safeShot(t);sunFollow(s.l.y);cam(s.p,s.l,s.f);
+  const s=safeShot(t);sunFollow(s.l.y);cam(s.p,s.l,s.f);camera.updateMatrixWorld();
+  (window.NUMS||[]).forEach(pl=>{pl.visible=true;_v.setFromMatrixPosition(pl.matrixWorld).project(camera);if(_v.y>HUD_NDC-.04)pl.visible=false});
   renderer.render(scene,camera);drawOverlay(t)}
 window.SHOT=t=>shot(t).id;
 window.CUES_EXPORT=()=>({total:TOTAL,cues:CUES,seg:SEG.map(s=>({type:s.type,t0:+s.t0.toFixed(3),t1:+s.t1.toFixed(3),who:s.who}))});
