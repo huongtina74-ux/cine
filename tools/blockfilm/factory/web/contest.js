@@ -84,9 +84,9 @@ else{ // backfire: the leader gets greedy
   const per=.09;const b=seg('greed',0,{who:n});const t0=b.t0+.15;MOVES[n].push({k:'build',t0,per,from:AT2.score,to:extra,wobble:true});
   for(let i=0;i<extra-AT2.score;i++)cue(t0+i*per,'place',.45);cue(t0+(extra-AT2.score)*per-.6,'creak',.6);
   const tc=t0+(extra-AT2.score)*per+.35;b.t1=tc;T0=tc;SCORE[n].push([t0,extra,'build',t0,per]);
-  const c=seg('collapse',1.6,{who:n});MOVES[n].push({k:'collapse',t0:c.t0,from:extra});cue(c.t0,'crumble',.9);cue(c.t0+.05,'slide_down',.6);cue(c.t0+Math.sqrt((extra-1)/15),'bonk',.7);cue(c.t0+Math.sqrt((extra-1)/15),'boing',.5);cue(c.t0,'music_off');
-  SCORE[n].push([c.t0+.3,'X','x']);
-  const w=seg('wait',.9,{who:LANES.filter(x=>x!=n),up:n,frame:LANES});
+  const c=seg('collapse',1.6,{who:n});MOVES[n].push({k:'collapse',t0:c.t0,from:extra});cue(c.t0,'crumble',.9);cue(c.t0+.05,'slide_down',.6);cue(c.t0+Math.sqrt((extra-1)/15),'bonk',.7);cue(c.t0+Math.sqrt((extra-1)/15),'boing',.5);cue(c.t0,'music_off');cue(c.t0+.2,'whoosh_long',.55);
+  SCORE[n].push([c.t0,'X','x']);
+  const w=seg('wait',.9,{who:LANES.filter(x=>x!=n),up:n,frame:LANES});cue(w.t0+.05,'heartbeat',.6);
   WIN=WIN||AT1.who;const v=seg('win',1.35,{who:WIN});cue(v.t0,'chaching',.6);cue(v.t0,'sparkle',.4);cue(v.t0,'music_on')}
 const loop=seg('loop',1.1);
 // round up to whole bars (120 bpm, 2 s) so the music loops with the picture
@@ -127,7 +127,7 @@ function shot(t){const s=segAt(t);const u=(t-s.t0)/Math.max(.01,s.t1-s.t0);const
     case 'charge':{const n=s.who;const k=ease(u);return {p:V3(LX[n],mid(n,.95),4.4-k*1.4),l:V3(LX[n],mid(n,.8),0),f:42-k*4,id:'charge'}}
     case 'rocket':{const n=s.who;const ty=Math.min(mid(n,0),RULER-1.5);const sh=t<s.t0+.35?shake(t,.25*(1-(t-s.t0)/.35)):V3(0,0,0);return {p:V3(LX[n]-.4,Math.max(ty-1.2,BASE+.6),7.5).add(sh),l:V3(LX[n],Math.max(ty+.9,BASE+1.1),0),f:58,id:'rocket'}}
     case 'greed':{const n=s.who;const y=Math.min(mid(n),RULER+2);return {p:V3(LX[n]+1.4,y+.4,11.5),l:V3(LX[n],y-.6,0),f:56,id:'greed'}}
-    case 'collapse':{const n=s.who;const top=MOVES[n].find(m=>m.k=='collapse').from;const y=Math.max(BASE+1.5,BASE+top*(1-eout(u*1.3))*.85);const sh=u<.4?shake(t,.18*(1-u/.4)):V3(0,0,0);return {p:V3(LX[n]+1.2,y+2.5,14).add(sh),l:V3(LX[n],y-.4,0),f:60,id:'collapse'}}
+    case 'collapse':{const n=s.who;const y=Math.max(BASE+1.5,feetY(n,t)+.4);const sh=u<.4?shake(t,.18*(1-u/.4)):V3(0,0,0);return {p:V3(LX[n]+1.2,y+2.5,14).add(sh),l:V3(LX[n],y-.4,0),f:60,id:'collapse'}}
     case 'wait':{const ns=s.frame||s.who;const xs=ns.map(n=>LX[n]),fy=ns.map(n=>feetY(n,t));
       const x=(Math.min(...xs)+Math.max(...xs))/2,lo=Math.min(...fy)-1.2,hi=Math.max(...fy)+2.3,cy=(lo+hi)/2;
       // fit everyone in the area under the title banner: half-FOV tan horizontal .30, vertical .53; content uses ~72% of the height
@@ -136,6 +136,26 @@ function shot(t){const s=segAt(t);const u=(t-s.t0)/Math.max(.01,s.t1-s.t0);const
     case 'return':return wide();
     case 'win':{const n=s.who;const k=eout(u*2);return {p:V3(LX[n]-.15,mid(n,1.0),5.6-k*.6),l:V3(LX[n],mid(n,1.05),0),f:46,id:'win_'+n}}}
   return wide()}
+
+/* ---------- HUD-safe framing (QC s02: heads hidden under the title banner / score chips) ----------
+   Every shot keeps the heads of the beat's characters below the HUD band (banner + chips end at ~y=530 px)
+   and their feet above the bottom edge: crane the camera up when a head is too high, dolly back when both can't fit. */
+const HUD_NDC=1-2*610/H,LOW_NDC=-1+2*110/H;
+function focusOf(s){if(s.type=='wait')return s.frame||s.who;if(s.type=='laugh')return s.who;if(['hook','loop','return'].includes(s.type))return LANES;return s.who?[].concat(s.who):LANES}
+const _v=new THREE.Vector3();
+function safeShot(t){const s=segAt(t);const sh=shot(t);if(s.type=='rocket')return sh; // the rocket is meant to fly out of the top
+  const p=sh.p.clone(),l=sh.l.clone();const ns=focusOf(s);
+  const xOf=n=>{const col=MOVES[n].find(m=>m.k=='collapse');return col&&t>=col.t0?LX[n]+1.05:LX[n]};
+  const win=SEG.find(x=>x.type=='win');const extra=n=>win&&n==WIN&&t>=win.t0?.6:0;
+  const ndc=(x,y)=>{_v.set(x,y,0).project(camera);return _v.y};
+  for(let it=0;it<14;it++){cam(p,l,sh.f);camera.updateMatrixWorld();
+    const top=Math.max(...ns.map(n=>ndc(xOf(n),feetY(n,t)+2.05+extra(n)))),bot=Math.min(...ns.map(n=>ndc(xOf(n),feetY(n,t)-.1)));
+    const lim=s.type=='win'?1-2*790/H:HUD_NDC; // the win banner sits under the chips, keep the crown below it
+    if(top<=lim&&bot>=LOW_NDC)break;
+    const d=p.distanceTo(l),visH=2*d*Math.tan(sh.f*Math.PI/360);
+    if(top-bot>lim-LOW_NDC){p.sub(l).multiplyScalar(1.12).add(l);continue}           // cannot fit: dolly back
+    const dy=(top>lim?(top-lim):-(LOW_NDC-bot))*visH/2*1.05;p.y+=dy;l.y+=dy}  // fits: crane up (or down)
+  return {p,l,f:sh.f,id:sh.id}}
 
 /* ---------- acting ---------- */
 function act(n,t){const ch=CH[n];const s0=segAt(t);const h=airH(n,t),air=h>.02,sq=squash(n,t);const sc=ch.o.scale||1;
@@ -177,8 +197,8 @@ function act(n,t){const ch=CH[n];const s0=segAt(t);const h=airH(n,t),air=h>.02,s
 function towers(t){if(CHALL!='pillar')return;
   for(const n of LANES){const im=TOWER[n];const col=MOVES[n].find(m=>m.k=='collapse');const wb=wobble(n,t);
     if(col&&t>=col.t0){const u=t-col.t0;const r=rng(17);let i=0;for(let k=0;k<col.from&&i<80;k++){const h0=BASE+k+.5;const vx=(r()-.5)*5,vz=(r()-.2)*2.5;const delay=k*.012;const uu=Math.max(0,u-delay);
-        let y=h0-15*uu*uu;let x=LX[n]+vx*uu,z=vz*uu;if(y<.0+(k%3)*.02){y=.0+(k%3)*.02;x=LX[n]+vx*Math.sqrt(h0/15);z=vz*Math.sqrt(h0/15)}
-        setI(im,i++,x,y+.5,z,1,uu*vx*.7,0,uu*vz*.9)}im.count=i;im.instanceMatrix.needsUpdate=true;continue}
+        const T=Math.sqrt(h0/15);const vzz=Math.abs(vx*T-1.05)<.9?Math.min(vz,-(1.1+r()*.8)/T):vz;let y=h0-15*uu*uu;let x=LX[n]+vx*uu,z=vzz*uu;if(y<.0+(k%3)*.02){y=.0+(k%3)*.02;x=LX[n]+vx*T;z=vzz*T}
+        setI(im,i++,x,y+.5,z,1,uu*vx*.7,0,uu*vzz*.9)}im.count=i;im.instanceMatrix.needsUpdate=true;continue}
     const h=towerAt(n,t);for(let k=0;k<h;k++){const sway=Math.sin(wb)*(k+1)*.9;setI(im,k,LX[n]+sway,BASE+k+.5,0,1,0,0,wb)}im.count=h;im.instanceMatrix.needsUpdate=true}}
 
 /* ---------- particles ---------- */
@@ -203,9 +223,8 @@ function drawOverlay(t){const g=ov;g.clearRect(0,0,W,H);g.textAlign='center';g.t
   const act_=SEG.find(x=>(x.type=='act'||x.type=='rocket'||x.type=='greed')&&t>=x.t0&&t<x.t1);
   LANES.forEach((n,i)=>{const v=t<firstT[n]?'?':label(n,t);chip(g,W/2+(i-(LANES.length-1)/2)*325,480,n,v,act_&&act_.who===n,v==='X')});
   if(act_&&t>=firstT[act_.who]){const n=act_.who;const txt=label(n,t);const col=CHIP[n][1];const k=1+.08*Math.sin(t*18);g.save();g.translate(W/2,1180);g.scale(k,k);outlined(g,txt,0,0,txt=='∞'?260:210,col,'#000',34);g.restore()}
-  if(s0.type=='laugh'){g.save();g.translate(W/2,1420);outlined(g,'HA HA HA',0,0,120,'#FFFFFF','#000',24);g.restore()}
+  if(s0.type=='laugh'){g.save();g.translate(W/2,1700);outlined(g,'HA HA HA',0,0,120,'#FFFFFF','#000',24);g.restore()}
   if(s0.type=='boast'){g.save();g.translate(W/2,1420);outlined(g,SPEC.boast||'WATCH THIS!',0,0,110,'#FFFFFF','#000',24);g.restore()}
-  if(s0.type=='wait'||(s0.type=='collapse'&&t-s0.t0>1.1)){const n=1+Math.floor((t-s0.t0)/.35)%4;g.save();g.translate(W/2,760);outlined(g,'.'.repeat(Math.min(n,3)),0,0,200,'#FFFFFF','#000',30);g.restore()}
   const w=SEG.find(x=>x.type=='win');if(w&&t>=w.t0+.1&&t<Math.min(TOTAL,w.t1+.6)){const u=eout((t-w.t0-.1)/.2);g.save();g.translate(W/2,660);g.scale(u,u);g.rotate(.03);outlined(g,SPEC.win_text||(NAME[WIN]+' WINS?!'),0,0,150,'#3FDC6A','#000',30);g.restore()}}
 
 /* ---------- render ---------- */
@@ -213,7 +232,7 @@ function renderAt(t){
   LANES.forEach(n=>act(n,t));towers(t);
   const w=SEG.find(x=>x.type=='win');crown.visible=!!w&&t>=w.t0+.05;if(crown.visible){if(crown.parent!==CH[WIN].head)CH[WIN].head.add(crown);const u=eout((t-w.t0-.05)/.25);crown.scale.setScalar(1.35*u);crown.position.y=.56+(1-u)*.8}
   particles(t);
-  const s=shot(t);sunFollow(s.l.y);cam(s.p,s.l,s.f);
+  const s=safeShot(t);sunFollow(s.l.y);cam(s.p,s.l,s.f);
   renderer.render(scene,camera);drawOverlay(t)}
 window.SHOT=t=>shot(t).id;
 window.CUES_EXPORT=()=>({total:TOTAL,cues:CUES,seg:SEG.map(s=>({type:s.type,t0:+s.t0.toFixed(3),t1:+s.t1.toFixed(3),who:s.who}))});
