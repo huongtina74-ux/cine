@@ -141,7 +141,7 @@ function shot(t){const s=segAt(t);const u=(t-s.t0)/Math.max(.01,s.t1-s.t0);const
    Every shot keeps the heads of the beat's characters below the HUD band (banner + chips end at ~y=530 px)
    and their feet above the bottom edge: crane the camera up when a head is too high, dolly back when both can't fit. */
 const HUD_NDC=1-2*610/H,LOW_NDC=-1+2*110/H;
-function focusOf(s){if(s.type=='wait')return s.frame||s.who;if(s.type=='laugh')return s.who;if(['hook','loop','return'].includes(s.type))return LANES;return s.who?[].concat(s.who):LANES}
+function focusOf(s){if(s.type=='wait')return s.frame||s.who;if(s.type=='laugh')return s.who;if(s.type=='return')return LANES.filter(n=>n!=s.who);/* the returning flyer drops in from the top */if(['hook','loop'].includes(s.type))return LANES;return s.who?[].concat(s.who):LANES}
 const _v=new THREE.Vector3();
 function safeShot(t){const s=segAt(t);const sh=shot(t);if(s.type=='rocket')return sh; // the rocket is meant to fly out of the top
   const p=sh.p.clone(),l=sh.l.clone();const ns=focusOf(s);
