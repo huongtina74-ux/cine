@@ -1,0 +1,3 @@
+{"id":"s02_tower","title":["WHO CAN BUILD","THE TALLEST TOWER?"],"challenge":"pillar","lanes":["bin","bo","zu"],
+ "attempts":[{"who":"bin","score":10},{"who":"bo","score":16,"style":"fast"},{"who":"zu","score":3,"style":"flop"}],
+ "twist":{"type":"backfire","to":30},"winner":"bin","boast":"WATCH THIS!","ruler":32}

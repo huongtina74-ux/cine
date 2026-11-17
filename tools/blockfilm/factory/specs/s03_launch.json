@@ -1,0 +1,3 @@
+{"id":"s03_launch","title":["WHO CAN JUMP","THE HIGHEST?"],"challenge":"launch","lanes":["bo","bin","zu"],
+ "attempts":[{"who":"bo","score":6},{"who":"bin","score":12,"style":"double"},{"who":"zu","score":2,"style":"flop"}],
+ "twist":{"type":"glow"},"winner":"zu","win_text":"ZU WINS!","ruler":28}
