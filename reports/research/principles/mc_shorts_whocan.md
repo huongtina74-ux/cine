@@ -14,7 +14,16 @@ Nhãn: OBSERVED (ngày) / INFERRED. Chỉ dựa vào metadata/thumbnail.
 
 ## Nguyên tắc ngắn hạn / trend
 
-### S1 — Thi đấu/xây dựng có người thắng (thấy lần đầu 2026-11-04 · lần cuối 2026-11-14 · trạng thái: hot)
+### S1 — Thi đấu/xây dựng có người thắng (thấy lần đầu 2026-11-04 · lần cuối 2026-11-17 · trạng thái: hot)
 - **Evidence (OBSERVED):**
   - HamsterWorker "PIZZA BUILD BATTLE…" 871K, đang tăng tốc 1,34×.
   - Mega Cascade "Does the Giant Villager Keep His Emerald?" 2,67M.
+
+- **Cập nhật 2026-11-17 (OBSERVED):** HamsterWorker "PIZZA BUILD BATTLE" 871K (11-14) → 1,2M (+38% trong 3 ngày). Mochi & Pals "Who can build the highest treehouse?" 1,8M = 304× sub; kênh 4,50K → 5,92K sub.
+
+### S2 — "STATUE BUILD BATTLE — Noob vs Pro vs Hacker vs God" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-17 · trạng thái: hot)
+- **Evidence (OBSERVED 2026-11-17):** HamsterWorker 3 bản "statue" trong 8 Shorts mới nhất: Steve Statue 2,7M (36× trung vị), Golem Statue 1,2M, Iron-Man Statue 529K.
+- **Bản lề (INFERRED):** đề bài là một vật thể nhận ra ngay; 4 cấp độ tay nghề tạo nhịp leo thang và twist ở cấp cuối. Ta dựng tượng/đồ vật gốc, dàn nhân vật gốc.
+
+### S3 — "NOOB vs PRO: Who Survives the [THIÊN TAI]?" đang chững (thấy lần đầu 2026-11-14 · lần cuối 2026-11-17 · trạng thái: declining)
+- **Evidence (OBSERVED 2026-11-17):** Cube Clash: 8 Shorts gần nhất 50K–320K; FLOOD 362K → 471K. Không có video mới nào ≥1M.

@@ -1,0 +1,55 @@
+# OBSERVED 2026-11-17 ~11:50-12:30 UTC, public YouTube pages (hl=en) read in owner's built-in browser; YouTube Data API path unavailable (Blender closed). age = YouTube relative text (ESTIMATED day count). Re-snapshot tomorrow for 24 h growth.
+lane,channel,video_id,title,duration,views,age,channel_subs,x_own_median,x_subs,prior_observed
+MC-L1,KnightMC,kVHfm6XF8Cw,Surviving 500 Days LOST AT SEA In Minecraft,3:37:22,358000,12 days,4330,14.3,82.7,197K (2026-11-14 watchlist)
+MC-L1,BlakeCraft,qosDY2CQhyc,I Survived 100 Days as a GHILLIE Sniper in a Zombie Apocalypse in Hardcore Minecraft,3:57:17,350000,4 weeks,4910,13.5,71.3,325K (2026-11-14)
+MC-L1,Day Zero,crnpqkov3ps,I Survived 100 Days in a REALISTIC APOCALYPSE in Minecraft,52:00,2200000,1 month,16200,4.3,135.8,2.0M (2026-11-13)
+MC-L1,Day Zero,eAqPRLb9JQg,I Survived 100 Days in a DEADLY OUTBREAK in Minecraft,40:30,506000,3 weeks,16200,1.0,31.2,
+MC-L1,Day Zero,_PgQUqoUCWQ,Surviving Minecraft's HARDEST ZOMBIE APOCALYPSE,51:00,73000,3 days,16200,0.1,4.5,
+MC-L1,McDoubleAA,jhGFVzv_YKA,I Survived 1000 Days in Minecraft Hardcore [FULL MOVIE],4:39:09,864000,1 month,79700,2.2,10.8,814K (2026-11-14)
+MC-L1,Forge Labs,jccqEa0Qd40,1 Year in Alaska in ULTRA REALISTIC Minecraft,3:00:04,9500000,1 month,6290000,3.6,1.5,
+MC-L1,search,CdvjTUws6R4,Mozi - I Survived 100 Days In A RAVINE In Minecraft Hardcore!,1:13:39,2137441,2 weeks,373000,,5.7,
+MC-L1,search,uAKJRX3FKA0,Ryguy v2 - I Survived 100 Days as DEATH in Minecraft!,1:38:17,1535834,3 weeks,,,,
+MC-L1,search,--0KP-bA0p4,Ryguyrocky - I Survived 100 Days as a Necromancer in Minecraft,1:51:03,1471498,2 weeks,,,,
+MC-L1,search,ovF9f3c1hI4,Rauntzent - 100 Days Stranded in POINT NEMO in Minecraft,1:01:21,1060766,2 weeks,1050000,,1.0,
+MC-L1,search,fhxcDwl0Wr8,Doublesal - I Survived 100 Days as a TAVERN OWNER in Minecraft Hardcore,2:00:50,946045,2 weeks,,,,
+MC-L1,search,tFK5vr0MkJM,ZeeMan - 100 DAYS IN A ZOMBIE APOCALYPSE TEXAS IN MINECRAFT!,1:19:24,418105,7 days,366000,,1.1,
+MC-L1,search,gtxCWYavw2s,Risible 2wins - 100 Days on Abandoned Watch Tower in Appalachian Mountains,45:10,566030,12 days,1200000,,0.5,
+ADJ-2D,Kit vs The End,xdj5PL0t61k,I Survived 100 Days On A Zombie Cruise Ship (Full Movie),1:13:02,1172168,3 weeks,15500,50,71,1.06M (2026-11-13)
+ADJ-2D,Marrow,YD6g0b6WLFg,Zombie Outbreak: The Last Soldier on the Bridge Day 1 To Day 100 (Full Story),32:53,449555,2 weeks,3660,71.3,122.7,402K (2026-11-14)
+ADJ-2D,DoodleSurvivals,9LVdlATk5Zw,Zombie Outbreak Survival: Trapped In a Farm Day 1 To Day 100 (Full Movie!),1:07:18,1669039,3 weeks,14700,,113,joined 2026-10-14 (34 d)
+ADJ-2D,Stickvival,tqfg1i6rR40,I Built a Treehouse to Survive a Zombie Apocalypse!,53:11,211000,9 days,1930,21.1,109.3,
+MC-L2,SirCloaked,ZX4NTEvLzdU,Something On My Farm Is Hunting Me...,17:15,295000,21 hours,145000,0.7,2.0,
+MC-L2,SirCloaked,VYFy1FN7-tk,Something On My Farm Wants Me Dead...,18:34,1100000,3 weeks,145000,2.7,7.6,
+MC-L2,SirCloaked,EYyB2uwb9o0,Something Is Wrong With My Farm...,16:18,1200000,1 month,145000,3.0,8.3,
+MC-L2,Novorions,GRTLRNCUSg8,The Parallel Stalker 5.5.7 Remake UPDATE - All New Stalkers,27:36,73000,4 days,401,5.6,182,
+MC-L2,eskrr,GYGTgO7YwOM,this minecraft horror mod got worse every minute,23:44,52000,11 days,411,18.2,126.5,37K (2026-11-14)
+MC-L2,ENFINITY,jivrx75IJts,It Watches From the Trees,24:39,260000,1 month,19400,13.7,13.4,
+MC-L2,ENFINITY,OlkVY3yJ31s,I Made a Wendigo That Changes Minecraft Horror Forever...,39:44,95000,9 days,19400,5.0,4.9,
+MC-L2,Dooy,34tzQLZvD-g,"Minecraft, But Mobs Can Talk?",30:58,187000,4 weeks,10500,13.9,17.8,
+MC-L2,search,xdGMMA8kOUU,al1 - We Thought It Was a Mountain,23:43,2330000,3 weeks,32400,,72,channel joined 2024-02-28
+MC-L2,search,g1li-cxvK8g,Vivilly - Minecraft's 'THE GOD' Update is TERRIFYING...,43:04,1960000,12 days,,,,
+MC-L2,search,3Bav87dU-t0,Vivilly - Minecraft's NEW 'THE GOD' Ending is Crazy...,37:43,1500377,6 days,,,,
+MC-L2,search,XWmq_XG6aXM,Maizen - Dinosaur Horror Mod,33:08,3670685,9 days,,,,
+MC-S1,Mochi & Pals,QIUZzUp36b0,Who can build the highest treehouse?,S,1800000,recent (#4 of shorts tab),5920,8.2,304,
+MC-S1,Mochi & Pals,nf9oZPSqhjE,Who can dig down the fastest?,S,3200000,,5920,14.6,540,2.92M (2026-11-14)
+MC-S1,Mochi & Pals,qLDngfY1d3o,Who can build the best house?,S,3100000,,5920,14.2,524,2.76M (2026-11-14)
+MC-S1,HamsterWorker,RjZvX3ouwC4,STEVE STATUE BUILD BATTLE - Noob vs Pro vs Hacker vs God,S,2700000,recent (#7),80400,36.0,33.6,
+MC-S1,HamsterWorker,q2ntFPehfVM,PIZZA BUILD BATTLE - Noob vs Pro vs Hacker vs God,S,1200000,recent (#1),80400,16.0,14.9,871K (2026-11-14)
+MC-S1,HamsterWorker,jKcUK85UXD4,GOLEM STATUE BUILD BATTLE - Noob vs Pro vs Hacker vs God,S,1200000,recent (#5),80400,16.0,14.9,
+MC-S1,Cube Clash,hq2I-CuJMUM,NOOB vs PRO: Who Survives the FLOOD?,S,471000,,22800,2.3,20.7,362K (2026-11-14)
+MC-S1,Mega Cascade,roI05tA7aL4,Striders Follow a Fungus on a Stick. This One Is Holding It,S,572000,recent (#5),5420,7.2,105.5,
+MC-S2,Blendverse 3D,cUUuB9q3JcA,Soft 0% vs Soft 99% Soft Body Simulation,S,9500000,recent (#5),29800,32.0,318.8,8.68M (2026-11-13)
+MC-S2,Craft Lab3D,uiLAXLyBwlY,Minecraft Steve vs Death Factory,S,12000000,recent (#4),200000,66.9,60.0,11.4M (2026-11-14)
+MC-S2,Craft Lab3D,q3Ngg9LTEFI,Minecraft Steve vs Hair Factory,S,4300000,recent (#3),200000,24.0,21.5,
+MC-S2,VOXCRASH,dFbMVHW549o,Ghast | Minecraft Factory | Satisfying Loop,S,3200000,recent (#7),31200,10.1,102.6,
+MC-S2,Windie 3D,SD2gRTMJ2iM,Minecraft Testing Realistic Armour Against Mobs,S,9000000,recent (#7),177000,31.3,50.8,
+MC-S2,Gargamel Land,T0-C8Zls6YY,Washing Dirty Alex With 100 to 10000000 Water Drops,S,337000,recent (#7),18800,4.8,17.9,
+X-S1,Bureau of Odd Things,Jf7ZdWhS_9c,How a Rowboat Becomes a Submarine,S,1100000,recent (#4),5750,129.4,191.3,
+X-S1,Bureau of Odd Things,tLqXlo565Hc,How a Tractor Becomes a Tank | WWI Tank,S,1900000,recent (#6),5750,223.5,330.4,1.59M (2026-11-14)
+X-S1,Stumblework Studios,h9XLGgT2PRY,You Just Invented the Film Projector | Invention Series,S,1800000,recent (#7),20600,45.0,87.4,
+X-S1,Stumblework Studios,a2-Jqpr_5vs,You Just Invented the Sewing Machine | Invention Series,S,1200000,recent (#4),20600,30.0,58.3,
+X-S1,Exploded Works,1Qd-YJCxMP4,How a Plane Works (3D Animation),S,572000,newest (#0),5540,71.5,103.2,
+X-S1,Exploded Works,wyjefTFIwqg,How a Nuclear Submarine Works (3D Animation),S,214000,recent (#1),5540,26.8,38.6,
+X-S1,Tekto Explains,JicZd-R0Nr0,How To Build a Nuclear Bunker,S,17000000,,33000,414.6,515.2,16.2M (2026-11-14)
+X-S1,The Cross Section,mfutHzI778w,How an Electric Car Just Broke the 500 km/h Barrier,S,2400000,,4130,64.9,581.1,2.31M (2026-11-14)
+X-S1,Fault Lines Official,dcfldWqanJc,The Florida Learjet Crash Reconstructed in 3D,S,1900000,,11000,926.8,172.7,1.93M (2026-11-14)
