@@ -10,7 +10,7 @@ import pytest
 F = Path(__file__).resolve().parents[1] / "tools" / "blockfilm" / "factory"
 sys.path.insert(0, str(F))
 SPECS = sorted((F / "specs").glob("*.json"))
-NODE_OK = shutil.which("node") and (F.parent / "ep03_zombie_outbreak/web/node_modules/playwright").exists()
+NODE_OK = bool(shutil.which("node")) and subprocess.run(["node", "-e", "require('playwright')"], cwd=F, capture_output=True).returncode == 0
 
 
 @pytest.mark.parametrize("spec", SPECS, ids=[s.stem for s in SPECS])
