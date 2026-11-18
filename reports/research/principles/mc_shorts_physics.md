@@ -18,14 +18,21 @@ Nhãn: OBSERVED (ngày) / INFERRED.
 
 ## Nguyên tắc ngắn hạn / trend
 
-### S1 — Soft body "0% vs 100%" (thấy lần đầu 2026-11-13 · lần cuối 2026-11-17 · trạng thái: declining — chỉ bản gốc còn tăng)
+### S1 — Soft body "0% vs 100%" (thấy lần đầu 2026-11-13 · lần cuối 2026-11-18 · trạng thái: declining — chỉ bản gốc còn tăng)
+- **Cập nhật 2026-11-18 (OBSERVED):** Blendverse "Soft 0% vs 99%" 9,6M; bản lặp "Soft 0% vs 98%" của chính kênh chỉ 204K. ArtikAnimates chuyển sang Roblox "Noob" (ra khỏi làn).
 - **Evidence (OBSERVED):** Blendverse 3D 8,68M; ArtikAnimates 9,46M (dùng skin Verity → chỉ học công thức).
 
 - **Cập nhật 2026-11-17 (OBSERVED):** Blendverse "Soft 0% vs 99%" 8,68M → 9,5M. Nhưng các bản sau của ArtikAnimates chỉ 34K–138K, bản "Ice, Acid & Orbeez" 259K → khuôn đã bão hoà.
 
-### S2 — "Steve/Mob vs [X] FACTORY" (thấy lần đầu 2026-11-14 · lần cuối 2026-11-17 · trạng thái: hot)
+### S2 — "Steve/Mob vs [X] FACTORY" (thấy lần đầu 2026-11-14 · lần cuối 2026-11-18 · trạng thái: watching)
+- **Cập nhật 2026-11-18 (OBSERVED):** hạ xuống watching. VOXCRASH 7 Short factory mới nhất đều <300K ("1 TNT → 1,000,000 TNT" 38K, "Creeper → Firework" 92K). Craft Lab3D: "Hair Factory" 4,3M → 4,5M, nhưng Short mới nhất "Steve vs Cannon" 69K; "Death Machine" 479K.
 - **Evidence (OBSERVED 2026-11-17):** Craft Lab3D "Steve vs Death Factory" 11,4M → 12M; "Steve vs Hair Factory" 4,3M (Short mới thứ 4). VOXCRASH "Ghast | Minecraft Factory | Satisfying Loop" 3,2M = 103× sub.
 - **Bản lề (INFERRED):** dây chuyền máy móc = nhiều "trạm" satisfying nối nhau, mỗi trạm một biến đổi; kết thúc loop về đầu. Làm với mascot gốc.
 
-### S3 — "Realistic Armour/Material test" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-17 · trạng thái: watching)
+### S3 — "Realistic Armour/Material test" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-18 · trạng thái: watching)
+- **Cập nhật 2026-11-18 (OBSERVED):** Windie Short mới nhất "Steve Vs Realistic Shower" 33K; "Steve Vs Villager" 789K.
 - **Evidence (OBSERVED 2026-11-17):** Windie 3D "Testing Realistic Armour Against Mobs" 9M (Short mới thứ 8), 31× trung vị; Blendverse "Realistic Chain Armor Simulation" 43M (cũ).
+
+### S4 — "Minecraft Vs Real [vật phẩm]" (thấy lần đầu 2026-11-18 · lần cuối 2026-11-18 · trạng thái: hot)
+- **Evidence (OBSERVED 2026-11-18):** Ender (@Enderg2, 18,8K sub) "Minecraft Vs Real Key" 486K sau 3 ngày = 26× sub; Trident 212K, Beacon 203K. Cùng hướng với trend "ULTRA REALISTIC" ở MC-L1 (SoyCubo 1,92M/4 ngày). Squishy 3D làm cùng chủ đề nhưng chỉ 4–108K → cách làm quyết định, không chỉ chủ đề.
+- **Bản lề (INFERRED):** Short rất ngắn (~8 giây) đặt vật phẩm khối cạnh phiên bản thật, loop. Ta làm với vật phẩm/mascot gốc của ta: "[Mascot] Block Vs Real [Mascot]".

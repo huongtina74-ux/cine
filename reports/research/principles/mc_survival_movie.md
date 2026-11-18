@@ -26,16 +26,23 @@ Nhãn: OBSERVED (ngày) / INFERRED. Bằng chứng hiện tại chỉ dựa vào
 
 ## Nguyên tắc ngắn hạn / trend
 
-### S1 — Làn "Zombie Outbreak" (thấy lần đầu 2026-10-25 · lần cuối 2026-11-17 · trạng thái: watching)
+### S1 — Làn "Zombie Outbreak" (thấy lần đầu 2026-10-25 · lần cuối 2026-11-18 · trạng thái: watching)
 - **Evidence (OBSERVED 2026-11-11):** 0 video ≥1M trong ≤15 ngày, trong khi trước đó có nhiều video 1–3M. Kênh đi trước như Marrow vẫn đạt 120× sub.
 - Hướng xử lý: dùng mối đe doạ gốc khác zombie để đi trước.
 
 - **Cập nhật 2026-11-17 (OBSERVED):** các kênh "Zombie Outbreak: X Days Trapped…" thắng lớn (Nobody Gets In 4,2M, Beanie Survives 2,9M, Kit vs The End 1,17M) đã được xác minh bằng thumbnail là **hoạt hình 2D, KHÔNG phải Minecraft**. Trong Minecraft, zombie vẫn ra view: Maizen "Zombie Outbreak" 7,67M (3 tuần), ZeeMan "100 Days in a Zombie Apocalypse Texas" 418K sau 7 ngày. Day Zero bỏ khung "I Survived 100 Days" ở video mới ("Surviving Minecraft's HARDEST ZOMBIE APOCALYPSE") → 73K sau 3 ngày = 0,1× trung vị kênh (tín hiệu sớm, INFERRED).
+- **Cập nhật 2026-11-18 (OBSERVED):** Day Zero video mới 73K → 84K (+11K/24 giờ, đang tắt). Maizen "Zombie Outbreak" 7,89M (3 tuần). SpeedSilver "1000 Players Simulate Minecraft's Deadliest Containment Zone" 4,69M (2 tuần) — dạng nhiều người chơi, không hợp pipeline của ta.
 
-### S2 — "100 Days as a [VAI TRÒ]" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-17 · trạng thái: hot)
+### S2 — "100 Days as a [VAI TRÒ]" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-18 · trạng thái: hot)
+- **Cập nhật 2026-11-18 (OBSERVED, tìm "tuần này"):** Doublesal "100 Days as a BAKERY OWNER" 354K sau 6 ngày; "as a TAVERN OWNER" 946K → 961K. Bản dùng nhân vật của người khác ("as TITAN SPEAKERMAN" 1,34M/4 ngày, "as NIGHT FURY" 936K/3 ngày) chỉ học công thức. Vai trò nghề nghiệp ấm áp (chủ quán, thợ bánh) mới nổi bên cạnh vai trò quân sự.
 - **Evidence (OBSERVED 2026-11-17, tìm kiếm "tháng này"):** "100 Days as DEATH" 1,54M; "as a Necromancer" 1,47M; "as a TAVERN OWNER" 946K; BlakeCraft "as a GHILLIE Sniper" 350K = 71× sub, 13,5× trung vị kênh; "as SWAT" 31K sau 10 ngày (vai trò quân sự lặp lại thì yếu).
 - **Bản lề (INFERRED):** vai trò cho người xem một bộ luật + đồ nghề + mục tiêu ngay trong tiêu đề. Ta dùng vai trò gốc gắn với thế giới của ta, không dùng nhân vật của người khác.
 
-### S3 — Nơi cô lập cực đoan (biển, rãnh, điểm xa đất liền) (thấy lần đầu 2026-11-14 · lần cuối 2026-11-17 · trạng thái: hot)
+### S3 — Nơi cô lập cực đoan (biển, rãnh, điểm xa đất liền) (thấy lần đầu 2026-11-14 · lần cuối 2026-11-18 · trạng thái: hot)
+- **Cập nhật 2026-11-18 (OBSERVED):** KnightMC "500 Days LOST AT SEA" 358K → 375K (+4,7%/24 giờ, giảm tốc mạnh). Mozi "RAVINE" 2,14M → 2,18M. Tomatikk ra "100 Days in an Abandoned Fort in the Endless Ocean" 26K sau 10 giờ.
 - **Evidence (OBSERVED 2026-11-17):** KnightMC "500 Days LOST AT SEA" 3h37 → 358K sau 12 ngày = 83× sub, 14,3× trung vị kênh (11-14: 197K → +82% trong 3 ngày). Rauntzent "Stranded in POINT NEMO" 1,06M (2 tuần). Mozi "100 Days In A RAVINE" 2,14M (2 tuần).
 - **Bản lề (INFERRED):** một địa điểm hẹp, ai cũng hình dung được, không có lối thoát = xung đột có sẵn.
+
+### S4 — "ULTRA REALISTIC" Minecraft (thấy lần đầu 2026-11-18 · lần cuối 2026-11-18 · trạng thái: hot)
+- **Evidence (OBSERVED 2026-11-18):** SoyCubo "I Survived 100 Days in ULTRA REALISTIC Minecraft Hardcore" 1,92M sau 4 ngày (~480K/ngày); Forge Labs "1 Year in Alaska in ULTRA REALISTIC Minecraft" 9,5M → 9,6M; HusinMS "100 Days Minecraft Hardcore REALISTIC WORLD" 221K sau 3 ngày; Minecraft_Real_Life "Minecraft VS Real Life – Ultra Realistic" 336K sau 4 ngày.
+- **Bản lề (INFERRED):** lời hứa "trông như phim thật" — đúng thế mạnh Blender (ánh sáng, khói, nước). Tiêu đề ghép: quy mô thời gian + "ULTRA REALISTIC" + nơi cô lập.

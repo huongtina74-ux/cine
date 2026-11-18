@@ -1,0 +1,48 @@
+# OBSERVED 2026-11-18 ~11:50-12:30 UTC, public YouTube pages (hl=en) fetched at human pace from the owner's built-in browser (~66 page loads); YouTube Data API path unavailable (Blender closed, MCP port 9876 refused); Algrow 401 auth_required. age = YouTube relative text (ESTIMATED day count). prior = 2026-11-17 snapshot (OBSERVED).
+lane,channel,video_id,title,duration,views,age,channel_subs,prior_2026_11_17,growth_24h
+MC-L1,KnightMC,kVHfm6XF8Cw,Surviving 500 Days LOST AT SEA In Minecraft,3:37:22,375000,13d,4360,358000,+4.7%
+MC-L1,BlakeCraft,qosDY2CQhyc,I Survived 100 Days as a GHILLIE Sniper in a Zombie Apocalypse in Hardcore Minecraft,3:57:17,354000,4w,4920,350000,+1.1%
+MC-L1,Day Zero,_PgQUqoUCWQ,Surviving Minecraft's HARDEST ZOMBIE APOCALYPSE,51:00,84000,4d,16300,73000,+15%
+MC-L1,Day Zero,crnpqkov3ps,I Survived 100 Days in a REALISTIC APOCALYPSE in Minecraft,52:00,2200000,1mo,16300,2200000,~0
+MC-L1,McDoubleAA,jhGFVzv_YKA,I Survived 1000 Days in Minecraft Hardcore [FULL MOVIE],4:39:09,872000,1mo,80000,864000,+0.9%
+MC-L1,Forge Labs,jccqEa0Qd40,1 Year in Alaska in ULTRA REALISTIC Minecraft,3:00:04,9600000,1mo,6290000,9500000,+1%
+MC-L1,Tomatikk,MQqOUcjJMpA,100 Days in an Abandoned Fort in the Endless Ocean in Minecraft,56:33,26000,10h,89200,,new
+MC-L1,SoyCubo,Z1qSqdYr6ZU,I Survived 100 Days in ULTRA REALISTIC Minecraft Hardcore,1:50:24,1918395,4d,n/a,,new (search)
+MC-L1,Doublesal,HuSktFvsSws,I Survived 100 Days as a BAKERY OWNER in Minecraft Hardcore,2:05:36,354356,6d,n/a,,new (search)
+MC-L1,Mozi,CdvjTUws6R4,I Survived 100 Days In A RAVINE In Minecraft Hardcore!,1:13:39,2181739,3w,n/a,2140000,+1.9%
+MC-L1,Doublesal,fhxcDwl0Wr8,I Survived 100 Days as a TAVERN OWNER in Minecraft Hardcore,2:00:50,961420,2w,n/a,946000,+1.6%
+MC-L2,SirCloaked,ZX4NTEvLzdU,Something On My Farm Is Hunting Me...,17:15,502000,~2d,146000,295000,+70%
+MC-L2,SirCloaked,VYFy1FN7-tk,Something On My Farm Wants Me Dead...,18:34,1178910,3w,146000,1100000,n/a
+MC-L2,al1,uPVlvP-E0Rc,"""Those Are Not Mountains""",36:06,784466,3d,1690000,,new
+MC-L2,al1,xo3J79RM4rM,They Live In The Mountains,16:18,1100000,11d,1690000,,new
+MC-L2,al1,xdGMMA8kOUU,We Thought It Was a Mountain,23:43,2381587,3w,1690000,2330000,+2.2%
+MC-L2,Wrld,VIsjyPYEYuQ,I Found Something Terrifying in the Alaskan Mountains,43:48,475247,4d,n/a,,new (search)
+MC-L2,ENFINITY,OlkVY3yJ31s,I Made a Wendigo That Changes Minecraft Horror Forever...,39:44,100000,10d,19400,,new
+MC-L2,Novorions,GRTLRNCUSg8,The Parallel Stalker 5.5.7 Remake UPDATE,27:36,78000,5d,419,73000,+6.8%
+MC-L2,eskrr,GYGTgO7YwOM,this minecraft horror mod got worse every minute,23:44,57000,12d,438,52000,+9.6%
+MC-L2,Jemario,PpL-cncZ8Bg,genuinely WHAT is happening is ts horror mod,12:55,178000,3d,47400,,new
+MC-L2,Vivilly,g1li-cxvK8g,Minecraft's 'THE GOD' Update is TERRIFYING...,43:04,1985323,13d,n/a,1960000,+1.3%
+MC-L2,Maizen,XWmq_XG6aXM,Dinosaur Horror Mod,33:08,3749693,10d,n/a,3670000,+2.2%
+MC-L2,ProBoiz 95,ls0FQdzVxko,Testing Trending Minecraft Scary Myths To See If They Are Real!,39:40,8786706,2w,n/a,,new (search)
+MC-L2,MrAlpha,TRDrSe2lmAI,Testing Scary Minecraft Myths Caught in Screenshots,30:09,471703,23h,n/a,,new (search)
+MC-S1,Mochi & Pals,QIUZzUp36b0,Who can build the highest treehouse?,short,1900000,n/a,6060,1800000,+5.6%
+MC-S1,Mochi & Pals,qLDngfY1d3o,Who can build the best house?,short,3200000,n/a,6060,3100000,+3.2%
+MC-S1,HamsterWorker,q2ntFPehfVM,PIZZA BUILD BATTLE - Noob vs Pro vs Hacker vs God,short,1300000,n/a,81600,1200000,+8%
+MC-S1,HamsterWorker,RjZvX3ouwC4,STEVE STATUE BUILD BATTLE - Noob vs Pro vs Hacker vs God,short,2700000,n/a,81600,2700000,~0
+MC-S1,HamsterWorker,4scHFqIPAps,STAR WARS BUILD BATTLE - Noob vs Pro vs Hacker vs God,short,78000,newest,81600,,new
+MC-S1,Mega Cascade,roI05tA7aL4,Striders Follow a Fungus on a Stick. This One Is Holding It,short,610000,n/a,5490,572000,+6.6%
+MC-S1,Loser.mp4,NeKQBtZ05hQ,Who Can Build The Best Hide and Seek Spot in Minecraft?,1:06:08,99660,1d,n/a,,new (search)
+MC-S2,Craft Lab3D,q3Ngg9LTEFI,Minecraft Steve vs Hair Factory,short,4500000,n/a,200000,4300000,+4.7%
+MC-S2,Craft Lab3D,uiLAXLyBwlY,Minecraft Steve vs Death Factory,short,12000000,n/a,200000,12000000,~0
+MC-S2,VOXCRASH,dFbMVHW549o,Ghast | Minecraft Factory | Satisfying Loop,short,3200000,n/a,31300,3200000,~0
+MC-S2,Blendverse 3D,cUUuB9q3JcA,Soft 0% vs Soft 99% Soft Body Simulation,short,9600000,n/a,29900,9500000,+1%
+MC-S2,Windie 3D,SD2gRTMJ2iM,Minecraft Testing Realistic Armour Against Mobs,short,9000000,n/a,177000,9000000,~0
+MC-S2,Ender,iiv0DGmz1zg,Minecraft Vs Real Key,0:08,486285,3d,18800,,new
+X-S1,Mildly Elsewhere,YRT6uKUp9Qc,How a Hole in a Hill Becomes a House,1:10,7898725,6d,71500,,new
+X-S1,The Building Box,W7WWQoaI1jA,How A Piece Of Glass Becomes A Glass Bottom Bridge Over A Canyon In Your Backyard,1:11,1810536,6d,31700,,new
+X-S1,The Building Box,R1-HtQx6Wls,How a Hole In Your Roof Turns to A Three Story Waterfall In Your House,1:20,1052601,5d,31700,,new
+X-S1,Build It Right Now,bv4CAp-rDtE,How A Sheet In Your Yard Becomes A Trampoline,0:58,1173941,5d,3940,,new
+X-S1,Bureau of Odd Things,Jf7ZdWhS_9c,How a Rowboat Becomes a Submarine,short,1200000,n/a,5870,1100000,+9%
+X-S1,Bureau of Odd Things,tLqXlo565Hc,How a Tractor Becomes a Tank,short,1900000,n/a,5870,1900000,~0
+X-S1,Stumblework Studios,h9XLGgT2PRY,You Just Invented the Film Projector,short,1800000,n/a,20700,1800000,~0
+X-S1,Exploded Works,1Qd-YJCxMP4,How a Plane Works (3D Animation),10:27,583000,1mo,5860,572000,+1.9%

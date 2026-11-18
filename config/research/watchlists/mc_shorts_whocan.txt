@@ -1,8 +1,8 @@
 # MC-S1 Minecraft Shorts: dàn nhân vật gốc thi đấu "Who can…?" 3D Blender — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
 # Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
-# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value (public channel page, 2026-11-17 run); n/a = not yet measured (next daily run fills it).
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value (public channel page, 2026-11-18 run); n/a = not yet measured (next daily run fills it).
 # role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
-UC8BAM9FulzAucO3ENpk-yqA | Mochi & Pals | @Mochiandpalstv | 5.92K | 2026-10-15 | leader | added 2026-11-14 | 14/14 Shorts 'Who can...?', 2.92M + 2.76M, 9.79M channel views at 29 d
-UCRaGNwQG_rNsODhuKRZ4dlw | Cube Clash | @CubeClash_09 | 22.8K | 2026-11-05 | leader | added 2026-11-14 | NOOB vs PRO: Who Survives the <disaster>?, best 362K
-UCzrNmcdtcHJTq5uXdLe-f0w | HamsterWorker - Minecraft | @HamsterWorker | 80.4K | 2025-11-30 | leader | added 2026-11-14 | PIZZA BUILD BATTLE Noob vs Pro vs Hacker vs God 871K
-UC2gxGHtOkZgcYlFvsyfe_Eg | Mega Cascade | @megacascade | 5.42K | 2026-09-26 | leader | added 2026-11-14 | Does the Giant Villager Keep His Emerald? 2.67M
+UC8BAM9FulzAucO3ENpk-yqA | Mochi & Pals | @Mochiandpalstv | 6.06K | 2026-10-15 | leader | added 2026-11-14 | 14/14 Shorts 'Who can...?', 2.92M + 2.76M, 9.79M channel views at 29 d
+UCRaGNwQG_rNsODhuKRZ4dlw | Cube Clash | @CubeClash_09 | 23.4K | 2026-11-05 | leader | added 2026-11-14 | NOOB vs PRO: Who Survives the <disaster>?, best 362K
+UCzrNmcdtcHJTq5uXdLe-f0w | HamsterWorker - Minecraft | @HamsterWorker | 81.6K | 2025-11-30 | leader | added 2026-11-14 | PIZZA BUILD BATTLE Noob vs Pro vs Hacker vs God 871K
+UC2gxGHtOkZgcYlFvsyfe_Eg | Mega Cascade | @megacascade | 5.49K | 2026-09-26 | leader | added 2026-11-14 | Does the Giant Villager Keep His Emerald? 2.67M
