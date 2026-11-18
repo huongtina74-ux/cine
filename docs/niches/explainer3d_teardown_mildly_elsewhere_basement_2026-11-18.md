@@ -38,7 +38,7 @@ Template "X-S1 counter-intuitive fix": hook act → mocker → it gets worse →
 Production path on our machine: script+beat sheet (showrunner) → Blender 5.2 EEVEE on the RTX 3060 (CC0 assets from Poly Haven, boolean cutaway, rising water plane, one rigged character pair) → local TTS narrator → `cf_auto_edit` (captions 2–5 words, -14 LUFS) → `cf_qc` + qc-reviewer. Flow images (0 credits) for concept/thumbnail only.
 Three original ideas (not copies):
 1. "He Opened Every Window Before the Hurricane" — pressure equalization myth vs reality (needs fact-check; it is mostly a MYTH → the twist can be that the smug one is wrong for a different reason).
-2. "She Parked Her Car in the Lake on Purpose" — no; replace: "He Left His Pipes Dripping All Night" (freezing pipes; moving water freezes later; neighbour's pipe bursts).
+2. "He Left His Pipes Dripping All Night" (freezing pipes: a dripping tap relieves pressure; the smug neighbour's pipe bursts).
 3. "He Filled His Pool to the Brim Before the Storm" — hydrostatic uplift: empty pools float out of the ground (channel already has 'Why a Pool Can Float' 101K → our angle must differ; drop if too close).
 Every physics claim needs a source before script lock (studio rule).
 Cheapest pilot: idea 2, ~40 s, 1 street set, 2 characters, 12–15 shots; measure Blender render time per shot before committing to the lane.
