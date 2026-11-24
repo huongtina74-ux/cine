@@ -41,6 +41,7 @@ Nhãn: OBSERVED (ngày) / INFERRED. Bằng chứng hiện tại chỉ dựa vào
 - **Bản lề (INFERRED):** vai trò cho người xem một bộ luật + đồ nghề + mục tiêu ngay trong tiêu đề. Ta dùng vai trò gốc gắn với thế giới của ta, không dùng nhân vật của người khác.
 
 ### S3 — Nơi cô lập cực đoan (biển, rãnh, điểm xa đất liền) (thấy lần đầu 2026-11-14 · lần cuối 2026-11-24 · trạng thái: hot)
+- **Đính chính 2026-11-24 chiều (OBSERVED tab kênh 11:49 UTC):** Dagar là kênh **tiếng Tây Ban Nha** (tiêu đề gốc "ATRAPADOS 100 DÍAS en una PISCINA REALISTA", bản tiếng Anh là tự dịch), 7,1M sub, đa định dạng (không phải kênh 100 Days); 12 video gần nhất trung vị ~3,1M → video bể bơi 1,79M/17 giờ **không phải outlier** (INFERRED). Giữ làm tín hiệu tiêu đề, không dùng làm bằng chứng thị trường tiếng Anh.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Dagar "TRAPPED for 100 DAYS in a REALISTIC POOL" **1,47M sau 9 giờ** (kênh 9,11M sub nên chỉ 0,16× sub); KnightMC "LOST AT SEA" 445K (~12K/ngày, đã chậm); Tomatikk "DEADLIEST OCEAN FORT" 26K → 132K. Nơi cô lập giờ có cả bản "chỗ quen thuộc nhưng bị nhốt" (bể bơi).
 - **Cập nhật 2026-11-18 (OBSERVED):** KnightMC "500 Days LOST AT SEA" 358K → 375K (+4,7%/24 giờ, giảm tốc mạnh). Mozi "RAVINE" 2,14M → 2,18M. Tomatikk ra "100 Days in an Abandoned Fort in the Endless Ocean" 26K sau 10 giờ.
 - **Evidence (OBSERVED 2026-11-17):** KnightMC "500 Days LOST AT SEA" 3h37 → 358K sau 12 ngày = 83× sub, 14,3× trung vị kênh (11-14: 197K → +82% trong 3 ngày). Rauntzent "Stranded in POINT NEMO" 1,06M (2 tuần). Mozi "100 Days In A RAVINE" 2,14M (2 tuần).
@@ -56,5 +57,6 @@ Nhãn: OBSERVED (ngày) / INFERRED. Bằng chứng hiện tại chỉ dựa vào
 - **Bản lề (INFERRED):** tên một vùng có thật gợi ngay khí hậu, rừng, truyền thuyết. Ta dùng vùng hư cấu có "cảm giác thật" hoặc vùng địa lý chung (rừng lá kim, cao nguyên băng) + thực thể gốc; không mượn creepypasta của vùng đó.
 
 ### S6 — "Can I Die In Minecraft's Safest Room?" (thấy lần đầu 2026-11-24 · lần cuối 2026-11-24 · trạng thái: watching)
+- **Đính chính 2026-11-24 chiều (OBSERVED tab kênh):** LockDownLife có **2,47M sub** (không phải 224K) → 3M/9 ngày ≈ **1,2× sub**, không phải 13×. Nhưng 14 video gần nhất trung vị ~0,69M → video này ≈ **4,4× trung vị kênh** = outlier theo luật A (INFERRED). Kênh hardcore challenge tiếng Anh → đã thêm watchlist (leader). Mr. Rishi bản sao 1,28M/8 ngày, đang giảm (~3,3K/giờ).
 - **Evidence (OBSERVED 2026-11-24):** LockDownLife (tạo 18/04/2020, 224K sub) 2,96M sau 9 ngày = **13× sub**; Mr. Rishi cùng tiêu đề 1,26M/7 ngày (bản sao trong 2 ngày). Chưa mở tab kênh LockDownLife nên chưa vào watchlist.
 - **Bản lề (INFERRED):** đảo ngược lời hứa sinh tồn: chỗ an toàn nhất bị thử phá. Hợp với base/bunker của ta: "100 Days in the Safest Bunker… until Day 37".

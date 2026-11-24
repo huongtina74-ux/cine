@@ -213,3 +213,41 @@ Snapshot: `research_notes/lanes_daily/2026-11-24/key_videos_snapshot.csv` (53 vi
 2. Owner đăng nhập lại Algrow trong trình duyệt tích hợp.
 3. Mở tab kênh + thumbnail: Dagar, LockDownLife, SoyCubo, Wrld, Build It Right Now; xem thumbnail của 3D Animation Blender.
 4. Owner quyết: có bỏ 3 kênh 2D (Kit vs The End, Nobody Gets In, Beanie Survives) khỏi watchlist MC-L1 không (vẫn đang chờ).
+
+---
+
+## Bổ sung chiều 24/11 (vòng chạy thứ 2, 11:49 UTC)
+
+**Nguồn:** Blender trên PC vẫn tắt (MCP cổng 9876 từ chối) → **vẫn không có API**. Dùng trang công khai: 18 trang video (lấy `viewCount`/`publishDate`/độ dài chính xác) + 2 tab kênh (Dagar, LockDownLife). Tổng ~26 lượt tải. Dữ liệu: `research_notes/lanes_daily/2026-11-24/pm_resnapshot.csv`.
+Khoảng cách với số buổi sáng ≈ **6,6 giờ**, không phải 24 giờ. Tốc độ là INFERRED. Một số số buổi sáng đã làm tròn (1,8M; 1,3M…) nên delta của chúng là ESTIMATED.
+
+### Đính chính số buổi sáng (OBSERVED tab kênh)
+- **Dagar** là kênh **tiếng Tây Ban Nha**: tiêu đề gốc "ATRAPADOS 100 DÍAS en una PISCINA REALISTA", bản tiếng Anh là YouTube tự dịch. Kênh có 7,1M sub (sáng ghi 9,11M) và làm nhiều định dạng, không chuyên 100 Days. 12 video gần nhất có trung vị ~3,1M → video bể bơi 1,79M/17 giờ **không phải outlier**. Bản lề "TRAPPED + chỗ quen thuộc" vẫn dùng được, nhưng không phải bằng chứng cho thị trường tiếng Anh.
+- **LockDownLife** có **2,47M sub** (sáng ghi 224K) → "Safest Room" 3M/9 ngày ≈ 1,2× sub, **không phải 13×**. Tuy vậy, 14 video gần nhất có trung vị ~0,69M → video này ≈ **4,4× trung vị** = outlier theo luật A. Kênh hardcore challenge tiếng Anh → **đã thêm vào watchlist MC-L1 (leader)**. S6 vẫn ở mức watching.
+
+### Tốc độ ~6,6 giờ (OBSERVED views, INFERRED tốc độ)
+| Ngách | Video | Ngày đăng (UTC) | Views 11:49 | Gần đây/giờ | TB trọn đời/giờ | Xu hướng |
+|---|---|---|---|---|---|---|
+| MC-L1 | [PaYuDan — 100 Days THE LOCUST Anomaly](https://www.youtube.com/watch?v=TE3HKysiFWw) 32:47 | 22/11 07:50 | 1.032.374 | ~23,6K | ~19,9K | **tăng tốc**, vừa qua 1M |
+| MC-L1 | Dagar — Piscina realista | 23/11 19:03 | 1.793.591 | ~48K | ~107K | giảm (bình thường cho kênh lớn) |
+| MC-L1 | Forge Labs — Appalachian 3h02 | 22/11 13:00 | 1.097.786 | ~15K | ~23K | giảm nhẹ, đã qua 1M |
+| MC-L2 | Junkeyy — Scary Myths | 19/11 | 1.291.906 | ~3,7K | ~11K | giảm |
+| MC-S2 | [3D Animation Blender — Mars vs Every Size Steve](https://www.youtube.com/watch?v=dh7igxQOUvk) | 19/11 11:00 | 1.982.001 | ~27K* | ~16K | **tăng tốc** |
+| MC-S2 | [VOXCRASH — Creeper → Cat Factory loop](https://www.youtube.com/watch?v=XkHyNQOUxHc) | 21/11 13:00 | 617.872 | ~9,7K | ~8,7K | tăng nhẹ |
+| X-S1 | [Mildly Elsewhere — Boat/Hose Before the Hurricane](https://www.youtube.com/watch?v=9tj8WHTm3VU) | 21/11 20:40 | 1.462.610 | ~24K* | ~23K | đều |
+| X-S1 | Mildly Elsewhere — Hole in the Desert → Oasis | 21/11 15:25 | 1.310.398 | ~17K* | ~19K | đều |
+| X-S1 | The Building Box — 2 video | 14–15/11 | 0,99–1,22M | 1,4–2,9K | 4,3–5,9K | giảm |
+\* số sáng làm tròn → ESTIMATED.
+
+**Đọc tín hiệu (INFERRED):**
+- **MC-L1/L2:** "100 Days + [sinh vật dị thường]" (PaYuDan LOCUST Anomaly) đang tăng tốc ở ngày thứ 2. Đây là cầu nối mạnh nhất giữa L1 và L2 hôm nay. Hướng của ta: một thực thể gốc kiểu bầy đàn hoặc côn trùng, không dùng tên "Anomaly" hay nhân vật của PaYuDan.
+- **MC-S2:** Shorts tăng thang kích thước ("Tiny → Colossal") vẫn tăng tốc sau 5 ngày → đáng làm một bản thử với mascot gốc. Vẫn chỉ 1 kênh nên S5 giữ watching.
+- **X-S1:** Mildly Elsewhere "trước thảm hoạ" giữ ~17–24K/giờ ở ngày thứ 3 (bền hơn The Building Box) → S6 "He… Before the [thảm hoạ]" giữ hot.
+- Ngày đăng Shorts lần đầu được đo chính xác: Craft Lab3D 19/11, VOXCRASH 21/11, Mildly Elsewhere 21/11, Building Box 14–15/11 → cả 4 video ≥1M đều thuộc cửa sổ "exploding" (0–15 ngày) của luật C.
+
+### Ý tưởng gốc thêm
+1. *I Survived 100 Days While a Swarm Ate the World in REALISTIC Minecraft*: bầy côn trùng gốc + mùa màng biến mất (L1 × L2).
+2. Shorts MC-S2: *[mascot] vs Every Size Meteor (Tiny → Colossal)*: va chạm cuối có loop về khung đầu.
+
+### Vẫn chặn
+Blender/MCP tắt (vòng thứ 4 liên tiếp không có API) → không có API, không tìm được kênh mới 0–30 ngày (phần B vẫn mù). Algrow chưa thử lại ở vòng này.

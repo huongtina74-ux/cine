@@ -1,0 +1,20 @@
+# OBSERVED 2026-11-24 11:49 UTC: viewCount/publishDate/lengthSeconds from public watch pages (built-in browser, 18 fetches). AM views = key_videos_snapshot.csv (~05:10 UTC, ESTIMATED midpoint; some AM values were rounded 'K/M' text). Gap ~6.7 h, NOT 24 h. Rates INFERRED.
+lane,channel,video_id,title,published_utc,age_h,length_s,views_am,views_pm,delta,per_h_recent,per_h_lifetime,trend
+MC-L1,Dagar,4mjsOqlzvtU,TRAPPED for 100 DAYS in a REALISTIC POOL in Minecraft!,2026-11-23 19:03,16.8,1572,1473498,1793591,320093,48064,106931,decaying
+MC-L1,Forge Labs,3sRUyWxVeWA,100 Days in the Appalachian Mountains in Hardcore Minecraft,2026-11-22 13:00,46.8,10928,996375,1097786,101411,15228,23446,decaying
+MC-L1,PaYuDan,TE3HKysiFWw,100 Days of Minecraft THE LOCUST Anomaly,2026-11-22 07:50,52.0,1967,874921,1032374,157453,23643,19861,accelerating
+MC-L1,Ryguy v2,MemVqdsLCqk,I Survived 100 Days as a CHAMELEON in Minecraft!,2026-11-20 13:30,94.3,5574,462592,473063,10471,1572,5015,decaying
+MC-L1,Mr. Rishi,Js3EonZghC8,Can I Die In Minecraft's Safest Room?,2026-11-16 08:16,195.6,1120,1257244,1279047,21803,3274,6540,decaying
+MC-L2,al1,mp3v7t9PNJ0,We Thought It Was a Mountain [FULL MOVIE],2026-11-20 12:30,95.3,4478,183622,188160,4538,681,1974,decaying
+MC-L2,al1,MqXj6Co2UD4,We Played THE GOD MOD in Minecraft,2026-11-21 12:00,71.8,2028,573154,596001,22847,3431,8298,decaying
+MC-L2,Junkeyy,5-IApp-ePjs,Testing Trending Minecraft Scary Myths To See If They Are Real!,2026-11-19 13:56,117.9,1279,1267124,1291906,24782,3721,10959,decaying
+MC-L2,Pepper,2EqabJWxMJI,I Remade The JERRY DOG Mod To Scare My Friends,2026-11-18 11:35,144.2,1542,860015,875040,15025,2256,6067,decaying
+MC-L2,Cyborino,0LErVMHdSUE,IM RASING 2 MONSTERS IN MINECRAFT,2026-11-18 22:10,133.7,1213,717352,736935,19583,2941,5514,decaying
+MC-S1,The Losers,GJUGpERw7so,Who Can Build The UGLIEST Base In Minecraft Challenge!,2026-11-20 16:00,91.8,1936,76834,77858,1024,154,848,decaying
+MC-S2,Craft Lab3D,DKNNaO86rQ4,Minecraft Steve vs Broken Car,2026-11-19 08:30,123.3,16,816000,822814,6814,1023,6672,decaying
+MC-S2,3D Animation Blender,dh7igxQOUvk,Mars vs Every Size Steve! (Tiny to Colossal),2026-11-19 11:00,120.8,52,1800000,1982001,182001,27329,16404,accelerating
+MC-S2,VOXCRASH,XkHyNQOUxHc,Creeper -> Cat | Minecraft Factory | Satisfying Loop,2026-11-21 13:00,70.8,25,553000,617872,64872,9741,8724,accelerating
+X-S1,The Building Box,ZuTlzIWbzuY,How A Chicken Fence Becomes A Tiger Sanctuary In Your American Backyard,2026-11-15 22:30,205.3,65,1200000,1219303,19303,2898,5939,decaying
+X-S1,The Building Box,_-4UwSvvlFs,How A Bird Feeder Turns to A Ginormous Bird Sanctuary In Your Backyard,2026-11-14 21:03,230.8,73,977000,986107,9107,1367,4273,decaying
+X-S1,Mildly Elsewhere,9tj8WHTm3VU,He Filled His Own Boat With a Hose Before the Hurricane,2026-11-21 20:40,63.2,66,1300000,1462610,162610,24417,23158,steady
+X-S1,Mildly Elsewhere,tyhL43F5ODE,How a Hole in the Desert Becomes an Oasis,2026-11-21 15:25,68.4,73,1200000,1310398,110398,16577,19155,steady

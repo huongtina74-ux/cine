@@ -42,5 +42,6 @@ Nhãn: OBSERVED (ngày) / INFERRED.
 - **Bản lề (INFERRED):** Short rất ngắn (~8 giây) đặt vật phẩm khối cạnh phiên bản thật, loop. Ta làm với vật phẩm/mascot gốc của ta: "[Mascot] Block Vs Real [Mascot]".
 
 ### S5 — "Tiny → Colossal" / Steve vs hành tinh (thấy lần đầu 2026-11-24 · lần cuối 2026-11-24 · trạng thái: watching)
+- **Cập nhật 2026-11-24 chiều (OBSERVED 11:49 UTC):** "Mars vs Every Size Steve" đăng 19/11 → **1,98M sau 5 ngày**, ~27K/giờ trong 6,6 giờ qua so với trung bình trọn đời ~16K/giờ → **đang tăng tốc** (ESTIMATED, số sáng làm tròn 1,8M). VOXCRASH "Creeper → Cat Factory loop" 618K/3 ngày cũng tăng tốc (~9,7K/giờ). Vẫn 1 kênh cho S5 → giữ watching.
 - **Evidence (OBSERVED 2026-11-24):** 3D Animation Blender "Mars vs Every Size Steve! (Tiny to Colossal)" 1,8M; "How Many Earths to Destroy Giant Steve?" 562K; các bản "Tiny vs Colossal… Eating Planets" chỉ 33–50K. Mới 1 kênh → watching.
 - **Bản lề (INFERRED):** thang kích thước tăng dần + va chạm cuối = loop tự nhiên. Làm với mascot gốc, không dùng Steve/Pac-Man.
