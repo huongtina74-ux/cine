@@ -1,0 +1,55 @@
+# OBSERVED 2026-11-24 ~04:50-05:30 UTC, public YouTube pages (hl=en, gl=US) fetched at human pace from the owner's built-in browser (~71 page loads); YouTube Data API path unavailable (Blender closed, MCP port 9876 refused); Algrow 401 auth_required. age = YouTube relative text (ESTIMATED day count). Shorts tabs show no age. prior = 2026-11-18 snapshot (OBSERVED) -> growth is over 6 days, NOT 24 h; '+x%' ESTIMATED from rounded counts.
+lane,channel,video_id,title,duration,views,age,channel_subs,prior_2026_11_18,growth_6d
+MC-L1,Dagar,4mjsOqlzvtU,TRAPPED for 100 DAYS in a REALISTIC POOL in Minecraft!,26:12,1473498,9h,9110000,,new
+MC-L1,Forge Labs,3sRUyWxVeWA,100 Days in the Appalachian Mountains in Hardcore Minecraft,3:02:09,996375,1d,6290000,,new
+MC-L1,PaYuDan,TE3HKysiFWw,100 Days of Minecraft THE LOCUST Anomaly,32:47,874921,1d,,,new
+MC-L1,SoyCubo,Z1qSqdYr6ZU,I Survived 100 Days in ULTRA REALISTIC Minecraft Hardcore,1:50:24,2487643,10d,,1920000,+30% (~95K/d vs ~480K/d before; decaying)
+MC-L1,Doobly,Rbyh1zlSXfQ,I Survived 100 DAYS As TITAN SPEAKERMAN in HARDCORE Minecraft!,30:23,2259070,9d,,1340000,+69% (~153K/d)
+MC-L1,EYstreem,rDwDqFe__9s,I Survived 100 Days as NIGHT FURY in Minecraft,1:15:59,2006055,9d,,936000,+114% (~178K/d)
+MC-L1,Ryguy v2,MemVqdsLCqk,I Survived 100 Days as a CHAMELEON in Minecraft!,1:32:54,462592,3d,,,new
+MC-L1,Mozi,CdvjTUws6R4,I Survived 100 Days In A RAVINE In Minecraft Hardcore!,1:13:39,2443466,3w,,2180000,+12%
+MC-L1,Doublesal,fhxcDwl0Wr8,I Survived 100 Days as a TAVERN OWNER in Minecraft Hardcore,2:00:50,1029666,3w,,961000,+7%
+MC-L1,KnightMC,kVHfm6XF8Cw,Surviving 500 Days LOST AT SEA In Minecraft,3:37:22,445000,2w,4540,375000,+19% (~12K/d)
+MC-L1,KnightMC,0ItfSNYQBzA,Surviving 100 Days UNDERWATER In Hardcore Minecraft,2:23:37,26000,5d,4540,,new
+MC-L1,BlakeCraft,qosDY2CQhyc,I Survived 100 Days as a GHILLIE Sniper in a Zombie Apocalypse in Hardcore Minecraft,3:57:17,384000,1mo,5030,354000,+8%
+MC-L1,Day Zero,_PgQUqoUCWQ,Surviving Minecraft's HARDEST Zombie Apocalypse,51:00,138000,9d,17100,84000,+64%
+MC-L1,Tomatikk,MQqOUcjJMpA,I SPENT 100 DAYS IN THE DEADLIEST OCEAN FORT IN MINECRAFT,56:33,132000,6d,90000,26000,+408%
+MC-L1,Forge Labs,jccqEa0Qd40,1 Year in Alaska in ULTRA REALISTIC Minecraft,3:00:04,9900000,1mo,6290000,9600000,+3%
+MC-L1,LockDownLife,O_uBIWUBlN4,Can I Die In Minecraft's Safest Room?,30:42,2963133,9d,224000,,new (13x subs)
+MC-L1,Mr. Rishi,Js3EonZghC8,Can I Die In Minecraft's Safest Room?,18:41,1257244,7d,,,new
+MC-L2,SirCloaked,ZX4NTEvLzdU,Something On My Farm Is Hunting Me...,17:15,966000,7d,152000,502000,+92% (~77K/d)
+MC-L2,al1,uPVlvP-E0Rc,"The Mountains Are Fighting (was: ""Those Are Not Mountains"")",36:06,980000,9d,1690000,784000,+25%
+MC-L2,al1,xo3J79RM4rM,They're Bigger Than Mountains (was: They Live In The Mountains),16:18,1200000,2w,1690000,1100000,+9%
+MC-L2,al1,mp3v7t9PNJ0,We Thought It Was a Mountain [FULL MOVIE],1:14:38,183622,3d,1690000,,new
+MC-L2,al1,MqXj6Co2UD4,We Played THE GOD MOD in Minecraft,33:49,573154,2d,1690000,,new
+MC-L2,ENFINITY,OlkVY3yJ31s,I Made a Wendigo That Changes Minecraft Horror Forever...,39:44,124000,2w,19800,100000,+24%
+MC-L2,Jemario,PpL-cncZ8Bg,what is going on in this horror mod,12:55,276000,8d,49400,178000,+55%
+MC-L2,Novorions,GRTLRNCUSg8,The Parallel Stalker 5.5.7 Remake UPDATE,27:36,98000,11d,484,78000,+26%
+MC-L2,Junkeyy,5-IApp-ePjs,Testing Trending Minecraft Scary Myths To See If They Are Real!,21:19,1267124,4d,,,new
+MC-L2,MrAlpha,TRDrSe2lmAI,Testing Scary Minecraft Myths Caught in Screenshots,30:09,1220576,6d,,472000,+159%
+MC-L2,ProBoiz 95,ls0FQdzVxko,Testing Trending Minecraft Scary Myths To See If They Are Real!,39:40,9222531,3w,,8790000,+5%
+MC-L2,Maizen,XWmq_XG6aXM,Dinosaur Horror Mod,33:08,4392711,2w,,3750000,+17%
+MC-L2,Pepper,2EqabJWxMJI,I Remade The JERRY DOG Mod To Scare My Friends,25:43,860015,5d,,,new (third-party character - formula only)
+MC-L2,Cyborino,0LErVMHdSUE,IM RASING 2 MONSTERS IN MINECRAFT,20:14,717352,5d,,,new
+MC-S1,Mochi & Pals,QIUZzUp36b0,Who can build the highest treehouse?,short,2200000,,7180,1900000,+16%
+MC-S1,Mochi & Pals,nhzjEy_0bQ0,Who can build the tallest sand tower?,short,595000,,7180,4300,x138
+MC-S1,HamsterWorker,q2ntFPehfVM,PIZZA BUILD BATTLE - Noob vs Pro vs Hacker vs God,short,1500000,,87700,1300000,+15%
+MC-S1,Cube Clash,ZhJeApOxtN0,NOOB vs PRO vs HACKER: Who Survives the SOLAR STORM?,short,26000,,27300,,new
+MC-S1,The Losers,GJUGpERw7so,Who Can Build The UGLIEST Base In Minecraft Challenge!,32:16,76834,3d,,,new
+MC-S2,Craft Lab3D,q3Ngg9LTEFI,Minecraft Steve vs Hair Factory,short,5900000,,201000,4500000,+31%
+MC-S2,Craft Lab3D,DKNNaO86rQ4,Minecraft Steve vs Broken Car,short,816000,,201000,,new
+MC-S2,Ender,iiv0DGmz1zg,Minecraft Vs Real Key,short,676000,,19100,486000,+39%
+MC-S2,Ender,k_PQT2JIVVI,Minecraft Vs Real Trident,short,500000,,19100,212000,+136%
+MC-S2,3D Animation Blender,UtsgocDWtWM,Minecraft vs Real Life in the Nether - Lava Lantern & Ice,25s,1619968,27d (publishDate 2026-10-28),489000,,new
+MC-S2,3D Animation Blender,dh7igxQOUvk,Mars vs Every Size Steve! (Tiny to Colossal),short,1800000,,489000,,new
+MC-S2,Blendverse 3D,cUUuB9q3JcA,Soft 0% vs Soft 99% Soft Body Simulation,short,11000000,,30900,9600000,+15%
+MC-S2,VOXCRASH,XkHyNQOUxHc,Creeper -> Cat | Minecraft Factory | Satisfying Loop,short,553000,,31700,,new
+X-S1,The Building Box,W7WWQoaI1jA,How A Piece Of Glass Becomes A Glass Bottom Bridge Over A Canyon In Your Backyard,short,3000000,,37000,1810000,+66%
+X-S1,The Building Box,R1-HtQx6Wls,How a Hole In Your Roof Turns to A Three Story Waterfall In Your House,short,1800000,,37000,1050000,+71%
+X-S1,The Building Box,ZuTlzIWbzuY,How A Chicken Fence Becomes A Tiger Sanctuary In Your American Backyard,short,1200000,,37000,,new
+X-S1,The Building Box,_-4UwSvvlFs,How A Bird Feeder Turns to A Ginormous Bird Sanctuary In Your Backyard,short,977000,,37000,,new
+X-S1,Mildly Elsewhere,9tj8WHTm3VU,He Filled His Own Boat With a Hose Before the Hurricane,short,1300000,,100000,,new
+X-S1,Mildly Elsewhere,tyhL43F5ODE,How a Hole in the Desert Becomes an Oasis,short,1200000,,100000,,new
+X-S1,Bureau of Odd Things,Jf7ZdWhS_9c,How a Rowboat Becomes a Submarine,short,1300000,,6470,1200000,+8%
+X-S1,Stumblework Studios,h9XLGgT2PRY,You Just Invented the Film Projector | Invention Series Ep #008,short,1900000,,21200,,
+X-S1,Deconstructed,jaWNiG2Q0lE,How This Ancient Water Clock Actually Worked,short,3100000,,444000,,
