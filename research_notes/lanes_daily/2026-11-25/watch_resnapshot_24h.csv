@@ -1,0 +1,14 @@
+# OBSERVED 2026-11-25 11:51-11:52 UTC: viewCount/publishDate/lengthSeconds from public watch pages (12 fetches). views_prev = 2026-11-24 11:49 UTC pm_resnapshot.csv (OBSERVED) -> gap ~24.0 h (real 24 h growth). per_h_prev_window = rate measured 11-24 (AM->PM ~6.6 h). Trend INFERRED.
+lane,channel,video_id,title,published_utc,age_h,length_s,views_prev_1124,views_1125,delta_24h,per_h_24h,per_h_prev_window,trend
+MC-L1,PaYuDan,TE3HKysiFWw,100 Days of Minecraft THE LOCUST Anomaly,2026-11-22 07:50,76.0,1967,1032374,1344442,312068,13003,23600,decelerating (still +312K/day)
+MC-L1,Dagar,4mjsOqlzvtU,ATRAPADOS 100 DIAS en una PISCINA REALISTA (auto-EN: TRAPPED 100 DAYS REALISTIC POOL),2026-11-23 19:03,40.8,1572,1793591,2799706,1006115,41921,48064,steady (+1.0M/day; Spanish channel)
+MC-L1,Forge Labs,3sRUyWxVeWA,100 Days in the Appalachian Mountains in Hardcore Minecraft,2026-11-22 13:00,70.9,10928,1097786,1363895,266109,11088,15000,decelerating
+MC-L2,Junkeyy,5-IApp-ePjs,Testing Trending Minecraft Scary Myths To See If They Are Real!,2026-11-19 13:56,141.9,1279,1291906,1328373,36467,1519,3700,decaying
+MC-S2,3D Animation Blender,dh7igxQOUvk,Mars vs Every Size Steve! (Tiny to Colossal),2026-11-19 11:00,144.9,52,1982001,2179967,197966,8249,27000,decelerating
+MC-S2,VOXCRASH,XkHyNQOUxHc,Creeper -> Cat Minecraft Factory Satisfying Loop,2026-11-21 13:00,94.9,25,617872,726787,108915,4538,9700,decelerating
+X-S1,Mildly Elsewhere,9tj8WHTm3VU,He Filled His Own Boat With a Hose Before the Hurricane,2026-11-21 20:40,87.2,66,1462610,1598017,135407,5642,24000,decelerating
+X-S1,Mildly Elsewhere,tyhL43F5ODE,How a Hole in the Desert Becomes an Oasis,2026-11-21 15:25,92.4,73,1310398,1451988,141590,5900,17000,decelerating
+X-S1,Mildly Elsewhere,RQ9-goFC6p8,How a Hole in Your Field Becomes a Grain Silo,2026-11-24 15:28,20.4,67,,815975,,40000,,NEW: ~40K/h lifetime at 20 h (exploding)
+X-S1,Mildly Elsewhere,VYk1EMIUntQ,This Truck Is Carrying a Shark,2026-11-22 13:00,70.9,28,,811212,,11441,,new (first seen)
+MC-S2,3D Animation Blender,b4ON-egqrL8,How Many Earths to Destroy Giant Steve?,2026-11-21 10:30,97.4,34,,798420,,8197,,new (first seen)
+MC-S1,Mochi & Pals,adI3NguUD2k,Who can build the best rocket?,2026-11-24 10:30,25.4,16,,488086,,19216,,NEW: 66x subs at 25 h (explosive)

@@ -25,23 +25,27 @@ Nhãn: OBSERVED (ngày) / INFERRED.
 
 - **Cập nhật 2026-11-17 (OBSERVED):** Blendverse "Soft 0% vs 99%" 8,68M → 9,5M. Nhưng các bản sau của ArtikAnimates chỉ 34K–138K, bản "Ice, Acid & Orbeez" 259K → khuôn đã bão hoà.
 
-### S2 — "Steve/Mob vs [X] FACTORY" (thấy lần đầu 2026-11-14 · lần cuối 2026-11-24 · trạng thái: watching)
+### S2 — "Steve/Mob vs [X] FACTORY" (thấy lần đầu 2026-11-14 · lần cuối 2026-11-25 · trạng thái: watching)
+- **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** VOXCRASH "Creeper → Cat" 618K → 727K trong 24 giờ (+109K, giảm tốc ~4,5K/giờ); Short mới "Steve → Enderman" 235K. Craft Lab3D "Hair Factory" 5,9M → 6,2M; "Steve vs Broken Car" 816K → 858K.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Craft Lab3D "Hair Factory" 4,5M → **5,9M** (+31%/6 ngày); "Steve vs Broken Car" 816K (mới); VOXCRASH "Creeper → Cat" 553K.
 - **Cập nhật 2026-11-18 (OBSERVED):** hạ xuống watching. VOXCRASH 7 Short factory mới nhất đều <300K ("1 TNT → 1,000,000 TNT" 38K, "Creeper → Firework" 92K). Craft Lab3D: "Hair Factory" 4,3M → 4,5M, nhưng Short mới nhất "Steve vs Cannon" 69K; "Death Machine" 479K.
 - **Evidence (OBSERVED 2026-11-17):** Craft Lab3D "Steve vs Death Factory" 11,4M → 12M; "Steve vs Hair Factory" 4,3M (Short mới thứ 4). VOXCRASH "Ghast | Minecraft Factory | Satisfying Loop" 3,2M = 103× sub.
 - **Bản lề (INFERRED):** dây chuyền máy móc = nhiều "trạm" satisfying nối nhau, mỗi trạm một biến đổi; kết thúc loop về đầu. Làm với mascot gốc.
 
-### S3 — "Realistic Armour/Material test" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-24 · trạng thái: watching)
+### S3 — "Realistic Armour/Material test" (thấy lần đầu 2026-11-17 · lần cuối 2026-11-25 · trạng thái: watching)
+- **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** Craft Lab3D "Alex vs Steve's Armor" 1,3M (cũ hơn); Windie 3D 2 Short mới 33–39K (yếu).
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Craft Lab3D "Alex vs Steve’s Armor" 1,3M; Windie Short mới chỉ 32–38K.
 - **Cập nhật 2026-11-18 (OBSERVED):** Windie Short mới nhất "Steve Vs Realistic Shower" 33K; "Steve Vs Villager" 789K.
 - **Evidence (OBSERVED 2026-11-17):** Windie 3D "Testing Realistic Armour Against Mobs" 9M (Short mới thứ 8), 31× trung vị; Blendverse "Realistic Chain Armor Simulation" 43M (cũ).
 
-### S4 — "Minecraft Vs Real [vật phẩm]" (thấy lần đầu 2026-11-18 · lần cuối 2026-11-24 · trạng thái: hot)
+### S4 — "Minecraft Vs Real [vật phẩm]" (thấy lần đầu 2026-11-18 · lần cuối 2026-11-25 · trạng thái: watching)
+- **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** Ender: 12 Short gần nhất 52K–678K, các bản mới nhất (Barrel 52K, Lodestone 80K, Dark Oak Planks 144K) thấp hơn Key 678K/Trident 501K → đang nguội. Squishy 3D (681 sub) phần lớn <100 view. Nguồn mới của "vs Real" chỉ còn 3D Animation Blender (Nether 1,62M, cũ 28 ngày) → hạ xuống watching.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Ender "Vs Real Key" 486K → 676K, "Vs Real Trident" 212K → 500K; **3D Animation Blender "Minecraft vs Real Life in the Nether 🔥 Lava, Lantern & Ice" 1,62M (25 giây, đăng 28/10)**, cùng loạt 217K–508K; Squishy 3D 29K. ≥3 kênh thắng → giữ hot.
 - **Evidence (OBSERVED 2026-11-18):** Ender (@Enderg2, 18,8K sub) "Minecraft Vs Real Key" 486K sau 3 ngày = 26× sub; Trident 212K, Beacon 203K. Cùng hướng với trend "ULTRA REALISTIC" ở MC-L1 (SoyCubo 1,92M/4 ngày). Squishy 3D làm cùng chủ đề nhưng chỉ 4–108K → cách làm quyết định, không chỉ chủ đề.
 - **Bản lề (INFERRED):** Short rất ngắn (~8 giây) đặt vật phẩm khối cạnh phiên bản thật, loop. Ta làm với vật phẩm/mascot gốc của ta: "[Mascot] Block Vs Real [Mascot]".
 
-### S5 — "Tiny → Colossal" / Steve vs hành tinh (thấy lần đầu 2026-11-24 · lần cuối 2026-11-24 · trạng thái: watching)
+### S5 — "Tiny → Colossal" / Steve vs hành tinh (thấy lần đầu 2026-11-24 · lần cuối 2026-11-25 · trạng thái: watching)
+- **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** 3D Animation Blender "Mars vs Every Size Steve" 1,98M → 2,18M trong 24 giờ (+198K, giảm tốc từ ~27K/giờ xuống ~8K/giờ). Biến thể **câu hỏi đếm** "How Many Earths to Destroy Giant Steve?" 798K/4 ngày thắng; các bản chép chính mình yếu: "Jupiter vs Every Size Steve" 18K, "How Many Suns…" 2K (còn mới). Vẫn 1 kênh → giữ watching.
 - **Cập nhật 2026-11-24 chiều (OBSERVED 11:49 UTC):** "Mars vs Every Size Steve" đăng 19/11 → **1,98M sau 5 ngày**, ~27K/giờ trong 6,6 giờ qua so với trung bình trọn đời ~16K/giờ → **đang tăng tốc** (ESTIMATED, số sáng làm tròn 1,8M). VOXCRASH "Creeper → Cat Factory loop" 618K/3 ngày cũng tăng tốc (~9,7K/giờ). Vẫn 1 kênh cho S5 → giữ watching.
 - **Evidence (OBSERVED 2026-11-24):** 3D Animation Blender "Mars vs Every Size Steve! (Tiny to Colossal)" 1,8M; "How Many Earths to Destroy Giant Steve?" 562K; các bản "Tiny vs Colossal… Eating Planets" chỉ 33–50K. Mới 1 kênh → watching.
 - **Bản lề (INFERRED):** thang kích thước tăng dần + va chạm cuối = loop tự nhiên. Làm với mascot gốc, không dùng Steve/Pac-Man.
