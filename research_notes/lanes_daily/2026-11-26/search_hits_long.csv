@@ -1,0 +1,41 @@
+# OBSERVED 2026-11-26 ~11:45 UTC: YouTube search (hl=en, gl=US, sort=view count, upload date=this month, type=video), 9 queries; exact view counts. Shorts search (type=Shorts / #shorts) returned no view-ranked results -> B/C for Shorts lanes still blind.
+query,video_id,title,channel,channel_handle,views,age_text,duration,lane_note
+minecraft 100 days,4mjsOqlzvtU,TRAPPED for 100 DAYS in a REALISTIC POOL in Minecraft!,Dagar,@dagar-minecraft,3293450,2d,26:12,L1 S3/S4 (Spanish)
+minecraft realistic survival,9E1S5TYE68o,Minecraft but Every MINUTE Gets MORE REALISTIC!,Nacho,@nacho-minecraft,3720968,7d,25:08,L1 new S9 escalation (Spanish)
+minecraft realistic survival,ETShzAcYXCo,We Got REALISTIC BODIES in Minecraft!,Dagar,@dagar-minecraft,6347541,3w,23:25,realistic-body comedy (multiplayer)
+minecraft realistic survival,piuPpaE03BM,We Got REALISTIC BODIES in Minecraft!,TechyCraft,@TechyCraft,832853,1d,11:32,copy of Dagar
+minecraft realistic survival,hhxSkRNbPGs,I Pretended to Be a REALISTIC DOG in ONE CHUNK in Minecraft!,Nacho,@nacho-minecraft,4156236,2w,23:49,
+minecraft realistic survival,6OwB1Zonalw,Minecraft But It's Only 1 Realistic Block!,EYstreem,@eystreem,1827987,2w,23:42,L1 S7
+minecraft realistic survival,xhuTb1Evdco,Minecraft But DEATH = REALISM..!,MrJadoo,,1232430,2w,33:47,
+minecraft horror,1G3RbNd2ZJA,Minecraft But Your Hearts = Realism...,Carry Depie,@CarryDepie,4513907,3w,23:46,
+minecraft 100 days,HNEMfMCPXDU,Surviving On One REALISTIC BLOCK in MInecraft..,Carry Depie,@CarryDepie,2947174,10d,18:19,L1 S7
+minecraft 100 days full movie,ybELwRggQww,I Survived 100 Days on a REAL LIFE One Block in Minecraft,aCookieGod,@aCookieGod,1071445,10d,1:10:08,L1 S7 (3rd channel)
+minecraft 100 days,Z1qSqdYr6ZU,I Survived 100 Days in ULTRA REALISTIC Minecraft Hardcore,SoyCubo,@SoyCubo,2611945,12d,1:50:24,L1 S4
+minecraft 100 days full movie,TE3HKysiFWw,100 Days of Minecraft THE LOCUST Anomaly,PaYuDan,@PaYuDan,1576225,4d,32:47,L1 S8
+minecraft 100 days,5lAMUAoOnDQ,100 Days of Minecraft Anomaly JERRY DOG,PaYuDan,@PaYuDan,4509668,4w,33:16,L1 S8
+minecraft 100 days full movie,3sRUyWxVeWA,100 Days in the Appalachian Mountains in Hardcore Minecraft,Forge Labs,@ForgeLabs,1590212,3d,3:02:09,L1 S5
+minecraft 100 days,rDwDqFe__9s,I Survived 100 Days as NIGHT FURY in Minecraft,EYstreem,@eystreem,2149803,11d,1:15:59,L1 S2 (third-party IP)
+minecraft 100 days,Rbyh1zlSXfQ,I Survived 100 DAYS As TITAN SPEAKERMAN in HARDCORE Minecraft!,Doobly,@DooblyOfficial,2476899,12d,30:23,L1 S2 (third-party IP)
+survived 100 days minecraft zombie apocalypse,MemVqdsLCqk,I Survived 100 Days as a CHAMELEON in Minecraft!,Ryguy v2,@Ryguyv2,574318,5d,1:32:54,L1 S2
+minecraft 100 days full movie,--0KP-bA0p4,I Survived 100 Days as a Necromancer in Minecraft,Ryguyrocky,@ryguyrocky,1667869,3w,1:51:03,L1 S2
+minecraft 100 days,CdvjTUws6R4,I Survived 100 Days In A RAVINE In Minecraft Hardcore!,Mozi,@MoziMC,2527862,4w,1:13:39,L1 S3
+minecraft 100 days full movie,ovF9f3c1hI4,100 Days Stranded in POINT NEMO in Minecraft!,Rauntzent,@rauntzent,1218495,3w,1:01:21,L1 S3
+minecraft 100 days full movie,9LVdlATk5Zw,Zombie Outbreak Survival: Trapped In a Farm Day 1 To Day 100 (Full Movie!),DoodleSurvivals,@DoodleSurvivals,2131814,4w,1:07:18,L1 S1 candidate; style unverified (likely 2D)
+minecraft 100 days full movie,hgTR1eeEeFQ,Bunker Survival - The Explosion {Full Movie},Bunker Days,@BunkerDays,788980,4w,1:07:44,candidate; style unverified
+survived 100 days minecraft zombie apocalypse,gtxCWYavw2s,100 Days on Abandoned Watch Tower in Appalachian Mountains...,Risible 2wins,@Risible2wins,644869,3w,45:10,L1 S5 2nd channel
+survived 100 days minecraft zombie apocalypse,jCwhBZvuYVM,100 Days But It's ONE CHEST!,MisterFluff,@misterfluff,509593,11d,39:27,
+minecraft 100 days,KnlAF_djhdc,1000 Players Simulate Minecraft's Deadliest Containment Zone...,SpeedSilver,@SpeedSilver,5085143,3w,2:30:02,multiplayer sim (not our capability)
+minecraft 100 days,1IW-8X27IWk,200 Players Simulate THE PURGE in Minecraft!,Sword4000,@Sword4000,2762691,12d,2:46:11,multiplayer sim
+minecraft 100 days,XWmq_XG6aXM,Dinosaur Horror Mod,Maizen,@maizenofficial,4546909,2w,33:08,L2 S5 (third-party IP)
+minecraft horror mod,g1li-cxvK8g,Minecraft's 'THE GOD' Update is TERRIFYING...,Vivilly,@Vivilly,2114149,3w,43:04,L2 new S8
+minecraft 100 days full movie,3Bav87dU-t0,Minecraft's NEW 'THE GOD' Ending is Crazy...,Vivilly,@Vivilly,1834063,2w,37:43,L2 new S8
+minecraft horror mod,EhMs1B085YQ,Every Day I Survive Minecraft Gets Scarier,Karl,@Karl,1036216,3w,22:41,L2 escalation (S9 cross-lane)
+minecraft horror mod,q9Y6sgbMJs4,The Smartest Horror Mod in Minecraft…,Towi,,1176991,2w,21:54,
+minecraft horror mod,zXA-dal4Qds,FroggyDude Plays a FroggyDude HORROR MOD,FroggyDude Extra,,1080852,6d,12:01,
+minecraft horror mod,MwElsXp6r_E,Minecraft's most disturbing mod…,Flamingo,@flamingo,1118258,3w,28:16,
+minecraft horror mod,uPVlvP-E0Rc,The Mountains Are Fighting,al1,@al1craft.,1010536,11d,36:06,L2 S3
+minecraft horror mod,xo3J79RM4rM,They're Bigger Than Mountains,al1,@al1craft.,1273884,2w,16:18,L2 S3
+minecraft horror mod,VYFy1FN7-tk,Something On My Farm Wants Me Dead...,SirCloaked,@SirCloaked,1237150,4w,18:34,L2 S2
+something is hunting me minecraft,ZX4NTEvLzdU,Something On My Farm Is Hunting Me...,SirCloaked,@SirCloaked,988834,9d,17:15,L2 S2
+minecraft horror,hoV3jpHd4WE,I Found FOOTPRINTS of FAMOUS Minecraft MONSTERS…,MrAlpha,@Mr.AlphaOfficial,2724960,3w,25:10,
+minecraft horror full movie,LcENA8vrtaQ,He Adopted a Baby Dragon - FULL MOVIES 4K,Neural Pictures,,8302394,3w,1:51:11,not Minecraft (AI film)

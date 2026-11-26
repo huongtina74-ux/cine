@@ -1,18 +1,18 @@
 # MC-L1 Minecraft long-form: phim sinh tồn kịch bản "100 Days" / FULL MOVIE — competitor watchlist (rules: config/research/lane_research_rules.md, OWNER 2026-11-14)
 # Format: channel_id | name | handle | subs | joined | role (leader/new) | added | why
-# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value (public channel page, 2026-11-25 run); n/a = not yet measured (next daily run fills it).
+# joined = YouTube About page 'Đã tham gia' read 2026-11-14 (OBSERVED). subs = latest OBSERVED value (public channel page, 2026-11-26 run); n/a = not yet measured (next daily run fills it).
 # role: 'new' = added that day under rule B; next day it becomes 'leader' and follows the old-competitor rules.
-UCU9XwWmgsDdGRHXjrE0ewmQ | Day Zero | @DayZeroMinecraft | 17.2K | 2026-10-05 | leader | added 2026-11-14 | 100 Days in a REALISTIC APOCALYPSE 52 min 2M with 2 videos (OBSERVED 11-13)
-UCrbIvpkfQpxbBoKkI7__Ocg | McDoubleAA | @McDoubleAAron | 81.4K | 2026-05-05 | leader | added 2026-11-14 | 1,000 Days Hardcore FULL MOVIE 4h39 814K
-UCt85dLiFJws8eyjpcIoNLfQ | BlakeCraft | @BlakeCraft | 5.04K | 2026-04-28 | leader | added 2026-11-14 | 100 Days GHILLIE Sniper Zombie Apocalypse 3h57 325K
-UCmW9HjfnMHCH4xkBK9bnUaA | KnightMC | @KnightMC4 | 4.56K | 2026-04-01 | leader | added 2026-11-14 | 500 Days LOST AT SEA 3h37 197K
+UCU9XwWmgsDdGRHXjrE0ewmQ | Day Zero | @DayZeroMinecraft | 17.3K | 2026-10-05 | leader | added 2026-11-14 | 100 Days in a REALISTIC APOCALYPSE 52 min 2M with 2 videos (OBSERVED 11-13)
+UCrbIvpkfQpxbBoKkI7__Ocg | McDoubleAA | @McDoubleAAron | 81.5K | 2026-05-05 | leader | added 2026-11-14 | 1,000 Days Hardcore FULL MOVIE 4h39 814K
+UCt85dLiFJws8eyjpcIoNLfQ | BlakeCraft | @BlakeCraft | 5.06K | 2026-04-28 | leader | added 2026-11-14 | 100 Days GHILLIE Sniper Zombie Apocalypse 3h57 325K
+UCmW9HjfnMHCH4xkBK9bnUaA | KnightMC | @KnightMC4 | 4.58K | 2026-04-01 | leader | added 2026-11-14 | 500 Days LOST AT SEA 3h37 197K
 UCND-rtZrbxwcyz4qA5Bppkg | Kit vs The End | @KitVsTheEnd | 15.5K | 2026-09-27 | leader | added 2026-11-14 | 100 Days On A Zombie Cruise Ship 1.06M at 19.7 d; VERIFIED 2026-11-17: 2D cartoon, NOT Minecraft - formula reference only
-UCgzVBte0O0Iju1ACoNbdINQ | Marrow | @RealMarrow | 3.91K | 2024-09-24 | leader | added 2026-11-14 | Zombie Outbreak Last Soldier on the Bridge Day 1-100 402K = 120x subs; titles never say Minecraft; likely 2D story (INFERRED 2026-11-17, thumbnails not yet checked)
+UCgzVBte0O0Iju1ACoNbdINQ | Marrow | @RealMarrow | 4K | 2024-09-24 | leader | added 2026-11-14 | Zombie Outbreak Last Soldier on the Bridge Day 1-100 402K = 120x subs; titles never say Minecraft; likely 2D story (INFERRED 2026-11-17, thumbnails not yet checked)
 UCktAim4t-NivVXjETAQxvaA | Zombie Days Diaries | @zombiedaysdiaries | 3.61K | 2025-07-05 | leader | added 2026-11-14 | original zombie-outbreak diary lane; titles never say Minecraft; likely 2D story (INFERRED 2026-11-17, thumbnails not yet checked)
-UC3lRFFYXVKavY9cqUd_A3Qg | Tomatikk | @Tomatikk01 | 90K | 2026-02-05 | leader | added 2026-11-14 | 100 Days in epic set during disaster model (D-6923b7d4)
+UC3lRFFYXVKavY9cqUd_A3Qg | Tomatikk | @Tomatikk01 | 90.1K | 2026-02-05 | leader | added 2026-11-14 | 100 Days in epic set during disaster model (D-6923b7d4)
 UCZDmrAO-bnBxU4_LiH40CjA | Nobody Gets In | @NobodyGetsIn | 69.7K | 2026-10-02 | leader | added 2026-11-14 | young survival-base channel, views >> subs; VERIFIED 2026-11-17: 2D stick-figure cartoon, NOT Minecraft - formula reference only
 UCGj5HppBXUUFZ7CoyNUNu2Q | Beanie Survives | @BeanieSurvives | 112K | 2026-02-17 | leader | added 2026-11-14 | survival story leader; VERIFIED 2026-11-17: 2D cartoon, NOT Minecraft - formula reference only
-UCXSpp9uFO-tlOj47fo5DLYw | Stickvival | @Stickvival-YT | 2.44K | 2018-07-21 | leader | added 2026-11-14 | Treehouse Zombie Apocalypse 53 min 105K = 83x subs; titles never say Minecraft; Treehouse 211K at 9 d = 109x subs (OBSERVED 2026-11-17); visual style unverified
-UC6KHf_WmgxTGKBAGckDUHHw | SirCloaked | @SirCloaked | 152K | 2025-11-23 | leader | added 2026-11-14 | survival leader; actually MC-L2-style farm horror: Something On My Farm Is Hunting Me 295K in 21 h (OBSERVED 2026-11-17)
+UCXSpp9uFO-tlOj47fo5DLYw | Stickvival | @Stickvival-YT | 2.47K | 2018-07-21 | leader | added 2026-11-14 | Treehouse Zombie Apocalypse 53 min 105K = 83x subs; titles never say Minecraft; Treehouse 211K at 9 d = 109x subs (OBSERVED 2026-11-17); visual style unverified
+UC6KHf_WmgxTGKBAGckDUHHw | SirCloaked | @SirCloaked | 153K | 2025-11-23 | leader | added 2026-11-14 | survival leader; actually MC-L2-style farm horror: Something On My Farm Is Hunting Me 295K in 21 h (OBSERVED 2026-11-17)
 UCiSVf-UpLC9rRjAT1qRTW0g | Forge Labs | @ForgeLabs | 6.29M | 2007-06-03 | leader | added 2026-11-14 | big leader of modded 100 days (Parasite)
 UCIYI7DDUMDgJLODyyjM2SWQ | LockDownLife | @LockDownLife | 2.47M | 2020-04-18 | leader | added 2026-11-24 | old-channel outlier (rule A): "Can I Die In Minecraft's Safest Room?" 30:42 3M/9 d ≈4.4× own 14-video median (~0.69M); hardcore challenge, English (OBSERVED 11-24 channel tab)

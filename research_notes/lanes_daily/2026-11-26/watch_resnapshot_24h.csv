@@ -1,0 +1,17 @@
+# OBSERVED 2026-11-26 11:52-11:54 UTC: viewCount/publishDate/lengthSeconds from public watch pages (15 fetches, built-in browser, hl=en). views_1125 = 2026-11-25 11:51 UTC watch_resnapshot_24h.csv (OBSERVED) -> gap ~24.0 h. Trend INFERRED. YouTube Data API unavailable (Blender MCP port 9876 refused); Algrow 401.
+lane,channel,video_id,title,published_utc,age_h,length_s,views_1125,views_1126,delta_24h,per_h_24h,per_h_lifetime,trend
+MC-L1,PaYuDan,TE3HKysiFWw,100 Days of Minecraft THE LOCUST Anomaly,2026-11-22 07:50,100.0,1967,1344442,1576225,231783,9658,15754,decelerating (312K -> 232K/day)
+MC-L1,Dagar,4mjsOqlzvtU,TRAPPED for 100 DAYS in a REALISTIC POOL in Minecraft! (Spanish channel; auto-EN title),2026-11-23 19:03,64.8,1572,2799706,3293450,493744,20573,50799,decelerating (1.01M -> 494K/day)
+MC-L1,Forge Labs,3sRUyWxVeWA,100 Days in the Appalachian Mountains in Hardcore Minecraft,2026-11-22 13:00,94.9,10928,1363895,1590212,226317,9430,16760,slight deceleration (266K -> 226K/day)
+MC-L2,Junkeyy,5-IApp-ePjs,Testing Trending Minecraft Scary Myths To See If They Are Real!,2026-11-19 13:56,165.9,1279,1328373,1355652,27279,1137,8169,decaying
+MC-S2,3D Animation Blender,dh7igxQOUvk,Mars vs Every Size Steve! (Tiny to Colossal),2026-11-19 11:00,168.9,52,2179967,2362213,182246,7594,13987,steady (198K -> 182K/day)
+MC-S2,VOXCRASH,XkHyNQOUxHc,Creeper -> Cat Minecraft Factory Satisfying Loop,2026-11-21 13:00,118.9,25,726787,802439,75652,3152,6750,decelerating
+X-S1,Mildly Elsewhere,9tj8WHTm3VU,He Filled His Own Boat With a Hose Before the Hurricane,2026-11-21 20:40,111.2,66,1598017,1724121,126104,5254,15502,decelerating
+X-S1,Mildly Elsewhere,tyhL43F5ODE,How a Hole in the Desert Becomes an Oasis,2026-11-21 15:25,116.5,73,1451988,1523117,71129,2964,13078,decaying
+X-S1,Mildly Elsewhere,RQ9-goFC6p8,How a Hole in Your Field Becomes a Grain Silo,2026-11-24 15:28,44.4,67,815975,1888565,1072590,44691,42519,ACCELERATING (+1.07M/day at day 2)
+X-S1,Mildly Elsewhere,VYk1EMIUntQ,This Truck Is Carrying a Shark,2026-11-22 13:00,94.9,28,811212,908287,97075,4045,9573,decelerating
+MC-S2,3D Animation Blender,b4ON-egqrL8,How Many Earths to Destroy Giant Steve?,2026-11-21 10:30,121.4,34,798420,1072483,274063,11419,8836,ACCELERATING at day 5 (24h rate > lifetime rate)
+MC-S1,Mochi & Pals,adI3NguUD2k,Who can build the best rocket?,2026-11-24 10:30,49.4,16,488086,521108,33022,1376,10552,decaying fast (day 2)
+MC-L1,Nacho,9E1S5TYE68o,Minecraft but Every MINUTE Gets MORE REALISTIC! (Spanish channel; auto-EN title),2026-11-18 22:25,181.5,1507,,3720968,,,20505,first seen
+MC-L1,TechyCraft,piuPpaE03BM,We Got REALISTIC BODIES in Minecraft!,2026-11-24 13:00,46.9,692,,833081,,,17769,first seen (copy of Dagar 'REALISTIC BODIES' 6.35M)
+MC-S1,Mochi & Pals,6FbGSvWcbcA,Who can dig to the diamond first?,2026-11-25 10:59,24.9,14,,131208,,,5269,first seen (~0.53x own 12-Short median)

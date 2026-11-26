@@ -24,40 +24,50 @@ Nhãn: OBSERVED (ngày) / INFERRED. Chỉ dựa vào metadata, chưa xem video.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** vòng 3/3 không thấy (17/11, 18/11, 24/11 đều không đo được Shorts "luật đêm") → hết hạn theo luật D.
 - **Evidence (OBSERVED 2026-11-13):** BlockKahani (20 ngày) 553K = 127× sub. Đây là kênh tiếng Hindi; công thức dùng được, thị trường thì không.
 
-### S2 — "Something + nơi quen thuộc của tôi" thành series (thấy lần đầu 2026-11-17 · lần cuối 2026-11-25 · trạng thái: hot)
+### S2 — "Something + nơi quen thuộc của tôi" thành series (thấy lần đầu 2026-11-17 · lần cuối 2026-11-26 · trạng thái: hot)
+- **Cập nhật 2026-11-26 (OBSERVED, trang công khai):** Syllo tập mới đổi tiêu đề "…Hunting Me..." → "Something in the Desert Is Following Me..." (thử A/B, hợp tác với SirCloaked) 73K → 92K/2 ngày — yếu (11 phút, dưới chuẩn L3). SirCloaked "Farm Is Hunting Me" 988K/9 ngày (gần dừng). Giữ hot nhưng tập mới đang yếu.
 - **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** SirCloaked "Something On My Farm Is Hunting Me" 966K → 979K (gần như dừng ở ngày 8). Syllo ra tập mới "Something in the Desert Is Hunting Me..." 73K/1 ngày (11 phút — ngắn hơn chuẩn L3). Khung vẫn được kênh lớn dùng tiếp.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** SirCloaked "Something On My Farm Is Hunting Me..." 502K → 966K (+92%/6 ngày, ~77K/ngày, chậm dần); 2 tập trước cùng trang trại đều 1,2M. Syllo "Something In The Desert…" 150K (2 tuần) yếu hơn.
 - **Cập nhật 2026-11-18 (OBSERVED):** "Something On My Farm Is Hunting Me..." 295K (21 giờ) → 502K (~2 ngày) = 3,4× sub; +207K trong 24 giờ thứ hai (giảm nhẹ so với ngày đầu nhưng vẫn mạnh). Hai tập trước 1,2M và 1,1M → 1,18M.
 - **Evidence (OBSERVED 2026-11-17):** SirCloaked: "Something Is Wrong With My Farm..." 1,2M → "Something On My Farm Wants Me Dead..." 1,1M (3 tuần) → "Something On My Farm Is Hunting Me..." 295K sau 21 giờ (= 2× sub trong chưa tới 1 ngày). Độ dài 16–18 phút.
 - **Bản lề (INFERRED):** một nơi an toàn cố định (trang trại) + động từ leo thang qua từng tập (wrong → wants me dead → hunting me). Người xem quay lại vì cùng bối cảnh, mức nguy hiểm tăng.
 
-### S3 — Thực thể khổng lồ bị nhầm là địa hình (thấy lần đầu 2026-11-17 · lần cuối 2026-11-25 · trạng thái: hot)
+### S3 — Thực thể khổng lồ bị nhầm là địa hình (thấy lần đầu 2026-11-17 · lần cuối 2026-11-26 · trạng thái: hot)
+- **Cập nhật 2026-11-26 (OBSERVED, trang công khai):** al1 "We Thought It Was a Mountain [FULL MOVIE]" 202K → 217K/5 ngày; "The Mountains Are Fighting" 1,01M/11 ngày. Nefloq không có tập "núi" mới. Giữ hot.
 - **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** al1 "The Mountains Are Fighting" 980K → 998K; "They're Bigger Than Mountains" 1,2M; bản ghép "We Thought It Was a Mountain [FULL MOVIE]" 184K → 202K/4 ngày (xác nhận: ghép khi arc chưa xong thì yếu). Tập mới nhất al1 quay lại mod review "THE UPDATED GOD MOD" 653K/3 ngày.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** al1 **đổi tiêu đề** tập cũ: "Those Are Not Mountains" → "The Mountains Are Fighting" (784K → 980K), "They Live In The Mountains" → "They’re Bigger Than Mountains" (1,1M → 1,2M); "We Thought It Was a Mountain" 2,6M. Nhưng bản ghép "[FULL MOVIE]" chỉ 184K/3 ngày → FULL MOVIE ghép từ series đang chạy KHÔNG thắng các tập lẻ ở kênh này (INFERRED, ngược với L2).
 - **Sửa số 2026-11-18 (OBSERVED):** al1 có **1,69M sub**, không phải 32,4K (số hôm qua sai) → "We Thought It Was a Mountain" 2,38M = 1,4× sub, không phải 72×.
 - **Vì sao vẫn nâng lên hot (OBSERVED 2026-11-18):** al1 làm thành chuỗi — "We Thought It Was a Mountain" 2,38M (3 tuần) → "They Live In The Mountains" 1,1M (11 ngày) → "Those Are Not Mountains" 784K sau 3 ngày. Wrld "I Found Something Terrifying in the Alaskan Mountains" 475K sau 4 ngày; Nefloq "It Was Bigger Than The Mountains" 262K. Ít nhất 3 kênh cùng thắng với "núi".
 - **Bản lề (INFERRED):** cú lừa về tỉ lệ ngay trong tiêu đề; lộ diện chậm. Chưa xem video (chỉ metadata).
 
-### S4 — Bản cập nhật / bestiary của mod (thấy lần đầu 2026-11-14 · lần cuối 2026-11-25 · trạng thái: declining)
+### S4 — Bản cập nhật / bestiary của mod (thấy lần đầu 2026-11-14 · lần cuối 2026-11-26 · trạng thái: declining)
+- **Cập nhật 2026-11-26 (OBSERVED, trang công khai):** Novorions vẫn ra 1 video "update showcase" mỗi 1–2 ngày (kênh 528 sub). Không bản nào bùng. Giữ declining.
 - **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** Novorions 2 video mới (17 giờ, 2 ngày) — kênh 516 sub; chưa có số view rõ trên tab (ESTIMATED nhỏ). Giữ declining.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Novorions bản update 78K → 98K (11 ngày) nhưng video update mới nhất chỉ 1,6K/1 ngày; ENFINITY "Newest Dweller Mod" 24K/10 ngày.
 - **Cập nhật 2026-11-18 (OBSERVED):** Novorions 73K → 78K (đang tắt). Vivilly "THE GOD" 1,96M → 1,99M (chậm lại). ENFINITY "I Made a Wendigo That Changes Minecraft Horror Forever..." 100K sau 10 ngày = 5,6× trung vị kênh (~18K) — lời hứa "tôi tạo ra thực thể" hợp với thực thể gốc của ta.
 - **Evidence (OBSERVED 2026-11-17):** Novorions "Parallel Stalker 5.5.7 Remake UPDATE — All New Stalkers" 73K sau 4 ngày = 182× sub, 5,6× trung vị (bùng nổ 5 ngày đầu). Vivilly "'THE GOD' Update is TERRIFYING" 1,96M (12 ngày) + "'THE GOD' Ending" 1,5M (6 ngày).
 - **Bản lề (INFERRED):** "phiên bản mới của thực thể" = lý do xem lại. Ta làm bản cập nhật cho chính thực thể gốc của ta, không review mod của người khác.
 
-### S5 — Kinh dị khủng long (thấy lần đầu 2026-11-17 · lần cuối 2026-11-25 · trạng thái: hot)
+### S5 — Kinh dị khủng long (thấy lần đầu 2026-11-17 · lần cuối 2026-11-26 · trạng thái: hot)
+- **Cập nhật 2026-11-26 (OBSERVED, trang công khai):** Nefloq "Dinosaurs Still Rule" 274K → 289K/10 ngày (+15K, chững). Maizen "Dinosaur Horror Mod" 4,55M/2 tuần. Giữ hot.
 - **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** Nefloq "I Entered a World Where Dinosaurs Still Rule..." 274K/9 ngày = 4,4× sub, ≈4,2× trung vị 8 video gần nhất (~66K, ESTIMATED) → outlier A. Maizen "Dinosaur Horror Mod" 4,49M/2 tuần (tìm kiếm). 2 kênh khác nhau thắng → nâng lên hot.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Maizen "Dinosaur Horror Mod" 3,75M → 4,39M; Hednic "Something Is Hunting the Dinosaurs… [MOVIE]" 171K.
 - **Cập nhật 2026-11-18 (OBSERVED):** Maizen 3,67M → 3,75M; Nefloq "Surviving Minecraft's DEADLIEST Jurassic Island" 50K sau 2 ngày.
 - **Evidence (OBSERVED 2026-11-17):** Maizen "Dinosaur Horror Mod" 3,67M sau 9 ngày; Nefloq "DEADLIEST Dinosaur Island" 29K sau 1 ngày (video top của kênh vẫn là dinosaur horror 1,1M).
 
 ### S6 — "Testing Scary Minecraft Myths" (thấy lần đầu 2026-11-18 · lần cuối 2026-11-25 · trạng thái: watching)
+- **Cập nhật 2026-11-26 (OBSERVED, trang công khai):** Junkeyy "Scary Myths" 1,33M → 1,36M (+27K/24 giờ, đang tắt). Không có video Myths mới ≥1M (vòng 1 không thấy mới).
 - **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** Junkeyy "Testing Trending Scary Myths" 1,29M → 1,33M trong 24 giờ (+36K, đang tắt). ProBoiz 95 9,31M (3 tuần) vẫn đứng đầu tìm kiếm; Dooy "SCARY Myths Hidden In Seeds" chỉ 11K. Video mới không còn bùng → hạ xuống watching.
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Junkeyy "Testing Trending Minecraft Scary Myths…" **1,27M/4 ngày** + "BUNKER to Survive SCARY MYTHS" 2,25M/11 ngày; MrAlpha "Caught in Screenshots" 472K → 1,22M (+159%); ProBoiz 95 9,22M. ≥3 kênh cùng thắng → nâng lên hot (khán giả nhỏ tuổi).
 - **Evidence (OBSERVED 2026-11-18):** ProBoiz 95 "Testing Trending Minecraft Scary Myths…" 8,79M (2 tuần); Junkeyy "We Created BUNKER to Survive SCARY MYTHS" 1,87M sau 5 ngày; MrAlpha "Testing Scary Minecraft Myths Caught in Screenshots" 472K sau 23 giờ; Dooy làm cả loạt "Testing SCARY Minecraft Myths Hidden In…".
 - **Bản lề (INFERRED):** "thử xem lời đồn có thật không" = cấu trúc điều tra. Dùng được cho tập phụ của thực thể gốc ("We Tested Every Rumor About [thực thể của ta]"). Rủi ro: kênh trẻ em → kiểm tra cài đặt "made for kids".
 
 ### S7 — Thú cưng / bạn đồng hành dị thường (thấy lần đầu 2026-11-18 · lần cuối 2026-11-25 · trạng thái: hot)
+- **Cập nhật 2026-11-26 (OBSERVED, trang công khai):** Pepper "I Remade The JERRY DOG Mod To Scare My Friends" 1,0M/8 ngày (IP người khác). Không có video "thú cưng dị thường" gốc mới. Giữ hot.
 - **Cập nhật 2026-11-25 (OBSERVED, trang công khai):** EYstreem "Can You Keep JERRY DOG as a Pet?" 2,30M/3 tuần; PaYuDan "100 Days … Anomaly JERRY DOG" 4,42M/3 tuần (Jerry = nhân vật người khác → chỉ học công thức "nuôi/sống chung với thứ dị thường").
 - **Cập nhật 2026-11-24 (OBSERVED, trang công khai):** Pepper "I Remade The JERRY DOG Mod To Scare My Friends" 860K/5 ngày; Cyborino "IM RAISING 2 MONSTERS" 717K/5 ngày; LookOut2DD "Jerry The Dog [FULL MOVIE]" 4,69M. Jerry là nhân vật của người khác → chỉ học công thức "nuôi/bạn đồng hành hoá dị thể".
 - **Evidence (OBSERVED 2026-11-18):** LookOut2DD "Jerry The Dog [FULL MOVIE]" 4,36M (3 tuần); PaYuDan "100 Days of Minecraft Anomaly JERRY DOG" 3,63M (2 tuần); "1,000,000 Villagers Vs JERRY" 1,53M (13 ngày). Nhân vật là của người khác → **chỉ học công thức**: con vật dễ thương hoá ra là dị thể.
+
+### S8 — Thực thể "toàn năng" viết lại thế giới ("THE GOD" mod) (thấy lần đầu 2026-11-26 · lần cuối 2026-11-26 · trạng thái: watching)
+- **Evidence (OBSERVED 2026-11-26, tìm kiếm "minecraft horror mod", tháng này):** Vivilly "'THE GOD' Update is TERRIFYING" 2,11M/3 tuần và "'THE GOD' Ending is Crazy" 1,83M/2 tuần; al1 "We Played THE UPDATED GOD MOD" 653K → 703K/4 ngày. 2 kênh, 3 video. Đây là mod của bên thứ ba → chỉ học công thức.
+- **Bản lề (INFERRED):** mối đe doạ không phải quái vật mà là "ý chí" điều khiển luật chơi (đổi trời, xoá khối, gửi tin nhắn). Ta làm thực thể gốc có luật rõ (L4), ví dụ "The World Keeps Rewriting Itself..." — kết hợp S9 leo thang của MC-L1.

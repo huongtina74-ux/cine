@@ -1,0 +1,51 @@
+# OBSERVED 2026-11-26 ~11:35-11:50 UTC: public channel tabs (hl=en, en view text rounded K/M -> ESTIMATED precision), 42 tabs + 10 re-fetched Videos tabs (parser fix). Only rows cited in the report + all subs. views_1125 from 2026-11-25 channel_tabs_snapshot.csv (OBSERVED, vi locale, rounded).
+lane,channel_handle,subs_1126,video_id,title,views_1125,views_1126,age_text,duration,note
+MC-S1,@Mochiandpalstv,7.6K,6FbGSvWcbcA,Who can dig to the diamond first?,7000,130000,1 d,0:14,
+MC-S1,@Mochiandpalstv,7.6K,sf8P_n3EUQQ,Who can build the best house on a cliff?,,4500,new,,
+MC-S1,@CubeClash_09,27.7K,ArvbQ6PU-F0,NOOB vs PRO vs HACKER: Who Survives the ZOMBIE APOCALYPSE? Part 2,,6900,new,,multi-part weak
+MC-S1,@CubeClash_09,27.7K,CoL-oF5dEbs,NOOB vs PRO vs HACKER: Who Survives the ZOMBIE APOCALYPSE? Part 1,5100,21000,,,
+MC-S1,@HamsterWorker,88.7K,4scHFqIPAps,STAR WARS BUILD BATTLE - Noob vs Pro vs Hacker vs God,131000,136000,,,no new
+MC-S1,@megacascade,6.04K,NF_vpN4_pwc,Does a Falling Snow Golem Take Its Snowball Down With It?,403000,843000,,,late bloom +440K/24h; ~18x own 12-Short median (~48K); 140x subs
+MC-S1,@megacascade,6.04K,kpXDmTCYeSU,Ever Seen Steve Ride a Strider This Big? Watch the Fungus,,1800,new,,
+MC-S2,@3DAnimationBlender-17,490K,ig_XKYZjJ8E,How Many Suns to Destroy Giant Steve?,2000,210000,,,+208K/24h; 2nd 'How Many' hit
+MC-S2,@3DAnimationBlender-17,490K,r3xxQDfU1qE,Saturn vs Every Size Steve! (Tiny to Colossal),,3700,new,,size-ladder copy weak again
+MC-S2,@3DAnimationBlender-17,490K,kH48_o72DWk,Which Armor Destroys This Building?! (teardown),,59000,new,,
+MC-S2,@VOXCRASH,31.9K,m8GfaT3lVuQ,Creeper -> Walking TNT | Minecraft Factory | Satisfying Loop,,25000,new,,
+MC-S2,@VOXCRASH,31.9K,GPYr0NsQq9Q,Steve -> Enderman | Minecraft Factory | Satisfying Loop,235000,252000,,,
+MC-S2,@Blendverse3d,31.2K,LzSYASmIkP0,Steel Ball vs 4 Materials Which Sound Wins?,733,34000,,,
+MC-S2,@craftlab3d,201K,vg67O3xa6-Y,Satisfying Minecraft Wood Factory,,86000,new,,
+MC-S2,@windiej,178K,IWwqQPOJR9g,Steve Vs Barber Realistic Hair Simulation,,33000,,,
+MC-S2,@GargamelLand,22.7K,j6niNNUZdzE,Alex's Christmas Stocking Filled With 1000000 Ornaments,,5000,new,,holiday reskins weak (4.5K-8.7K)
+MC-S2,@Enderg2,19.2K,0koxRjqRKyA,Minecraft Vs Real Stone Bricks,,63000,,,
+MC-S2,@Squishy3D,681,ExFC5Mxeq70,Minecraft vs Real Life (wait for the Golden Carrot),30000,30000,,,44x subs; flat
+X-S1,@MildlyElsewhere,105K,_7CYMXkAmUs,In This Town Everyone Has a NeeDoh,78000,426000,,,+348K/24h
+X-S1,@MildlyElsewhere,105K,nAfoYQ0IvXU,This Truck Shot Hundreds of Fish Into a Lake,,275000,new,,S7 'truck' 2nd hit
+X-S1,@MildlyElsewhere,105K,SkK1hoNocQY,Why This Island Digs Tunnels Just for Crabs,,30000,new,,
+X-S1,@MildlyElsewhere,105K,qsZH1oN_BS8,What's Really at the Bottom of a Pirate's Hole,,61000,new,,
+X-S1,@MildlyElsewhere,105K,59oIHDI0ysw,Why This Town Dug a Giant Hole Under a Mountain,,67000,new,,
+X-S1,@MildlyElsewhere,105K,k1zH_ocYluM,He Parked a Train Full of Rocks on a Bridge in a Flood,597000,732000,,,
+X-S1,@TheBuildingBox,37.8K,PJFbS1ygGOQ,How A Spoon Becomes An Escape From Alcatraz,44000,44000,,,no new Short
+X-S1,@StumbleworkStudios,21.3K,sakcugNBVwE,You Just Invented the Speaker | Ep #025,95000,95000,,,
+X-S1,@TheCrosssSection,4.93K,DXxXLuM2uZo,China's 10-Ton Electric Passenger Plane Explained,221000,221000,,,45x subs; flat
+X-S1,@Rewynd3D,13.3K,HtEALqWlcJ4,Florida Learjet Crash: The Last 90 Seconds (Part 1),,624,,,crash-recon multi-part dead
+X-S1,@tektoexplains,36K,plYsXHJV4HE,How to Build a Floating House in the Sea,,31000,,,channel cold (3.9K-31K)
+X-S1,@explodedworks,11.3K,dV5WhAYSmkQ,How Electricity Actually Works (3D Animation),,,1 d,,views not parsed
+MC-L1,@Tomatikk01,90.1K,sL2q3gNWp50,I Survived 100 Days in the Wild Savannah in Minecraft,,18000,11 h,44:34,title A/B changed vs 'Driving Across the Wild Savannah'
+MC-L1,@Tomatikk01,90.1K,MQqOUcjJMpA,I SPENT 100 DAYS IN THE DEADLIEST OCEAN FORT IN MINECRAFT,140000,145000,8 d,56:33,
+MC-L1,@KnightMC4,4.58K,OcFO1YWP2iU,I Rebuilt a Minecraft Village in 100 Days,,9300,15 h,2:56:44,
+MC-L1,@KnightMC4,4.58K,kVHfm6XF8Cw,Surviving 500 Days LOST AT SEA In Minecraft,,471000,3 w,3:37:22,103x subs (old outlier)
+MC-L1,@RealMarrow,4K,YD6g0b6WLFg,Zombie Outbreak: The Last Soldier on the Bridge Day 1 To Day 100,,520000,3 w,32:53,130x subs; newest 5 uploads 673-2.1K (not Minecraft per titles)
+MC-L1,@DayZeroMinecraft,17.3K,_PgQUqoUCWQ,Surviving Minecraft's HARDEST Zombie Apocalypse,143000,,12 d,,no new upload
+MC-L1,@ForgeLabs,6.29M,3sRUyWxVeWA,100 Days in the Appalachian Mountains in Hardcore Minecraft,,1590212,3 d,3:02:09,
+MC-L1,@SirCloaked,153K,ZX4NTEvLzdU,Something On My Farm Is Hunting Me...,979000,988000,9 d,17:15,
+MC-L1,@LockDownLife,2.47M,O_uBIWUBlN4,Can I Die In Minecraft's Safest Room?,3100000,,11 d,,no new upload
+MC-L2,@xSyllo,108K,sFOKgob8IoI,Something in the Desert Is Following Me...,73000,92000,2 d,11:19,title changed from '...Is Hunting Me...'; collab with SirCloaked
+MC-L2,@Nefloq,62.4K,M8LAyAv1sBM,I Entered a World Where Dinosaurs Still Rule...,274000,289000,10 d,38:34,
+MC-L2,@Nefloq,62.4K,08WzsJVmcjI,Surviving The Alaskan Wilderness In Minecraft Hardcore,,33000,5 d,53:27,title changed (was 'Most Unforgiving Wilderness')
+MC-L2,@al1craft.,1.7M,MqXj6Co2UD4,We Played THE UPDATED GOD MOD,653000,703000,4 d,33:49,
+MC-L2,@al1craft.,1.7M,mp3v7t9PNJ0,We Thought It Was a Mountain [FULL MOVIE],202000,217000,5 d,1:14:38,
+MC-L2,@Jemariooo,50.6K,hz_BvWM5NDU,this guy is NOT my neighbor bro,81000,124000,2 d,11:57,
+MC-L2,@Jemariooo,50.6K,Z0P6Nd5tCEw,i actually found the worst horror mod,,110000,4 d,12:50,title changed
+MC-L2,@ENF1NITY,19.9K,hH0kTcUDGXI,Something happened to Alex,12000,12000,4 d,33:06,title changed from 'Someone Else Joined My Singleplayer World...'
+MC-L2,@DooyMC,11.5K,JfItA54MFRE,I Drink Minecraft's Entire Ocean With A Straw...,,,3 d,,views not parsed
+MC-L2,@Novorions,528,S4BWsopFb_s,The NEW Stalker Virus Nopah UPDATE - Every Stalker Showcase,,,1 d,,views not parsed
