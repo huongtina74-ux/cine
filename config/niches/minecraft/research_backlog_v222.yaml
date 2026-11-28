@@ -15,6 +15,8 @@ policy:
   original_story_and_character_assets_required: true
   long_form_minimum_seconds: 480
   quality_before_speed: true
+  free_tools_only: true  # OWNER 2026-11-01: paid tools are skipped or replaced by a free alternative
+  owner_paid_exceptions: [minecraft_java]  # OWNER 2026-11-02: buy Minecraft Java & Bedrock (~$29.99) for the three Minecraft lanes
 prior_research:
   - docs/MINECRAFT_ART_RECOVERY_V1637.md
   - docs/CINEFACTORY_MINECRAFT_SUBNICHES_V207.md
@@ -66,7 +68,12 @@ competitor_cases:
       - "Can the video be legally inspected frame by frame for generic cinematography, not copied rigs?"
       - "Which movements are keyframed externally vs game capture? UNVERIFIED until footage."
 technology_study:
+  # control: CODE_HEADLESS = Cine runs it without a person; CODE_FILE = Cine writes/reads its files, a person opens and renders;
+  # CODE_API_KEY = API with an owner key/OAuth; GUI_ONLY = a person operates it; REPLACED_BY_CINE = an existing Cine tool covers it;
+  # POLICY_BLOCKED = conflicts with the original-IP rule; LEARNING_ONLY / UNVERIFIED as named.
   - id: existing_blender_4_5
+    control: CODE_HEADLESS
+    cost: FREE
     role: primary_deterministic_voxel_animation
     source: https://www.blender.org/releases/4-5/
     installed_and_version_checked: true
@@ -74,6 +81,8 @@ technology_study:
     priority: P0
     gate: "Improve original rig, face, acting, world and lighting; compare same shots after visual signoff."
   - id: blockbench_original_assets
+    control: CODE_FILE
+    cost: FREE
     role: original_rigged_model_skin_pixel_uv
     source: https://blockbench.net/wiki/guides/export-formats/
     installed_and_version_checked: false
@@ -81,13 +90,17 @@ technology_study:
     priority: P0
     gate: "Creator-authored original props and GLB/glTF export; validate bones, texture nearest and rights."
   - id: blender_studio_course
+    control: LEARNING_ONLY
+    cost: PAID
     role: published_professional_workflow_reference
     source: https://studio.blender.org/training/minecraft-animation-workshop/
     installed_and_version_checked: false
     production_quality_qualified: false
-    priority: P0
-    gate: "Course curriculum only read; membership video not watched. Learn world, skin, rig, light, render, audio."
+    priority: HOLD
+    gate: "OWNER 2026-11-01 free-only: Blender Studio training needs a paid membership, so skipped. Free replacement: the Blender manual (bundled in the Blender Lab MCP search_manual_docs tool) and the MCprep wiki."
   - id: mineways
+    control: UNVERIFIED
+    cost: FREE
     role: original_world_export_to_blender
     source: https://github.com/erich666/Mineways
     installed_and_version_checked: false
@@ -95,20 +108,116 @@ technology_study:
     priority: P1
     gate: "Must own legal game/world source and permission. Test export on Blender 4.5 with original world."
   - id: mcprep
+    control: CODE_HEADLESS
+    cost: FREE
     role: blend_world_material_and_mob_preparation
     source: https://github.com/Moo-Ack-Productions/MCprep
-    installed_and_version_checked: false
+    installed_and_version_checked: true  # OBSERVED 2026-11-01: MCprep 3.6.3 enabled in a separate Blender 4.5.15 LTS (C:\\Program Files\\Blender Foundation\\Blender 4.5, official MSI sha256 5fc1b354...98ae); 80 rigs listed, test spawn OK; textures need a resource pack
     production_quality_qualified: false
-    priority: HOLD
-    gate: "README compatibility older Blender; require Blender 4.5 isolated check, no auto-install."
+    priority: P1
+    gate: "SOURCE_VERIFIED 2026-11-01: MCprep 3.6.3 states one install for Blender 2.83-5.2. Still needs an isolated Blender 4.5 check on the owner PC before the production worker loads it; no auto-install."
   - id: mineimator
-    role: optional_block_specific_animation_comparison
+    control: CODE_FILE
+    cost: FREE
+    role: owner_priority_block_animation_backend_via_project_file
     source: https://www.mineimator.com/download
+    installed_and_version_checked: true  # OBSERVED 2026-11-01: 2.0.2 Full at C:\\Users\\ADMIN\\Mine-imator (Trial would watermark renders)
+    production_quality_qualified: false
+    priority: P0
+    gate: "OWNER 2026-11-01: most important tool. SOURCE_VERIFIED: .miproject is JSON (github.com/stuffbydavid/Mine-imator project_save_*.gml). cinefactory/block_animation/mineimator.py writes a compiled episode into a copy of an owner-made template; still no headless render API, so rendering stays in the Mine-imator UI. Next gate: owner template passes block-mineimator-inspect, then one calibration export opened on the owner PC (axes, camera, audio)."
+  - id: replay_mod
+    control: GUI_ONLY
+    cost: FREE_NEEDS_OWNED_GAME
+    role: in_game_capture_and_free_camera
+    source: https://www.replaymod.com/
     installed_and_version_checked: false
     production_quality_qualified: false
     priority: P1
-    gate: "No verified headless API/MCP. Compare manually on one legally original shot, no automatic integration."
+    gate: "OWNER 2026-11-02 lifted HOLD (Minecraft Java approved). Backup capture; Flashback is the primary camera (free, ARR, Fabric 1.21-26.2, 9:16 export). Not installed yet."
+  - id: bbs_mod
+    control: GUI_ONLY
+    cost: FREE_NEEDS_OWNED_GAME
+    role: in_game_actor_playback_and_camera_paths
+    source: https://www.curseforge.com/minecraft/mc-mods/bbs-mod
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P0
+    gate: "OWNER 2026-11-02 lifted HOLD (Minecraft Java approved). Role: acting/entity animation for SAVEWALKER (config/niches/minecraft/savewalker). Pin Fabric 1.21.1; licence differs Modrinth (ARR) vs GitHub (MIT) - use, never redistribute. Not installed yet."
+  - id: mineflayer
+    control: CODE_HEADLESS
+    cost: FREE
+    role: scripted_bot_actors_on_local_server
+    source: https://github.com/PrismarineJS/mineflayer
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P2
+    gate: "Library is free, but a visible in-game capture needs the paid Minecraft Java client (OWNER free-only rule), so R3 is parked. Keep for later; do not set up a server now."
+  - id: mixamo
+    control: GUI_ONLY
+    cost: FREE_ACCOUNT
+    role: motion_library_for_blender_rigs
+    source: https://www.mixamo.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P2
+    gate: "Free with an owner-created Adobe ID; characters and animations royalty-free in films/videos (Adobe Mixamo FAQ, OBSERVED). Auto-rigger wants one clean humanoid mesh, so animate on Mixamo's stock character and retarget onto MCprep rigs in Blender (R1). No FBX animation import found for Mine-imator (not verified). Owner logs in and downloads by hand; no scripted account use."
+  - id: skin_sources
+    control: POLICY_BLOCKED
+    cost: FREE
+    role: skin_reference_only
+    source: https://namemc.com/ ; https://www.minecraftskins.com/ ; https://www.planetminecraft.com/skins ; https://www.minecraftskins.net/ ; https://skinmc.net/ ; https://minecraft.novaskin.me/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "Checked 2026-11-01. Community/player skins carry no licence on the listing pages (Planet Minecraft OBSERVED: none) and many copy third-party IP, so they are trend reference only; a skin is used only with the creator's written permission recorded. NameMC = manual trend research only, no scraping. NovaSkin and SkinMC editors (free, browser) are fine for drawing CineFactory's own skins. NovaSkin wallpapers are CC BY-NC-SA 3.0 (OBSERVED on the page) = non-commercial, so never in monetised thumbnails; render our own thumbnail scenes in Blender/Mine-imator instead."
+  - id: map_sources
+    control: GUI_ONLY
+    cost: FREE
+    role: world_and_set_sources
+    source: https://www.planetminecraft.com/projects ; https://www.minecraft-maps.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "Each map's licence/credit terms recorded before use; prefer CineFactory-built sets. Mine-imator imports schematics/worlds."
+  - id: music_sfx_sources
+    control: GUI_ONLY
+    cost: FREE
+    role: licensed_music_and_effects
+    source: https://incompetech.com/ ; https://kenney.nl/assets/category:Audio ; https://pixabay.com/sound-effects/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "OWNER 2026-11-01: skip Freesound. Music = Incompetech, CC BY 4.0, credit 'Title Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0' in the description (some tracks draw false Content ID claims; keep the ISRC). SFX = Kenney audio packs (CC0) + Pixabay sound effects (no attribution; never redistribute standalone; no bulk copying) + Cine-synthesised SFX. Record each file's source and licence."
+  - id: voice_tools
+    control: REPLACED_BY_CINE
+    cost: FREE
+    role: voice_and_character_pitch
+    source: https://ttsmaker.com/ ; https://www.audacityteam.org/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: P1
+    gate: "Cine local TTS (Piper) is free and already used. TTSMaker free tier (20,000 characters/week, commercial use per its FAQ) only as a fallback; Audacity pitch shift equals the existing FFmpeg path."
+  - id: capcut_pc
+    control: REPLACED_BY_CINE
+    cost: FREE_TIER
+    role: manual_edit_alternative
+    source: https://www.capcut.com/
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "Free tier exists but key features are paid (OWNER free-only) and there is no API; tools/cf_auto_edit.py already covers VO, ducked music, SFX, captions and -14 LUFS."
+  - id: blender_mcp_community
+    control: CODE_HEADLESS
+    cost: FREE
+    role: interactive_claude_to_blender_on_owner_pc
+    source: https://github.com/ahujasid/blender-mcp
+    installed_and_version_checked: false
+    production_quality_qualified: false
+    priority: HOLD
+    gate: "Superseded by the official blender_lab_mcp: the owner PC Claude connector named Blender exposes the Blender Lab tool set (get_blendfile_summary_*, search_manual_docs), not this community server."
   - id: comfyui_local
+    control: CODE_HEADLESS
+    cost: FREE
     role: concept_and_optional_hero_visuals_only
     source: https://github.com/Comfy-Org/ComfyUI
     installed_and_version_checked: true
@@ -116,13 +225,17 @@ technology_study:
     priority: P2
     gate: "Core app confirmed local API only; persistent 3D character continuity unproven, no paid nodes."
   - id: blender_lab_mcp
+    control: CODE_HEADLESS
+    cost: FREE
     role: isolated_claude_3d_scene_commands
     source: https://www.blender.org/lab/mcp-server/
-    installed_and_version_checked: false
+    installed_and_version_checked: true
     production_quality_qualified: false
-    priority: HOLD
-    gate: "Requires Blender 5.1+, unsandboxed bpy; don't replace existing production 4.5 worker."
+    priority: P2
+    gate: "OBSERVED 2026-11-02: Blender 5.2.3 LTS + add-on mcp 1.0.3 (bl_ext.user_default.mcp) + MCprep 3.6.3 installed on the owner PC; Claude connector execute_blender_code answered (5.2.3 LTS). Interactive previs only, unguarded bpy, work on copies; .blend saved in 5.2 may not open cleanly in 4.5. Known issue: *_for_cli tools time out on Windows (blender_mcp issue #42)."
   - id: ffmpeg_existing
+    control: CODE_HEADLESS
+    cost: FREE
     role: deterministic_local_post_production
     source: https://ffmpeg.org/
     installed_and_version_checked: true

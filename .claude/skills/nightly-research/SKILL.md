@@ -16,4 +16,6 @@ Budget: about 45 minutes and only read-only tools. Never spend credits (the guar
 6. **Log.** `python tools/cf_decision.py add --kind topic --label INFERRED --by claude --decision "Proposals ready: <one line>" --why "<top evidence>" --evidence reports/research/<date>_<CHANNEL>.md`
    The showrunner and the owner decide; this skill never starts production by itself.
 
+Minecraft niche: run the `minecraft-trend-watch` skill as well (skin boards observed by hand + `cf_research_stats.py --kind skins`) and cross it with the video outliers.
+
 Rules: public metadata and comments only; titles/thumbnails are not "watched videos"; never copy competitor characters, names, scripts, music or footage; one report per run, no new code modules.

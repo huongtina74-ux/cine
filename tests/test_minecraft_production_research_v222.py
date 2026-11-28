@@ -35,12 +35,17 @@ def test_no_competitor_workflow_can_be_attributed_without_watching():
 
 def test_technical_workflow_source_provenance_and_missing_qualifications():
     d=module.minecraft_research_conference()
-    assert len(d["reviewed_technology_candidates"])==9
+    assert len(d["reviewed_technology_candidates"])==19
     tech={r["id"]:r for r in d["reviewed_technology_candidates"]}
+    assert tech["mineimator"]["priority"]=="P0"
+    assert tech["skin_sources"]["priority"]=="HOLD" and tech["capcut_pc"]["priority"]=="HOLD"
+    assert all(x["control"]!="UNASSESSED" for x in tech.values())
+    assert tech["mineimator"]["control"]=="CODE_FILE" and tech["replay_mod"]["control"]=="GUI_ONLY"
     assert tech["existing_blender_4_5"]["installed_checked"]
     assert tech["blockbench_original_assets"]["priority"]=="P0"
-    assert tech["mcprep"]["priority"]=="HOLD"
-    assert tech["blender_lab_mcp"]["priority"]=="HOLD"
+    assert tech["mcprep"]["priority"]=="P1"
+    assert tech["blender_lab_mcp"]["priority"]=="P2"
+    assert tech["blender_mcp_community"]["priority"]=="HOLD"
     assert all(not x["production_qualified"] for x in tech.values())
 
 
@@ -94,3 +99,17 @@ def test_existing_niche_strategy_displays_minecraft_actual_art_receipts():
     assert school["minecraft_original_animation_research"]["pilot_seconds"]==45
     other=prepare_niche_technology_strategy("minecraft_recorded_survival")
     assert other["minecraft_original_animation_research"] is None
+
+
+def test_owner_free_only_rule_parks_every_paid_tool():
+    d=module.minecraft_research_conference()
+    assert d["free_tools_only"] is True
+    tech={r["id"]:r for r in d["reviewed_technology_candidates"]}
+    assert all(x["cost"]!="UNASSESSED" for x in tech.values())
+    paid={k for k,x in tech.items() if x["cost"] in ("PAID","PAID_PREREQUISITE","FREE_TIER")}
+    assert {"blender_studio_course","capcut_pc"}<=paid
+    assert all(tech[k]["priority"]=="HOLD" for k in paid)
+    # OWNER 2026-11-02: Minecraft Java bought for the channel -> mods that only need the game are unblocked
+    assert tech["bbs_mod"]["cost"]=="FREE_NEEDS_OWNED_GAME" and tech["bbs_mod"]["priority"]=="P0"
+    assert tech["replay_mod"]["priority"]!="HOLD"
+    assert tech["mineimator"]["cost"]=="FREE" and tech["mcprep"]["cost"]=="FREE"
